@@ -1,0 +1,75 @@
+### YamlMime:ZonePivotGroups
+groups:
+- id: app-info-data-mcas
+  title: 应用信息类别
+  prompt: 选择要为此应用查看的信息类别：
+  pivots:
+  - id: general
+    title: 常规
+  - id: data
+    title: 数据处理
+  - id: mcas
+    title: 安全性和合规性
+- id: app-info-mcas
+  title: 应用信息类别
+  prompt: 选择要为此应用查看的信息类别：
+  pivots:
+  - id: general
+    title: 常规
+  - id: mcas
+    title: 安全性和合规性
+- id: app-info-identity
+  title: 应用信息类别
+  prompt: 选择要为此应用查看的信息类别：
+  pivots:
+  - id: general
+    title: 常规
+  - id: identity
+    title: 标识
+- id: app-info-data
+  title: 应用信息类别
+  prompt: 选择要为此应用查看的信息类别：
+  pivots:
+  - id: general
+    title: 常规
+  - id: data
+    title: 数据处理
+- id: app-info-data-identity
+  title: 应用信息类别
+  prompt: 选择要为此应用查看的信息类别：
+  pivots:
+  - id: general
+    title: 常规
+  - id: data
+    title: 数据处理
+  - id: identity
+    title: 标识
+- id: app-info-mcas-identity
+  title: 应用信息类别
+  prompt: 选择要为此应用查看的信息类别：
+  pivots:
+  - id: general
+    title: 常规
+  - id: mcas
+    title: 安全性和合规性
+  - id: identity
+    title: 标识
+- id: app-info-data-mcas-identity
+  title: 应用信息类别
+  prompt: 选择要为此应用查看的信息类别：
+  pivots:
+  - id: general
+    title: 常规
+  - id: data
+    title: 数据处理
+  - id: mcas
+    title: 安全性和合规性
+  - id: identity
+    title: 标识
+metadata:
+  ms.openlocfilehash: 63cbd1492249802a82a13a4a68fd056a5ba26754
+  ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/28/2021
+  ms.locfileid: "52071013"
