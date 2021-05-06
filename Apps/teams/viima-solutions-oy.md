@@ -5,41 +5,42 @@ author: elenamalova
 ms.date: 11/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Viima 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0dd5335241784734bcc4500d99b71a32877692d0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 6eb343050b2555377859251c8777ff974515e6ae
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093215"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252232"
 ---
-# <a name="viima"></a><span data-ttu-id="72b61-103">Viima</span><span class="sxs-lookup"><span data-stu-id="72b61-103">Viima</span></span>
+# <a name="viima"></a><span data-ttu-id="8a9b2-103">Viima</span><span class="sxs-lookup"><span data-stu-id="8a9b2-103">Viima</span></span>
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p><span data-ttu-id="72b61-104">开发人员上次更新时间：2020 年 11 月 17 日</span><span class="sxs-lookup"><span data-stu-id="72b61-104">Last updated by the developer on: November 17, 2020</span></span></p>
+<p><span data-ttu-id="8a9b2-104">开发人员上次更新时间：2020 年 11 月 17 日</span><span class="sxs-lookup"><span data-stu-id="8a9b2-104">Last updated by the developer on: November 17, 2020</span></span></p>
 
-* <span data-ttu-id="72b61-105"><a href="https://teams.microsoft.com/l/app/2bffa4e8-aac7-4d2e-976d-5a7db5c4b768" target="_blank">在应用商店Teams视图</a></span><span class="sxs-lookup"><span data-stu-id="72b61-105"><a href="https://teams.microsoft.com/l/app/2bffa4e8-aac7-4d2e-976d-5a7db5c4b768" target="_blank">View in Teams store</a></span></span>
-* <span data-ttu-id="72b61-106"><a href="https://appsource.microsoft.com/product/office/WA200001589" target="_blank">在 AppSource 中查看</a></span><span class="sxs-lookup"><span data-stu-id="72b61-106"><a href="https://appsource.microsoft.com/product/office/WA200001589" target="_blank">View in AppSource</a></span></span>
+* <span data-ttu-id="8a9b2-105"><a href="https://teams.microsoft.com/l/app/2bffa4e8-aac7-4d2e-976d-5a7db5c4b768" target="_blank">在应用商店Teams视图</a></span><span class="sxs-lookup"><span data-stu-id="8a9b2-105"><a href="https://teams.microsoft.com/l/app/2bffa4e8-aac7-4d2e-976d-5a7db5c4b768" target="_blank">View in Teams store</a></span></span>
+* <span data-ttu-id="8a9b2-106"><a href="https://appsource.microsoft.com/product/office/WA200001589" target="_blank">在 AppSource 中查看</a></span><span class="sxs-lookup"><span data-stu-id="8a9b2-106"><a href="https://appsource.microsoft.com/product/office/WA200001589" target="_blank">View in AppSource</a></span></span>
 
 ::: zone pivot="general"
 
-### <a name="general-information"></a><span data-ttu-id="72b61-107">一般信息</span><span class="sxs-lookup"><span data-stu-id="72b61-107">General information</span></span>
+### <a name="general-information"></a><span data-ttu-id="8a9b2-107">一般信息</span><span class="sxs-lookup"><span data-stu-id="8a9b2-107">General information</span></span>
 
-<span data-ttu-id="72b61-108">Viima Solutions Oy 提供给 Microsoft 的信息：</span><span class="sxs-lookup"><span data-stu-id="72b61-108">Information provided by Viima Solutions Oy to Microsoft:</span></span>
+<span data-ttu-id="8a9b2-108">Viima Solutions Oy 提供给 Microsoft 的信息：</span><span class="sxs-lookup"><span data-stu-id="8a9b2-108">Information provided by Viima Solutions Oy to Microsoft:</span></span>
 
-| <span data-ttu-id="72b61-109">**Information**</span><span class="sxs-lookup"><span data-stu-id="72b61-109">**Information**</span></span> | <span data-ttu-id="72b61-110">**响应**</span><span class="sxs-lookup"><span data-stu-id="72b61-110">**Response**</span></span> |
+| <span data-ttu-id="8a9b2-109">**Information**</span><span class="sxs-lookup"><span data-stu-id="8a9b2-109">**Information**</span></span> | <span data-ttu-id="8a9b2-110">**响应**</span><span class="sxs-lookup"><span data-stu-id="8a9b2-110">**Response**</span></span> |
 |:----------------|:-------------|
-| <span data-ttu-id="72b61-111">应用名称</span><span class="sxs-lookup"><span data-stu-id="72b61-111">App name</span></span> | <span data-ttu-id="72b61-112">Viima</span><span class="sxs-lookup"><span data-stu-id="72b61-112">Viima</span></span> |
-| <span data-ttu-id="72b61-113">ID</span><span class="sxs-lookup"><span data-stu-id="72b61-113">ID</span></span> | <span data-ttu-id="72b61-114">WA200001589</span><span class="sxs-lookup"><span data-stu-id="72b61-114">WA200001589</span></span> |
-| <span data-ttu-id="72b61-115">功能</span><span class="sxs-lookup"><span data-stu-id="72b61-115">Capabilities</span></span> | <span data-ttu-id="72b61-116">选项卡</span><span class="sxs-lookup"><span data-stu-id="72b61-116">Tab</span></span> |
-| <span data-ttu-id="72b61-117">Office 365支持的客户端</span><span class="sxs-lookup"><span data-stu-id="72b61-117">Office 365 clients supported</span></span> | <span data-ttu-id="72b61-118">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="72b61-118">Microsoft Teams</span></span> |
-| <span data-ttu-id="72b61-119">合作伙伴公司名称</span><span class="sxs-lookup"><span data-stu-id="72b61-119">Partner company name</span></span> | <span data-ttu-id="72b61-120">Viima Solutions Oy</span><span class="sxs-lookup"><span data-stu-id="72b61-120">Viima Solutions Oy</span></span> |
-| <span data-ttu-id="72b61-121">合作伙伴网站的 URL</span><span class="sxs-lookup"><span data-stu-id="72b61-121">URL of partner website</span></span> | [https://www.viima.com/](https://www.viima.com/) |
-| <span data-ttu-id="72b61-122">"Teams应用程序信息"页的 URL</span><span class="sxs-lookup"><span data-stu-id="72b61-122">URL of Teams application info page</span></span> | [https://www.viima.com/product](https://www.viima.com/product) |
-| <span data-ttu-id="72b61-123">隐私策略的 URL</span><span class="sxs-lookup"><span data-stu-id="72b61-123">URL of Privacy Policy</span></span> | [https://www.viima.com/privacy-policy](https://www.viima.com/privacy-policy) |
-| <span data-ttu-id="72b61-124">使用条款 URL</span><span class="sxs-lookup"><span data-stu-id="72b61-124">URL of Terms of Use</span></span> | [https://www.viima.com/terms](https://www.viima.com/terms) |
+| <span data-ttu-id="8a9b2-111">应用名称</span><span class="sxs-lookup"><span data-stu-id="8a9b2-111">App name</span></span> | <span data-ttu-id="8a9b2-112">Viima</span><span class="sxs-lookup"><span data-stu-id="8a9b2-112">Viima</span></span> |
+| <span data-ttu-id="8a9b2-113">ID</span><span class="sxs-lookup"><span data-stu-id="8a9b2-113">ID</span></span> | <span data-ttu-id="8a9b2-114">WA200001589</span><span class="sxs-lookup"><span data-stu-id="8a9b2-114">WA200001589</span></span> |
+| <span data-ttu-id="8a9b2-115">功能</span><span class="sxs-lookup"><span data-stu-id="8a9b2-115">Capabilities</span></span> | <span data-ttu-id="8a9b2-116">选项卡</span><span class="sxs-lookup"><span data-stu-id="8a9b2-116">Tab</span></span> |
+| <span data-ttu-id="8a9b2-117">Office 365支持的客户端</span><span class="sxs-lookup"><span data-stu-id="8a9b2-117">Office 365 clients supported</span></span> | <span data-ttu-id="8a9b2-118">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="8a9b2-118">Microsoft Teams</span></span> |
+| <span data-ttu-id="8a9b2-119">合作伙伴公司名称</span><span class="sxs-lookup"><span data-stu-id="8a9b2-119">Partner company name</span></span> | <span data-ttu-id="8a9b2-120">Viima Solutions Oy</span><span class="sxs-lookup"><span data-stu-id="8a9b2-120">Viima Solutions Oy</span></span> |
+| <span data-ttu-id="8a9b2-121">合作伙伴网站的 URL</span><span class="sxs-lookup"><span data-stu-id="8a9b2-121">URL of partner website</span></span> | [https://www.viima.com/](https://www.viima.com/) |
+| <span data-ttu-id="8a9b2-122">"Teams应用程序信息"页的 URL</span><span class="sxs-lookup"><span data-stu-id="8a9b2-122">URL of Teams application info page</span></span> | [https://www.viima.com/product](https://www.viima.com/product) |
+| <span data-ttu-id="8a9b2-123">隐私策略的 URL</span><span class="sxs-lookup"><span data-stu-id="8a9b2-123">URL of Privacy Policy</span></span> | [https://www.viima.com/privacy-policy](https://www.viima.com/privacy-policy) |
+| <span data-ttu-id="8a9b2-124">使用条款 URL</span><span class="sxs-lookup"><span data-stu-id="8a9b2-124">URL of Terms of Use</span></span> | [https://www.viima.com/terms](https://www.viima.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,50 +48,50 @@ ms.locfileid: "52093215"
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a><span data-ttu-id="72b61-125">应用如何处理数据</span><span class="sxs-lookup"><span data-stu-id="72b61-125">How the app handles data</span></span>
+### <a name="how-the-app-handles-data"></a><span data-ttu-id="8a9b2-125">应用如何处理数据</span><span class="sxs-lookup"><span data-stu-id="8a9b2-125">How the app handles data</span></span>
 
-<span data-ttu-id="72b61-126">Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。</span><span class="sxs-lookup"><span data-stu-id="72b61-126">This information has been provided by Viima Solutions Oy about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
+<span data-ttu-id="8a9b2-126">Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-126">This information has been provided by Viima Solutions Oy about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
 
-#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="72b61-127">使用 Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="72b61-127">Data access using Microsoft Graph</span></span>
+#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="8a9b2-127">使用 Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="8a9b2-127">Data access using Microsoft Graph</span></span>
 
-<span data-ttu-id="72b61-128">列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。</span><span class="sxs-lookup"><span data-stu-id="72b61-128">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
+<span data-ttu-id="8a9b2-128">列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-128">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
 
->| <span data-ttu-id="72b61-129">**Permission**</span><span class="sxs-lookup"><span data-stu-id="72b61-129">**Permission**</span></span>  | <span data-ttu-id="72b61-130">**委派/应用程序 (的权限类型)**</span><span class="sxs-lookup"><span data-stu-id="72b61-130">**Type of permission (Delegated/Application)**</span></span> | <span data-ttu-id="72b61-131">**是否收集数据？收集它的理由？**</span><span class="sxs-lookup"><span data-stu-id="72b61-131">**Is data collected? Justification for collecting it?**</span></span> | <span data-ttu-id="72b61-132">**是否存储数据？存储它的理由？**</span><span class="sxs-lookup"><span data-stu-id="72b61-132">**Is data stored? Justification for storing it?**</span></span> | <span data-ttu-id="72b61-133">**Azure AD 应用 ID**</span><span class="sxs-lookup"><span data-stu-id="72b61-133">**Azure AD App ID**</span></span> |
+>| <span data-ttu-id="8a9b2-129">**Permission**</span><span class="sxs-lookup"><span data-stu-id="8a9b2-129">**Permission**</span></span>  | <span data-ttu-id="8a9b2-130">**委派/应用程序 (的权限类型)**</span><span class="sxs-lookup"><span data-stu-id="8a9b2-130">**Type of permission (Delegated/Application)**</span></span> | <span data-ttu-id="8a9b2-131">**是否收集数据？收集它的理由？**</span><span class="sxs-lookup"><span data-stu-id="8a9b2-131">**Is data collected? Justification for collecting it?**</span></span> | <span data-ttu-id="8a9b2-132">**是否存储数据？存储它的理由？**</span><span class="sxs-lookup"><span data-stu-id="8a9b2-132">**Is data stored? Justification for storing it?**</span></span> | <span data-ttu-id="8a9b2-133">**Azure AD 应用 ID**</span><span class="sxs-lookup"><span data-stu-id="8a9b2-133">**Azure AD App ID**</span></span> |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| <span data-ttu-id="72b61-134">User.Read</span><span class="sxs-lookup"><span data-stu-id="72b61-134">User.Read</span></span> | <span data-ttu-id="72b61-135">delegated</span><span class="sxs-lookup"><span data-stu-id="72b61-135">delegated</span></span> |  <span data-ttu-id="72b61-136">名字和姓氏、UPN/电子邮件地址、位置、区域设置、部门、办公室位置。</span><span class="sxs-lookup"><span data-stu-id="72b61-136">First and last names, UPN/email address, location, locale, department, office location.</span></span> <span data-ttu-id="72b61-137">这些信息用于登录用户，并在其应用中提供基本个人资料信息。</span><span class="sxs-lookup"><span data-stu-id="72b61-137">These are used to log the user in and provide basic profile information for them within the app.</span></span> | <span data-ttu-id="72b61-138">允许用户登录，并允许应用访问其 UPN 和基本个人资料信息，以启用无提示登录</span><span class="sxs-lookup"><span data-stu-id="72b61-138">allows user to sign in and gives app access to their UPN and basic profile information to enable silent login</span></span> | <span data-ttu-id="72b61-139">b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b</span><span class="sxs-lookup"><span data-stu-id="72b61-139">b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b</span></span> |
+>| <span data-ttu-id="8a9b2-134">User.Read</span><span class="sxs-lookup"><span data-stu-id="8a9b2-134">User.Read</span></span> | <span data-ttu-id="8a9b2-135">delegated</span><span class="sxs-lookup"><span data-stu-id="8a9b2-135">delegated</span></span> |  <span data-ttu-id="8a9b2-136">名字和姓氏、UPN/电子邮件地址、位置、区域设置、部门、办公室位置。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-136">First and last names, UPN/email address, location, locale, department, office location.</span></span> <span data-ttu-id="8a9b2-137">这些信息用于登录用户，并在其应用中提供基本个人资料信息。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-137">These are used to log the user in and provide basic profile information for them within the app.</span></span> | <span data-ttu-id="8a9b2-138">允许用户登录，并允许应用访问其 UPN 和基本个人资料信息，以启用无提示登录</span><span class="sxs-lookup"><span data-stu-id="8a9b2-138">allows user to sign in and gives app access to their UPN and basic profile information to enable silent login</span></span> | <span data-ttu-id="8a9b2-139">b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b</span><span class="sxs-lookup"><span data-stu-id="8a9b2-139">b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b</span></span> |
 
 
-#### <a name="non-microsoft-services-used"></a><span data-ttu-id="72b61-140">非Microsoft 服务使用</span><span class="sxs-lookup"><span data-stu-id="72b61-140">Non-Microsoft services used</span></span>
+#### <a name="non-microsoft-services-used"></a><span data-ttu-id="8a9b2-140">非Microsoft 服务使用</span><span class="sxs-lookup"><span data-stu-id="8a9b2-140">Non-Microsoft services used</span></span>
 
-<span data-ttu-id="72b61-141">如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。</span><span class="sxs-lookup"><span data-stu-id="72b61-141">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
+<span data-ttu-id="8a9b2-141">如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-141">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
 
-><span data-ttu-id="72b61-142">不Microsoft 服务非活动。</span><span class="sxs-lookup"><span data-stu-id="72b61-142">Non-Microsoft services are not used.</span></span>
+><span data-ttu-id="8a9b2-142">不Microsoft 服务非活动。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-142">Non-Microsoft services are not used.</span></span>
 
-#### <a name="data-access-via-bots"></a><span data-ttu-id="72b61-143">通过机器人访问数据</span><span class="sxs-lookup"><span data-stu-id="72b61-143">Data access via bots</span></span>
+#### <a name="data-access-via-bots"></a><span data-ttu-id="8a9b2-143">通过机器人访问数据</span><span class="sxs-lookup"><span data-stu-id="8a9b2-143">Data access via bots</span></span>
 
-<span data-ttu-id="72b61-144">如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。</span><span class="sxs-lookup"><span data-stu-id="72b61-144">If this app contains a bot or a messaging extension, it can access end-user identifiable information (EUII): the roster (first name, last name, display name, email address) of any team member in a team or chat it's added to.</span></span> <span data-ttu-id="72b61-145">此应用是否使用了此功能？</span><span class="sxs-lookup"><span data-stu-id="72b61-145">Does this app make use of this capability?</span></span>
+<span data-ttu-id="8a9b2-144">如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-144">If this app contains a bot or a messaging extension, it can access end-user identifiable information (EUII): the roster (first name, last name, display name, email address) of any team member in a team or chat it's added to.</span></span> <span data-ttu-id="8a9b2-145">此应用是否使用了此功能？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-145">Does this app make use of this capability?</span></span>
 
-><span data-ttu-id="72b61-146">无法访问 EUII。</span><span class="sxs-lookup"><span data-stu-id="72b61-146">No EUII is accessed.</span></span>
+><span data-ttu-id="8a9b2-146">无法访问 EUII。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-146">No EUII is accessed.</span></span>
 
 
 
-#### <a name="telemetry-data"></a><span data-ttu-id="72b61-147">遥测数据</span><span class="sxs-lookup"><span data-stu-id="72b61-147">Telemetry data</span></span>
+#### <a name="telemetry-data"></a><span data-ttu-id="8a9b2-147">遥测数据</span><span class="sxs-lookup"><span data-stu-id="8a9b2-147">Telemetry data</span></span>
 
-<span data-ttu-id="72b61-148">OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？</span><span class="sxs-lookup"><span data-stu-id="72b61-148">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="72b61-149">如果是，请描述存储哪些数据以及保留和删除策略是什么？</span><span class="sxs-lookup"><span data-stu-id="72b61-149">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
+<span data-ttu-id="8a9b2-148">OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-148">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="8a9b2-149">如果是，请描述存储哪些数据以及保留和删除策略是什么？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-149">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
 
-><span data-ttu-id="72b61-150">组织名称、Viima 组织 ID、最终用户电子邮件和 ID 将显示在日志中。</span><span class="sxs-lookup"><span data-stu-id="72b61-150">Organization name, Viima organization ID, end-user emails and IDs appear in logs.</span></span> <span data-ttu-id="72b61-151">ISO27001 兼容的第三方审核控制措施，用于限制对这些数据的访问和存档/删除。</span><span class="sxs-lookup"><span data-stu-id="72b61-151">ISO27001 compatible 3rd party audited controls in place for restricted access to, and archival/deletion of said data.</span></span>
+><span data-ttu-id="8a9b2-150">组织名称、Viima 组织 ID、最终用户电子邮件和 ID 将显示在日志中。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-150">Organization name, Viima organization ID, end-user emails and IDs appear in logs.</span></span> <span data-ttu-id="8a9b2-151">ISO27001 兼容的第三方审核控制措施，用于限制对这些数据的访问和存档/删除。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-151">ISO27001 compatible 3rd party audited controls in place for restricted access to, and archival/deletion of said data.</span></span>
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="72b61-152">合作伙伴存储的数据的组织控制</span><span class="sxs-lookup"><span data-stu-id="72b61-152">Organizational controls for data stored by partner</span></span>
+#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="8a9b2-152">合作伙伴存储的数据的组织控制</span><span class="sxs-lookup"><span data-stu-id="8a9b2-152">Organizational controls for data stored by partner</span></span>
 
-<span data-ttu-id="72b61-153">描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。</span><span class="sxs-lookup"><span data-stu-id="72b61-153">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
+<span data-ttu-id="8a9b2-153">描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-153">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
 
-><span data-ttu-id="72b61-154">数据存储在爱尔兰 (AWS) 。</span><span class="sxs-lookup"><span data-stu-id="72b61-154">Data is stored in AWS (Ireland).</span></span> <span data-ttu-id="72b61-155">对数据的访问权限仅限于已收到适当培训且受多种安全措施保护的授权维护和技术支持人员，例如 2FA、受保护的 IP 范围 (仅从公司网络) 访问等。衡量指标与 ISO27001 兼容，并经第三方审核。</span><span class="sxs-lookup"><span data-stu-id="72b61-155">Access to data is limited to only authorized maintenance and technical support staff that have received appropriate training and is guarded with a number of security measures, such as 2FA, protected IP range (access only from corporate network) etc. Measures are ISO27001 compatible and audited by a 3rd party.</span></span>
+><span data-ttu-id="8a9b2-154">数据存储在爱尔兰 (AWS) 。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-154">Data is stored in AWS (Ireland).</span></span> <span data-ttu-id="8a9b2-155">对数据的访问权限仅限于已收到适当培训且受多种安全措施保护的授权维护和技术支持人员，例如 2FA、受保护的 IP 范围 (仅从公司网络) 访问等。衡量指标与 ISO27001 兼容，并经第三方审核。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-155">Access to data is limited to only authorized maintenance and technical support staff that have received appropriate training and is guarded with a number of security measures, such as 2FA, protected IP range (access only from corporate network) etc. Measures are ISO27001 compatible and audited by a 3rd party.</span></span>
 
-#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="72b61-156">组织信息的人工审阅</span><span class="sxs-lookup"><span data-stu-id="72b61-156">Human review of organizational information</span></span>
+#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="8a9b2-156">组织信息的人工审阅</span><span class="sxs-lookup"><span data-stu-id="8a9b2-156">Human review of organizational information</span></span>
 
-<span data-ttu-id="72b61-157">是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？</span><span class="sxs-lookup"><span data-stu-id="72b61-157">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
+<span data-ttu-id="8a9b2-157">是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-157">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
 
-><span data-ttu-id="72b61-158">是</span><span class="sxs-lookup"><span data-stu-id="72b61-158">Yes</span></span>
+><span data-ttu-id="8a9b2-158">是</span><span class="sxs-lookup"><span data-stu-id="8a9b2-158">Yes</span></span>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -98,11 +99,11 @@ ms.locfileid: "52093215"
 
 ::: zone pivot="mcas"
 
-<span data-ttu-id="72b61-159">下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。</span><span class="sxs-lookup"><span data-stu-id="72b61-159">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
+<span data-ttu-id="8a9b2-159">下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-159">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
 
-<iframe height='1020' title='<span data-ttu-id="72b61-160">Microsoft Cloud App Security信息</span><span class="sxs-lookup"><span data-stu-id="72b61-160">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/33480' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="72b61-161">
+<iframe height='1020' title='<span data-ttu-id="8a9b2-160">Microsoft Cloud App Security信息</span><span class="sxs-lookup"><span data-stu-id="8a9b2-160">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/33480' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="8a9b2-161">
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/33480" target="_blank">在新建选项卡中查看</a></span><span class="sxs-lookup"><span data-stu-id="72b61-161">
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/33480" target="_blank">在新建选项卡中查看</a></span><span class="sxs-lookup"><span data-stu-id="8a9b2-161">
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/33480" target="_blank">View in a new tab</a></span></span>
 
@@ -112,26 +113,26 @@ ms.locfileid: "52093215"
 
 ::: zone pivot="identity"
 
-### <a name="identity-information"></a><span data-ttu-id="72b61-162">标识信息</span><span class="sxs-lookup"><span data-stu-id="72b61-162">Identity information</span></span>
+### <a name="identity-information"></a><span data-ttu-id="8a9b2-162">标识信息</span><span class="sxs-lookup"><span data-stu-id="8a9b2-162">Identity information</span></span>
 
-<span data-ttu-id="72b61-163">Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。</span><span class="sxs-lookup"><span data-stu-id="72b61-163">This information has been provided by Viima Solutions Oy about how this app handles authentication, authorization, application registration best practices, and other Identity criteria.</span></span>
+<span data-ttu-id="8a9b2-163">Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。</span><span class="sxs-lookup"><span data-stu-id="8a9b2-163">This information has been provided by Viima Solutions Oy about how this app handles authentication, authorization, application registration best practices, and other Identity criteria.</span></span>
 
-| <span data-ttu-id="72b61-164">**Information**</span><span class="sxs-lookup"><span data-stu-id="72b61-164">**Information**</span></span> | <span data-ttu-id="72b61-165">**响应**</span><span class="sxs-lookup"><span data-stu-id="72b61-165">**Response**</span></span> |
+| <span data-ttu-id="8a9b2-164">**Information**</span><span class="sxs-lookup"><span data-stu-id="8a9b2-164">**Information**</span></span> | <span data-ttu-id="8a9b2-165">**响应**</span><span class="sxs-lookup"><span data-stu-id="8a9b2-165">**Response**</span></span> |
 |:----------------|:-------------|
-| <span data-ttu-id="72b61-166">你是否与 Microsoft 标识平台 (Azure AD) ？</span><span class="sxs-lookup"><span data-stu-id="72b61-166">Do you integrate with Microsoft Identify Platform (Azure AD)?</span></span>  | <span data-ttu-id="72b61-167">是</span><span class="sxs-lookup"><span data-stu-id="72b61-167">Yes</span></span> |
-| <span data-ttu-id="72b61-168">您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？</span><span class="sxs-lookup"><span data-stu-id="72b61-168">Have you reviewed and complied with all applicable best practices outlined in the Microsoft identity platform integration checklist?</span></span>  | <span data-ttu-id="72b61-169">是</span><span class="sxs-lookup"><span data-stu-id="72b61-169">Yes</span></span> |
-| <span data-ttu-id="72b61-170">你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？</span><span class="sxs-lookup"><span data-stu-id="72b61-170">Does your app use MSAL (Microsoft Authentication Library) for authentication?</span></span> | <span data-ttu-id="72b61-171">否</span><span class="sxs-lookup"><span data-stu-id="72b61-171">No</span></span> |
-| <span data-ttu-id="72b61-172">你的应用是否支持条件访问策略？</span><span class="sxs-lookup"><span data-stu-id="72b61-172">Does your app support Conditional Access policies?</span></span> | <span data-ttu-id="72b61-173">否</span><span class="sxs-lookup"><span data-stu-id="72b61-173">No</span></span> |
-| <span data-ttu-id="72b61-174">应用是否请求方案最小特权权限？</span><span class="sxs-lookup"><span data-stu-id="72b61-174">Does your app request least privilege permissions for your scenario?</span></span> | <span data-ttu-id="72b61-175">是</span><span class="sxs-lookup"><span data-stu-id="72b61-175">Yes</span></span> |
-| <span data-ttu-id="72b61-176">应用的静态注册权限是否准确反映应用将动态和增量请求的权限？</span><span class="sxs-lookup"><span data-stu-id="72b61-176">Does your app's statically registered permissions accurately reflect the permissions your app will request dynamically and incrementally?</span></span> | <span data-ttu-id="72b61-177">是</span><span class="sxs-lookup"><span data-stu-id="72b61-177">Yes</span></span> |
-| <span data-ttu-id="72b61-178">你的应用是否支持多租户？</span><span class="sxs-lookup"><span data-stu-id="72b61-178">Does your app support multi-tenancy?</span></span> | <span data-ttu-id="72b61-179">是</span><span class="sxs-lookup"><span data-stu-id="72b61-179">Yes</span></span> |
-| <span data-ttu-id="72b61-180">你的应用是否具有机密客户端？</span><span class="sxs-lookup"><span data-stu-id="72b61-180">Does your app have a confidential client?</span></span> | <span data-ttu-id="72b61-181">是</span><span class="sxs-lookup"><span data-stu-id="72b61-181">Yes</span></span> |
-| <span data-ttu-id="72b61-182">你是否拥有为应用注册的所有重定向统 (URI) URI？</span><span class="sxs-lookup"><span data-stu-id="72b61-182">Do you own all of the redirect Unified Resource Identifier (URI) registered for your app?</span></span> | <span data-ttu-id="72b61-183">是</span><span class="sxs-lookup"><span data-stu-id="72b61-183">Yes</span></span> |
-| <span data-ttu-id="72b61-184">对于你的应用，应避免使用什么？</span><span class="sxs-lookup"><span data-stu-id="72b61-184">For your app, what do you avoid using?</span></span> | <span data-ttu-id="72b61-185">- 通配符重定向 URI，</span><span class="sxs-lookup"><span data-stu-id="72b61-185">- Wildcard redirect URIs,</span></span>
-<br />
-- <span data-ttu-id="72b61-186">OAuth2 隐式Flow，除非 SPA 需要</span><span class="sxs-lookup"><span data-stu-id="72b61-186">OAuth2 Implicit Flow, unless required for a SPA</span></span>
-<br />
-- <span data-ttu-id="72b61-187">资源所有者密码凭据 (ROPC) 流| |你的应用是否公开任何 Web API？</span><span class="sxs-lookup"><span data-stu-id="72b61-187">Resource Owner Password Credential (ROPC) flow | | Does your app expose any web APIs?</span></span> <span data-ttu-id="72b61-188">|是| |您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？</span><span class="sxs-lookup"><span data-stu-id="72b61-188">| Yes | | Does your permission model only allow calls to succeed if the client app receives the proper consent?</span></span> <span data-ttu-id="72b61-189">|是| |你的应用是否使用预览 API？</span><span class="sxs-lookup"><span data-stu-id="72b61-189">| Yes | | Does your app use preview APIs?</span></span> <span data-ttu-id="72b61-190">|无| |你的应用是否使用已弃用 API？</span><span class="sxs-lookup"><span data-stu-id="72b61-190">| No | | Does your app use deprecated APIs?</span></span> <span data-ttu-id="72b61-191">|无|</span><span class="sxs-lookup"><span data-stu-id="72b61-191">| No |</span></span>
+| <span data-ttu-id="8a9b2-166">你是否与 Microsoft 标识平台 (Azure AD) ？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-166">Do you integrate with Microsoft Identify Platform (Azure AD)?</span></span>  | <span data-ttu-id="8a9b2-167">是</span><span class="sxs-lookup"><span data-stu-id="8a9b2-167">Yes</span></span> |
+| <span data-ttu-id="8a9b2-168">您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-168">Have you reviewed and complied with all applicable best practices outlined in the Microsoft identity platform integration checklist?</span></span>  | <span data-ttu-id="8a9b2-169">是</span><span class="sxs-lookup"><span data-stu-id="8a9b2-169">Yes</span></span> |
+| <span data-ttu-id="8a9b2-170">你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-170">Does your app use MSAL (Microsoft Authentication Library) for authentication?</span></span> | <span data-ttu-id="8a9b2-171">否</span><span class="sxs-lookup"><span data-stu-id="8a9b2-171">No</span></span> |
+| <span data-ttu-id="8a9b2-172">你的应用是否支持条件访问策略？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-172">Does your app support Conditional Access policies?</span></span> | <span data-ttu-id="8a9b2-173">否</span><span class="sxs-lookup"><span data-stu-id="8a9b2-173">No</span></span> |
+| <span data-ttu-id="8a9b2-174">应用是否请求方案最小特权权限？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-174">Does your app request least privilege permissions for your scenario?</span></span> | <span data-ttu-id="8a9b2-175">是</span><span class="sxs-lookup"><span data-stu-id="8a9b2-175">Yes</span></span> |
+| <span data-ttu-id="8a9b2-176">应用的静态注册权限是否准确反映应用将动态和增量请求的权限？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-176">Does your app's statically registered permissions accurately reflect the permissions your app will request dynamically and incrementally?</span></span> | <span data-ttu-id="8a9b2-177">是</span><span class="sxs-lookup"><span data-stu-id="8a9b2-177">Yes</span></span> |
+| <span data-ttu-id="8a9b2-178">你的应用是否支持多租户？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-178">Does your app support multi-tenancy?</span></span> | <span data-ttu-id="8a9b2-179">是</span><span class="sxs-lookup"><span data-stu-id="8a9b2-179">Yes</span></span> |
+| <span data-ttu-id="8a9b2-180">你的应用是否具有机密客户端？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-180">Does your app have a confidential client?</span></span> | <span data-ttu-id="8a9b2-181">是</span><span class="sxs-lookup"><span data-stu-id="8a9b2-181">Yes</span></span> |
+| <span data-ttu-id="8a9b2-182">你是否拥有为应用注册的所有重定向统 (URI) URI？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-182">Do you own all of the redirect Unified Resource Identifier (URI) registered for your app?</span></span> | <span data-ttu-id="8a9b2-183">是</span><span class="sxs-lookup"><span data-stu-id="8a9b2-183">Yes</span></span> |
+| <span data-ttu-id="8a9b2-184">对于你的应用，应避免使用什么？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-184">For your app, what do you avoid using?</span></span> | <span data-ttu-id="8a9b2-185">- 通配符重定向 URI，</span><span class="sxs-lookup"><span data-stu-id="8a9b2-185">- Wildcard redirect URIs,</span></span><br/><span data-ttu-id="8a9b2-186">- OAuth2 隐式Flow，除非 SPA 需要</span><span class="sxs-lookup"><span data-stu-id="8a9b2-186">- OAuth2 Implicit Flow, unless required for a SPA</span></span><br/><span data-ttu-id="8a9b2-187">- 资源所有者密码凭据 (ROPC) 流</span><span class="sxs-lookup"><span data-stu-id="8a9b2-187">- Resource Owner Password Credential (ROPC) flow</span></span> |
+| <span data-ttu-id="8a9b2-188">你的应用是否公开任何 Web API？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-188">Does your app expose any web APIs?</span></span> | <span data-ttu-id="8a9b2-189">是</span><span class="sxs-lookup"><span data-stu-id="8a9b2-189">Yes</span></span> |
+| <span data-ttu-id="8a9b2-190">您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-190">Does your permission model only allow calls to succeed if the client app receives the proper consent?</span></span> | <span data-ttu-id="8a9b2-191">是</span><span class="sxs-lookup"><span data-stu-id="8a9b2-191">Yes</span></span> |
+| <span data-ttu-id="8a9b2-192">你的应用是否使用预览 API？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-192">Does your app use preview APIs?</span></span> | <span data-ttu-id="8a9b2-193">否</span><span class="sxs-lookup"><span data-stu-id="8a9b2-193">No</span></span> |
+| <span data-ttu-id="8a9b2-194">你的应用是否使用已弃用 API？</span><span class="sxs-lookup"><span data-stu-id="8a9b2-194">Does your app use deprecated APIs?</span></span> | <span data-ttu-id="8a9b2-195">否</span><span class="sxs-lookup"><span data-stu-id="8a9b2-195">No</span></span> |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
