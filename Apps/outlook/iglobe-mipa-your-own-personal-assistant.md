@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/05/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: MIPA 的所有可用安全性和合规性信息 - 您自己的 个人助理、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2b7a539c7e99c435d4df940e376f84dc89146e65
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 845430e287f089d0438649acf7a41d7e0ebe231c
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093130"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251731"
 ---
 # <a name="mipa---your-own-personal-assistant"></a>MIPA - 你自己的个人助理
 

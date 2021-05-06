@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: 适用于 Word 的 Lucidchart 图表、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2ec9660e94a0efb0f1cd30e3996f3aba27acd5f5
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 9519dbcb549d7860856e6c310f68da8afad86819
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52092860"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251561"
 ---
 # <a name="lucidchart-diagrams-for-word"></a>Word 的 Lucidchart 关系图
 

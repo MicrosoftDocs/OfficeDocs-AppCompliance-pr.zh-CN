@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/29/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Streem 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 71dda2bd6cfff7948b022727ffeb901c9317a1af
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 0aa35bfbe583779597af9f3b7223e77227a6eb6b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093162"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251071"
 ---
 # <a name="streem"></a>Streem
 

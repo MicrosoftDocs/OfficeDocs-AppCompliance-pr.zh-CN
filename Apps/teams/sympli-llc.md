@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/16/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Sympli 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 47c73c92972d52b264cd1b7d81ef0ddd9d8d3538
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 06fc9e2b8454c39e5cc93d1cd39932e8bf972e96
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52092457"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52248340"
 ---
 # <a name="sympli"></a>Sympli
 

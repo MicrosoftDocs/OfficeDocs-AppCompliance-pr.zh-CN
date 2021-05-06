@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: 有关会议助理的所有可用 Zoom.ai 信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c5928d1ba26624bbae26fdf0dab09fbb4ddcded6
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: dda27747fdfde0f863611caef27f71547c971b98
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093201"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251932"
 ---
 # <a name="zoomai-meeting-assistant"></a>Zoom.ai Meeting Assistant
 

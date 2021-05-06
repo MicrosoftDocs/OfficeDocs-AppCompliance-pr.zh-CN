@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/08/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: officeatwork 服务的所有可用安全性和合规性|CSA STAR 注册表Office内容选择器、其数据处理策略Microsoft Cloud App Security应用程序目录信息和安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ca2b958b393763ef613e8401379a1db6383c4aa2
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 5b963b3b7669c68ec1734577645ad60d12afca89
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093151"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251811"
 ---
 # <a name="officeatwork--content-chooser-for-office"></a>officeatwork |内容选择器Office
 
@@ -141,11 +142,10 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，
-<br />
-- OAuth2 隐式Flow，除非 SPA 需要
-<br />
-- 资源所有者密码凭据 (ROPC) 流| |你的应用是否公开任何 Web API？ |无| |你的应用是否使用预览 API？ |无| |你的应用是否使用已弃用 API？ |无|
+| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
+| 你的应用是否公开任何 Web API？ | 否 |
+| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

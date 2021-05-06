@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/12/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: 用于为一个功能区 eMail Parser 提供的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1ed34257181ea143d4a6a43ae21e6a01e05ae3f0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 2d6a36604cbd540b79e69103fc4160b254a09fea
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093079"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251001"
 ---
 # <a name="konnect-email-parser"></a>表示邮件分析程序
 

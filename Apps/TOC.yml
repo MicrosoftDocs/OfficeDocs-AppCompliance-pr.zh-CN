@@ -1,35 +1,37 @@
-- name: Microsoft 365 应用合规性计划
+- name: Microsoft 365 应用合规计划
   items:
     - name: 概述
       expanded: true
       items:
         - name: 概述
           href: overview.md
-        - name: 什么是发布者验证？
+        - name: 什么是Publisher验证？
           href: 'https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview'
-        - name: 什么是发布者证明？
+        - name: 什么是Publisher证明？
           href: docs/enterprise-app-attestation-guide.md
-        - name: 什么是 Microsoft 365 认证？
+        - name: 什么是Microsoft 365认证？
           href: docs/enterprise-app-certification-guide.md
     - name: 对于开发人员
       expanded: true
       items:
-        - name: 完成发布者验证
+        - name: 完成Publisher验证
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
-        - name: 完整发布者证明
+        - name: 完整Publisher证明
           href: docs/attestation.md
-        - name: 完成 Microsoft 365 认证
+        - name: 完成Microsoft 365认证
           href: docs/certification.md
-        - name: Microsoft 365 认证提交指南
+        - name: Microsoft 365认证提交指南
           href: docs/certification-submission-guide.md
-    - name: Microsoft Teams 应用
+    - name: Microsoft Teams
       href: teams/teams-apps.md
       items:
         - name: 365Projects
           href: teams/365apps-365projects.md
+        - name: ADI
+          href: teams/akari-solutions-limited-adi.md
         - name: Adobe Sign
           href: teams/adobe-systems-inc-sign.md
-        - name: 敏捷任务板
+        - name: Agile Task Board
           href: teams/agile-is-task-board.md
         - name: Alvao Service Desk
           href: teams/alvao-sro-service-desk.md
@@ -47,21 +49,29 @@
           href: teams/anaek-attendancebot.md
         - name: AVA
           href: teams/avepoint-inc-ava.md
+        - name: Beekast
+          href: teams/beekast.md
         - name: Beesy
           href: teams/beesapps-beesy.md
-        - name: 板连接
+        - name: Board Connect
           href: teams/engage-squared-board-connect.md
-        - name: 额外
+        - name: Bonusly
           href: teams/bonusly.md
+        - name: BrainBot
+          href: teams/biggerbrains-brainbot.md
         - name: Breakthru
           href: teams/breakthru.md
-        - name: 日历 BOT
+        - name: Brightidea
+          href: teams/brightidea.md
+        - name: C.AI 采用机器人
+          href: teams/contexxtai-cai-adoption-bot.md
+        - name: Calendar BOT
           href: teams/approved-contact-calendar-bot.md
         - name: CatchEm
           href: teams/chimu-software-catchem.md
         - name: Centrical
           href: teams/biz-effective-centrical.md
-        - name: Cisco Webex 会议
+        - name: Cisco Webex Meetings
           href: teams/cisco-webex-meetings.md
         - name: Clever Ads
           href: teams/clever-ads.md
@@ -69,7 +79,7 @@
           href: teams/cloverpop.md
         - name: COCO
           href: teams/hexaware-technologies-ltd-coco.md
-        - name: 会议 i/o
+        - name: Conferences i/o
           href: teams/conferences-io.md
         - name: 联系人中心
           href: teams/landis-technologies-llc-contact-center.md
@@ -79,16 +89,20 @@
           href: teams/disastertech-dice.md
         - name: Droplr
           href: teams/droplr.md
-        - name: 动态信号
+        - name: Dynamic Signal
           href: teams/dynamic-signal.md
+        - name: 简单项目
+          href: teams/logic-software-inc-easy-projects.md
         - name: ecBooking
           href: teams/expert-systems-ivrasia-coltd-ecbooking.md
         - name: EdMill
           href: teams/my-serious-game-edmill.md
         - name: elmah.io
           href: teams/elmahio.md
-        - name: 向 TeamMate 发送电子邮件
+        - name: Email TeamMate
           href: teams/harmonie-email-teammate.md
+        - name: Empuls
+          href: teams/empuls.md
         - name: EngageWith
           href: teams/springrole-engagewith.md
         - name: Evernote
@@ -99,6 +113,8 @@
           href: teams/enterprizid-inc-ezteam.md
         - name: FormMachines
           href: teams/enterprise-digital-machines-formmachines.md
+        - name: InVision 提供的免费处理
+          href: teams/invision-app-freehand-by.md
         - name: Freshdesk
           href: teams/freshworks-inc-freshdesk.md
         - name: Fusion Remote
@@ -111,29 +127,33 @@
           href: teams/freevolut-ltd-google-analytics-insights.md
         - name: Guru
           href: teams/guru-technologies.md
-        - name: HeyTaco！
+        - name: HeyTaco!
           href: teams/heytaco!.md
         - name: Hi5
           href: teams/hi5technologies-hi5.md
         - name: Hibob
           href: teams/hibob-inc.md
+        - name: HighSide
+          href: teams/highside-inc.md
         - name: Hoylu
           href: teams/hoylu.md
         - name: HunchBuzz
           href: teams/hunchbuzz.md
+        - name: 超防
+          href: teams/hyperproof.md
         - name: IndustryIntel
           href: teams/industry-intelligence-team-industryintel.md
         - name: InStation
           href: teams/developers-invillia-instation.md
         - name: Jetdocs
           href: teams/jetdocs.md
-        - name: Jira 云
+        - name: Jira Cloud
           href: teams/atlassian-jira-cloud.md
-        - name: Jive 通信
+        - name: Jive Communications
           href: teams/jive-by-logmein-inc-communications.md
         - name: Karma
           href: teams/sliday-ltd-karma.md
-        - name: 百分百
+        - name: Klaxoon
           href: teams/klaxoon.md
         - name: Kronos
           href: teams/kronos-inc.md
@@ -143,17 +163,17 @@
           href: teams/lawtoolboxcom-inc-lawtoolbox.md
         - name: 学习
           href: teams/witivio-learn.md
-        - name: 保留 LTAP 的请求
+        - name: Leave Request by LTAPPs
           href: teams/ltapps-software-coltd-leave-request-by.md
         - name: Listy
           href: teams/information-age-technologies-listy.md
-        - name: 实时聊天
+        - name: Live Chat
           href: teams/social-intents-live-chat.md
         - name: LMS365
           href: teams/elearningforce-international-lms365.md
         - name: Lucidchart
           href: teams/lucid-software-lucidchart.md
-        - name: 为进行绘制
+        - name: LuckyDraw
           href: teams/tony-xia-luckydraw.md
         - name: MailClark
           href: teams/mailclark.md
@@ -165,7 +185,7 @@
           href: teams/meisterlabs-gmbh-mindmeister.md
         - name: MindMup
           href: teams/sauf-pompiers-ltd-mindmup.md
-        - name: MIPA - 你的个人助理
+        - name: MIPA - Your Personal Assistant
           href: teams/iglobe-mipa-your-personal-assistant.md
         - name: monday.com
           href: teams/mondaycom.md
@@ -191,19 +211,25 @@
           href: teams/officespace-software.md
         - name: Officevibe
           href: teams/officevibe.md
+        - name: Onsight 连接
+          href: teams/librestream-onsight-connect.md
         - name: OpenAgora
           href: teams/open-agora-openagora.md
         - name: Org@Work
           href: teams/lundano-org@work.md
+        - name: 程序包通知程序
+          href: teams/qburst-technologies-pvt-ltd-package-notifier.md
         - name: Perfony
           href: teams/perfony.md
         - name: Piazza
           href: teams/piazza.md
+        - name: Planyway 团队日历
+          href: teams/rubius-planyway-team-calendar.md
         - name: Polly
           href: teams/polly.md
-        - name: Prezi 视频
+        - name: Prezi Video
           href: teams/prezi-video.md
-        - name: 优先级矩阵
+        - name: Priority Matrix
           href: teams/appfluence-inc-priority-matrix.md
         - name: Prodoscore ProdBot
           href: teams/prodoscore-prodbot.md
@@ -213,21 +239,21 @@
           href: teams/unscrambl-qbo.md
         - name: Qubie
           href: teams/qubie.md
-        - name: 快速链接
+        - name: Quicklinks
           href: teams/chitchattr-quicklinks.md
         - name: Reach
           href: teams/livetiles-reach.md
         - name: RememberThis
           href: teams/tom-morgan-rememberthis.md
-        - name: 提醒
+        - name: Remind
           href: teams/88-ventures-limited-remind.md
         - name: Reminderz
           href: teams/chitchattr-reminderz.md
-        - name: 五十二
+        - name: Retro
           href: teams/baltic-amadeus-retro.md
         - name: RSpace
           href: teams/researchspace-rspace.md
-        - name: 因此，该州
+        - name: Saberr
           href: teams/saberr.md
         - name: SalesTim
           href: teams/salestim.md
@@ -235,13 +261,13 @@
           href: teams/moblizeit-llc-scanbuddyai.md
         - name: ScrumGenius
           href: teams/scrumgenius.md
-        - name: 一个功能区
+        - name: SecretaryBot
           href: teams/mysecretary-secretarybot.md
-        - name: Sensei Labs 一线
+        - name: Sensei Labs Conductor
           href: teams/sensei-labs-inc-conductor.md
         - name: Sentry
           href: teams/sentry.md
-        - name: ServiceDesk Plus 云
+        - name: ServiceDesk Plus Cloud
           href: teams/zoho-corporation-private-limited-servicedesk-plus-cloud.md
         - name: Sheetgo
           href: teams/sheetgo-europe-sl.md
@@ -249,63 +275,73 @@
           href: teams/chitchattr-shortlinks.md
         - name: SIGNL4
           href: teams/derdack-signl4.md
-        - name: 简单 In/Out
+        - name: Simple In/Out
           href: teams/simply-made-apps-inc-simple-inout.md
         - name: Site24x7
           href: teams/zoho-corporation-private-limited-site24x7.md
-        - name: 技能
+        - name: Skillate
           href: teams/skillate-laboratories-pvt-ltd.md
-        - name: Pipe9 技能
+        - name: Skills by Pipe9
           href: teams/pipe9com-skills-by-pipe9.md
-        - name: SkyPoint 云
+        - name: SkyPoint Cloud
           href: teams/skypoint-cloud-inc.md
         - name: Slido
           href: teams/slido.md
-        - name: 适用于 Jira 的智能连接
+        - name: Smart Connect for Jira
           href: teams/yasoon-gmbh-smart-connect-for-jira.md
+        - name: SMART Learning Suite
+          href: teams/smart-technologies-ulc-learning-suite.md
         - name: Smartnotation
           href: teams/smartnotation-bv.md
         - name: Smartsheet
           href: teams/smartsheet.md
         - name: SmartWork
           href: teams/smartwork-of-intumit.md
+        - name: SmileBack
+          href: teams/smileback.md
         - name: Soapbox
           href: teams/soapbox.md
         - name: Spinify
           href: teams/spinify.md
-        - name: Teams 的堆栈溢出
+        - name: Stack Overflow for Teams
           href: teams/stack-overflow-for-teams.md
         - name: Standup Alice
           href: teams/bao-le-duc-standup-alice.md
         - name: StarLeaf
           href: teams/starleaf.md
+        - name: StealthMail
+          href: teams/stealthmail-software-ltd.md
         - name: Streem
           href: teams/streem.md
         - name: Studi.ly
           href: teams/inlogic-office-store-studily.md
         - name: SurveyMonkey
           href: teams/surveymonkey.md
+        - name: SurveySparrow
+          href: teams/admin@surveysparrowcom-surveysparrow.md
         - name: Sympli
           href: teams/sympli-llc.md
-        - name: 操作框
+        - name: TackleBox
           href: teams/insiten-tacklebox.md
-        - name: 塔拉
+        - name: Talla
           href: teams/talla-inc.md
         - name: Talview Interviews
           href: teams/talview-inc-interviews.md
         - name: TaskList
           href: teams/limestat-inc-tasklist.md
+        - name: Team一
+          href: teams/eylean-uab-teamhood.md
         - name: TeamMate by ChitChattr
           href: teams/chitchattr-teammate-by.md
         - name: TeamMood
           href: teams/power-up-conseil-teammood.md
-        - name: Teams 管理器
+        - name: Teams Manager
           href: teams/solutions2share-gmbh-teams-manager.md
-        - name: Teams使用
+        - name: TeamsChamp
           href: teams/teamschamp.md
-        - name: Communitio 的 TeamSticker
+        - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: 模板选择器
+        - name: Template Chooser
           href: teams/officeatwork-template-chooser.md
         - name: 文本
           href: teams/approved-contact-text.md
@@ -315,21 +351,25 @@
           href: teams/kollisch-gmbh-timeghost.md
         - name: TINYpulse
           href: teams/tinypulse.md
+        - name: 百分百
+          href: teams/tribute-co.md
         - name: Trivia
           href: teams/springworks-hr-tech-trivia.md
+        - name: Tri一
+          href: teams/trivie-inc.md
         - name: Tryane Analytics
           href: teams/tryane-analytics.md
-        - name: 休假跟踪程序
+        - name: Vacation Tracker
           href: teams/vacation-tracker.md
         - name: Viima
           href: teams/viima-solutions-oy.md
         - name: VisualSP
           href: teams/visualsp.md
-        - name: Webex 调用
+        - name: Webex Call
           href: teams/cisco-webex-call.md
-        - name: 广泛的想法
+        - name: Wide Ideas
           href: teams/wide-ideas.md
-        - name: 如果为一个
+        - name: Woobot
           href: teams/woobot.md
         - name: Workday
           href: teams/workday.md
@@ -343,20 +383,20 @@
           href: teams/zoho-corporation-pvt-ltd-crm.md
         - name: Zoho Desk
           href: teams/zoho-corporation-private-limited-desk.md
-        - name: Zoho 笔记本
+        - name: Zoho Notebook
           href: teams/zoho-corporation-private-limited-notebook.md
-        - name: Zoho 项目
+        - name: Zoho Projects
           href: teams/zoho-corporation-private-limited-projects.md
-        - name: Zoho 符号
+        - name: Zoho Sign
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-        - name: Zoom.ai 会议助理
+        - name: Zoom.ai Meeting Assistant
           href: teams/zoomai-inc-meeting-assistant.md
-    - name: Microsoft Outlook 应用程序
+    - name: Microsoft 应用Outlook
       href: outlook/outlook-apps.md
       items:
-        - name: 适用于 Outlook Add-In Adobe Sign
+        - name: Adobe Sign Add-In for Outlook
           href: outlook/adobe-inc-sign-add-in-for-outlook.md
         - name: Altru 视频
           href: outlook/altru-videos.md
@@ -364,11 +404,11 @@
           href: outlook/approved-contact-calendars.md
         - name: Asana for Outlook
           href: outlook/asana-for-outlook.md
-        - name: harmon.ie For Outlook
+        - name: harmon.ie Outlook
           href: outlook/harmonie-corporation-for-outlook.md
         - name: 发票和时间跟踪 - Zoho 发票
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: iPlanner Outlook 的 Office 365 Planner 外接程序
+        - name: iPlanner Office 365 Planner 外接程序Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
@@ -380,7 +420,7 @@
           href: outlook/all-blue-solutions-ngdesk.md
         - name: Office2SharePoint for Outlook
           href: outlook/iglobe-office2sharepoint-for-outlook.md
-        - name: officeatwork |Outlook 的内容选择器
+        - name: officeatwork |内容选择器Outlook
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
         - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
@@ -390,9 +430,9 @@
           href: outlook/salesforcecom-salesforce.md
         - name: ServiceDesk Plus for Email
           href: outlook/zoho-corporation-private-limited-servicedesk-plus-for-email.md
-        - name: 适用于 Outlook 的 StarLeaf 外接程序
+        - name: 用于加载项的 StarLeaf Outlook
           href: outlook/starleaf-add-in-for-outlook.md
-        - name: Outlook 的 Wrike
+        - name: Wrike for Outlook
           href: outlook/wrike-inc-for-outlook.md
         - name: Wunder365
           href: outlook/jiji-technologies-private-limited-wunder365.md
@@ -400,64 +440,66 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: 用于电子邮件的 Zoho CRM
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft Word 应用
+    - name: Microsoft Word
       href: word/word-apps.md
       items:
         - name: Adobe Sign for Word and PowerPoint
           href: word/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel 到 Word 文档自动化
+        - name: Excel到 Word 文档自动化
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: harmon.ie for Office
+        - name: harmon.ie Office
           href: word/harmonie-corporation-for-office.md
         - name: Word 的 Lucidchart 关系图
           href: word/lucid-software-inc-lucidchart-diagrams-for-word.md
         - name: Office2SharePoint for Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork |Office 内容选择器
+        - name: officeatwork |内容选择器Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork |Designer for Office
+        - name: officeatwork |设计器Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
-        - name: officeatwork |Office 模板选择器
+        - name: officeatwork |模板选择器Office
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: officeatwork |Office 上传程序
+        - name: officeatwork |上传程序Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork |Office 验证程序
+        - name: officeatwork |验证程序Office
           href: word/officeatwork-officeatworkverifier-for-office.md
-        - name: officeatwork |Office 向导
+        - name: officeatwork |用于Office
           href: word/officeatwork-officeatworkwizard-for-office.md
-        - name: Office 文档的 Wrike
+        - name: 用于文档Office Wrike
           href: word/wrike-inc-for-office-documents.md
-        - name: 适用于 Office 的 Wunder365
+        - name: Wunder365 for Office
           href: word/jiji-technologies-private-limited-wunder365-for-office.md
         - name: xLaw - 知识管理系统
           href: word/evertn-xlaw-knowledge-management-system.md
-    - name: Microsoft PowerPoint 应用程序
+    - name: Microsoft 应用PowerPoint
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign for Word and PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel 到 Word 文档自动化
+        - name: Excel到 Word 文档自动化
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
-        - name: harmon.ie for Office
+        - name: harmon.ie Office
           href: powerpoint/harmonie-corporation-for-office.md
-        - name: 适用于 PowerPoint 的 Lucidchart 关系图
+        - name: 用于图表的 Lucidchart PowerPoint
           href: powerpoint/lucid-software-inc-lucidchart-diagrams-for-powerpoint.md
+        - name: NoMore
+          href: powerpoint/nomorehours-nomore.md
         - name: Office2SharePoint for Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork |Office 内容选择器
+        - name: officeatwork |内容选择器Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork |Office 模板选择器
+        - name: officeatwork |模板选择器Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: Office 文档的 Wrike
+        - name: 用于文档Office Wrike
           href: powerpoint/wrike-inc-for-office-documents.md
-    - name: Microsoft SharePoint 应用程序
+    - name: Microsoft 应用SharePoint
       href: sharepoint/sharepoint-apps.md
       items:
         - name: 适用于 SharePoint Online 的敏捷任务板
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
-        - name: 适用于 SharePoint 的 FormMachines
+        - name: FormMachines for SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-for-sharepoint.md
-        - name: SharePoint 的 Gaggle
+        - name: Gaggle for SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
         - name: iGlobe CRM 加载项
           href: sharepoint/iglobe-crm-add-ons.md
@@ -465,28 +507,30 @@
           href: sharepoint/iglobe-crm-office-365-for-microsoft.md
         - name: 表示邮件分析程序
           href: sharepoint/konnect-email-parser.md
-        - name: officeatwork |SharePoint 模板选择器
+        - name: officeatwork |模板选择器SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
-    - name: Microsoft Excel 应用程序
+    - name: Microsoft Excel
       href: excel/excel-apps.md
       items:
-        - name: Excel 到 Word 文档自动化
+        - name: CloudExtend Analytics for NetSuite
+          href: excel/celigo-cloudextend-analytics-for-netsuite.md
+        - name: Excel到 Word 文档自动化
           href: excel/analysisplace-excel-to-word-document-automation.md
-        - name: harmon.ie for Office
+        - name: harmon.ie Office
           href: excel/harmonie-corporation-for-office.md
-        - name: 适用于 Office 365 Planner 的 iPlanner 报告工具
+        - name: 适用于 Planner 的 iPlanner Office 365工具
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
-        - name: 适用于 Excel 的 Jira 云
+        - name: Jira Cloud for Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
-        - name: Excel 的 Lucidchart 关系图
+        - name: 用于图表的 Lucidchart Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
-        - name: 含义 Excel 云文本分析
+        - name: 含义云文本分析Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint for Office
           href: excel/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork |Office 内容选择器
+        - name: officeatwork |内容选择器Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork |Office 模板选择器
+        - name: officeatwork |模板选择器Office
           href: excel/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: QuickCells 图形
           href: excel/cc-1c-quickcells-graphs.md
@@ -494,19 +538,19 @@
           href: excel/cc-1c-quickcells-solvers.md
         - name: Sheetgo
           href: excel/sheetgo-europe-sl.md
-        - name: Office 文档的 Wrike
+        - name: 用于文档Office Wrike
           href: excel/wrike-inc-for-office-documents.md
-        - name: 适用于 Office 的 Wunder365
+        - name: Wunder365 for Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft OneNote 应用程序
+    - name: Microsoft OneNote
       href: onenote/onenote-apps.md
       items:
-        - name: officeatwork |Office 内容选择器
+        - name: officeatwork |内容选择器Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: 适用于 Office 的 Wunder365
+        - name: Wunder365 for Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Project 应用
+    - name: Microsoft Project
       href: project/project-apps.md
       items:
-        - name: officeatwork |Office 模板选择器
+        - name: officeatwork |模板选择器Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md

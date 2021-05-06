@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Soapbox 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 66c465226543dcd95500631162eaa1a7f88c3280
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 67f30267c8ab7af50cea771d8afc3836915d6cc2
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093166"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52249780"
 ---
 # <a name="soapbox"></a>Soapbox
 
@@ -82,7 +83,7 @@ Soapbox 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->是。 名称、电子邮件和 Microsoft 用户 ID 将在我们的统一日志记录平台中最多显示 30 天，以帮助识别问题并帮助用户使用平台。 30 天后，将从日志记录服务器中删除数据。
+>对。 名称、电子邮件和 Microsoft 用户 ID 将在我们的统一日志记录平台中最多显示 30 天，以帮助识别问题并帮助用户使用平台。 30 天后，将从日志记录服务器中删除数据。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

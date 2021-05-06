@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: 适用于 Office 365 Planner 的 iPlanner 报告工具的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d6416261759acca5b77c6307c2267d11dd8eea4f
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: c03fa88d76dc00da911841512bb209742dbc5d2e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52092848"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251481"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>适用于 Planner 的 iPlanner Office 365工具
 

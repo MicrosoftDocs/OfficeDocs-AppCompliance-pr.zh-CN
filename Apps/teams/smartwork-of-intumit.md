@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/31/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: SmartWork 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3fa673b3b6488cbca428f4583fe60021734525cf
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: ac3365dd3b37fcc89ac63db89fc3f233a68ae045
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52092467"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52249890"
 ---
 # <a name="smartwork"></a>SmartWork
 
@@ -33,7 +34,7 @@ Intumit 的 SmartWork 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | SmartWork |
 | ID | WA200001149 |
-| 功能 | 机器人 |
+| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SmartWork of Intumit |
 | 合作伙伴网站的 URL | [https://www.intumit.com](https://www.intumit.com) |

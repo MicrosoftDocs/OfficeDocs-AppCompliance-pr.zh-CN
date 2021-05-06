@@ -2,17 +2,17 @@
 title: Microsoft PowerPoint 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/15/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft 应用的所有可用安全性和合规性PowerPoint信息。
 localization_priority: Normal
-ms.openlocfilehash: daa788d2ef29d136dc1e3015dccc507ed5647285
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 6c76385a15c6a03ef581d634050a0effdb405cdd
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071027"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251701"
 ---
 # <a name="microsoft-powerpoint-app-security-and-compliance"></a>Microsoft PowerPoint 应用安全性和合规性
 
@@ -24,6 +24,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [Excel到 Word 文档自动化](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  | 是 | 是 |
 | [harmon.ie Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  | 是 | 是 |
 | [用于图表的 Lucidchart PowerPoint](./lucid-software-inc-lucidchart-diagrams-for-powerpoint.md) | Lucid Software Inc | **✓** |  | 是 | 是 |
+| [NoMore](./nomorehours-nomore.md) | nomorehours | **✓** |  | 是 | 是 |
 | [Office2SharePoint for Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | 是 | 是 |
 | [officeatwork | content Chooser for Office] (./officeatwork-officeatworkcontent-chooser-for-office.md)  | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | 是 | 是 |
 | [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | 是 | 是 |

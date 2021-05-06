@@ -2,17 +2,17 @@
 title: Microsoft Excel应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/15/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Excel信息。
 localization_priority: Normal
-ms.openlocfilehash: 67928dae457119f6bb28d02e83017e573ad8c517
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: d8b83937131fe2e155103ffd7a2786fbadeca099
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071022"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251501"
 ---
 # <a name="microsoft-excel-app-security-and-compliance"></a>Microsoft Excel应用安全性和合规性
 
@@ -20,6 +20,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** | **数据处理信息** | **Cloud App Security 信息** |
 |:--------|:------------|:----------------------:|:-----------------------------:|:----------------------------------:|
+| [CloudExtend Analytics for NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | 为 CloudExtend | **✓** |  | 是 | 是 |
 | [Excel到 Word 文档自动化](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  | 是 | 是 |
 | [harmon.ie Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  | 是 | 是 |
 | [适用于 Planner 的 iPlanner Office 365工具](./iglobe-iplanner-reporting-tool-for-office-365-planner.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | 是 | 是 |

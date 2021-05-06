@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Communitio 提供的 TeamSticker 的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7cfc69b1e013fbb348b2e38f1afb75a7d3011b75
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 0d3bc9c21aad64911ab6753586ce585ca5f9b91f
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093009"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250760"
 ---
 # <a name="teamsticker-by-communitio"></a>TeamSticker by Communitio
 
@@ -140,11 +141,11 @@ Communitio Corporation 已提供有关此应用程序如何处理身份验证、
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 否 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，
-<br />
-- OAuth2 隐式Flow，除非 SPA 需要
-<br />
-- 资源所有者密码凭据 (ROPC) 流| |你的应用是否公开任何 Web API？ |是| |您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ |是| |你的应用是否使用预览 API？ |无| |你的应用是否使用已弃用 API？ |无|
+| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
+| 你的应用是否公开任何 Web API？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 10/12/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Nugget 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 17eace1be8bdb102c76e72170fbfeca86519becc
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: d64477546191bbcfff12580f2b5816070d443229
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52092493"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251181"
 ---
 # <a name="nugget"></a>Nugget
 
@@ -75,7 +76,7 @@ Panviva 提供了此信息，这些信息与此应用程序如何收集和存储
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->是。
+>对。
 Teams用户 ID：需要此 ID，以便我们可以检索有关他们位于哪个租户以及用户是否是管理员的信息。
 Teams ID：存储此 ID，以便我们可以检索租户中的用户并检索该特定租户的订阅详细信息。
 
