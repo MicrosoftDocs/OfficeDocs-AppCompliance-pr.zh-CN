@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 06/23/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: netDocShare 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 21f361c5f52023e5897f2d750a734fd2041262b7
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 4ffccbb904d5283922a4ce6aae7fc5430e86d3d7
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52092933"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252482"
 ---
 # <a name="netdocshare"></a>netDocShare
 
@@ -75,7 +76,7 @@ ms.locfileid: "52092933"
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->是。 我们将 EUII 和 OII 存储在托管在 Microsoft Azure 上的自定义 NoSQL Mongo DB 中。 客户端停止订阅后，我们将从上述数据库中删除此信息。
+>对。 我们将 EUII 和 OII 存储在托管在 Microsoft Azure 上的自定义 NoSQL Mongo DB 中。 客户端停止订阅后，我们将从上述数据库中删除此信息。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 07/20/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: 有关联系人中心的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 666cb2947c05a8b40e568b8c602bf5988bf6d3c0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f4f13a5dcd05622b297488fcfe8663028cc427fa
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52092923"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252462"
 ---
 # <a name="contact-center"></a>联系人中心
 
@@ -96,7 +97,7 @@ Landis Technologies LLC 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->是。 MS Graph API 请求进行记录以帮助支持事件。 它根据 Application Insights Microsoft Azure删除。
+>对。 MS Graph API 请求进行记录以帮助支持事件。 它根据 Application Insights Microsoft Azure删除。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

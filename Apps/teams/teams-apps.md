@@ -2,17 +2,17 @@
 title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/19/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 31d085e5a2f8d01e8899f7c3fe911184c2cff879
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 6bc983288ea2acb783fd99a80c6c4dbcfbf83fae
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52070848"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251041"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -21,6 +21,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | **应用** | **合作伙伴** | **发布者证明** | **认证** | **数据处理信息** | **Cloud App Security 信息**  | **应用功能** |
 |:--------|:------------|:----------------------:|:-------------:|:-----------------------------:|:----------------------------------:|:---------------------|
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  | 是 | 是 | 选项卡，连接器 |
+| [ADI](./akari-solutions-limited-adi.md) | Akari Solutions Limited | **✓** |  | 是 | 是 | 机器人 |
 | [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | 是 | 是 | 机器人，选项卡 |
 | [Agile Task Board](./agile-is-task-board.md) | Agile-IS | **✓** |  | 是 | 是 | 选项卡 |
 | [Alvao Service Desk](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  | 是 | 是 | 机器人，消息传递扩展 |
@@ -31,10 +32,14 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [atSpoke](./townsend-street-labs-inc-atspoke.md) | Townsend Street Labs, Inc. | **✓** |  | 是 | 是 | 机器人 |
 | [AttendanceBot](./anaek-attendancebot.md) | Anaek | **✓** |  | 是 | 是 | 机器人 |
 | [AVA](./avepoint-inc-ava.md) | AvePoint, Inc. | **✓** |  | 是 | 是 | 机器人，选项卡 |
+| [Beekast](./beekast.md) | Beekast | **✓** |  | 是 | 是 | 选项卡 |
 | [Beesy](./beesapps-beesy.md) | BeesApps | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [Board Connect](./engage-squared-board-connect.md) | Engage Squared | **✓** |  | 是 | 是 | 选项卡 |
 | [Bonusly](./bonusly.md) | Bonusly | **✓** |  | 是 | 是 | 机器人 |
+| [BrainBot](./biggerbrains-brainbot.md) | Biggerbrains | **✓** |  | 是 | 是 | 机器人 |
 | [Breakthru](./breakthru.md) | Breakthru | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
+| [Brightidea](./brightidea.md) | Brightidea | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
+| [C.AI Adoption Bot](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [Calendar BOT](./approved-contact-calendar-bot.md) | Approved Contact | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [CatchEm](./chimu-software-catchem.md) | Chimu Software | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
@@ -48,15 +53,18 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  | 是 | 是 | 选项卡 |
 | [Droplr](./droplr.md) | Droplr | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
 | [Dynamic Signal](./dynamic-signal.md) | Dynamic Signal | **✓** |  | 是 | 是 | 机器人，选项卡 |
+| [Easy Projects](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  | 是 | 是 | 机器人，消息传递扩展 |
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  | 是 | 是 | 选项卡 |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  | 是 | 是 | 选项卡 |
 | [elmah.io](./elmahio.md) | elmah.io | **✓** |  | 是 | 是 | 连接器 |
 | [Email TeamMate](./harmonie-email-teammate.md) | harmon.ie | **✓** |  | 是 | 是 | 机器人，消息传递扩展 |
+| [Empuls](./empuls.md) | Empuls | **✓** |  | 是 | 是 | 机器人，消息传递扩展 |
 | [EngageWith](./springrole-engagewith.md) | SpringRole | **✓** |  | 是 | 是 | 机器人 |
 | [Evernote](./evernote.md) | Evernote | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
 | [Evocom](./evocom-informationssysteme-gmbh.md) | Evocom Informationssysteme GmbH | **✓** |  | 是 | 是 | 选项卡 |
 | [ezTeam](./enterprizid-inc-ezteam.md) | EnterprizID Inc | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [FormMachines](./enterprise-digital-machines-formmachines.md) | Enterprise Digital Machines | **✓** |  | 是 | 是 | 选项卡，连接器 |
+| [Freehand by InVision](./invision-app-freehand-by.md) | InVision 应用 | **✓** |  | 是 | 是 | 选项卡 |
 | [Freshdesk](./freshworks-inc-freshdesk.md) | Freshworks INC | **✓** |  | 是 | 是 | 机器人 |
 | [Fusion Remote](./jujo-inc-fusion-remote.md) | Jujo Inc. | **✓** |  | 是 | 是 | 机器人 |
 | [Go1](./go1.md) | Go1 | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
@@ -66,8 +74,10 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [HeyTaco!](./heytaco!.md) | HeyTaco! | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
 | [Hibob](./hibob-inc.md) | Hibob Inc. | **✓** |  | 是 | 是 | 机器人 |
+| [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  | 是 | 是 | 机器人，消息传递扩展 |
 | [Hoylu](./hoylu.md) | Hoylu | **✓** |  | 是 | 是 | 选项卡 |
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  | 是 | 是 | 选项卡，连接器 |
+| [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  | 是 | 是 | 机器人 |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Industry Intelligence Team | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
 | [InStation](./developers-invillia-instation.md) | Developers Invillia | **✓** |  | 是 | 是 | 选项卡 |
 | [Jetdocs](./jetdocs.md) | Jetdocs | **✓** |  | 是 | 是 | 机器人，选项卡 |
@@ -103,10 +113,13 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  | 是 | 是 | 选项卡，连接器 |
 | [OfficeSpace](./officespace-software.md) | OfficeSpace Software | **✓** |  | 是 | 是 | 机器人 |
 | [Officevibe](./officevibe.md) | Officevibe | **✓** |  | 是 | 是 | 机器人 |
+| [Onsight Connect](./librestream-onsight-connect.md) | Librestream | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
 | [OpenAgora](./open-agora-openagora.md) | Open Agora | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [Org@Work](./lundano-org@work.md) | Lundano | **✓** |  | 是 | 是 | 机器人，选项卡 |
+| [Package Notifier](./qburst-technologies-pvt-ltd-package-notifier.md) | QBURST TECHNOLOGIES PVT LTD | **✓** |  | 是 | 是 | 连接器 |
 | [Perfony](./perfony.md) | Perfony | **✓** |  | 是 | 是 | 选项卡 |
 | [Piazza](./piazza.md) | Piazza | **✓** |  | 是 | 是 | 选项卡 |
+| [Planyway Team Calendar](./rubius-planyway-team-calendar.md) | Rubius | **✓** |  | 是 | 是 | 选项卡 |
 | [Polly](./polly.md) | Polly | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
 | [Prezi Video](./prezi-video.md) | Prezi | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | 是 | 是 | 机器人，选项卡，消息传递扩展，连接器 |
@@ -139,22 +152,27 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [SkyPoint Cloud](./skypoint-cloud-inc.md) | SkyPoint Cloud Inc. | **✓** |  | 是 | 是 | 机器人 |
 | [Slido](./slido.md) | Slido | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [Smart Connect for Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  | 是 | 是 | 机器人，消息传递扩展 |
+| [SMART Learning Suite](./smart-technologies-ulc-learning-suite.md) | SMART Technologies ULC | **✓** |  | 是 | 是 | 选项卡 |
 | [Smartnotation](./smartnotation-bv.md) | Smartnotation B.V. | **✓** |  | 是 | 是 | 选项卡，连接器 |
 | [Smartsheet](./smartsheet.md) | Smartsheet | **✓** |  | 是 | 是 | 机器人，选项卡 |
-| [SmartWork](./smartwork-of-intumit.md) | SmartWork of Intumit | **✓** |  | 是 | 是 | 机器人 |
+| [SmartWork](./smartwork-of-intumit.md) | SmartWork of Intumit | **✓** |  | 是 | 是 | 机器人，选项卡 |
+| [SmileBack](./smileback.md) | SmileBack | **✓** |  | 是 | 是 | 连接器 |
 | [Soapbox](./soapbox.md) | Soapbox | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [Spinify](./spinify.md) | Spinify | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [Stack Overflow for Teams](./stack-overflow-for-teams.md) | Stack Overflow | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展 |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  | 是 | 是 | 机器人 |
 | [StarLeaf](./starleaf.md) | StarLeaf | **✓** |  | 是 | 是 | 机器人，消息传递扩展 |
+| [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  | 是 | 是 | 选项卡 |
 | [Streem](./streem.md) | Streem | **✓** |  | 是 | 是 | 机器人 |
 | [Studi.ly](./inlogic-office-store-studily.md) | inLogic-Office Store | **✓** |  | 是 | 是 | 选项卡 |
 | [SurveyMonkey](./surveymonkey.md) | SurveyMonkey | **✓** |  | 是 | 是 | 机器人，选项卡，消息传递扩展，连接器 |
+| [SurveySparrow](./admin@surveysparrowcom-surveysparrow.md) | admin@surveysparrow.com | **✓** |  | 是 | 是 | 机器人 |
 | [Sympli](./sympli-llc.md) | Sympli, LLC | **✓** |  | 是 | 是 | 机器人，消息传递扩展 |
 | [TackleBox](./insiten-tacklebox.md) | Insiten | **✓** |  | 是 | 是 | 选项卡，连接器 |
 | [Talla](./talla-inc.md) | Talla Inc. | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [Talview Interviews](./talview-inc-interviews.md) | Talview Inc | **✓** |  | 是 | 是 | 选项卡 |
 | [TaskList](./limestat-inc-tasklist.md) | LimeStat, Inc | **✓** |  | 是 | 是 | 机器人 |
+| [Teamhood](./eylean-uab-teamhood.md) | Eylean, UAB | **✓** |  | 是 | 是 | 机器人，消息传递扩展 |
 | [TeamMate by ChitChattr](./chitchattr-teammate-by.md) | ChitChattr | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [TeamMood](./power-up-conseil-teammood.md) | Power Up Conseil | **✓** |  | 是 | 是 | 机器人 |
 | [Teams Manager](./solutions2share-gmbh-teams-manager.md) | Solutions2Share GmbH | **✓** |  | 是 | 是 | 机器人，选项卡 |
@@ -165,7 +183,9 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  | 是 | 是 | 机器人，消息传递扩展 |
 | [timeghost](./kollisch-gmbh-timeghost.md) | K&#246;llisch GmbH | **✓** |  | 是 | 是 | 选项卡 |
 | [TINYpulse](./tinypulse.md) | TINYpulse | **✓** |  | 是 | 是 | 机器人，连接器 |
+| [Tribute](./tribute-co.md) | Tribute Co. | **✓** |  | 是 | 是 | 选项卡 |
 | [Trivia](./springworks-hr-tech-trivia.md) | Springworks HR Tech | **✓** |  | 是 | 是 | 机器人，选项卡 |
+| [Trivie](./trivie-inc.md) | Trivie, Inc. | **✓** |  | 是 | 是 | 选项卡 |
 | [Tryane Analytics](./tryane-analytics.md) | Tryane | **✓** |  | 是 | 是 | 选项卡 |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  | 是 | 是 | 机器人，选项卡 |
 | [Viima](./viima-solutions-oy.md) | Viima Solutions Oy | **✓** |  | 是 | 是 | 选项卡 |

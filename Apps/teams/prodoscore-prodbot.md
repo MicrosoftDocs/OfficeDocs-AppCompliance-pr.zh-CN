@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/23/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Prodoscore ProdBot 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 373544c31b3baca313c71cb1620b9c57c627fa69
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b5075edb0ff6f23f01ef0975ee5429560720af9e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52092870"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252362"
 ---
 # <a name="prodoscore-prodbot"></a>Prodoscore ProdBot
 
@@ -125,11 +126,10 @@ Prodoscore 提供了此信息，这些信息与此应用程序如何处理身份
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，
-<br />
-
-<br />
- | |你的应用是否公开任何 Web API？ |无| |你的应用是否使用预览 API？ |是| |你的应用是否使用已弃用 API？ |无|
+| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/><br/> |
+| 你的应用是否公开任何 Web API？ | 否 |
+| 你的应用是否使用预览 API？ | 是 |
+| 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

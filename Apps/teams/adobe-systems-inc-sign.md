@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/01/2021
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Adobe Sign 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 04ac0c0c2c9f40371b32b3d48b361ec99b959ab0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7e2e11994a8cf7ede0e8c3e0bf33b015251116ad
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093069"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252732"
 ---
 # <a name="adobe-sign"></a>Adobe Sign
 
@@ -137,11 +138,11 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 否 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，
-<br />
-- OAuth2 隐式Flow，除非 SPA 需要
-<br />
-- 资源所有者密码凭据 (ROPC) 流| |你的应用是否公开任何 Web API？ |是| |您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ |是| |你的应用是否使用预览 API？ |无| |你的应用是否使用已弃用 API？ |无|
+| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
+| 你的应用是否公开任何 Web API？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

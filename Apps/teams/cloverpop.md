@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/24/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Cloverpop 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 292334b46b1faf54938bb559d2d94c700d37faf3
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 1f7ee0c5a92757d03291de890ebfde05ed55a7db
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093013"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252692"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -81,7 +82,7 @@ Cloverpop 提供了此信息，这些信息与此应用程序如何收集和存�
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->是。
+>对。
 在团队中与应用交互时，团队 ID 会显示在我们的日志中。
 对于三个全部在美国的创始人，我们只能有限地访问我们的生产日志。
 
