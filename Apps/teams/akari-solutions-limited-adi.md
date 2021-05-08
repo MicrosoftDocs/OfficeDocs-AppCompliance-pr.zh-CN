@@ -1,46 +1,46 @@
 ---
-title: 由一家公司提供的应用程序信息。
+title: ADI 的应用程序信息（Akari 解决方案有限）
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/16/2021
+ms.date: 04/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 所有可用的 Security and compliance information information for 则使用，包括其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: ADI 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3fead70ef460ec81d89144420850ce47e3aee3e4
-ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
+ms.openlocfilehash: 435ede7d8821a4f93e930996f7159b794b5b8a22
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52258779"
+ms.locfileid: "52253055"
 ---
-# <a name="tribute"></a>Tribute
+# <a name="adi"></a>ADI
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 4 月 16 日</p>
+<p>开发人员上次更新时间：2021 年 4 月 28 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/cfb46a87-a75b-4045-9f22-a0ae0614fd60" target="_blank">在 Teams 应用商店中查看</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002589" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/de5717a1-6884-4b96-8b1e-ee17b5d778f3" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002615" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-由一家 Microsoft 公司提供给 Microsoft 的信息：
+Akari Solutions（仅限于 Microsoft）提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Tribute |
-| ID | WA200002589 |
-| 功能 | 选项卡 |
-| 支持的 Office 365 客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Tribute Co. |
-| 合作伙伴网站的 URL | [https://www.tributementorship.com](https://www.tributementorship.com) |
-| Teams 应用程序信息页的 URL | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
-| 隐私策略的 URL | [https://www.tributementorship.com/privacy](https://www.tributementorship.com/privacy) |
-| 使用条款 URL | [https://www.tributementorship.com/terms](https://www.tributementorship.com/terms) |
+| 应用名称 | ADI |
+| ID | WA200002615 |
+| 功能 | 机器人 |
+| Office 365支持的客户端 | Microsoft Teams |
+| 合作伙伴公司名称 | Akari Solutions Limited |
+| 合作伙伴网站的 URL | [https://akari.io/adi/](https://akari.io/adi/) |
+| "Teams应用程序信息"页的 URL | [https://akari.io/adi](https://akari.io/adi) |
+| 隐私策略的 URL | [https://akari.io/adi-privacy-policy/](https://akari.io/adi-privacy-policy/) |
+| 使用条款 URL | [https://akari.io/adi-terms-and-conditions/](https://akari.io/adi-terms-and-conditions/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,20 +50,20 @@ ms.locfileid: "52258779"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由一位用户提供，关于此应用如何收集和存储组织数据，以及你的组织将拥有对应用收集的数据的控制。
+Akari Solutions Limited 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 进行数据访问
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出 [此应用所需的](https://docs.microsoft.com/graph/permissions-reference) 任何 Microsoft Graph 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>使用的非 Microsoft 服务
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->不使用非 Microsoft 服务。
+>不Microsoft 服务非活动。
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -83,7 +83,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->We are a data processor， not controller. 
+>少数管理员可以通过 PIM MFA 访问 &amp; 应用程序平台组件。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -97,11 +97,11 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone pivot="mcas"
 
-下面将显示 [来自 Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) 目录的信息。
+下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security Information' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37587' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37587" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,19 +111,20 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由一位用户提供，有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+此信息由 Akari Solutions Limited 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 你已审阅并遵循了 Microsoft 标识平台集成清单中概述的所有适用最佳做法吗？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | false |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 否 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 是 |
+| 你的应用是否具有机密客户端？ | 否 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 对于你的应用，应避免使用什么？ | ,<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/> |
 | 你的应用是否公开任何 Web API？ | 否 |
 | 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |

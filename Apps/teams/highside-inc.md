@@ -1,45 +1,46 @@
 ---
-title: BeesApps 的 Beesy 应用程序信息
+title: HighSide， Inc. 的 HighSide 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Beesy 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fdab816d7eb03c7721deaad8e19be7691b23f9f2
+description: HighSide 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: fefb6e186e892327c2014a4ba56dc8559f7047cc
 ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253173"
+ms.locfileid: "52253040"
 ---
-# <a name="beesy"></a>Beesy
+# <a name="highside"></a>HighSide
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2020 年 8 月 6 日</p>
+<p>开发人员上次更新时间：2021 年 4 月 27 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/03a513ab-60d8-4d27-8c9a-5182934a43bb" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001248" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/3c77edc8-0136-4ca2-8d4b-3558923c0e77" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002220" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-BeesApps 提供给 Microsoft 的信息：
+HighSide， Inc 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Beesy |
-| ID | WA200001248 |
-| 功能 | 机器人，选项卡 |
+| 应用名称 | HighSide |
+| ID | WA200002220 |
+| 功能 | 机器人，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | BeesApps |
-| 合作伙伴网站的 URL | [https://www.beesy.me/](https://www.beesy.me/) |
-| 隐私策略的 URL | [https://www.beesy.me/legal/privacypolicy_en.pdf](https://www.beesy.me/legal/privacypolicy_en.pdf) |
-| 使用条款 URL | [https://www.beesy.me/legal/termsofservice_en_v1.03.pdf](https://www.beesy.me/legal/termsofservice_en_v1.03.pdf) |
+| 合作伙伴公司名称 | HighSide， Inc |
+| 合作伙伴网站的 URL | [https://highside.io](https://highside.io) |
+| "Teams应用程序信息"页的 URL | [https://highside.io/secureteams](https://highside.io/secureteams) |
+| 隐私策略的 URL | [https://highside.io/privacy-shield](https://highside.io/privacy-shield) |
+| 使用条款 URL | [https://highside.io/terms-of-service](https://highside.io/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,15 +50,13 @@ BeesApps 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-BeesApps 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
+此信息由 HighSide， Inc 提供有关此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制的信息。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 我们仅存储 UPN ID，以通过 AAD 令牌请求检查系统中是否存在帐户来比较给定的 ID。 | 允许用户登录，并授予应用对 UPN 的访问权限，以启用无提示登录 | d27f56ed-ddc7-4cf8-86ac-721b76c7d287 |
+>此应用程序不使用 Microsoft Graph。
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -72,7 +71,7 @@ BeesApps 提供了此信息，这些信息与此应用程序如何收集和存�
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| 我们访问此数据以在机器人中提供上下文，以将操作直接记录给聊天 (聊天机器人是虚拟助理) 。 | 不会从名单中直接存储任何数据，我们将团队成员与已集成人员进行比较，beesy.me 服务数据，只是匹配。 |  |
+>| 搜索功能 | 用户名 | 搜索功能 |
 
 
 
@@ -80,13 +79,13 @@ BeesApps 提供了此信息，这些信息与此应用程序如何收集和存�
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->无 EUII 日志或 OII 日志
+>应用程序遥测或日志中不显示 OII 或 EUII。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->数据存储在我们的专用服务器上，这些服务器只能通过专用连接 VPN 访问，VPN 受 SSL 证书和密码保护，仅适用于管理员。其他服务器通过专用 vlan 层（始终为专用服务器）进行通信。
+>不适用
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -102,11 +101,24 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35940' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37581' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35940" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37581" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>标识信息
+
+此信息由 HighSide， Inc 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/15/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: 有关 word 文档自动化Excel、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5064432d0cc28a2d260b678ad6abb5c2e6fe70e7
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 14cf8142d1c80fab178aca914d3e999aac5428cf
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093103"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252862"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel到 Word 文档自动化
 

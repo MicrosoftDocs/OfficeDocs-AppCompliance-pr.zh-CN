@@ -1,43 +1,43 @@
 ---
-title: Enterprise DIGITAL MACHINES PTY LTD SharePoint FormMachines for SharePoint的应用程序信息
+title: NoMore 的应用程序信息（按 nomorehours）
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 04/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 适用于 SharePoint 的 FormMachines 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d2793ffd2c43275af52a02032878a6e47660306f
+description: NoMore 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: e3074af68047ef7abb8298aaa063081380a2204b
 ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252782"
+ms.locfileid: "52253059"
 ---
-# <a name="formmachines-for-sharepoint"></a>FormMachines for SharePoint
+# <a name="nomore"></a>NoMore
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2020 年 11 月 3 日</p>
+<p>开发人员上次更新时间：2021 年 4 月 20 日</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200000357" target="_blank">在 AppSource 中查看</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001625" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-企业数字计算机 PTY LTD 提供给 Microsoft 的信息：
+Nomorehours 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | FormMachines for SharePoint |
-| ID | WA200000357 |
-| Office 365支持的客户端 | SharePoint 2016 或更高版本 |
-| 合作伙伴公司名称 | 企业数字计算机 PTY LTD |
-| 合作伙伴网站的 URL | [https://www.formmachines.com/](https://www.formmachines.com/) |
-| 隐私策略的 URL | [https://www.formmachines.com/?dirKey=fm-privacy](https://www.formmachines.com/?dirKey=fm-privacy) |
-| 使用条款 URL | [https://www.formmachines.com/?dirKey=fm-terms-of-use](https://www.formmachines.com/?dirKey=fm-terms-of-use) |
+| 应用名称 | NoMore |
+| ID | WA200001625 |
+| Office 365支持的客户端 | PowerPoint 2016 Mac、PowerPoint web 版、PowerPoint 2013 或更高版本的 Windows |
+| 合作伙伴公司名称 | nomorehours |
+| 合作伙伴网站的 URL | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| 隐私策略的 URL | [https://nomorehours.com/privacy](https://nomorehours.com/privacy) |
+| 使用条款 URL | [https://nomorehours.com/eula](https://nomorehours.com/eula) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,7 +47,7 @@ ms.locfileid: "52252782"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-企业数字计算机 PTY LTD 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
+此信息已由用户不再提供，即此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -55,7 +55,7 @@ ms.locfileid: "52252782"
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated |  (登录名、电子邮件、Azure Guid、displayName、first_login_date_time)  | 允许用户登录并授予应用对 UPN 的访问权限以启用无提示登录，从而使我们能够唯一标识每个用户 | 8c87660f-d36f-41f6-b0ae-025253f380aa |
+>| User.Read | 应用程序 | 电子邮件和名称。 电子邮件在应用程序中用作用户名。 收集电子邮件有助于更快地注册和登录应用程序。 在注册事件的情况下使用名称。 | 电子邮件用于通过 Office 365在某些情况下注册已代表他们接受条款的组织成员的用户。 | 33ccef75-8248-44e8-88d3-24526ca9c2d3 |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -72,20 +72,20 @@ ms.locfileid: "52252782"
 
 >| **权限**  | **说明** |
 >|:----------------|:----------------|
->| 默认值 | 不会&#8217;或对文档进行更改 |
+>| 读写文档 | 可以读取和更改文档 |
 >| 发送数据 | 可以通过 Internet 发送数据 |
 
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->. 我们仅记录错误。 在我们的错误日志中，我们仅记录与错误有关的信息。 不会收集哪个客户端或客户触发了特定错误。 只有支持工程师可以访问错误日志。 错误日志联机查看，而不是下载和查看。 30 天后将自动删除错误日志
+>应用程序遥测或日志中不显示 OII 或 EUII。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->. 数据存储在基于 Azure 美国数据中心中。 客户端提供的数据（如模板和提交）在 DB 中加密。 文件附件存储在专用 Azure BLOB 容器中，用户必须先进行身份验证，然后才能访问它们。 我们最多有两个管理员可以访问我们的生产资产，以进行故障排除和部署。 这两个管理员帐户的分区方式与所有其他帐户不同。 管理员访问权限的数量永远不会超过两个
+>不适用
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -101,11 +101,24 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36144' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37585' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36144" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37585" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>标识信息
+
+此信息已由用户不再提供，即此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

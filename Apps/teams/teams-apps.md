@@ -2,21 +2,21 @@
 title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/05/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 6bc983288ea2acb783fd99a80c6c4dbcfbf83fae
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 029df430f55edfaef5a1c0bbf106c50438e19590
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251041"
+ms.locfileid: "52258819"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
-Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用的 Teams 应用和加载项更快作出决策和作出知情决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/zh-CN/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用的 Teams 应用和加载项更快作出决策和作出知情决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** | **数据处理信息** | **Cloud App Security 信息**  | **应用功能** |
 |:--------|:------------|:----------------------:|:-------------:|:-----------------------------:|:----------------------------------:|:---------------------|

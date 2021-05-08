@@ -2,22 +2,23 @@
 title: 优先级矩阵的应用程序信息 - 由 Appfluence Inc 将电子邮件转换为任务
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/17/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: 优先级矩阵的所有可用安全性和合规性信息 - 将电子邮件转换为任务、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f92f29796daf072b24233bdcc9459d7db82d40bc
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 3f4ba1a7f888c576ae7a87286488d7b5f06037a2
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093145"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52258989"
 ---
 # <a name="priority-matrix---turn-emails-into-tasks"></a>优先级矩阵 - 将电子邮件转换为任务
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2020 年 11 月 17 日</p>
+<p>开发人员上次更新时间：2021 年 4 月 16 日</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104381735" target="_blank">在 AppSource 中查看</a>
 
@@ -105,9 +106,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone pivot="mcas"
 
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
+下面将显示 [来自 Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) 目录的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Information' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667" target="_blank">在新建选项卡中查看</a>
 
@@ -124,7 +125,7 @@ Appfluence Inc 已提供有关此应用程序如何处理身份验证、授权�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 你已审阅并遵循了 Microsoft 标识平台集成清单中概述的所有适用最佳做法吗？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -132,11 +133,11 @@ Appfluence Inc 已提供有关此应用程序如何处理身份验证、授权�
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，
-<br />
-
-<br />
-- 资源所有者密码凭据 (ROPC) 流| |你的应用是否公开任何 Web API？ |是| |您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ |是| |你的应用是否使用预览 API？ |无| |你的应用是否使用已弃用 API？ |无|
+| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/><br/>- 资源所有者密码凭据 (ROPC) 流 |
+| 你的应用是否公开任何 Web API？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

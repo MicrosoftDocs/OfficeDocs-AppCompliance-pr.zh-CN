@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: 适用于电子邮件的 Zoho CRM 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1758a1b5d082b42b68a1385e73007b5ab2beb18a
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 730750ad7dddfcccaa9f940e88e34793d4e35869
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093113"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252892"
 ---
 # <a name="zoho-crm-for-email"></a>用于电子邮件的 Zoho CRM
 

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/27/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: CatchEm 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: db41455aeab7dd5f4f453a0a5181ffeb860bd3fa
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: fb1824ec13ed206fca431fa5936f72ccab569425
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093029"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253133"
 ---
 # <a name="catchem"></a>CatchEm
 

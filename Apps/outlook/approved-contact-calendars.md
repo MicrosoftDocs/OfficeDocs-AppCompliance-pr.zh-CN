@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: CSA STAR 注册表中批准的联系人日历、其数据处理策略、Microsoft Cloud App Security应用程序目录信息和安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 37da37f6e5cad32ce97c4da537bc9ff7bd9d81a4
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b9af5ceadaa2c4b6f5ca79f511f4533f9c63d7e5
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093144"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252983"
 ---
 # <a name="approved-contact-calendars"></a>批准的联系人日历
 

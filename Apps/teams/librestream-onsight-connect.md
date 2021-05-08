@@ -1,46 +1,45 @@
 ---
-title: 以中心为核心的应用程序信息Biz-Effective
+title: Librestream 连接 Onsight 应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/12/2021
+ms.date: 04/13/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关 Centrical 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Onsight 应用程序的所有可用安全性和合规性连接、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8255572428a9fc1bc2ea9dbe30edb558c3fc03ff
+ms.openlocfilehash: c86f5db78265057b47956db0314a493140bf53bd
 ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253163"
+ms.locfileid: "52253038"
 ---
-# <a name="centrical"></a>Centrical
+# <a name="onsight-connect"></a>Onsight 连接
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 1 月 12 日</p>
+<p>开发人员上次更新时间：2021 年 4 月 13 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/7a70b8e4-43ca-46a7-b7c3-eb31b33de397" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001531" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/c01f5608-4ade-4749-aafa-9e5449a5bcb4" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002769" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-由 Microsoft Biz-Effective的信息：
+Librestream 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Centrical |
-| ID | WA200001531 |
+| 应用名称 | Onsight 连接 |
+| ID | WA200002769 |
 | 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Biz-Effective |
-| 合作伙伴网站的 URL | [https://centrical.com](https://centrical.com) |
-| "Teams应用程序信息"页的 URL | [https://centrical.com/solutions/solutions-by-use-case-2/mic...](https://centrical.com/solutions/solutions-by-use-case-2/microsoft-teams-gamification/) |
-| 隐私策略的 URL | [https://centrical.com/privacy](https://centrical.com/privacy) |
-| 使用条款 URL | [https://centrical.com/terms](https://centrical.com/terms) |
+| 合作伙伴公司名称 | Librestream |
+| 合作伙伴网站的 URL | [https://librestream.com](https://librestream.com) |
+| 隐私策略的 URL | [https://librestream.com/onsight-privacy-notice-mobile-2/](https://librestream.com/onsight-privacy-notice-mobile-2/) |
+| 使用条款 URL | [https://librestream.com/support-archives/termsofuse/](https://librestream.com/support-archives/termsofuse/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,7 +49,7 @@ ms.locfileid: "52253163"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由用户Biz-Effective，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+Librestream 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -63,7 +62,9 @@ ms.locfileid: "52253163"
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->不Microsoft 服务非活动。
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>|:-------------------|:--------------------------|:--------------------------|
+>| onsight.librestream.com  | 域作为应用登录的用户名的一部分。 | 域与客户拥有的域名匹配。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -77,19 +78,19 @@ ms.locfileid: "52253163"
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->应用程序遥测或日志中不显示 OII 或 EUII。
+>登录名、呼叫统计信息。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们符合 SOC2 类型 2、ISO 27001 和 GDPR。 我们有多个控制措施来确保数据的隐私和安全性。 我们仅将该数据用于我们的应用程序，不和第三方共享数据。
+>不适用
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>是
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -99,9 +100,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36383' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37579' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36383" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37579" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,24 +112,11 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息已由应用Biz-Effective、授权、应用程序注册最佳做法和其他标识条件的方式提供。
+Librestream 已提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 否 |
-| 应用是否请求方案最小特权权限？ | 是 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
-| 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 否 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 否 |
-| 你的应用是否使用已弃用 API？ | 否 |
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
