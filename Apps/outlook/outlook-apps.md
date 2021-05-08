@@ -2,17 +2,17 @@
 title: Microsoft Outlook应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/04/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft 应用的所有可用安全性和合规性Outlook信息。
 localization_priority: Normal
-ms.openlocfilehash: 49d4830d1c2fd9f1b330d203bc8ec1f28c0d9031
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 66e4a0b681cd3070056d992f794466ecec3018ce
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252943"
+ms.locfileid: "52258979"
 ---
 # <a name="microsoft-outlook-app-security-and-compliance"></a>Microsoft Outlook 应用安全性和合规性
 
@@ -38,7 +38,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  | 是 | 是 |
 | [ServiceDesk Plus for Email](./zoho-corporation-private-limited-servicedesk-plus-for-email.md) | Zoho Corporation Private Limited | **✓** |  | 是 | 是 |
 | [用于加载项的 StarLeaf Outlook](./starleaf-add-in-for-outlook.md) | StarLeaf | **✓** |  | 是 | 是 |
-| [Wrike for Outlook](./wrike-inc-for-outlook.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | 是 | 是 |
+| [Outlook 的 Wrike](./wrike-inc-for-outlook.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | 是 | 是 |
 | [Wunder365](./jiji-technologies-private-limited-wunder365.md) | JiJi Technologies Private Limited | **✓** |  | 是 | 是 |
 | [用于营销自动化的 Zoho 市场活动工具](./zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md) | Zoho Corporation Private Limited | **✓** |  | 是 | 是 |
 | [用于电子邮件的 Zoho CRM](./zoho-corporation-private-limited-crm-for-email.md) | Zoho Corporation Private Limited | **✓** |  | 是 | 是 |

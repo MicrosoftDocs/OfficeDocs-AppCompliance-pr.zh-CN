@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: BrainBot 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b45d2bdc985dea83e925f38ae65222836dd16848
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 74b3ca5d6a674ea7322995eb9941dadcd939b01c
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253382"
+ms.locfileid: "52258859"
 ---
 # <a name="brainbot"></a>BrainBot
 
@@ -121,7 +121,7 @@ This information has been provided by Biggerbrains about how this app handles au
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 否 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | false |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
