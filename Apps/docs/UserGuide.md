@@ -6,12 +6,12 @@ description: 适用于应用合规性计划的 ISV Microsoft 365指南
 keywords: 适用于应用合规性计划的 ISV Microsoft 365指南
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1338edfc5ad4447d9167eea66388cd8d7a65a883
-ms.sourcegitcommit: 47fdc4f6dcfbc1b4c74f7e1e49343b9b1ce6ef9c
+ms.openlocfilehash: a6b0abb55359a16d4651722d776dfb16282edc87
+ms.sourcegitcommit: bb6c1353781d7b6f8b171bf6853b85e42fda656e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/11/2021
-ms.locfileid: "52313259"
+ms.locfileid: "52324081"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>适用于应用合规性计划Microsoft 365合作伙伴的用户指南
 
@@ -150,17 +150,17 @@ ms.locfileid: "52313259"
 
 ![正在审查的证明](../media/existing%20isv%203.png)
 
-## <a name="6---microsoft-365-re-certification-workflow"></a>6. Microsoft 365 Re-Certification工作流：
-
-**Microsoft 365Publisher证明和认证续订工作流：** 
+## <a name="6---microsoft-365-publisher-attestation-and-certification-renewal-workflow"></a>6. Microsoft 365 Publisher证明和认证续订工作流：
 
 Microsoft 365应用合规性计划现在提供年度续订流程。 在此过程中，应用开发人员可以更新其现有Publisher证明调查表和认证Microsoft 365文档。 
 
 **优点：**
 
-- 在 AppSource 中维护你的认证锁屏提醒，以将你的应用与其他应用区分。 
+- 在 AppSource 和团队应用商店中维护你的认证锁屏提醒，以将你的应用与其他应用区别开。 
 - 提高客户对使用认证应用的信心。 
 - 使用更新的认证信息帮助 IT 管理员做出明智的决策。 
+
+合作伙伴中心提供 [新的续订流程](https://partner.microsoft.com/en-us/dashboard/home) ，以提供无缝体验。 从到期日期前 90 天开始，将在合作伙伴中心中显示续订提醒。 定期提醒也会在到期前的 90、60 和 30 天内通过电子邮件发送。
 
 **第 1 层：Publisher证明续订：** 
 
