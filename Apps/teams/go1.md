@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Go1 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2ec34c9ca407831eb4681bf1b548e3c48df81d6a
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: f812e25e3e5b894d7b54da886637513cb677702a
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250670"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553113"
 ---
 # <a name="go1"></a>Go1
 
@@ -34,7 +34,6 @@ Go1 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Go1 |
 | ID | WA200001484 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Go1 |
 | 合作伙伴网站的 URL | [https://www.go1.com/](https://www.go1.com/) |
@@ -68,14 +67,13 @@ Go1 提供给 Microsoft 的信息：
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-------------------|:--------------------------|:--------------------------|
->| 在播放课程内容时，用户可以与 GO1 的内容提供商共享名字和姓氏。 这仅在内容提供程序需要提供一种丰富的学习体验时共享。 |  | 不适用 |
+>| 在播放课程内容时，用户可以与 GO1 的内容提供商共享名字和姓氏。 这仅在内容提供程序需要提供一种丰富的学习体验时共享。 |  | 无 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

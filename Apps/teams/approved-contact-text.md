@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 文本的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Text 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 477983aec1aeb8d25b3b0766c41fe7bc66d479a0
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 2cc4abf4924ca9af1ddd5b49b6a38c4427f3404a
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251081"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552383"
 ---
 # <a name="text"></a>文本
 
@@ -21,7 +21,7 @@ ms.locfileid: "52251081"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>开发人员上次更新时间：2019 年 12 月 16 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/a622ceb4-b6e2-4557-8218-e22e80975ba4" target="_blank">在 Teams 应用商店中查看</a>
+* <a href="https://teams.microsoft.com/l/app/a622ceb4-b6e2-4557-8218-e22e80975ba4" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000383" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
@@ -34,8 +34,7 @@ ms.locfileid: "52251081"
 |:----------------|:-------------|
 | 应用名称 | 文本 |
 | ID | WA200000383 |
-| 功能 | 机器人，选项卡 |
-| 支持的 Office 365 客户端 | Microsoft Teams |
+| Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Approved Contact |
 | 合作伙伴网站的 URL | [https://sales.approvedcontact.com/syniverse-microsoft-teams...](https://sales.approvedcontact.com/syniverse-microsoft-teams-text/) |
 | 隐私策略的 URL | [https://sales.approvedcontact.com/wp-content/uploads/text-p...](https://sales.approvedcontact.com/wp-content/uploads/text-privacy-policy.pdf) |
@@ -51,24 +50,24 @@ ms.locfileid: "52251081"
 
 批准联系人提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 进行数据访问
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出 [此应用所需的](https://docs.microsoft.com/graph/permissions-reference) 任何 Microsoft Graph 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | delegated | 对于文本自动程序，我们将捕获团队标识符，以创建入站文本消息的未来频道。 | 允许我们为用户创建 Teams 频道。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| Group.ReadWrite.All | delegated | 对于文本自动程序，我们将捕获团队标识符，以创建入站文本消息的未来频道。 | 允许我们Teams频道。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 >| email | delegated |  | 获取用户联系人信息。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 >| offline_access | delegated | 刷新令牌存储在我们的数据库中。 | 用于将刷新令牌保留到我们的数据库中，以在用户日历不存在时同步它们。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 >| openid | delegated |  | 允许用户登录。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 >| 个人资料 | delegated |  |  | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 
 
-#### <a name="non-microsoft-services-used"></a>使用的非 Microsoft 服务
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->不使用非 Microsoft 服务。
+>不Microsoft 服务非活动。
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -77,7 +76,6 @@ ms.locfileid: "52251081"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 我们使用名单来比较团队中每个人在开放时间安排会议的忙/闲时间。 | 我们只需存储电子邮件地址，以便可以比较忙/闲时间。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -104,9 +102,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone pivot="mcas"
 
-下面将显示 [来自 Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) 目录的信息。
+下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security Information' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35752' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35752' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35752" target="_blank">在新建选项卡中查看</a>
 

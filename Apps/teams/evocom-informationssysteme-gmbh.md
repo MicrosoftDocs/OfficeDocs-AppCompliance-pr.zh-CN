@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Evocom 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4e72a8116eba9e2f091806cf2b5e1d07e95f93c2
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 69eed6c53706cb64ea4c4af64d455e01ecc98c9f
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250690"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553163"
 ---
 # <a name="evocom"></a>Evocom
 
@@ -34,7 +34,6 @@ Evocom Informationssysteme GmbH 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Evocom |
 | ID | WA200002050 |
-| 功能 | 选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Evocom Informationssysteme GmbH |
 | 合作伙伴网站的 URL | [https://www.evocom.de/](https://www.evocom.de/) |
@@ -75,7 +74,6 @@ Evocom Informationssysteme GmbH 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 个性化。 个人通知、电子邮件。 | 名称、电子邮件地址、图片、ID | 性能。 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

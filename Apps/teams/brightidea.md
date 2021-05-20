@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Brightidea 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d3dfa6b275015e87faf3b5f0c1a516ec31f1e14c
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 0ef99ec3d04a72624f002c05f6a120a34f674b8a
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253381"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553283"
 ---
 # <a name="brightidea"></a>Brightidea
 
@@ -34,7 +34,6 @@ Brightidea 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Brightidea |
 | ID | WA200002795 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Brightidea |
 | 合作伙伴网站的 URL | [https://www.brightidea.com](https://www.brightidea.com) |
@@ -75,7 +74,6 @@ Brightidea 提供了此信息，这些信息与此应用程序如何收集和存
 >| 将创意提交者Teams到其 Brightidea 帐户 | 否 |  |
 
 
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
@@ -86,7 +84,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->不适用
+>无
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

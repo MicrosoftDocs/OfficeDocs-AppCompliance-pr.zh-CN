@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ezTeam 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cd6d7c3880cbf25db68a16c3780f11f2af1b1158
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: da54d5a540fd43c2bdc25a6f4e31ba88520ecbc3
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250700"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553173"
 ---
 # <a name="ezteam"></a>ezTeam
 
@@ -34,7 +34,6 @@ EnterprizID Inc 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | ezTeam |
 | ID | WA200002546 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | EnterprizID Inc |
 | 合作伙伴网站的 URL | [https://enterprizid.com](https://enterprizid.com) |
@@ -58,30 +57,30 @@ EnterprizID Inc 提供给 Microsoft 的信息：
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.Read.All | delegated | 应用程序列表Teams，以便我们可以在请求创建过程中Teams列表 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Application.Read.All | delegated | 允许此应用代表已登录的用户读取应用程序和服务主体。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Directory.AccessAsUser.All | delegated | 允许应用以登录用户身份访问目录中的信息。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| AppCatalog.Read.All | delegated | 应用程序列表Teams，以便我们可以在请求创建过程中Teams列表 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Application.Read.All | delegated | 允许此应用代表已登录的用户读取应用程序和服务主体。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.AccessAsUser.All | delegated | 允许应用以登录用户身份访问目录中的信息。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
 >| Directory.Read.All | delegated | 允许应用程序读取组织目录中的数据，如用户、组和应用程序。 | Teams所有权和成员身份信息  | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Directory.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取组织目录中的数据（如用户、组和应用）。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Directory.ReadWrite.All | delegated | 允许应用读取和写入组织目录中的数据，例如用户和组 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Directory.ReadWrite.All | 应用程序 | 允许应用在没有登录用户的情况下读取和写入组织目录中的数据（如用户和组）。不允许删除用户或组。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取组织目录中的数据（如用户、组和应用）。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.ReadWrite.All | delegated | 允许应用读取和写入组织目录中的数据，例如用户和组 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.ReadWrite.All | 应用程序 | 允许应用在没有登录用户的情况下读取和写入组织目录中的数据（如用户和组）。不允许删除用户或组。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
 >| Files.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取所有网站集中的全部文件。 | 最终用户管理下的数据量（以 GB 为单位） | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
 >| Group.Create | 应用程序 | 允许应用在没有登录用户的情况下创建组。 | 新的组属性详细信息。 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Group.Read.All | delegated | 允许应用代表登录用户列出组，并读取其属性以及所有组成员身份。 用于确定我的Teams  | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Group.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取组属性和成员身份，并读取所有组的日历和对话。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Group.ReadWrite.All | delegated | 允许应用代表登录用户创建组并读取所有组属性和成员身份。  | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.Read.All | delegated | 允许应用代表登录用户列出组，并读取其属性以及所有组成员身份。 用于确定我的Teams  | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取组属性和成员身份，并读取所有组的日历和对话。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.ReadWrite.All | delegated | 允许应用代表登录用户创建组并读取所有组属性和成员身份。  | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
 >| Group.ReadWrite.All | 应用程序 | 允许应用创建组、读取所有组属性和成员身份、更新组属性和成员身份以及删除组。 还允许应用读取和写入组日历和对话。  | 团队的最后一次活动。 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| GroupMember.Read.All | 应用程序 | 允许应用在没有已登录用户的情况下读取所有组的成员身份和基本组属性。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| GroupMember.ReadWrite.All | 应用程序 | 允许应用在没有已登录用户的情况下列出组、读取基本属性、读取和更新应用有权访问的组的成员身份。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| People.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取任何用户的相关人的得分列表。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Reports.Read.All | delegated | 允许应用代表已登录用户读取所有服务使用情况报告。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| GroupMember.Read.All | 应用程序 | 允许应用在没有已登录用户的情况下读取所有组的成员身份和基本组属性。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| GroupMember.ReadWrite.All | 应用程序 | 允许应用在没有已登录用户的情况下列出组、读取基本属性、读取和更新应用有权访问的组的成员身份。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| People.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取任何用户的相关人的得分列表。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Reports.Read.All | delegated | 允许应用代表已登录用户读取所有服务使用情况报告。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
 >| Reports.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取所有服务使用情况报告。 | 每个组的上一个用户活动 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
 >| Sites.ReadWrite.All | 应用程序 | 允许应用在没有登录用户的情况下创建、读取、更新和删除所有网站集中的文档和列表项。 | 按每个用户的大小排名前 10 个网站 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| User.Read | delegated | 允许用户登录应用，并允许应用读取登录用户的个人资料。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| User.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取用户配置文件。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| User.Read | delegated | 允许用户登录应用，并允许应用读取登录用户的个人资料。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| User.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取用户配置文件。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
 >| offline_access | delegated | 允许应用查看和更新你向它提供访问权限的数据，即使用户当前没有使用该应用。  | 自动程序通知 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| openid | delegated | 允许用户以其工作或学校帐户登录应用，并允许应用查看用户的基本个人资料信息。 | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| 个人资料 | delegated | 允许应用查看用户的基本个人资料 (姓名、图片、用户名)  | 不适用 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| openid | delegated | 允许用户以其工作或学校帐户登录应用，并允许应用查看用户的基本个人资料信息。 | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| 个人资料 | delegated | 允许应用查看用户的基本个人资料 (姓名、图片、用户名)  | 无 | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -97,7 +96,6 @@ EnterprizID Inc 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 欢迎消息、审批和证明流程通知 | 我们存储显示名称的标识  | 我们的工具允许最终用户创建对不同服务项的请求，并存储请求者显示名称。 请求将遵循审批工作流，我们需要审批者显示名称才能显示在请求详细信息中。 此外，在团队认证过程中的成员中，我们显示名称成员的列表。 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

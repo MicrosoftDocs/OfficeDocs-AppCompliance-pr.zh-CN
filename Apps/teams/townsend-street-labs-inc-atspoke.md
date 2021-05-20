@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: atSpoke 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 14f44eb8a74cde9a7803e079e561f93f0391561b
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 9a159ce3ac976eb1916cd94b3eb1cf002f8e13c1
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52248060"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52551192"
 ---
 # <a name="atspoke"></a>atSpoke
 
@@ -34,7 +34,6 @@ ms.locfileid: "52248060"
 |:----------------|:-------------|
 | 应用名称 | atSpoke |
 | ID | WA200001454 |
-| 功能 | 机器人 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Townsend Street Labs, Inc. |
 | 合作伙伴网站的 URL | [https://www.atspoke.com](https://www.atspoke.com) |
@@ -77,7 +76,6 @@ ms.locfileid: "52248060"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 它允许 atSpoke 从用户Microsoft Teams创建用户和定义权限。 | atSpoke 仅存储电子邮件Microsoft Teams用户可以以有效用户登录 atSpoke。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

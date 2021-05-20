@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: 适用于 Outlook 的 iPlanner Office 365 Planner 外接程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 511b5f00bba5851f4f5a87ea65c39d3946a0313e
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: c7eef95df6de269d9e383e604aa8ff32518584e1
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251751"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552533"
 ---
 # <a name="iplanner-office-365-planner-add-in-for-outlook"></a>iPlanner Office 365 Planner 外接程序Outlook
 
@@ -85,15 +85,6 @@ iGlobe 提供给 Microsoft 的信息：
 >不Microsoft 服务非活动。
 
 
-
-#### <a name="add-in-data-access"></a>加载项数据访问
-
-列出此应用程序访问组织数据所需的权限、此权限的理由和用途 (应用程序对 ) 使用此信息的目的，以及应用程序是否在其数据库中存储此信息。
-
->| **权限**  | **说明** |
->|:----------------|:----------------|
->| ReadWrite Mailbox | 此外接程序可以读取或修改邮箱中任何项目的内容，并创建新项目。 它可以访问任何邮件或日历项中的个人信息，如正文、主题、发件人、收件人或附件。 它可能会向第三方服务发送此数据。 |
->| 发送数据 | 可以通过 Internet 发送数据 |
 
 #### <a name="telemetry-data"></a>遥测数据
 

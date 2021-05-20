@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 针对 Polly 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4c7c512b226f39c765eb64886d5cb52e5fd4b441
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 09b6979e569195eff0f2e841c8bd95d7c3b51b62
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251161"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552843"
 ---
 # <a name="polly"></a>Polly
 
@@ -34,7 +34,6 @@ ms.locfileid: "52251161"
 |:----------------|:-------------|
 | 应用名称 | Polly |
 | ID | WA104381060 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Polly |
 | 合作伙伴网站的 URL | [https://www.polly.ai](https://www.polly.ai) |
@@ -72,7 +71,6 @@ ms.locfileid: "52251161"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 提供用户和频道列表 | 全部 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

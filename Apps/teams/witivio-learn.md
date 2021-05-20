@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 Learn 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 724ecb5bd0eb5365ea06af4fda0b51b4fd23b157
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: acb0b07f25bc3fa2e86246a061ff73d3152b9810
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253243"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52550852"
 ---
 # <a name="learn"></a>学习
 
@@ -34,7 +34,6 @@ ms.locfileid: "52253243"
 |:----------------|:-------------|
 | 应用名称 | 学习 |
 | ID | WA200001308 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Witivio |
 | 合作伙伴网站的 URL | [https://www.witivio.com/learn](https://www.witivio.com/learn) |
@@ -57,10 +56,10 @@ ms.locfileid: "52253243"
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 不适用 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| User.ReadBasic.All | delegated | 不适用 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| openid | delegated | 不适用 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| 个人资料 | delegated | 不适用 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
+>| User.Read | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
+>| User.ReadBasic.All | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
+>| openid | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
+>| 个人资料 | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -76,7 +75,6 @@ ms.locfileid: "52253243"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 我们使用名单：1) 授权 (授予对自动程序) 的访问权限，2) 检测名字以提供友好 UX;3) 为聊天机器人的业务管理员管理聊天日志 | N/A。 或者自动程序仅个人 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

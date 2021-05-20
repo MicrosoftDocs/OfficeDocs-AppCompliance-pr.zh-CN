@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Prezi Video 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7f35632fb44a471af5e0675a3d0463ded2c84b5a
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 8b689869b4c8799d396a61ccbecd0d1b4a4e5c51
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251151"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552833"
 ---
 # <a name="prezi-video"></a>Prezi Video
 
@@ -34,7 +34,6 @@ Prezi 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Prezi Video |
 | ID | WA200001577 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Prezi |
 | 合作伙伴网站的 URL | [https://prezi.com](https://prezi.com) |
@@ -73,7 +72,6 @@ Prezi 提供了此信息，这些信息与此应用程序如何收集和存储�
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 机器人无法访问提及的名单信息。 | 机器人无法访问提及的名单信息。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

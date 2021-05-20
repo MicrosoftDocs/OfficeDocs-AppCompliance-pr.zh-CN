@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Nugget 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d64477546191bbcfff12580f2b5816070d443229
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 1d5f6adea09ed546fae6b6c9ca0aa4ef13beb683
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251181"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552863"
 ---
 # <a name="nugget"></a>Nugget
 
@@ -34,7 +34,6 @@ Panviva 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Nugget |
 | ID | WA200001737 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Panviva |
 | 合作伙伴网站的 URL | [https://www.panviva.com](https://www.panviva.com) |
@@ -71,12 +70,11 @@ Panviva 提供了此信息，这些信息与此应用程序如何收集和存储
 >无法访问 EUII。
 
 
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->对。
+>是。
 Teams用户 ID：需要此 ID，以便我们可以检索有关他们位于哪个租户以及用户是否是管理员的信息。
 Teams ID：存储此 ID，以便我们可以检索租户中的用户并检索该特定租户的订阅详细信息。
 

@@ -6,14 +6,14 @@ ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: InVision 自由处理的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: InVision 自由处理的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fa9a02b63eff4001789f5a7c854fd9ee554d6e84
-ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
+ms.openlocfilehash: 76c6931b44a767d425baa07a84c86d7a44a3a64d
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52258769"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553043"
 ---
 # <a name="freehand-by-invision"></a>Freehand by InVision
 
@@ -21,7 +21,7 @@ ms.locfileid: "52258769"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>开发人员上次更新时间：2021 年 5 月 6 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/67cf2c5a-db0e-4256-a423-14010cbeafdd" target="_blank">在 Teams 应用商店中查看</a>
+* <a href="https://teams.microsoft.com/l/app/67cf2c5a-db0e-4256-a423-14010cbeafdd" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381362" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
@@ -34,11 +34,10 @@ InVision 应用提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Freehand by InVision |
 | ID | WA104381362 |
-| 功能 | 选项卡 |
-| 支持的 Office 365 客户端 | Microsoft Teams |
+| Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | InVision 应用 |
 | 合作伙伴网站的 URL | [https://www.invisionapp.com/](https://www.invisionapp.com/) |
-| Teams 应用程序信息页的 URL | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
+| "Teams应用程序信息"页的 URL | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
 | 隐私策略的 URL | [https://www.invisionapp.com/privacy](https://www.invisionapp.com/privacy) |
 | 使用条款 URL | [https://www.invisionapp.com/terms](https://www.invisionapp.com/terms) |
 
@@ -52,18 +51,18 @@ InVision 应用提供给 Microsoft 的信息：
 
 此信息由 InVision 应用提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 进行数据访问
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出 [此应用所需的](https://docs.microsoft.com/graph/permissions-reference) 任何 Microsoft Graph 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>使用的非 Microsoft 服务
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-------------------|:--------------------------|:--------------------------|
 >| https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors |
 
@@ -72,7 +71,6 @@ InVision 应用提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
-
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -99,9 +97,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone pivot="mcas"
 
-下面将显示 [来自 Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) 目录的信息。
+下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security Information' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20788' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20788' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/20788" target="_blank">在新建选项卡中查看</a>
 
@@ -118,7 +116,7 @@ InVision 应用已提供有关此应用如何处理身份验证、授权、应�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 你已审阅并遵循了 Microsoft 标识平台集成清单中概述的所有适用最佳做法吗？  | 否 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 否 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 否 |

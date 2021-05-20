@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SmartWork 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ac3365dd3b37fcc89ac63db89fc3f233a68ae045
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 4e757f0d927d10ecbccb406d8d4071b52b234deb
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52249890"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552783"
 ---
 # <a name="smartwork"></a>SmartWork
 
@@ -34,7 +34,6 @@ Intumit 的 SmartWork 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | SmartWork |
 | ID | WA200001149 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SmartWork of Intumit |
 | 合作伙伴网站的 URL | [https://www.intumit.com](https://www.intumit.com) |
@@ -73,7 +72,6 @@ Intumit 的 SmartWork 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 用于标识用户的邮件是否来自有效的 AAD | 用于标识用户是否来自有效 AAD 的已存储用户的邮件列表 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

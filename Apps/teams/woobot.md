@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于开发工具的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b87e35439eb7287aefa5ea8e60049d0564c8bd83
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: db31998a57de8faf11ebd7fff774842629654651
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252002"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52550822"
 ---
 # <a name="woobot"></a>Woobot
 
@@ -34,7 +34,6 @@ ms.locfileid: "52252002"
 |:----------------|:-------------|
 | 应用名称 | Woobot |
 | ID | WA104381664 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Woobot |
 | 合作伙伴网站的 URL | [https://woobot.io](https://woobot.io) |
@@ -72,7 +71,6 @@ ms.locfileid: "52252002"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 为了将 Salesforce 用户映射到Teams用户，我们需要团队用户 ID 列表。 我们还存储团队和频道名称，以便用户可以向这些团队发送通知。 此外，我们还存储了哪些团队用户 ID 已由应用欢迎，哪些 ID 已由应用欢迎，以便当新用户加入团队时，用户可以亲自欢迎该用户。 我们还存储团队和频道名称，以便用户可以向这些团队发送通知。 |  用户 ID、团队 ID 和团队名称、频道 ID 和频道名称，以及哪些用户是其中Teams。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

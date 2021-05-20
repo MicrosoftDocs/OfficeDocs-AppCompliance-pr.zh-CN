@@ -1,45 +1,45 @@
 ---
-title: TINYpulse 的应用程序信息（由 TINYpulse 提供）
+title: Smarter Business Solution GmbH 的 TagTeam 应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/10/2021
+ms.date: 04/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: TINYpulse 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: TagTeam 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1083132af81b1a547eb2664b81e6048e7be4314d
+ms.openlocfilehash: 5c4976272cd5ee2f280544bf1bb6fb674ca5297d
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551342"
+ms.locfileid: "52553312"
 ---
-# <a name="tinypulse"></a>TINYpulse
+# <a name="tagteam"></a>TagTeam
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 3 月 10 日</p>
+<p>开发人员上次更新时间：2021 年 4 月 21 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/1950b3dc-66fc-4c5f-bbbe-e411ad91a49f" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381729" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/6d7f01cb-cfa5-48d9-beed-363d381ae32b" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002829" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-TINYpulse 提供给 Microsoft 的信息：
+Smarter Business Solution GmbH 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | TINYpulse |
-| ID | WA104381729 |
+| 应用名称 | TagTeam |
+| ID | WA200002829 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | TINYpulse |
-| 合作伙伴网站的 URL | [https://www.tinypulse.com/](https://www.tinypulse.com/) |
-| "Teams应用程序信息"页的 URL | [https://www.tinypulse.com/engage](https://www.tinypulse.com/engage) |
-| 隐私策略的 URL | [https://www.tinypulse.com/privacy-policy](https://www.tinypulse.com/privacy-policy) |
-| 使用条款 URL | [https://www.tinypulse.com/terms-of-use](https://www.tinypulse.com/terms-of-use) |
+| 合作伙伴公司名称 | Smarter Business Solution GmbH |
+| 合作伙伴网站的 URL | [https://www.smarterbusiness.at/en](https://www.smarterbusiness.at/en) |
+| "Teams应用程序信息"页的 URL | [https://www.smarterbusiness.at/en/tagteam-help](https://www.smarterbusiness.at/en/tagteam-help) |
+| 隐私策略的 URL | [https://www.smarterbusiness.at/en/add-in-privacy-policy](https://www.smarterbusiness.at/en/add-in-privacy-policy) |
+| 使用条款 URL | [https://www.smarterbusiness.at/en/terms-of-use-for-tagteam](https://www.smarterbusiness.at/en/terms-of-use-for-tagteam) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,13 +49,18 @@ TINYpulse 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 TINYpulse 提供有关此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制的信息。
+Smarter Business Solution GmbH 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->此应用程序不使用 Microsoft Graph。
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
+>| ChannelMessage.Read.All | delegated | 我们不会收集此数据 - 仅用于显示带标记的对话。 我们喜欢将它更改为搜索 API，Graph API 目前不支持此功能。  | 无 | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
+>| User.Read | delegated | 显示User-Information (，例如选项卡) 名称 | 无 | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
+>| User.ReadBasic.All | delegated | 在User-Avatars选项卡中显示选项卡 | 无 | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
+>| openid | delegated | 仅适用于 SignIn - 不存储任何数据 | 无 | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -81,13 +86,13 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们不会将数据共享到合作伙伴的系统
+>我们仅将描述的数据存储在 Azure Cosmos DB 中。 我们不会与其他 Parnter 的系统共享！
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>是
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -97,9 +102,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/34569' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38164' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/34569" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38164" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -109,7 +114,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 TINYpulse 提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+Smarter Business Solution GmbH 提供了此信息，这些信息与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -120,11 +125,12 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 否 |
+| 你的应用是否具有机密客户端？ | 是 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 否 |
-| 你的应用是否使用预览 API？ | 否 |
+| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/><br/>- 资源所有者密码凭据 (ROPC) 流 |
+| 你的应用是否公开任何 Web API？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 是 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

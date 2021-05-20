@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Adobe Sign 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7e2e11994a8cf7ede0e8c3e0bf33b015251116ad
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 7cb238a768ae020e13865748be5d0df96ebb35ca
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252732"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552423"
 ---
 # <a name="adobe-sign"></a>Adobe Sign
 
@@ -33,7 +33,6 @@ Adobe Systems Inc. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Adobe Sign |
 | ID | WA104381233 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Adobe Systems Inc. |
 | 合作伙伴网站的 URL | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
@@ -84,7 +83,6 @@ Adobe Systems Inc. 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 用于自定义聊天消息和身份验证 | UserPrincipalName、name、email 和 objectId | 我们存储此信息用于自定义异步响应和身份验证目的 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: 有关采用自动程序 C.AI 其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0f4266baac0d62338554fb089347cff28829f99e
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 91a10acdc85e36fcf57a16b66797ae427ab39b1b
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250913"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552263"
 ---
-# <a name="cai-adoption-bot"></a>C.AI 采用机器人
+# <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,9 +32,8 @@ ms.locfileid: "52250913"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | C.AI 采用机器人 |
+| 应用名称 | C.AI Adoption Bot |
 | ID | WA200002633 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | contexxt.ai |
 | 合作伙伴网站的 URL | [https://www.contexxt.ai](https://www.contexxt.ai) |
@@ -72,7 +71,6 @@ ms.locfileid: "52250913"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 无法从技术上避免，Microsoft Teams自动将其 (用户 id) 发送 | 否 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

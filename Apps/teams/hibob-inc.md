@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Hibob 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5dc76a2f8a2ee57e23e3e581f069503fd2239bc1
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: f2eae876022c6213b5f39532f44de4c127c3655e
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250630"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553093"
 ---
 # <a name="hibob"></a>Hibob
 
@@ -34,7 +34,6 @@ Hibob Inc. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Hibob |
 | ID | WA200000765 |
-| 功能 | 机器人 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Hibob Inc. |
 | 合作伙伴网站的 URL | [https://www.hibob.com/](https://www.hibob.com/) |
@@ -71,7 +70,6 @@ Hibob Inc. 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| rooster 用于根据电子邮件Teams用户与 bob 用户匹配。 匹配用于 - 标识、通知、指向Teams的链接。 | 仅使用和存储 UPN 属性。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

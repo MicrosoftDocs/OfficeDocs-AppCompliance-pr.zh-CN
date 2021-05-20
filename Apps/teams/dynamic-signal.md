@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关动态信号的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 19391d80121046303135b26da6714bb700bc7f73
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 0d3c59f6809bafe16eec2a1d709f40a980576b1b
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250730"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552223"
 ---
 # <a name="dynamic-signal"></a>Dynamic Signal
 
@@ -34,7 +34,6 @@ ms.locfileid: "52250730"
 |:----------------|:-------------|
 | 应用名称 | Dynamic Signal |
 | ID | WA200000102 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Dynamic Signal |
 | 合作伙伴网站的 URL | [https://dynamicsignal.com](https://dynamicsignal.com) |
@@ -77,7 +76,6 @@ ms.locfileid: "52250730"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| openid 使用 openid directory.readwrite.all 访问租户的域和组，向团队添加应用offline_access保留租户组和团队的访问权限 | openid 允许独立身份验证。 directory.readwrite.all 对租户的域和组的访问权限，将应用添加到团队 offline_access 保留对租户组和团队的访问权限 注意：动态信号的应用程序使用团队机器人将动态信号中创建的组和权限应用到 Teams 以便动态信号中处于活动状态的用户可以访问 Teams 内的相同组和用户。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Sympli 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 06fc9e2b8454c39e5cc93d1cd39932e8bf972e96
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 52881ca94c9d40d017e1585988fa9a95c5db8392
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52248340"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552703"
 ---
 # <a name="sympli"></a>Sympli
 
@@ -34,7 +34,6 @@ Sympli，LLC 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Sympli |
 | ID | WA200001551 |
-| 功能 | 机器人，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Sympli, LLC |
 | 合作伙伴网站的 URL | [https://sympli.io](https://sympli.io) |
@@ -74,7 +73,6 @@ Sympli，LLC 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 用户的给定名称用于扩充对话 UX。 | 否 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

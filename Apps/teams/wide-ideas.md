@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关"广泛想法"的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7d1186c5a9c17d2bf835569dad87e0f36aaf1d3c
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: f1fc5d97736ba587595ef6c742b14ce75c0b1863
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252212"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52550892"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -34,7 +34,6 @@ ms.locfileid: "52252212"
 |:----------------|:-------------|
 | 应用名称 | Wide Ideas |
 | ID | WA200000819 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Wide Ideas |
 | 合作伙伴网站的 URL | [https://getwideideas.com](https://getwideideas.com) |
@@ -68,7 +67,7 @@ ms.locfileid: "52252212"
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Mailjet 用于电子邮件通知的电子邮件。 |  | 不适用 |
+>| Mailjet 用于电子邮件通知的电子邮件。 |  | 无 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -77,7 +76,6 @@ ms.locfileid: "52252212"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 为了在后端创建用户并授予访问链接到团队的内容的权限。 | 存储：名称 - 显示用户名称，电子邮件地址 - 标识用户 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

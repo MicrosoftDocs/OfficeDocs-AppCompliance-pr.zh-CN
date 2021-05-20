@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Breakthru 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fff1b1bb443be6866570035f16897a71e7458455
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 322ef10a543606caa49e08e1886bb1108153c083
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253143"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552323"
 ---
 # <a name="breakthru"></a>Breakthru
 
@@ -34,7 +34,6 @@ Breakthru 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Breakthru |
 | ID | WA200002243 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Breakthru |
 | 合作伙伴网站的 URL | [https://breakthru.me](https://breakthru.me) |
@@ -72,7 +71,6 @@ Breakthru 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 显示用户的历史记录统计信息  | email | 标识用户统计信息 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

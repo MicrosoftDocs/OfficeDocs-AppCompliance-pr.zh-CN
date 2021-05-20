@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Kronos 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2bc3f93ff83c3b284b97632806c5bff826806666
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 3a20e3a40ce61d6610b6f36e4c2943da1e9293d2
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251301"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552993"
 ---
 # <a name="kronos"></a>Kronos
 
@@ -34,7 +34,6 @@ Kronos， Inc. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Kronos |
 | ID | WA104381629 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Kronos, Inc. |
 | 合作伙伴网站的 URL | [https://www.kronos.com/](https://www.kronos.com/) |
@@ -70,7 +69,6 @@ Kronos， Inc. 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

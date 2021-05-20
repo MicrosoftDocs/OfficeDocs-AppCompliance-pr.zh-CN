@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Qubie 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: aea17d24b3fbe2f840c21947213fefc7a4bfb283
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 0bbba08dde8cfe2fe19d9aee9de1720a8ef64a77
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252352"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552803"
 ---
 # <a name="qubie"></a>Qubie
 
@@ -34,7 +34,6 @@ Qubie 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Qubie |
 | ID | WA104381933 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Qubie |
 | 合作伙伴网站的 URL | [https://www.questback.com/our-products/performance-suite/te...](https://www.questback.com/our-products/performance-suite/teams-triumph-with-qubie/) |
@@ -72,7 +71,6 @@ Qubie 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 删除团队聊天中的注释时显示名称，并响应用户提交 Bug 或发送问题。 响应用户，指出存在 Bug 或存在问题。 显示团队性能问题时显示，以便用户知道问题的上下文。 显示报告和图形时显示团队名称。 | 显示名称、电子邮件地址、团队名称  |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

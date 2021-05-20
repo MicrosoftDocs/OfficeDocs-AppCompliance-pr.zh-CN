@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Goodera 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ee377f810df40253b3582dd3e127453a2a1520c3
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 55b69d4abaedb8f838f201812e11db2cc9aac39f
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252582"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552143"
 ---
 # <a name="goodera"></a>Goodera
 
@@ -34,11 +34,10 @@ Goodera 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Goodera |
 | ID | WA200002136 |
-| 功能 | 机器人，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Goodera |
 | 合作伙伴网站的 URL | [https://about.goodera.com](https://about.goodera.com) |
-| "Teams应用程序信息"页的 URL | [不适用](N/A) |
+| "Teams应用程序信息"页的 URL | [无](N/A) |
 | 隐私策略的 URL | [https://about.goodera.com/privacy](https://about.goodera.com/privacy) |
 | 使用条款 URL | [https://about.goodera.com/terms](https://about.goodera.com/terms) |
 
@@ -74,7 +73,6 @@ Goodera 提供给 Microsoft 的信息：
 >| 我们访问用户的电子邮件 ID，以便识别用户并帮助他们注册志愿者机会。 | 电子邮件 ID | 仅存储此 PII，以便我们知道用户注册了哪些志愿者机会。 |
 
 
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
@@ -85,7 +83,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->不适用
+>无
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

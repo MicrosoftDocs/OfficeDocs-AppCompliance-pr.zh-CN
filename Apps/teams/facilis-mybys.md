@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Mybys 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ecdb9594167eb0428b42996b2fc6046febb73109
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: ff78bfc3a2cab87e0d4c48dbd4707eb3fba1dd02
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252602"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552163"
 ---
 # <a name="mybys"></a>Mybys
 
@@ -34,7 +34,6 @@ Facilis 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Mybys |
 | ID | WA200002605 |
-| 功能 | 机器人，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Facilis |
 | 合作伙伴网站的 URL | [https://facilisglobal.com/](https://facilisglobal.com/) |
@@ -72,7 +71,6 @@ Facilis 提供了此信息，这些信息与此应用程序如何收集和存储
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 我们需要检索人员的姓名。 | 否 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

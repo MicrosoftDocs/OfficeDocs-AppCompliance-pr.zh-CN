@@ -6,12 +6,12 @@ description: 适用于应用合规性计划的 ISV Microsoft 365指南
 keywords: 适用于应用合规性计划的 ISV Microsoft 365指南
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: a6b0abb55359a16d4651722d776dfb16282edc87
-ms.sourcegitcommit: bb6c1353781d7b6f8b171bf6853b85e42fda656e
+ms.openlocfilehash: b8560fe46bbad2710001467e9edfeab72d6e0cb7
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52324081"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52549923"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>适用于应用合规性计划Microsoft 365合作伙伴的用户指南
 
@@ -168,7 +168,7 @@ Microsoft 365应用合规性计划现在提供年度续订流程。 在此过程
 
 **步骤 1：** 选择 **续订** 以续订Publisher证明。 
 
-![Microsoft 365Publisher证明和认证续订工作流 ](../media/1.PNG)
+![Microsoft 365Publisher证明和认证续订工作流 ](../media/AppComplianceExpirationNotice.png)
 
 **步骤 2：** 查看上一Publisher证明答案，并根据需要使用最新信息进行更新。 准备好Publisher提交证明进行续订。 M365 应用合规性分析师将审核它。
 

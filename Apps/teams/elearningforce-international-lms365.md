@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: LMS365 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 03f831a0dd6c1b2b17b7ce12a3d421eb8fe1f10d
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 44ed1631c7d0221b463f518f2494b7a8744eef30
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252642"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552213"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -34,7 +34,6 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | LMS365 |
 | ID | WA104381467 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ELEARNINGFORCE International |
 | 合作伙伴网站的 URL | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
@@ -88,7 +87,6 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 我们仅在机器人欢迎用户时使用名字来显示个性化消息。 | 个人数据存储在专用 Azure 数据库中，供相应客户在 LMS365 应用程序中用于管理管理器仪表板功能 &amp; 。 | 帐户名称、用户显示名称、电子邮件地址、部门、职务、Office、国家/地区、城市、经理 ID/电子邮件 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

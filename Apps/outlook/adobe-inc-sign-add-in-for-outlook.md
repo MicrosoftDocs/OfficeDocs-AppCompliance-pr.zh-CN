@@ -1,5 +1,5 @@
 ---
-title: Adobe Sign for Outlook 的应用程序Add-In Adobe Inc.
+title: Adobe Sign for Application Information for Add-In for Outlook by Adobe Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/22/2021
@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: certified
 description: Adobe Sign Add-In for Outlook 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9110fc8ff683ada1dd2935d819c409996418a7e1
-ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
+ms.openlocfilehash: 98180d11de4dcde3cc8820bddd46a9580a908cd6
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52258999"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552563"
 ---
-# <a name="adobe-sign-add-in-for-outlook"></a>适用于 Outlook Add-In Adobe Sign
+# <a name="adobe-sign-add-in-for-outlook"></a>Adobe Sign Add-In for Outlook
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>开发人员上次更新时间：2021 年 2 月 22 日</p>
@@ -30,9 +30,9 @@ Adobe Inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 适用于 Outlook Add-In Adobe Sign |
+| 应用名称 | Adobe Sign Add-In for Outlook |
 | ID | WA104381158 |
-| 支持的 Office 365 客户端 | Windows 版 Outlook 2013 或更高版本、Mac 版 Outlook 2016 或更高版本、Outlook 网页版 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016或更高版本，Outlook Web 上 |
 | 合作伙伴公司名称 | Adobe Inc. |
 | 合作伙伴网站的 URL | [https://www.adobe.com/](https://www.adobe.com/) |
 | 隐私策略的 URL | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
@@ -48,9 +48,9 @@ Adobe Inc. 提供给 Microsoft 的信息：
 
 此信息由 Adobe Inc. 提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 进行数据访问
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出 [此应用所需的](https://docs.microsoft.com/graph/permissions-reference) 任何 Microsoft Graph 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
@@ -61,22 +61,13 @@ Adobe Inc. 提供给 Microsoft 的信息：
 >| openid | delegated | 电子邮件和 UserId。 登录以确保用户同意使用 Adobe Sign 应用的权限。  | 电子邮件是 Adobe Sign 中用户的唯一标识符。 我们存储电子邮件 ID，以便可以将该用户的所有活动映射到其 Adobe Sign 记录。  | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
 
 
-#### <a name="non-microsoft-services-used"></a>使用的非 Microsoft 服务
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->不使用非 Microsoft 服务。
+>不Microsoft 服务非活动。
 
 
-
-#### <a name="add-in-data-access"></a>加载项数据访问
-
-列出此应用程序访问组织数据所需的权限、此权限的理由和用途 (应用程序对 ) 使用此信息的目的，以及应用程序是否在其数据库中存储此信息。
-
->| **权限**  | **说明** |
->|:----------------|:----------------|
->| ReadWrite Mailbox | 此外接程序可以读取或修改邮箱中任何项目的内容，并创建新项目。 它可以访问任何邮件或日历项中的个人信息，如正文、主题、发件人、收件人或附件。 它可能会向第三方服务发送此数据。 |
->| 发送数据 | 可以通过 Internet 发送数据 |
 
 #### <a name="telemetry-data"></a>遥测数据
 
@@ -88,7 +79,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们在 Microsoft Outlook 应用程序的系统中没有任何客户管理员交互。
+>我们系统对于 Microsoft Outlook 应用程序没有任何客户管理员交互。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -102,9 +93,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone pivot="mcas"
 
-下面将显示 [来自 Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) 目录的信息。
+下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security Information' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11641' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11641' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/11641" target="_blank">在新建选项卡中查看</a>
 
@@ -121,7 +112,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 你已审阅并遵循了 Microsoft 标识平台集成清单中概述的所有适用最佳做法吗？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |

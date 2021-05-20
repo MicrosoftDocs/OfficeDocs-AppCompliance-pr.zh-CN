@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Soapbox 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 67f30267c8ab7af50cea771d8afc3836915d6cc2
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 6e2b43df38aac6307c36c4a2cc8d00fe1c3fb629
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52249780"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552773"
 ---
 # <a name="soapbox"></a>Soapbox
 
@@ -34,7 +34,6 @@ Soapbox 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Soapbox |
 | ID | WA104381501 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Soapbox |
 | 合作伙伴网站的 URL | [https://soapboxhq.com](https://soapboxhq.com) |
@@ -78,12 +77,11 @@ Soapbox 提供给 Microsoft 的信息：
 >| 应用访问团队名单和聊天名单，我们使用它在 SoapBox 中与团队/聊天成员一起创建团队频道 | 用户的姓名、电子邮件、Microsoft 用户 ID，可改善 Microsoft Teams 用户的应用外观，并确保每个用户都可以完全参与会议软件。 |  |
 
 
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->对。 名称、电子邮件和 Microsoft 用户 ID 将在我们的统一日志记录平台中最多显示 30 天，以帮助识别问题并帮助用户使用平台。 30 天后，将从日志记录服务器中删除数据。
+>是。 名称、电子邮件和 Microsoft 用户 ID 将在我们的统一日志记录平台中最多显示 30 天，以帮助识别问题并帮助用户使用平台。 30 天后，将从日志记录服务器中删除数据。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于实时聊天的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3ca3e62c7f1a2e5a8b6aa1ad80427f7ac6c393bc
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 9bc8ccb18fd8e43dd3d59f15fbc324f835e82d93
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251111"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52551482"
 ---
 # <a name="live-chat"></a>Live Chat
 
@@ -34,7 +34,6 @@ ms.locfileid: "52251111"
 |:----------------|:-------------|
 | 应用名称 | Live Chat |
 | ID | WA200000440 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Social Intents |
 | 合作伙伴网站的 URL | [https://www.socialintents.com](https://www.socialintents.com) |
@@ -71,7 +70,6 @@ ms.locfileid: "52251111"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 当团队成员单击"加入聊天"时，我们使用成员电子邮件来标识接受聊天的代理配置文件。 | 接受实时聊天的团队成员的电子邮件和姓名存储在聊天历史记录数据库中。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

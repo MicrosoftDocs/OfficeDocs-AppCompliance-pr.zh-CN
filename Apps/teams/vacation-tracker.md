@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关休假跟踪程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f4f6c515c09b33bc5ffbb9c4cb3c702362b9059c
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 89ed0cc27e26acdeae13cc787fc180cc9f93b8ae
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252242"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52550992"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -34,7 +34,6 @@ ms.locfileid: "52252242"
 |:----------------|:-------------|
 | 应用名称 | Vacation Tracker |
 | ID | WA200002167 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Vacation Tracker |
 | 合作伙伴网站的 URL | [https://vacationtracker.io](https://vacationtracker.io) |
@@ -84,7 +83,6 @@ ms.locfileid: "52252242"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 机器人可以看到有关与机器人通信的用户的基本信息。 但是，我们不会存储或使用该信息。 我们仅使用用户的 ID、对话 ID 和发送给自动程序的消息。 | 我们存储用户的电子邮件地址、 (Microsoft AAD) 和 Microsoft AAD (中定义的)  | 我们将电子邮件地址用作用户的唯一标识符以及用户名和个人资料照片，以允许同一公司的管理员和审批者在我们的仪表板中识别其员工。  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

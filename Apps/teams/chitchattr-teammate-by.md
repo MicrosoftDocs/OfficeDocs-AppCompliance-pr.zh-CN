@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ChitChattr 为 TeamMate 提供的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a3f790a64d4c99dbd4ee1c5d1d673dd054e9241a
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 457cfd0fc3ace631a0994fea787e515ba74e1faf
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250790"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552293"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -34,7 +34,6 @@ ChitChattr 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | TeamMate by ChitChattr |
 | ID | WA200002530 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ChitChattr |
 | 合作伙伴网站的 URL | [https://www.chitchattr.com?p=teammate](https://www.chitchattr.com?p=teammate) |
@@ -74,7 +73,6 @@ ChitChattr 提供了此信息，这些信息与此应用程序如何收集和存
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 如果发生任何问题，自动程序将查找用户，并为用户提供在应用中注册为管理员的用户的姓名和联系人详细信息 (基本上与管理员联系-这是他们) &quot; &quot; | 名称、电子邮件 | 如上一节中所述 - 能够根据 (的管理员配置) 确定目标体验的用户，并允许用户查看其内部公司管理员是该应用的用户。 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

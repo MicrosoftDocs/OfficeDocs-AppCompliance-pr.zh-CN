@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Karma 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f8d4c9fdb00dbf16007ca1840aa210ad795dfa61
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 9da5f26e68be07cc9817c50434e214de3f3784c4
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251131"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52551632"
 ---
 # <a name="karma"></a>Karma
 
@@ -34,7 +34,6 @@ ms.locfileid: "52251131"
 |:----------------|:-------------|
 | 应用名称 | Karma |
 | ID | WA104381640 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Sliday LTD |
 | 合作伙伴网站的 URL | [https://karmabot.chat/ms](https://karmabot.chat/ms) |
@@ -74,7 +73,6 @@ ms.locfileid: "52251131"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 名字、姓氏和公司电子邮件地址 名字，面向管理员的姓氏报告与 Karma 通信的电子邮件地址。 出于计费目的和将大量用户拆分为单独的离开，需要名单。 | 面向管理员的报告的名、姓和公司电子邮件地址名字、姓氏。 用于与 Karma、计费目的和 Karma 用户层次结构通信的电子邮件地址。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Sensei Labs 一线的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ffd6ee1cb07085f88e191bbf3e7eb14a2ed9b0fa
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 6365c2a9916693a94c6af8ed107865872e8e000b
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252312"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52551692"
 ---
 # <a name="sensei-labs-conductor"></a>Sensei Labs Conductor
 
@@ -34,11 +34,10 @@ Sensei Labs Inc. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Sensei Labs Conductor |
 | ID | WA200001951 |
-| 功能 | 机器人，选项卡，连接器 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Sensei Labs Inc. |
 | 合作伙伴网站的 URL | [https://www.senseilabs.com/conductor/?utm_campaign=msftteam...](https://www.senseilabs.com/conductor/?utm_campaign=msftteamslaunch&amp;utm_source=teamsappsource&amp;utm_medium=createdby&amp;utm_content=conductorlink) |
-| "Teams应用程序信息"页的 URL | [不适用](N/A) |
+| "Teams应用程序信息"页的 URL | [无](N/A) |
 | 隐私策略的 URL | [https://www.senseilabs.com/conductor/conductor-privacy-poli...](https://www.senseilabs.com/conductor/conductor-privacy-policy/) |
 | 使用条款 URL | [https://www.senseilabs.com/conductor/msft-teams-terms-condi...](https://www.senseilabs.com/conductor/msft-teams-terms-conditions/) |
 
@@ -81,7 +80,6 @@ Sensei Labs Inc. 提供给 Microsoft 的信息：
 >| 在机器人对话期间正确处理人员。 为了将用户映射到Teams应用程序中的用户 | Teams标识符、名称、电子邮件地址 | 将Teams映射到平台中的用户 |
 
 
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
@@ -92,7 +90,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->不适用
+>无
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

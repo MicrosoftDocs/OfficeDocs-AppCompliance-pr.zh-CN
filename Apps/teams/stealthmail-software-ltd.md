@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有 Available security and compliance information for StealthMail、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6d452c06e214e4370d8df8ea9f901cee6db4f739
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 4855cb478e8ba2e53b793a1d61f477de88b74058
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250897"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552733"
 ---
 # <a name="stealthmail"></a>StealthMail
 
@@ -34,7 +34,6 @@ ms.locfileid: "52250897"
 |:----------------|:-------------|
 | 应用名称 | StealthMail |
 | ID | WA200001748 |
-| 功能 | 选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Stealthmail Software Ltd |
 | 合作伙伴网站的 URL | [https://stealthmail.com](https://stealthmail.com) |
@@ -78,7 +77,6 @@ ms.locfileid: "52250897"
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

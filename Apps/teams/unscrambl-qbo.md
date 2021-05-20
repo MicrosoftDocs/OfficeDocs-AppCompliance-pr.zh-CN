@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: qbo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: eb7e450bfffbecade66f44a78c8ca366eac5f5f9
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 245ab6925aa77a005194e1badf31b926280454a1
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52248050"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52551072"
 ---
 # <a name="qbo"></a>qbo
 
@@ -34,7 +34,6 @@ Unscrambl 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | qbo |
 | ID | WA200001708 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Unscrambl |
 | 合作伙伴网站的 URL | [https://qbo.ai](https://qbo.ai) |
@@ -79,7 +78,6 @@ Unscrambl 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 我们具有允许用户向自己通过电子邮件发送报告 PDF 的应用功能。 | email address | 我们具有允许用户向自己发送电子邮件报告 PDF 的应用功能，此功能存储为用户配置文件的一部分。 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

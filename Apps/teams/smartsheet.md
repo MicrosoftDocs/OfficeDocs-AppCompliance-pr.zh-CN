@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Smartsheet 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 063dd29aea9265d89eb3ba735a376c7b1f0b64e3
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: ddf77e7e73cc0bef1a21e72d1db328a4845a12f5
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251121"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52551522"
 ---
 # <a name="smartsheet"></a>Smartsheet
 
@@ -34,7 +34,6 @@ Smartsheet 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Smartsheet |
 | ID | WA104380975 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Smartsheet |
 | 合作伙伴网站的 URL | [https://help.smartsheet.com/articles/2476201](https://help.smartsheet.com/articles/2476201) |
@@ -88,7 +87,6 @@ Smartsheet 提供了此信息，这些信息与此应用程序如何收集和存
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| Smartsheet 使用它来帮助跟踪机器人在说话的人。 在初始身份验证流期间，我们在 Smartsheet 通知系统中为用户创建自动程序记录。 | 对于适用于自动Teams的 Smartsheet，我们存储来自 Teams 的用户电子邮件和 userId，以帮助跟踪机器人与谁交谈。  Smartsheet 存储 tenantIds 以帮助列出用户是目录中的一部分的组，以及用于邮件传递的 groupId。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: VisualSP 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e42cba3e525da2766fda4485f975d290395e6f2c
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: c4acb8087cb69ae70b4734ec0230830ac6fd377e
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252222"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52550932"
 ---
 # <a name="visualsp"></a>VisualSP
 
@@ -34,7 +34,6 @@ VisualSP 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | VisualSP |
 | ID | WA200001426 |
-| 功能 | 机器人，选项卡，消息传递扩展，连接器 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | VisualSP |
 | 合作伙伴网站的 URL | [https://www.visualsp.com](https://www.visualsp.com) |
@@ -72,7 +71,6 @@ VisualSP 提供了此信息，这些信息与此应用程序如何收集和存�
 >无法访问 EUII。
 
 
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
@@ -83,7 +81,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->不适用
+>无
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Workday 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e193bbcee79ab77e878554c07af452a6a37e1061
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 181356178c5af1fc2f728ad84b2bbd33a7fc92a1
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252302"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52550812"
 ---
 # <a name="workday"></a>Workday
 
@@ -34,7 +34,6 @@ Workday 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Workday |
 | ID | WA200001555 |
-| 功能 | 机器人 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Workday |
 | 合作伙伴网站的 URL | [https://nw.myworkday.com/microsoftteams](https://nw.myworkday.com/microsoftteams) |
@@ -68,7 +67,7 @@ Workday 提供给 Microsoft 的信息：
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-------------------|:--------------------------|:--------------------------|
->| 组织数据在 Workday Services 和 Microsoft 之间共享。 有关其他详细信息，请参阅与 Workday 的协议条款。 | 组织数据在 Workday Services 和 Microsoft 之间共享。 有关其他详细信息，请参阅与 Workday 的协议条款。 | 不适用 |
+>| 组织数据在 Workday Services 和 Microsoft 之间共享。 有关其他详细信息，请参阅与 Workday 的协议条款。 | 组织数据在 Workday Services 和 Microsoft 之间共享。 有关其他详细信息，请参阅与 Workday 的协议条款。 | 无 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -77,7 +76,6 @@ Workday 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 名单数据用于个性化设置用户与 Workday 应用的交互。 | 否 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

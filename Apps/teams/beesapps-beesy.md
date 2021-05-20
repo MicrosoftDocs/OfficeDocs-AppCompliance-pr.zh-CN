@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Beesy 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fdab816d7eb03c7721deaad8e19be7691b23f9f2
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: d669b1b43c7b273b3cc68ed6cfc0f24b7234a293
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253173"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552343"
 ---
 # <a name="beesy"></a>Beesy
 
@@ -34,7 +34,6 @@ BeesApps 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Beesy |
 | ID | WA200001248 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | BeesApps |
 | 合作伙伴网站的 URL | [https://www.beesy.me/](https://www.beesy.me/) |
@@ -73,7 +72,6 @@ BeesApps 提供了此信息，这些信息与此应用程序如何收集和存�
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 我们访问此数据以在机器人中提供上下文，以将操作直接记录给聊天 (聊天机器人是虚拟助理) 。 | 不会从名单中直接存储任何数据，我们将团队成员与已集成人员进行比较，beesy.me 服务数据，只是匹配。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

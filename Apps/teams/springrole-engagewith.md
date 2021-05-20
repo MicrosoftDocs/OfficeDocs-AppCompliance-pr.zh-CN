@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: EngageWith 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 42896bd4a2cd23ee5b5bff2f8236ddacabc56a3f
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 6bb19440f4d5e9518e917856fbe709fbcfc0792f
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52248350"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552753"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -34,7 +34,6 @@ SpringRole 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | EngageWith |
 | ID | WA200001915 |
-| 功能 | 机器人 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SpringRole |
 | 合作伙伴网站的 URL | [https://engagewith.springworks.in/](https://engagewith.springworks.in/) |
@@ -74,7 +73,6 @@ SpringRole 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 此数据用于显示和存储奖励点数 &amp; 兑换历史记录。 还利用应用的主要功能，向对等方提供 Kudos 和一线 | 姓名、电子邮件、生日和工作纪念日。 | 此数据用于显示和存储奖励积分 &amp; 兑换历史记录 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

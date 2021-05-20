@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Hyperproof 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: dfeef19bce9e2aa8f5e624c7c94419f91f7ba138
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 56b0a506f77ee119a38734b777bc8ecc67467e31
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252066"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553073"
 ---
-# <a name="hyperproof"></a>超防
+# <a name="hyperproof"></a>Hyperproof
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,11 +32,10 @@ Hyperproof 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 超防 |
+| 应用名称 | Hyperproof |
 | ID | WA200002692 |
-| 功能 | 机器人 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 超防 |
+| 合作伙伴公司名称 | Hyperproof |
 | 合作伙伴网站的 URL | [https://hyperproof.io/](https://hyperproof.io/) |
 | "Teams应用程序信息"页的 URL | [https://hyperproof.io/product](https://hyperproof.io/product) |
 | 隐私策略的 URL | [https://hyperproof.io/privacy-policy/](https://hyperproof.io/privacy-policy/) |
@@ -70,7 +69,6 @@ Hyperproof 提供了此信息，这些信息与此应用程序如何收集和存
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

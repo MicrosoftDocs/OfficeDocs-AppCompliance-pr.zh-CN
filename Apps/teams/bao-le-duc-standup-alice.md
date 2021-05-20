@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Standup Alice 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 00965db8a92b9f8bbadb3ac8fb17aa6f9d5837e6
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 033d62db333db7029c82b0e7ec7916af64eaf3e2
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250820"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552353"
 ---
 # <a name="standup-alice"></a>Standup Alice
 
@@ -34,7 +34,6 @@ ms.locfileid: "52250820"
 |:----------------|:-------------|
 | 应用名称 | Standup Alice |
 | ID | WA200000758 |
-| 功能 | 机器人 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Bao Le Duc |
 | 合作伙伴网站的 URL | [https://www.standupalice.com](https://www.standupalice.com) |
@@ -64,7 +63,7 @@ ms.locfileid: "52250820"
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Google 云 - 我们在 Google 云上托管机器人 |  | 不适用 |
+>| Google 云 - 我们在 Google 云上托管机器人 |  | 无 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -73,7 +72,6 @@ ms.locfileid: "52250820"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 我们使用显示名称 Web 应用和独立报表进行显示，使其有意义。 我们可能会与管理员Teams免费试用版、付款信息。 | 显示名称和电子邮件地址。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

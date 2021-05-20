@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SurveyMonkey 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c9b4f40ab870844e403a1dc3c70a4535a3541190
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 57ba8ed84e0d9ea4101ea82ed5d92aef1f634ed1
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52248290"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552723"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -34,7 +34,6 @@ SurveyMonkey 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | SurveyMonkey |
 | ID | WA104381088 |
-| 功能 | 机器人，选项卡，消息传递扩展，连接器 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SurveyMonkey |
 | 合作伙伴网站的 URL | [https://www.surveymonkey.com](https://www.surveymonkey.com) |
@@ -76,7 +75,6 @@ SurveyMonkey 提供了此信息，这些信息与此应用程序如何收集和�
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 我们调用 v3/conversations/{id}/pagedmembers，以检查该应用是否添加到团队并获取成员计数。 它用于内部跟踪使用情况，我们仅查看聊天名单的大小，其他信息将被忽略。 | 是的，聊天的大小存储在单个 (整数)  |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

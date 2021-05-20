@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Cloverpop 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1f7ee0c5a92757d03291de890ebfde05ed55a7db
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: eaee7a04f4d8e74f97eef1fae358f80a0c3e2249
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252692"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553223"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -34,7 +34,6 @@ Cloverpop 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Cloverpop |
 | ID | WA200001803 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Cloverpop |
 | 合作伙伴网站的 URL | [https://www.cloverpop.com](https://www.cloverpop.com) |
@@ -77,12 +76,11 @@ Cloverpop 提供了此信息，这些信息与此应用程序如何收集和存�
 >| 我们访问第一个/最后显示名称个数据，以便准确显示特定用户已采取与决策相关的操作。 我们将电子邮件地址用作 db 中每个用户的唯一标识符，因为允许每个用户属于多个组织。 我们仅在他们与应用交互时（例如，当他们响应投票时）访问此数据。 | 我们存储第一个/显示名称数据，以便准确显示特定用户已采取与决策相关的操作。  我们存储电子邮件地址是因为我们使用它作为 db 中每个用户的唯一标识符，因为允许每个用户属于多个组织。 我们仅在他们与应用交互时（例如，当他们响应投票时）存储此数据。 我们的决策数据应该是决策的记录系统，因此存储数据以标识每个用户参与决策对决策的贡献至关重要。 |  |
 
 
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->对。
+>是。
 在团队中与应用交互时，团队 ID 会显示在我们的日志中。
 对于三个全部在美国的创始人，我们只能有限地访问我们的生产日志。
 
