@@ -6,6 +6,6 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2021
 ms.locfileid: "52092452"
 ---
-### <a name="feedback"></a><span data-ttu-id="5c502-101">反馈</span><span class="sxs-lookup"><span data-stu-id="5c502-101">Feedback</span></span>
+### <a name="feedback"></a><span data-ttu-id="31443-101">反馈</span><span class="sxs-lookup"><span data-stu-id="31443-101">Feedback</span></span>
 
-<span data-ttu-id="5c502-102">对此处看到的任何信息有疑问或更新？</span><span class="sxs-lookup"><span data-stu-id="5c502-102">Questions or updates to any of the information you see here?</span></span> <span data-ttu-id="5c502-103"><a href="https://aka.ms/AppComplianceQuestions" target="_blank">请联系我们！</a></span><span class="sxs-lookup"><span data-stu-id="5c502-103"><a href="https://aka.ms/AppComplianceQuestions" target="_blank">Contact us!</a></span></span>
+<span data-ttu-id="31443-102">对此处看到的任何信息有疑问或更新？</span><span class="sxs-lookup"><span data-stu-id="31443-102">Questions or updates to any of the information you see here?</span></span> <span data-ttu-id="31443-103"><a href="https://aka.ms/AppComplianceQuestions" target="_blank">请联系我们！</a></span><span class="sxs-lookup"><span data-stu-id="31443-103"><a href="https://aka.ms/AppComplianceQuestions" target="_blank">Contact us!</a></span></span>
