@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: iGlobe CRM Office 365 for Microsoft Office 365 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5ec2f0c536f45192514218e7a0e5b7110fbfe650
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: b52fcc6ec5d5f5f36c11379c736e098048e58b6b
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251661"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553503"
 ---
 # <a name="iglobe-crm-office-365-for-microsoft-office-365"></a>iGlobe CRM Office 365 for Microsoft Office 365
 
@@ -97,15 +97,6 @@ iGlobe 提供给 Microsoft 的信息：
 >不Microsoft 服务非活动。
 
 
-
-#### <a name="add-in-data-access"></a>加载项数据访问
-
-列出此应用程序访问组织数据所需的权限、此权限的理由和用途 (应用程序对 ) 使用此信息的目的，以及应用程序是否在其数据库中存储此信息。
-
->| **权限**  | **说明** |
->|:----------------|:----------------|
->| 默认值 | 不会&#8217;或对文档进行更改 |
->| 发送数据 | 可以通过 Internet 发送数据 |
 
 #### <a name="telemetry-data"></a>遥测数据
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Wrike for Outlook 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ebfdaa0748ab8c97ba7661cd0cc3f68354632c88
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 1ee6c98b2513459c588100a9b3b19ba529d98af0
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252913"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553693"
 ---
 # <a name="wrike-for-outlook"></a>Wrike for Outlook
 
@@ -71,15 +71,6 @@ Wrike Inc. 提供给 Microsoft 的信息：
 >| Wrike 与有权访问某些数据的以下供应商集成：Marketo 是电子邮件线索捕获服务，仅会向它们提供名称和电子邮件。 推广是基于云的销售活动 - 仅向它们提供名称和电子邮件。 Salesforce CRM 系统 - 具有联系人信息和帐单 (客户的信息) 敏感数据。 Zuora - 计费和开票客户。 所有供应商都有一个 DPA。 |  | 我们使用 JS Office API，但我们不收集/处理/存储任何组织信息。 |
 
 
-
-#### <a name="add-in-data-access"></a>加载项数据访问
-
-列出此应用程序访问组织数据所需的权限、此权限的理由和用途 (应用程序对 ) 使用此信息的目的，以及应用程序是否在其数据库中存储此信息。
-
->| **权限**  | **说明** |
->|:----------------|:----------------|
->| ReadWrite Mailbox | 此外接程序可以读取或修改邮箱中任何项目的内容，并创建新项目。 它可以访问任何邮件或日历项中的个人信息，如正文、主题、发件人、收件人或附件。 它可能会向第三方服务发送此数据。 |
->| 发送数据 | 可以通过 Internet 发送数据 |
 
 #### <a name="telemetry-data"></a>遥测数据
 

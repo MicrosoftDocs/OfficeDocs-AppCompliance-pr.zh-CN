@@ -49,10 +49,14 @@
           href: teams/anaek-attendancebot.md
         - name: AVA
           href: teams/avepoint-inc-ava.md
+        - name: Axelleron
+          href: teams/axelleron.md
         - name: Beekast
           href: teams/beekast.md
         - name: Beesy
           href: teams/beesapps-beesy.md
+        - name: Berrycast
+          href: teams/technologies-openmind-inc-les-berrycast.md
         - name: Board Connect
           href: teams/engage-squared-board-connect.md
         - name: Bonusly
@@ -63,10 +67,12 @@
           href: teams/breakthru.md
         - name: Brightidea
           href: teams/brightidea.md
-        - name: C.AI 采用机器人
+        - name: C.AI Adoption Bot
           href: teams/contexxtai-cai-adoption-bot.md
         - name: Calendar BOT
           href: teams/approved-contact-calendar-bot.md
+        - name: CalendarHero
+          href: teams/calendarhero-inc.md
         - name: CatchEm
           href: teams/chimu-software-catchem.md
         - name: Centrical
@@ -91,7 +97,7 @@
           href: teams/droplr.md
         - name: Dynamic Signal
           href: teams/dynamic-signal.md
-        - name: 简单项目
+        - name: Easy Projects
           href: teams/logic-software-inc-easy-projects.md
         - name: ecBooking
           href: teams/expert-systems-ivrasia-coltd-ecbooking.md
@@ -113,7 +119,7 @@
           href: teams/enterprizid-inc-ezteam.md
         - name: FormMachines
           href: teams/enterprise-digital-machines-formmachines.md
-        - name: InVision 提供的免费处理
+        - name: Freehand by InVision
           href: teams/invision-app-freehand-by.md
         - name: Freshdesk
           href: teams/freshworks-inc-freshdesk.md
@@ -139,7 +145,7 @@
           href: teams/hoylu.md
         - name: HunchBuzz
           href: teams/hunchbuzz.md
-        - name: 超防
+        - name: Hyperproof
           href: teams/hyperproof.md
         - name: IndustryIntel
           href: teams/industry-intelligence-team-industryintel.md
@@ -211,19 +217,19 @@
           href: teams/officespace-software.md
         - name: Officevibe
           href: teams/officevibe.md
-        - name: Onsight 连接
+        - name: Onsight Connect
           href: teams/librestream-onsight-connect.md
         - name: OpenAgora
           href: teams/open-agora-openagora.md
         - name: Org@Work
           href: teams/lundano-org@work.md
-        - name: 程序包通知程序
+        - name: Package Notifier
           href: teams/qburst-technologies-pvt-ltd-package-notifier.md
         - name: Perfony
           href: teams/perfony.md
         - name: Piazza
           href: teams/piazza.md
-        - name: Planyway 团队日历
+        - name: Planyway Team Calendar
           href: teams/rubius-planyway-team-calendar.md
         - name: Polly
           href: teams/polly.md
@@ -231,12 +237,14 @@
           href: teams/prezi-video.md
         - name: Priority Matrix
           href: teams/appfluence-inc-priority-matrix.md
-        - name: Prodoscore ProdBot
+        - name: ProdBot
           href: teams/prodoscore-prodbot.md
         - name: Q
           href: teams/moduleq-q.md
         - name: qbo
           href: teams/unscrambl-qbo.md
+        - name: qChange Leader Experience
+          href: teams/qchange-software-solution-inc-leader-experience.md
         - name: Qubie
           href: teams/qubie.md
         - name: Quicklinks
@@ -323,13 +331,17 @@
           href: teams/sympli-llc.md
         - name: TackleBox
           href: teams/insiten-tacklebox.md
+        - name: TagTeam
+          href: teams/smarter-business-solution-gmbh-tagteam.md
         - name: Talla
           href: teams/talla-inc.md
         - name: Talview Interviews
           href: teams/talview-inc-interviews.md
         - name: TaskList
           href: teams/limestat-inc-tasklist.md
-        - name: Team一
+        - name: TeamGether
+          href: teams/effency-teamgether.md
+        - name: Teamhood
           href: teams/eylean-uab-teamhood.md
         - name: TeamMate by ChitChattr
           href: teams/chitchattr-teammate-by.md
@@ -351,11 +363,11 @@
           href: teams/kollisch-gmbh-timeghost.md
         - name: TINYpulse
           href: teams/tinypulse.md
-        - name: 百分百
+        - name: Tribute
           href: teams/tribute-co.md
         - name: Trivia
           href: teams/springworks-hr-tech-trivia.md
-        - name: Tri一
+        - name: Trivie
           href: teams/trivie-inc.md
         - name: Tryane Analytics
           href: teams/tryane-analytics.md
@@ -391,8 +403,6 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-        - name: Zoom.ai Meeting Assistant
-          href: teams/zoomai-inc-meeting-assistant.md
     - name: Microsoft 应用Outlook
       href: outlook/outlook-apps.md
       items:

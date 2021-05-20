@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: AttendanceBot 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 38160356c691a04e0d109ebd67aaab3826b63286
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: d99f924734bd6857b32ebb85942e5ef7ddb3cf18
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253223"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553423"
 ---
 # <a name="attendancebot"></a>AttendanceBot
 
@@ -34,7 +34,6 @@ ms.locfileid: "52253223"
 |:----------------|:-------------|
 | 应用名称 | AttendanceBot |
 | ID | WA104381652 |
-| 功能 | 机器人 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Anaek |
 | 合作伙伴网站的 URL | [https://www.attendancebot.com/microsoft-teams/](https://www.attendancebot.com/microsoft-teams/) |
@@ -72,7 +71,6 @@ ms.locfileid: "52253223"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| AttendanceBot 从 MS 应用程序访问 PII Teams | 名字、姓氏和电子邮件地址 | 电子邮件地址是安装 AttendanceBot 的每个团队的唯一标识符 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

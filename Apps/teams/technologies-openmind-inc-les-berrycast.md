@@ -1,45 +1,44 @@
 ---
-title: Viima Solutions Oy 的 Viima 应用程序信息
+title: 由 Technologies Openmind Inc， Les 的 Berrycast 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/17/2020
+ms.date: 04/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Viima 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Berrycast 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 703c1bf3b2980fae538af764bfa1d2024a86a366
+ms.openlocfilehash: 726a087d07e64f82ee44932a450a038e5bfaa858
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553973"
+ms.locfileid: "52551924"
 ---
-# <a name="viima"></a>Viima
+# <a name="berrycast"></a>Berrycast
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2020 年 11 月 17 日</p>
+<p>开发人员上次更新时间：2021 年 4 月 20 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/2bffa4e8-aac7-4d2e-976d-5a7db5c4b768" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001589" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/c7cde650-1e32-11eb-af14-639b3a7d6491" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002798" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-Viima Solutions Oy 提供给 Microsoft 的信息：
+由 Technologies Openmind Inc， Les 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Viima |
-| ID | WA200001589 |
+| 应用名称 | Berrycast |
+| ID | WA200002798 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Viima Solutions Oy |
-| 合作伙伴网站的 URL | [https://www.viima.com/](https://www.viima.com/) |
-| "Teams应用程序信息"页的 URL | [https://www.viima.com/product](https://www.viima.com/product) |
-| 隐私策略的 URL | [https://www.viima.com/privacy-policy](https://www.viima.com/privacy-policy) |
-| 使用条款 URL | [https://www.viima.com/terms](https://www.viima.com/terms) |
+| 合作伙伴公司名称 | Technologies Openmind Inc, Les |
+| 合作伙伴网站的 URL | [https://berrycast.com](https://berrycast.com) |
+| 隐私策略的 URL | [https://berrycast.com/privacy-policy](https://berrycast.com/privacy-policy) |
+| 使用条款 URL | [https://berrycast.com/terms-of-use](https://berrycast.com/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +48,7 @@ Viima Solutions Oy 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
+此信息由 Technologies Openmind Inc， Les 提供有关此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制的信息。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -57,14 +56,20 @@ Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何收�
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated |  名字和姓氏、UPN/电子邮件地址、位置、区域设置、部门、办公室位置。 这些信息用于登录用户，并在其应用中提供基本个人资料信息。 | 允许用户登录，并允许应用访问其 UPN 和基本个人资料信息，以启用无提示登录 | b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b |
+>| People.Read | delegated | 获取所有用户联系人 | 存储联系人电子邮件、用户姓名、姓氏和图片，以便快速共享记录 | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
+>| User.Read | delegated | 使用名字和姓氏 (基本信息标识用户)  | 显示名字。 应用程序中的 lastname 和 picture | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
+>| email | delegated | 标识用户 | 标识用户进行日志记录并发送通知 | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
+>| offline_access | delegated | 保留对已授予其访问权限的数据的访问权限 | 无 | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
+>| openid | delegated | 标识用户 | 标识用户进行日志记录 | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->不Microsoft 服务非活动。
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>|:-------------------|:--------------------------|:--------------------------|
+>| 条带、Intercom、MixPanel、时幅 | email， user unique identification， firstname， lastname  | 处理安全付款、执行市场营销活动、提供高效的客户服务并跟踪用户分析以改进产品 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -77,13 +82,13 @@ Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何收�
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->组织名称、Viima 组织 ID、最终用户电子邮件和 ID 将显示在日志中。 ISO27001 兼容的第三方审核控制措施，用于限制对这些数据的访问和存档/删除。
+>如果用户删除其帐户，则电子邮件、名字、姓氏以及我们删除所有数据 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->数据存储在爱尔兰 (AWS) 。 对数据的访问权限仅限于已收到适当培训且受多种安全措施保护的授权维护和技术支持人员，例如 2FA、受保护的 IP 范围 (仅从公司网络) 访问等。衡量指标与 ISO27001 兼容，并经第三方审核。
+>如果用户删除其帐户，我们会删除与该用户相关的所有数据。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -99,9 +104,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/33480' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38163' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/33480" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38163" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,7 +116,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
+此信息由 Technologies Openmind Inc、 Les 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -121,12 +126,11 @@ Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何处�
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
-| 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 是 |
+| 你的应用是否支持多租户？ | 否 |
+| 你的应用是否具有机密客户端？ | 否 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 否 |
 | 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

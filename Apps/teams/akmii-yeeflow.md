@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Yeeflow 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 853bf8e0467da6cf653998fc95c6cbc8c66dad1b
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: c8dc3fb5a23d480299aae331a9ccccae9641c66c
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250881"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553433"
 ---
 # <a name="yeeflow"></a>Yeeflow
 
@@ -34,7 +34,6 @@ Akmii 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Yeeflow |
 | ID | WA200000089 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Akmii |
 | 合作伙伴网站的 URL | [https://www.yeeflow.com](https://www.yeeflow.com) |
@@ -72,7 +71,6 @@ Akmii 提供了此信息，这些信息与此应用程序如何收集和存储�
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 发送用户友好消息并标识用户。 | 用户电子邮件和名称 | 用于发送用户通知和显示用户名 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于电子邮件的 Zoho CRM 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 730750ad7dddfcccaa9f940e88e34793d4e35869
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 4f06fd2f6a14bbad4d1265df9754884d515f6cb6
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252892"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553673"
 ---
 # <a name="zoho-crm-for-email"></a>用于电子邮件的 Zoho CRM
 
@@ -73,15 +73,6 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 >不Microsoft 服务非活动。
 
 
-
-#### <a name="add-in-data-access"></a>加载项数据访问
-
-列出此应用程序访问组织数据所需的权限、此权限的理由和用途 (应用程序对 ) 使用此信息的目的，以及应用程序是否在其数据库中存储此信息。
-
->| **权限**  | **说明** |
->|:----------------|:----------------|
->| 读取项目 | 此外接程序可以访问活动邮件上的个人信息，例如发件人姓名、收件人姓名、电子邮件地址、邮件正文和附件信息。 加载项可能会将此数据发送给第三方服务。 无法读取或修改&#8217;邮箱中的其他项目。 |
->| 发送数据 | 可以通过 Internet 发送数据 |
 
 #### <a name="telemetry-data"></a>遥测数据
 

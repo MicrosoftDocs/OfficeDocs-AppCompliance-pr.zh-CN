@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于 Talla 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8da3609764b4132c0747dd0080ca6ff33836fdfa
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 18fe09766a0ab7becef2d4630fc458e97576d7d1
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251051"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553803"
 ---
 # <a name="talla"></a>Talla
 
@@ -34,7 +34,6 @@ ms.locfileid: "52251051"
 |:----------------|:-------------|
 | 应用名称 | Talla |
 | ID | WA104381253 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Talla Inc. |
 | 合作伙伴网站的 URL | [https://www.talla.com](https://www.talla.com) |
@@ -72,7 +71,6 @@ ms.locfileid: "52251051"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| Talla 存储 Microsoft 用户 ID、用户电子邮件地址、名字和姓氏以及显示名称。 它们用于表示用户，并与用户通信。  | Talla 存储用户配置文件，其中包括：Microsoft 用户 ID、名字和姓氏、显示名称电子邮件地址等。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

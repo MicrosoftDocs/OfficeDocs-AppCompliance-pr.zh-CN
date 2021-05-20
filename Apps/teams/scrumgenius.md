@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ScrumGenius 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 921cfb725b6e0ef6d59bb457a76c873f0aaf7806
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: ba3b54f7d99672d657b200bf36725d0c7bf03d83
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250400"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553903"
 ---
 # <a name="scrumgenius"></a>ScrumGenius
 
@@ -34,7 +34,6 @@ ScrumGenius 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | ScrumGenius |
 | ID | WA104381097 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ScrumGenius |
 | 合作伙伴网站的 URL | [https://scrumgenius.com/](https://scrumgenius.com/) |
@@ -74,7 +73,6 @@ ScrumGenius 提供了此信息，这些信息与此应用程序如何收集和�
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 我们访问团队名单，因此当团队管理员安装 scrumgenius 时，我们可以与 scrumgenius 同步团队名单的其余部分，以便可以使用平台载入他们，以便允许他们配置独立报告并分配应获取报告的团队成员。 | 名字，姓氏，显示名称，电子邮件地址 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: StarLeaf 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b180c5c804831624caedb4404b85ca216549fd2f
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 9dc0761fa00e94d97f3d29b4ac85e1d607498288
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251091"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553833"
 ---
 # <a name="starleaf"></a>StarLeaf
 
@@ -34,7 +34,6 @@ StarLeaf 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | StarLeaf |
 | ID | WA200000185 |
-| 功能 | 机器人，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | StarLeaf |
 | 合作伙伴网站的 URL | [https://www.starleaf.com](https://www.starleaf.com) |
@@ -67,7 +66,7 @@ StarLeaf 提供了此信息，这些信息与此应用程序如何收集和存�
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-------------------|:--------------------------|:--------------------------|
->| 如果出现技术支持问题，则数据可能会传输到 SalesForce 进行案例管理。 如果用户使用 PSTN 拨入功能，则呼叫将流经 Twilio、Plivo 或 Vox作为源 |  | 不适用 |
+>| 如果出现技术支持问题，则数据可能会传输到 SalesForce 进行案例管理。 如果用户使用 PSTN 拨入功能，则呼叫将流经 Twilio、Plivo 或 Vox作为源 |  | 无 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -78,12 +77,11 @@ StarLeaf 提供了此信息，这些信息与此应用程序如何收集和存�
 >| 机器人访问团队名单，以便代表通过机器人预订会议的用户/主持人预订会议。 这允许 StarLeaf 通过一个按钮加入会议提供无缝加入体验。 | 名字、姓氏、电子邮件地址。 这允许 StarLeaf 机器人代表与机器人交互的用户/主机预订会议，并邀请团队的其他成员加入会议。 |  |
 
 
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->对。 日志包括用户名、IP 地址、呼叫详细信息记录、有关连接质量的信息 (数据包丢失、比特率) 、设备类型、呼叫进度。 技术支持团队和高级开发人员可以使用这些信息来诊断服务问题。 数据在 90 天后匿名处理。 保护此数据的控制措施根据 ISO/IEC 27001 认证进行审核。
+>是。 日志包括用户名、IP 地址、呼叫详细信息记录、有关连接质量的信息 (数据包丢失、比特率) 、设备类型、呼叫进度。 技术支持团队和高级开发人员可以使用这些信息来诊断服务问题。 数据在 90 天后匿名处理。 保护此数据的控制措施根据 ISO/IEC 27001 认证进行审核。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

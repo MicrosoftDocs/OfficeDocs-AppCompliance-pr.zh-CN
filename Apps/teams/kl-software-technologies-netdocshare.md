@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: netDocShare 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4ffccbb904d5283922a4ce6aae7fc5430e86d3d7
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: a3d27c85d6ceadf6f2cbf8d7c9b1449b95dc8327
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252482"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552023"
 ---
 # <a name="netdocshare"></a>netDocShare
 
@@ -34,7 +34,6 @@ ms.locfileid: "52252482"
 |:----------------|:-------------|
 | 应用名称 | netDocShare |
 | ID | WA200001619 |
-| 功能 | 选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | KL Software Technologies |
 | 合作伙伴网站的 URL | [https://www.netdocshare.com/](https://www.netdocshare.com/) |
@@ -71,12 +70,11 @@ ms.locfileid: "52252482"
 >无法访问 EUII。
 
 
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->对。 我们将 EUII 和 OII 存储在托管在 Microsoft Azure 上的自定义 NoSQL Mongo DB 中。 客户端停止订阅后，我们将从上述数据库中删除此信息。
+>是。 我们将 EUII 和 OII 存储在托管在 Microsoft Azure 上的自定义 NoSQL Mongo DB 中。 客户端停止订阅后，我们将从上述数据库中删除此信息。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

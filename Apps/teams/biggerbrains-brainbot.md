@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: BrainBot 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 74b3ca5d6a674ea7322995eb9941dadcd939b01c
-ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
+ms.openlocfilehash: b5eec3d8d487cdc79f8ecd180fe848812889d19d
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52258859"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553373"
 ---
 # <a name="brainbot"></a>BrainBot
 
@@ -34,7 +34,6 @@ ms.locfileid: "52258859"
 |:----------------|:-------------|
 | 应用名称 | BrainBot |
 | ID | WA104381981 |
-| 功能 | 机器人 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Biggerbrains |
 | 合作伙伴网站的 URL | [https://brainbot.ai](https://brainbot.ai) |
@@ -74,7 +73,6 @@ This information has been provided by Biggerbrains about how this app collects a
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 在身份验证过程中， &amp; 我们使用电子邮件地址的完整名称。 另外，电子邮件地址用于在用户订阅学习序列时向用户发送学习序列 | 电子邮件地址 &amp; 完整名称 | 它们用于登录目的，并作为应用功能的一部分，用于在用户订阅学习序列时向用户发送学习序列 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于敏捷任务板的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4ad5f0de96f6b1c7330eb480b1723361907e1239
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 3bbf6f95ed5a0e840b1ba8c896dbb14b4ddfa5f2
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250991"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553443"
 ---
 # <a name="agile-task-board"></a>Agile Task Board
 
@@ -34,7 +34,6 @@ Agile-IS 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Agile Task Board |
 | ID | WA200002162 |
-| 功能 | 选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Agile-IS |
 | 合作伙伴网站的 URL | [https://www.agile-is.de/agiletaskboard?utm_medium=appsource...](https://www.agile-is.de/agiletaskboard?utm_medium=appsource&amp;utm_campaign=teams&amp;utm_source=manifest) |
@@ -69,7 +68,6 @@ Agile-IS 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

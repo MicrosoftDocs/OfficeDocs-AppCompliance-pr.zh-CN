@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: 优先级矩阵的所有可用安全性和合规性信息 - 将电子邮件转换为任务、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3f4ba1a7f888c576ae7a87286488d7b5f06037a2
-ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
+ms.openlocfilehash: 9843ece5a330f4a8b8adb6f1388a4a26e12dbe21
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52258989"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553753"
 ---
 # <a name="priority-matrix---turn-emails-into-tasks"></a>优先级矩阵 - 将电子邮件转换为任务
 
@@ -73,15 +73,6 @@ Appfluence Inc 提供了此信息，这些信息与此应用程序如何收集�
 
 
 
-#### <a name="add-in-data-access"></a>加载项数据访问
-
-列出此应用程序访问组织数据所需的权限、此权限的理由和用途 (应用程序对 ) 使用此信息的目的，以及应用程序是否在其数据库中存储此信息。
-
->| **权限**  | **说明** |
->|:----------------|:----------------|
->| ReadWrite Mailbox | 此外接程序可以读取或修改邮箱中任何项目的内容，并创建新项目。 它可以访问任何邮件或日历项中的个人信息，如正文、主题、发件人、收件人或附件。 它可能会向第三方服务发送此数据。 |
->| 发送数据 | 可以通过 Internet 发送数据 |
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
@@ -106,9 +97,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone pivot="mcas"
 
-下面将显示 [来自 Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) 目录的信息。
+下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security Information' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667" target="_blank">在新建选项卡中查看</a>
 
@@ -125,7 +116,7 @@ Appfluence Inc 已提供有关此应用程序如何处理身份验证、授权�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 你已审阅并遵循了 Microsoft 标识平台集成清单中概述的所有适用最佳做法吗？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |

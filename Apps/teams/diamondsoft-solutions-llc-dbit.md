@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: DBit 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 58f936508bac3672f0cc13ba393c04184e4cf522
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 23995f613c3c3b6d7b2ab7d161f8710ccddf07d0
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252662"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553953"
 ---
 # <a name="dbit"></a>DBit
 
@@ -34,7 +34,6 @@ Diamondsoft Solutions， LLC 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | DBit |
 | ID | WA200001536 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Diamondsoft Solutions, LLC |
 | 合作伙伴网站的 URL | [https://www.dbit.io/index.html](https://www.dbit.io/index.html) |
@@ -77,7 +76,6 @@ Diamondsoft Solutions， LLC 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 创建欢迎消息 | 我们不会将名单信息存储在系统或数据库中。 |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

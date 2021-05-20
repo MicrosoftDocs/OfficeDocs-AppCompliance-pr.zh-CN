@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: MURAL 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f217aeb711da7fe8e452d32814b0c5937885b4be
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 3b940d83a9095e92424c4f18480507469526e9c1
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252392"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52551892"
 ---
 # <a name="mural"></a>MURAL
 
@@ -34,7 +34,6 @@ MURAL 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | MURAL |
 | ID | WA104381626 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | MURAL |
 | 合作伙伴网站的 URL | [https://mural.co/](https://mural.co/) |
@@ -70,7 +69,6 @@ MURAL 提供了此信息，这些信息与此应用程序如何收集和存储�
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息Org@Work、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4818b0c99dfe0418fa553f6f7c71b79ab2ab0aa5
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 68f59afdc79ae00f1643f9f2ce5650e06392d2a3
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252432"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52551973"
 ---
 # <a name="orgwork"></a>Org@Work
 
@@ -34,7 +34,6 @@ Lundano 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Org@Work |
 | ID | WA200002461 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Lundano |
 | 合作伙伴网站的 URL | [https://www.lundano.com/orgatwork/](https://www.lundano.com/orgatwork/) |
@@ -78,7 +77,6 @@ Lundano 提供了此信息，这些信息与此应用程序如何收集和存储
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 机器人推送需要提及员工的姓名，以便其规划经理确认。 | 员工的名字 &amp; 、电子邮件地址、工作区和组织 | 规划经理需要这些信息Org@Work完成流程 &amp; 工作流 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

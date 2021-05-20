@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 HARMON.IE 应用程序的所有可用Outlook信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 848fff2a4dfebfc90181dd69c660e138e7e4f2a4
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: f494dbc3857bd9fed2603cef3dbc6f76306510c1
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251761"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553733"
 ---
 # <a name="harmonie-for-outlook"></a>harmon.ie Outlook
 
@@ -68,15 +68,6 @@ harmon.ie 向 Microsoft 提供的信息：
 >不Microsoft 服务非活动。
 
 
-
-#### <a name="add-in-data-access"></a>加载项数据访问
-
-列出此应用程序访问组织数据所需的权限、此权限的理由和用途 (应用程序对 ) 使用此信息的目的，以及应用程序是否在其数据库中存储此信息。
-
->| **权限**  | **说明** |
->|:----------------|:----------------|
->| ReadWrite Item | 此外接程序可以访问和修改活动邮件中的个人信息，如正文、主题、发件人、收件人和附件信息。 它可能会向第三方服务发送此数据。 无法读取或修改&#8217;邮箱中的其他项目。 |
->| 发送数据 | 可以通过 Internet 发送数据 |
 
 #### <a name="telemetry-data"></a>遥测数据
 

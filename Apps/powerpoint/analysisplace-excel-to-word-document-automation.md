@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 word 文档自动化Excel、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 14cf8142d1c80fab178aca914d3e999aac5428cf
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: e3f7d7ec2b59ac21a44ca92737e9fbdba4cfdaaa
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252862"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553633"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel到 Word 文档自动化
 
@@ -64,15 +64,6 @@ AnalysisPlace 提供给 Microsoft 的信息：
 
 
 
-#### <a name="add-in-data-access"></a>加载项数据访问
-
-列出此应用程序访问组织数据所需的权限、此权限的理由和用途 (应用程序对 ) 使用此信息的目的，以及应用程序是否在其数据库中存储此信息。
-
->| **权限**  | **说明** |
->|:----------------|:----------------|
->| 读写文档 | 可以读取和更改文档 |
->| 发送数据 | 可以通过 Internet 发送数据 |
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
@@ -83,7 +74,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->不适用
+>无
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

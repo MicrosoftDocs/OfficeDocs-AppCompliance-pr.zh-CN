@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关联系人中心的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f4f13a5dcd05622b297488fcfe8663028cc427fa
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: f6e143a7666d5f3a4cfb5744b7a27edfbe60b982
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252462"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552013"
 ---
 # <a name="contact-center"></a>联系人中心
 
@@ -34,7 +34,6 @@ Landis Technologies LLC 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | 联系人中心 |
 | ID | WA200001428 |
-| 功能 | 选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Landis Technologies LLC |
 | 合作伙伴网站的 URL | [https://landistechnologies.com/office365contactcenter/](https://landistechnologies.com/office365contactcenter/) |
@@ -92,12 +91,11 @@ Landis Technologies LLC 提供给 Microsoft 的信息：
 >| 提供呼叫报告和用户分析。 | 名字、姓氏和 UPN 或电话号码。 此信息用于呼叫详细信息报告和用户活动分析。 |  |
 
 
-
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->对。 MS Graph API 请求进行记录以帮助支持事件。 它根据 Application Insights Microsoft Azure删除。
+>是。 MS Graph API 请求进行记录以帮助支持事件。 它根据 Application Insights Microsoft Azure删除。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

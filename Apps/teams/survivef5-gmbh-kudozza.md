@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Kudozza 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1d00cc1e8899d6088ffcebac2f4cc2e5e59c1f9d
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 3c55726061f0663cf395ea5edb45adf96f35bce3
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251061"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553813"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -34,7 +34,6 @@ surviveF5 GmbH 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Kudozza |
 | ID | WA200002599 |
-| 功能 | 机器人，选项卡，消息传递扩展 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | surviveF5 GmbH |
 | 合作伙伴网站的 URL | [https://www.kudozza.com](https://www.kudozza.com) |
@@ -74,7 +73,6 @@ surviveF5 GmbH 提供给 Microsoft 的信息：
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| Kudos 发送给其他人，并且需要经常重新发送该邮件。 还提供了一个排名，因此有必要使用 Kudozza 应用程序存储用户的名称和 ID。 | userid、username | Kudos 发送给其他人，并且需要经常重新发送该邮件。 还提供了一个排名，因此有必要使用 Kudozza 应用程序存储用户的名称和 ID。 |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

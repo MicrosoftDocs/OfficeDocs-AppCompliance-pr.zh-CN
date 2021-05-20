@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有可用的针对"一致性"的安全和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0aa4d73311b10112ef62b2caf5219d1346eafeaa
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 49b17e202fb358284b9a36ed33646926d649afe3
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250830"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553453"
 ---
 # <a name="retro"></a>Retro
 
@@ -34,7 +34,6 @@ ms.locfileid: "52250830"
 |:----------------|:-------------|
 | 应用名称 | Retro |
 | ID | WA200001892 |
-| 功能 | 机器人，选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Baltic Amadeus |
 | 合作伙伴网站的 URL | [https://www.ba.lt/en/](https://www.ba.lt/en/) |
@@ -73,7 +72,6 @@ ms.locfileid: "52250830"
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| 机器人访问名单，以检查加入或离开团队的成员。 基于这一点，它会从项目添加或停用该用户，以便用户不再显示在 sprint 参与者列表中。 | 电子邮件和 FullName 链接在一起，并存储在数据库中。 电子邮件用于用户标识，以便显示登录用户的适当内容。 FullName 用于显示 puproses，因此其他用户可以知道他们要评估或编写反馈的用户。  |  |
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

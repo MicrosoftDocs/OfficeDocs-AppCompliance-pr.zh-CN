@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Planyway 团队日历的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b9af468a7198de70c2eeb5ce02e72bbb5cb70b0f
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 69f23970621b0105d1359bb41d3539b643991448
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252031"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553923"
 ---
-# <a name="planyway-team-calendar"></a>Planyway 团队日历
+# <a name="planyway-team-calendar"></a>Planyway Team Calendar
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,9 +32,8 @@ ms.locfileid: "52252031"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Planyway 团队日历 |
+| 应用名称 | Planyway Team Calendar |
 | ID | WA200002712 |
-| 功能 | 选项卡 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Rubius |
 | 合作伙伴网站的 URL | [https://planyway.com](https://planyway.com) |
@@ -70,7 +69,6 @@ ms.locfileid: "52252031"
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
-
 
 
 #### <a name="telemetry-data"></a>遥测数据

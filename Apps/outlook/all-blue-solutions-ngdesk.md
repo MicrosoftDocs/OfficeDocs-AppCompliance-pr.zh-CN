@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ngDesk 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fa8e83803cf5ab2ceceff79bac66397f390eac6e
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: c527842a226a4029f8c1d0ad842ef762c47ed85f
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251791"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553763"
 ---
 # <a name="ngdesk"></a>ngDesk
 
@@ -63,15 +63,6 @@ ms.locfileid: "52251791"
 >不Microsoft 服务非活动。
 
 
-
-#### <a name="add-in-data-access"></a>加载项数据访问
-
-列出此应用程序访问组织数据所需的权限、此权限的理由和用途 (应用程序对 ) 使用此信息的目的，以及应用程序是否在其数据库中存储此信息。
-
->| **权限**  | **说明** |
->|:----------------|:----------------|
->| ReadWrite Item | 此外接程序可以访问和修改活动邮件中的个人信息，如正文、主题、发件人、收件人和附件信息。 它可能会向第三方服务发送此数据。 无法读取或修改&#8217;邮箱中的其他项目。 |
->| 发送数据 | 可以通过 Internet 发送数据 |
 
 #### <a name="telemetry-data"></a>遥测数据
 
