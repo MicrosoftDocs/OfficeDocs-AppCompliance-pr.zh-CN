@@ -22,7 +22,7 @@
           href: docs/certification.md
         - name: Microsoft 365认证提交指南
           href: docs/certification-submission-guide.md
-    - name: Microsoft Teams
+    - name: Microsoft Teams应用
       href: teams/teams-apps.md
       items:
         - name: 365Projects
@@ -383,6 +383,8 @@
           href: teams/wide-ideas.md
         - name: Woobot
           href: teams/woobot.md
+        - name: 工作板
+          href: teams/workboard.md
         - name: Workday
           href: teams/workday.md
         - name: Wrike
@@ -403,7 +405,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft 应用Outlook
+    - name: Microsoft Outlook 应用
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign Add-In for Outlook
@@ -450,7 +452,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: 用于电子邮件的 Zoho CRM
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft Word
+    - name: Microsoft Word应用
       href: word/word-apps.md
       items:
         - name: Adobe Sign for Word and PowerPoint
@@ -481,7 +483,7 @@
           href: word/jiji-technologies-private-limited-wunder365-for-office.md
         - name: xLaw - 知识管理系统
           href: word/evertn-xlaw-knowledge-management-system.md
-    - name: Microsoft 应用PowerPoint
+    - name: Microsoft PowerPoint 应用
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign for Word and PowerPoint
@@ -502,7 +504,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: 用于文档Office Wrike
           href: powerpoint/wrike-inc-for-office-documents.md
-    - name: Microsoft 应用SharePoint
+    - name: Microsoft SharePoint 应用
       href: sharepoint/sharepoint-apps.md
       items:
         - name: 适用于 SharePoint Online 的敏捷任务板
@@ -519,7 +521,7 @@
           href: sharepoint/konnect-email-parser.md
         - name: officeatwork |模板选择器SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
-    - name: Microsoft Excel
+    - name: Microsoft Excel应用
       href: excel/excel-apps.md
       items:
         - name: CloudExtend Analytics for NetSuite
@@ -552,14 +554,14 @@
           href: excel/wrike-inc-for-office-documents.md
         - name: Wunder365 for Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft OneNote
+    - name: Microsoft OneNote应用
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork |内容选择器Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: Wunder365 for Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Project
+    - name: Microsoft Project应用
       href: project/project-apps.md
       items:
         - name: officeatwork |模板选择器Office
