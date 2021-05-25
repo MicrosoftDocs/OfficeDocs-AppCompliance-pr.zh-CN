@@ -2,24 +2,24 @@
 title: 已批准联系人的文本的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 05/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Text 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2cc4abf4924ca9af1ddd5b49b6a38c4427f3404a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 8d9e5cfd3b082692656c7bb9a67417564cf7ab57
+ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552383"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629654"
 ---
 # <a name="text"></a>文本
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2019 年 12 月 16 日</p>
+<p>开发人员上次更新时间：2021 年 5 月 10 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/a622ceb4-b6e2-4557-8218-e22e80975ba4" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000383" target="_blank">在 AppSource 中查看</a>
@@ -36,9 +36,9 @@ ms.locfileid: "52552383"
 | ID | WA200000383 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Approved Contact |
-| 合作伙伴网站的 URL | [https://sales.approvedcontact.com/syniverse-microsoft-teams...](https://sales.approvedcontact.com/syniverse-microsoft-teams-text/) |
+| 合作伙伴网站的 URL | [www.approvedcontact.com](www.approvedcontact.com) |
 | 隐私策略的 URL | [https://sales.approvedcontact.com/wp-content/uploads/text-p...](https://sales.approvedcontact.com/wp-content/uploads/text-privacy-policy.pdf) |
-| 使用条款 URL | [https://sales.approvedcontact.com/wp-content/uploads/text-t...](https://sales.approvedcontact.com/wp-content/uploads/text-terms-of-use.pdf) |
+| 使用条款 URL | [https://approvedcontact.com/Terms%20of%20use.pdf](https://approvedcontact.com/Terms%20of%20use.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,10 +57,10 @@ ms.locfileid: "52552383"
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Group.ReadWrite.All | delegated | 对于文本自动程序，我们将捕获团队标识符，以创建入站文本消息的未来频道。 | 允许我们Teams频道。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| email | delegated |  | 获取用户联系人信息。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| offline_access | delegated | 刷新令牌存储在我们的数据库中。 | 用于将刷新令牌保留到我们的数据库中，以在用户日历不存在时同步它们。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| openid | delegated |  | 允许用户登录。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| 个人资料 | delegated |  |  | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| 电子邮件 | delegated | 电子邮件地址 | 获取用户联系人信息。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| offline_access | delegated | 刷新令牌存储在我们的数据库中。 | 用于将刷新令牌保留到我们的数据库中 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| openid | delegated | 登录凭据 | 允许用户登录。 以便文本可以传递到Teams通道 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| 个人资料 | delegated | 电子邮件地址 | 获取用户联系人信息。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -75,7 +75,7 @@ ms.locfileid: "52552383"
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| 我们使用名单来比较团队中每个人在开放时间安排会议的忙/闲时间。 | 我们只需存储电子邮件地址，以便可以比较忙/闲时间。 |  |
+>| 用于将刷新令牌保留到我们的数据库中 | 我们存储电子邮件地址。 | 用于将刷新令牌保留到我们的数据库中 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -112,3 +112,27 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>标识信息
+
+批准联系人已提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
+| 你的应用是否支持条件访问策略？ | 否 |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 否 |
+| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你的应用是否公开任何 Web API？ | 否 |
+| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用已弃用 API？ | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
