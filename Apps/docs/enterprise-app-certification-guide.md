@@ -1,68 +1,67 @@
 ---
-title: 什么是 Microsoft 365 认证？
+title: 什么是Microsoft 365认证？
 author: orionomalley
 ms.author: oromalle
-description: Microsoft 365 认证详细信息
+description: Microsoft 365认证详细信息
 keywords: 应用证明 Microsoft 365 认证 365 调查表 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 3f4a0f3973dbca726fb81bae95cbeb63ef6b7fc0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: a8abea4e9670f22583b8a7c718b3dec9883b9adb
+ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52070851"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053466"
 ---
-# <a name="what-is-microsoft-365-certification"></a><span data-ttu-id="30225-104">什么是 Microsoft 365 认证？</span><span class="sxs-lookup"><span data-stu-id="30225-104">What is Microsoft 365 Certification?</span></span>
+# <a name="what-is-microsoft-365-certification"></a><span data-ttu-id="38b85-104">什么是Microsoft 365认证？</span><span class="sxs-lookup"><span data-stu-id="38b85-104">What is Microsoft 365 Certification?</span></span>
 
-<span data-ttu-id="30225-105">Microsoft 365 认证可保证在 Microsoft 365 生态系统中安装第三方 Office 应用或外接程序时，数据和隐私受到充分保护。</span><span class="sxs-lookup"><span data-stu-id="30225-105">Microsoft 365 Certification offers assurances that data and privacy are adequately secured and protected when a third-party Office app or add-in is installed in your Microsoft 365 ecosystem.</span></span> <span data-ttu-id="30225-106">认证确认应用解决方案符合 Microsoft 365 认证提交指南中所述的条件。</span><span class="sxs-lookup"><span data-stu-id="30225-106">Certification confirms that an app solution is compliant against criteria described in the Microsoft 365 Certification Submission Guide.</span></span> <span data-ttu-id="30225-107">通过验证的应用程序将被指定为 Microsoft 365 认证。</span><span class="sxs-lookup"><span data-stu-id="30225-107">Applications that pass validation will be designated Microsoft 365 Certified.</span></span>
-<span data-ttu-id="30225-108">应用认证是通过合格的分析师对以应用的安全性和合规性框架、协议、过程和流程为中心的全面评估的审阅和审批实现的。</span><span class="sxs-lookup"><span data-stu-id="30225-108">App certification is achieved through a qualified analyst's review and approval of a comprehensive assessment centering on an app's security and compliance frameworks, protocols, procedures, and processes.</span></span> <span data-ttu-id="30225-109">尽管参与是可选的，但获得认证是表明你的应用程序和操作过程尚未进行密集安全检查的一种好办法。</span><span class="sxs-lookup"><span data-stu-id="30225-109">Although participation is optional, receiving a certification is a steadfast way of signaling that your application and operational procedures have underdone an intensive security review.</span></span>
+<span data-ttu-id="38b85-105">Microsoft 365认证可保证在使用第三方应用时，数据和隐私受到充分保护和保护。</span><span class="sxs-lookup"><span data-stu-id="38b85-105">Microsoft 365 Certification offers assurances that data and privacy are adequately secured and protected when you use a third-party app.</span></span> <span data-ttu-id="38b85-106">认证确认应用符合《Microsoft 365[认证提交指南》中所述的条件](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)。</span><span class="sxs-lookup"><span data-stu-id="38b85-106">Certification confirms that an app is compliant against criteria described in the [Microsoft 365 Certification Submission Guide](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide).</span></span> <span data-ttu-id="38b85-107">通过验证的应用程序将被指定为通过Microsoft 365认证。</span><span class="sxs-lookup"><span data-stu-id="38b85-107">Applications that pass validation will be designated Microsoft 365 Certified.</span></span>
+<span data-ttu-id="38b85-108">应用认证是通过合格的分析师对以应用的安全性和合规性框架、流程和过程为中心的全面评估进行审阅和审批实现的。</span><span class="sxs-lookup"><span data-stu-id="38b85-108">App certification is achieved through a qualified analyst's review and approval of a comprehensive assessment centering on an app's security and compliance frameworks, processes, and procedures.</span></span> <span data-ttu-id="38b85-109">尽管参与是可选的，但获得认证是一种表示你的应用程序和操作过程已经经过密集安全审查的一种明显方式。</span><span class="sxs-lookup"><span data-stu-id="38b85-109">Although participation is optional, receiving a certification is a steadfast way of signaling that your application and operational procedures have undergone an intensive security review.</span></span>
 
-<span data-ttu-id="30225-110">Microsoft 365 认证适用于与以下产品集成的应用：</span><span class="sxs-lookup"><span data-stu-id="30225-110">Microsoft 365 Certification applies to apps that integrate with:</span></span>
-- <span data-ttu-id="30225-111">Teams</span><span class="sxs-lookup"><span data-stu-id="30225-111">Teams</span></span>
-- <span data-ttu-id="30225-112">Word</span><span class="sxs-lookup"><span data-stu-id="30225-112">Word</span></span>
-- <span data-ttu-id="30225-113">Excel</span><span class="sxs-lookup"><span data-stu-id="30225-113">Excel</span></span>
-- <span data-ttu-id="30225-114">PowerPoint</span><span class="sxs-lookup"><span data-stu-id="30225-114">PowerPoint</span></span>
-- <span data-ttu-id="30225-115">Outlook</span><span class="sxs-lookup"><span data-stu-id="30225-115">Outlook</span></span>
-- <span data-ttu-id="30225-116">SharePoint</span><span class="sxs-lookup"><span data-stu-id="30225-116">SharePoint</span></span>
-- <span data-ttu-id="30225-117">Project</span><span class="sxs-lookup"><span data-stu-id="30225-117">Project</span></span>
-- <span data-ttu-id="30225-118">OneNote</span><span class="sxs-lookup"><span data-stu-id="30225-118">OneNote</span></span>
+<span data-ttu-id="38b85-110">Microsoft 365认证适用于 WebApps 以及与以下产品集成的所有应用：</span><span class="sxs-lookup"><span data-stu-id="38b85-110">Microsoft 365 Certification applies to WebApps and all apps that integrate with the following products:</span></span>
+- <span data-ttu-id="38b85-111">Teams</span><span class="sxs-lookup"><span data-stu-id="38b85-111">Teams</span></span>
+- <span data-ttu-id="38b85-112">Word</span><span class="sxs-lookup"><span data-stu-id="38b85-112">Word</span></span>
+- <span data-ttu-id="38b85-113">Excel</span><span class="sxs-lookup"><span data-stu-id="38b85-113">Excel</span></span>
+- <span data-ttu-id="38b85-114">PowerPoint</span><span class="sxs-lookup"><span data-stu-id="38b85-114">PowerPoint</span></span>
+- <span data-ttu-id="38b85-115">Outlook</span><span class="sxs-lookup"><span data-stu-id="38b85-115">Outlook</span></span>
+- <span data-ttu-id="38b85-116">SharePoint</span><span class="sxs-lookup"><span data-stu-id="38b85-116">SharePoint</span></span>
+- <span data-ttu-id="38b85-117">Project</span><span class="sxs-lookup"><span data-stu-id="38b85-117">Project</span></span>
+- <span data-ttu-id="38b85-118">OneNote</span><span class="sxs-lookup"><span data-stu-id="38b85-118">OneNote</span></span>
 
-## <a name="microsoft-365-certification-scope"></a><span data-ttu-id="30225-119">Microsoft 365 认证范围</span><span class="sxs-lookup"><span data-stu-id="30225-119">Microsoft 365 Certification Scope</span></span>
+## <a name="microsoft-365-certification-scope"></a><span data-ttu-id="38b85-119">Microsoft 365认证范围</span><span class="sxs-lookup"><span data-stu-id="38b85-119">Microsoft 365 Certification Scope</span></span>
 
-<span data-ttu-id="30225-120">已经过认证的应用已跨以下四个域进行评估：</span><span class="sxs-lookup"><span data-stu-id="30225-120">Apps that have been certified have been assessed across the following four domains:</span></span>
-1.  <span data-ttu-id="30225-121">**Application Security**</span><span class="sxs-lookup"><span data-stu-id="30225-121">**Application Security**</span></span>
-1.  <span data-ttu-id="30225-122">**操作安全性/安全部署**</span><span class="sxs-lookup"><span data-stu-id="30225-122">**Operational Security / Secure Deployment**</span></span>
-1.  <span data-ttu-id="30225-123">**数据处理安全和隐私**</span><span class="sxs-lookup"><span data-stu-id="30225-123">**Data Handling Security and Privacy**</span></span>
-1.  <span data-ttu-id="30225-124">**可选的外部合规性框架**</span><span class="sxs-lookup"><span data-stu-id="30225-124">**Optional External Compliance Frameworks**</span></span>
+<span data-ttu-id="38b85-120">已经过认证的应用已跨以下三个域进行评估：</span><span class="sxs-lookup"><span data-stu-id="38b85-120">Apps that have been certified have been assessed across the following three domains:</span></span>
+1.  <span data-ttu-id="38b85-121">**Application Security**</span><span class="sxs-lookup"><span data-stu-id="38b85-121">**Application Security**</span></span>
+1.  <span data-ttu-id="38b85-122">**操作安全性/安全部署**</span><span class="sxs-lookup"><span data-stu-id="38b85-122">**Operational Security / Secure Deployment**</span></span>
+1.  <span data-ttu-id="38b85-123">**数据处理安全和隐私**</span><span class="sxs-lookup"><span data-stu-id="38b85-123">**Data Handling Security and Privacy**</span></span>
 
-<span data-ttu-id="30225-125">有关 ISV 必须经过认证的严格流程的完整详细信息。</span><span class="sxs-lookup"><span data-stu-id="30225-125">For complete details on the rigorous process ISVs must go through to become certified.</span></span> <span data-ttu-id="30225-126">请参阅 [Microsoft 365 认证提交指南](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)。</span><span class="sxs-lookup"><span data-stu-id="30225-126">See [Microsoft 365 Certification Submission Guide](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide).</span></span>
+<span data-ttu-id="38b85-124">有关 ISV 必须经过认证的严格流程的完整详细信息。</span><span class="sxs-lookup"><span data-stu-id="38b85-124">For complete details on the rigorous process ISVs must go through to become certified.</span></span> <span data-ttu-id="38b85-125">请参阅[Microsoft 365认证提交指南](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)。</span><span class="sxs-lookup"><span data-stu-id="38b85-125">See [Microsoft 365 Certification Submission Guide](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide).</span></span>
 
-## <a name="program-benefits"></a><span data-ttu-id="30225-127">计划权益</span><span class="sxs-lookup"><span data-stu-id="30225-127">Program Benefits</span></span>
-<span data-ttu-id="30225-128">参与和完成 Microsoft 365 认证可以为客户和开发人员带来巨大优势：</span><span class="sxs-lookup"><span data-stu-id="30225-128">Participation and completion of Microsoft 365 Certification can provide immense benefits for both customers and developers:</span></span>
+## <a name="program-benefits"></a><span data-ttu-id="38b85-126">计划权益</span><span class="sxs-lookup"><span data-stu-id="38b85-126">Program Benefits</span></span>
+<span data-ttu-id="38b85-127">参与和完成Microsoft 365认证可以为 IT 管理员和开发人员带来巨大优势：</span><span class="sxs-lookup"><span data-stu-id="38b85-127">Participation and completion of Microsoft 365 Certification can provide immense benefits for IT admins and developers:</span></span>
 
-<span data-ttu-id="30225-129">**应用开发人员权益** 应用开发人员的好处包括：</span><span class="sxs-lookup"><span data-stu-id="30225-129">**App Developer Benefits** Benefits for the app developer include:</span></span> 
--   <span data-ttu-id="30225-130">对安全性和合规性状态的免费评估和验证</span><span class="sxs-lookup"><span data-stu-id="30225-130">A free assessment and verification of your security and compliance posture</span></span>
--   <span data-ttu-id="30225-131">在 AppSource 和 Microsoft Docs 的应用一览上打印的锁屏提醒</span><span class="sxs-lookup"><span data-stu-id="30225-131">A badge printed on your apps listing in AppSource and Microsoft Docs</span></span>
--   <span data-ttu-id="30225-132">提高 IT 管理员利用应用程序的信心</span><span class="sxs-lookup"><span data-stu-id="30225-132">Increased confidence for IT admins utilizing your application</span></span>
--   <span data-ttu-id="30225-133">为受信任的已验证商业应用生态系统做出贡献的机会</span><span class="sxs-lookup"><span data-stu-id="30225-133">The opportunity to contribute to a trusted ecosystem of verified commercial apps</span></span>
-- <span data-ttu-id="30225-134">使用营销材料推广你作为 Microsoft 365 认证应用的状态</span><span class="sxs-lookup"><span data-stu-id="30225-134">Use of marketing materials to promote your status as a Microsoft 365 certified app</span></span>
+<span data-ttu-id="38b85-128">**应用开发人员权益** 应用开发人员的好处包括：</span><span class="sxs-lookup"><span data-stu-id="38b85-128">**App Developer Benefits** Benefits for the app developer include:</span></span> 
+-   <span data-ttu-id="38b85-129">对安全性和合规性状态的免费评估和验证</span><span class="sxs-lookup"><span data-stu-id="38b85-129">A free assessment and verification of your security and compliance posture</span></span>
+-   <span data-ttu-id="38b85-130">在 AppSource、Microsoft Docs 和管理门户的应用一览上打印的锁屏提醒</span><span class="sxs-lookup"><span data-stu-id="38b85-130">A badge printed on your apps listing in AppSource, Microsoft Docs and admin portals</span></span>
+-   <span data-ttu-id="38b85-131">IT 管理员提高了对你的应用的信心</span><span class="sxs-lookup"><span data-stu-id="38b85-131">Increased confidence in your app by the IT admins</span></span>
+-   <span data-ttu-id="38b85-132">为受信任的已验证商业应用生态系统做出贡献的机会</span><span class="sxs-lookup"><span data-stu-id="38b85-132">The opportunity to contribute to a trusted ecosystem of verified commercial apps</span></span>
+-   <span data-ttu-id="38b85-133">使用营销材料推广你作为认证Microsoft 365状态</span><span class="sxs-lookup"><span data-stu-id="38b85-133">Use of marketing materials to promote your status as a Microsoft 365 certified app</span></span>
 
-<span data-ttu-id="30225-135">**IT 管理员权益** IT 管理员的好处包括：</span><span class="sxs-lookup"><span data-stu-id="30225-135">**IT Admin Benefits** Benefits for the IT admin include:</span></span>
--   <span data-ttu-id="30225-136">提高数据安全性的置信度</span><span class="sxs-lookup"><span data-stu-id="30225-136">Increased confidence in the security of your data</span></span>
--   <span data-ttu-id="30225-137">减少了调查应用安全和隐私做法所花费的时间和资源</span><span class="sxs-lookup"><span data-stu-id="30225-137">Reduced time and resources spent investigating app security and privacy practices</span></span>
+<span data-ttu-id="38b85-134">**IT 管理员权益** IT 管理员的好处包括：</span><span class="sxs-lookup"><span data-stu-id="38b85-134">**IT Admin Benefits** Benefits for the IT admin include:</span></span>
+-   <span data-ttu-id="38b85-135">提高数据安全性的置信度</span><span class="sxs-lookup"><span data-stu-id="38b85-135">Increased confidence in the security of your data</span></span>
+-   <span data-ttu-id="38b85-136">减少了调查应用安全性和合规性所花费的时间和资源</span><span class="sxs-lookup"><span data-stu-id="38b85-136">Reduced time and resources spent investigating app security and compliance of an app</span></span>
 
-## <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a><span data-ttu-id="30225-138">使用 Microsoft 365 徽章和相关营销材料</span><span class="sxs-lookup"><span data-stu-id="30225-138">Using the Microsoft 365 Badge and associated marketing materials</span></span>
-<span data-ttu-id="30225-139">Microsoft 365 认证徽标演示了应用已审查是否符合 Microsoft 提出的控制措施，这些控制措施会严格评估数据安全和隐私实践。</span><span class="sxs-lookup"><span data-stu-id="30225-139">The Microsoft 365 Certification logo demonstrates that an app has been reviewed for conformance to controls put forth by Microsoft which meticulously evaluate data security and privacy practices.</span></span> <span data-ttu-id="30225-140">完成 Microsoft 365 认证后，可以征得 Microsoft 明确书面同意，使用 Microsoft 365 认证徽标。</span><span class="sxs-lookup"><span data-stu-id="30225-140">You may use the Microsoft 365 Certification logo at the express written consent of Microsoft upon completion of the Microsoft 365 Certification.</span></span> <span data-ttu-id="30225-141">如果你的认证被吊销，或者自认证授予后一年内未启动重新认证过程，则必须停止使用所有与 Microsoft 365 认证相关的营销材料。</span><span class="sxs-lookup"><span data-stu-id="30225-141">If your certification is revoked, or the recertification process is not started within one year from the day the certification was awarded, you must discontinue use of all Microsoft 365 Certification related marketing materials.</span></span> 
+## <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a><span data-ttu-id="38b85-137">使用Microsoft 365徽章和相关营销材料</span><span class="sxs-lookup"><span data-stu-id="38b85-137">Using the Microsoft 365 Badge and associated marketing materials</span></span>
+<span data-ttu-id="38b85-138">the Microsoft 365 Certification logo demonstrates that an app has been reviewed for conforms to conforms to controls puted by Microsoft whichly evaluate data security and privacy practices.</span><span class="sxs-lookup"><span data-stu-id="38b85-138">The Microsoft 365 Certification logo demonstrates that an app has been reviewed for conformance to controls put forth by Microsoft which meticulously evaluate data security and privacy practices.</span></span> <span data-ttu-id="38b85-139">完成认证后，Microsoft 365 Microsoft 明确书面同意，使用 Microsoft 365 徽标。</span><span class="sxs-lookup"><span data-stu-id="38b85-139">You may use the Microsoft 365 Certification logo at the express written consent of Microsoft upon completion of the Microsoft 365 Certification.</span></span> <span data-ttu-id="38b85-140">如果你的认证被吊销，或者自认证授予起一年内未启动重新认证过程，则必须停止使用所有与认证相关的Microsoft 365材料。</span><span class="sxs-lookup"><span data-stu-id="38b85-140">If your certification is revoked, or the recertification process is not started within one year from the day the certification was awarded, you must discontinue use of all Microsoft 365 Certification related marketing materials.</span></span> 
 
-<span data-ttu-id="30225-142">此徽标可用于网站、新闻稿和其他专门与已完成 Microsoft 365 认证过程的应用程序相关的论坛。</span><span class="sxs-lookup"><span data-stu-id="30225-142">This logo can be used on websites, press releases, and other forums where it pertains specifically to the application which has completed the Microsoft 365 Certification process.</span></span> <span data-ttu-id="30225-143">徽标必须以合理的大小和位置呈现在数字内容中。</span><span class="sxs-lookup"><span data-stu-id="30225-143">The logo must be presented in a reasonable size and location within the digital content.</span></span> 
+<span data-ttu-id="38b85-141">此徽标可用于网站、新闻稿和其他专门与已完成认证过程的应用程序相关的Microsoft 365徽标。</span><span class="sxs-lookup"><span data-stu-id="38b85-141">This logo can be used on websites, press releases, and other forums where it pertains specifically to the application which has completed the Microsoft 365 Certification process.</span></span> <span data-ttu-id="38b85-142">徽标必须以合理的大小和位置呈现在数字内容中。</span><span class="sxs-lookup"><span data-stu-id="38b85-142">The logo must be presented in a reasonable size and location within the digital content.</span></span> 
 
-<span data-ttu-id="30225-144">以下声明必须随附徽标："带 Microsoft 365 认证徽标的应用表示此应用已获得 Microsoft 365 认证。</span><span class="sxs-lookup"><span data-stu-id="30225-144">The following statement must accompany the logo: “Apps with the Microsoft 365 Certification logo represents that this app has achieved Microsoft 365 Certification.</span></span> <span data-ttu-id="30225-145">除了应用安全性之外，此计划还审核应用发布者采用的做法和过程。</span><span class="sxs-lookup"><span data-stu-id="30225-145">In addition to app security, this program reviews the practices and procedures the app publisher employs.</span></span> <span data-ttu-id="30225-146">当客户数据受应用发布者控制时，你可以放心，Microsoft 已验证应用是否以安全的方式处理它。"</span><span class="sxs-lookup"><span data-stu-id="30225-146">While customer data is under control of the app publisher, you can rest assured that Microsoft has validated that the app will handle it in a safe and secure manner.”</span></span>
+<span data-ttu-id="38b85-143">以下语句必须随附徽标："具有 Microsoft 365 认证徽标的应用表示此应用已Microsoft 365认证。</span><span class="sxs-lookup"><span data-stu-id="38b85-143">The following statement must accompany the logo: “Apps with the Microsoft 365 Certification logo represents that this app has achieved Microsoft 365 Certification.</span></span> <span data-ttu-id="38b85-144">除了应用安全性之外，此计划还审核应用发布者采用的做法和过程。</span><span class="sxs-lookup"><span data-stu-id="38b85-144">In addition to app security, this program reviews the practices and procedures the app publisher employs.</span></span> <span data-ttu-id="38b85-145">当客户数据受应用发布者控制时，你可以放心，Microsoft 已验证应用是否以安全的方式处理它。"</span><span class="sxs-lookup"><span data-stu-id="38b85-145">While customer data is under control of the app publisher, you can rest assured that Microsoft has validated that the app will handle it in a safe and secure manner.”</span></span>
 
 
-### <a name="learn-more"></a><span data-ttu-id="30225-147">了解详细信息</span><span class="sxs-lookup"><span data-stu-id="30225-147">Learn More</span></span>
-* [<span data-ttu-id="30225-148">Microsoft 365 应用合规性计划概述</span><span class="sxs-lookup"><span data-stu-id="30225-148">Microsoft 365 App Compliance Program Overview</span></span>](~/overview.md)  
-* [<span data-ttu-id="30225-149">完成 Microsoft 365 认证</span><span class="sxs-lookup"><span data-stu-id="30225-149">Complete Microsoft 365 Certification</span></span>](~/docs/certification.md)  
-* [<span data-ttu-id="30225-150">什么是发布者验证？</span><span class="sxs-lookup"><span data-stu-id="30225-150">What is Publisher Verification?</span></span>](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
-* [<span data-ttu-id="30225-151">Microsoft 365 认证提交指南</span><span class="sxs-lookup"><span data-stu-id="30225-151">Microsoft 365 Certification Submission Guide</span></span>](~/docs/certification-submission-guide.md)
+### <a name="learn-more"></a><span data-ttu-id="38b85-146">了解详细信息</span><span class="sxs-lookup"><span data-stu-id="38b85-146">Learn More</span></span>
+* [<span data-ttu-id="38b85-147">Microsoft 365应用合规性计划概述</span><span class="sxs-lookup"><span data-stu-id="38b85-147">Microsoft 365 App Compliance Program Overview</span></span>](~/overview.md)  
+* [<span data-ttu-id="38b85-148">完成Microsoft 365认证</span><span class="sxs-lookup"><span data-stu-id="38b85-148">Complete Microsoft 365 Certification</span></span>](~/docs/certification.md)  
+* [<span data-ttu-id="38b85-149">什么是Publisher验证？</span><span class="sxs-lookup"><span data-stu-id="38b85-149">What is Publisher Verification?</span></span>](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
+* [<span data-ttu-id="38b85-150">Microsoft 365认证提交指南</span><span class="sxs-lookup"><span data-stu-id="38b85-150">Microsoft 365 Certification Submission Guide</span></span>](~/docs/certification-submission-guide.md)
 
