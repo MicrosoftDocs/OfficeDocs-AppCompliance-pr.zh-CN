@@ -7,18 +7,19 @@ keywords: microsoft 365 m365 应用发布者证明认证
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: 199c8f82a894566a918c30e529cefdfb8c259a48
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: fd06ecd028876a862fa3938253817fae3ff0fea0
+ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071030"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053436"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 应用合规计划
 
 Microsoft 365 应用合规计划是实现应用安全性和合规性的一种三层方法。 每一层都在下一层的基础上构建 - 提供分层计划来让用户在 Microsoft 365 生态系统中使用应用时建立起所需的信心。 目前，该计划中的所有层都是自发的，由应用开发人员自行决定完成。 
 
 我们的宗旨是：Microsoft 客户完全信任运行其组织的应用程序。
+
   ![实现应用合规性的三层方法](media/Microsoft-App-Compliance-Overview.png) 
 
 ## <a name="publisher-verification"></a>发布者验证
@@ -44,18 +45,12 @@ Microsoft 365 应用合规计划是实现应用安全性和合规性的一种三
 - SharePoint
 - Project
 - OneNote
+- Web 应用程序
 
 > [!IMPORTANT]
-> Microsoft 不会对提供的信息进行验证。 全权由开发人员确认证明文档和相应的应用性能数据的真实性、准确性和完整性。 
+> Microsoft 不对所提供的信息进行验证。开发者仅确认证明文件和相应应用程序性能数据的真实性、准确性和完整性。 
 
 ## <a name="microsoft-365-certification"></a>Microsoft 365 认证
-[Microsoft 365 认证](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide)向组织提供保证和确信，肯定在使用 Microsoft Teams 应用时数据和隐私都得到充分的保护。 认证确认了应用解决方案与 Microsoft 技术兼容、符合云应用安全最佳做法且受到 Microsoft 支持。在此过程中，应用开发人员与第三方评估者合作，共同验证组织的安全性和合规性标准。 Microsoft 365 认证适用于与下列 Microsoft 平台集成的应用：
+[Microsoft 365 认证](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide)向组织提供保证和确信，肯定在使用 Microsoft Teams 应用时数据和隐私都得到充分的保护。 认证确认了应用解决方案与 Microsoft 技术兼容、符合云应用安全最佳做法且受到 Microsoft 支持。在此过程中，应用开发人员与第三方评估者合作，共同验证组织的安全性和合规性标准。 Microsoft 365 认证适用于符合 Publisher Attestation 资格的相同应用程序。 
 
--   Teams
--   Word
--   Excel
--   PowerPoint 
--   Outlook
-- SharePoint
-- Project
-- OneNote
+
