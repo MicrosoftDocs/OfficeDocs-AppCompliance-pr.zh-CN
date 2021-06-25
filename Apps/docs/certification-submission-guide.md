@@ -6,12 +6,12 @@ description: Microsoft 365认证提交指南粒度视图
 keywords: 应用认证团队Microsoft 365合规性 m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 5e99defd75573b1335975ddc19e851c50da7721f
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: 1ee9ba43ffe793f38438a26365cbb8cbc05aa2f3
+ms.sourcegitcommit: d8a1524fc419a1ca33971b656197f0b6a5efe2b9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053446"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53125962"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365认证提交指南
 
@@ -53,7 +53,7 @@ ms.locfileid: "53053446"
 >* Sharepoint 应用程序/外接程序
 >* OfficeWord、 (、Excel、PowerPoint、Outlook、Project、OneNote) 
 
-## <a name="prerequisites"></a>必备条件
+## <a name="prerequisites"></a>先决条件
 
 ### <a name="publisher-attestation"></a>发布者证明
 
@@ -104,9 +104,9 @@ Microsoft 建议所有 ISV (独立软件供应商) 完整阅读本 Microsoft 365
 
 |总体大小              | 示例                  |
 |---------------------------- |-------------------------|
-|<5|1|
-|>5 & <10|2|
-|>9 & <25|3|
+|<5|1 |
+|>5 & <10|2 |
+|>9 & <25|3 |
 |>24|4 |
 
 > [!NOTE]
@@ -233,6 +233,7 @@ Microsoft 建议所有 ISV (独立软件供应商) 完整阅读本 Microsoft 365
 将审核渗透测试报告，以确保没有满足以下控件 **中列出的** 以下自动失败条件的漏洞。
  
 **渗透测试要求**
+
 ||**渗透测试控件**|
 | -------------------------|-----------------------------|
 |**一般条件**| **Controls**|
@@ -987,7 +988,7 @@ Microsoft 确认你将在不同的托管环境中部署应用程序并存储应�
 
 ![工作流](ProcessFlow.jpg)
 
-## <a name="learn-more"></a>了解详细信息
+## <a name="learn-more"></a>了解更多信息
 
 [Microsoft 365应用合规性计划概述](~/overview.md)  
 [什么是Microsoft 365应用程序Publisher证明？](~/docs/attestation.md)  
