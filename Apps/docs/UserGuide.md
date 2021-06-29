@@ -6,74 +6,74 @@ description: 适用于应用合规性计划的 ISV Microsoft 365指南
 keywords: 适用于应用合规性计划的 ISV Microsoft 365指南
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: b8560fe46bbad2710001467e9edfeab72d6e0cb7
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 437fcbc56309ca14566dbb95f470097af82c26bf
+ms.sourcegitcommit: bfabb191087786fae2b476e3f30861317886defa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52549923"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53179019"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>适用于应用合规性计划Microsoft 365合作伙伴的用户指南
 
-|||
+|阶段|Title|
 |---|---|
-|第 1 层| 发布者证明|
-|第 2 层| Microsoft 365 认证|
+|阶段 1| 发布者证明|
+|阶段 2| Microsoft 365 认证|
 
 ## <a name="1-overview"></a>1. 概述
-本文档作为合作伙伴的分步用户指南，已注册 Microsoft 365 应用合规性计划，旨在通过合作伙伴中心门户接受 Publisher 证明和认证。
+本文档是注册 Microsoft 365 应用合规性计划（旨在通过合作伙伴中心门户进行 Publisher 证明和认证）的合作伙伴的分步用户指南。
 
 ## <a name="2-acronyms--definitions"></a>2. 首字母缩略&定义
-| | |
+| 首字母缩略词 |定义 |
 |---|----|
-|首字母缩略词 | 定义 |
-|电脑 (合作伙伴中心) |所有 Microsoft 合作伙伴的门户。 合作伙伴登录到合作伙伴中心并提交Self-Assessment调查表 https://partner.microsoft.com/|
-|ISV|独立软件供应商 A.k.a. 合作伙伴或开发人员|
-|应用源| 应用程序目录 (https://appsource.microsoft.com/)
-||示例：现在虚拟代理 (https://appsource.microsoft.com/en-us/product/office/WA104381816)|
+|电脑 [ (合作伙伴中心) ](https://partner.microsoft.com/)|所有 Microsoft 合作伙伴的门户。 合作伙伴登录到合作伙伴中心并提交Self-Assessment调查表。 [应用合规性](https://partner.microsoft.com/dashboard/home)Microsoft 365中心|
+|ISV|独立软件供应商。 A.k.a. 合作伙伴或开发人员|
+|应用源| [应用程序目录](https://appsource.microsoft.com/)
+||示例： [现在虚拟代理](https://appsource.microsoft.com/product/office/WA104381816)|
 
 ## <a name="3---publisher-attestation-workflow"></a>3. Publisher证明工作流
 
 主页：这是合作伙伴登录到合作伙伴中心后登录页面。
 
-![合作伙伴中心主屏幕](../media/Picture1.png)
+![合作伙伴中心主屏幕](../media/UserGuidePhotos/01.png)
 
 **步骤 1：**   在页面左侧的导航栏中：
 1. 选择Office应用商店
 1. 选择概述
 
-![Office可在左侧导航栏中找到应用商店](../media/Picture2.png)
+![Office可在左侧导航栏中找到应用商店](../media/UserGuidePhotos/02.png)
 
 选择"概述"后，合作伙伴可以看到通过合作伙伴中心提交且可用于 Microsoft 365 合规性计划的应用列表。
 
 **步骤 2：** 从列表中选择应用以开始Publisher证明过程。
 
-![选取要证明的应用程序](../media/Picture3.png)
+![选取要证明的应用程序](../media/UserGuidePhotos/03.png)
 
-选择应用时，会弹出另一个导航栏，并添加选项"应用合规性"
+选择应用时，会弹出另一个导航栏，并添加选项"应用合规性"。
 
 **步骤 3：** 选择"应用合规性"
 
-![选择"应用合规性"](../media/App%20compliance%20step%203.png)
+![选择"应用合规性"](../media/UserGuidePhotos/04.png)
 
 **步骤 4：** 填写Self-Assessment证明Publisher调查表
 
-![导入/导出](../media/step4-new%20add.PNG)
+![发布者证明](../media/UserGuidePhotos/5.5.PNG)
 
-![导入/导出](../media/NewFeature%20impExp.PNG)
+**注意：** 如果你要返回以更新/重新提交应用程序，请单击"选择产品"下拉列表，选择应用，然后单击"克隆"。
 
-**注意**：如果你要返回更新/重新提交应用程序，请单击"选择产品"下拉列表，选择应用并单击"克隆"。
+![Clone](../media/UserGuidePhotos/05.PNG)
 
-![CLone ](../media/clone.PNG)
- ![ Clone2](../media/clone2.PNG)
+您还可以利用表单导入/导出以脱机方式完成表单，并完成导入。
+
+![导入导出功能](../media/UserGuidePhotos/06.PNG)
 
 您还可以利用表单导入/导出以脱机方式完成表单，并完成导入。 
 
 **步骤 5：** 完成后，单击"提交"，评估现在将为"正在审查"。
 
-![单击 Sumbit](../media/Picture8.png)
+![单击 Sumbit](../media/UserGuidePhotos/07.png)
 
-![审阅正在进行中](../media/Picture9.png)
+![审阅正在进行中](../media/UserGuidePhotos/08.png)
 
 ### <a name="approvereject-scenarios"></a>批准/拒绝方案：
 
@@ -81,11 +81,8 @@ ms.locfileid: "52549923"
 
 如果在此阶段拒绝，合作伙伴可以：
 -   查看故障报告。
-    - 合作伙伴将在合作伙伴中心中通过电子邮件收到通知。
--   更新Self-Assessment响应。
--   重新提交自我评估。
-
-![更新并重新提交评估](../media/Picture10.png)
+    - 合作伙伴将通过电子邮件收到通知，他们可以查看合作伙伴中心中的故障报告
+-   更新并重新提交Publisher ![ 证明更新并重新提交评估](../media/UserGuidePhotos/09.png)
 
 **B.Publisher证明重新提交**
 
