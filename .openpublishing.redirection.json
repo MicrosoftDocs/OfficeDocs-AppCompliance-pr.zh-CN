@@ -601,6 +601,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "Apps/forward/WA200001621.md",
+      "redirect_url": "/microsoft-365-app-certification/teams/missing-eteamer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Apps/forward/5b4afbd0-a5ff-49c8-a0c7-c28eb5e87ef8.md",
+      "redirect_url": "/microsoft-365-app-certification/teams/missing-eteamer",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Apps/forward/WA104381639.md",
       "redirect_url": "/microsoft-365-app-certification/teams/evernote",
       "redirect_document_id": false
@@ -891,13 +901,13 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Apps/forward/17859280.iplannerpro.md",
-      "redirect_url": "/microsoft-365-app-certification/saas/iglobe-iplanner-pro-office-365",
+      "source_path": "Apps/forward/WA104380464.md",
+      "redirect_url": "/microsoft-365-app-certification/outlook/iglobe-iplanner-pro-office-365",
       "redirect_document_id": false
     },
     {
-      "source_path": "Apps/forward/WA104380464.md",
-      "redirect_url": "/microsoft-365-app-certification/outlook/iglobe-iplanner-pro-office-365",
+      "source_path": "Apps/forward/17859280.iplannerpro.md",
+      "redirect_url": "/microsoft-365-app-certification/saas/iglobe-iplanner-pro-office-365",
       "redirect_document_id": false
     },
     {
@@ -1491,11 +1501,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Apps/forward/appfluenceinc.m_pm_msft.md",
-      "redirect_url": "/microsoft-365-app-certification/saas/appfluence-inc-priority-matrix",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "Apps/forward/WA104382005.md",
       "redirect_url": "/microsoft-365-app-certification/teams/appfluence-inc-priority-matrix",
       "redirect_document_id": false
@@ -1503,6 +1508,11 @@
     {
       "source_path": "Apps/forward/5be2b320-a5b7-4221-893c-dee506e4e365.md",
       "redirect_url": "/microsoft-365-app-certification/teams/appfluence-inc-priority-matrix",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Apps/forward/appfluenceinc.m_pm_msft.md",
+      "redirect_url": "/microsoft-365-app-certification/saas/appfluence-inc-priority-matrix",
       "redirect_document_id": false
     },
     {
@@ -2121,6 +2131,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "Apps/forward/WA200002779.md",
+      "redirect_url": "/microsoft-365-app-certification/teams/missing-teame-health-check-bot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Apps/forward/7a9603e3-0647-4f2c-a9a9-13ab355423c1.md",
+      "redirect_url": "/microsoft-365-app-certification/teams/missing-teame-health-check-bot",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Apps/forward/WA200002660.md",
       "redirect_url": "/microsoft-365-app-certification/teams/effency-teamgether",
       "redirect_document_id": false
@@ -2191,6 +2211,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "Apps/forward/officeatwork-ag.template-chooser.md",
+      "redirect_url": "/microsoft-365-app-certification/saas/officeatwork-template-chooser",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Apps/forward/WA200000110.md",
       "redirect_url": "/microsoft-365-app-certification/teams/officeatwork-template-chooser",
       "redirect_document_id": false
@@ -2198,11 +2223,6 @@
     {
       "source_path": "Apps/forward/13d1defc-6301-4e62-9c53-3361db865183.md",
       "redirect_url": "/microsoft-365-app-certification/teams/officeatwork-template-chooser",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "Apps/forward/officeatwork-ag.template-chooser.md",
-      "redirect_url": "/microsoft-365-app-certification/saas/officeatwork-template-chooser",
       "redirect_document_id": false
     },
     {
