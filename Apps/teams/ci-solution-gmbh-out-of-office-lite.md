@@ -1,45 +1,45 @@
 ---
-title: Workday 的应用程序信息（按 Workday）
+title: ci 解决方案 GmbH 中 CI-out-of-Office Lite 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2021
+ms.date: 06/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Workday 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: CI-Out-of-Office Lite 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f85cc0ccc778f7ed3440e85795574faad3868d24
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 87a4d77deaac6281018befe1fc2de44f0fe20c35
+ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279004"
+ms.locfileid: "53275237"
 ---
-# <a name="workday"></a>Workday
+# <a name="ci-out-of-office-lite"></a>CI-Out-of-Office Lite
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 1 月 26 日</p>
+<p>开发人员上次更新时间：2021 年 6 月 2 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/aa4981ef-635f-4066-b260-97445a4b2819" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001555" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/e76af3f9-8fb6-4018-84c0-d5444ad72b4c" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002748" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-Workday 提供给 Microsoft 的信息：
+ci 解决方案 GmbH 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Workday |
-| ID | WA200001555 |
+| 应用名称 | CI-Out-of-Office Lite |
+| ID | WA200002748 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Workday |
-| 合作伙伴网站的 URL | [https://www.workday.com/en-us/homepage.html](https://www.workday.com/en-us/homepage.html) |
-| "Teams应用程序信息"页的 URL | [https://nw.myworkday.com/microsoftteams/](https://nw.myworkday.com/microsoftteams/) |
-| 隐私策略的 URL | [https://www.workday.com/en-us/privacy.html](https://www.workday.com/en-us/privacy.html) |
-| 使用条款 URL | [https://nw.myworkday.com/microsoftteams/post-license/](https://nw.myworkday.com/microsoftteams/post-license/) |
+| 合作伙伴公司名称 | ci 解决方案 GmbH |
+| 合作伙伴网站的 URL | [https://www.ci-solution.com](https://www.ci-solution.com) |
+| "Teams应用程序信息"页的 URL | [https://www.ci-solution.com/support/en/ci-oof-lite/](https://www.ci-solution.com/support/en/ci-oof-lite/) |
+| 隐私策略的 URL | [https://www.ci-solution.com/kontakt/datenschutz.html](https://www.ci-solution.com/kontakt/datenschutz.html) |
+| 使用条款 URL | [https://www.ci-solution.com/agb](https://www.ci-solution.com/agb) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Workday 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Workday 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由 ci 解决方案 GmbH 提供，它有关此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -57,25 +57,20 @@ Workday 提供给 Microsoft 的信息：
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| TeamsAppInstallation.ReadWriteForUser.All | 应用程序 | Retreive the App ID， install App for User， Get Teams license details from AAD | 我们不会存储与此功能相关的数据。  它允许我们为用户安装应用。 | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
->| User.Read.All | 应用程序 | 检索用户 AAID 以向用户发送邮件。 | 仅 AAID 和 Teams AAID  | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
+>| email | delegated | 查看用户的电子邮件地址 | Es werden keine Daten gespeichert. | fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
->| 组织数据在 Workday Services 和 Microsoft 之间共享。 有关其他详细信息，请参阅与 Workday 的协议条款。 | 组织数据在 Workday Services 和 Microsoft 之间共享。 有关其他详细信息，请参阅与 Workday 的协议条款。 | 无 |
+>不Microsoft 服务非活动。
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
->| 名单数据用于个性化设置用户与 Workday 应用的交互。 | 否 |  |
+>无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -88,7 +83,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->请参阅与 Workday 的协议条款。
+>Es liegen keine Daten bei Partnern.
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -104,9 +99,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36384' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39113' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36384" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/39113" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,7 +111,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 Workday 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+此信息由 ci 解决方案 GmbH 提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|

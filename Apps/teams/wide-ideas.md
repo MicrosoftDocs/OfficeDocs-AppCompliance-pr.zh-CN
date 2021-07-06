@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关"广泛想法"的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f1fc5d97736ba587595ef6c742b14ce75c0b1863
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 05daba10da032e947976d99411e0e70982e17f00
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550892"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53279038"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -37,8 +37,8 @@ ms.locfileid: "52550892"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Wide Ideas |
 | 合作伙伴网站的 URL | [https://getwideideas.com](https://getwideideas.com) |
-| 隐私策略的 URL | [https://getwideideas.com/privacy-policy](https://getwideideas.com/privacy-policy) |
-| 使用条款 URL | [https://getwideideas.com/terms](https://getwideideas.com/terms) |
+| 隐私策略的 URL | [https://getwideideas.com/privacy-policy/](https://getwideideas.com/privacy-policy/) |
+| 使用条款 URL | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474849364/Product_42949683744/Asset_0831a14b-e5df-4f0b-8385-3c06edaeceeb/GENERALTERMSANDCONDITIONSWideI.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

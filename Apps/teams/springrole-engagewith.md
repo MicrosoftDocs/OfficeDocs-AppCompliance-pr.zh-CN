@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: EngageWith 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6bb19440f4d5e9518e917856fbe709fbcfc0792f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: bc9d21c1c39cb3a5919024bccd077a1e31469bf2
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552753"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53279114"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -36,7 +36,7 @@ SpringRole 提供给 Microsoft 的信息：
 | ID | WA200001915 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SpringRole |
-| 合作伙伴网站的 URL | [https://engagewith.springworks.in/](https://engagewith.springworks.in/) |
+| 合作伙伴网站的 URL | [https://www.springworks.in](https://www.springworks.in) |
 | "Teams应用程序信息"页的 URL | [https://www.springworks.in/engagewith/](https://www.springworks.in/engagewith/) |
 | 隐私策略的 URL | [https://engagewith.springworks.in/privacy-policy](https://engagewith.springworks.in/privacy-policy) |
 | 使用条款 URL | [https://engagewith.springworks.in/terms-and-conditions](https://engagewith.springworks.in/terms-and-conditions) |
