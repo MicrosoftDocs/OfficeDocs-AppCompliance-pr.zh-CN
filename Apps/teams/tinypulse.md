@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: TINYpulse 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1083132af81b1a547eb2664b81e6048e7be4314d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 5ea21e3a277c8b3388c8ae28256a671484d625f1
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551342"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283406"
 ---
 # <a name="tinypulse"></a>TINYpulse
 
@@ -36,10 +36,10 @@ TINYpulse 提供给 Microsoft 的信息：
 | ID | WA104381729 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | TINYpulse |
-| 合作伙伴网站的 URL | [https://www.tinypulse.com/](https://www.tinypulse.com/) |
+| 合作伙伴网站的 URL | [https://www.tinypulse.com](https://www.tinypulse.com) |
 | "Teams应用程序信息"页的 URL | [https://www.tinypulse.com/engage](https://www.tinypulse.com/engage) |
 | 隐私策略的 URL | [https://www.tinypulse.com/privacy-policy](https://www.tinypulse.com/privacy-policy) |
-| 使用条款 URL | [https://www.tinypulse.com/terms-of-use](https://www.tinypulse.com/terms-of-use) |
+| 使用条款 URL | [https://www.tinypulse.com/terms-and-conditions](https://www.tinypulse.com/terms-and-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

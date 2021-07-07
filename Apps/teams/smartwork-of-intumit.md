@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SmartWork 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4e757f0d927d10ecbccb406d8d4071b52b234deb
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f6ed1a9278713153be2ef14d61ad56453ee03fa3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552783"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283196"
 ---
 # <a name="smartwork"></a>SmartWork
 
@@ -36,7 +36,7 @@ Intumit 的 SmartWork 提供给 Microsoft 的信息：
 | ID | WA200001149 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SmartWork of Intumit |
-| 合作伙伴网站的 URL | [https://www.intumit.com](https://www.intumit.com) |
+| 合作伙伴网站的 URL | [https://www.intumit.com/english/](https://www.intumit.com/english/) |
 | 隐私策略的 URL | [https://www.intumit.com/privacy.html](https://www.intumit.com/privacy.html) |
 | 使用条款 URL | [https://www.intumit.com/english/TermsOfUse.html](https://www.intumit.com/english/TermsOfUse.html) |
 
@@ -78,7 +78,7 @@ Intumit 的 SmartWork 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->否。 在对话过程中，我们将使用会话模式进行控制。 使用 id 与 db 中的项相对应，然后访问数据。 我们不会专门记录用户的信息
+>不正确。 在对话过程中，我们将使用会话模式进行控制。 使用 id 与 db 中的项相对应，然后访问数据。 我们不会专门记录用户的信息
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

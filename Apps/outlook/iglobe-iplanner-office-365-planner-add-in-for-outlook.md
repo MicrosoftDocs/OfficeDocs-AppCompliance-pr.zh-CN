@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: 适用于 Outlook 的 iPlanner Office 365 Planner 外接程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c7eef95df6de269d9e383e604aa8ff32518584e1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 787fb3af3390ade636524222e733fc47df7ce162
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552533"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282896"
 ---
 # <a name="iplanner-office-365-planner-add-in-for-outlook"></a>iPlanner Office 365 Planner 外接程序Outlook
 
@@ -32,9 +32,9 @@ iGlobe 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | iPlanner Office 365 Planner 外接程序Outlook |
 | ID | WA104380147 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016或更高版本，Outlook Web 上 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | iGlobe |
-| 合作伙伴网站的 URL | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |
+| 合作伙伴网站的 URL | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | 隐私策略的 URL | [https://iglobecrm.com/content/legal-information](https://iglobecrm.com/content/legal-information) |
 | 使用条款 URL | [https://iglobecrm.com/content/end-user-license-agreement-ig...](https://iglobecrm.com/content/end-user-license-agreement-iglobe-iplanner-add-ins) |
 

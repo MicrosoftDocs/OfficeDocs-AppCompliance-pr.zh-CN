@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Berrycast 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 726a087d07e64f82ee44932a450a038e5bfaa858
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c3236368fbab418754e758f6009607335e593515
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551924"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283416"
 ---
 # <a name="berrycast"></a>Berrycast
 
@@ -36,9 +36,9 @@ ms.locfileid: "52551924"
 | ID | WA200002798 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Technologies Openmind Inc, Les |
-| 合作伙伴网站的 URL | [https://berrycast.com](https://berrycast.com) |
-| 隐私策略的 URL | [https://berrycast.com/privacy-policy](https://berrycast.com/privacy-policy) |
-| 使用条款 URL | [https://berrycast.com/terms-of-use](https://berrycast.com/terms-of-use) |
+| 合作伙伴网站的 URL | [https://www.berrycast.com](https://www.berrycast.com) |
+| 隐私策略的 URL | [https://www.berrycast.com/privacy-policy](https://www.berrycast.com/privacy-policy) |
+| 使用条款 URL | [https://www.berrycast.com/terms-of-use](https://www.berrycast.com/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

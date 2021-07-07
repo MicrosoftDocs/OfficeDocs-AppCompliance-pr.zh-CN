@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Smartnotation 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 14641479a5ede06ee099b17cb4d4b616bbc65df6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 956f45f76f1f43164ef668a929080f501394bc82
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553853"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283206"
 ---
 # <a name="smartnotation"></a>Smartnotation
 
@@ -36,9 +36,9 @@ Smartnotation B.V 提供的信息。 到 Microsoft：
 | ID | WA200000681 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Smartnotation B.V. |
-| 合作伙伴网站的 URL | [https://www.smartnotation.com/](https://www.smartnotation.com/) |
-| 隐私策略的 URL | [https://www.smartnotation.com/privacy_policy.pdf](https://www.smartnotation.com/privacy_policy.pdf) |
-| 使用条款 URL | [https://www.smartnotation.com/tos.pdf](https://www.smartnotation.com/tos.pdf) |
+| 合作伙伴网站的 URL | [https://www.smartnotation.com/landing/](https://www.smartnotation.com/landing/) |
+| 隐私策略的 URL | [https://www.smartnotation.com/public/privacy_policy.pdf](https://www.smartnotation.com/public/privacy_policy.pdf) |
+| 使用条款 URL | [https://www.smartnotation.com/public/tos.pdf](https://www.smartnotation.com/public/tos.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Talview Interviews 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4f6b1b560d06f7d1d3728eabd646ded7d99874db
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a641b49729a43c8b12339f162eeee395183f5859
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552693"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282936"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -38,8 +38,8 @@ Talview Inc 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | Talview Inc |
 | 合作伙伴网站的 URL | [https://talview.com](https://talview.com) |
 | "Teams应用程序信息"页的 URL | [https://info.talview.com/talview-partners-microsoft-teams](https://info.talview.com/talview-partners-microsoft-teams) |
-| 隐私策略的 URL | [https://talview.com/privacy](https://talview.com/privacy) |
-| 使用条款 URL | [https://talview.com/terms](https://talview.com/terms) |
+| 隐私策略的 URL | [https://www.talview.com/privacy](https://www.talview.com/privacy) |
+| 使用条款 URL | [https://www.talview.com/terms](https://www.talview.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

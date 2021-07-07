@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: officeatwork 服务的所有可用安全性和合规性|内容选择器Outlook、其数据处理策略、Microsoft Cloud App Security应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 692402e0fc74c65df64e7ff47df838bb834564cb
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f7aa512ec63224aebff1ef61b2b6ffc3b6793916
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552503"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282876"
 ---
 # <a name="officeatwork--content-chooser-for-outlook"></a>officeatwork |内容选择器Outlook
 
@@ -32,9 +32,9 @@ officeatwork 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | officeatwork - officeatwork 的内容Outlook |
 | ID | WA104380690 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016或更高版本，Outlook Web 上 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | officeatwork |
-| 合作伙伴网站的 URL | [https://links.officeatwork.com/officeatwork-home](https://links.officeatwork.com/officeatwork-home) |
+| 合作伙伴网站的 URL | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | 隐私策略的 URL | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
 | 使用条款 URL | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 

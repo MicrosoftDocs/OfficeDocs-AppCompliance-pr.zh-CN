@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: xLaw 的所有可用安全性和合规性信息 - 知识管理系统、其数据处理策略、Microsoft Cloud App Security应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e10b2149f8d103ae9c9ab042402168be6ac73e9b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 57f63c4bc93739fa2a251d797ea4475ef786a09d
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552653"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283486"
 ---
 # <a name="xlaw---knowledge-management-system"></a>xLaw - 知识管理系统
 
@@ -35,7 +35,7 @@ ms.locfileid: "52552653"
 | ID | WA104381077 |
 | Office 365支持的客户端 | Word 2016 Mac、Word web 版、Word 2013 或更高版本（Windows |
 | 合作伙伴公司名称 | evertn |
-| 合作伙伴网站的 URL | [https://xlaw.eu/](https://xlaw.eu/) |
+| 合作伙伴网站的 URL | [https://extendlaw.com](https://extendlaw.com) |
 | 隐私策略的 URL | [https://xlaw.eu/en/privacypolicy.html](https://xlaw.eu/en/privacypolicy.html) |
 | 使用条款 URL | [https://xlaw.eu/en/tos.html](https://xlaw.eu/en/tos.html) |
 

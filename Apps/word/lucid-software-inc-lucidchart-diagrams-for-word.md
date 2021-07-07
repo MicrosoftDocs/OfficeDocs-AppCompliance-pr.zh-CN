@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 Word 的 Lucidchart 图表、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4e7e4bd31854f3861d60e8c740c39a11edc5bb5f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 460fc988ffcbd1da237838616910f6c5b6383ee5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552633"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283466"
 ---
 # <a name="lucidchart-diagrams-for-word"></a>Word 的 Lucidchart 关系图
 
@@ -35,7 +35,7 @@ Lucid Software Inc 提供给 Microsoft 的信息：
 | ID | WA104380118 |
 | Office 365支持的客户端 | Word 2016 Mac、Word 2013 或更高版本（Windows，Word web 版 |
 | 合作伙伴公司名称 | Lucid Software Inc |
-| 合作伙伴网站的 URL | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
+| 合作伙伴网站的 URL | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | 隐私策略的 URL | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
 | 使用条款 URL | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 

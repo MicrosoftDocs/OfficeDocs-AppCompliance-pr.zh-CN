@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Piazza 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b168fe7a5bc0b6f2f85c182c22667d6cfb2320ae
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a5c3e9c4d557ff73815181725e74e42433b0fb01
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552853"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283146"
 ---
 # <a name="piazza"></a>Piazza
 
@@ -36,7 +36,7 @@ Piazza 提供给 Microsoft 的信息：
 | ID | WA200001568 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Piazza |
-| 合作伙伴网站的 URL | [https://piazza.com](https://piazza.com) |
+| 合作伙伴网站的 URL | [https://www.piazza.com](https://www.piazza.com) |
 | 隐私策略的 URL | [https://piazza.com/legal/privacy](https://piazza.com/legal/privacy) |
 | 使用条款 URL | [https://piazza.com/legal/terms](https://piazza.com/legal/terms) |
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 Teams Manager 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f941df5497b74f3558a56c0407456b42f3b2095d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: fbca7409c87bed006a18b31d7de2fa43afd9b95f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552763"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283186"
 ---
 # <a name="teams-manager"></a>Teams Manager
 
@@ -36,7 +36,7 @@ Solutions2Share GmbH 提供给 Microsoft 的信息：
 | ID | WA200000764 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Solutions2Share GmbH |
-| 合作伙伴网站的 URL | [https://www.teams-manager.com](https://www.teams-manager.com) |
+| 合作伙伴网站的 URL | [https://teams-manager.com/](https://teams-manager.com/) |
 | 隐私策略的 URL | [https://www.teams-manager.com/privacy](https://www.teams-manager.com/privacy) |
 | 使用条款 URL | [https://www.teams-manager.com/terms-of-use/](https://www.teams-manager.com/terms-of-use/) |
 

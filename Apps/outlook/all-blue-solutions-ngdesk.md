@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ngDesk 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c527842a226a4029f8c1d0ad842ef762c47ed85f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 307c22805fdb3f0b92d65fa5cc0b754d28e34519
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553763"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282926"
 ---
 # <a name="ngdesk"></a>ngDesk
 
@@ -33,11 +33,11 @@ ms.locfileid: "52553763"
 |:----------------|:-------------|
 | 应用名称 | ngDesk |
 | ID | WA200002505 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016或更高版本，Outlook Web 上 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | 所有蓝色解决方案 |
-| 合作伙伴网站的 URL | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
-| 隐私策略的 URL | [https://ngdesk.com/privacy-policy-office-365](https://ngdesk.com/privacy-policy-office-365) |
-| 使用条款 URL | [https://ngdesk.com/subscription-agreement](https://ngdesk.com/subscription-agreement) |
+| 合作伙伴网站的 URL | [https://ngdesk.com](https://ngdesk.com) |
+| 隐私策略的 URL | [https://ngdesk.com/privacy-policy-office-365/](https://ngdesk.com/privacy-policy-office-365/) |
+| 使用条款 URL | [https://ngdesk.com/terms-of-service/](https://ngdesk.com/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

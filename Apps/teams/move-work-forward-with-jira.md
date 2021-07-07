@@ -2,24 +2,24 @@
 title: 通过移动工作转发通过 Jira 转发工作的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/05/2021
+ms.date: 06/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 有关通过 Jira 推进工作的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a5ca2ec25650abba3f68a2ec543434c56d3c3d27
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 2f0f51e841a3b22c1fe1670defe99948cc99f5a3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852039"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282956"
 ---
-# <a name="move-work-forward-with-jira"></a>使用 Jira 将工作向前移动
+# <a name="move-work-forward-with-jira"></a>使用 Jira 推动工作
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 5 月 5 日</p>
+<p>开发人员上次更新时间：2021 年 6 月 10 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/79ca2e8f-dd2c-40d5-897e-1b22d41038fe" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002855" target="_blank">在 AppSource 中查看</a>
@@ -32,10 +32,10 @@ ms.locfileid: "52852039"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 使用 Jira 将工作向前移动 |
+| 应用名称 | 使用 Jira 推动工作 |
 | ID | WA200002855 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 向前移动工作 |
+| 合作伙伴公司名称 | 推动工作 |
 | 合作伙伴网站的 URL | [https://www.moveworkforward.com](https://www.moveworkforward.com) |
 | "Teams应用程序信息"页的 URL | [https://www.moveworkforward.com/product/microsoft-teams-jir...](https://www.moveworkforward.com/product/microsoft-teams-jira-connector) |
 | 隐私策略的 URL | [https://www.moveworkforward.com/privacy-policy](https://www.moveworkforward.com/privacy-policy) |
@@ -55,7 +55,7 @@ ms.locfileid: "52852039"
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Channel.Create | delegated | 用于创建问题讨论频道。 | 新创建的频道的 Web URL 将存储为在 Jira 中显示，以便快速访问 Microsoft Teams讨论频道。 | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
 >| Channel.ReadBasic.All | delegated | 通道名称和 id 用于将通知从 Jira 发送到 Microsoft Teams。 | 存储通道 ID 和名称以配置从 Jira 到 Microsoft Teams。 | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
@@ -77,7 +77,7 @@ ms.locfileid: "52852039"
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| 安装应用时，按名称欢迎用户。 匹配 Microsoft Teams 和 Atlassian 用户。 | 不支持 |  |
+>| 安装应用时，按名称欢迎用户。 匹配 Microsoft Teams 和 Atlassian 用户。 | 否 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -96,7 +96,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -122,18 +122,18 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 支持 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 支持 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 支持 |
-| 你的应用是否支持条件访问策略？ | 不支持 |
-| 应用是否请求方案最小特权权限？ | 支持 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 支持 |
-| 你的应用是否支持多租户？ | 支持 |
-| 你的应用是否具有机密客户端？ | 不支持 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 支持 |
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
+| 你的应用是否支持条件访问策略？ | 否 |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 否 |
+| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/><br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 不支持 |
-| 你的应用是否使用预览 API？ | 不支持 |
+| 你的应用是否公开任何 Web API？ | 否 |
+| 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

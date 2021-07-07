@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: officeatwork 服务的所有可用安全性和合规性|CSA STAR 注册表Office应用程序、Microsoft Cloud App Security、应用程序目录信息和安全/合规性信息的上载程序。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 15b81d268f091a702bcda34fdc15d25161098e9d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 872034760bea88cfe6e8b75b02d19819a6686b46
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552603"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283446"
 ---
 # <a name="officeatwork--uploader-for-office"></a>officeatwork |上传程序Office
 
@@ -34,7 +34,7 @@ officeatwork 提供给 Microsoft 的信息：
 | ID | WA104381430 |
 | Office 365支持的客户端 | Mac iPad、Word 2016或更高版本、Word 2016或更高版本、Windows或Word web 版 |
 | 合作伙伴公司名称 | officeatwork |
-| 合作伙伴网站的 URL | [https://links.officeatwork.com/officeatwork-home](https://links.officeatwork.com/officeatwork-home) |
+| 合作伙伴网站的 URL | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | 隐私策略的 URL | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
 | 使用条款 URL | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 

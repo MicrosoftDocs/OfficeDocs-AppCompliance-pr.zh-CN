@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关联系人中心的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f6e143a7666d5f3a4cfb5744b7a27edfbe60b982
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 121d59640731b43137d1b2e9d7df987a2a78fe01
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552013"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282996"
 ---
 # <a name="contact-center"></a>联系人中心
 
@@ -36,8 +36,8 @@ Landis Technologies LLC 提供给 Microsoft 的信息：
 | ID | WA200001428 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Landis Technologies LLC |
-| 合作伙伴网站的 URL | [https://landistechnologies.com/office365contactcenter/](https://landistechnologies.com/office365contactcenter/) |
-| 隐私策略的 URL | [https://landistechnologies.com/legal/](https://landistechnologies.com/legal/) |
+| 合作伙伴网站的 URL | [https://landistechnologies.com/](https://landistechnologies.com/) |
+| 隐私策略的 URL | [https://www.landistechnologies.com/legal/](https://www.landistechnologies.com/legal/) |
 | 使用条款 URL | [https://landistechnologies.com/eula/](https://landistechnologies.com/eula/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -95,7 +95,7 @@ Landis Technologies LLC 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->是。 MS Graph API 请求进行记录以帮助支持事件。 它根据 Application Insights Microsoft Azure删除。
+>是。 MS Graph API 请求进行记录以帮助支持事件。 默认情况下，每个应用程序Microsoft Azure删除Insights应用程序。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

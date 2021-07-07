@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: VisualSP 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c4acb8087cb69ae70b4734ec0230830ac6fd377e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 7f8fb55c479f6730643d85ac866703f59d1f621e
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550932"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283356"
 ---
 # <a name="visualsp"></a>VisualSP
 
@@ -36,9 +36,9 @@ VisualSP 提供给 Microsoft 的信息：
 | ID | WA200001426 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | VisualSP |
-| 合作伙伴网站的 URL | [https://www.visualsp.com](https://www.visualsp.com) |
+| 合作伙伴网站的 URL | [https://visualsp.com](https://visualsp.com) |
 | "Teams应用程序信息"页的 URL | [https://www.visualsp.com/visualsp-for-microsoft-teams/](https://www.visualsp.com/visualsp-for-microsoft-teams/) |
-| 隐私策略的 URL | [https://www.visualsp.com/company/privacy-policy/](https://www.visualsp.com/company/privacy-policy/) |
+| 隐私策略的 URL | [https://www.visualsp.com/company/privacy-policy](https://www.visualsp.com/company/privacy-policy) |
 | 使用条款 URL | [https://www.visualsp.com/terms-of-service/](https://www.visualsp.com/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

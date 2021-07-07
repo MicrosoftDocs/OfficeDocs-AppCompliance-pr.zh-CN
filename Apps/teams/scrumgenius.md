@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ScrumGenius 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ba3b54f7d99672d657b200bf36725d0c7bf03d83
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: fb8b30ddc27b512a5731ef3ec42cb76ed097c56c
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553903"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283046"
 ---
 # <a name="scrumgenius"></a>ScrumGenius
 
@@ -36,7 +36,7 @@ ScrumGenius 提供给 Microsoft 的信息：
 | ID | WA104381097 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ScrumGenius |
-| 合作伙伴网站的 URL | [https://scrumgenius.com/](https://scrumgenius.com/) |
+| 合作伙伴网站的 URL | [https://scrumgenius.com](https://scrumgenius.com) |
 | 隐私策略的 URL | [https://scrumgenius.com/privacy/](https://scrumgenius.com/privacy/) |
 | 使用条款 URL | [https://scrumgenius.com/tos/](https://scrumgenius.com/tos/) |
 
@@ -79,7 +79,7 @@ ScrumGenius 提供了此信息，这些信息与此应用程序如何收集和�
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->否。 我们将用户与日志的内部 ID 进行连接。
+>不正确。 我们将用户与日志的内部 ID 进行连接。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

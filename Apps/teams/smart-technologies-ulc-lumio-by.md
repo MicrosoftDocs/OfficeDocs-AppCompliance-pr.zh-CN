@@ -1,44 +1,45 @@
 ---
-title: 由它学习的应用程序信息
+title: SMART Technologies ULC 的 Lumio 应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/31/2020
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关 Learn 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 798bd76f786119863f9ff2046e72daa15bcb0696
+description: SMART 提供的 Lumio 的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 50cde4ecae9abf39b199b381bcf8e5da33b345e6
 ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283346"
+ms.locfileid: "53283297"
 ---
-# <a name="learn"></a>学习
+# <a name="lumio-by-smart"></a>Lumio by SMART
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2020 年 3 月 31 日</p>
+<p>开发人员上次更新时间：2021 年 4 月 19 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/2d96b540-aa26-431b-bc31-222321c762e3" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001308" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/e0ffcbc7-f3f2-46b7-a189-afd01c545782" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001874" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-由小马向 Microsoft 提供的信息：
+SMART Technologies ULC 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 学习 |
-| ID | WA200001308 |
+| 应用名称 | Lumio by SMART |
+| ID | WA200001874 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Witivio |
-| 合作伙伴网站的 URL | [https://www.witivio.com](https://www.witivio.com) |
-| 隐私策略的 URL | [https://www.witivio.com/en/privacy](https://www.witivio.com/en/privacy) |
-| 使用条款 URL | [https://witivio.com/en/terms-of-use](https://witivio.com/en/terms-of-use) |
+| 合作伙伴公司名称 | SMART Technologies ULC |
+| 合作伙伴网站的 URL | [https://smarttech.com](https://smarttech.com) |
+| "Teams应用程序信息"页的 URL | [https://www.smarttech.com/smart-learning-suite/](https://www.smarttech.com/smart-learning-suite/) |
+| 隐私策略的 URL | [https://www.smarttech.com/en/legal/privacy-policies](https://www.smarttech.com/en/legal/privacy-policies) |
+| 使用条款 URL | [https://www.smarttech.com/legal/sls-terms](https://www.smarttech.com/legal/sls-terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,7 +49,7 @@ ms.locfileid: "53283346"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由一位小马提供，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+SMART Technologies ULC 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -56,10 +57,8 @@ ms.locfileid: "53283346"
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| User.ReadBasic.All | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| openid | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| 个人资料 | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
+>| Directory.Read.All | delegated | 数据用于验证未收集数据的组权限。  | 数据库中未存储任何目录数据 | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
+>| Group.Read.All | delegated | 他们属于哪个组，这用于验证他们是确定功能的学生或教师组的一部分。 未收集数据。  | 仅存储的数据是客户端的唯一 ID | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -72,30 +71,26 @@ ms.locfileid: "53283346"
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
->| 我们使用名单：1) 授权 (授予对自动程序) 的访问权限，2) 检测名字以提供友好 UX;3) 为聊天机器人的业务管理员管理聊天日志 | N/A。 或者自动程序仅个人 |  |
+>无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->机器人的遥测包含 UPN 和 AAD ID fr 诊断。
-只有 PROD/Run 管理员有权访问生产遥测。 日志存储 90 天，可请求在专用门户上删除 support.witivio.com 或通过电子邮件 dpo@witivio.com
+>应用程序遥测或日志中不显示 OII 或 EUII。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->百里诺仅使用部署在欧洲北部地区的 Azure 组件。 我们使用应用程序见解和 Cosmos DB 进行数据分析和存储。
-对于所有用户（包括管理员）来说，都使用 MFA。 管理员具有用于工作站 (的用户帐户) 访问 Azure 资源的权限帐户。
+>我们支持在我们的合作伙伴系统中忘记此权利，这包括日志、审核和存档。 这是一个手动过程，在此过程中，该合作伙伴的系统管理员将删除、编辑或存档数据。 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->是
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,11 +100,24 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35854' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37582' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35854" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37582" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>标识信息
+
+SMART Technologies ULC 提供了此信息，这些信息与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

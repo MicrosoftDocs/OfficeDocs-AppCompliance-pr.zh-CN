@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Medxnote MT 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: eca02f06a34c5a4d815bd2087826567cf4be27d6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ee4a304ac2844bff1fcec309fe0c96edba04208f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551963"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282976"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -36,7 +36,7 @@ Medxnote 提供给 Microsoft 的信息：
 | ID | WA200001823 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Medxnote |
-| 合作伙伴网站的 URL | [https://medxnote.com](https://medxnote.com) |
+| 合作伙伴网站的 URL | [https://medxnote.com/](https://medxnote.com/) |
 | 隐私策略的 URL | [https://medxnote.com/privacy-policy/](https://medxnote.com/privacy-policy/) |
 | 使用条款 URL | [https://medxnote.com/terms-conditions/](https://medxnote.com/terms-conditions/) |
 

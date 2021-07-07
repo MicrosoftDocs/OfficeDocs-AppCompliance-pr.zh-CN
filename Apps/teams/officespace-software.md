@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: OfficeSpace 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 216f79628f149fa3e62118b63d26bf63da16bb1f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 4d72b695fe5078922922f5a26ca81c4ab7970fc1
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551872"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283166"
 ---
 # <a name="officespace"></a>OfficeSpace
 
@@ -36,8 +36,7 @@ OfficeSpace 软件提供给 Microsoft 的信息：
 | ID | WA200002052 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | OfficeSpace Software |
-| 合作伙伴网站的 URL | [https://www.officespacesoftware.com/](https://www.officespacesoftware.com/) |
-| "Teams应用程序信息"页的 URL | [无](N/A) |
+| 合作伙伴网站的 URL | [https://www.officespacesoftware.com](https://www.officespacesoftware.com) |
 | 隐私策略的 URL | [https://www.officespacesoftware.com/oss-customer-privacy-po...](https://www.officespacesoftware.com/oss-customer-privacy-policy-25052018) |
 | 使用条款 URL | [https://www.officespacesoftware.com/oss-teams-app-terms-of-...](https://www.officespacesoftware.com/oss-teams-app-terms-of-use) |
 

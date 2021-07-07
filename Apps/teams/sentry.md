@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Sentry 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7df6fe458724bbd7162c0bcfc2cdda95176a0e70
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 4795f68da9e5b0eb3fa283494f547b7c9ae43f6d
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553893"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283236"
 ---
 # <a name="sentry"></a>Sentry
 
@@ -36,7 +36,7 @@ Sentry 提供给 Microsoft 的信息：
 | ID | WA200002106 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Sentry |
-| 合作伙伴网站的 URL | [https://sentry.io/](https://sentry.io/) |
+| 合作伙伴网站的 URL | [https://sentry.io](https://sentry.io) |
 | "Teams应用程序信息"页的 URL | [https://docs.sentry.io/product/integrations/msteams/](https://docs.sentry.io/product/integrations/msteams/) |
 | 隐私策略的 URL | [https://sentry.io/privacy/](https://sentry.io/privacy/) |
 | 使用条款 URL | [https://sentry.io/terms/](https://sentry.io/terms/) |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于为它提供的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: dd1546926d21546930bebb734b18f6b09a3b63b5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ccaa5375c606778ce1869ed9fae7998f4d3dc3f7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551802"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283086"
 ---
 # <a name="saberr"></a>Saberr
 
@@ -36,7 +36,7 @@ ms.locfileid: "52551802"
 | ID | WA200001501 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Saberr |
-| 合作伙伴网站的 URL | [https://saberr.com](https://saberr.com) |
+| 合作伙伴网站的 URL | [https://www.saberr.com](https://www.saberr.com) |
 | "Teams应用程序信息"页的 URL | [https://help.saberr.com/en/articles/3854472-use-coachbot-in...](https://help.saberr.com/en/articles/3854472-use-coachbot-in-microsoft-teams-to-get-notifications-and-quick-actions) |
 | 隐私策略的 URL | [https://help.saberr.com/en/articles/3853094-privacy-for-use...](https://help.saberr.com/en/articles/3853094-privacy-for-users-of-coachbot-s-microsoft-teams-or-slack-integrations) |
 | 使用条款 URL | [https://help.saberr.com/en/articles/3853596-terms-and-condi...](https://help.saberr.com/en/articles/3853596-terms-and-conditions) |

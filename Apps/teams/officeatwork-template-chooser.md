@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: 模板选择器的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6af7611aebaf90acfc1785ad5e5cbba3e58f3871
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 89bf2f71d99580888dbb0d938c4f5a909d0c2175
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552883"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283176"
 ---
 # <a name="template-chooser"></a>Template Chooser
 
@@ -35,7 +35,7 @@ officeatwork 提供给 Microsoft 的信息：
 | ID | WA200000110 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | officeatwork |
-| 合作伙伴网站的 URL | [https://links.officeatwork.com/officeatwork-home](https://links.officeatwork.com/officeatwork-home) |
+| 合作伙伴网站的 URL | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | "Teams应用程序信息"页的 URL | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | 隐私策略的 URL | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
 | 使用条款 URL | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |

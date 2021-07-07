@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Navo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ef2c71df0559a5a3db4612df5acf86835efe1a71
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 11346ff15831615ac6b617d8d14f83f38c7de0a5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553933"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283106"
 ---
 # <a name="navo"></a>Navo
 
@@ -36,7 +36,7 @@ Regroove 解决方案提供给 Microsoft 的信息：
 | ID | WA200001047 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Regroove Solutions |
-| 合作伙伴网站的 URL | [https://getnavo.com](https://getnavo.com) |
+| 合作伙伴网站的 URL | [https://regroove.ca ; https://getnavo.com](https://regroove.ca ; https://getnavo.com) |
 | 隐私策略的 URL | [https://getnavo.com/privacy-policy/](https://getnavo.com/privacy-policy/) |
 | 使用条款 URL | [https://getnavo.com/terms-of-service/](https://getnavo.com/terms-of-service/) |
 
@@ -66,7 +66,7 @@ Regroove 解决方案提供给 Microsoft 的信息：
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-------------------|:--------------------------|:--------------------------|
->| 我们将租户 ID 和用户计数存储在 Stripe 中。 |  | User.Read | 委派 | 登录并读取用户配置文件 - 未存储任何数据 |
+>| 我们将租户 ID 和用户计数存储在 Stripe 中。 |  | User.Read | Delegated | 登录并读取用户配置文件 - 未存储任何数据 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -79,13 +79,13 @@ Regroove 解决方案提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->是的，在 Application Insights 中，我们将用户经过身份验证的 ID 和用户帐户 ID (租户 ID) 。
+>是的，在应用程序Insights存储用户经过身份验证的 ID 和租户 ID (用户帐户 id) 。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们存储的所有数据 (，而不是通过服务（如 Stripe 或 Application Insights) ）存储在 Azure Cosmos数据库中。 所有管理员都使用 2FA，并且访问权限仅限于我们员工的子集。
+>我们存储的所有数据 (，而不是通过带区或应用程序Insights) 存储在 Azure Cosmos数据库中。 所有管理员都使用 2FA，并且访问权限仅限于我们员工的子集。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

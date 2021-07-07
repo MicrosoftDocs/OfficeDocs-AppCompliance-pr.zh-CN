@@ -2,24 +2,23 @@
 title: 工作板的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/12/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Workboard 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ebbece019cea24042a54c69271da9ce0e4dca337
-ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
+ms.openlocfilehash: 94ad01886baec72c516f5e32953d8a7cbea17204
+ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629713"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53265758"
 ---
-# <a name="workboard"></a>工作板
+# <a name="workboard"></a>Workboard
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 5 月 12 日</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>开发人员上次更新时间：2021 年 6 月 4 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/28d0282b-3cd2-49f0-90bb-a016843750c6" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381599" target="_blank">在 AppSource 中查看</a>
@@ -32,10 +31,10 @@ Workboard 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 工作板 |
+| 应用名称 | Workboard |
 | ID | WA104381599 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 工作板 |
+| 合作伙伴公司名称 | Workboard |
 | 合作伙伴网站的 URL | [https://www.workboard.com](https://www.workboard.com) |
 | "Teams应用程序信息"页的 URL | [https://www.workboard.com/microsoft/](https://www.workboard.com/microsoft/) |
 | 隐私策略的 URL | [https://www.workboard.com/license/privacy-policy.html](https://www.workboard.com/license/privacy-policy.html) |

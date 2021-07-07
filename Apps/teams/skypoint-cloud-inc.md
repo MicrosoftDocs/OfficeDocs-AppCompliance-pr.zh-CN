@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SkyPoint 云的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 898f7fc73ff32a8d5c999ab78141b2bcda59a09f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 6c23bac241d7456f7811e74af2dff6b93ef57e6c
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552823"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283218"
 ---
 # <a name="skypoint-cloud"></a>SkyPoint Cloud
 
@@ -36,7 +36,7 @@ SkyPoint Cloud Inc. 提供给 Microsoft 的信息：
 | ID | WA200002580 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SkyPoint Cloud Inc. |
-| 合作伙伴网站的 URL | [https://skypointcloud.com/](https://skypointcloud.com/) |
+| 合作伙伴网站的 URL | [https://skypointcloud.com](https://skypointcloud.com) |
 | "Teams应用程序信息"页的 URL | [https://skypointcloud.com/platform/](https://skypointcloud.com/platform/) |
 | 隐私策略的 URL | [https://skypointcloud.com/privacy/](https://skypointcloud.com/privacy/) |
 | 使用条款 URL | [https://skypointcloud.com/terms/](https://skypointcloud.com/terms/) |

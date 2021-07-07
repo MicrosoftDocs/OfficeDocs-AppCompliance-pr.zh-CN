@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有 Available security and compliance information for 一致性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57c0c47bd47a23efb9cf93247988b3a374690ede
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 589dcefe68d389ecfc2a4ba3f51998878358c58f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551172"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283368"
 ---
 # <a name="tribute"></a>Tribute
 
@@ -38,7 +38,7 @@ ms.locfileid: "52551172"
 | 合作伙伴公司名称 | Tribute Co. |
 | 合作伙伴网站的 URL | [https://www.tributementorship.com](https://www.tributementorship.com) |
 | "Teams应用程序信息"页的 URL | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
-| 隐私策略的 URL | [https://www.tributementorship.com/privacy](https://www.tributementorship.com/privacy) |
+| 隐私策略的 URL | [https://www.tributementorship.com/privacy ](https://www.tributementorship.com/privacy ) |
 | 使用条款 URL | [https://www.tributementorship.com/terms](https://www.tributementorship.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

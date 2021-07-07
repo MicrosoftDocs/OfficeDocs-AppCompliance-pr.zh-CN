@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: 有关一些解决方案的所有可用安全性和合规性信息、它的数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: befd216c19352c4b812703fe7d59d2c3fd3fd7d7
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.openlocfilehash: bcde5fdd363b217adabcdfd91074dedfcbe73b88
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52790022"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283076"
 ---
-# <a name="sailpoint"></a>Point
+# <a name="sailpoint"></a>Sailpoint
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,11 +32,11 @@ ms.locfileid: "52790022"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Point |
+| 应用名称 | Sailpoint |
 | ID | WA200002761 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Point Technologies， Inc. |
-| 合作伙伴网站的 URL | [sailpoint.com](sailpoint.com) |
+| 合作伙伴公司名称 | SailPoint Technologies, Inc. |
+| 合作伙伴网站的 URL | [https://sailpoint.com](https://sailpoint.com) |
 | 隐私策略的 URL | [https://www.sailpoint.com/legal/privacy/](https://www.sailpoint.com/legal/privacy/) |
 | 使用条款 URL | [https://www.sailpoint.com/legal/customer-agreements/](https://www.sailpoint.com/legal/customer-agreements/) |
 
@@ -69,7 +69,7 @@ ms.locfileid: "52790022"
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| 我们需要使用用户名来直接发送Teams | 不支持 |  |
+>| 我们需要使用用户名来直接发送Teams | 否 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -82,13 +82,13 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->不适用
+>无
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

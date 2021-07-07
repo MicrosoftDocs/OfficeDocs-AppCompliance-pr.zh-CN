@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Nugget 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1d5f6adea09ed546fae6b6c9ca0aa4ef13beb683
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 6108617e72e1996a335b53941989a707a6544337
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552863"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283156"
 ---
 # <a name="nugget"></a>Nugget
 
@@ -37,7 +37,7 @@ Panviva 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Panviva |
 | 合作伙伴网站的 URL | [https://www.panviva.com](https://www.panviva.com) |
-| 隐私策略的 URL | [https://www.panviva.com/privacy-policy](https://www.panviva.com/privacy-policy) |
+| 隐私策略的 URL | [https://www.panviva.com/privacy-policy/](https://www.panviva.com/privacy-policy/) |
 | 使用条款 URL | [https://www.panviva.com/terms-and-conditions](https://www.panviva.com/terms-and-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

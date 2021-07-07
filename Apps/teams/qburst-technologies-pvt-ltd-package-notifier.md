@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 程序包通知程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 32a5d38cf65162adfcf236d955d881b77cba0ec7
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 76f042a43f4a14b7ee1de71a9bb70a5e646413d4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552813"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283126"
 ---
 # <a name="package-notifier"></a>Package Notifier
 
@@ -36,8 +36,7 @@ QBURST TECHNOLOGIES PVT LTD 提供给 Microsoft 的信息：
 | ID | WA200002737 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | QBURST TECHNOLOGIES PVT LTD |
-| 合作伙伴网站的 URL | [https://package-notifier.qburst.in](https://package-notifier.qburst.in) |
-| "Teams应用程序信息"页的 URL | [无](N/A) |
+| 合作伙伴网站的 URL | [https://www.qburst.in](https://www.qburst.in) |
 | 隐私策略的 URL | [https://package-notifier.qburst.in/privacy-policy.html](https://package-notifier.qburst.in/privacy-policy.html) |
 | 使用条款 URL | [https://package-notifier.qburst.in/terms-and-conditions.html](https://package-notifier.qburst.in/terms-and-conditions.html) |
 

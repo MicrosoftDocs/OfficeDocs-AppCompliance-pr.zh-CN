@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于 Slido 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b54b432cc2956498cfb142ba56789d94ab9c6253
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 96e9df1c15ebea86c7d38286ca5fd196e1e6f470
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553863"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283216"
 ---
 # <a name="slido"></a>Slido
 
@@ -39,7 +39,7 @@ ms.locfileid: "52553863"
 | 合作伙伴网站的 URL | [https://www.sli.do](https://www.sli.do) |
 | "Teams应用程序信息"页的 URL | [https://www.sli.do/product](https://www.sli.do/product) |
 | 隐私策略的 URL | [https://www.sli.do/terms#privacy-policy](https://www.sli.do/terms#privacy-policy) |
-| 使用条款 URL | [https://www.sli.do/terms#terms-of-service](https://www.sli.do/terms#terms-of-service) |
+| 使用条款 URL | [https://www.sli.do/terms](https://www.sli.do/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

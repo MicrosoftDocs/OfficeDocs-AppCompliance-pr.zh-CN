@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Onsight 应用程序的所有可用安全性和合规性连接、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f4010e47049177b1c9b5ce316ad48795dfe98b6b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 647c6b2a4da987f5fef828ae4b8b3fb632e65c69
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552003"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282986"
 ---
 # <a name="onsight-connect"></a>Onsight Connect
 
@@ -38,7 +38,7 @@ Librestream 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | Librestream |
 | 合作伙伴网站的 URL | [https://librestream.com](https://librestream.com) |
 | 隐私策略的 URL | [https://librestream.com/onsight-privacy-notice-mobile-2/](https://librestream.com/onsight-privacy-notice-mobile-2/) |
-| 使用条款 URL | [https://librestream.com/support-archives/termsofuse/](https://librestream.com/support-archives/termsofuse/) |
+| 使用条款 URL | [https://librestream.com/support-archives/software-eula/](https://librestream.com/support-archives/software-eula/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

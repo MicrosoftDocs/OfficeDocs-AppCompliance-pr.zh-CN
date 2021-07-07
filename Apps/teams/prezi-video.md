@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Prezi Video 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8b689869b4c8799d396a61ccbecd0d1b4a4e5c51
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8bd0c290442e01f6f7a07f39bc38f2f7ece2123b
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552833"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283136"
 ---
 # <a name="prezi-video"></a>Prezi Video
 
@@ -37,8 +37,8 @@ Prezi 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Prezi |
 | 合作伙伴网站的 URL | [https://prezi.com](https://prezi.com) |
-| 隐私策略的 URL | [https://prezi.com/privacy-policy/201910_NL/](https://prezi.com/privacy-policy/201910_NL/) |
-| 使用条款 URL | [https://prezi.com/terms-of-use/201910_NL/](https://prezi.com/terms-of-use/201910_NL/) |
+| 隐私策略的 URL | [https://prezi.com/privacy-policy/](https://prezi.com/privacy-policy/) |
+| 使用条款 URL | [https://prezi.com/terms-of-use/](https://prezi.com/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
