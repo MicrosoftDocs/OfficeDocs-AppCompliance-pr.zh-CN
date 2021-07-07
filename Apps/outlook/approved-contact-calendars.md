@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: CSA STAR 注册表中批准的联系人日历、其数据处理策略、Microsoft Cloud App Security应用程序目录信息和安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6849ef81797483688f6e0fad69338b1a015748d0
-ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
+ms.openlocfilehash: 9bb96c6c6ba40df3e3d4d64c1f0e4033d7425e88
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629644"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281644"
 ---
 # <a name="approved-contact-calendars"></a>批准的联系人日历
 
@@ -33,9 +33,9 @@ ms.locfileid: "52629644"
 |:----------------|:-------------|
 | 应用名称 | 批准的联系人日历 |
 | ID | WA104380294 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016或更高版本，Outlook Web 上 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | Approved Contact |
-| 合作伙伴网站的 URL | [www.approvedcontact.com](www.approvedcontact.com) |
+| 合作伙伴网站的 URL | [https://www.approvedcontact.com](https://www.approvedcontact.com) |
 | 隐私策略的 URL | [https://approvedcontact.com/Privacy%20Policy.pdf](https://approvedcontact.com/Privacy%20Policy.pdf) |
 | 使用条款 URL | [https://approvedcontact.com/Terms%20of%20use.pdf](https://approvedcontact.com/Terms%20of%20use.pdf) |
 

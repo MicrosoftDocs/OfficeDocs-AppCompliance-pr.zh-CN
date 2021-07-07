@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Streem 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e2846048e24c525f55b3a51a5a5ce7c9fa2f862e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d4bedfee8b2a65a0164c845dba10ebf0c44c4eac
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553823"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280824"
 ---
 # <a name="streem"></a>Streem
 
@@ -36,10 +36,9 @@ Streem 提供给 Microsoft 的信息：
 | ID | WA200000197 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Streem |
-| 合作伙伴网站的 URL | [https://streem.com.au](https://streem.com.au) |
-| "Teams应用程序信息"页的 URL | [无](N/A) |
-| 隐私策略的 URL | [https://streem.com.au/privacy](https://streem.com.au/privacy) |
-| 使用条款 URL | [https://streem.com.au/terms/general](https://streem.com.au/terms/general) |
+| 合作伙伴网站的 URL | [https://www.streem.com.au](https://www.streem.com.au) |
+| 隐私策略的 URL | [https://www.streem.com.au/privacy](https://www.streem.com.au/privacy) |
+| 使用条款 URL | [https://www.streem.com.au/terms/general](https://www.streem.com.au/terms/general) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

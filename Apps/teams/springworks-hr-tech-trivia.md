@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Trivia 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fbd1b9f5f308f3690a9d55a40993ba6122e8f81b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 6facd1d8622d78a616329030cef6ffa83bf3bec3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553843"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280894"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -36,7 +36,7 @@ Springworks HR Tech 提供给 Microsoft 的信息：
 | ID | WA200001956 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Springworks HR Tech |
-| 合作伙伴网站的 URL | [https://springworks.in/](https://springworks.in/) |
+| 合作伙伴网站的 URL | [https://www.springworks.in](https://www.springworks.in) |
 | "Teams应用程序信息"页的 URL | [https://www.springworks.in/trivia](https://www.springworks.in/trivia) |
 | 隐私策略的 URL | [https://trivia.springworks.in/policy](https://trivia.springworks.in/policy) |
 | 使用条款 URL | [https://trivia.springworks.in/tnc](https://trivia.springworks.in/tnc) |

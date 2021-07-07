@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: DBit 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 23995f613c3c3b6d7b2ab7d161f8710ccddf07d0
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: dbdb857d15f33848c459bc817fa9c2c55da8e6b4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553953"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281314"
 ---
 # <a name="dbit"></a>DBit
 
@@ -36,7 +36,7 @@ Diamondsoft Solutions， LLC 提供给 Microsoft 的信息：
 | ID | WA200001536 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Diamondsoft Solutions, LLC |
-| 合作伙伴网站的 URL | [https://www.dbit.io/index.html](https://www.dbit.io/index.html) |
+| 合作伙伴网站的 URL | [https://www.diamondsoftsolutions.com](https://www.diamondsoftsolutions.com) |
 | 隐私策略的 URL | [https://www.dbit.io/privacypolicy.html](https://www.dbit.io/privacypolicy.html) |
 | 使用条款 URL | [https://www.dbit.io/termsofuse.html](https://www.dbit.io/termsofuse.html) |
 

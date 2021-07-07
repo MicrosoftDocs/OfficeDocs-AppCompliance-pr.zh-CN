@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 Outlook 的 StarLeaf 外接程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f201131be32c743550a02a24e653f784a1d91817
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 48335c7260921e50740f28d57192d74a9e0a4fe5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552473"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281594"
 ---
 # <a name="starleaf-add-in-for-outlook"></a>用于加载项的 StarLeaf Outlook
 
@@ -33,11 +33,11 @@ StarLeaf 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | 用于加载项的 StarLeaf Outlook |
 | ID | WA104381343 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016或更高版本，Outlook Web 上 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | StarLeaf |
-| 合作伙伴网站的 URL | [https://www.starleaf.com/](https://www.starleaf.com/) |
-| 隐私策略的 URL | [https://www.starleaf.com/privacy-policy](https://www.starleaf.com/privacy-policy) |
-| 使用条款 URL | [https://support.starleaf.com/legal-information/end-user-lic...](https://support.starleaf.com/legal-information/end-user-license-agreement-for-starleaf-applications) |
+| 合作伙伴网站的 URL | [https://www.starleaf.com](https://www.starleaf.com) |
+| 隐私策略的 URL | [https://support.starleaf.com/legal-information/starleaf-pri...](https://support.starleaf.com/legal-information/starleaf-privacy-notice/) |
+| 使用条款 URL | [https://support.starleaf.com/legal-information/starleaf-clo...](https://support.starleaf.com/legal-information/starleaf-cloud-services-customer-terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

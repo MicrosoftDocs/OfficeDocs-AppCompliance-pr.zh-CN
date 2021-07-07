@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: officeatwork 服务的所有可用安全性和合规性|CSA STAR 注册表Office内容选择器、其数据处理策略Microsoft Cloud App Security应用程序目录信息和安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f4d95e0dcbb0a7234299f190766e85b17f6a853f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 39c7e2b45c8fa4d525d3b024533fbf63fa17b0be
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553583"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281544"
 ---
 # <a name="officeatwork--content-chooser-for-office"></a>officeatwork |内容选择器Office
 
@@ -34,7 +34,7 @@ officeatwork 提供给 Microsoft 的信息：
 | ID | WA104380602 |
 | Office 365支持的客户端 | Excel Mac Excel 2016 iPad 2013 Service Pack 1 或更高版本的 Excel 或更高版本上Windows， Excel web 版、iPad 上的 Word、Mac 上的 Word 2016 或更高版本、Word web 版、Windows 上的 Word 2013 Service Pack 1 或更高版本、iPad 上的 PowerPoint、Mac 上的 PowerPoint 2016 或更高版本、PowerPoint web 版、PowerPoint 2013 Service Pack 1 或 Windows更高版本OneNote web 版 |
 | 合作伙伴公司名称 | officeatwork |
-| 合作伙伴网站的 URL | [https://links.officeatwork.com/officeatwork-home](https://links.officeatwork.com/officeatwork-home) |
+| 合作伙伴网站的 URL | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | 隐私策略的 URL | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
 | 使用条款 URL | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于 Excel 的 Lucidchart 图表的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5481ed9ce5f8e589fe5ea8703fb48b53c5dab488
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 4b2fd25b60c7156a60dffbbdca4d45421c7c4659
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52548792"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281114"
 ---
 # <a name="lucidchart-diagrams-for-excel"></a>用于图表的 Lucidchart Excel
 
@@ -35,9 +35,9 @@ Lucid Software Inc 提供给 Microsoft 的信息：
 | ID | WA104380194 |
 | Office 365支持的客户端 | Excel 2016 Mac 或更高版本，Excel 2013 或更高版本（Windows，Excel web 版 |
 | 合作伙伴公司名称 | Lucid Software Inc |
-| 合作伙伴网站的 URL | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
+| 合作伙伴网站的 URL | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | 隐私策略的 URL | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
-| 使用条款 URL | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| 使用条款 URL | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

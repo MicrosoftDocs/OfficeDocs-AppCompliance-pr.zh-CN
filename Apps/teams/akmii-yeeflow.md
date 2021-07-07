@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Yeeflow 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c8dc3fb5a23d480299aae331a9ccccae9641c66c
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 9b1292e935d526947d689c9c5de9638589270957
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553433"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281454"
 ---
 # <a name="yeeflow"></a>Yeeflow
 
@@ -36,8 +36,8 @@ Akmii 提供给 Microsoft 的信息：
 | ID | WA200000089 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Akmii |
-| 合作伙伴网站的 URL | [https://www.yeeflow.com](https://www.yeeflow.com) |
-| "Teams应用程序信息"页的 URL | [www.yeeflow.com](www.yeeflow.com) |
+| 合作伙伴网站的 URL | [https://www.akmii.com](https://www.akmii.com) |
+| "Teams应用程序信息"页的 URL | [https://www.yeeflow.com](https://www.yeeflow.com) |
 | 隐私策略的 URL | [https://www.yeeflow.com/privacy](https://www.yeeflow.com/privacy) |
 | 使用条款 URL | [https://www.yeeflow.com/terms](https://www.yeeflow.com/terms) |
 

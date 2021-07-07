@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于电子邮件的 Zoho CRM 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4f06fd2f6a14bbad4d1265df9754884d515f6cb6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2c4d85b33c0d43bc492fe6e04058bd4e92768077
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553673"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282396"
 ---
 # <a name="zoho-crm-for-email"></a>用于电子邮件的 Zoho CRM
 
@@ -33,11 +33,11 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | 用于电子邮件的 Zoho CRM |
 | ID | WA104379468 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016或更高版本，Outlook Web 上 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | Zoho Corporation Private Limited |
 | 合作伙伴网站的 URL | [https://www.zoho.com/](https://www.zoho.com/) |
 | 隐私策略的 URL | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
-| 使用条款 URL | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| 使用条款 URL | [https://www.zoho.com/crm/zohocrm-terms.html](https://www.zoho.com/crm/zohocrm-terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Asana 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6c18bb20cdf753b1a5d998b3d7b7144f950f00c0
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 0f2e4ff08367c5b8694ca9b6f2cfce1a530a64c9
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553403"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282045"
 ---
 # <a name="asana"></a>Asana
 
@@ -36,7 +36,7 @@ Asana 提供给 Microsoft 的信息：
 | ID | WA200001727 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Asana |
-| 合作伙伴网站的 URL | [https://asana.com/?noredirect&amp;utm_source=asana_inproduct &amp; ut...](https://asana.com/?noredirect&amp;utm_source=asana_inproduct&amp;utm_medium=organic_inproduct&amp;utm_campaign=msft_teams_launch) |
+| 合作伙伴网站的 URL | [https://asana.com](https://asana.com) |
 | 隐私策略的 URL | [https://asana.com/terms#privacy-policy](https://asana.com/terms#privacy-policy) |
 | 使用条款 URL | [https://asana.com/terms#terms-of-service](https://asana.com/terms#terms-of-service) |
 

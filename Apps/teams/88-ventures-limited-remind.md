@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关提醒的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8e2124ed68b2e9d750c8bc6a229eca0ccad200b5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 56999a3dc9723eab8b56fcdbc434283a7c864534
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552443"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282095"
 ---
 # <a name="remind"></a>Remind
 
@@ -36,9 +36,9 @@ ms.locfileid: "52552443"
 | ID | WA200001444 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | 88 Ventures Limited |
-| 合作伙伴网站的 URL | [https://www.teamsreminder.app](https://www.teamsreminder.app) |
-| 隐私策略的 URL | [https://www.teamsreminder.app/#privacy](https://www.teamsreminder.app/#privacy) |
-| 使用条款 URL | [https://www.teamsreminder.app/#terms](https://www.teamsreminder.app/#terms) |
+| 合作伙伴网站的 URL | [https://moonbearapp.com](https://moonbearapp.com) |
+| 隐私策略的 URL | [https://teamsreminder.app/#privacy](https://teamsreminder.app/#privacy) |
+| 使用条款 URL | [https://teamsreminder.app/#terms](https://teamsreminder.app/#terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

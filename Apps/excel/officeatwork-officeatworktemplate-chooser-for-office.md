@@ -2,23 +2,23 @@
 title: officeatwork 应用程序应用程序|officeatwork Office模板选择器
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/08/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: officeatwork 服务的所有可用安全性和合规性|模板选择器Office、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2328345bdcbd17b9b777e603e8ff36ee5b509176
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c9bc3e8e62056582d37c7b1f4125cf29e35e9df1
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52548732"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281094"
 ---
 # <a name="officeatwork--template-chooser-for-office"></a>officeatwork |模板选择器Office
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2020 年 12 月 8 日</p>
+<p>开发人员上次更新时间：2021 年 6 月 23 日</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380050" target="_blank">在 AppSource 中查看</a>
 
@@ -34,7 +34,7 @@ officeatwork 提供给 Microsoft 的信息：
 | ID | WA104380050 |
 | Office 365支持的客户端 | Excel Mac iPad 2013 Excel 2016 2013 或更高版本的 Excel 或更高版本上Windows， Excel web 版、iPad 上的 Word、Mac 上的 Word 2016 或更高版本、Word web 版、Word 2013 或更高版本（位于 Windows、iPad 上的 PowerPoint、mac 上的 PowerPoint 2016 或更高版本、PowerPoint web 版、PowerPoint 2013 或更高版本，Windows、Project 2016 或更高版本Windows |
 | 合作伙伴公司名称 | officeatwork |
-| 合作伙伴网站的 URL | [https://links.officeatwork.com/officeatwork-home](https://links.officeatwork.com/officeatwork-home) |
+| 合作伙伴网站的 URL | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | 隐私策略的 URL | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
 | 使用条款 URL | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 

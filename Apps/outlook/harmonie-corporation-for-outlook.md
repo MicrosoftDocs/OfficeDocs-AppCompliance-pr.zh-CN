@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 HARMON.IE 应用程序的所有可用Outlook信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f494dbc3857bd9fed2603cef3dbc6f76306510c1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 90b5ce81e0b2a0b0d0c9568facb456c5e87aad62
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553733"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281624"
 ---
 # <a name="harmonie-for-outlook"></a>harmon.ie Outlook
 
@@ -33,11 +33,11 @@ harmon.ie 向 Microsoft 提供的信息：
 |:----------------|:-------------|
 | 应用名称 | harmon.ie Outlook |
 | ID | WA103004101 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows、mac Outlook 2016 或更高版本、Outlook iOS 版、Outlook android 版Outlook Android 版、Outlook版 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016 或更高版本、Outlook iOS 版、Outlook Android 版Outlook 网页版 |
 | 合作伙伴公司名称 | harmon.ie Corporation |
-| 合作伙伴网站的 URL | [https://harmon.ie/](https://harmon.ie/) |
+| 合作伙伴网站的 URL | [https://harmon.ie](https://harmon.ie) |
 | 隐私策略的 URL | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
-| 使用条款 URL | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474836605/Product_42949673246/Asset_37060a29-311b-4239-be49-1758aebbeb1a/harmonieEULA.pdf) |
+| 使用条款 URL | [https://harmon.ie/legal/eula](https://harmon.ie/legal/eula) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

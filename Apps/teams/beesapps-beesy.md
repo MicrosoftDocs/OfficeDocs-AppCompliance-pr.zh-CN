@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Beesy 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d669b1b43c7b273b3cc68ed6cfc0f24b7234a293
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e9d982e61f2afeda47bcfdab51c549346fc5fe60
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552343"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281394"
 ---
 # <a name="beesy"></a>Beesy
 
@@ -36,7 +36,7 @@ BeesApps 提供给 Microsoft 的信息：
 | ID | WA200001248 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | BeesApps |
-| 合作伙伴网站的 URL | [https://www.beesy.me/](https://www.beesy.me/) |
+| 合作伙伴网站的 URL | [https://www.beesapps.com/](https://www.beesapps.com/) |
 | 隐私策略的 URL | [https://www.beesy.me/legal/privacypolicy_en.pdf](https://www.beesy.me/legal/privacypolicy_en.pdf) |
 | 使用条款 URL | [https://www.beesy.me/legal/termsofservice_en_v1.03.pdf](https://www.beesy.me/legal/termsofservice_en_v1.03.pdf) |
 

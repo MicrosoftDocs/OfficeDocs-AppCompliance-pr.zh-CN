@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 SharePoint Online 的敏捷任务板的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bebf3ab2580037bba226df853c340de1e6f71cf9
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 649c3ee34514214e91eaa1fe5ed43b43f6d9a43b
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553523"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282243"
 ---
 # <a name="agile-task-board-for-sharepoint-online"></a>适用于 SharePoint Online 的敏捷任务板
 
@@ -35,9 +35,9 @@ Agile-IS 提供给 Microsoft 的信息：
 | ID | WA200002087 |
 | Office 365支持的客户端 | SharePoint 2016 或更高版本 |
 | 合作伙伴公司名称 | Agile-IS |
-| 合作伙伴网站的 URL | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| 合作伙伴网站的 URL | [https://www.agile-is.de](https://www.agile-is.de) |
 | 隐私策略的 URL | [https://www.agile-is.de/en/telemetry](https://www.agile-is.de/en/telemetry) |
-| 使用条款 URL | [https://go.microsoft.com/fwlink/?linkid=2041178](https://go.microsoft.com/fwlink/?linkid=2041178) |
+| 使用条款 URL | [https://www.agile-is.de/en/termsofuse](https://www.agile-is.de/en/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

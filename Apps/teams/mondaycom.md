@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息 monday.com、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 64fc8e948618b760a3f82ee9c1ac67a32de9afb6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1252ff537b354a1a8bc068e9c6ac6779c7af3fc4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552923"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281214"
 ---
 # <a name="mondaycom"></a>monday.com
 
@@ -36,8 +36,8 @@ ms.locfileid: "52552923"
 | ID | WA200001798 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | monday.com |
-| 合作伙伴网站的 URL | [https://monday.com](https://monday.com) |
-| 隐私策略的 URL | [https://monday.com/privacy](https://monday.com/privacy) |
+| 合作伙伴网站的 URL | [https://monday.com/](https://monday.com/) |
+| 隐私策略的 URL | [https://monday.com/terms/privacy](https://monday.com/terms/privacy) |
 | 使用条款 URL | [https://monday.com/terms/tos](https://monday.com/terms/tos) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -85,13 +85,13 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 >monday.com 服务托管在跨多个可用性区域北部都位于北部都斯的 AWS 基础结构上，而 DR 站点则建立在不同的区域中。 某些备份数据存储在美国、 (GCP) 。 对 monday.com 服务的访问权限由用户组织的管理员控制，并且通过利用以下功能实现：
 - 用户类型
 - 帐户级别的权限
-- Workspaces
+- 工作区
 - 板类型
 - 板级权限
 - 列级别权限 monday.com 支持以下身份验证方法：
 - 凭据
 - Google SSO (for Pro plan) 
-- 帐户管理员可以选择通过 短信 或通过验证器应用为 Enterprise 计划) 2FA 启用 Okta、OneLogin 和自定义 SAML 2.0 (，帐户管理员可通过平台的管理员面板选择启用。
+- 帐户管理员可通过平台的管理员面板选择通过短信或验证器应用为 Enterprise 计划) 2FA 启用 Okta、OneLogin 和自定义 SAML 2.0 (。
 所有其余数据都使用 AES-256 进行加密。 在开放网络中传输的所有数据至少使用 TLS 1.3 (TLS 1.2 进行) 。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅

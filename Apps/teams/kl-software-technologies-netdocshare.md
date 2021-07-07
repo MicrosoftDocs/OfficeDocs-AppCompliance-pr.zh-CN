@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: netDocShare 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a3d27c85d6ceadf6f2cbf8d7c9b1449b95dc8327
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c8e050b7ecf4f4b4b3156e571d6afdcd75a6ceb2
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552023"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281795"
 ---
 # <a name="netdocshare"></a>netDocShare
 
@@ -36,9 +36,9 @@ ms.locfileid: "52552023"
 | ID | WA200001619 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | KL Software Technologies |
-| 合作伙伴网站的 URL | [https://www.netdocshare.com/](https://www.netdocshare.com/) |
-| 隐私策略的 URL | [https://www.netdocshare.com/privacy-policy/](https://www.netdocshare.com/privacy-policy/) |
-| 使用条款 URL | [https://www.netdocshare.com/terms-of-use/](https://www.netdocshare.com/terms-of-use/) |
+| 合作伙伴网站的 URL | [https://www.klstinc.com](https://www.klstinc.com) |
+| 隐私策略的 URL | [https://netdocshare.com/privacy-policy/](https://netdocshare.com/privacy-policy/) |
+| 使用条款 URL | [https://netdocshare.com/terms-of-use/](https://netdocshare.com/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

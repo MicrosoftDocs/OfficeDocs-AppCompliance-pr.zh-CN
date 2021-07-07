@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: CatchEm 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 55b248c8f99e18d08ddf60dec177ce92b543f008
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8f491e0b26c58392c2e791322603dc014fcf96ef
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552313"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281985"
 ---
 # <a name="catchem"></a>CatchEm
 
@@ -36,7 +36,7 @@ Chimu 软件提供给 Microsoft 的信息：
 | ID | WA200002639 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Chimu Software |
-| 合作伙伴网站的 URL | [https://www.chimusoftware.com](https://www.chimusoftware.com) |
+| 合作伙伴网站的 URL | [https://chimusoftware.com](https://chimusoftware.com) |
 | "Teams应用程序信息"页的 URL | [https://catchem.apps.chimusoftware.com/help](https://catchem.apps.chimusoftware.com/help) |
 | 隐私策略的 URL | [https://www.chimusoftware.com/apps/catchem/privacy.html](https://www.chimusoftware.com/apps/catchem/privacy.html) |
 | 使用条款 URL | [https://www.chimusoftware.com/apps/catchem/termsofuse.html](https://www.chimusoftware.com/apps/catchem/termsofuse.html) |

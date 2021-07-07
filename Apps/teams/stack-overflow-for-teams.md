@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Stack Overflow for Teams 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 62f32ce131b2ebdf827d8e11e24873fc552577a7
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: da3e4b0f9a5219bcf0d652938f24397c12b7bdb4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552743"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280854"
 ---
 # <a name="stack-overflow-for-teams"></a>Stack Overflow for Teams
 
@@ -36,9 +36,9 @@ Stack Overflow 提供给 Microsoft 的信息：
 | ID | WA200000739 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Stack Overflow |
-| 合作伙伴网站的 URL | [https://stackoverflow.com](https://stackoverflow.com) |
+| 合作伙伴网站的 URL | [https://www.stackoverflow.com](https://www.stackoverflow.com) |
 | 隐私策略的 URL | [https://stackoverflow.com/legal/privacy-policy](https://stackoverflow.com/legal/privacy-policy) |
-| 使用条款 URL | [https://stackoverflow.com/legal/terms-of-service/public](https://stackoverflow.com/legal/terms-of-service/public) |
+| 使用条款 URL | [https://stackoverflow.com/legal/terms-of-service/teams](https://stackoverflow.com/legal/terms-of-service/teams) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -76,7 +76,7 @@ Stack Overflow 提供了此信息，这些信息与此应用程序如何收集�
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->否。 在 SO Teams 产品Teams MS 和 SO Teams映射。
+>不正确。 在 SO Teams 产品Teams MS 和 SO Teams映射。
 MS Teams向我们发送其可识别 ID，我们会将其保存在内部以映射用户。
 此外，MS Teams会向我们发送自动程序请求的 JWT (防止请求伪造) 使用 SO Cookie 验证 Tab 请求。
 

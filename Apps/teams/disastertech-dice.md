@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: DisasterTech DICE 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 29d53402a9bbf635e83d6d262227a8363577e261
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c9aceaf48c36012ad8c6eb062c1161746d55da6a
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552233"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281915"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 
@@ -36,7 +36,7 @@ DisasterTech 提供给 Microsoft 的信息：
 | ID | WA200001909 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | DisasterTech |
-| 合作伙伴网站的 URL | [https://dice.disastertech.com](https://dice.disastertech.com) |
+| 合作伙伴网站的 URL | [https://www.disastertech.com](https://www.disastertech.com) |
 | 隐私策略的 URL | [https://dice.disastertech.com/privacy.html](https://dice.disastertech.com/privacy.html) |
 | 使用条款 URL | [https://dice.disastertech.com/tos.html](https://dice.disastertech.com/tos.html) |
 

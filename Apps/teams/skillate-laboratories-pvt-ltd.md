@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于 Skillate 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 982f32da96968ac9426ef93a86741e037c0f1713
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e92d7e997ba94746820fde5daccb028fc246e255
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553873"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281044"
 ---
 # <a name="skillate"></a>Skillate
 
@@ -36,10 +36,10 @@ ms.locfileid: "52553873"
 | ID | WA200002490 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Skillate Laboratories Pvt. Ltd. |
-| 合作伙伴网站的 URL | [https://skillate.com/](https://skillate.com/) |
+| 合作伙伴网站的 URL | [https://www.skillate.com](https://www.skillate.com) |
 | "Teams应用程序信息"页的 URL | [https://www.skillate.com/features/intelligent-hiring/](https://www.skillate.com/features/intelligent-hiring/) |
-| 隐私策略的 URL | [https://www.skillate.com/privacy-policy](https://www.skillate.com/privacy-policy) |
-| 使用条款 URL | [https://www.skillate.com/terms-and-conditions](https://www.skillate.com/terms-and-conditions) |
+| 隐私策略的 URL | [https://www.skillate.com/privacy-policy/](https://www.skillate.com/privacy-policy/) |
+| 使用条款 URL | [https://www.skillate.com/terms-and-conditions/](https://www.skillate.com/terms-and-conditions/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

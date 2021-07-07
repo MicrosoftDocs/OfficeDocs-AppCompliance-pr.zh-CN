@@ -2,23 +2,23 @@
 title: Appfluence Inc 的优先级矩阵的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/16/2021
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: 优先级矩阵的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 50814045f621d38df3a4a8ce65fb361d72a6f7a3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 93b64ae01c745f370af36bd6cb8a73787d39867a
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552393"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281434"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2021 年 4 月 16 日</p>
+<p>开发人员上次更新时间：2021 年 6 月 23 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/5be2b320-a5b7-4221-893c-dee506e4e365" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104382005" target="_blank">在 AppSource 中查看</a>
@@ -35,9 +35,9 @@ Appfluence Inc 提供给 Microsoft 的信息：
 | ID | WA104382005 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Appence Inc |
-| 合作伙伴网站的 URL | [https://appfluence.com](https://appfluence.com) |
+| 合作伙伴网站的 URL | [https://appfluence.com/office-365-project-management-integr...](https://appfluence.com/office-365-project-management-integration/) |
 | "Teams应用程序信息"页的 URL | [https://appfluence.com/project-management-integration-for-m...](https://appfluence.com/project-management-integration-for-microsoft-teams/) |
-| 隐私策略的 URL | [https://appfluence.com/privacy](https://appfluence.com/privacy) |
+| 隐私策略的 URL | [https://appfluence.com/privacy/](https://appfluence.com/privacy/) |
 | 使用条款 URL | [https://appfluence.com/eula](https://appfluence.com/eula) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -126,7 +126,7 @@ Appfluence Inc 已提供有关此应用程序如何处理身份验证、授权�
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |

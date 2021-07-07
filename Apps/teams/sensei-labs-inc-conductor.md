@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Sensei Labs 一线的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6365c2a9916693a94c6af8ed107865872e8e000b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3b0d84d3da0d5fdf32854cd4b3b31b86662cb4b8
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551692"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281064"
 ---
 # <a name="sensei-labs-conductor"></a>Sensei Labs Conductor
 
@@ -36,8 +36,7 @@ Sensei Labs Inc. 提供给 Microsoft 的信息：
 | ID | WA200001951 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Sensei Labs Inc. |
-| 合作伙伴网站的 URL | [https://www.senseilabs.com/conductor/?utm_campaign=msftteam...](https://www.senseilabs.com/conductor/?utm_campaign=msftteamslaunch&amp;utm_source=teamsappsource&amp;utm_medium=createdby&amp;utm_content=conductorlink) |
-| "Teams应用程序信息"页的 URL | [无](N/A) |
+| 合作伙伴网站的 URL | [https://www.senseilabs.com](https://www.senseilabs.com) |
 | 隐私策略的 URL | [https://www.senseilabs.com/conductor/conductor-privacy-poli...](https://www.senseilabs.com/conductor/conductor-privacy-policy/) |
 | 使用条款 URL | [https://www.senseilabs.com/conductor/msft-teams-terms-condi...](https://www.senseilabs.com/conductor/msft-teams-terms-conditions/) |
 

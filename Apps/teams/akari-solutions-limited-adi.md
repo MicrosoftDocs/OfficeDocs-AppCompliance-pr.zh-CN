@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ADI 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 576206f6d80f4bbc46ebdd1cef899581c12bcd8a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ad4b6c68e867a057a3b2b6dc85d5016fee92f3ed
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552413"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282075"
 ---
 # <a name="adi"></a>ADI
 
@@ -36,7 +36,7 @@ Akari Solutions（仅限于 Microsoft）提供的信息：
 | ID | WA200002615 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Akari Solutions Limited |
-| 合作伙伴网站的 URL | [https://akari.io/adi/](https://akari.io/adi/) |
+| 合作伙伴网站的 URL | [https://akari.io](https://akari.io) |
 | "Teams应用程序信息"页的 URL | [https://akari.io/adi](https://akari.io/adi) |
 | 隐私策略的 URL | [https://akari.io/adi-privacy-policy/](https://akari.io/adi-privacy-policy/) |
 | 使用条款 URL | [https://akari.io/adi-terms-and-conditions/](https://akari.io/adi-terms-and-conditions/) |

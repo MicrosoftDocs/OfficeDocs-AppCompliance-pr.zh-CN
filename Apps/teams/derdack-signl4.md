@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SIGNL4 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a619327000c93e3292e266c8b025034370a8b623
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 425c0738b5628f959ba81e5682c22afe6774cfba
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553203"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281324"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -36,7 +36,7 @@ Derdack SIGNL4 提供给 Microsoft 的信息：
 | ID | WA200001239 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Derdack SIGNL4 |
-| 合作伙伴网站的 URL | [https://www.signl4.com](https://www.signl4.com) |
+| 合作伙伴网站的 URL | [https://www.derdack.com](https://www.derdack.com) |
 | 隐私策略的 URL | [https://www.signl4.com/privacy-policy/](https://www.signl4.com/privacy-policy/) |
 | 使用条款 URL | [https://www.signl4.com/terms_of_use/](https://www.signl4.com/terms_of_use/) |
 
@@ -63,7 +63,7 @@ Derdack SIGNL4 提供给 Microsoft 的信息：
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-------------------|:--------------------------|:--------------------------|
->| 递归，电子邮件地址、电子邮件地址是在客户使用应用时向客户发送帐单通知的必需方法。 Twilio、电话号码、通过短信发送警报短信内容 |  | Azure 管理 API，收集 Azure Monitor 警报，收集发生，因为系统会发送这些警报的通知 |
+>| 递归，电子邮件地址、电子邮件地址是在客户使用应用时向客户发送帐单通知的必需方法。 Twilio，电话号码，通过短信发送通知的警报内容 |  | Azure 管理 API，收集 Azure Monitor 警报，收集发生，因为系统会发送这些警报的通知 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Go1 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f812e25e3e5b894d7b54da886637513cb677702a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 39501f6cb09502287dcff26acab4d8720b5fb6a0
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553113"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281274"
 ---
 # <a name="go1"></a>Go1
 
@@ -36,7 +36,7 @@ Go1 提供给 Microsoft 的信息：
 | ID | WA200001484 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Go1 |
-| 合作伙伴网站的 URL | [https://www.go1.com/](https://www.go1.com/) |
+| 合作伙伴网站的 URL | [https://www.go1.com/user/login](https://www.go1.com/user/login) |
 | 隐私策略的 URL | [https://www.go1.com/en-au/terms/privacy-policy](https://www.go1.com/en-au/terms/privacy-policy) |
 | 使用条款 URL | [https://www.go1.com/en-au/terms/user-terms](https://www.go1.com/en-au/terms/user-terms) |
 

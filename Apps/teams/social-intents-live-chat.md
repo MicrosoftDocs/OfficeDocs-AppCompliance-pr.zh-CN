@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于实时聊天的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9bc8ccb18fd8e43dd3d59f15fbc324f835e82d93
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 41df26af03dd56fb89ce316ecaa61d7af3ae7bf5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551482"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280924"
 ---
 # <a name="live-chat"></a>Live Chat
 
@@ -37,8 +37,8 @@ ms.locfileid: "52551482"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Social Intents |
 | 合作伙伴网站的 URL | [https://www.socialintents.com](https://www.socialintents.com) |
-| 隐私策略的 URL | [https://www.socialintents.com/privacy.html](https://www.socialintents.com/privacy.html) |
-| 使用条款 URL | [https://www.socialintents.com/tos.html](https://www.socialintents.com/tos.html) |
+| 隐私策略的 URL | []() |
+| 使用条款 URL | []() |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

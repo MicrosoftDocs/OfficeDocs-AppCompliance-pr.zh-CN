@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于 PowerPoint 的 Lucidchart 图表的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 024b2e925ba84967bf40754908a8d98baa1d705f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 7fcf941323e998bd2e4ffba59f60410e745a1613
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553603"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282356"
 ---
 # <a name="lucidchart-diagrams-for-powerpoint"></a>用于图表的 Lucidchart PowerPoint
 
@@ -35,7 +35,7 @@ Lucid Software Inc 提供给 Microsoft 的信息：
 | ID | WA104380117 |
 | Office 365支持的客户端 | PowerPoint 2016 Mac、PowerPoint web 版、PowerPoint 2013 或更高版本的 Windows |
 | 合作伙伴公司名称 | Lucid Software Inc |
-| 合作伙伴网站的 URL | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
+| 合作伙伴网站的 URL | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | 隐私策略的 URL | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
 | 使用条款 URL | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 

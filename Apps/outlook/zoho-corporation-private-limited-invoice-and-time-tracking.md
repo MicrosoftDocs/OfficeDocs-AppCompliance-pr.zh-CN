@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 发票和时间跟踪 - Zoho Invoice 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0909b65a673af03aa6b190d181f1572ab84b5e77
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 0a3e8afb7be998c2fba33e7c4320956cbd990ef3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553663"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281574"
 ---
 # <a name="invoice-and-time-tracking---zoho-invoice"></a>发票和时间跟踪 - Zoho 发票
 
@@ -33,11 +33,11 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | 发票和时间跟踪 - Zoho 发票 |
 | ID | WA104381067 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016或更高版本，Outlook Web 上 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | Zoho Corporation Private Limited |
 | 合作伙伴网站的 URL | [https://www.zoho.com/](https://www.zoho.com/) |
-| 隐私策略的 URL | [https://zoho.com/privacy.html](https://zoho.com/privacy.html) |
-| 使用条款 URL | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| 隐私策略的 URL | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
+| 使用条款 URL | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

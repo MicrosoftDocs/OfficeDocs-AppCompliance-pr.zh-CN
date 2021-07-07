@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: OnePlaceMail for Outlook 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5094d1ad5e7b028ac115529de16ddb9cbef2086f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 97c9b74768b11e3c63a302566a20a2cb762275a0
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552493"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281704"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail for Outlook
 
@@ -33,11 +33,11 @@ OnePlace 解决方案提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | OnePlaceMail for Outlook |
 | ID | WA104380723 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows、mac Outlook 2016 或更高版本、Outlook iOS 版、Outlook android 版Outlook Android 版、Outlook版 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016 或更高版本、Outlook iOS 版、Outlook Android 版Outlook 网页版 |
 | 合作伙伴公司名称 | OnePlace 解决方案 |
-| 合作伙伴网站的 URL | [https://www.oneplacesolutions.com/](https://www.oneplacesolutions.com/) |
+| 合作伙伴网站的 URL | [https://www.oneplacesolutions.com](https://www.oneplacesolutions.com) |
 | 隐私策略的 URL | [https://www.oneplacesolutions.com/oneplacemailapp-privacy](https://www.oneplacesolutions.com/oneplacemailapp-privacy) |
-| 使用条款 URL | [https://www.oneplacesolutions.com/oneplacemailapp-eula](https://www.oneplacesolutions.com/oneplacemailapp-eula) |
+| 使用条款 URL | [https://www.oneplacesolutions.com/eula.html](https://www.oneplacesolutions.com/eula.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -86,7 +86,7 @@ OnePlace 解决方案提供了此信息，这些信息与此应用程序如何�
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->EUII 和 OII 确实显示在遥测中。 此信息存储在 Application Insights 中，在其余时间加密，在 90 天后控制和删除访问权限
+>EUII 和 OII 确实显示在遥测中。 此信息存储在 Application Insights中，在 90 天后进行加密、控制和删除访问权限
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

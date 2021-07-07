@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息 Studi.ly、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 26a89739809e0d398db2a823bd714aa06a2d210d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: bc3307db955cf9f124442f08fc315c1cd8158659
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553053"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281234"
 ---
 # <a name="studily"></a>Studi.ly
 
@@ -36,9 +36,9 @@ inLogic-Office Microsoft 提供的信息：
 | ID | WA200001668 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | inLogic-Office Store |
-| 合作伙伴网站的 URL | [https://www.studi.ly](https://www.studi.ly) |
-| 隐私策略的 URL | [https://www.studi.ly/Studily_Privacy_Statement.pdf](https://www.studi.ly/Studily_Privacy_Statement.pdf) |
-| 使用条款 URL | [https://www.studi.ly/Studily_Terms_Of_Use_v1.pdf](https://www.studi.ly/Studily_Terms_Of_Use_v1.pdf) |
+| 合作伙伴网站的 URL | [https://www.inlogic.dk](https://www.inlogic.dk) |
+| 隐私策略的 URL | [https://studi.ly/Studily_Privacy_Statement.pdf](https://studi.ly/Studily_Privacy_Statement.pdf) |
+| 使用条款 URL | [https://studi.ly/Studily_Terms_Of_Use_v1.pdf](https://studi.ly/Studily_Terms_Of_Use_v1.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

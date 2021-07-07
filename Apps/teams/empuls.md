@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Empuls 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 213ea22e24ee4f6aa4efb08270d3715fda8ac097
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 4e0d3fd220ee2a068538073c7afe7fc522d9609f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552203"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281294"
 ---
 # <a name="empuls"></a>Empuls
 
@@ -36,7 +36,7 @@ Empuls 提供给 Microsoft 的信息：
 | ID | WA200002483 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Empuls |
-| 合作伙伴网站的 URL | [https://www.xoxoday.com/empuls/overview](https://www.xoxoday.com/empuls/overview) |
+| 合作伙伴网站的 URL | [https://www.xoxoday.com](https://www.xoxoday.com) |
 | "Teams应用程序信息"页的 URL | [https://www.xoxoday.com/empuls](https://www.xoxoday.com/empuls) |
 | 隐私策略的 URL | [https://www.xoxoday.com/privacy-policy](https://www.xoxoday.com/privacy-policy) |
 | 使用条款 URL | [https://www.xoxoday.com/terms-of-use](https://www.xoxoday.com/terms-of-use) |

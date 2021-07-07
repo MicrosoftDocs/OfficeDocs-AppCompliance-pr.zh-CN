@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Wunder365 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0399c1da90a5a744eaa23457a67f99b654de8303
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 9ef4f9f97964d1d099676654ff2cfaaa11532167
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553023"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281815"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -36,7 +36,7 @@ JiJi Technologies Pvt Ltd 提供给 Microsoft 的信息：
 | ID | WA200000742 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | JiJi Technologies Pvt Ltd |
-| 合作伙伴网站的 URL | [https://www.wunder365.com](https://www.wunder365.com) |
+| 合作伙伴网站的 URL | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | "Teams应用程序信息"页的 URL | [https://www.wunder365.com/wunder365-for-office](https://www.wunder365.com/wunder365-for-office) |
 | 隐私策略的 URL | [https://www.wunder365.com/teams-app-privacy-policy](https://www.wunder365.com/teams-app-privacy-policy) |
 | 使用条款 URL | [https://www.wunder365.com/terms-of-service](https://www.wunder365.com/terms-of-service) |
@@ -88,7 +88,7 @@ JiJi Technologies Pvt Ltd 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->我们正在登录到 Azure Application Insights。 我们正在记录租户 ID 和用户的电子邮件 ID，以识别问题并帮助客户解决问题。
+>我们正在登录到 Azure 应用程序Insights。 我们正在记录租户 ID 和用户的电子邮件 ID，以识别问题并帮助客户解决问题。
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制

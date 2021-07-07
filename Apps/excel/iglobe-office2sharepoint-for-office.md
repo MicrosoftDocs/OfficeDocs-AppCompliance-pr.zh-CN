@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Office2SharePoint for Office 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1d1fccbab2aab91eacbc5a43ef79462dd536ff6e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 85198f216bb99ab5d172886d7852878d0cf61be1
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52548842"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281134"
 ---
 # <a name="office2sharepoint-for-office"></a>Office2SharePoint for Office
 
@@ -34,7 +34,7 @@ iGlobe 提供给 Microsoft 的信息：
 | ID | WA104381787 |
 | Office 365支持的客户端 | Excel 2016 mac、Excel 2016 或更高版本（在 Windows、Excel web 版、Word 2016 或更高版本上、Word web 版、Word 2016 或更高版本、Windows 或更高版本、PowerPoint 2016 或更高版本、PowerPoint web 版、PowerPoint 2016 或 Windows Windows 上更高版本） |
 | 合作伙伴公司名称 | iGlobe |
-| 合作伙伴网站的 URL | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |
+| 合作伙伴网站的 URL | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | 隐私策略的 URL | [https://www.iglobecrm.com/content/legal-information](https://www.iglobecrm.com/content/legal-information) |
 | 使用条款 URL | [https://www.iglobecrm.com/content/end-user-license-agreemen...](https://www.iglobecrm.com/content/end-user-license-agreement-office2sharepoint) |
 

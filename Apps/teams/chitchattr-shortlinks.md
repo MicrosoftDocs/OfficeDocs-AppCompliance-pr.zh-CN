@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Shortlinks 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fd20b08617862fd84cd015db424b92322e5dffed
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ad1101aaf6739390f466a387c95f988d3a052520
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553253"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281364"
 ---
 # <a name="shortlinks"></a>Shortlinks
 
@@ -36,10 +36,10 @@ ChitChattr 提供给 Microsoft 的信息：
 | ID | WA200001846 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ChitChattr |
-| 合作伙伴网站的 URL | [https://www.chitchattr.com?p=shortlinks](https://www.chitchattr.com?p=shortlinks) |
+| 合作伙伴网站的 URL | [https://www.chitchattr.com](https://www.chitchattr.com) |
 | "Teams应用程序信息"页的 URL | [https://www.chitchattr.com/shortlinks/](https://www.chitchattr.com/shortlinks/) |
 | 隐私策略的 URL | [https://www.chitchattr.com/privacy?p=shortlinks](https://www.chitchattr.com/privacy?p=shortlinks) |
-| 使用条款 URL | [https://www.chitchattr.com/termsofuse?p=shortlinks](https://www.chitchattr.com/termsofuse?p=shortlinks) |
+| 使用条款 URL | [https://www.chitchattr.com/termsofuse](https://www.chitchattr.com/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

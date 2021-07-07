@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 harmon.ie 应用程序的所有Office信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bae4b6d16c862819564ddb74682b3773d53a4336
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 9c04ab6e1a50167fbf489191e5845f86cb09ee00
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52548892"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281154"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie Office
 
@@ -35,9 +35,9 @@ harmon.ie 向 Microsoft 提供的信息：
 | ID | WA104381050 |
 | Office 365支持的客户端 | PowerPoint 2016 mac Windows、Word 2016 或更高版本的 Windows、Excel web 版、Word web 版、PowerPoint web 版、Word 2016 或更高版本（Mac 上的 PowerPoint 2016 或更高版本） |
 | 合作伙伴公司名称 | harmon.ie Corporation |
-| 合作伙伴网站的 URL | [https://harmon.ie/](https://harmon.ie/) |
+| 合作伙伴网站的 URL | [https://harmon.ie](https://harmon.ie) |
 | 隐私策略的 URL | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
-| 使用条款 URL | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474836605/Product_42949673246/Asset_37060a29-311b-4239-be49-1758aebbeb1a/harmonieEULA.pdf) |
+| 使用条款 URL | [https://harmon.ie/legal/eula](https://harmon.ie/legal/eula) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

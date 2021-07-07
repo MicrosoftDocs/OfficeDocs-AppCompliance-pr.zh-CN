@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Text 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8d9e5cfd3b082692656c7bb9a67417564cf7ab57
-ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
+ms.openlocfilehash: f87ac4854d4301ea194d7b906f9b417e268a9df3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629654"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281424"
 ---
 # <a name="text"></a>文本
 
@@ -36,7 +36,7 @@ ms.locfileid: "52629654"
 | ID | WA200000383 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Approved Contact |
-| 合作伙伴网站的 URL | [www.approvedcontact.com](www.approvedcontact.com) |
+| 合作伙伴网站的 URL | [https://www.approvedcontact.com](https://www.approvedcontact.com) |
 | 隐私策略的 URL | [https://sales.approvedcontact.com/wp-content/uploads/text-p...](https://sales.approvedcontact.com/wp-content/uploads/text-privacy-policy.pdf) |
 | 使用条款 URL | [https://approvedcontact.com/Terms%20of%20use.pdf](https://approvedcontact.com/Terms%20of%20use.pdf) |
 
@@ -57,7 +57,7 @@ ms.locfileid: "52629654"
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Group.ReadWrite.All | delegated | 对于文本自动程序，我们将捕获团队标识符，以创建入站文本消息的未来频道。 | 允许我们Teams频道。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| 电子邮件 | delegated | 电子邮件地址 | 获取用户联系人信息。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| email | delegated | 电子邮件地址 | 获取用户联系人信息。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 >| offline_access | delegated | 刷新令牌存储在我们的数据库中。 | 用于将刷新令牌保留到我们的数据库中 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 >| openid | delegated | 登录凭据 | 允许用户登录。 以便文本可以传递到Teams通道 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 >| 个人资料 | delegated | 电子邮件地址 | 获取用户联系人信息。 | a622ceb4-b6e2-4557-8218-e22e80975ba4 |

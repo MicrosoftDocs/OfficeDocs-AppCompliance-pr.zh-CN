@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于处理Box 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6d521b6172e4915d6ce10ea493069355ce3abfdf
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3ca294c588f6447c5e54c53cf1dec33b1e849a47
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552063"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281825"
 ---
 # <a name="tacklebox"></a>TackleBox
 
@@ -36,7 +36,7 @@ Insiten 提供给 Microsoft 的信息：
 | ID | WA200002310 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Insiten |
-| 合作伙伴网站的 URL | [https://tacklebox.app/](https://tacklebox.app/) |
+| 合作伙伴网站的 URL | [https://insiten.com](https://insiten.com) |
 | "Teams应用程序信息"页的 URL | [https://tacklebox.app](https://tacklebox.app) |
 | 隐私策略的 URL | [https://tacklebox.app/privacy/](https://tacklebox.app/privacy/) |
 | 使用条款 URL | [https://tacklebox.app/terms/](https://tacklebox.app/terms/) |

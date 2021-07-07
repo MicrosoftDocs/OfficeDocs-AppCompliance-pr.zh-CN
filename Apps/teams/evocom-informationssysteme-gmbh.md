@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Evocom 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 69eed6c53706cb64ea4c4af64d455e01ecc98c9f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1a3be83c266ee993ad377a2489a85248bdafab67
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553163"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281284"
 ---
 # <a name="evocom"></a>Evocom
 
@@ -36,10 +36,10 @@ Evocom Informationssysteme GmbH 提供给 Microsoft 的信息：
 | ID | WA200002050 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Evocom Informationssysteme GmbH |
-| 合作伙伴网站的 URL | [https://www.evocom.de/](https://www.evocom.de/) |
+| 合作伙伴网站的 URL | [https://evocom.de](https://evocom.de) |
 | "Teams应用程序信息"页的 URL | [https://evocom.de/microsoft365](https://evocom.de/microsoft365) |
-| 隐私策略的 URL | [https://www.evocom.de/privacy](https://www.evocom.de/privacy) |
-| 使用条款 URL | [https://www.evocom.de/termsofuse](https://www.evocom.de/termsofuse) |
+| 隐私策略的 URL | [https://evocom.de/privacy](https://evocom.de/privacy) |
+| 使用条款 URL | [https://evocom.de/termsofuse](https://evocom.de/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

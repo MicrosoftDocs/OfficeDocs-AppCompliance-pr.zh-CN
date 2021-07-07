@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Wunder365 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c4b1e022c3ed482c3020284f07a7d1f986d7cbb3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f5c07b646cd3d23d6a1fbda2c9bd5ef7b4973f32
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552513"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281714"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -33,11 +33,11 @@ JiJi Technologies Private Limited 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Wunder365 |
 | ID | WA200000391 |
-| Office 365支持的客户端 | Outlook 2016或更高版本Windows、Outlook 2016 Mac 或更高版本，Outlook Web 上 |
+| Office 365支持的客户端 | Outlook 2016或更高版本Windows、Outlook 2016 Mac 或更高版本、Outlook 网页版 |
 | 合作伙伴公司名称 | JiJi Technologies Private Limited |
-| 合作伙伴网站的 URL | [https://apps4.pro/](https://apps4.pro/) |
+| 合作伙伴网站的 URL | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | 隐私策略的 URL | [https://www.wunder365.com/outlook-addin-privacy-policy](https://www.wunder365.com/outlook-addin-privacy-policy) |
-| 使用条款 URL | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| 使用条款 URL | [https://www.wunder365.com/terms-of-service](https://www.wunder365.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -74,7 +74,7 @@ JiJi Technologies Private Limited 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->我们正在登录到 Azure Application Insights。 我们正在记录租户 ID 和用户的电子邮件 ID，以识别问题并帮助客户解决问题。
+>我们正在登录到 Azure 应用程序Insights。 我们正在记录租户 ID 和用户的电子邮件 ID，以识别问题并帮助客户解决问题。
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制

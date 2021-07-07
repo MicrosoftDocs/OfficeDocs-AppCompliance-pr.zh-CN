@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Smartsheet 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ddf77e7e73cc0bef1a21e72d1db328a4845a12f5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c97f12b0e1f423318c98419f11e7569c5285830d
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551522"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280934"
 ---
 # <a name="smartsheet"></a>Smartsheet
 
@@ -36,10 +36,10 @@ Smartsheet 提供给 Microsoft 的信息：
 | ID | WA104380975 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Smartsheet |
-| 合作伙伴网站的 URL | [https://help.smartsheet.com/articles/2476201](https://help.smartsheet.com/articles/2476201) |
+| 合作伙伴网站的 URL | [https://www.smartsheet.com](https://www.smartsheet.com) |
 | "Teams应用程序信息"页的 URL | [https://help.smartsheet.com/articles/2476201-interact-with-...](https://help.smartsheet.com/articles/2476201-interact-with-smartsheet-items-in-microsoft-teams) |
-| 隐私策略的 URL | [https://www.smartsheet.com/privacy](https://www.smartsheet.com/privacy) |
-| 使用条款 URL | [https://www.smartsheet.com/user-agreement](https://www.smartsheet.com/user-agreement) |
+| 隐私策略的 URL | [https://www.smartsheet/legal/privacy](https://www.smartsheet/legal/privacy) |
+| 使用条款 URL | [https://Default 用户协议 https://www.smartsheet.com/.. ：。](https://Default User Agreement: https://www.smartsheet.com/legal/user-agreement) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

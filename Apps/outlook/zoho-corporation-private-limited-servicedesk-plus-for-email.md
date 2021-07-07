@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ServiceDesk Plus for Email 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: dc342375eba7084f5afb31b0f879e46e959fa970
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 759c59f93daa664dcc6b5b0b230a4b0fedfbf140
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553653"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282386"
 ---
 # <a name="servicedesk-plus-for-email"></a>ServiceDesk Plus for Email
 
@@ -33,11 +33,11 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | ServiceDesk Plus for Email |
 | ID | WA104381518 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016或更高版本，Outlook Web 上 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | Zoho Corporation Private Limited |
-| 合作伙伴网站的 URL | [https://www.zoho.com/](https://www.zoho.com/) |
+| 合作伙伴网站的 URL | [https://www.manageengine.com/products/service-desk](https://www.manageengine.com/products/service-desk) |
 | 隐私策略的 URL | [https://www.manageengine.com/privacy.html](https://www.manageengine.com/privacy.html) |
-| 使用条款 URL | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| 使用条款 URL | [https://ondemand.manageengine.com/terms.html](https://ondemand.manageengine.com/terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

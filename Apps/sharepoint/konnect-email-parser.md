@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于为一个功能区 eMail Parser 提供的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6341fbe817009d86dbd92256fed54c72ff89161f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1af3a75f49bf10e0185ba80a289fd05524c8130e
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552463"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282115"
 ---
 # <a name="konnect-email-parser"></a>表示邮件分析程序
 
@@ -35,7 +35,7 @@ ms.locfileid: "52552463"
 | ID | WA200001893 |
 | Office 365支持的客户端 | SharePoint 2016 或更高版本 |
 | 合作伙伴公司名称 | 库马尼克语电子邮件 |
-| 合作伙伴网站的 URL | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| 合作伙伴网站的 URL | [https://www.konnectemail.com](https://www.konnectemail.com) |
 | 隐私策略的 URL | [https://www.konnectemail.com/privacy-policy-sharepoint-pars...](https://www.konnectemail.com/privacy-policy-sharepoint-parser-app) |
 | 使用条款 URL | [https://www.konnectemail.com/eula](https://www.konnectemail.com/eula) |
 
@@ -68,7 +68,7 @@ ms.locfileid: "52552463"
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->日志在 Azure Application Insights 中保留 90 天
+>日志在 Azure 应用程序服务器中保留 90 Insights
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

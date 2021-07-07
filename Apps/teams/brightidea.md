@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Brightidea 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0ef99ec3d04a72624f002c05f6a120a34f674b8a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8648dbe30e43ca31964493d797cb3629234fa671
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553283"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281384"
 ---
 # <a name="brightidea"></a>Brightidea
 
@@ -36,7 +36,7 @@ Brightidea 提供给 Microsoft 的信息：
 | ID | WA200002795 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Brightidea |
-| 合作伙伴网站的 URL | [https://www.brightidea.com](https://www.brightidea.com) |
+| 合作伙伴网站的 URL | [https://brightidea.com](https://brightidea.com) |
 | 隐私策略的 URL | [https://www.brightidea.com/privacy/](https://www.brightidea.com/privacy/) |
 | 使用条款 URL | [https://www.brightidea.com/terms-of-use/](https://www.brightidea.com/terms-of-use/) |
 

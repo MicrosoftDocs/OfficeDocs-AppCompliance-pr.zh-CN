@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Cloverpop 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: eaee7a04f4d8e74f97eef1fae358f80a0c3e2249
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c6be013237c6368624687f7eb297a7149c28a548
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553223"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281344"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -36,7 +36,7 @@ Cloverpop 提供给 Microsoft 的信息：
 | ID | WA200001803 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Cloverpop |
-| 合作伙伴网站的 URL | [https://www.cloverpop.com](https://www.cloverpop.com) |
+| 合作伙伴网站的 URL | [https://www.cloverpop.com/](https://www.cloverpop.com/) |
 | 隐私策略的 URL | [https://www.cloverpop.com/privacy-policy/](https://www.cloverpop.com/privacy-policy/) |
 | 使用条款 URL | [https://www.cloverpop.com/terms-of-service](https://www.cloverpop.com/terms-of-service) |
 

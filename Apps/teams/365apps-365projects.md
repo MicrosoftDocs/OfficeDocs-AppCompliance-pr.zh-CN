@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 365 项目的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d760c1c5bacf37fa23e26f4a9a15eb7dbbd75bb1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 07ef4c5e5e71ee8034c75869b97d5c8924f502fd
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553463"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281484"
 ---
 # <a name="365projects"></a>365Projects
 
@@ -36,7 +36,7 @@ ms.locfileid: "52553463"
 | ID | WA200002160 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | 365Apps |
-| 合作伙伴网站的 URL | [https://365projects.app](https://365projects.app) |
+| 合作伙伴网站的 URL | [https://365apps.com.au](https://365apps.com.au) |
 | "Teams应用程序信息"页的 URL | [https://365projects.app](https://365projects.app) |
 | 隐私策略的 URL | [https://365projects.app/privacy](https://365projects.app/privacy) |
 | 使用条款 URL | [https://365projects.app/eula](https://365projects.app/eula) |

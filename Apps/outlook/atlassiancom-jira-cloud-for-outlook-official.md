@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 Outlook (Official) 的 Jira 云的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e366abab2bef95cd0468c87945096ec9c22024cc
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b4c7c0bb245c602d1650f13fb231894a86b3e8b0
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552543"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281634"
 ---
 # <a name="jira-cloud-for-outlook-official"></a>Jira Cloud for Outlook (official) 
 
@@ -33,11 +33,11 @@ ms.locfileid: "52552543"
 |:----------------|:-------------|
 | 应用名称 | Jira Cloud for Outlook (official)  |
 | ID | WA200000056 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows、mac Outlook 2016 或更高版本、Outlook iOS 版、Outlook android 版Outlook Android 版、Outlook版 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016 或更高版本、Outlook iOS 版、Outlook Android 版Outlook 网页版 |
 | 合作伙伴公司名称 | Atlassian.com |
-| 合作伙伴网站的 URL | [https://www.atlassian.com/](https://www.atlassian.com/) |
-| 隐私策略的 URL | [https://www.atlassian.com/legal/privacy-policy](https://www.atlassian.com/legal/privacy-policy) |
-| 使用条款 URL | [https://www.atlassian.com/legal/cloud-terms-of-service](https://www.atlassian.com/legal/cloud-terms-of-service) |
+| 合作伙伴网站的 URL | [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira) |
+| 隐私策略的 URL | [https://www.msteams-atlassian.com/privacy-policy/](https://www.msteams-atlassian.com/privacy-policy/) |
+| 使用条款 URL | [https://www.msteams-atlassian.com/legal/](https://www.msteams-atlassian.com/legal/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -1,0 +1,149 @@
+---
+title: iPlanner 应用程序信息Pro Office 365 iGlobe
+ms.author: elmalova
+author: elenamalova
+ms.date: 06/22/2021
+ms.topic: article
+ms.service: attestation
+certification_type: attested
+description: iPlanner 应用程序的所有可用安全性和合规性Pro Office 365、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 41852c52286f1bbc9b3e8f7a2c8ea348b1e86bc6
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282532"
+---
+# <a name="iplanner-pro-office-365"></a>iPlanner Pro Office 365
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>开发人员上次更新时间：2021 年 6 月 22 日</p>
+
+* <a href="https://appsource.microsoft.com/product/web-apps/17859280.iplannerpro" target="_blank">在 AppSource 中查看</a>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a>一般信息
+
+iGlobe 提供给 Microsoft 的信息：
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 应用名称 | iPlanner Pro Office 365 |
+| ID | 17859280.iplannerpro |
+| 合作伙伴公司名称 | iGlobe |
+| 合作伙伴网站的 URL | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
+| 隐私策略的 URL | [https://www.iglobecrm.com/content/legal-information](https://www.iglobecrm.com/content/legal-information) |
+| 使用条款 URL | [https://iglobecrm.com/content/end-user-license-agreement-ig...](https://iglobecrm.com/content/end-user-license-agreement-iglobe-iplanner-add-ins) |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a>应用如何处理数据
+
+此信息由 iGlobe 提供，用于了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
+
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
+
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
+>| Calendars.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 获取计划工具任务并添加新任务更新特定用户的存储桶和该行 | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
+>| Contacts.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 在任务截止日期的用户日历中创建约会 | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
+>| Directory.AccessAsUser.All | delegated | 应用程序数据库中不存储任何数据。 | 允许应用以登录用户身份访问目录中的信息。 | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
+>| Files.Read | delegated | 应用程序数据库中不存储任何数据。 | 以附件形式访问文件，将文件上载到任务 | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
+>| Files.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 从所选邮件获取邮件主题。 允许应用从选定的电子邮件获取信息，从而允许将说明字段复制到任务说明中，并允许将附件从邮件或邮件本身保存到任务。 | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
+>| Group.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 获取规划器任务并添加新任务更新特定用户的存储桶和该行 | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
+>| User.Read | delegated | 应用程序数据库中不存储任何数据。 | 获取计划工具任务并添加新任务更新特定用户的存储桶和该行 | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
+>| User.ReadBasic.All | delegated | 应用程序数据库中不存储任何数据。 | 检查权限并获取规划器任务，并添加新任务以更新特定用户的存储桶和该行 | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
+>| 个人资料 | delegated | 应用程序数据库中不存储任何数据。 | 获取计划工具任务并添加新任务更新特定用户的存储桶和该行 | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
+
+#### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
+
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+
+>| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
+>|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>| Exchange - EWS。AccessAsUser.All | 否 |  |  |  |  |
+>| Exchange - Mail.Read.All | 否 |  |  |  |  |
+>| SharePoint - AllSites.Manage | 否 |  |  |  |  |
+>| SharePoint - AllSites.Read | 否 |  |  |  |  |
+>| SharePoint - AllSites.Write | 否 |  |  |  |  |
+>| SharePoint - MyFiles.Read | 否 |  |  |  |  |
+>| SharePoint - MyFiles.Write | 否 |  |  |  |  |
+
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+
+如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
+
+>不Microsoft 服务非活动。
+
+
+
+#### <a name="telemetry-data"></a>遥测数据
+
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+
+>iGlobe 收集数据以有效运行，并提供我们的产品和服务的最佳体验。 对于许可：为管理组织&#8217;许可帐户收集的数据，例如当你部署免费外接程序、创建试用订阅或购买订阅时。 收集以下信息。 
+- 出于财务目的：公司名称和地址
+- 订阅的用户：用户名和电子邮件
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
+
+描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
+
+>所有数据都位于客户自己的租户上。 不存储任何应用程序数据。 新式外接程序在沙盒浏览器中运行，&#8220;进程外&#8221;。 它通过使用数据与用户数据Microsoft 服务。 加载项只能访问用户正使用的数据。
+
+#### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
+
+是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
+
+>否
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="mcas"
+
+下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
+
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36163' frameborder='no' style='width: 100%;'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36163" target="_blank">在新建选项卡中查看</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>标识信息
+
+此信息由 iGlobe 提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
+| 你的应用是否支持条件访问策略？ | 是 |
+| 列出支持的策略类型 | 安全默认值和任何其他常见策略（如阻止旧版身份验证* 要求管理员使用 MFA* 需要 Azure 管理的 MFA* 要求所有用户使用 MFA* |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 是 |
+| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你的应用是否公开任何 Web API？ | 否 |
+| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用已弃用 API？ | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

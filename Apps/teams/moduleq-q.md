@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Q 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3424ac372f46be0fc9834611fb1a0d57c69831a4
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2bdf876ddb9ab17d9fa8616edda8b849e0d85df7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551902"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281745"
 ---
 # <a name="q"></a>Q
 
@@ -37,8 +37,8 @@ ModuleQ 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ModuleQ |
 | 合作伙伴网站的 URL | [https://moduleq.com](https://moduleq.com) |
-| 隐私策略的 URL | [https://moduleq.com/privacy-policy/](https://moduleq.com/privacy-policy/) |
-| 使用条款 URL | [https://moduleq.com/terms-of-service/](https://moduleq.com/terms-of-service/) |
+| 隐私策略的 URL | [https://moduleq.com/privacy-policy](https://moduleq.com/privacy-policy) |
+| 使用条款 URL | [https://moduleq.com/terms-of-service](https://moduleq.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

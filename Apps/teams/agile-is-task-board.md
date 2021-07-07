@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于敏捷任务板的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3bbf6f95ed5a0e840b1ba8c896dbb14b4ddfa5f2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a5062da73958a88a7b788a74771e76ae506b314d
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553443"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281464"
 ---
 # <a name="agile-task-board"></a>Agile Task Board
 
@@ -36,7 +36,7 @@ Agile-IS 提供给 Microsoft 的信息：
 | ID | WA200002162 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Agile-IS |
-| 合作伙伴网站的 URL | [https://www.agile-is.de/agiletaskboard?utm_medium=appsource...](https://www.agile-is.de/agiletaskboard?utm_medium=appsource&amp;utm_campaign=teams&amp;utm_source=manifest) |
+| 合作伙伴网站的 URL | [https://www.agile-is.de](https://www.agile-is.de) |
 | 隐私策略的 URL | [https://www.agile-is.de/en/telemetry](https://www.agile-is.de/en/telemetry) |
 | 使用条款 URL | [https://www.agile-is.de/en/termsofuse](https://www.agile-is.de/en/termsofuse) |
 

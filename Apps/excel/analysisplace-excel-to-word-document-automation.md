@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 word 文档自动化Excel、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e3f7d7ec2b59ac21a44ca92737e9fbdba4cfdaaa
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8dc1ac8d012545326f0d3c4f96764d5a2ed391b7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52549852"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281204"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel到 Word 文档自动化
 
@@ -35,7 +35,7 @@ AnalysisPlace 提供给 Microsoft 的信息：
 | ID | WA104380955 |
 | Office 365支持的客户端 | Excel 2016或更高版本、Excel 2016 或更高版本、Windows、Word 2016 或 Word 2016更高版本、Windows 或更高版本、Windows PowerPoint 2016 或更高版本、PowerPoint 2016 或更高版本、Windows、Excel web 版、Word web 版、PowerPoint web 版 |
 | 合作伙伴公司名称 | AnalysisPlace |
-| 合作伙伴网站的 URL | [https://analysisplace.com/](https://analysisplace.com/) |
+| 合作伙伴网站的 URL | [https://analysisplace.com](https://analysisplace.com) |
 | 隐私策略的 URL | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
 | 使用条款 URL | [https://analysisplace.com/Terms](https://analysisplace.com/Terms) |
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Clever Ads 的所有可用安全性和合规性信息、它的数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0b092ef8ab27bec0a2f5c3bf294b301a71d1649a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d0ef9f59476133e673a0bf9edf99e63cfc424559
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552273"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281945"
 ---
 # <a name="clever-ads"></a>Clever Ads
 
@@ -36,9 +36,9 @@ Clever Ads 提供给 Microsoft 的信息：
 | ID | WA200001182 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Clever Ads |
-| 合作伙伴网站的 URL | [https://www.cleverads.com/](https://www.cleverads.com/) |
-| 隐私策略的 URL | [https://www.cleverads.com/privacy-policy](https://www.cleverads.com/privacy-policy) |
-| 使用条款 URL | [https://www.cleverads.com/terms-conditions](https://www.cleverads.com/terms-conditions) |
+| 合作伙伴网站的 URL | [https://cleverads.com](https://cleverads.com) |
+| 隐私策略的 URL | [https://cleverads.com/privacy-policy](https://cleverads.com/privacy-policy) |
+| 使用条款 URL | [https://cleverads.com/terms-conditions](https://cleverads.com/terms-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

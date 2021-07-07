@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息 askR.ai、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: df24c20ad60cd7e72946db7a8404019903b4a483
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e88abce5e865bdd3a09d4593b882070c013bbc93
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552373"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281414"
 ---
 # <a name="askrai"></a>askR.ai
 
@@ -36,7 +36,7 @@ ms.locfileid: "52552373"
 | ID | WA200001583 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | askR.ai |
-| 合作伙伴网站的 URL | [https://en.askr.ai/](https://en.askr.ai/) |
+| 合作伙伴网站的 URL | [https://en.askr.ai](https://en.askr.ai) |
 | "Teams应用程序信息"页的 URL | [https://en.askr.ai](https://en.askr.ai) |
 | 隐私策略的 URL | [https://en.askr.ai/privacy-policy-askr-ai](https://en.askr.ai/privacy-policy-askr-ai) |
 | 使用条款 URL | [https://en.askr.ai/terms-of-use-askr-ai](https://en.askr.ai/terms-of-use-askr-ai) |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SurveyMonkey 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 57ba8ed84e0d9ea4101ea82ed5d92aef1f634ed1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: daf5de5437a08ca8b748157a5e136bbe7b114122
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552723"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280814"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -38,8 +38,8 @@ SurveyMonkey 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | SurveyMonkey |
 | 合作伙伴网站的 URL | [https://www.surveymonkey.com](https://www.surveymonkey.com) |
 | "Teams应用程序信息"页的 URL | [https://help.surveymonkey.com/articles/en_US/kb/Microsoft-T...](https://help.surveymonkey.com/articles/en_US/kb/Microsoft-Teams-Integration) |
-| 隐私策略的 URL | [https://www.surveymonkey.com/privacy](https://www.surveymonkey.com/privacy) |
-| 使用条款 URL | [https://www.surveymonkey.com/mp/policy/terms-of-use/](https://www.surveymonkey.com/mp/policy/terms-of-use/) |
+| 隐私策略的 URL | [https://www.surveymonkey.com/mp/legal/privacy-policy/](https://www.surveymonkey.com/mp/legal/privacy-policy/) |
+| 使用条款 URL | [https://www.surveymonkey.com/mp/legal/terms-of-use/](https://www.surveymonkey.com/mp/legal/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

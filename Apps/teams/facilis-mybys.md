@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Mybys 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ff78bfc3a2cab87e0d4c48dbd4707eb3fba1dd02
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c36e0bb86b707dad0f03dfd2e00c2405d701860b
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552163"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281885"
 ---
 # <a name="mybys"></a>Mybys
 
@@ -36,7 +36,7 @@ Facilis 提供给 Microsoft 的信息：
 | ID | WA200002605 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Facilis |
-| 合作伙伴网站的 URL | [https://facilisglobal.com/](https://facilisglobal.com/) |
+| 合作伙伴网站的 URL | [https://facilisglobal.com](https://facilisglobal.com) |
 | "Teams应用程序信息"页的 URL | [https://facilisglobal.com/products/microsoft-teams](https://facilisglobal.com/products/microsoft-teams) |
 | 隐私策略的 URL | [https://facilisglobal.com/privacy-policy](https://facilisglobal.com/privacy-policy) |
 | 使用条款 URL | [https://facilisglobal.com/terms-conditions](https://facilisglobal.com/terms-conditions) |

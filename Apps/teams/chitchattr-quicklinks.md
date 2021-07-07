@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 快速链接的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5d29a93ab0f6edfe5b95267d8f808d8f16180822
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d810e1bdabf4aed954d8deb6ee42db46bf03a194
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553263"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281374"
 ---
 # <a name="quicklinks"></a>Quicklinks
 
@@ -36,10 +36,10 @@ ChitChattr 提供给 Microsoft 的信息：
 | ID | WA200001833 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ChitChattr |
-| 合作伙伴网站的 URL | [https://www.chitchattr.com?p=quicklinks](https://www.chitchattr.com?p=quicklinks) |
+| 合作伙伴网站的 URL | [https://www.chitchattr.com](https://www.chitchattr.com) |
 | "Teams应用程序信息"页的 URL | [https://www.chitchattr.com/quicklinks/](https://www.chitchattr.com/quicklinks/) |
 | 隐私策略的 URL | [https://www.chitchattr.com/privacy?p=quicklinks](https://www.chitchattr.com/privacy?p=quicklinks) |
-| 使用条款 URL | [https://www.chitchattr.com/termsofuse?p=quicklinks](https://www.chitchattr.com/termsofuse?p=quicklinks) |
+| 使用条款 URL | [https://www.chitchattr.com/termsofuse](https://www.chitchattr.com/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

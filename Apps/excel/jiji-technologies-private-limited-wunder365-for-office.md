@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Wunder365 for Office 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 84138d8471b342ad67e2bad34b70166ddb77a539
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 85e7b014e9bbc5754016bd83a7734ff2481aa8dc
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52548832"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281684"
 ---
 # <a name="wunder365-for-office"></a>Wunder365 for Office
 
@@ -35,9 +35,9 @@ JiJi Technologies Private Limited 提供给 Microsoft 的信息：
 | ID | WA200001529 |
 | Office 365支持的客户端 | Excel 2016 Mac、Excel 2013 或更高版本（在 mac Windows、Excel web 版、Word 2016 或更高版本、Word web 版、Word 2013 或 Windows 或更高版本上OneNote web 版 |
 | 合作伙伴公司名称 | JiJi Technologies Private Limited |
-| 合作伙伴网站的 URL | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| 合作伙伴网站的 URL | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | 隐私策略的 URL | [https://www.wunder365.com/office-addin-privacy-policy](https://www.wunder365.com/office-addin-privacy-policy) |
-| 使用条款 URL | [https://go.microsoft.com/fwlink/?linkid=2041178](https://go.microsoft.com/fwlink/?linkid=2041178) |
+| 使用条款 URL | [https://www.wunder365.com/terms-of-service](https://www.wunder365.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -74,7 +74,7 @@ JiJi Technologies Private Limited 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->我们正在登录到 Azure Application Insights。 我们正在记录租户 ID 和用户的电子邮件 ID，以识别问题并帮助客户解决问题。
+>我们正在登录到 Azure 应用程序Insights。 我们正在记录租户 ID 和用户的电子邮件 ID，以识别问题并帮助客户解决问题。
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制

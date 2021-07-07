@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Jira 云的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 07d5a5c25ff013e1fb6f060f51fdb92629901cb3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8044715d2f2f743b194d080c9a74b9651f9dac24
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553393"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282035"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -36,9 +36,9 @@ Atlassian 提供给 Microsoft 的信息：
 | ID | WA200002140 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Atlassian |
-| 合作伙伴网站的 URL | [https://marketplace.atlassian.com/apps/1217836/microsoft-te...](https://marketplace.atlassian.com/apps/1217836/microsoft-teams-for-jira) |
-| 隐私策略的 URL | [https://www.atlassian.com/legal/privacy-policy](https://www.atlassian.com/legal/privacy-policy) |
-| 使用条款 URL | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
+| 合作伙伴网站的 URL | [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira) |
+| 隐私策略的 URL | [https://www.msteams-atlassian.com/privacy-policy/](https://www.msteams-atlassian.com/privacy-policy/) |
+| 使用条款 URL | [https://www.msteams-atlassian.com/legal/](https://www.msteams-atlassian.com/legal/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

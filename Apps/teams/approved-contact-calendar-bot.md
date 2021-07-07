@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 日历 BOT 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 48861f5f4c49a424a0740b0a56e6d85107326396
-ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
+ms.openlocfilehash: 597a368e36fab6036eb8aed34a1afe197d15d26c
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629665"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282055"
 ---
 # <a name="calendar-bot"></a>Calendar BOT
 
@@ -36,7 +36,7 @@ ms.locfileid: "52629665"
 | ID | WA104381271 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Approved Contact |
-| 合作伙伴网站的 URL | [www.approvedcontact.com](www.approvedcontact.com) |
+| 合作伙伴网站的 URL | [https://www.approvedcontact.com](https://www.approvedcontact.com) |
 | 隐私策略的 URL | [https://approvedcontact.com/Privacy%20Policy%20Bot.pdf](https://approvedcontact.com/Privacy%20Policy%20Bot.pdf) |
 | 使用条款 URL | [https://approvedcontact.com/Terms%20of%20use.pdf](https://approvedcontact.com/Terms%20of%20use.pdf) |
 

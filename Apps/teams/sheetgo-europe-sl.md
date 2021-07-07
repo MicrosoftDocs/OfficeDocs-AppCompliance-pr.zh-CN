@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Sheetgo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bb23e321e4c40b0ed2c98026665b7e9f9e22a9e4
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 7061510a0fb54a3e46e9ca80032a93e97a0e5868
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553883"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281054"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -36,7 +36,7 @@ SHEETGO EUROPE SL 提供给 Microsoft 的信息：
 | ID | WA200002067 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SHEETGO EUROPE SL |
-| 合作伙伴网站的 URL | [https://www.sheetgo.com](https://www.sheetgo.com) |
+| 合作伙伴网站的 URL | [https://www.sheetgo.com/](https://www.sheetgo.com/) |
 | 隐私策略的 URL | [https://www.sheetgo.com/legal/privacy/](https://www.sheetgo.com/legal/privacy/) |
 | 使用条款 URL | [https://www.sheetgo.com/legal/terms/](https://www.sheetgo.com/legal/terms/) |
 

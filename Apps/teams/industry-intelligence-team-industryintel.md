@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: IndustryIntel 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6e2c1c35d0054df773b83fa2d31a95daceaee585
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a213e68c58f2f3aea6f9bc1e6c8568fcbdefc141
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553063"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281244"
 ---
 # <a name="industryintel"></a>IndustryIntel
 
@@ -36,8 +36,8 @@ ms.locfileid: "52553063"
 | ID | WA200001907 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Industry Intelligence Team |
-| 合作伙伴网站的 URL | [https://www.industryintel.com/public:about-us/our-team](https://www.industryintel.com/public:about-us/our-team) |
-| 隐私策略的 URL | [https://www.industryintel.com/public:legal/privacy-policy-m...](https://www.industryintel.com/public:legal/privacy-policy-msteams) |
+| 合作伙伴网站的 URL | [https://www.industryintel.com](https://www.industryintel.com) |
+| 隐私策略的 URL | [https://www.industryintel.com/public:legal/privacy-policy](https://www.industryintel.com/public:legal/privacy-policy) |
 | 使用条款 URL | [https://www.industryintel.com/public:legal/terms-of-use](https://www.industryintel.com/public:legal/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -76,7 +76,7 @@ ms.locfileid: "52553063"
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->否。 在 SO Teams 产品Teams MS 和 SO Teams映射。 MS Teams向我们发送其可识别 ID，我们会将其保存在内部以映射用户。 此外，MS Teams会向我们发送自动程序请求的 JWT (防止请求伪造) 使用 SO Cookie 验证 Tab 请求。
+>不正确。 在 SO Teams 产品Teams MS 和 SO Teams映射。 MS Teams向我们发送其可识别 ID，我们会将其保存在内部以映射用户。 此外，MS Teams会向我们发送自动程序请求的 JWT (防止请求伪造) 使用 SO Cookie 验证 Tab 请求。
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
