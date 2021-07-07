@@ -8,36 +8,36 @@ ms.service: attestation
 certification_type: attested
 description: Asana for Outlook 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cd3d403d7b25c1ad5dda60dff8d93c18dfe59c30
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 631e8ea5e7265566b1c8332987ea31f9d5ec41bc
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553743"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282906"
 ---
-# <a name="asana-for-outlook"></a><span data-ttu-id="b5fe7-103">Asana for Outlook</span><span class="sxs-lookup"><span data-stu-id="b5fe7-103">Asana for Outlook</span></span>
+# <a name="asana-for-outlook"></a><span data-ttu-id="c94cd-103">Asana for Outlook</span><span class="sxs-lookup"><span data-stu-id="c94cd-103">Asana for Outlook</span></span>
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p><span data-ttu-id="b5fe7-104">开发人员上次更新时间：2020 年 11 月 2 日</span><span class="sxs-lookup"><span data-stu-id="b5fe7-104">Last updated by the developer on: November 2, 2020</span></span></p>
+<p><span data-ttu-id="c94cd-104">开发人员上次更新时间：2020 年 11 月 2 日</span><span class="sxs-lookup"><span data-stu-id="c94cd-104">Last updated by the developer on: November 2, 2020</span></span></p>
 
-* <span data-ttu-id="b5fe7-105"><a href="https://appsource.microsoft.com/product/office/WA104381833" target="_blank">在 AppSource 中查看</a></span><span class="sxs-lookup"><span data-stu-id="b5fe7-105"><a href="https://appsource.microsoft.com/product/office/WA104381833" target="_blank">View in AppSource</a></span></span>
+* <span data-ttu-id="c94cd-105"><a href="https://appsource.microsoft.com/product/office/WA104381833" target="_blank">在 AppSource 中查看</a></span><span class="sxs-lookup"><span data-stu-id="c94cd-105"><a href="https://appsource.microsoft.com/product/office/WA104381833" target="_blank">View in AppSource</a></span></span>
 
 ::: zone pivot="general"
 
-### <a name="general-information"></a><span data-ttu-id="b5fe7-106">一般信息</span><span class="sxs-lookup"><span data-stu-id="b5fe7-106">General information</span></span>
+### <a name="general-information"></a><span data-ttu-id="c94cd-106">一般信息</span><span class="sxs-lookup"><span data-stu-id="c94cd-106">General information</span></span>
 
-<span data-ttu-id="b5fe7-107">Asana 提供给 Microsoft 的信息：</span><span class="sxs-lookup"><span data-stu-id="b5fe7-107">Information provided by Asana to Microsoft:</span></span>
+<span data-ttu-id="c94cd-107">Asana 提供给 Microsoft 的信息：</span><span class="sxs-lookup"><span data-stu-id="c94cd-107">Information provided by Asana to Microsoft:</span></span>
 
-| <span data-ttu-id="b5fe7-108">**Information**</span><span class="sxs-lookup"><span data-stu-id="b5fe7-108">**Information**</span></span> | <span data-ttu-id="b5fe7-109">**响应**</span><span class="sxs-lookup"><span data-stu-id="b5fe7-109">**Response**</span></span> |
+| <span data-ttu-id="c94cd-108">**Information**</span><span class="sxs-lookup"><span data-stu-id="c94cd-108">**Information**</span></span> | <span data-ttu-id="c94cd-109">**响应**</span><span class="sxs-lookup"><span data-stu-id="c94cd-109">**Response**</span></span> |
 |:----------------|:-------------|
-| <span data-ttu-id="b5fe7-110">应用名称</span><span class="sxs-lookup"><span data-stu-id="b5fe7-110">App name</span></span> | <span data-ttu-id="b5fe7-111">Asana for Outlook</span><span class="sxs-lookup"><span data-stu-id="b5fe7-111">Asana for Outlook</span></span> |
-| <span data-ttu-id="b5fe7-112">ID</span><span class="sxs-lookup"><span data-stu-id="b5fe7-112">ID</span></span> | <span data-ttu-id="b5fe7-113">WA104381833</span><span class="sxs-lookup"><span data-stu-id="b5fe7-113">WA104381833</span></span> |
-| <span data-ttu-id="b5fe7-114">Office 365支持的客户端</span><span class="sxs-lookup"><span data-stu-id="b5fe7-114">Office 365 clients supported</span></span> | <span data-ttu-id="b5fe7-115">Outlook 2016或更高版本Windows、Outlook 2016 Mac 或更高版本，Outlook Web 上</span><span class="sxs-lookup"><span data-stu-id="b5fe7-115">Outlook 2016 or later on Windows, Outlook 2016 or later on Mac, Outlook on the web</span></span> |
-| <span data-ttu-id="b5fe7-116">合作伙伴公司名称</span><span class="sxs-lookup"><span data-stu-id="b5fe7-116">Partner company name</span></span> | <span data-ttu-id="b5fe7-117">Asana</span><span class="sxs-lookup"><span data-stu-id="b5fe7-117">Asana</span></span> |
-| <span data-ttu-id="b5fe7-118">合作伙伴网站的 URL</span><span class="sxs-lookup"><span data-stu-id="b5fe7-118">URL of partner website</span></span> | [https://asana.com/](https://asana.com/) |
-| <span data-ttu-id="b5fe7-119">隐私策略的 URL</span><span class="sxs-lookup"><span data-stu-id="b5fe7-119">URL of Privacy Policy</span></span> | [https://asana.com/terms#privacy-policy](https://asana.com/terms#privacy-policy) |
-| <span data-ttu-id="b5fe7-120">使用条款 URL</span><span class="sxs-lookup"><span data-stu-id="b5fe7-120">URL of Terms of Use</span></span> | [<span data-ttu-id="b5fe7-121"> https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US</span><span class="sxs-lookup"><span data-stu-id="b5fe7-121">https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US</span></span>](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| <span data-ttu-id="c94cd-110">应用名称</span><span class="sxs-lookup"><span data-stu-id="c94cd-110">App name</span></span> | <span data-ttu-id="c94cd-111">Asana for Outlook</span><span class="sxs-lookup"><span data-stu-id="c94cd-111">Asana for Outlook</span></span> |
+| <span data-ttu-id="c94cd-112">ID</span><span class="sxs-lookup"><span data-stu-id="c94cd-112">ID</span></span> | <span data-ttu-id="c94cd-113">WA104381833</span><span class="sxs-lookup"><span data-stu-id="c94cd-113">WA104381833</span></span> |
+| <span data-ttu-id="c94cd-114">Office 365支持的客户端</span><span class="sxs-lookup"><span data-stu-id="c94cd-114">Office 365 clients supported</span></span> | <span data-ttu-id="c94cd-115">Outlook 2016或更高版本Windows、Outlook 2016 Mac 或更高版本、Outlook 网页版</span><span class="sxs-lookup"><span data-stu-id="c94cd-115">Outlook 2016 or later on Windows, Outlook 2016 or later on Mac, Outlook on the web</span></span> |
+| <span data-ttu-id="c94cd-116">合作伙伴公司名称</span><span class="sxs-lookup"><span data-stu-id="c94cd-116">Partner company name</span></span> | <span data-ttu-id="c94cd-117">Asana</span><span class="sxs-lookup"><span data-stu-id="c94cd-117">Asana</span></span> |
+| <span data-ttu-id="c94cd-118">合作伙伴网站的 URL</span><span class="sxs-lookup"><span data-stu-id="c94cd-118">URL of partner website</span></span> | [https://asana.com](https://asana.com) |
+| <span data-ttu-id="c94cd-119">隐私策略的 URL</span><span class="sxs-lookup"><span data-stu-id="c94cd-119">URL of Privacy Policy</span></span> | [https://asana.com/terms#privacy-policy](https://asana.com/terms#privacy-policy) |
+| <span data-ttu-id="c94cd-120">使用条款 URL</span><span class="sxs-lookup"><span data-stu-id="c94cd-120">URL of Terms of Use</span></span> | [https://asana.com/terms#terms-of-service](https://asana.com/terms#terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,45 +45,45 @@ ms.locfileid: "52553743"
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a><span data-ttu-id="b5fe7-122">应用如何处理数据</span><span class="sxs-lookup"><span data-stu-id="b5fe7-122">How the app handles data</span></span>
+### <a name="how-the-app-handles-data"></a><span data-ttu-id="c94cd-121">应用如何处理数据</span><span class="sxs-lookup"><span data-stu-id="c94cd-121">How the app handles data</span></span>
 
-<span data-ttu-id="b5fe7-123">Asana 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-123">This information has been provided by Asana about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
+<span data-ttu-id="c94cd-122">Asana 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。</span><span class="sxs-lookup"><span data-stu-id="c94cd-122">This information has been provided by Asana about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
 
-#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="b5fe7-124">使用 Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="b5fe7-124">Data access using Microsoft Graph</span></span>
+#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="c94cd-123">使用 Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="c94cd-123">Data access using Microsoft Graph</span></span>
 
-<span data-ttu-id="b5fe7-125">列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-125">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
+<span data-ttu-id="c94cd-124">列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。</span><span class="sxs-lookup"><span data-stu-id="c94cd-124">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
 
-><span data-ttu-id="b5fe7-126">此应用程序不使用 Microsoft Graph。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-126">This application does not use Microsoft Graph.</span></span>
+><span data-ttu-id="c94cd-125">此应用程序不使用 Microsoft Graph。</span><span class="sxs-lookup"><span data-stu-id="c94cd-125">This application does not use Microsoft Graph.</span></span>
 
 
-#### <a name="non-microsoft-services-used"></a><span data-ttu-id="b5fe7-127">非Microsoft 服务使用</span><span class="sxs-lookup"><span data-stu-id="b5fe7-127">Non-Microsoft services used</span></span>
+#### <a name="non-microsoft-services-used"></a><span data-ttu-id="c94cd-126">非Microsoft 服务使用</span><span class="sxs-lookup"><span data-stu-id="c94cd-126">Non-Microsoft services used</span></span>
 
-<span data-ttu-id="b5fe7-128">如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-128">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
+<span data-ttu-id="c94cd-127">如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。</span><span class="sxs-lookup"><span data-stu-id="c94cd-127">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
 
->| <span data-ttu-id="b5fe7-129">**所有非Microsoft 服务 OII 将转移到**</span><span class="sxs-lookup"><span data-stu-id="b5fe7-129">**All non-Microsoft services OII is transferred to**</span></span> |  <span data-ttu-id="b5fe7-130">**转移了哪些 OII？**</span><span class="sxs-lookup"><span data-stu-id="b5fe7-130">**What OII is transferred?**</span></span> | <span data-ttu-id="b5fe7-131">**转移 OII 的理由？**</span><span class="sxs-lookup"><span data-stu-id="b5fe7-131">**Justification for transferring OII?**</span></span> |
+>| <span data-ttu-id="c94cd-128">**所有非Microsoft 服务 OII 将转移到**</span><span class="sxs-lookup"><span data-stu-id="c94cd-128">**All non-Microsoft services OII is transferred to**</span></span> |  <span data-ttu-id="c94cd-129">**转移了哪些 OII？**</span><span class="sxs-lookup"><span data-stu-id="c94cd-129">**What OII is transferred?**</span></span> | <span data-ttu-id="c94cd-130">**转移 OII 的理由？**</span><span class="sxs-lookup"><span data-stu-id="c94cd-130">**Justification for transferring OII?**</span></span> |
 >|:-------------------|:--------------------------|:--------------------------|
->| <span data-ttu-id="b5fe7-132">当用户请求时，外接程序将 (、收件人、主题、正文) 和附件传输至 Asana。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-132">The add-in transfers basic email information (sender, recepient, subject, body) and attachments to Asana when requested by the user.</span></span> |  | <span data-ttu-id="b5fe7-133">电子邮件 - 在任务窗格中显示时读取当前打开的电子邮件。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-133">Email - Reads currently open email when displayed in a task pane.</span></span> <span data-ttu-id="b5fe7-134">- 读取当前打开的电子邮件附件以上载到 Asana 任务。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-134">- Reads currently open email attachments to upload to Asana tasks.</span></span> <span data-ttu-id="b5fe7-135">- 这使用户能够使用来自电子邮件的信息在 Asana 中快速执行任务。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-135">- This provides users the ability to quickly make tasks in Asana with information from emails.</span></span> |
+>| <span data-ttu-id="c94cd-131">当用户请求时，外接程序将 (、收件人、主题、正文) 和附件传输至 Asana。</span><span class="sxs-lookup"><span data-stu-id="c94cd-131">The add-in transfers basic email information (sender, recepient, subject, body) and attachments to Asana when requested by the user.</span></span> |  | <span data-ttu-id="c94cd-132">电子邮件 - 在任务窗格中显示时读取当前打开的电子邮件。</span><span class="sxs-lookup"><span data-stu-id="c94cd-132">Email - Reads currently open email when displayed in a task pane.</span></span> <span data-ttu-id="c94cd-133">- 读取当前打开的电子邮件附件以上载到 Asana 任务。</span><span class="sxs-lookup"><span data-stu-id="c94cd-133">- Reads currently open email attachments to upload to Asana tasks.</span></span> <span data-ttu-id="c94cd-134">- 这使用户能够使用来自电子邮件的信息在 Asana 中快速执行任务。</span><span class="sxs-lookup"><span data-stu-id="c94cd-134">- This provides users the ability to quickly make tasks in Asana with information from emails.</span></span> |
 
 
 
-#### <a name="telemetry-data"></a><span data-ttu-id="b5fe7-136">遥测数据</span><span class="sxs-lookup"><span data-stu-id="b5fe7-136">Telemetry data</span></span>
+#### <a name="telemetry-data"></a><span data-ttu-id="c94cd-135">遥测数据</span><span class="sxs-lookup"><span data-stu-id="c94cd-135">Telemetry data</span></span>
 
-<span data-ttu-id="b5fe7-137">OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？</span><span class="sxs-lookup"><span data-stu-id="b5fe7-137">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="b5fe7-138">如果是，请描述存储哪些数据以及保留和删除策略是什么？</span><span class="sxs-lookup"><span data-stu-id="b5fe7-138">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
+<span data-ttu-id="c94cd-136">OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？</span><span class="sxs-lookup"><span data-stu-id="c94cd-136">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="c94cd-137">如果是，请描述存储哪些数据以及保留和删除策略是什么？</span><span class="sxs-lookup"><span data-stu-id="c94cd-137">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
 
-><span data-ttu-id="b5fe7-139">我们的应用程序仅记录与 Asana 数据有关的信息。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-139">Our application only logs information relating to Asana data.</span></span> <span data-ttu-id="b5fe7-140">唯一一次记录与用户Outlook相关的内容时，用户显式附加电子邮件或将附件上载到 Asana，甚至不记录内容。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-140">The only time we log anything related to Outlook user information is when the user explicitly attaches an email or uploads an attachment to Asana, and even then we do no log the contents.</span></span> <span data-ttu-id="b5fe7-141">服务器中可能存在短期日志，其中可能包含一些用户数据，但它们只是临时日志，且限制为少于 72 小时的时间。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-141">Short-term logs exist on servers which may include some user data, but they are ephemeral and limited to periods less than 72 hours.</span></span>
+><span data-ttu-id="c94cd-138">我们的应用程序仅记录与 Asana 数据有关的信息。</span><span class="sxs-lookup"><span data-stu-id="c94cd-138">Our application only logs information relating to Asana data.</span></span> <span data-ttu-id="c94cd-139">唯一一次记录与用户Outlook相关的内容时，用户显式附加电子邮件或将附件上载到 Asana，甚至不记录内容。</span><span class="sxs-lookup"><span data-stu-id="c94cd-139">The only time we log anything related to Outlook user information is when the user explicitly attaches an email or uploads an attachment to Asana, and even then we do no log the contents.</span></span> <span data-ttu-id="c94cd-140">服务器中可能存在短期日志，其中可能包含一些用户数据，但它们只是临时日志，且限制为少于 72 小时的时间。</span><span class="sxs-lookup"><span data-stu-id="c94cd-140">Short-term logs exist on servers which may include some user data, but they are ephemeral and limited to periods less than 72 hours.</span></span>
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="b5fe7-142">合作伙伴存储的数据的组织控制</span><span class="sxs-lookup"><span data-stu-id="b5fe7-142">Organizational controls for data stored by partner</span></span>
+#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="c94cd-141">合作伙伴存储的数据的组织控制</span><span class="sxs-lookup"><span data-stu-id="c94cd-141">Organizational controls for data stored by partner</span></span>
 
-<span data-ttu-id="b5fe7-143">描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-143">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
+<span data-ttu-id="c94cd-142">描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。</span><span class="sxs-lookup"><span data-stu-id="c94cd-142">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
 
-><span data-ttu-id="b5fe7-144">Enterprise AES-256 保证静态加密。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-144">Enterprise customers have guaranteed encryption at rest using AES-256.</span></span> <span data-ttu-id="b5fe7-145">数据存储在 Amazon Web Services 上，AWS 使用密钥管理系统管理加密密钥。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-145">Data is stored on Amazon Web Services and AWS manages the encryption keys using their Key Management system.</span></span> <span data-ttu-id="b5fe7-146">我们所有管理员都有 2FA。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-146">We do have 2FA for all admins.</span></span> <span data-ttu-id="b5fe7-147">根据最小特权原则授予访问权限。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-147">Access is given on the principle of least privilege.</span></span>
-<span data-ttu-id="b5fe7-148">Asana 组织管理员能够设置 SAML、SCIM、服务帐户，并拥有放入该工具的数据的总体视图。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-148">Your Asana Organizational admins have the ability to setup SAML, SCIM, Service accounts and have an overarching view of the data that is put into the tool.</span></span> <span data-ttu-id="b5fe7-149">管理员可以从管理控制台内请求完整的组织导出并根据需要进行审核。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-149">Admins can request a full organizational export from within the Admin console and audit as needed.</span></span>
+><span data-ttu-id="c94cd-143">Enterprise AES-256 保证静态加密。</span><span class="sxs-lookup"><span data-stu-id="c94cd-143">Enterprise customers have guaranteed encryption at rest using AES-256.</span></span> <span data-ttu-id="c94cd-144">数据存储在 Amazon Web Services 上，AWS 使用密钥管理系统管理加密密钥。</span><span class="sxs-lookup"><span data-stu-id="c94cd-144">Data is stored on Amazon Web Services and AWS manages the encryption keys using their Key Management system.</span></span> <span data-ttu-id="c94cd-145">我们所有管理员都有 2FA。</span><span class="sxs-lookup"><span data-stu-id="c94cd-145">We do have 2FA for all admins.</span></span> <span data-ttu-id="c94cd-146">根据最小特权原则授予访问权限。</span><span class="sxs-lookup"><span data-stu-id="c94cd-146">Access is given on the principle of least privilege.</span></span>
+<span data-ttu-id="c94cd-147">Asana 组织管理员能够设置 SAML、SCIM、服务帐户，并拥有放入该工具的数据的总体视图。</span><span class="sxs-lookup"><span data-stu-id="c94cd-147">Your Asana Organizational admins have the ability to setup SAML, SCIM, Service accounts and have an overarching view of the data that is put into the tool.</span></span> <span data-ttu-id="c94cd-148">管理员可以从管理控制台内请求完整的组织导出并根据需要进行审核。</span><span class="sxs-lookup"><span data-stu-id="c94cd-148">Admins can request a full organizational export from within the Admin console and audit as needed.</span></span>
 
-#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="b5fe7-150">组织信息的人工审阅</span><span class="sxs-lookup"><span data-stu-id="b5fe7-150">Human review of organizational information</span></span>
+#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="c94cd-149">组织信息的人工审阅</span><span class="sxs-lookup"><span data-stu-id="c94cd-149">Human review of organizational information</span></span>
 
-<span data-ttu-id="b5fe7-151">是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？</span><span class="sxs-lookup"><span data-stu-id="b5fe7-151">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
+<span data-ttu-id="c94cd-150">是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？</span><span class="sxs-lookup"><span data-stu-id="c94cd-150">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
 
-><span data-ttu-id="b5fe7-152">否</span><span class="sxs-lookup"><span data-stu-id="b5fe7-152">No</span></span>
+><span data-ttu-id="c94cd-151">否</span><span class="sxs-lookup"><span data-stu-id="c94cd-151">No</span></span>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -91,11 +91,11 @@ ms.locfileid: "52553743"
 
 ::: zone pivot="mcas"
 
-<span data-ttu-id="b5fe7-153">下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。</span><span class="sxs-lookup"><span data-stu-id="b5fe7-153">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
+<span data-ttu-id="c94cd-152">下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。</span><span class="sxs-lookup"><span data-stu-id="c94cd-152">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
 
-<iframe height='1020' title='<span data-ttu-id="b5fe7-154">Microsoft Cloud App Security信息</span><span class="sxs-lookup"><span data-stu-id="b5fe7-154">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/10417' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="b5fe7-155">
+<iframe height='1020' title='<span data-ttu-id="c94cd-153">Microsoft Cloud App Security信息</span><span class="sxs-lookup"><span data-stu-id="c94cd-153">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/10417' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="c94cd-154">
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/10417" target="_blank">在新建选项卡中查看</a></span><span class="sxs-lookup"><span data-stu-id="b5fe7-155">
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/10417" target="_blank">在新建选项卡中查看</a></span><span class="sxs-lookup"><span data-stu-id="c94cd-154">
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/10417" target="_blank">View in a new tab</a></span></span>
 
