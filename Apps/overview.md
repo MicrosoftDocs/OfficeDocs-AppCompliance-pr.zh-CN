@@ -7,12 +7,12 @@ keywords: microsoft 365 m365 应用发布者证明认证
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: fd06ecd028876a862fa3938253817fae3ff0fea0
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: c644414281f46696ff49f3b9eb1341f02e96f0ba
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053436"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315112"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 应用合规计划
 
@@ -36,7 +36,7 @@ Microsoft 365 应用合规计划是实现应用安全性和合规性的一种三
 
 在[发布者证明](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-attestation-guide)中，开发人员分享有关其应用服务的一般性、数据处理和安全性与合规性信息。 这减少了 IT 管理员直接与应用发布者合作的需求。 对于已完成发布者证明的所有应用，可在一个位置，以一致的格式找到作出知情决策所需的全部信息。 目的是简化和加快应用采用流程，同时向用户保证其在自己租户中使用的应用符合其组织标准。
 
-发布者证明适用于与下列 Microsoft 平台集成的应用：
+发布者证明适用于 WebApps 以及与以下 Microsoft 产品集成的所有应用：
 -   Teams
 -   Word
 -   Excel
@@ -45,7 +45,6 @@ Microsoft 365 应用合规计划是实现应用安全性和合规性的一种三
 - SharePoint
 - Project
 - OneNote
-- Web 应用程序
 
 > [!IMPORTANT]
 > Microsoft 不对所提供的信息进行验证。开发者仅确认证明文件和相应应用程序性能数据的真实性、准确性和完整性。 
