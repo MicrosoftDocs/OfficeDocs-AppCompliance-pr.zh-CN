@@ -6,19 +6,19 @@ description: Microsoft 365认证详细信息
 keywords: 应用证明 Microsoft 365 认证 365 调查表 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: a8abea4e9670f22583b8a7c718b3dec9883b9adb
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: 4322695ea694e30d42925e8316c848b867394f3b
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053466"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315072"
 ---
 # <a name="what-is-microsoft-365-certification"></a>什么是Microsoft 365认证？
 
 Microsoft 365认证可保证在使用第三方应用时，数据和隐私受到充分保护和保护。 认证确认应用符合《Microsoft 365[认证提交指南》中所述的条件](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)。 通过验证的应用程序将被指定为通过Microsoft 365认证。
 应用认证是通过合格的分析师对以应用的安全性和合规性框架、流程和过程为中心的全面评估进行审阅和审批实现的。 尽管参与是可选的，但获得认证是一种表示你的应用程序和操作过程已经经过密集安全审查的一种明显方式。
 
-Microsoft 365认证适用于 WebApps 以及与以下产品集成的所有应用：
+Microsoft 365认证适用于 WebApps 以及与以下 Microsoft 产品集成的所有应用：
 - Teams
 - Word
 - Excel

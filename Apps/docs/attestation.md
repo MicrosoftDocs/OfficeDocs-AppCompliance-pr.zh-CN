@@ -6,12 +6,12 @@ description: 有关证明Publisher程序详细信息
 keywords: 应用证明认证 365 调查表 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 4d5284beb199cc1c5a77bd6091bbc04428b545bd
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: abedb09bc280c0b643f037324178aa854f2f117f
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053426"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315102"
 ---
 # <a name="complete-publisher-attestation"></a>完整Publisher证明
 
@@ -19,6 +19,16 @@ Publisher证明是一个自愿计划，可完成对应用的安全性、数据�
 
 > [!IMPORTANT]
 > Microsoft 不会对提供的信息进行验证。 开发人员单独负责他们在自我评估中提供的信息。 
+
+**Publisher证明适用于 WebApps 以及与以下 Microsoft 产品集成的所有应用：**
+- Teams
+- Word
+- Excel
+- PowerPoint 
+- Outlook
+- SharePoint
+- Project
+- OneNote
 
 
 ## <a name="program-benefits"></a>计划权益
@@ -28,17 +38,7 @@ Publisher证明是一个自愿计划，可完成对应用的安全性、数据�
 - 与应用商店中其他应用的差异。 
 - 通过 AppSource、管理中心和 Microsoft 管理中心中的条目Teams文档页面的链接。 
 - 开始认证Microsoft 365资格。
-
-## <a name="publisher-attestation-applies-to-apps-that-integrate-with"></a>Publisher证明适用于与以下应用程序集成的应用：
-- Teams
-- Word
-- Excel
-- PowerPoint 
-- Outlook
-- SharePoint
-- Project
-- OneNote
-- Web 应用
+ 
 
 ## <a name="publisher-attestation-process"></a>Publisher证明过程
 

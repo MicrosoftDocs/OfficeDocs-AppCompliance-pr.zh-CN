@@ -6,12 +6,12 @@ description: Microsoft 365认证详细信息概述
 keywords: appSource Microsoft 365证明
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 4c4f5b3ab20038eb1d21e9bf24d60d64fa6a02d9
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: e5696890f532589ae4fbec08aaf9f5be7b2e4590
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053456"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315092"
 ---
 # <a name="complete-microsoft-365-certification"></a>完成Microsoft 365认证
 
@@ -34,6 +34,9 @@ the Microsoft 365 Certification requires an assessment of your security and comp
 1. 导航到合作伙伴中心并查看Publisher[证明]( https://docs.microsoft.com/microsoft-365-app-certification/docs/attestation)文档。 如有必要，可以编辑和更新响应;但是，如果这样做，则需要重新提交证明文档进行审批。 如果你的提交超过三个月，我们将要求你重新提交Publisher证明进行审阅和验证。 
 1. 仔细阅读认证Microsoft 365[指南](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)，了解你需要哪些内容。 确保你将能够满足《Microsoft 365认证提交指南[]( https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#app-certification-criteria)》中指定的控制要求。
 1. 在合作伙伴中心内，单击"开始认证"。 这会将你带到初始文档提交门户。 提交初始 [文档提交](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#initial-document-submission)。 这将帮助我们根据应用的构建和处理客户数据的方式确定评估范围内的范围。 请经常查看此页面以查看你的提交是否已被接受。
+
+>[!NOTE]
+>对于所有 Office 应用，你可以参考我们的Office[应用用户指南](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide)。 对于所有 WebApp，你可以参考 [我们的 SaaS 应用用户指南](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide)。
 
 ### <a name="assessment"></a>评估
 1. 一旦接受初始文档提交，应用所需的一组安全控件将自动显示在门户中。 然后，你需要为证明控件已就位的每个控件提交证据。 请记住，你将获得 **60 天的提交** 所有证据的时间。 分析员将审核你的证据，并批准该控制或请求新的或其他证据。 请经常查看此页面，以查看是否接受了你的证据。

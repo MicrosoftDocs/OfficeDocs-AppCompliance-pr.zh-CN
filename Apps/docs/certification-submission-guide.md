@@ -6,12 +6,12 @@ description: Microsoft 365认证提交指南粒度视图
 keywords: 应用认证团队Microsoft 365合规性 m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1ee9ba43ffe793f38438a26365cbb8cbc05aa2f3
-ms.sourcegitcommit: d8a1524fc419a1ca33971b656197f0b6a5efe2b9
+ms.openlocfilehash: dd3a61b6b9768c278cd7d48dd88847ea9ee56421
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53125962"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315122"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365认证提交指南
 
@@ -48,10 +48,11 @@ ms.locfileid: "53125962"
 本文档面向 ISV (Independent Software Vendors) ，提供有关 Microsoft 365 认证过程、启动该过程的先决条件以及 ISV 必须拥有的特定安全控制的详细信息。  有关应用合规性Microsoft 365的常规信息，请参阅"Microsoft 365合规性计划"[页。](https://docs.microsoft.com/microsoft-365-app-certification/overview) 
 
 > [!IMPORTANT]
-> 目前，Microsoft 365认证受到限制：
+> 目前，Microsoft 365认证适用于所有：
 >* Microsoft Teams应用程序 (选项卡、聊天机器人等) 。
 >* Sharepoint 应用程序/外接程序
 >* OfficeWord、 (、Excel、PowerPoint、Outlook、Project、OneNote) 
+>* WebApps
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -104,9 +105,9 @@ Microsoft 建议所有 ISV (独立软件供应商) 完整阅读本 Microsoft 365
 
 |总体大小              | 示例                  |
 |---------------------------- |-------------------------|
-|<5|1 |
-|>5 & <10|2 |
-|>9 & <25|3 |
+|<5|1|
+|>5 & <10|2|
+|>9 & <25|3|
 |>24|4 |
 
 > [!NOTE]
@@ -116,12 +117,29 @@ Microsoft 建议所有 ISV (独立软件供应商) 完整阅读本 Microsoft 365
 
 在开始认证过程之前，你将需要成功完成你的Publisher证明。 你的证明响应将用于支持认证Microsoft 365并继续，如下所示：
 
-1.  查看你的Publisher证明文档，以确保它仍然与当前环境一样准确。
-2.  查看Microsoft 365认证提交指南，确保在开始之前满足所有控制措施。
-3.  单击合作伙伴中心的"开始认证"并提交初始文档提交。 你在此处的答案将有助于确定评估的范围。
-4.  我们会向您提供控制措施的完整列表，你需要为评估提供证据。
-5.  提交证据，证明在 60 天Microsoft 365范围内满足所有认证控制措施。
-6.  请经常查看你的提交，以查看你是否有需要你注意的评论或未完成的请求。 批准每个控件的证据后，你将被授予Microsoft 365认证。 
+## <a name="certification-process"></a>认证过程
+
+在开始认证过程之前，你将需要完成Publisher证明。 发布者证明获得批准后，你将收到一封介绍性电子邮件，邀请你加入Microsoft 365认证。
+
+### <a name="preparation"></a>准备
+1. 导航到合作伙伴中心并查看Publisher[证明]( https://docs.microsoft.com/microsoft-365-app-certification/docs/attestation)文档。 如有必要，可以编辑和更新响应;但是，如果这样做，则需要重新提交证明文档进行审批。 如果你的提交超过三个月，我们将要求你重新提交Publisher证明进行审阅和验证。 
+1. 仔细阅读认证Microsoft 365[指南](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)，了解你需要哪些内容。 确保你将能够满足《Microsoft 365认证提交指南[]( https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#app-certification-criteria)》中指定的控制要求。
+1. 在合作伙伴中心内，单击"开始认证"。 这会将你带到初始文档提交门户。 提交初始 [文档提交](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#initial-document-submission)。 这将帮助我们根据应用的构建和处理客户数据的方式确定评估范围内的范围。 请经常查看此页面以查看你的提交是否已被接受。
+
+>[!NOTE]
+>对于所有 Office 应用，你可以参考我们的Office[应用用户指南](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide)。 对于所有 WebApp，你可以参考 [我们的 SaaS 应用用户指南](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide)。
+
+### <a name="assessment"></a>评估
+1. 一旦接受初始文档提交，应用所需的一组安全控件将自动显示在门户中。 然后，你需要为证明控件已就位的每个控件提交证据。 请记住，你将获得 **60 天的提交** 所有证据的时间。 分析员将审核你的证据，并批准该控制或请求新的或其他证据。 请经常查看此页面，以查看是否接受了你的证据。
+### <a name="certification"></a>认证
+1. 分析员验证你的提交后，你将收到认证决定通知。 获得认证的应用将在 **AppSource** 和 Microsoft 文档页面的应用程序上 **收到锁屏** 提醒。 你可以在此处阅读有关认证的全部 [优势](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide#program-benefits)。
+
+## <a name="review-and-re-certification"></a>审阅和重新认证
+如果您的应用程序在任意时间点发生重大更改[](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#significant-changes)，您需要通知我们。
+
+你还需要每年进行一次重新认证。 这将需要对当前环境重新验证范围内控件。 此过程可在认证到期前最多 90 天开始。 现有认证在重新认证期间不会过期。 跨所有计划重新认证将在你的认证一周年日Microsoft 365过期。
+
+如果你的认证在到期日期之前未续订，你的应用认证状态将被吊销。 将从你的应用中删除所有标记、图标和相关认证品牌，并且将禁止你向应用Microsoft 365认证。
 
 
 > [!IMPORTANT]
@@ -988,7 +1006,7 @@ Microsoft 确认你将在不同的托管环境中部署应用程序并存储应�
 
 ![工作流](ProcessFlow.jpg)
 
-## <a name="learn-more"></a>了解更多信息
+## <a name="learn-more"></a>了解详细信息
 
 [Microsoft 365应用合规性计划概述](~/overview.md)  
 [什么是Microsoft 365应用程序Publisher证明？](~/docs/attestation.md)  

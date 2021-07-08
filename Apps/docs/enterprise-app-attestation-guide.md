@@ -6,12 +6,12 @@ description: 有关证明Publisher的详细信息
 keywords: 应用证明认证 365 调查表 appSource 发布者
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 5b49b6aa06dffc0df6a87cf1e9b0824806a90cc2
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: 3479395605bd7e3ecc0ab618b8030987e67d2617
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053476"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315082"
 ---
 # <a name="what-is-publisher-attestation"></a>什么是Publisher证明？
 
@@ -20,7 +20,7 @@ Publisher证明是应用合规性计划Microsoft 365层。 要求应用开发人
 > [!IMPORTANT]
 > Microsoft 不会对提供的信息进行验证。 应用开发人员对它们在发布证明中提供的信息负责。 
 
-发布者证明适用于与下列 Microsoft 平台集成的应用：
+Publisher证明适用于 WebApps 以及与以下 Microsoft 平台集成的所有应用：
 - Teams
 - Word
 - Excel
@@ -29,7 +29,6 @@ Publisher证明是应用合规性计划Microsoft 365层。 要求应用开发人
 - SharePoint
 - Project
 - OneNote
-- Web 应用
 
 ### <a name="benefits-for-it-admins"></a>IT 管理员权益
 为 IT 管理员Publisher证明的好处包括：
