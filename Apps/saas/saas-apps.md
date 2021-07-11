@@ -2,17 +2,17 @@
 title: SaaS 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/02/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和合规性信息。
 localization_priority: Normal
-ms.openlocfilehash: 8cc0e96667400f5e69512e15fa988d36558405af
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 665872455f297a8dda77c1a039c0daa2d5d590b8
+ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282522"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341138"
 ---
 # <a name="saas-app-security-and-compliance"></a>SaaS 应用安全性和合规性
 
@@ -23,12 +23,14 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [内容选择器](./officeatwork-content-chooser.md) | officeatwork | **✓** |  |
 | [Designer](./officeatwork-designer.md) | officeatwork | **✓** |  |
 | [iGlobe CRM Office 365 for Microsoft 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** |  |
+| [图像选择器](./officeatwork-image-chooser.md) | officeatwork | **✓** |  |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** |  |
 | [LMS365](./elearningforce-international-aps-lms365.md) | ELEARNINGFORCE 国际 APS | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [MIPA - 我的智能个人助理](./iglobe-mipa-my-intelligent-personal-assistant.md) | iGlobe | **✓** |  |
 | [Office2SharePoint](./iglobe-office2sharepoint.md) | iGlobe | **✓** |  |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
+| [幻灯片选择器](./officeatwork-slide-chooser.md) | officeatwork | **✓** |  |
 | [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** |  |
 | [模板选择器浏览器](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** |  |
 | [上传者](./officeatwork-uploader.md) | officeatwork | **✓** |  |

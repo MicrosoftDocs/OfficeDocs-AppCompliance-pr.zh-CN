@@ -2,23 +2,23 @@
 title: officeatwork 应用程序应用程序|officeatwork Office内容选择器
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/08/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: officeatwork 服务的所有可用安全性和合规性|CSA STAR 注册表Office内容选择器、其数据处理策略Microsoft Cloud App Security应用程序目录信息和安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 39c7e2b45c8fa4d525d3b024533fbf63fa17b0be
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: fb8e0d9cb9f15856c5f877efc8980ebdc2785bf1
+ms.sourcegitcommit: 758b31a15dcb9224b8a3b6f367d501438c6e422c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281735"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53366224"
 ---
 # <a name="officeatwork--content-chooser-for-office"></a>officeatwork |内容选择器Office
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2020 年 12 月 8 日</p>
+<p>开发人员上次更新时间：2021 年 6 月 23 日</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380602" target="_blank">在 AppSource 中查看</a>
 
@@ -54,16 +54,16 @@ officeatwork 提供给 Microsoft 的信息：
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | delegated | 不存储任何数据。 | 收藏夹：能够读取和写入用户数据OneDrive。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Files.ReadWrite.All | delegated | 不存储任何数据。 | OneDrive：能够读取和写入用户数据OneDrive。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Group.ReadWrite.All | delegated | 不存储任何数据。 | Teams：能够读取和写入组数据。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| GroupMember.Read.All | delegated | 不存储任何数据。 | SharePoint联机 - 安全组支持：允许应用列出组、读取基本组属性和读取登录用户有权访问的所有组的成员身份 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Sites.Read.All | delegated | 不存储任何数据。 | SharePoint联机：允许从 SharePoint Online 中读取数据。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| User.Read | delegated | 不存储任何数据。 | Sing-In：使 officeatwork 应用能够读取用户的基本属性。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| User.Read.All | delegated | 不存储任何数据。 | Teams：了解用户所属的组。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| offline_access | delegated | 不存储任何数据。 | Sing-In：要像没有刷新令牌一样启用自动登录，用户每次启动 officeatwork 应用时必须手动登录。 只有未启用 SSO 的主机应用程序才需要此范围。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| openid | delegated | 不存储任何数据。 | Sing-In：允许用户使用其组织和/或 Microsoft 帐户登录 officeatwork 应用。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| 个人资料 | delegated | 不存储任何数据。 | Sing-In：在 officeatwork 应用中显示登录用户。 这有助于确保/确认用户登录 officeatwork 应用所使用的帐户。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
+>| Files.ReadWrite.All | delegated | 不存储任何数据。 | 收藏夹：能够读取和写入用户数据OneDrive。 | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Files.ReadWrite.All | delegated | 不存储任何数据。 | OneDrive：能够读取和写入用户数据OneDrive。 | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Group.ReadWrite.All | delegated | 不存储任何数据。 | Teams：能够读取和写入组数据。 | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| GroupMember.Read.All | delegated | 不存储任何数据。 | SharePoint联机 - 安全组支持：允许应用列出组、读取基本组属性和读取登录用户有权访问的所有组的成员身份 | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Sites.Read.All | delegated | 不存储任何数据。 | SharePoint联机：允许从 SharePoint Online 中读取数据。 | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| User.Read | delegated | 不存储任何数据。 | Sing-In：使 officeatwork 应用能够读取用户的基本属性。 | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| User.Read.All | delegated | 不存储任何数据。 | Teams：了解用户所属的组。 | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| offline_access | delegated | 不存储任何数据。 | Sing-In：要像没有刷新令牌一样启用自动登录，用户每次启动 officeatwork 应用时必须手动登录。 只有未启用 SSO 的主机应用程序才需要此范围。 | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| openid | delegated | 不存储任何数据。 | Sing-In：允许用户使用其组织和/或 Microsoft 帐户登录 officeatwork 应用。 | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| 个人资料 | delegated | 不存储任何数据。 | Sing-In：在 officeatwork 应用中显示登录用户。 这有助于确保/确认用户登录 officeatwork 应用所使用的帐户。 | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 

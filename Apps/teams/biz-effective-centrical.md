@@ -2,24 +2,24 @@
 title: 以中心为核心的应用程序信息Biz-Effective
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/12/2021
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 有关 Centrical 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0691b5eba488f58a2c5c740dec6e36cc6cbcf6bd
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 5ae0fcf2e8bd17619f723eeadcf1be5ec505dfe1
+ms.sourcegitcommit: 5cd33d38cc7376b28458ee47ebc2c2710ce7f113
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552333"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339793"
 ---
 # <a name="centrical"></a>Centrical
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 1 月 12 日</p>
+<p>开发人员上次更新时间：2021 年 6 月 23 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/7a70b8e4-43ca-46a7-b7c3-eb31b33de397" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001531" target="_blank">在 AppSource 中查看</a>
@@ -113,20 +113,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 否 |
-| 应用是否请求方案最小特权权限？ | 是 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
-| 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 否 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 否 |
-| 你的应用是否使用已弃用 API？ | 否 |
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

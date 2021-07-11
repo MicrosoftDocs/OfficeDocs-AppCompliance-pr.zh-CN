@@ -1,26 +1,27 @@
 ---
-title: officeatwork 应用程序应用程序|officeatwork Outlook内容选择器
+title: Officeatwork 幻灯片选择器的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
-certification_type: certified
-description: officeatwork 服务的所有可用安全性和合规性|内容选择器Outlook、其数据处理策略、Microsoft Cloud App Security应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息。
+certification_type: attested
+description: 幻灯片选择器的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e4218aa4ef1cf61734b1234859e1203493b6e3b8
-ms.sourcegitcommit: 758b31a15dcb9224b8a3b6f367d501438c6e422c
+ms.openlocfilehash: 2f0ce4658affc712691c0a90327cbe6301995849
+ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2021
-ms.locfileid: "53366134"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341206"
 ---
-# <a name="officeatwork--content-chooser-for-outlook"></a>officeatwork |内容选择器Outlook
+# <a name="slide-chooser"></a>幻灯片选择器
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>开发人员上次更新时间：2021 年 6 月 23 日</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104380690" target="_blank">在 AppSource 中查看</a>
+* <a href="https://appsource.microsoft.com/product/web-apps/officeatwork-ag.slide-chooser" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
@@ -30,12 +31,11 @@ officeatwork 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | officeatwork - officeatwork 的内容Outlook |
-| ID | WA104380690 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
+| 应用名称 | 幻灯片选择器 |
+| ID | officeatwork-ag.slide-chooser |
 | 合作伙伴公司名称 | officeatwork |
 | 合作伙伴网站的 URL | [https://www.officeatwork.com](https://www.officeatwork.com) |
-| 隐私策略的 URL | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
+| 隐私策略的 URL | [https://www.officeatwork.com/privacy-policy.html](https://www.officeatwork.com/privacy-policy.html) |
 | 使用条款 URL | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -54,16 +54,16 @@ officeatwork 提供给 Microsoft 的信息：
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | delegated | 不存储任何数据。 | 收藏夹：能够读取和写入用户数据OneDrive。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Files.ReadWrite.All | delegated | 不存储任何数据。 | OneDrive：能够读取和写入用户数据OneDrive。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Group.ReadWrite.All | delegated | 不存储任何数据。 | Teams：能够读取和写入组数据。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| GroupMember.Read.All | delegated | 不存储任何数据。 | SharePoint联机 - 安全组支持：允许应用列出组、读取基本组属性和读取登录用户有权访问的所有组的成员身份 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Sites.Read.All | delegated | 不存储任何数据。 | SharePoint联机：允许从 SharePoint Online 中读取数据。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| User.Read | delegated | 不存储任何数据。 | Sing-In：使 officeatwork 应用能够读取用户的基本属性。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| User.Read.All | delegated | 不存储任何数据。 | Teams：了解用户所属的组。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| offline_access | delegated | 不存储任何数据。 | Sing-In：要像没有刷新令牌一样启用自动登录，用户每次启动 officeatwork 应用时必须手动登录。 只有未启用 SSO 的主机应用程序才需要此范围。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| openid | delegated | 不存储任何数据。 | Sing-In：允许用户使用其组织和/或 Microsoft 帐户登录 officeatwork 应用。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| 个人资料 | delegated | 不存储任何数据。 | Sing-In：在 officeatwork 应用中显示登录用户。 这有助于确保/确认用户登录 officeatwork 应用所使用的帐户。 | edb24f8f-38af-4b3e-9475-0da243678d5a |
+>| Files.ReadWrite.All | delegated | 不存储任何数据。 | 收藏夹：能够读取和写入用户数据OneDrive。 | 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d |
+>| Files.ReadWrite.All | delegated | 不存储任何数据。 | OneDrive：能够读取和写入用户数据OneDrive。 | 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d |
+>| Group.ReadWrite.All | delegated | 不存储任何数据。 | Teams：能够读取和写入组数据。 | 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d |
+>| GroupMember.Read.All | delegated | 不存储任何数据。 | SharePoint联机 - 安全组支持：允许应用列出组、读取基本组属性和读取登录用户有权访问的所有组的成员身份 | 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d |
+>| Sites.Read.All | delegated | 不存储任何数据。 | SharePoint联机：允许从 SharePoint Online 中读取数据。 | 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d |
+>| User.Read | delegated | 不存储任何数据。 | Sing-In：使 officeatwork 应用能够读取用户的基本属性。 | 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d |
+>| User.Read.All | delegated | 不存储任何数据。 | Teams：了解用户所属的组。 | 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d |
+>| offline_access | delegated | 不存储任何数据。 | Sing-In：要像没有刷新令牌一样启用自动登录，用户每次启动 officeatwork 应用时必须手动登录。 只有未启用 SSO 的主机应用程序才需要此范围。 | 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d |
+>| openid | delegated | 不存储任何数据。 | Sing-In：允许用户使用其组织和/或 Microsoft 帐户登录 officeatwork 应用。 | 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d |
+>| 个人资料 | delegated | 不存储任何数据。 | Sing-In：在 officeatwork 应用中显示登录用户。 这有助于确保/确认用户登录 officeatwork 应用所使用的帐户。 | 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
@@ -107,9 +107,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35751' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/40835' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35751" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/40835" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

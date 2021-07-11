@@ -2,23 +2,23 @@
 title: Officeatwork 模板选择器的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/08/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: 模板选择器的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 89bf2f71d99580888dbb0d938c4f5a909d0c2175
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: c02525a5c8b78c2976de33f8ddc6c316e561d1c6
+ms.sourcegitcommit: 758b31a15dcb9224b8a3b6f367d501438c6e422c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283176"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53366214"
 ---
 # <a name="template-chooser"></a>Template Chooser
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2020 年 12 月 8 日</p>
+<p>开发人员上次更新时间：2021 年 6 月 23 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/13d1defc-6301-4e62-9c53-3361db865183" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000110" target="_blank">在 AppSource 中查看</a>
