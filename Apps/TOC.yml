@@ -126,6 +126,8 @@
           href: powerpoint/iglobe-office2sharepoint-for-office.md
         - name: officeatwork |内容选择器Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
+        - name: officeatwork |幻灯片选择器Office
+          href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork |模板选择器Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
@@ -229,6 +231,8 @@
           href: teams/cisco-webex-meetings.md
         - name: Clever Ads
           href: teams/clever-ads.md
+        - name: ClipTraining
+          href: teams/cliptraining.md
         - name: Cloverpop
           href: teams/cloverpop.md
         - name: COCO
@@ -237,7 +241,7 @@
           href: teams/cauzey-pty-ltd-complish.md
         - name: Conferences i/o
           href: teams/conferences-io.md
-        - name: 连接+
+        - name: Connect+
           href: teams/reward-gateway-connectplus.md
         - name: 联系人中心
           href: teams/landis-technologies-llc-contact-center.md
@@ -473,7 +477,7 @@
           href: teams/zoho-corporation-private-limited-site24x7.md
         - name: Skillate
           href: teams/skillate-laboratories-pvt-ltd.md
-        - name: SkilledHuman
+        - name: KillEdEd
           href: teams/saltflat-limited-skilledhuman.md
         - name: Skills by Pipe9
           href: teams/pipe9com-skills-by-pipe9.md
@@ -527,7 +531,7 @@
           href: teams/talview-inc-interviews.md
         - name: TaskList
           href: teams/limestat-inc-tasklist.md
-        - name: TeaMe 运行状况检查自动程序
+        - name: TeaMe 运行状况检查机器人
           href: teams/missing-teame-health-check-bot.md
         - name: TeamGether
           href: teams/effency-teamgether.md
@@ -635,6 +639,8 @@
           href: saas/officeatwork-designer.md
         - name: iGlobe CRM Office 365 for Microsoft 365
           href: saas/iglobe-crm-office-365-for-microsoft.md
+        - name: 图像选择器
+          href: saas/officeatwork-image-chooser.md
         - name: iPlanner Pro Office 365
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
