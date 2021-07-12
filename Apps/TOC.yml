@@ -43,6 +43,8 @@
           href: excel/iglobe-office2sharepoint-for-office.md
         - name: officeatwork |内容选择器Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
+        - name: officeatwork |图像选择器Office
+          href: excel/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork |模板选择器Office
           href: excel/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: QuickCells 图形
@@ -60,6 +62,8 @@
       items:
         - name: officeatwork |内容选择器Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
+        - name: officeatwork |图像选择器Office
+          href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 for Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
     - name: Microsoft Outlook 应用
@@ -126,6 +130,8 @@
           href: powerpoint/iglobe-office2sharepoint-for-office.md
         - name: officeatwork |内容选择器Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
+        - name: officeatwork |图像选择器Office
+          href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork |幻灯片选择器Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork |模板选择器Office
@@ -616,6 +622,8 @@
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork |设计器Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
+        - name: officeatwork |图像选择器Office
+          href: word/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork |模板选择器Office
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork |上传程序Office
@@ -653,6 +661,8 @@
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
           href: saas/salestim.md
+        - name: 幻灯片选择器
+          href: saas/officeatwork-slide-chooser.md
         - name: Template Chooser
           href: saas/officeatwork-template-chooser.md
         - name: 模板选择器浏览器
