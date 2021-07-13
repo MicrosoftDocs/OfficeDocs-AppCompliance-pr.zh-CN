@@ -6,19 +6,19 @@ description: 有关证明Publisher的详细信息
 keywords: 应用证明认证 365 调查表 appSource 发布者
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 3479395605bd7e3ecc0ab618b8030987e67d2617
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: d91c11b53f1f807fbb4335918586a7748f14bf91
+ms.sourcegitcommit: a475d48e9538faa7ed682c11829c2e45ba675af6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315082"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53383725"
 ---
 # <a name="what-is-publisher-attestation"></a>什么是Publisher证明？
 
 Publisher证明是应用合规性计划Microsoft 365层。 要求应用开发人员完成自我评估，其中包括客户或 IT 管理员在评估应用的安全性和合规性时经常提出的问题。 然后，Microsoft 发布此信息以便更轻松、更及时的评估。
 
 > [!IMPORTANT]
-> Microsoft 不会对提供的信息进行验证。 应用开发人员对它们在发布证明中提供的信息负责。 
+> Microsoft 不验证所提供的全部信息。 应用开发人员对其在发布者证明中提供的信息负责。 
 
 Publisher证明适用于 WebApps 以及与以下 Microsoft 平台集成的所有应用：
 - Teams
@@ -69,7 +69,7 @@ Publisher证明适用于 WebApps 以及与以下 Microsoft 平台集成的所有
 
 **有关已完成测试证明的应用示例，请参阅 [MIPA](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas) Publisher列表。** 
 
-## <a name="learn-more"></a>了解详细信息
+## <a name="learn-more"></a>了解更多
 
 * [Microsoft 365应用合规性计划概述](~/overview.md)
 * [什么是Publisher验证](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
