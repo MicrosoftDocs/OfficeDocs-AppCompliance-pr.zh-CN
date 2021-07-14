@@ -2,19 +2,19 @@
 title: Microsoft OneNote应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 07/14/2021
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft OneNote信息。
 localization_priority: Normal
-ms.openlocfilehash: 0303adc7cf8b30f5e0445f2e1ce4592beb777d77
-ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
+ms.openlocfilehash: 9403718e45505b241bdd890d379323cb3827999a
+ms.sourcegitcommit: 0098942ce316ab984e09fd9d2063cbc516c8bfb5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341148"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53422713"
 ---
-# <a name="microsoft-onenote-app-security-and-compliance"></a>Microsoft OneNote应用安全性和合规性
+# <a name="microsoft-onenote-apps-security-and-compliance"></a>Microsoft OneNote应用安全性和合规性
 
 Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关Microsoft OneNote应用和外接程序的决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
