@@ -2,24 +2,24 @@
 title: Q by ModuleQ 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/17/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Q 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2bdf876ddb9ab17d9fa8616edda8b849e0d85df7
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 3444110a1d98a1a9a1157c21e76774373782b8c2
+ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281745"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53456580"
 ---
 # <a name="q"></a>Q
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2020 年 3 月 17 日</p>
+<p>开发人员上次更新时间：2021 年 7 月 8 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/72bb25c7-3644-4318-8249-a08e5493a520" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381433" target="_blank">在 AppSource 中查看</a>
@@ -37,7 +37,8 @@ ModuleQ 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ModuleQ |
 | 合作伙伴网站的 URL | [https://moduleq.com](https://moduleq.com) |
-| 隐私策略的 URL | [https://moduleq.com/privacy-policy](https://moduleq.com/privacy-policy) |
+| "Teams应用程序信息"页的 URL | [https://moduleq.com/product](https://moduleq.com/product) |
+| 隐私策略的 URL | [https://moduleq.com/privacy-policy/](https://moduleq.com/privacy-policy/) |
 | 使用条款 URL | [https://moduleq.com/terms-of-service](https://moduleq.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -110,3 +111,29 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>标识信息
+
+ModuleQ 提供了此信息，这些信息与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
+| 你的应用是否支持条件访问策略？ | 否 |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 否 |
+| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/><br/> |
+| 你的应用是否公开任何 Web API？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用已弃用 API？ | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

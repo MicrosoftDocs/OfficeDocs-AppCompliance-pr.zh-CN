@@ -2,24 +2,24 @@
 title: 由数字计算机Enterprise FormMachines 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 07/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: FormMachines 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: dbd881d2f718a0445aa6ffe4ef651ad017e68fd3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 36ee73c86e0ccb1d8943cbe04da24319789b31c7
+ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552193"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53456584"
 ---
 # <a name="formmachines"></a>FormMachines
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2020 年 11 月 3 日</p>
+<p>开发人员上次更新时间：2021 年 7 月 5 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/54d8b826-3e30-4589-a77a-ed99cfbbb4c9" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001217" target="_blank">在 AppSource 中查看</a>
@@ -37,8 +37,9 @@ Digital Machines Enterprise Microsoft 提供的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Enterprise Digital Machines |
 | 合作伙伴网站的 URL | [https://www.formmachines.com](https://www.formmachines.com) |
-| 隐私策略的 URL | [https://www.formmachines.com?dirKey=fm-privacy](https://www.formmachines.com?dirKey=fm-privacy) |
-| 使用条款 URL | [https://www.formmachines.com?dirKey=fm-terms-of-use](https://www.formmachines.com?dirKey=fm-terms-of-use) |
+| "Teams应用程序信息"页的 URL | [https://www.FormMachines.com](https://www.FormMachines.com) |
+| 隐私策略的 URL | [https://www.formmachines.com/dist/docs#/statements_and_agre...](https://www.formmachines.com/dist/docs#/statements_and_agreements/privacy) |
+| 使用条款 URL | [https://www.formmachines.com/dist/docs#/statements_and_agre...](https://www.formmachines.com/dist/docs#/statements_and_agreements/terms_of_service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -54,9 +55,7 @@ Digital Machines Enterprise Microsoft 提供的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated |  (登录名、电子邮件、Azure Guid、displayName、first_login_date_time)  | 允许用户登录并授予应用对 UPN 的访问权限以启用无提示登录，从而使我们能够唯一标识每个用户 | 8c87660f-d36f-41f6-b0ae-025253f380aa |
+>此应用程序不使用 Microsoft Graph。
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -76,13 +75,13 @@ Digital Machines Enterprise Microsoft 提供的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->. 我们仅记录错误。 在我们的错误日志中，我们仅记录与错误有关的信息。 不会收集哪个客户端或客户触发了特定错误。 只有支持工程师可以访问错误日志。 错误日志联机查看，而不是下载和查看。 30 天后将自动删除错误日志
+>在我们的错误日志中，我们通常只记录与错误本身相关的信息。 但是，为了向特定客户提供帮助，我们可能会识别相关域，但无法识别客户本身。 错误日志联机查看，而不是下载和查看。 90 天后将自动删除错误日志。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->. 数据存储在基于 Azure 美国数据中心中。 客户端提供的数据（如模板和提交）在 DB 中加密。 文件附件存储在专用 Azure BLOB 容器中，用户必须先进行身份验证，然后才能访问它们。 我们最多有两个管理员可以访问我们的生产资产，以进行故障排除和部署。 这两个管理员帐户的分区方式与所有其他帐户不同。 管理员访问权限的数量永远不会超过两个
+>数据存储在基于 Azure 美国数据中心中。 客户端提供的数据（如模板和提交）在 DB/BLOB 中加密。 文件附件存储在专用 Azure BLOB 容器中，用户必须先进行身份验证，然后才能访问它们。 我们最多有两个管理员可以访问我们的生产资产，以进行故障排除和部署。 这两个管理员帐户的分区方式与所有其他帐户不同。 管理员访问权限的数量不会超过 2。 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -106,3 +105,29 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>标识信息
+
+此信息由数字计算机Enterprise此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
+| 你的应用是否支持条件访问策略？ | 否 |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 否 |
+| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
+| 你的应用是否公开任何 Web API？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用已弃用 API？ | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
