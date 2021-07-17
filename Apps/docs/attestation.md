@@ -6,12 +6,12 @@ description: 有关证明Publisher程序详细信息
 keywords: 应用证明认证 365 调查表 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: abedb09bc280c0b643f037324178aa854f2f117f
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: 1d3652bb2f0eab3f1f533ce4acf3d13104843eea
+ms.sourcegitcommit: 98b9f17063c7ada0890b37af405990ad5eedd0b9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315102"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53466022"
 ---
 # <a name="complete-publisher-attestation"></a>完整Publisher证明
 
@@ -20,7 +20,7 @@ Publisher证明是一个自愿计划，可完成对应用的安全性、数据�
 > [!IMPORTANT]
 > Microsoft 不会对提供的信息进行验证。 开发人员单独负责他们在自我评估中提供的信息。 
 
-**Publisher证明适用于 WebApps 以及与以下 Microsoft 产品集成的所有应用：**
+**Publisher证明适用于通过商业市场 (合作伙伴中心) 发布的 SaaS 应用的 Web 应用，以及与以下 Microsoft 产品集成的所有应用：**
 - Teams
 - Word
 - Excel
@@ -36,13 +36,13 @@ Publisher证明是一个自愿计划，可完成对应用的安全性、数据�
 - 加快企业组织的安全性和合规性内部审阅时间线。
 - 透明度提高。
 - 与应用商店中其他应用的差异。 
-- 通过 AppSource、管理中心和 Microsoft 管理中心中的条目Teams文档页面的链接。 
+- 从 AppSource 中的条目、Teams管理中心、Microsoft 管理中心以及应用商店Teams文档页面。 
 - 开始认证Microsoft 365资格。
  
 
 ## <a name="publisher-attestation-process"></a>Publisher证明过程
 
-1. **参与**- Publisher证明现在集成在合作伙伴中心内。 可在合作伙伴中心内完成用户友好调查表中的证明。 请参阅我们的 [用户指南](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide) ，了解分步过程。
+1. **参与**- Publisher证明现在集成在 [合作伙伴中心中](https://partner.microsoft.com)。 可在合作伙伴中心内完成用户友好调查表中的证明。 有关分步[Office，](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide)请参阅我们的应用商店和商业市场[](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide)用户指南。
 
 2. **Await review feedback and results** — 在一致性检查评审期间，如果分析员发现阻止问题（如响应数据不足）时，将联系你获取详细信息。 分析员将维护一个应用活动日志，详细说明整个过程的审阅结果和后续提交。 确定证明报告已完成且你的回复可接受后，你的提交将获得批准。 你的审批状态将自提交时起有效期为一年。
 
