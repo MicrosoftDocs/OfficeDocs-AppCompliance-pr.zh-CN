@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Viima 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: badd7c64ad512ad2051da270b07fdc8e87fbf628
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7c9db86a4ffce9107b7345f178fe850a66e26560
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279034"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528068"
 ---
 # <a name="viima"></a>Viima
 
@@ -56,8 +56,8 @@ Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何收�
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated |  名字和姓氏、UPN/电子邮件地址、位置、区域设置、部门、办公室位置。 这些信息用于登录用户，并在其应用中提供基本个人资料信息。 | 允许用户登录，并允许应用访问其 UPN 和基本个人资料信息，以启用无提示登录 | b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated |  名字和姓氏、UPN/电子邮件地址、位置、区域设置、部门、办公室位置。 这些信息用于登录用户，并在其应用中提供基本个人资料信息。 | 允许用户登录，并允许应用访问其 UPN 和基本个人资料信息，以启用无提示登录 | [b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -117,8 +117,8 @@ Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何处�
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
-| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
+| 你的应用是否支持条件访问策略？ | 不支持 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
@@ -127,7 +127,7 @@ Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何处�
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 是 |
 | 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于营销自动化的 Zoho 市场活动工具的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e54e3313dcfa51542439775a0c3ca0cae38aca93
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: b6b0137447f5de7d7ef2394c32eb6996772852ad
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281584"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527888"
 ---
 # <a name="zoho-campaigns-tool-for-marketing-automation"></a>用于营销自动化的 Zoho 市场活动工具
 
@@ -54,16 +54,16 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | delegated | 存储日历 ID 以从 Zoho 市场活动创建该日历中的事件。 | 允许用户将 Office365 日历事件导入到 Zoho 市场活动。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Calendars.ReadWrite | delegated |  | 允许用户将 Zoho 市场活动事件添加到 Office365 日历。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.Read | delegated |  保存联系人信息。 | 允许用户将 Office365 联系人导入到 Zoho 市场活动。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.ReadWrite | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.Read | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.ReadBasic.All | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| email | delegated | 存储电子邮件以用于用户标识。 |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| offline_access | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| 个人资料 | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | delegated | 存储日历 ID 以从 Zoho 市场活动创建该日历中的事件。 | 允许用户将 Office365 日历事件导入到 Zoho 市场活动。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Calendars.ReadWrite | delegated |  | 允许用户将 Zoho 市场活动事件添加到 Office365 日历。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.Read | delegated |  保存联系人信息。 | 允许用户将 Office365 联系人导入到 Zoho 市场活动。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.ReadWrite | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.Read | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.ReadBasic.All | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| email | delegated | 存储电子邮件以用于用户标识。 |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| offline_access | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| 个人资料 | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用

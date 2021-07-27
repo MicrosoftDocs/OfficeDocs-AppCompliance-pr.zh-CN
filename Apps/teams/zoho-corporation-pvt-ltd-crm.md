@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Zoho CRM 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5448307eeccd20e77b25282f299b52b094077b82
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 5408c7dd2ce3a7cd27c98905156bdbb45c6edede
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550502"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528008"
 ---
 # <a name="zoho-crm"></a>Zoho CRM
 
@@ -56,16 +56,16 @@ Zoho Corporation Pvt Ltd 提供了此信息，这些信息与此应用程序如�
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegated | 存储日历文件夹 ID 以将联系人从 Zoho CRM 同步 &amp; 到 Microsoft，反之亦然。 存储日历event_name、event_location、participant_details等日历信息。 | 允许用户将 Office365 事件与 Zoho CRM 同步。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.ReadWrite | delegated | 存储联系人文件夹 ID 以将联系人从 Zoho CRM 同步 &amp; 到 Microsoft，反之亦然。 存储联系人first_name、last_name、电子邮件地址等。 | 允许用户将 Office365 联系人与 Zoho CRM 同步。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read | delegated |  | 允许用户将 Office365 文件导入 Zoho CRM。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.All | delegated |  | 允许用户将 Office365 文件导入 Zoho CRM。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.Selected | delegated | UserPrincipalName 存储用于用户标识 | 允许用户将 Office365 文件导入 Zoho CRM。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.ReadBasic.All | delegated | 用户属性，first_name、last_name电子邮件地址。 | 读取所有用户的基本个人资料 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| email | delegated | 存储 UserPrincipaName 以用于用户缩进 | 查看用户的电子邮件地址 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| offline_access | delegated |  | 保留对已授予其访问权限的数据的访问权限 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| 个人资料 | delegated |  | 查看用户的基本个人资料 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated | 存储日历文件夹 ID 以将联系人从 Zoho CRM 同步 &amp; 到 Microsoft，反之亦然。 存储日历event_name、event_location、participant_details等日历信息。 | 允许用户将 Office365 事件与 Zoho CRM 同步。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.ReadWrite | delegated | 存储联系人文件夹 ID 以将联系人从 Zoho CRM 同步 &amp; 到 Microsoft，反之亦然。 存储联系人first_name、last_name、电子邮件地址等。 | 允许用户将 Office365 联系人与 Zoho CRM 同步。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read | delegated |  | 允许用户将 Office365 文件导入 Zoho CRM。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.All | delegated |  | 允许用户将 Office365 文件导入 Zoho CRM。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.Selected | delegated | UserPrincipalName 存储用于用户标识 | 允许用户将 Office365 文件导入 Zoho CRM。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.ReadBasic.All | delegated | 用户属性，first_name、last_name电子邮件地址。 | 读取所有用户的基本个人资料 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| email | delegated | 存储 UserPrincipaName 以用于用户缩进 | 查看用户的电子邮件地址 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| offline_access | delegated |  | 保留对已授予其访问权限的数据的访问权限 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| 个人资料 | delegated |  | 查看用户的基本个人资料 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用

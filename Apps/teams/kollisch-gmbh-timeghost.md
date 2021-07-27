@@ -2,24 +2,24 @@
 title: 由 K 方设置的时间&#246;将启动 GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/24/2021
+ms.date: 07/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: timeghost 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1a6a6cda6c7f70fff9df1c5fa6dbfb009ea12ed1
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: c024080e1471388a5c3803f685a136052cb56d44
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281785"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521470"
 ---
 # <a name="timeghost"></a>timeghost
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 2 月 24 日</p>
+<p>开发人员上次更新时间：2021 年 7 月 15 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/e3956558-7399-4ec1-848a-c61a2aa95bc1" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001532" target="_blank">在 AppSource 中查看</a>
@@ -56,13 +56,13 @@ ms.locfileid: "53281785"
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | delegated | Titel、Startdatum、Enddatum、ID | 一名或多米尼的一位专家，该证书将用于向组织提供一个 E-a-12-12-15-36555-155555555555555.1555555.15555.15555.155555.155. | f6f894ce-5b44-4c9b-aff4-253d2fbe8a99 |
->| People.Read | delegated | E-Mail-Adresse | 将 Daten werden gespeichert um weitere Team-Mitglieder hinzuzuf&#252;gen und gen und gene der Nutzer anzuzeigen. | f6f894ce-5b44-4c9b-aff4-253d2fbe8a99 |
->| User.Read | delegated | Vorname、Nachname、E-Mail-Adresse、Organisation、Telefonnummer、Rolle、Sprache、Location | Beim Anlegen eines timeghost User-Profils werden User-Profils Daten gespeichert， um die Benutzererfahrung zu verbessern. | f6f894ce-5b44-4c9b-aff4-253d2fbe8a99 |
->| User.ReadBasic.All | delegated | Um das 分析bild anzuzeigen。 | Keine Daten werden gespeichert. | f6f894ce-5b44-4c9b-aff4-253d2fbe8a99 |
->| openid | delegated | ID  | Speicherung der ID des Users zur Zuordnung des Users. | f6f894ce-5b44-4c9b-aff4-253d2fbe8a99 |
->| 个人资料 | delegated | Vorname、Nachname、E-Mail-Adresse、Organisation、Telefonnummer、Rolle、Sprache、Location | Beim Anlegen eines timeghost User-Profils werden User-Profils Daten gespeichert， um die Benutzererfahrung zu verbessern. | f6f894ce-5b44-4c9b-aff4-253d2fbe8a99 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | delegated | Titel、Startdatum、Enddatum、ID | 一名或多米尼的一位专家，该证书将用于向组织提供一个 E-a-12-12-15-36555-155555555555555.1555555.15555.15555.155555.155. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| People.Read | delegated | E-Mail-Adresse | 将 Daten werden gespeichert um weitere Team-Mitglieder hinzuzuf&#252;gen und gen und gene der Nutzer anzuzeigen. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| User.Read | delegated | Vorname、Nachname、E-Mail-Adresse、Organisation、Telefonnummer、Rolle、Sprache、Location | Beim Anlegen eines timeghost User-Profils werden User-Profils Daten gespeichert， um die Benutzererfahrung zu verbessern. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| User.ReadBasic.All | delegated | Um das 分析bild anzuzeigen。 | Keine Daten werden gespeichert. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| openid | delegated | ID  | Speicherung der ID des Users zur Zuordnung des Users. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| 个人资料 | delegated | Vorname、Nachname、E-Mail-Adresse、Organisation、Telefonnummer、Rolle、Sprache、Location | Beim Anlegen eines timeghost User-Profils werden User-Profils Daten gespeichert， um die Benutzererfahrung zu verbessern. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -70,7 +70,7 @@ ms.locfileid: "53281785"
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Sentry.io、Chargebee | Vorname、Nachname、E-Mail-Adresse、Firmenname  | Zur Fehlerermitt一、Zah一s&#252;bermitt一 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
@@ -124,8 +124,8 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | true |
-| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
+| 你的应用是否支持条件访问策略？ | 不支持 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |

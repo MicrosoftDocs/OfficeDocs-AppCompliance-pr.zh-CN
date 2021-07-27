@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 程序包通知程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 76f042a43f4a14b7ee1de71a9bb70a5e646413d4
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 5ee07ef32944be2a98dc3f30902434771b8ccebb
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283126"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521149"
 ---
 # <a name="package-notifier"></a>Package Notifier
 
@@ -61,8 +61,8 @@ QBURST TECHNOLOGIES PVT LTD 提供了此信息，这些信息与此应用程序�
 基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| Azure DevOps ServicesREST API | 否 |  |  |  |  |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| Azure DevOps ServicesREST API | 不支持 |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
@@ -87,13 +87,13 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->无
+>不适用
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -121,7 +121,7 @@ QBURST TECHNOLOGIES PVT LTD 已提供有关此应用如何处理身份验证、�
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 499b84ac-1321-427f-aa17-267ca6975798/user_impersonation offline_access |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -130,8 +130,8 @@ QBURST TECHNOLOGIES PVT LTD 已提供有关此应用如何处理身份验证、�
 | 你的应用是否具有机密客户端？ | 是 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/><br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 否 |
-| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否公开任何 Web API？ | 不支持 |
+| 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

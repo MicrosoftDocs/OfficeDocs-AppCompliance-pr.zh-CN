@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Navo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 11346ff15831615ac6b617d8d14f83f38c7de0a5
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: e17eac9ef2db9418a38900d0de84ce62fad71097
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283106"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521205"
 ---
 # <a name="navo"></a>Navo
 
@@ -55,9 +55,9 @@ Regroove 解决方案提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | 应用程序 | 我们存储用户计数，并按计费周期查询一次。 我们还使用租赁 ID 作为组织的 ID。 | 允许我们计算租赁中用于计费的用户数。 它还允许我们查询用户位于哪些组，以便可以使用安全修整来保护某些数据。 我们还查询组织的租赁 ID。 | 75ce4e02-e37b-479c-81c7-438348a2a251 |
->| User.Read | delegated | 不存储任何数据 | 登录并读取用户个人资料 | 75ce4e02-e37b-479c-81c7-438348a2a251 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | 应用程序 | 我们存储用户计数，并按计费周期查询一次。 我们还使用租赁 ID 作为组织的 ID。 | 允许我们计算租赁中用于计费的用户数。 它还允许我们查询用户位于哪些组，以便可以使用安全修整来保护某些数据。 我们还查询组织的租赁 ID。 | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
+>| User.Read | delegated | 不存储任何数据 | 登录并读取用户个人资料 | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -65,7 +65,7 @@ Regroove 解决方案提供给 Microsoft 的信息：
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| 我们将租户 ID 和用户计数存储在 Stripe 中。 |  | User.Read | Delegated | 登录并读取用户配置文件 - 未存储任何数据 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据

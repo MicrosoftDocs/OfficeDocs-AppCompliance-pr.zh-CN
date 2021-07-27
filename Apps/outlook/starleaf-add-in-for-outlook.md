@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 Outlook 的 StarLeaf 外接程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 48335c7260921e50740f28d57192d74a9e0a4fe5
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 66f31eb44942e20b4db10d5e718eb67e3e50b03e
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281594"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527898"
 ---
 # <a name="starleaf-add-in-for-outlook"></a>用于加载项的 StarLeaf Outlook
 
@@ -54,9 +54,9 @@ StarLeaf 提供了此信息，这些信息与此应用程序如何收集和存�
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | 应用程序 | 我们存储会议的 iCalUId、会议的时间/日期、与会者电子邮件地址以及使用 Office.js 自定义属性接口在会议中读取和写入的 Single-Value-Extended-Property。 iCalUId 用于将用户的 outlook 日历中的&#8217;与服务上的视频会议关联。 时间/日期和与会者用于在正确的时间为服务上的合适人员提供视频会议。 SVEP 用于我们的 O365 加载项，为用户提供一个界面来设置有关服务上的视频会议的详细信息，例如录制。 | 用于订阅 webhook 通知，以跟踪用户对日历中的事件所做的更改，并更新服务以保持一致。 它还用于在用户与我们的 Teams 应用交互并安排服务上的会议时，在日历中创建事件。 | 6e86b349-768f-4953-ac2e-fb03f92db4be |
->| User.Read | 应用程序 | 我们存储 oauth 刷新令牌，以能够登录。 我们存储用户配置文件 ID，以便能够与该用户将来的 OAuth 尝试进行比较，并确保我们&#8217;存储其详细信息两次。  | 允许用户登录应用，并允许我们的应用&#8217;电子邮件地址，以将登录名与服务上的帐户相关联。  | 6e86b349-768f-4953-ac2e-fb03f92db4be |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | 应用程序 | 我们存储会议的 iCalUId、会议的时间/日期、与会者电子邮件地址以及使用 Office.js 自定义属性接口在会议中读取和写入的 Single-Value-Extended-Property。 iCalUId 用于将用户的 outlook 日历中的&#8217;与服务上的视频会议关联。 时间/日期和与会者用于在正确的时间为服务上的合适人员提供视频会议。 SVEP 用于我们的 O365 加载项，为用户提供一个界面来设置有关服务上的视频会议的详细信息，例如录制。 | 用于订阅 webhook 通知，以跟踪用户对日历中的事件所做的更改，并更新服务以保持一致。 它还用于在用户与我们的 Teams 应用交互并安排服务上的会议时，在日历中创建事件。 | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
+>| User.Read | 应用程序 | 我们存储 oauth 刷新令牌，以能够登录。 我们存储用户配置文件 ID，以便能够与该用户将来的 OAuth 尝试进行比较，并确保我们&#8217;存储其详细信息两次。  | 允许用户登录应用，并允许我们的应用&#8217;电子邮件地址，以将登录名与服务上的帐户相关联。  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -64,8 +64,8 @@ StarLeaf 提供了此信息，这些信息与此应用程序如何收集和存�
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
->| 如果出现技术支持问题，则数据可能会传输到 SalesForce 进行案例管理。 如果用户使用 PSTN 拨入功能，则呼叫将流经 Twilio、Plivo 或 Vox作为源 |  | 无 |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| 如果出现技术支持问题，则数据可能会传输到 SalesForce 进行案例管理。 如果用户使用 PSTN 拨入功能，则呼叫将流经 Twilio、Plivo 或 Vox作为源 |  | 不适用 |
 
 
 
@@ -73,7 +73,7 @@ StarLeaf 提供了此信息，这些信息与此应用程序如何收集和存�
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->是。 日志包括用户名、IP 地址、呼叫详细信息记录、有关连接质量的信息 (数据包丢失、比特率) 、设备类型、呼叫进度。 技术支持团队和高级开发人员可以使用这些信息来诊断服务问题。 数据在 90 天后匿名处理。 保护此数据的控制措施根据 ISO/IEC 27001 认证进行审核。
+>能。 日志包括用户名、IP 地址、呼叫详细信息记录、有关连接质量的信息 (数据包丢失、比特率) 、设备类型、呼叫进度。 技术支持团队和高级开发人员可以使用这些信息来诊断服务问题。 数据在 90 天后匿名处理。 保护此数据的控制措施根据 ISO/IEC 27001 认证进行审核。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

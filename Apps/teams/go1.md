@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Go1 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 39501f6cb09502287dcff26acab4d8720b5fb6a0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: d6fa3c9d0ecf710724379da869fba4b0cec23f6a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281274"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521665"
 ---
 # <a name="go1"></a>Go1
 
@@ -55,10 +55,10 @@ Go1 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | 应用程序 | 应用不存储文件数据 | 允许用户从 onedrive 上传和共享文件 | c859de61-8a6b-42e6-ba88-f639df33bc72 |
->| Group.ReadWrite.All | 应用程序 | Teams和频道名称和唯一 ID 存储，以支持管理学习环境的应用 | 允许应用动态设置Teams和频道，以支持在Teams学习 | c859de61-8a6b-42e6-ba88-f639df33bc72 |
->| User.Read.All | 应用程序 | 用户名称和电子邮件以及 UPN 存储，以提供直接的个人引导体验 | 允许用于签署并支持在团队成员之间共享学习资源 | c859de61-8a6b-42e6-ba88-f639df33bc72 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.ReadWrite.All | 应用程序 | 应用不存储文件数据 | 允许用户从 onedrive 上传和共享文件 | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
+>| Group.ReadWrite.All | 应用程序 | Teams和频道名称和唯一 ID 存储，以支持管理学习环境的应用 | 允许应用动态设置Teams和频道，以支持在Teams学习 | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
+>| User.Read.All | 应用程序 | 用户名称和电子邮件以及 UPN 存储，以提供直接的个人引导体验 | 允许用于签署并支持在团队成员之间共享学习资源 | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -66,8 +66,8 @@ Go1 提供给 Microsoft 的信息：
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
->| 在播放课程内容时，用户可以与 GO1 的内容提供商共享名字和姓氏。 这仅在内容提供程序需要提供一种丰富的学习体验时共享。 |  | 无 |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| 在播放课程内容时，用户可以与 GO1 的内容提供商共享名字和姓氏。 这仅在内容提供程序需要提供一种丰富的学习体验时共享。 |  | 不适用 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于处理Box 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3ca294c588f6447c5e54c53cf1dec33b1e849a47
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: bf5841d5b51470b6aaab29f303b1ee1c5c5a0141
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281825"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521455"
 ---
 # <a name="tacklebox"></a>TackleBox
 
@@ -56,12 +56,12 @@ Insiten 提供了此信息，这些信息与此应用程序如何收集和存储
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | delegated | 允许用户浏览其OneDrive驱动器、文件夹和文件;将文件链接到操作框;读取Excel文件以自动提取图表、图形、表格、打印区域以及命名区域;使用这些PowerPoint创建和更新Excel文件 | 驱动器 ID、文件夹 ID、文件 ID、视图链接、创建者、创建日期、修改者、修改日期、版本 ID、文件名 | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
->| Sites.Read.All | delegated | 允许用户浏览和链接位于专用Excel频道中的Teams文件 | 无 | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
->| User.Read | delegated | 允许应用读取已登录用户的个人资料，并重新查看其电子邮件地址以接收通知 | 电子邮件 | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
->| openid | delegated | 允许用户使用帐户登录我们的Microsoft 365帐户 | 用户的租户 ID 和对象 ID | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
->| 个人资料 | delegated | 允许应用显示用户的基本个人资料 (名称、用户名) 进行协作 | UPN、First Name、Last Name | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.ReadWrite.All | delegated | 允许用户浏览其OneDrive驱动器、文件夹和文件;将文件链接到操作框;读取Excel文件以自动提取图表、图形、表格、打印区域以及命名区域;使用这些PowerPoint创建和更新Excel文件 | 驱动器 ID、文件夹 ID、文件 ID、视图链接、创建者、创建日期、修改者、修改日期、版本 ID、文件名 | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| Sites.Read.All | delegated | 允许用户浏览和链接位于专用Excel频道中的Teams文件 | 无 | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| User.Read | delegated | 允许应用读取已登录用户的个人资料，并重新查看其电子邮件地址以接收通知 | 电子邮件 | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| openid | delegated | 允许用户使用帐户登录我们的Microsoft 365帐户 | 用户的租户 ID 和对象 ID | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| 个人资料 | delegated | 允许应用显示用户的基本个人资料 (名称、用户名) 进行协作 | UPN、First Name、Last Name | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -93,7 +93,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -122,15 +122,15 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否支持条件访问策略？ | 不支持 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 否 |
+| 你的应用是否具有机密客户端？ | 不支持 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 是 |
 | 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

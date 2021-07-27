@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 发票和时间跟踪 - Zoho Invoice 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0a3e8afb7be998c2fba33e7c4320956cbd990ef3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 3879f8b00191c9dbd9f712e685430d0360bb74fb
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281574"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527868"
 ---
 # <a name="invoice-and-time-tracking---zoho-invoice"></a>发票和时间跟踪 - Zoho 发票
 
@@ -54,15 +54,15 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Contacts.Read | delegated |  |  允许用户将 Office365 联系人与 Zoho Invoice 同步。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Mail.Read | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Mail.Send | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.Export.All | delegated |  | 允许用户导出所有用户相关信息。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.Read.All | delegated |  | 允许用户登录并读取用户配置文件。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.ReadBasic.All | delegated |  | 允许用户将 Office365 用户导入 Zoho。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| email | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| 个人资料 | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Contacts.Read | delegated |  |  允许用户将 Office365 联系人与 Zoho Invoice 同步。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Mail.Read | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Mail.Send | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.Export.All | delegated |  | 允许用户导出所有用户相关信息。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.Read.All | delegated |  | 允许用户登录并读取用户配置文件。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.ReadBasic.All | delegated |  | 允许用户将 Office365 用户导入 Zoho。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| email | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| 个人资料 | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用

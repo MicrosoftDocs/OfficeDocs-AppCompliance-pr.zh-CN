@@ -2,17 +2,17 @@
 title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/15/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: f54a599b7f74c565b64528e1d9b0d176e9748410
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: e69279442c6edf7d53ff05120691eaf9975fd259
+ms.sourcegitcommit: 2785ea8a6c1b1af129dea2cbe833de98659e3b2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53456610"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53547860"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -136,6 +136,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [MyWorkDrive](./myworkdrive.md) | MyWorkDrive | **✓** |  |
 | [Navo](./regroove-solutions-navo.md) | Regroove Solutions | **✓** |  |
 | [netDocShare](./kl-software-technologies-netdocshare.md) | KL Software Technologies | **✓** |  |
+| [ngDesk](./all-blue-solutions-ngdesk.md) | 所有蓝色解决方案 | **✓** |  |
 | [Now Virtual Agent](./servicenow-now-virtual-agent.md) | ServiceNow | **✓** |  |
 | [Nugget](./panviva-nugget.md) | Panviva | **✓** |  |
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ProdBot 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8cf445d1b1f7ef72300017ce095d0dec0e038f41
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 46b5682dc3b3c5052c5b3912125d2caebcb9f662
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551822"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521125"
 ---
 # <a name="prodbot"></a>ProdBot
 
@@ -63,7 +63,7 @@ Prodoscore 提供了此信息，这些信息与此应用程序如何收集和存
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Google Cloud Platform | 域名 | 注册到应用程序使用组织的域名来唯一地标识组织。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
@@ -89,7 +89,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -117,15 +117,15 @@ Prodoscore 提供了此信息，这些信息与此应用程序如何处理身份
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
-| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
+| 你的应用是否支持条件访问策略？ | 不支持 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/><br/> |
-| 你的应用是否公开任何 Web API？ | 否 |
+| 你的应用是否公开任何 Web API？ | 不支持 |
 | 你的应用是否使用预览 API？ | 是 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关通过 Jira 推进工作的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2f0f51e841a3b22c1fe1670defe99948cc99f5a3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7120519c2ecb0643465760677b2bef895b1e2f4d
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282956"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521263"
 ---
 # <a name="move-work-forward-with-jira"></a>使用 Jira 推动工作
 
@@ -56,13 +56,13 @@ ms.locfileid: "53282956"
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.Create | delegated | 用于创建问题讨论频道。 | 新创建的频道的 Web URL 将存储为在 Jira 中显示，以便快速访问 Microsoft Teams讨论频道。 | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
->| Channel.ReadBasic.All | delegated | 通道名称和 id 用于将通知从 Jira 发送到 Microsoft Teams。 | 存储通道 ID 和名称以配置从 Jira 到 Microsoft Teams。 | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
->| Team.ReadBasic.All | delegated | 该权限用于让用户选择 Jira 中加入的团队之一。 | 在 Jira 的配置屏幕中显示的团队 ID 和名称。 | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
->| TeamsAppInstallation.ReadForTeam | delegated | 读取团队Teams安装的应用。 当设置发送到Microsoft Teams应用可以发送到安装了自动Teams的计算机。 | Nothing | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
->| User.Read | delegated | 允许用户与同事一起创建讨论频道，在频道消息中单击 @-mention | Nothing | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
->| email | delegated | 电子邮件用于匹配 Atlassian 和 Microsoft 用户 | 不存储电子邮件。 仅在匹配过程中使用。 | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.Create | delegated | 用于创建问题讨论频道。 | 新创建的频道的 Web URL 将存储为在 Jira 中显示，以便快速访问 Microsoft Teams讨论频道。 | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| Channel.ReadBasic.All | delegated | 通道名称和 id 用于将通知从 Jira 发送到 Microsoft Teams。 | 存储通道 ID 和名称以配置从 Jira 到 Microsoft Teams。 | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| Team.ReadBasic.All | delegated | 该权限用于让用户选择 Jira 中加入的团队之一。 | 在 Jira 的配置屏幕中显示的团队 ID 和名称。 | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| TeamsAppInstallation.ReadForTeam | delegated | 读取团队Teams安装的应用。 当设置发送到Microsoft Teams应用可以发送到安装了自动Teams的计算机。 | Nothing | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| User.Read | delegated | 允许用户与同事一起创建讨论频道，在频道消息中单击 @-mention | Nothing | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| email | delegated | 电子邮件用于匹配 Atlassian 和 Microsoft 用户 | 不存储电子邮件。 仅在匹配过程中使用。 | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -76,8 +76,8 @@ ms.locfileid: "53282956"
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
->| 安装应用时，按名称欢迎用户。 匹配 Microsoft Teams 和 Atlassian 用户。 | 否 |  |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| 安装应用时，按名称欢迎用户。 匹配 Microsoft Teams 和 Atlassian 用户。 | 不支持 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -96,7 +96,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -125,15 +125,15 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否支持条件访问策略？ | 不支持 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 否 |
+| 你的应用是否具有机密客户端？ | 不支持 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/><br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 否 |
-| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否公开任何 Web API？ | 不支持 |
+| 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

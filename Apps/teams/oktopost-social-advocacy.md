@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Social 则所有可用的安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e38ae1ab7bfe01792293819ef6bc57a13ba101d3
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: 376dae946bfd5bf8fafcf10d33f2e7ae4e20a706
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987768"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521238"
 ---
-# <a name="social-advocacy"></a>Social 为时
+# <a name="social-advocacy"></a>社交宣传
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Oktopost 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Social 为时 |
+| 应用名称 | 社交宣传 |
 | ID | WA200002598 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Oktopost |
@@ -69,7 +69,7 @@ Oktopost 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| PII 用于身份验证和授权目的。 | 名称、电子邮件、会话数据 (IP、位置)  | PII 用于身份验证、授权和日志记录目的。 |
 
 
@@ -89,7 +89,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

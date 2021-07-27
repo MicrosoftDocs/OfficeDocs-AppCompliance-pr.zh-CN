@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: 有关 Qualified 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6b4f5f034fbdca44cd71c74b0530cfd15664a1c8
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: d47e6f2919fb97eb1c9a162f2ade8c1a1bf485a8
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852040"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521129"
 ---
-# <a name="qualified"></a>限定
+# <a name="qualified"></a>认证
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ ms.locfileid: "52852040"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 限定 |
+| 应用名称 | 认证 |
 | ID | WA200002720 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 限定 |
+| 合作伙伴公司名称 | 认证 |
 | 合作伙伴网站的 URL | [https://www.qualified.com](https://www.qualified.com) |
 | "Teams应用程序信息"页的 URL | [https://www.qualified.com/university-guide/microsoft-teams-...](https://www.qualified.com/university-guide/microsoft-teams-integration) |
 | 隐私策略的 URL | [https://www.qualified.com/legal/privacy](https://www.qualified.com/legal/privacy) |
@@ -55,25 +55,25 @@ ms.locfileid: "52852040"
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.ReadBasic.All | 应用程序 | 允许我们选择要通知的频道 | 电子邮件地址， 租户 ID， oauth 刷新令牌 | 2c951ed5-c5c6-493f-9b02-4b42e3ba536c |
->| Team.ReadBasic.All | 应用程序 | 允许我们查找来自所有团队的所有频道，以允许我们选择要通知的频道 | 电子邮件地址， 租户 ID， oauth 刷新令牌 | 2c951ed5-c5c6-493f-9b02-4b42e3ba536c |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | 应用程序 | 允许我们选择要通知的频道 | 电子邮件地址， 租户 ID， oauth 刷新令牌 | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
+>| Team.ReadBasic.All | 应用程序 | 允许我们查找来自所有团队的所有频道，以允许我们选择要通知的频道 | 电子邮件地址， 租户 ID， oauth 刷新令牌 | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
 基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| Bot Framework API | 支持 | 租户 ID、团队 ID、频道 ID | 租户 ID：确定service_url框架 api 调用的方法;团队 ID + 频道 ID：确定自动程序已添加到哪些团队/频道 | 租户 ID、团队 ID、频道 ID | 租户 ID：确定service_url框架 api 调用的方法;团队 ID + 频道 ID：确定自动程序已添加到哪些团队/频道 |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| Bot Framework API | 是 | 租户 ID、团队 ID、频道 ID | 租户 ID：确定service_url框架 api 调用的方法;团队 ID + 频道 ID：确定自动程序已添加到哪些团队/频道 | 租户 ID、团队 ID、频道 ID | 租户 ID：确定service_url框架 api 调用的方法;团队 ID + 频道 ID：确定自动程序已添加到哪些团队/频道 |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Heroku、Sentry、Papertrail | 名称、电子邮件地址、IP | 这些系统承载和监视我们的生产服务 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
@@ -99,7 +99,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->支持
+>是
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -125,15 +125,15 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 支持 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 支持 |
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
 | 你的应用是否支持条件访问策略？ | 不支持 |
-| 应用是否请求方案最小特权权限？ | 支持 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 支持 |
-| 你的应用是否支持多租户？ | 支持 |
-| 你的应用是否具有机密客户端？ | 支持 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 支持 |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 是 |
+| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 不支持 |
 | 你的应用是否使用预览 API？ | 不支持 |

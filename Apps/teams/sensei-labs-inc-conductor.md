@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Sensei Labs 一线的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3b0d84d3da0d5fdf32854cd4b3b31b86662cb4b8
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0c7fa93ad3521decc194fcddf94d86d161a864ea
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281064"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521015"
 ---
 # <a name="sensei-labs-conductor"></a>Sensei Labs Conductor
 
@@ -61,7 +61,7 @@ Sensei Labs Inc. 提供给 Microsoft 的信息：
 基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| bot framework | 是 | Teams实例 ID | 将Teams实例映射到与组织关联的应用程序实例  | Teams实例 ID | 将Teams实例映射到与组织关联的应用程序实例  |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -75,7 +75,7 @@ Sensei Labs Inc. 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 在机器人对话期间正确处理人员。 为了将用户映射到Teams应用程序中的用户 | Teams标识符、名称、电子邮件地址 | 将Teams映射到平台中的用户 |
 
 
@@ -89,7 +89,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->无
+>不适用
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -122,9 +122,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 否 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 不支持 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否支持条件访问策略？ | 不支持 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
@@ -133,7 +133,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 是 |
 | 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: InStation 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 46b7c4131e1f3897036cf0b2180b2f99c2e6ff2c
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 1db56e204dc2fd83916a9ec6f2b20a13e02ed357
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282025"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521805"
 ---
 # <a name="instation"></a>InStation
 
@@ -55,17 +55,17 @@ ms.locfileid: "53282025"
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| OnlineMeetings.Read.All | delegated | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| OnlineMeetings.ReadWrite.All | delegated | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| Presence.Read | delegated | 允许应用在其第一步登录组织 | 活动和可显示性。 允许应用捕获用户状态; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| Presence.Read.All | delegated | 允许应用在其第一步登录组织， | 活动和可显示性。 允许应用捕获用户状态; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| User.Read | delegated | 存储：id、mail、显示名称、surname 和 picture。 允许应用搜索用户数据; | 存储：id、mail、显示名称、surname 和 picture。 允许应用搜索用户数据; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| User.Read.All | delegated | 存储：id、mail、显示名称、surname 和 picture。 允许应用搜索用户数据; | 存储：id、mail、显示名称、surname 和 picture。 允许应用搜索用户数据; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| email | delegated | 允许应用捕获管理员&#180;首次登录时的基本信息 | 允许应用捕获管理员&#180;首次登录时的基本信息 | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| offline_access | delegated | 存储：令牌和刷新令牌。 允许应用对 MS 令牌执行刷新 | 存储：令牌和刷新令牌。 允许应用对 MS 令牌执行刷新 | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| openid | delegated | 允许应用在其第一步登录组织 | 允许应用在其第一步登录组织 | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| 个人资料 | delegated | 允许应用捕获管理员&#180;首次登录时的基本信息; | 允许应用捕获管理员&#180;首次登录时的基本信息; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| OnlineMeetings.Read.All | delegated | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| OnlineMeetings.ReadWrite.All | delegated | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Presence.Read | delegated | 允许应用在其第一步登录组织 | 活动和可显示性。 允许应用捕获用户状态; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Presence.Read.All | delegated | 允许应用在其第一步登录组织， | 活动和可显示性。 允许应用捕获用户状态; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| User.Read | delegated | 存储：id、mail、显示名称、surname 和 picture。 允许应用搜索用户数据; | 存储：id、mail、显示名称、surname 和 picture。 允许应用搜索用户数据; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| User.Read.All | delegated | 存储：id、mail、显示名称、surname 和 picture。 允许应用搜索用户数据; | 存储：id、mail、显示名称、surname 和 picture。 允许应用搜索用户数据; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| email | delegated | 允许应用捕获管理员&#180;首次登录时的基本信息 | 允许应用捕获管理员&#180;首次登录时的基本信息 | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| offline_access | delegated | 存储：令牌和刷新令牌。 允许应用对 MS 令牌执行刷新 | 存储：令牌和刷新令牌。 允许应用对 MS 令牌执行刷新 | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| openid | delegated | 允许应用在其第一步登录组织 | 允许应用在其第一步登录组织 | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| 个人资料 | delegated | 允许应用捕获管理员&#180;首次登录时的基本信息; | 允许应用捕获管理员&#180;首次登录时的基本信息; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -97,7 +97,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

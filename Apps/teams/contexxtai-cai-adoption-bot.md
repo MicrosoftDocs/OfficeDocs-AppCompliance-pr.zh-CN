@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关采用自动程序 C.AI 其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d5e1ad704a7b72a8d3717b7aa1b3d60b23099998
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 5bb11c96f750701128470f3e1c61ea0f5d476233
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52851592"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521835"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -55,15 +55,15 @@ ms.locfileid: "52851592"
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | 应用程序 | 例如，用户能否在正确的时间（而非专注时间）发送提示 | 匿名用户能否在正确的时间发送提示，而不是在专注时间发送提示，例如 | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| ChannelMessage.Read.All | 应用程序 | Microsoft Teams元数据（如私人或不同频道）或每个频道的对话量来分析Teams | 匿名Microsoft Teams通道元数据，例如私人或不专用或每个频道的对话量，用于分析Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Chat.Read.All | 应用程序 | Microsoft Teams聊天元数据，例如消息是否被喜欢，或者存在多少个组和一对一聊天来分析聊天Teams | 匿名Microsoft Teams聊天元数据，例如消息是否被喜欢或者存在多少个组和一对一聊天来分析聊天Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Directory.Read.All | 应用程序 | 用户对象 ID，用于以后能够向指定用户发送提示。 | 哈希 (匿名) 用户的 Object-ID，以稍后能够向指定用户发送提示。 | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Group.Read.All | 应用程序 | Microsoft Teams元数据，如Teams分析元数据使用率的Teams | Microsoft Teams元数据，如Teams分析元数据使用率的Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Mail.Read | 应用程序 | Microsoft Exchange元数据（如电子邮件数量和组电子邮件数量与 1：1 电子邮件）来分析Exchange (使用情况Teams)  | 匿名 microsoft Exchange元数据，如电子邮件数量和组与 1：1 电子邮件，用于分析Exchange (使用情况Teams)  | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| User.Read.All | 应用程序 | Microsoft Teams聊天和对话元数据，例如，如果用户被提及来分析Teams | 匿名Microsoft Teams聊天和对话元数据，如用户被提及以分析Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | 应用程序 | 例如，用户能否在正确的时间（而非专注时间）发送提示 | 匿名用户能否在正确的时间发送提示，而不是在专注时间发送提示，例如 | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| ChannelMessage.Read.All | 应用程序 | Microsoft Teams元数据（如私人或不同频道）或每个频道的对话量来分析Teams | 匿名Microsoft Teams通道元数据，例如私人或不专用或每个频道的对话量，用于分析Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Chat.Read.All | 应用程序 | Microsoft Teams聊天元数据，例如消息是否被喜欢，或者存在多少个组和一对一聊天来分析聊天Teams | 匿名Microsoft Teams聊天元数据，例如消息是否被喜欢或者存在多少个组和一对一聊天来分析聊天Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Directory.Read.All | 应用程序 | 用户对象 ID，用于以后能够向指定用户发送提示。 | 哈希 (匿名) 用户的 Object-ID，以稍后能够向指定用户发送提示。 | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Group.Read.All | 应用程序 | Microsoft Teams元数据，如Teams分析元数据使用率的Teams | Microsoft Teams元数据，如Teams分析元数据使用率的Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Mail.Read | 应用程序 | Microsoft Exchange元数据（如电子邮件数量和组电子邮件数量与 1：1 电子邮件）来分析Exchange (使用情况Teams)  | 匿名 microsoft Exchange元数据，如电子邮件数量和组与 1：1 电子邮件，用于分析Exchange (使用情况Teams)  | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| User.Read.All | 应用程序 | Microsoft Teams聊天和对话元数据，例如，如果用户被提及来分析Teams | 匿名Microsoft Teams聊天和对话元数据，如用户被提及以分析Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -77,7 +77,7 @@ ms.locfileid: "52851592"
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 在 Bot 框架中，将自动传输用户 ID，以与用户通信。 来自应用 C.AI 分析的其他使用情况数据用于个性化化用户的学习体验，因此，只向可能不知道这些提示的用户发送合适的有用提示 | 不支持 |  |
 
 
@@ -97,7 +97,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->支持
+>是
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -123,15 +123,15 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 支持 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 支持 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 支持 |
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 不支持 |
-| 应用是否请求方案最小特权权限？ | 支持 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 支持 |
-| 你的应用是否支持多租户？ | 支持 |
-| 你的应用是否具有机密客户端？ | 支持 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 支持 |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 是 |
+| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 不支持 |
 | 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |

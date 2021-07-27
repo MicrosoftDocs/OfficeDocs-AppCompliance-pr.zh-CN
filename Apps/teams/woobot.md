@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于开发工具的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: db31998a57de8faf11ebd7fff774842629654651
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a90381852e60e09402b766607413154b8da11704
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550822"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528048"
 ---
 # <a name="woobot"></a>Woobot
 
@@ -69,7 +69,7 @@ ms.locfileid: "52550822"
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 为了将 Salesforce 用户映射到Teams用户，我们需要团队用户 ID 列表。 我们还存储团队和频道名称，以便用户可以向这些团队发送通知。 此外，我们还存储了哪些团队用户 ID 已由应用欢迎，哪些 ID 已由应用欢迎，以便当新用户加入团队时，用户可以亲自欢迎该用户。 我们还存储团队和频道名称，以便用户可以向这些团队发送通知。 |  用户 ID、团队 ID 和团队名称、频道 ID 和频道名称，以及哪些用户是其中Teams。 |  |
 
 
@@ -77,7 +77,7 @@ ms.locfileid: "52550822"
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->否
+>不支持
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

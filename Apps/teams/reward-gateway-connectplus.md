@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: 有关 连接+的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 831f29b4b5a7f15dbaf9f7672d0dece4fc50c645
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.openlocfilehash: 573f6bbf833f08720b6ace0fe6d1f0b92bcc4a53
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275226"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521148"
 ---
-# <a name="connect"></a>连接+
+# <a name="connect"></a>Connect+
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ ms.locfileid: "53275226"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 连接+ |
+| 应用名称 | Connect+ |
 | ID | WA200002611 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 奖励网关 |
+| 合作伙伴公司名称 | Reward Gateway |
 | 合作伙伴网站的 URL | [https://www.rewardgateway.com](https://www.rewardgateway.com) |
 | "Teams应用程序信息"页的 URL | [https://success.rewardgateway.com/hc/en-us/articles/3600158...](https://success.rewardgateway.com/hc/en-us/articles/360015834078-Installing-the-MS-Teams-Integration) |
 | 隐私策略的 URL | [https://policies.rewardgateway.net/ms-teams-connect-plus/pr...](https://policies.rewardgateway.net/ms-teams-connect-plus/privacy-policy/) |
@@ -56,8 +56,8 @@ ms.locfileid: "53275226"
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.Read.All | delegated | 不收集数据 | 我们存储每个用户的 aadObjectId，以跟踪他们至少已登录应用一次 | 5e4dadf5-9f90-449b-9e39-934fd10b7c23 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| AppCatalog.Read.All | delegated | 不收集数据 | 我们存储每个用户的 aadObjectId，以跟踪他们至少已登录应用一次 | [5e4dadf5-9f90-449b-9e39-934fd10b7c23](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e4dadf5-9f90-449b-9e39-934fd10b7c23) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -89,7 +89,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

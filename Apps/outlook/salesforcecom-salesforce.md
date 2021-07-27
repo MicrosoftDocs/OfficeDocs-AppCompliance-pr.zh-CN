@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Salesforce 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b5999dd08ed27ce75bc958e431c0974e10830a3c
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: d0490ea422179e064443f7fad12abb64bc6efa47
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281694"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527908"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -60,7 +60,7 @@ ms.locfileid: "53281694"
 基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| 适用于 Office 的 JavaScript API | 是 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 |  | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前Outlook标识， GetItem (.js 和 EWS) 在保存到 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容，GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) 获取草稿文件夹 CreateItem (.js) ，该文件夹用于创建草稿邮件。 |  |
 >| Exchange Web 服务 (EWS) | 是 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 |  | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前Outlook标识， GetItem (.js 和 EWS) 在保存到 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容，GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) 获取草稿文件夹 CreateItem (.js) ，该文件夹用于创建草稿邮件。 |  |
 
@@ -76,7 +76,7 @@ ms.locfileid: "53281694"
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->否
+>不支持
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -88,7 +88,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

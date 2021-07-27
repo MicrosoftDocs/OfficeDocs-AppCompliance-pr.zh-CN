@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Clever Ads 的所有可用安全性和合规性信息、它的数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d0ef9f59476133e673a0bf9edf99e63cfc424559
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7880682782fe62fad68426bb59b74e3997bb7f64
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281945"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521875"
 ---
 # <a name="clever-ads"></a>Clever Ads
 
@@ -55,8 +55,8 @@ Clever Ads 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | User.Read：我们存储 UPN、AzureObjectId 以标识用户。 | User.Read，允许用户登录到我们的应用仪表板。 我们使用 UPN、AzureObjectId 让用户登录。 | ac2b56c0-f2a5-4e90-b618-882f8d3596f0 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | User.Read：我们存储 UPN、AzureObjectId 以标识用户。 | User.Read，允许用户登录到我们的应用仪表板。 我们使用 UPN、AzureObjectId 让用户登录。 | [ac2b56c0-f2a5-4e90-b618-882f8d3596f0](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac2b56c0-f2a5-4e90-b618-882f8d3596f0) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -70,7 +70,7 @@ Clever Ads 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 应用访问名单以确定用户是否属于团队，并将用户安排的消息发送到其团队。 | 我们存储用户 ID、azureObjectId、UPN、tenantId、conversationId 和 serviceUrl，以便我们可以在访问仪表板选项卡时向用户或团队发送消息并标识该用户。 |  |
 
 

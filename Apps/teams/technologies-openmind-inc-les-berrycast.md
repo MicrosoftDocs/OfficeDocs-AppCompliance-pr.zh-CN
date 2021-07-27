@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Berrycast 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c3236368fbab418754e758f6009607335e593515
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 67b58bf2246c109bd58bbe15e9cf1c281e3ad51f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283416"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528128"
 ---
 # <a name="berrycast"></a>Berrycast
 
@@ -55,12 +55,12 @@ ms.locfileid: "53283416"
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| People.Read | delegated | 获取所有用户联系人 | 存储联系人电子邮件、用户姓名、姓氏和图片，以便快速共享记录 | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| User.Read | delegated | 使用名字和姓氏 (基本信息标识用户)  | 显示名字。 应用程序中的 lastname 和 picture | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| email | delegated | 标识用户 | 标识用户进行日志记录并发送通知 | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| offline_access | delegated | 保留对已授予其访问权限的数据的访问权限 | 无 | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| openid | delegated | 标识用户 | 标识用户进行日志记录 | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| People.Read | delegated | 获取所有用户联系人 | 存储联系人电子邮件、用户姓名、姓氏和图片，以便快速共享记录 | [094f3986-3951-4f0c-88fa-514d117c8dd0](https://docs.microsoft.com/microsoft-365-app-certification/azure/094f3986-3951-4f0c-88fa-514d117c8dd0) |
+>| User.Read | delegated | 使用名字和姓氏 (基本信息标识用户)  | 显示名字。 应用程序中的 lastname 和 picture | [094f3986-3951-4f0c-88fa-514d117c8dd0](https://docs.microsoft.com/microsoft-365-app-certification/azure/094f3986-3951-4f0c-88fa-514d117c8dd0) |
+>| email | delegated | 标识用户 | 标识用户进行日志记录并发送通知 | [094f3986-3951-4f0c-88fa-514d117c8dd0](https://docs.microsoft.com/microsoft-365-app-certification/azure/094f3986-3951-4f0c-88fa-514d117c8dd0) |
+>| offline_access | delegated | 保留对已授予其访问权限的数据的访问权限 | 不适用 | [094f3986-3951-4f0c-88fa-514d117c8dd0](https://docs.microsoft.com/microsoft-365-app-certification/azure/094f3986-3951-4f0c-88fa-514d117c8dd0) |
+>| openid | delegated | 标识用户 | 标识用户进行日志记录 | [094f3986-3951-4f0c-88fa-514d117c8dd0](https://docs.microsoft.com/microsoft-365-app-certification/azure/094f3986-3951-4f0c-88fa-514d117c8dd0) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -68,7 +68,7 @@ ms.locfileid: "53283416"
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| 条带、Intercom、MixPanel、时幅 | email， user unique identification， firstname， lastname  | 处理安全付款、执行市场营销活动、提供高效的客户服务并跟踪用户分析以改进产品 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
@@ -122,16 +122,16 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
-| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
+| 你的应用是否支持条件访问策略？ | 不支持 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
-| 你的应用是否支持多租户？ | 否 |
-| 你的应用是否具有机密客户端？ | 否 |
+| 你的应用是否支持多租户？ | 不支持 |
+| 你的应用是否具有机密客户端？ | 不支持 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 否 |
-| 你的应用是否使用预览 API？ | 否 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 不支持 |
+| 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

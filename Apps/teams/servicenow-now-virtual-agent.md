@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: NOW Virtual Agent 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bbd2b42fe7ad81e2ba0ba8157a34da67878e09c8
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1ac2988c550894341d5933afbc59de6f63c51b68
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551662"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53520995"
 ---
 # <a name="now-virtual-agent"></a>Now Virtual Agent
 
@@ -56,8 +56,8 @@ ServiceNow 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 域存储在我们的数据中心中，以便将来路由邮件。 | 当 ServiceNow 管理员安装与 MS Teams集成时，管理员需要登录到其 MS Teams帐户。 我们会从电子邮件地址中读取域 (不是完整电子邮件地址) 。 |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | 域存储在我们的数据中心中，以便将来路由邮件。 | 当 ServiceNow 管理员安装与 MS Teams集成时，管理员需要登录到其 MS Teams帐户。 我们会从电子邮件地址中读取域 (不是完整电子邮件地址) 。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用

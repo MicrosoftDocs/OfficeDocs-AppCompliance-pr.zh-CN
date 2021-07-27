@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Fusion Remote 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 67518ab9859fa9643eea4f6cc40d97dbd40a9109
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: b920e0fa93512c7cc9429b02dcecd9c0e3fe27b6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281805"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521490"
 ---
 # <a name="fusion-remote"></a>Fusion Remote
 
@@ -55,21 +55,21 @@ Jujo Inc. 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.Read | delegated | 读取用户文件 | 读取用户文件 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.Read.All | delegated | 读取用户可以访问的所有文件 | 读取用户可以访问的所有文件 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.Read.Selected | delegated | 读取用户选择的文件 | 读取用户选择的文件 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.ReadWrite | delegated | 具有对用户文件的完全访问权限 | 具有对用户文件的完全访问权限 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.ReadWrite.All | delegated | 具备对用户可以访问的所有文件的完全访问权限 | 具备对用户可以访问的所有文件的完全访问权限 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.ReadWrite.AppFolder | delegated | 具有对应用程序文件夹的完全访问权限（预览） | 具有对应用程序文件夹的完全访问权限（预览） | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.ReadWrite.Selected | delegated | 读取和写入用户选择的文件 | 读取和写入用户选择的文件 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| User.Read | delegated | 登录并读取用户个人资料 | 登录并读取用户个人资料 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| User.Read.All | delegated | 读取所有用户的完整个人资料 | 读取所有用户的完整个人资料 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| User.ReadBasic.All | delegated | 读取所有用户的基本个人资料 | 读取所有用户的基本个人资料 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| User.ReadWrite | delegated | 对用户个人资料的读写权限 | 对用户个人资料的读写权限 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| User.ReadWrite.All | delegated | 读取和写入所有用户的完整个人资料 | 读取和写入所有用户的完整个人资料 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| offline_access | delegated | 保留对已授予其访问权限的数据的访问权限 | 保留对已授予其访问权限的数据的访问权限 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| openid | delegated | 让用户登录 | 让用户登录 | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.Read | delegated | 读取用户文件 | 读取用户文件 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.Read.All | delegated | 读取用户可以访问的所有文件 | 读取用户可以访问的所有文件 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.Read.Selected | delegated | 读取用户选择的文件 | 读取用户选择的文件 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.ReadWrite | delegated | 具有对用户文件的完全访问权限 | 具有对用户文件的完全访问权限 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.ReadWrite.All | delegated | 具备对用户可以访问的所有文件的完全访问权限 | 具备对用户可以访问的所有文件的完全访问权限 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.ReadWrite.AppFolder | delegated | 具有对应用程序文件夹的完全访问权限（预览） | 具有对应用程序文件夹的完全访问权限（预览） | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.ReadWrite.Selected | delegated | 读取和写入用户选择的文件 | 读取和写入用户选择的文件 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| User.Read | delegated | 登录并读取用户个人资料 | 登录并读取用户个人资料 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| User.Read.All | delegated | 读取所有用户的完整个人资料 | 读取所有用户的完整个人资料 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| User.ReadBasic.All | delegated | 读取所有用户的基本个人资料 | 读取所有用户的基本个人资料 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| User.ReadWrite | delegated | 对用户个人资料的读写权限 | 对用户个人资料的读写权限 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| User.ReadWrite.All | delegated | 读取和写入所有用户的完整个人资料 | 读取和写入所有用户的完整个人资料 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| offline_access | delegated | 保留对已授予其访问权限的数据的访问权限 | 保留对已授予其访问权限的数据的访问权限 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| openid | delegated | 让用户登录 | 让用户登录 | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -83,7 +83,7 @@ Jujo Inc. 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 会议名单 | DB 中未存储任何数据 |  |
 
 
@@ -91,7 +91,7 @@ Jujo Inc. 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->否
+>不支持
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -103,7 +103,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

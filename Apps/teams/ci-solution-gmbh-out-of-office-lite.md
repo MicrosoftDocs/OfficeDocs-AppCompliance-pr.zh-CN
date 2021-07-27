@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: CI-Out-of-Office Lite 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 87a4d77deaac6281018befe1fc2de44f0fe20c35
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.openlocfilehash: de7d350bf6eda53a782872b3c4965235cfeca799
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275237"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521955"
 ---
 # <a name="ci-out-of-office-lite"></a>CI-Out-of-Office Lite
 
@@ -56,8 +56,8 @@ ci 解决方案 GmbH 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | delegated | 查看用户的电子邮件地址 | Es werden keine Daten gespeichert. | fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| email | delegated | 查看用户的电子邮件地址 | Es werden keine Daten gespeichert. | [fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -89,7 +89,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

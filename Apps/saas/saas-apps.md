@@ -2,21 +2,21 @@
 title: SaaS 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和合规性信息。
 localization_priority: Normal
-ms.openlocfilehash: 665872455f297a8dda77c1a039c0daa2d5d590b8
-ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
+ms.openlocfilehash: 0016e4102d0c26bc5c57e657eaa5d635425df511
+ms.sourcegitcommit: 2785ea8a6c1b1af129dea2cbe833de98659e3b2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341138"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53547870"
 ---
-# <a name="saas-app-security-and-compliance"></a>SaaS 应用安全性和合规性
+# <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和合规性
 
-Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关其使用的 SaaS 应用和外接程序的决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与Microsoft 365合作伙伴合作，以提供组织加速和告知有关其使用的 SaaS 应用和外接程序的决策所需要的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|

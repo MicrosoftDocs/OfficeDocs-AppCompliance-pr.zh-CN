@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: atSpoke 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b3e3027c83c78373347a972124853add6214ee8d
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 2d72ea33577e386c61be6bcd09feeba813e9e1f5
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283386"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528098"
 ---
 # <a name="atspoke"></a>atSpoke
 
@@ -55,10 +55,10 @@ ms.locfileid: "53283386"
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | delegated | atSpoke 存储 Microsoft 组 ID | 允许读取和写入 atSpoke 和 Microsoft Teams。  | dfaf15dc-4e94-4484-a25d-79358fe70d8b |
->| User.ReadWrite.All | delegated | atSpoke 存储用户电子邮件和用户 ID | 允许读取和写入 atSpoke 和 Microsoft Teams。 | dfaf15dc-4e94-4484-a25d-79358fe70d8b |
->| offline_access | delegated | atSpoke 不会存储任何数据。 | 这用于后台同步。 | dfaf15dc-4e94-4484-a25d-79358fe70d8b |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | delegated | atSpoke 存储 Microsoft 组 ID | 允许读取和写入 atSpoke 和 Microsoft Teams。  | [dfaf15dc-4e94-4484-a25d-79358fe70d8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/dfaf15dc-4e94-4484-a25d-79358fe70d8b) |
+>| User.ReadWrite.All | delegated | atSpoke 存储用户电子邮件和用户 ID | 允许读取和写入 atSpoke 和 Microsoft Teams。 | [dfaf15dc-4e94-4484-a25d-79358fe70d8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/dfaf15dc-4e94-4484-a25d-79358fe70d8b) |
+>| offline_access | delegated | atSpoke 不会存储任何数据。 | 这用于后台同步。 | [dfaf15dc-4e94-4484-a25d-79358fe70d8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/dfaf15dc-4e94-4484-a25d-79358fe70d8b) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -66,7 +66,7 @@ ms.locfileid: "53283386"
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| 是的，我们使用第三方服务以提高运行效率。 Google， Inc.：逻辑卷上存储的数据、本机 Google 云网络的存储备份、服务和 API 日志或应用程序日志。 记录的事务事件可能包含用户标识符 () 、联系人信息和客户内容。 MongoDB， Inc.：存储在基于云的数据库集合中的数据。 - 客户内容，其中包括用户提交的请求、用户添加的请求响应和用户添加的知识文章。 - 用户标识符 (创建分支用户帐户的用户姓名、电子邮件、头像和) 。 Mail且 Technologies， Inc.：用于发送电子邮件通信的用户标识符和联系人信息 (即名称和电子邮件) 。 Twilio， Inc.：用户电话号码和客户内容：通过使用 Twilio&#8217;服务交换的内容，例如文本、邮件正文、语音和视频媒体、图像和声音。 Mixpanel， Inc.：传输的个人数据包括姓名、电子邮件、IP 地址和包含在邮件内容中的个人数据。 Cloudinary， Inc.：最终用户提交的基于文件的客户内容。 弹性搜索， Inc.：记录的应用程序事务事件可能包含客户内容的截断文本。 用户：联系人信息、使用情况信息、订阅者授权用户的非传统标识符，以及订阅者或授权用户提交到平台的其他任何个人数据。 Mode Analytics， Inc.：用户标识符 (信息) 每个用户的分析。 DataDog：记录的应用程序事务事件可能包含客户内容的截断文本;日志保留期为 14 天。 Fullstory， Inc.：录制在我们的 Web 用户界面上采取的操作;包括用于标识目的的分支用户帐户。 |  | 我们使用的是 Bot Framework REST API。 我们使用此 API 向 askSpoke 自动程序服务发送和接收消息。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
@@ -74,7 +74,7 @@ ms.locfileid: "53283386"
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 它允许 atSpoke 从用户Microsoft Teams创建用户和定义权限。 | atSpoke 仅存储电子邮件Microsoft Teams用户可以以有效用户登录 atSpoke。 |  |
 
 

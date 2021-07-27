@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 harmon.ie 应用程序的所有Office信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9c04ab6e1a50167fbf489191e5845f86cb09ee00
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: c5a4cc10fdb936e6e0a9c04cc492cd301a374cd8
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283316"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527998"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie Office
 
@@ -54,11 +54,11 @@ harmon.ie 向 Microsoft 提供的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.AccessAsUser.All | delegated | 要求 harmon.ie 用户Outlook用户登录并获取用户角色 | 无 | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| Files.ReadWrite.All | delegated | 要求 harmon.ie，Outlook允许其从邮箱传输电子邮件Outlook并将其 &amp; 保存到SharePoint | 无 | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| Mail.ReadWrite | delegated | 要求 harmon.ie，Outlook允许其从邮箱传输电子邮件Outlook并将其 &amp; 保存到SharePoint | 无 | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| User.Read | delegated | 解析用户配置文件 harmon.ie Outlook要求 | 无 | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | delegated | 要求 harmon.ie 用户Outlook用户登录并获取用户角色 | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Files.ReadWrite.All | delegated | 要求 harmon.ie，Outlook允许其从邮箱传输电子邮件Outlook并将其 &amp; 保存到SharePoint | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Mail.ReadWrite | delegated | 要求 harmon.ie，Outlook允许其从邮箱传输电子邮件Outlook并将其 &amp; 保存到SharePoint | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| User.Read | delegated | 解析用户配置文件 harmon.ie Outlook要求 | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -85,7 +85,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -113,17 +113,17 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
-| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
+| 你的应用是否支持条件访问策略？ | 不支持 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 否 |
+| 你的应用是否具有机密客户端？ | 不支持 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 是 |
 | 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

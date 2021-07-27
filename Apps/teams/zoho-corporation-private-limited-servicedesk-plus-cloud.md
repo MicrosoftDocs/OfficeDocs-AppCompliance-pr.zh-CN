@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ServiceDesk Plus 云的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 04797702995180e8a0a5305e88d49903eff80690
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 26c126d86f4cb50242c5a520a3939d3c78c4b59c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550542"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528018"
 ---
 # <a name="servicedesk-plus-cloud"></a>ServiceDesk Plus Cloud
 
@@ -56,16 +56,16 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | 应用程序 |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.Selected | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.Read | delegated | 用户的电子邮件 ID。 | 允许用户登录，并授予应用对 UPN 的访问权限，以启用无提示登录。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.Read.All | 应用程序 |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.ReadBasic.All | delegated | 电子邮件 ID、姓名、员工 ID、职务、电话、移动、网站、部门、区域设置、用户的个人资料照片。 | 允许从网站导入用户Azure Active Directory。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| email | delegated | 用户的电子邮件 ID。 | 查看用户的电子邮件地址。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| offline_access | delegated |  | 保持对已赋予其访问权限的数据的访问权限。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| 个人资料 | delegated |  | 查看用户的基本个人资料。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | 应用程序 |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.Selected | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.Read | delegated | 用户的电子邮件 ID。 | 允许用户登录，并授予应用对 UPN 的访问权限，以启用无提示登录。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.Read.All | 应用程序 |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.ReadBasic.All | delegated | 电子邮件 ID、姓名、员工 ID、职务、电话、移动、网站、部门、区域设置、用户的个人资料照片。 | 允许从网站导入用户Azure Active Directory。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| email | delegated | 用户的电子邮件 ID。 | 查看用户的电子邮件地址。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| offline_access | delegated |  | 保持对已赋予其访问权限的数据的访问权限。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| 个人资料 | delegated |  | 查看用户的基本个人资料。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
