@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 365 项目的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 07ef4c5e5e71ee8034c75869b97d5c8924f502fd
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: aad8e35ad1e02212c23ef2a892412ba3c0ce1312
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281484"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522185"
 ---
 # <a name="365projects"></a>365Projects
 
@@ -56,14 +56,14 @@ ms.locfileid: "53281484"
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.ReadBasic.All | delegated | 团队中将项目与频道链接的频道 | 团队中将项目与频道链接的频道 | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| Group.Read.All | delegated | 获取工作组规划器/规划器任务，如果另一个最小特权范围允许应用获取用户计划和计划任务，但遗憾的是没有允许此操作的范围 | 未存储在 DB 中 | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| Group.ReadWrite.All | 应用程序 | 创建Teams  | 未存储在 DB 中 | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| People.Read | delegated | 用户名，将它们添加为工作组成员或为其分配任务 | 用户 Guid 存储在任务分配中 | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| Team.ReadBasic.All | delegated | 加入的团队名称，将项目链接到Teams频道 | 团队 Guid 存储在项目元数据中以建立链接 | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| User.Read | delegated | 获取用户信息以在标头中显示此信息  | 首次预配租户时，用户电子邮件存储为所有者 | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| User.Read.All | delegated | 读取用户以更新任务分配 | 仅存储用户 Guid，未在 DB 中存储任何个人识别信息 | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | delegated | 团队中将项目与频道链接的频道 | 团队中将项目与频道链接的频道 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| Group.Read.All | delegated | 获取工作组规划器/规划器任务，如果另一个最小特权范围允许应用获取用户计划和计划任务，但遗憾的是没有允许此操作的范围 | 未存储在 DB 中 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| Group.ReadWrite.All | 应用程序 | 创建Teams  | 未存储在 DB 中 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| People.Read | delegated | 用户名，将它们添加为工作组成员或为其分配任务 | 用户 Guid 存储在任务分配中 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| Team.ReadBasic.All | delegated | 加入的团队名称，将项目链接到Teams频道 | 团队 Guid 存储在项目元数据中以建立链接 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| User.Read | delegated | 获取用户信息以在标头中显示此信息  | 首次预配租户时，用户电子邮件存储为所有者 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| User.Read.All | delegated | 读取用户以更新任务分配 | 仅存储用户 Guid，未在 DB 中存储任何个人识别信息 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -95,7 +95,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -124,16 +124,16 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否支持条件访问策略？ | 不支持 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 否 |
+| 你的应用是否具有机密客户端？ | 不支持 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | ,<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/> |
 | 你的应用是否公开任何 Web API？ | 是 |
 | 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

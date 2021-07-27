@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 程序集的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6cc680f1f7ec25df961d2453dcbfdc20afd0b2eb
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: f8d63c77c3fd9b52353ce22954dfa4dadb8dea2f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852043"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522047"
 ---
 # <a name="assembly"></a>Assembly
 
@@ -35,7 +35,7 @@ ms.locfileid: "52852043"
 | 应用名称 | Assembly |
 | ID | WA200002271 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 一家由一家或多家 |
+| 合作伙伴公司名称 | CarrotHR Inc. |
 | 合作伙伴网站的 URL | [https://www.joinassembly.com](https://www.joinassembly.com) |
 | "Teams应用程序信息"页的 URL | [https://www.joinassembly.com/about](https://www.joinassembly.com/about) |
 | 隐私策略的 URL | [https://joinassembly.com/privacy-policy](https://joinassembly.com/privacy-policy) |
@@ -55,15 +55,15 @@ ms.locfileid: "52852043"
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.Create | delegated | 允许用户从应用将应用分配到新创建的频道 | 我们存储频道 ID 以保持应用与正确频道同步 | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| Directory.Read.All | 应用程序 | 保持配置文件同步，以便成员在程序集中正确搜索 | 可用于在程序集中保持成员可搜索的其他任何配置文件信息 | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| Group.Read.All | delegated | 我们观察数据以确保他们可以将应用分配给正确的组 | 我们不存储组 | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| Teams.ReadBasic.All | 应用程序 | 能够将应用分配给正确的团队选项卡 | 我们不存储团队期望我们追加到的团队  | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| TeamsTab.Create | 应用程序 | 我们使用它来允许正确将应用追加到频道/团队 | 我们不会收集或存储选项卡数据 | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| email | delegated | 用户的电子邮件，以便我们可以授予他们访问其特定帐户的权限 | 用户的电子邮件，以便我们可以授予他们访问其特定帐户和匹配标识的权限 | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| 个人资料 | delegated | 用于自动填充程序集并保持与程序集中的更改Microsoft Teams | 用户的全名 | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.Create | delegated | 允许用户从应用将应用分配到新创建的频道 | 我们存储频道 ID 以保持应用与正确频道同步 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Directory.Read.All | 应用程序 | 保持配置文件同步，以便成员在程序集中正确搜索 | 可用于在程序集中保持成员可搜索的其他任何配置文件信息 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Group.Read.All | delegated | 我们观察数据以确保他们可以将应用分配给正确的组 | 我们不存储组 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Teams.ReadBasic.All | 应用程序 | 能够将应用分配给正确的团队选项卡 | 我们不存储团队期望我们追加到的团队  | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| TeamsTab.Create | 应用程序 | 我们使用它来允许正确将应用追加到频道/团队 | 我们不会收集或存储选项卡数据 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| email | delegated | 用户的电子邮件，以便我们可以授予他们访问其特定帐户的权限 | 用户的电子邮件，以便我们可以授予他们访问其特定帐户和匹配标识的权限 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| 个人资料 | delegated | 用于自动填充程序集并保持与程序集中的更改Microsoft Teams | 用户的全名 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -121,18 +121,18 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 支持 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 支持 |
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
 | 你的应用是否支持条件访问策略？ | 不支持 |
-| 应用是否请求方案最小特权权限？ | 支持 |
+| 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 不支持 |
-| 你的应用是否支持多租户？ | 支持 |
-| 你的应用是否具有机密客户端？ | 支持 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 支持 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 是 |
+| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 支持 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 支持 |
+| 你的应用是否公开任何 Web API？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
 | 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

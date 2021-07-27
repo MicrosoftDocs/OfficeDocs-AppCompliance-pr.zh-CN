@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: AVA 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c55d372c0249302da425ea5b2483aba88f1a2e42
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 462181d4ba98d11e5aeae15a4827c6138bc80924
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281404"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522065"
 ---
 # <a name="ava"></a>AVA
 
@@ -56,17 +56,17 @@ AvePoint， Inc. 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Mail.ReadWrite.Shared | delegated | 无 | 搜索用户的电子邮件，将电子邮件移动到指定文件夹 | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
->| User.Read | delegated |  用户访问令牌 - 用于搜索和还原用户数据 | 允许用户登录并授予对应用程序的访问令牌 | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
->| User.ReadWrite | delegated | DisplayName、UserPrincipalName、JobTitle、Organization、Country、MySiteUrl - 记录使用该应用程序的用户的基本信息 | 获取用户的基本个人资料信息 | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Mail.ReadWrite.Shared | delegated | 无 | 搜索用户的电子邮件，将电子邮件移动到指定文件夹 | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
+>| User.Read | delegated |  用户访问令牌 - 用于搜索和还原用户数据 | 允许用户登录并授予对应用程序的访问令牌 | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
+>| User.ReadWrite | delegated | DisplayName、UserPrincipalName、JobTitle、Organization、Country、MySiteUrl - 记录使用该应用程序的用户的基本信息 | 获取用户的基本个人资料信息 | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
 基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint REST API | 是 | 在用户的个人网站的回收中搜索文件并还原这些文件。 需要 AllSites.Manage 权限。 |  | 无 |  |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -99,7 +99,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

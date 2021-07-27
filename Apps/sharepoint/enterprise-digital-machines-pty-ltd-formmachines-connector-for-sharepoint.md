@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 SharePoint 的 FormMachines 连接器的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f550b89335a7ce75d23d01728478e121f10c6fd3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 56c08c242cb3822ebaea854026fb3f758768b7bf
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282451"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522219"
 ---
 # <a name="formmachines-connector-for-sharepoint"></a>FormMachines 连接器SharePoint
 
@@ -54,8 +54,8 @@ ms.locfileid: "53282451"
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated |  (登录名、电子邮件、Azure Guid、displayName、first_login_date_time)  | 允许用户登录并授予应用对 UPN 的访问权限以启用无提示登录，从而使我们能够唯一标识每个用户 | 8c87660f-d36f-41f6-b0ae-025253f380aa |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated |  (登录名、电子邮件、Azure Guid、displayName、first_login_date_time)  | 允许用户登录并授予应用对 UPN 的访问权限以启用无提示登录，从而使我们能够唯一标识每个用户 | [8c87660f-d36f-41f6-b0ae-025253f380aa](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c87660f-d36f-41f6-b0ae-025253f380aa) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用

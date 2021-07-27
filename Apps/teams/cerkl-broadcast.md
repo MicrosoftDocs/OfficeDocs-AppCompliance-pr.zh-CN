@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 广播的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8037cdbb77a41979e369ec79decbaac8e6c6cae5
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: ab386fe99e96bbe2dae26d2045c8d46447d35fd5
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852044"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522035"
 ---
 # <a name="broadcast"></a>Broadcast
 
@@ -35,7 +35,7 @@ Cerkl 提供给 Microsoft 的信息：
 | 应用名称 | Broadcast |
 | ID | WA200002697 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Cerkl |
+| 合作伙伴公司名称 | <2>点子 |
 | 合作伙伴网站的 URL | [https://cerkl.com](https://cerkl.com) |
 | "Teams应用程序信息"页的 URL | [https://cerkl.com/broadcast/microsoft-teams/](https://cerkl.com/broadcast/microsoft-teams/) |
 | 隐私策略的 URL | [https://cerkl.com/privacy](https://cerkl.com/privacy) |
@@ -55,9 +55,9 @@ Cerkl 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 收集用户的电子邮件，并用于查看用户当前是否在我们的系统中并且是否由组织添加。 | 该应用不会存储从 Microsoft Graph API 检索的任何数据。 | 74ef25ab-3685-446c-aa43-4e9cc251ed62 |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | 收集用户的电子邮件，并用于查看用户当前是否在我们的系统中并且是否由组织添加。 | 该应用不会存储从 Microsoft Graph API 检索的任何数据。 | [74ef25ab-3685-446c-aa43-4e9cc251ed62](https://docs.microsoft.com/microsoft-365-app-certification/azure/74ef25ab-3685-446c-aa43-4e9cc251ed62) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用

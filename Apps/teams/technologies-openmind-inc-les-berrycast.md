@@ -2,24 +2,24 @@
 title: 由 Technologies Openmind Inc， Les 的 Berrycast 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/20/2021
+ms.date: 07/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Berrycast 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 67b58bf2246c109bd58bbe15e9cf1c281e3ad51f
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 714db08e839b60403a567b2cab1af888c4cb7b6f
+ms.sourcegitcommit: c545fba57f8ca821caf6ef55f5b4b068b5f35984
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528128"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578228"
 ---
 # <a name="berrycast"></a>Berrycast
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 4 月 20 日</p>
+<p>开发人员上次更新时间：2021 年 7 月 23 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/c7cde650-1e32-11eb-af14-639b3a7d6491" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002798" target="_blank">在 AppSource 中查看</a>
@@ -122,16 +122,16 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
-| 你的应用是否支持条件访问策略？ | 不支持 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
+| 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
-| 你的应用是否支持多租户？ | 不支持 |
-| 你的应用是否具有机密客户端？ | 不支持 |
+| 你的应用是否支持多租户？ | 否 |
+| 你的应用是否具有机密客户端？ | 否 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 不支持 |
-| 你的应用是否使用预览 API？ | 不支持 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 否 |
+| 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关加分的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 15448c84e8702cef69ed94ff69dba5343b7e2443
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 254237e2b21f4805eb059be373b184672cf7f853
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553293"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522046"
 ---
 # <a name="bonusly"></a>Bonusly
 
@@ -69,7 +69,7 @@ ms.locfileid: "52553293"
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 我们访问用户电子邮件以在系统中查找关联用户。 | 用户电子邮件存储在我们的系统中，但它们不会从系统Teams。 |  |
 
 
