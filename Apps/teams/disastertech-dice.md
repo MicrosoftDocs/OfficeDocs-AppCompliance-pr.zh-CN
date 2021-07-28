@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: DisasterTech DICE 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c9aceaf48c36012ad8c6eb062c1161746d55da6a
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: d8eec2ad9c7047a33dae446943c3ab2d934cc78c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281915"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525706"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 
@@ -55,12 +55,12 @@ DisasterTech 提供了此信息，这些信息与此应用程序如何收集和�
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 为建立访问权限而存储的用户电子邮件地址，以及用于按名称标识用户的用户名 | 允许用户登录并授予应用对 UPN 的访问权限，以启用无提示登录Teams登录，还可以建立用户名和电子邮件地址。 | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| email | delegated | 无 | 单一Teams必需Sign-On | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| offline_access | delegated | 无 | 单一Teams必需Sign-On | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| openid | delegated | 无 | 单一Teams必需Sign-On | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| 个人资料 | delegated | 无 | 对于Teams登录是必需的。 | 36d23b76-c58b-4a34-a60f-dceac6962bad |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | 为建立访问权限而存储的用户电子邮件地址，以及用于按名称标识用户的用户名 | 允许用户登录并授予应用对 UPN 的访问权限，以启用无提示登录Teams登录，还可以建立用户名和电子邮件地址。 | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| email | delegated | 无 | 单一Teams必需Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| offline_access | delegated | 无 | 单一Teams必需Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| openid | delegated | 无 | 单一Teams必需Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| 个人资料 | delegated | 无 | 对于Teams登录是必需的。 | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用

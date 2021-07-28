@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: RingCentral 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2035f615146f8809d6113192d796d2760d87f50e
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: bb0787720195363368e3d822e45f173acee67870
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987738"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525396"
 ---
 # <a name="ringcentral"></a>RingCentral
 
@@ -35,7 +35,7 @@ RingCentral， Inc. 提供给 Microsoft 的信息：
 | 应用名称 | RingCentral |
 | ID | WA200000135 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | RingCentral， Inc. |
+| 合作伙伴公司名称 | RingCentral, Inc. |
 | 合作伙伴网站的 URL | [https://www.ringcentral.com](https://www.ringcentral.com) |
 | "Teams应用程序信息"页的 URL | [https://www.ringcentral.com/apps/ringcentral-for-microsoft-...](https://www.ringcentral.com/apps/ringcentral-for-microsoft-teams) |
 | 隐私策略的 URL | [https://www.ringcentral.com/legal/privacy-notice.html](https://www.ringcentral.com/legal/privacy-notice.html) |
@@ -55,12 +55,12 @@ RingCentral， Inc. 提供给 Microsoft 的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegated |  允许应用程序通过日历发送会议邀请事件 | 无 |  0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
->| offline_access | delegated |  允许应用程序获取和更新 oauth 令牌 |  访问令牌、用于访问 MS Graph API 的刷新令牌 |  0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
->| User.Read | delegated |  允许应用读取用户的基本个人资料&#8217;电子邮件 (名称) ，以便最终进行联系人匹配。 并且允许用户登录，并关联其 O365 帐户和 RingCentral 帐户 |  电子邮件、名字、姓氏 | 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
->| User.Read.All | delegated | 允许应用程序读取用户的完整个人资料以及电话号码，以便使用我们的服务进行电话呼叫。 | 无 | 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated |  允许应用程序通过日历发送会议邀请事件 | 无 | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| offline_access | delegated |  允许应用程序获取和更新 oauth 令牌 |  访问令牌、用于访问 MS Graph API 的刷新令牌 | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| User.Read | delegated |  允许应用读取用户的基本个人资料&#8217;电子邮件 (名称) ，以便最终进行联系人匹配。 并且允许用户登录，并关联其 O365 帐户和 RingCentral 帐户 |  电子邮件、名字、姓氏 | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| User.Read.All | delegated | 允许应用程序读取用户的完整个人资料以及电话号码，以便使用我们的服务进行电话呼叫。 | 无 | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -92,7 +92,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

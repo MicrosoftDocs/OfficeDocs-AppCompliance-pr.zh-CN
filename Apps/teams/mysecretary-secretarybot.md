@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有 Available security and compliance information for一切 Available security and compliance information for 一切，其数据处理策略、Microsoft Cloud App Security应用程序目录信息，以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bff3e6ebffc94861dc4112375ac943124b4fe386
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8d7e2fce37cf43fe52cb050e85aa9e4fd5e00802
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551882"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525446"
 ---
 # <a name="secretarybot"></a>SecretaryBot
 
@@ -56,15 +56,15 @@ MySecretary 提供了此信息，这些信息与此应用程序如何收集和�
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read.Shared | delegated |  | 获取用户及其同事的空闲时间信息。 |  |
->| Calendars.ReadWrite | delegated |  | 发送会议请求，而不是用户。 |  |
->| MailboxSettings.Read | delegated | 用于显示正确语言存储语言。 节省时区以正确调用 MS Graph日历 API | 获取用户的语言和时区设置。 |  |
->| People.Read | delegated |  | 尝试查找与用户具有强关系的同事。 |  |
->| User.Read | delegated | 存储用户名、城市、国家/地区以及用于用户分析的语言。 存储用于联系客户的电子邮件。 我们从未使用过电子邮件地址，但可能用于提供支持。 | 尝试查找用户的国家/地区及首选语言。 它用于 MailboxSettings.Read 的备份。 |  |
->| email | delegated | 具体步骤请见上文。 | 用于存储电子邮件。 |  |
->| openid | delegated |  | 对于 OpenID 身份验证。 |  |
->| 个人资料 | delegated | 保存 OID 以在 MS 标识系统中标识用户的唯一 ID。 | 获取用户名和 OID。 以后尝试使用 OID Outlook Addin 连接。 |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read.Shared | delegated |  | 获取用户及其同事的空闲时间信息。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Calendars.ReadWrite | delegated |  | 发送会议请求，而不是用户。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| MailboxSettings.Read | delegated | 用于显示正确语言存储语言。 节省时区以正确调用 MS Graph日历 API | 获取用户的语言和时区设置。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| People.Read | delegated |  | 尝试查找与用户具有强关系的同事。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | delegated | 存储用户名、城市、国家/地区以及用于用户分析的语言。 存储用于联系客户的电子邮件。 我们从未使用过电子邮件地址，但可能用于提供支持。 | 尝试查找用户的国家/地区及首选语言。 它用于 MailboxSettings.Read 的备份。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| email | delegated | 具体步骤请见上文。 | 用于存储电子邮件。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| openid | delegated |  | 对于 OpenID 身份验证。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| 个人资料 | delegated | 保存 OID 以在 MS 标识系统中标识用户的唯一 ID。 | 获取用户名和 OID。 以后尝试使用 OID Outlook Addin 连接。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -78,8 +78,8 @@ MySecretary 提供了此信息，这些信息与此应用程序如何收集和�
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
->| 使用此信息安排团队会议 | 否 |  |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| 使用此信息安排团队会议 | 不支持 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据

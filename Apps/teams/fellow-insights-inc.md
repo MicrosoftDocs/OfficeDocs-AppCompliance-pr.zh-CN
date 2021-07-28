@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: 合作者的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ac2f5f3f18bb4c26f891e2f6ba2c606f01d64b98
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: 581b41bdf80bcbdd77bb3406b35556308a13b8f9
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987736"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525636"
 ---
-# <a name="fellow"></a>同事
+# <a name="fellow"></a>Fellow
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ ms.locfileid: "52987736"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 同事 |
+| 应用名称 | Fellow |
 | ID | WA200002576 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Inc.Insights |
+| 合作伙伴公司名称 | Fellow Insights Inc |
 | 合作伙伴网站的 URL | [https://fellow.app](https://fellow.app) |
 | 隐私策略的 URL | [https://fellow.app/privacy-policy/](https://fellow.app/privacy-policy/) |
 | 使用条款 URL | [https://fellow.app/terms-of-use/](https://fellow.app/terms-of-use/) |
@@ -54,18 +54,18 @@ ms.locfileid: "52987736"
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | 两者 | 同事与用户的日历联系，以便他们能够记录数据。 | 同事存储用户的主日历的所有事件数据。 不存储附件。 这是在"合作者"中用于提供基于日历的笔记记录体验。 | f6671df0-1909-428c-91f7-1c42df04d3e4 |
->| Channel.ReadBasic.All | delegated | 我们收集用户是其中一员的频道名称，以便向用户显示可以发送注释的频道列表。 | 我们缓存用户是其中一个成员的频道的名称和 ID，以便允许用户将笔记从"合作者"发送到指定的频道。 | f6671df0-1909-428c-91f7-1c42df04d3e4 |
->| Directory.Read.All | 应用程序 | 只有在为整个组织完成了管理员安装时，才收集此数据。 我们使用目录数据同步用户列表并自动预配帐户。 | 如果且仅在管理员从"同事"内的工作区设置内执行组织范围的安装时，管理员可选择启用将所有用户从 Azure AD 自动同步到"协作者" (自动预配) 。 在这种情况下，我们将存储用户信息，如 ID、名称、电子邮件和经理以及组成员身份 (用于团队管理功能) 。 | f6671df0-1909-428c-91f7-1c42df04d3e4 |
->| Group.Read.All | 应用程序 | 只有在为整个组织完成了管理员安装时，才收集此数据。 我们使用目录数据同步用户列表并自动预配帐户。 | 如果且仅在管理员从"同事"内的工作区设置内执行组织范围的安装时，管理员可选择启用将所有用户从 Azure AD 自动同步到"协作者" (自动预配) 。 在这种情况下，我们将存储用户信息，如 ID、名称、电子邮件和经理以及组成员身份 (用于团队管理功能) 。 | f6671df0-1909-428c-91f7-1c42df04d3e4 |
->| People.Read | delegated | 在特定的联系人 displayNames 和电子邮件地址中收集用户的联系人。 这是在"合作者"中用于提供要邀请加入笔记/共享笔记的用户列表。 | 在特定的联系人 displayNames 和电子邮件地址中收集用户的联系人。 这是在"合作者"中用于提供要邀请加入笔记/共享笔记的用户列表。 | f6671df0-1909-428c-91f7-1c42df04d3e4 |
->| People.Read.All | 应用程序 | 只有在为整个组织完成了管理员安装时，才收集此数据。 在特定的联系人 displayNames 和电子邮件地址中收集用户的联系人。 这是在"合作者"中用于提供要邀请加入笔记/共享笔记的用户列表。 | 如果且仅在管理员从"同事"内的工作区设置内执行组织范围的安装时，管理员可选择启用将所有用户从 Azure AD 自动同步到"协作者" (自动预配) 。 在这种情况下，将收集特定联系人 displayNames 和电子邮件地址中的用户的联系人。 这是在"合作者"中用于提供要邀请加入笔记/共享笔记的用户列表。 | f6671df0-1909-428c-91f7-1c42df04d3e4 |
->| Team.ReadBasic.All | delegated | 将收集用户属于的团队列表。 这是在同事内部使用的，以便允许用户将笔记从"同事"发送到团队。 | 我们缓存用户是团队成员的团队的名称和 ID，以便允许用户将笔记从"协作者"发送到指定的团队频道。 | f6671df0-1909-428c-91f7-1c42df04d3e4 |
->| User.Read | delegated | 收集基本用户信息。 用户名、电子邮件、职务。 此信息在"合作者"内用于创建用户帐户和公司帐户。 | 存储基本用户信息。 用户名、电子邮件、职务。 此信息在"合作者"中用于维护用户帐户和公司帐户。 | f6671df0-1909-428c-91f7-1c42df04d3e4 |
->| User.Read.All | 应用程序 | 只有在为整个组织完成了管理员安装时，才收集此数据。 我们使用目录数据同步用户列表并自动预配帐户。 | 如果且仅在管理员从"同事"内的工作区设置内执行组织范围的安装时，管理员可选择启用将所有用户从 Azure AD 自动同步到"协作者" (自动预配) 。 在这种情况下，我们将存储用户信息，如 ID、名称、电子邮件和经理以及组成员身份 (用于团队管理功能) 。 | f6671df0-1909-428c-91f7-1c42df04d3e4 |
->| offline_access | delegated | 用户的刷新令牌，用于维护对通过其他范围收集的数据的访问。 | 用户的刷新令牌存储在数据库中。 这用于"合作者"，用于同步后台中的事件，实现基于日历的笔记记录体验，以及针对计划事件进行笔记记录的通知。 | f6671df0-1909-428c-91f7-1c42df04d3e4 |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | 两者 | 同事与用户的日历联系，以便他们能够记录数据。 | 同事存储用户的主日历的所有事件数据。 不存储附件。 这是在"合作者"中用于提供基于日历的笔记记录体验。 | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| Channel.ReadBasic.All | delegated | 我们收集用户是其中一员的频道名称，以便向用户显示可以发送注释的频道列表。 | 我们缓存用户是其中一个成员的频道的名称和 ID，以便允许用户将笔记从"合作者"发送到指定的频道。 | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| Directory.Read.All | 应用程序 | 只有在为整个组织完成了管理员安装时，才收集此数据。 我们使用目录数据同步用户列表并自动预配帐户。 | 如果且仅在管理员从"同事"内的工作区设置内执行组织范围的安装时，管理员可选择启用将所有用户从 Azure AD 自动同步到"协作者" (自动预配) 。 在这种情况下，我们将存储用户信息，如 ID、名称、电子邮件和经理以及组成员身份 (用于团队管理功能) 。 | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| Group.Read.All | 应用程序 | 只有在为整个组织完成了管理员安装时，才收集此数据。 我们使用目录数据同步用户列表并自动预配帐户。 | 如果且仅在管理员从"同事"内的工作区设置内执行组织范围的安装时，管理员可选择启用将所有用户从 Azure AD 自动同步到"协作者" (自动预配) 。 在这种情况下，我们将存储用户信息，如 ID、名称、电子邮件和经理以及组成员身份 (用于团队管理功能) 。 | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| People.Read | delegated | 在特定的联系人 displayNames 和电子邮件地址中收集用户的联系人。 这是在"合作者"中用于提供要邀请加入笔记/共享笔记的用户列表。 | 在特定的联系人 displayNames 和电子邮件地址中收集用户的联系人。 这是在"合作者"中用于提供要邀请加入笔记/共享笔记的用户列表。 | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| People.Read.All | 应用程序 | 只有在为整个组织完成了管理员安装时，才收集此数据。 在特定的联系人 displayNames 和电子邮件地址中收集用户的联系人。 这是在"合作者"中用于提供要邀请加入笔记/共享笔记的用户列表。 | 如果且仅在管理员从"同事"内的工作区设置内执行组织范围的安装时，管理员可选择启用将所有用户从 Azure AD 自动同步到"协作者" (自动预配) 。 在这种情况下，将收集特定联系人 displayNames 和电子邮件地址中的用户的联系人。 这是在"合作者"中用于提供要邀请加入笔记/共享笔记的用户列表。 | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| Team.ReadBasic.All | delegated | 将收集用户属于的团队列表。 这是在同事内部使用的，以便允许用户将笔记从"同事"发送到团队。 | 我们缓存用户是团队成员的团队的名称和 ID，以便允许用户将笔记从"协作者"发送到指定的团队频道。 | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| User.Read | delegated | 收集基本用户信息。 用户名、电子邮件、职务。 此信息在"合作者"内用于创建用户帐户和公司帐户。 | 存储基本用户信息。 用户名、电子邮件、职务。 此信息在"合作者"中用于维护用户帐户和公司帐户。 | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| User.Read.All | 应用程序 | 只有在为整个组织完成了管理员安装时，才收集此数据。 我们使用目录数据同步用户列表并自动预配帐户。 | 如果且仅在管理员从"同事"内的工作区设置内执行组织范围的安装时，管理员可选择启用将所有用户从 Azure AD 自动同步到"协作者" (自动预配) 。 在这种情况下，我们将存储用户信息，如 ID、名称、电子邮件和经理以及组成员身份 (用于团队管理功能) 。 | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| offline_access | delegated | 用户的刷新令牌，用于维护对通过其他范围收集的数据的访问。 | 用户的刷新令牌存储在数据库中。 这用于"合作者"，用于同步后台中的事件，实现基于日历的笔记记录体验，以及针对计划事件进行笔记记录的通知。 | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -97,7 +97,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -123,18 +123,18 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是的。 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是的。 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
-| 你的应用是否支持条件访问策略？ | 否 |
-| 应用是否请求方案最小特权权限？ | 是的。 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是的。 |
-| 你的应用是否支持多租户？ | 是的。 |
-| 你的应用是否具有机密客户端？ | 是的。 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是的。 |
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
+| 你的应用是否支持条件访问策略？ | 不支持 |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 是 |
+| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | ,<br/><br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 否 |
-| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否公开任何 Web API？ | 不支持 |
+| 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

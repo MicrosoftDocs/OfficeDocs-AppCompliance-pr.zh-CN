@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Medxnote MT 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ee4a304ac2844bff1fcec309fe0c96edba04208f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 5eff51e5045f299ad8fe9e8335b3c5dac41af919
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282976"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525486"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -55,9 +55,9 @@ Medxnote 提供了此信息，这些信息与此应用程序如何收集和存�
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read.All | 应用程序 | We are caching Name and email， used on hospital side to check privileges of users | 在添加名称和电子邮件地址的一些时候发送邮件时，我们将该数据缓存在服务器端，它还用于医院一侧的可选特权检查 | fc70bbbe-91c4-4d8f-a9c9-a022068d5752 |
->| openid | delegated | We are caching session id， user id， bearer token and email， used to sign in users in Task module | 使用它在任务模块中登录用户，我们将存储会话 ID、userid、电子邮件、bearer 令牌 | fc70bbbe-91c4-4d8f-a9c9-a022068d5752 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read.All | 应用程序 | We are caching Name and email， used on hospital side to check privileges of users | 在添加名称和电子邮件地址的一些时候发送邮件时，我们将该数据缓存在服务器端，它还用于医院一侧的可选特权检查 | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
+>| openid | delegated | We are caching session id， user id， bearer token and email， used to sign in users in Task module | 使用它在任务模块中登录用户，我们将存储会话 ID、userid、电子邮件、bearer 令牌 | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用

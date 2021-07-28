@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息 elmah.io、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1a4d52ae44362914c3e2094d39f7b109948986a2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2761f22f1b41c208d7dce1589ac3d62ab41efc54
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553193"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525676"
 ---
 # <a name="elmahio"></a>elmah.io
 
@@ -63,7 +63,7 @@ ms.locfileid: "52553193"
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Intercom、Stripe、Mailchimp、Amazon Web Services | 公司名称、名称、电子邮件 | 我们与 Intercom、Mailchimp 和 AWS 共享用户名称和电子邮件，以个性化设置电子邮件。 我们将公司名称与发票的"条纹"等共享。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
@@ -89,7 +89,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

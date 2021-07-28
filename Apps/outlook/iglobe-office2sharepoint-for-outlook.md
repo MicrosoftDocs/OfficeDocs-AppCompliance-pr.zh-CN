@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Office2SharePoint for Outlook 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9787a4ca1e30a49826d11e5c867227cb45737eea
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: fb2b0e5863ff707df7a48a7adfab43d06bae3d11
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281604"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527008"
 ---
 # <a name="office2sharepoint-for-outlook"></a>Office2SharePoint for Outlook
 
@@ -53,30 +53,30 @@ iGlobe 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.AccessAsUser.All | delegated | 应用程序数据库中不存储任何数据。 | 允许应用以登录用户身份访问目录中的信息。 | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Directory.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Directory.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Group.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 获取用户组网站。 | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Group.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 访问所选的邮件并获取附件。 From the mail or add from SharePoint or Groups site to the mail. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Sites.Manage.All | delegated | 应用程序数据库中不存储任何数据。 | 允许应用程序代表登录用户创建或删除所有网站集中的文档库和列表。 | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Sites.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 获取用户SharePoint网站。 获取文件并保存选定邮件中的附件。 | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Sites.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 获取SharePoint、库和文件。 将文件保存到SharePoint列表中。 | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| User.Read | delegated | 应用程序数据库中不存储任何数据。 | 为用户获取SharePoint网站、OneDrive和组网站。 | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | delegated | 应用程序数据库中不存储任何数据。 | 允许应用以登录用户身份访问目录中的信息。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Directory.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Directory.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Group.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 获取用户组网站。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Group.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 访问所选的邮件并获取附件。 From the mail or add from SharePoint or Groups site to the mail. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.Manage.All | delegated | 应用程序数据库中不存储任何数据。 | 允许应用程序代表登录用户创建或删除所有网站集中的文档库和列表。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 获取用户SharePoint网站。 获取文件并保存选定邮件中的附件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 获取SharePoint、库和文件。 将文件保存到SharePoint列表中。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| User.Read | delegated | 应用程序数据库中不存储任何数据。 | 为用户获取SharePoint网站、OneDrive和组网站。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
 基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| Exchange - EWS。AccessAsUser.All | 否 |  |  |  |  |
->| Exchange - Mail.ReadWrite | 否 |  |  |  |  |
->| Exchange - MailboxSettings.ReadWrite | 否 |  |  |  |  |
->| SharePoint - AllSites.Manage | 否 |  |  |  |  |
->| SharePoint - AllSites.Write | 否 |  |  |  |  |
->| SharePoint - MyFiles.Write | 否 |  |  |  |  |
->| SharePoint - User.Read.All | 否 |  |  |  |  |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| Exchange - EWS。AccessAsUser.All | 不支持 |  |  |  |  |
+>| Exchange - Mail.ReadWrite | 不支持 |  |  |  |  |
+>| Exchange - MailboxSettings.ReadWrite | 不支持 |  |  |  |  |
+>| SharePoint - AllSites.Manage | 不支持 |  |  |  |  |
+>| SharePoint - AllSites.Write | 不支持 |  |  |  |  |
+>| SharePoint - MyFiles.Write | 不支持 |  |  |  |  |
+>| SharePoint - User.Read.All | 不支持 |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
@@ -103,7 +103,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -131,7 +131,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 安全默认值和任何其他常见策略（如阻止旧版身份验证* 要求管理员使用 MFA* 需要 Azure 管理的 MFA* 要求所有用户使用 MFA* |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -139,8 +139,8 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
 | 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
-| 你的应用是否公开任何 Web API？ | 否 |
-| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否公开任何 Web API？ | 不支持 |
+| 你的应用是否使用预览 API？ | 不支持 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: SalesTim 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ada23e0899e67432b0718ec34f32c236e8768a18
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: b15cf2f87b6707b6fa82dfc3968444d7cad85e8a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283066"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53524755"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -54,14 +54,14 @@ SalesTim 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.ReadWrite.All | delegated | 不 | 允许应用在企业应用目录中安装和更新自己的程序包。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Directory.AccessAsUser.All | delegated | 我们&#8217;仅存储一些用户 ID，而不是配置文件数据。 | 允许用户在应用程序内的各个位置选择其他用户，例如选择工作流中的审批者。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Group.ReadWrite.All | delegated | 我们&#8217;存储组/团队的 ID，&#8217;不存储任何组/团队内容。 | 允许应用代表登录用户创建组、读取所有组属性和成员身份。 此外，还允许组所有者管理他们的组并允许组成员更新组内容。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Mail.Send | delegated | 我们将&#8217;此操作的元数据，例如通知日期、收件人 (ID) 请求 ID。 | 允许应用在审批工作流期间发送通知电子邮件，例如。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Sites.ReadWrite.All | delegated | 我们使用一些 Azure 服务来存储数据，尤其是在 Azure 和 Cosmos DB 上 | 允许应用在团队预配 (管理) 关联的文件和文件夹的驱动器。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| User.Read.All | delegated | 我们&#8217;仅存储一些用户 ID，而不是配置文件数据。 | 允许应用读取任何用户的完整配置文件属性、报表和经理集。 它尤其用于访问群体定位过程，以根据当前用户配置文件筛选某些内容。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| offlineaccess | delegated | 否 | 允许应用以用户方式执行一些后台操作和操作。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| AppCatalog.ReadWrite.All | delegated | 不 | 允许应用在企业应用目录中安装和更新自己的程序包。 | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Directory.AccessAsUser.All | delegated | 我们&#8217;仅存储一些用户 ID，而不是配置文件数据。 | 允许用户在应用程序内的各个位置选择其他用户，例如选择工作流中的审批者。 | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Group.ReadWrite.All | delegated | 我们&#8217;存储组/团队的 ID，&#8217;不存储任何组/团队内容。 | 允许应用代表登录用户创建组、读取所有组属性和成员身份。 此外，还允许组所有者管理他们的组并允许组成员更新组内容。 | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Mail.Send | delegated | 我们将&#8217;此操作的元数据，例如通知日期、收件人 (ID) 请求 ID。 | 允许应用在审批工作流期间发送通知电子邮件，例如。 | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Sites.ReadWrite.All | delegated | 我们使用一些 Azure 服务来存储数据，尤其是在 Azure 和 Cosmos DB 上 | 允许应用在团队预配 (管理) 关联的文件和文件夹的驱动器。 | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| User.Read.All | delegated | 我们&#8217;仅存储一些用户 ID，而不是配置文件数据。 | 允许应用读取任何用户的完整配置文件属性、报表和经理集。 它尤其用于访问群体定位过程，以根据当前用户配置文件筛选某些内容。 | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| offlineaccess | delegated | 不支持 | 允许应用以用户方式执行一些后台操作和操作。 | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -69,7 +69,7 @@ SalesTim 提供给 Microsoft 的信息：
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| 我们将 Intercom 用作我们的主要支持应用程序。 Intercom 可能包含一些基本的用户配置文件信息，如下所述： https://developers.salestim.com/platform/datamanagement.html#support-data |  | 我们正在使用 GitHub API 从我们的生产环境自动生成问题。 我们还将一些技术日志存储在GitHub (中，如下所述 https://developers.salestim.com/platform/datamanagement.html#error-reporting-data) ：。 这些问题和日志可能包含一些基本的用户配置文件信息。 这些问题和日志每 15 天自动删除一次。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据

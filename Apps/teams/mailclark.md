@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: MailClark 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9d21ca3fe09b49a66725b0e7195fe08836d3d125
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3e9c01b76c513fd0786b27a0447a70c1f9c9d7e0
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552953"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525496"
 ---
 # <a name="mailclark"></a>MailClark
 
@@ -56,13 +56,13 @@ MailClark 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Mail.ReadWrite | 应用程序 |  | 阅读：订阅传入电子邮件的推送通知。 写入：创建草稿。 |  |
->| Mail.Send | 应用程序 |  | 发送草稿。 |  |
->| User.Read | 应用程序 | 帐户详细信息，例如电子邮件地址。 | 标识帐户。 |  |
->| offline_access | 应用程序 | 刷新令牌 | 在帐户断开连接之前续订身份验证。 |  |
->| openid | 应用程序 |  | 需要进行身份验证。 |  |
->| 个人资料 | 应用程序 |  | 对用户进行身份验证。 |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Mail.ReadWrite | 应用程序 |  | 阅读：订阅传入电子邮件的推送通知。 写入：创建草稿。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.Send | 应用程序 |  | 发送草稿。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | 应用程序 | 帐户详细信息，例如电子邮件地址。 | 标识帐户。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | 应用程序 | 刷新令牌 | 在帐户断开连接之前续订身份验证。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| openid | 应用程序 |  | 需要进行身份验证。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| 个人资料 | 应用程序 |  | 对用户进行身份验证。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -76,7 +76,7 @@ MailClark 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 将人员分配给对话 | 名字、姓氏、显示名称、电子邮件地址 |  |
 
 

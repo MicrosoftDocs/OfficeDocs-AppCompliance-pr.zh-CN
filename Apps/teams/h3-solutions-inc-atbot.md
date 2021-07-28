@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: AtBot 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3f56d0b3eb19f5bed8f7092507c8605af936b911
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 94cc732dc5f6cf6416fd1b386271b3694d6f3698
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552133"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525616"
 ---
 # <a name="atbot"></a>AtBot
 
@@ -56,15 +56,15 @@ H3 Solutions， Inc. 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | 应用程序 | AAD 组名称、AAD 组 GUID、UPN | 枚举 AAD 组以允许对机器人技能进行安全修整。 枚举用户以能够应用许可证。 枚举要添加为管理员/参与者的用户 | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| Directory.Read.All | delegated | AAD 组名称、AAD 组 GUID、UPN | 枚举 AAD 组以允许对机器人技能进行安全修整。 枚举用户以能够应用许可证。 枚举要添加为管理员/参与者的用户 | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| People.Read | delegated | 否 | 从"获取人员"操作中枚举Flow。  允许机器人从 Microsoft Graph 中的 /People 终结点检索用户。 | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| User.Read | delegated | 租户 ID、UPN | 允许我们访问用户&#8217;ID 和 UPN，以允许我们将创建的流/逻辑应用与创建它们的用户进行连接。 | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| email | delegated | 否 | 允许我们访问用户的电子邮件地址。 | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| offline_access | delegated | 访问/刷新令牌。 | 允许我们使用刷新令牌来保持用户登录。 | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| openid | delegated | 否 | 允许用户登录。 | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| 个人资料 | delegated | UPN | 访问用户的 UPN。 | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | 应用程序 | AAD 组名称、AAD 组 GUID、UPN | 枚举 AAD 组以允许对机器人技能进行安全修整。 枚举用户以能够应用许可证。 枚举要添加为管理员/参与者的用户 | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | delegated | AAD 组名称、AAD 组 GUID、UPN | 枚举 AAD 组以允许对机器人技能进行安全修整。 枚举用户以能够应用许可证。 枚举要添加为管理员/参与者的用户 | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| People.Read | delegated | 不支持 | 从"获取人员"操作中枚举Flow。  允许机器人从 Microsoft Graph 中的 /People 终结点检索用户。 | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| User.Read | delegated | 租户 ID、UPN | 允许我们访问用户&#8217;ID 和 UPN，以允许我们将创建的流/逻辑应用与创建它们的用户进行连接。 | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| email | delegated | 不支持 | 允许我们访问用户的电子邮件地址。 | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| offline_access | delegated | 访问/刷新令牌。 | 允许我们使用刷新令牌来保持用户登录。 | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| openid | delegated | 不支持 | 允许用户登录。 | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| 个人资料 | delegated | UPN | 访问用户的 UPN。 | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -78,15 +78,15 @@ H3 Solutions， Inc. 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
->| 在机器人生成的聊天消息中创建提及 | 否 |  |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| 在机器人生成的聊天消息中创建提及 | 不支持 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->租户 ID，UPN 我们使用 Application Insights，我们的日志将在自动存档前持续 90 天。 (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
+>租户 ID，UPN 我们使用应用程序Insights我们的日志将在自动存档之前持续 90 天。 (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

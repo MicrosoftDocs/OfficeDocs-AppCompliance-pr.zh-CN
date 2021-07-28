@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Sheetgo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7061510a0fb54a3e46e9ca80032a93e97a0e5868
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: a91a3ac8e1d7ead5a469a88787b4b5809d48615a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281054"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53524725"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -62,7 +62,7 @@ SHEETGO EUROPE SL 提供了此信息，这些信息与此应用程序如何收�
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| MongoDB： Record system and user data in order to function， Google BigQuery： Record system logs usage， Google Firestore： A system which maintains and orchestrates the state of our microservices， Stripe： Payment system |  | 这些应用程序不使用其他 Microsoft API |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据

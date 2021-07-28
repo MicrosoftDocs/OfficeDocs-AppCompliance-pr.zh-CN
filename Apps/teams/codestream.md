@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: CodeStream 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9d47c0ffe0f8f23cf09b175fce24a8dcccfa87dd
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: 4875193923e2e34cf8e46d85437325128716bd47
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53459536"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525756"
 ---
 # <a name="codestream"></a>CodeStream
 
@@ -62,7 +62,7 @@ CodeStream 提供了此信息，这些信息与此应用程序如何收集和存
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| sendgrid.com、segment.io、mixpanel.com、intercom.com、hubspot.com | email address | 分析， CRM， 应用程序支持 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据

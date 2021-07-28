@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: OpenAgora 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e078e126a4d155fedc2cda86e12ff1341722962c
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c1538e5ad361469b5c8b3c07a085ed91d45a70dd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551862"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525406"
 ---
 # <a name="openagora"></a>OpenAgora
 
@@ -56,8 +56,8 @@ Open Agora 提供了此信息，这些信息与此应用程序如何收集和存
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 用户&#8217;的Azure Active Directory ID。 | 用户标识，以确保用户只能查看和管理可见的数据。 |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | 用户&#8217;的Azure Active Directory ID。 | 用户标识，以确保用户只能查看和管理可见的数据。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -71,7 +71,7 @@ Open Agora 提供了此信息，这些信息与此应用程序如何收集和存
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| **Name** - 用于显示投票者的姓名。 **电子邮件**- 用于跨团队和聊天标识用户;用作投票者的唯一标识符;用于回答用户Teams。 不会向用户发送未经请求的电子邮件。 | 名字和姓氏、显示名称、电子邮件地址 |  |
 
 

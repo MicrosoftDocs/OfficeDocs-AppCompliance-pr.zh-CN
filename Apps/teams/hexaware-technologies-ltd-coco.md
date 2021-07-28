@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: COCO 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5b1c7194ed42779d966c4d7d4f519374bbb78bb1
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 8a25a95b277f41f30477182c9eec0b3b25b9351e
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281254"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525606"
 ---
 # <a name="coco"></a>COCO
 
@@ -54,14 +54,14 @@ Hexaware Technologies Ltd. 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.AccessAsUser.All | delegated | 无 | 以登录用户访问目录 | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| Directory.Read.All | 应用程序 | 无 | 读取目录数据 | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| Directory.ReadWrite.All | delegated | 无 | 读取和写入目录数据 | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| User.Read | delegated | 无 | 登录并读取用户个人资料 | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| User.Read.All | 应用程序 | 无 | 读取所有用户的完整个人资料 | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| User.ReadWrite.All | delegated | 无 | 读取和写入所有用户的完整个人资料 | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| openid | delegated | 无 | 让用户登录 | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | delegated | 无 | 以登录用户访问目录 | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| Directory.Read.All | 应用程序 | 无 | 读取目录数据 | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| Directory.ReadWrite.All | delegated | 无 | 读取和写入目录数据 | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| User.Read | delegated | 无 | 登录并读取用户个人资料 | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| User.Read.All | 应用程序 | 无 | 读取所有用户的完整个人资料 | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| User.ReadWrite.All | delegated | 无 | 读取和写入所有用户的完整个人资料 | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| openid | delegated | 无 | 让用户登录 | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -75,7 +75,7 @@ Hexaware Technologies Ltd. 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 维护会话数据 | 姓名、电子邮件 ID |  |
 
 

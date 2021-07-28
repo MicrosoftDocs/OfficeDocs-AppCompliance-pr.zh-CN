@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SIGNL4 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 425c0738b5628f959ba81e5682c22afe6774cfba
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0e42f0d40c157819076af93cbd076c04e9326345
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281324"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525726"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -62,7 +62,7 @@ Derdack SIGNL4 提供给 Microsoft 的信息：
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| 递归，电子邮件地址、电子邮件地址是在客户使用应用时向客户发送帐单通知的必需方法。 Twilio，电话号码，通过短信发送通知的警报内容 |  | Azure 管理 API，收集 Azure Monitor 警报，收集发生，因为系统会发送这些警报的通知 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: LawToolBox 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2e97d65822a5baeb0cd78101660084e4142e98ea
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 9023d2321d5c6a6a62c8480538cc5bf8315b2fc9
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553003"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525516"
 ---
 # <a name="lawtoolbox"></a>LawToolBox
 
@@ -56,29 +56,29 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | delegated |  | [可选]读取用户的日历。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Calendars.ReadWrite | delegated |  | 在用户的日历中创建日历邀请。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Calendars.ReadWrite.Shared | delegated |  | 创建共享日历的日历邀请。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Contacts.ReadWrite | delegated |  | [Optional]- 读取用户联系人，将用户从联系人列表连接到组。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Contacts.ReadWrite.Shared | delegated |  | [Optional]- 读取用户共享联系人，以提供与案例相关的联系人列表。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Directory.AccessAsUser.All | delegated |  | [可选]作为用户读取组和用户信息。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Directory.ReadWrite.All | delegated |  | [可选]作为用户读取组和用户信息。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Files.Read | delegated |  | [可选]读取用户OneDrive。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Files.Read.All | delegated |  | [Optional]-Read user's OneDrive。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Files.ReadWrite | delegated |  | [Optional]-Read and modify files in a user's OneDrive. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Files.ReadWrite.All | delegated |  | [可选]读/写用户OneDrive事件关联的文件。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Group.ReadWrite.All | delegated | GroupID、GroupName、GroupEmail | 我们为系统中创建的每个事项创建一个组。 这可帮助用户将与重要信息存储到组，而组又将其数据保存到其自己的租户中。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Mail.Read | delegated |  | [可选][InProgress]阅读用户的电子邮件了解事项。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Mail.ReadWrite | delegated |  | [可选][InProgress]读取/写入用户的电子邮件。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Mail.ReadWrite.Shared | delegated |  | [可选][InProgress]读取/写入用户的电子邮件。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Mail.Send | delegated |  | [可选][InProgress]以用户用户发送电子邮件截止时间。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Tasks.ReadWrite.Shared | delegated |  | [Optional]-[InProgress] Read Write Deadlines as Task for users. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| User.Read | delegated |  | 读取用户的信息。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| User.ReadWrite | delegated |  | 读取/写入用户的信息。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| User.ReadWrite.All | delegated |  | 读取/写入用户的信息。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| email | delegated | Email、Office365 UserID、ObjectID、TenantID。 | 读取用户的电子邮件地址。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| 个人资料 | delegated |  | 读取用户配置文件信息。 | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | delegated |  | [可选]读取用户的日历。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite | delegated |  | 在用户的日历中创建日历邀请。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite.Shared | delegated |  | 创建共享日历的日历邀请。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Contacts.ReadWrite | delegated |  | [Optional]- 读取用户联系人，将用户从联系人列表连接到组。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Contacts.ReadWrite.Shared | delegated |  | [Optional]- 读取用户共享联系人，以提供与案例相关的联系人列表。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Directory.AccessAsUser.All | delegated |  | [可选]作为用户读取组和用户信息。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Directory.ReadWrite.All | delegated |  | [可选]作为用户读取组和用户信息。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.Read | delegated |  | [可选]读取用户OneDrive。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.Read.All | delegated |  | [Optional]-Read user's OneDrive。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite | delegated |  | [Optional]-Read and modify files in a user's OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite.All | delegated |  | [可选]读/写用户OneDrive事件关联的文件。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Group.ReadWrite.All | delegated | GroupID、GroupName、GroupEmail | 我们为系统中创建的每个事项创建一个组。 这可帮助用户将与重要信息存储到组，而组又将其数据保存到其自己的租户中。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.Read | delegated |  | [可选][InProgress]阅读用户的电子邮件了解事项。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite | delegated |  | [可选][InProgress]读取/写入用户的电子邮件。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite.Shared | delegated |  | [可选][InProgress]读取/写入用户的电子邮件。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.Send | delegated |  | [可选][InProgress]以用户用户发送电子邮件截止时间。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Tasks.ReadWrite.Shared | delegated |  | [Optional]-[InProgress] Read Write Deadlines as Task for users. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.Read | delegated |  | 读取用户的信息。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.ReadWrite | delegated |  | 读取/写入用户的信息。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.ReadWrite.All | delegated |  | 读取/写入用户的信息。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| email | delegated | Email、Office365 UserID、ObjectID、TenantID。 | 读取用户的电子邮件地址。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| 个人资料 | delegated |  | 读取用户配置文件信息。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -92,7 +92,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 确定团队中新添加的用户并检查潜在潜在客户 | Email、UserId |  |
 
 

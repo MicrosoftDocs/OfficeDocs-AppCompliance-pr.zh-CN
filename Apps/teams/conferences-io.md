@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关会议 i/o 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f1ac0d98833813915b3485a7b5c00233f41ddee8
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0ea37c6a8e60d959bee08858f1f5b2fc48edfac2
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281334"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525746"
 ---
 # <a name="conferences-io"></a>Conferences i/o
 
@@ -63,7 +63,7 @@ Conferences i/o 提供给 Microsoft 的信息：
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Amazon Web Services | 姓名、电子邮件地址 | 应用程序的主数据库位于 Amazon Web Services 上。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
@@ -89,7 +89,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

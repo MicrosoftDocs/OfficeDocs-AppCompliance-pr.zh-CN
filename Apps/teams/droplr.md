@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Droplr 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0ee1f120569a50bb475cd525b3ae1ba70e6b60b5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a15e235b7f604ba4b5c73c74eef50d4bc1a49e65
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553943"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525696"
 ---
 # <a name="droplr"></a>Droplr
 
@@ -56,8 +56,8 @@ Droplr 提供了此信息，这些信息与此应用程序如何收集和存储�
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 将 `user_id` 值存储在数据库中 | 我们使用此权限来标识经过身份验证的用户，并使用其 Droplr 帐户进行链接。 |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | 将 `user_id` 值存储在数据库中 | 我们使用此权限来标识经过身份验证的用户，并使用其 Droplr 帐户进行链接。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
