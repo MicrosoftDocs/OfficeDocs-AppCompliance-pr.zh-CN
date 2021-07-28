@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Sympli 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 52881ca94c9d40d017e1585988fa9a95c5db8392
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 395fafc64b225ada5795afa789ad9556c7566f11
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552703"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528178"
 ---
 # <a name="sympli"></a>Sympli
 
@@ -63,7 +63,7 @@ Sympli，LLC 提供给 Microsoft 的信息：
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Intercom、Stripe、HubSpot | 组织名称 | 技术支持、销售、产品更新 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
@@ -71,8 +71,8 @@ Sympli，LLC 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
->| 用户的给定名称用于扩充对话 UX。 | 否 |  |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| 用户的给定名称用于扩充对话 UX。 | 不支持 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据

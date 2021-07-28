@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tryane Analytics 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d5b5119f0c9897b6d59163ad03580744a7f822f0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 2bfff7785dbad9398697aef468115cb8f7275acd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283568"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527548"
 ---
 # <a name="tryane-analytics"></a>Tryane Analytics
 
@@ -55,15 +55,15 @@ Tryane 提供了此信息，这些信息与此应用程序如何收集和存储�
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| ActivityFeed.Read | 应用程序 |  | 读取团队中的所有用户活动 | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| Channel.ReadBasic.All | 应用程序 |  | All 列出包含名称、说明的所有频道 | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| ChannelMessage.Read.All | 应用程序 |  | 列出所有频道消息&#8217;元数据 | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| Directory.Read.All | 应用程序 |  | 在租户中标识具有团队许可证的用户 | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| Member.Read.Hidden | 应用程序 |  | 获取所有团队、团队&#8217;的成员和隐藏成员身份的列表 | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| Reports.Read.All | 应用程序 |  | 读取团队中的所有用户活动 | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| Team.ReadBasic.All | 应用程序 |  | 列出所有频道和团队属性 | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| User.Read | delegated | 用户 ID、名称、电子邮件地址、创建日期。我们存储此数据是为了在数据上提供使用情况Teams | 在订阅期间标识当前用户 | 9b03f15d-1219-4b2f-9699-640be54e1319 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ActivityFeed.Read | 应用程序 |  | 读取团队中的所有用户活动 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Channel.ReadBasic.All | 应用程序 |  | All 列出包含名称、说明的所有频道 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| ChannelMessage.Read.All | 应用程序 |  | 列出所有频道消息&#8217;元数据 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Directory.Read.All | 应用程序 |  | 在租户中标识具有团队许可证的用户 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Member.Read.Hidden | 应用程序 |  | 获取所有团队、团队&#8217;的成员和隐藏成员身份的列表 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Reports.Read.All | 应用程序 |  | 读取团队中的所有用户活动 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Team.ReadBasic.All | 应用程序 |  | 列出所有频道和团队属性 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| User.Read | delegated | 用户 ID、名称、电子邮件地址、创建日期。我们存储此数据是为了在数据上提供使用情况Teams | 在订阅期间标识当前用户 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -97,7 +97,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

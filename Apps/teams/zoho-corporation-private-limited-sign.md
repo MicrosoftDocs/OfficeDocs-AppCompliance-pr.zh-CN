@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Zoho Sign 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 356c8755ee40269ef4efe844d22ebbc20e53937d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f164b4afadb0d85971cdaa40ab1bb43828ecb290
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552713"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528328"
 ---
 # <a name="zoho-sign"></a>Zoho Sign
 
@@ -56,16 +56,16 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Contacts.ReadWrite | delegated |  | 具有对用户联系人的完全访问权限。 |  |
->| Contacts.ReadWrite.Shared | delegated |  | 读取和写入用户联系人和共享联系人。 |  |
->| Files.ReadWrite | delegated |  | 具有用户文件的完全访问权限。 |  |
->| Files.ReadWrite.All | delegated |  | 具有用户可以访问的所有文件的完全访问权限。 |  |
->| Files.ReadWrite.Selected | delegated |  | 读取和写入用户选择的文件。 |  |
->| User.ReadBasic.All | delegated |  | 读取用户的所有基本个人资料。 |  |
->| email | delegated |  | 查看用户的电子邮件地址。 |  |
->| offline_access | delegated |  | 保持对已赋予其访问权限的数据的访问权限。 |  |
->| 个人资料 | delegated |  | 查看用户的基本个人资料。 |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Contacts.ReadWrite | delegated |  | 具有对用户联系人的完全访问权限。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Contacts.ReadWrite.Shared | delegated |  | 读取和写入用户联系人和共享联系人。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.ReadWrite | delegated |  | 具有用户文件的完全访问权限。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.ReadWrite.All | delegated |  | 具有用户可以访问的所有文件的完全访问权限。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.ReadWrite.Selected | delegated |  | 读取和写入用户选择的文件。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.ReadBasic.All | delegated |  | 读取用户的所有基本个人资料。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| email | delegated |  | 查看用户的电子邮件地址。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | delegated |  | 保持对已赋予其访问权限的数据的访问权限。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| 个人资料 | delegated |  | 查看用户的基本个人资料。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用

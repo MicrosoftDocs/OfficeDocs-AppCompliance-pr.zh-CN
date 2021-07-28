@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: 有关 ChurnZero 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a0e92bdd9440e20ebf30cece47ee17e675b35656
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 18ebf804bfc99fe0d31043aee77fa856f42dda7a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852042"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525796"
 ---
-# <a name="churnzero"></a>ChurnZero
+# <a name="churnzero"></a>埃塞洛
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ ms.locfileid: "52852042"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | ChurnZero |
+| 应用名称 | 埃塞洛 |
 | ID | WA200002581 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | ChurnZero |
+| 合作伙伴公司名称 | 埃塞洛 |
 | 合作伙伴网站的 URL | [https://churnzero.net](https://churnzero.net) |
 | 隐私策略的 URL | [https://churnzero.net/churnzero-privacy-policy-202101/](https://churnzero.net/churnzero-privacy-policy-202101/) |
 | 使用条款 URL | [https://churnzero.net/terms-of-use](https://churnzero.net/terms-of-use) |
@@ -54,9 +54,9 @@ ms.locfileid: "52852042"
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 要与一个改动零用户关联的委派用户的 Azure 对象 ID，以便在将来的机器人会话中标识和授权该用户。 | 要与一个改动零用户关联的委派用户的 Azure 对象 ID，以便在将来的机器人会话中标识和授权该用户。 | c2e66b59-725d-4c56-8a0e-ee2587031d9f |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | 要与一个改动零用户关联的委派用户的 Azure 对象 ID，以便在将来的机器人会话中标识和授权该用户。 | 要与一个改动零用户关联的委派用户的 Azure 对象 ID，以便在将来的机器人会话中标识和授权该用户。 | [c2e66b59-725d-4c56-8a0e-ee2587031d9f](https://docs.microsoft.com/microsoft-365-app-certification/azure/c2e66b59-725d-4c56-8a0e-ee2587031d9f) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -70,7 +70,7 @@ ms.locfileid: "52852042"
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 允许客户端按名称标识其联系人，并将其作为执行正常业务运营的一部分发送电子邮件。 改动零是该数据的处理器，而不是收集器。 | 客户端提供的联系人名字、姓氏和电子邮件地址。 | 允许客户端按名称标识其联系人，并将其作为执行正常业务运营的一部分发送电子邮件。 改动零是该数据的处理器，而不是收集器。 |
 
 

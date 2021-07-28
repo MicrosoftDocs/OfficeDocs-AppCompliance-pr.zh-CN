@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Bright Poll 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4dc8177da248fffd18ab6a4667cb6f94ea8db07c
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: af6e29845108dee6504e87864c80b5ef5a11aa16
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852036"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525826"
 ---
-# <a name="bright-poll"></a>明亮轮询
+# <a name="bright-poll"></a>亮色投票
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ ms.locfileid: "52852036"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 明亮轮询 |
+| 应用名称 | 亮色投票 |
 | ID | WA200002562 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Chat Apps， LLC |
+| 合作伙伴公司名称 | 聊天应用，LLC |
 | 合作伙伴网站的 URL | [https://brightpoll.app](https://brightpoll.app) |
 | 隐私策略的 URL | [https://www.brightpoll.app/privacy](https://www.brightpoll.app/privacy) |
 | 使用条款 URL | [https://brightpoll.app/terms/](https://brightpoll.app/terms/) |
@@ -68,7 +68,7 @@ ms.locfileid: "52852036"
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 存储用户的名称、唯一的标识号和电子邮件地址是提供和支持轮询功能所必需的。 | 团队和用户唯一 ID、名称和电子邮件地址。 | 唯一的标识号、名称和电子邮件地址是应用功能和支持应用程序所必需的。 |
 
 
@@ -88,7 +88,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->支持
+>是
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

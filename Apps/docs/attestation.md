@@ -6,12 +6,12 @@ description: 有关证明Publisher程序详细信息
 keywords: 应用证明认证 365 调查表 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1d3652bb2f0eab3f1f533ce4acf3d13104843eea
-ms.sourcegitcommit: 98b9f17063c7ada0890b37af405990ad5eedd0b9
+ms.openlocfilehash: 285fb4c74f2f5bdda3defee92dafa22f07d94314
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53466022"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526108"
 ---
 # <a name="complete-publisher-attestation"></a>完整Publisher证明
 
@@ -20,7 +20,7 @@ Publisher证明是一个自愿计划，可完成对应用的安全性、数据�
 > [!IMPORTANT]
 > Microsoft 不会对提供的信息进行验证。 开发人员单独负责他们在自我评估中提供的信息。 
 
-**Publisher证明适用于通过商业市场 (合作伙伴中心) 发布的 SaaS 应用的 Web 应用，以及与以下 Microsoft 产品集成的所有应用：**
+Publisher证明适用于通过合作伙伴中心 (商业市场发布的 SaaS 应用的 Web 应用) 。 SaaS 应用目前处于个人预览状态，如果你有兴趣参与，请填写此 [表单](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)。 证明还包括与以下 Microsoft 产品集成的所有应用：
 - Teams
 - Word
 - Excel

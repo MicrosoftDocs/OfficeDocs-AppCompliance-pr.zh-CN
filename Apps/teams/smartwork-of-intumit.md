@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SmartWork 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f6ed1a9278713153be2ef14d61ad56453ee03fa3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 5a2b3bebbba3c089c32490c1bacac86b258be96c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283196"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528288"
 ---
 # <a name="smartwork"></a>SmartWork
 
@@ -55,8 +55,8 @@ Intumit 的 SmartWork 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 使用 userPrincipalName 标识用户的邮件是否来自有效的 AAD | 登录并读取用户个人资料 | a938ae1e-a791-4751-9e6a-178c991fa0fa |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | 使用 userPrincipalName 标识用户的邮件是否来自有效的 AAD | 登录并读取用户个人资料 | [a938ae1e-a791-4751-9e6a-178c991fa0fa](https://docs.microsoft.com/microsoft-365-app-certification/azure/a938ae1e-a791-4751-9e6a-178c991fa0fa) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -70,7 +70,7 @@ Intumit 的 SmartWork 提供给 Microsoft 的信息：
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 用于标识用户的邮件是否来自有效的 AAD | 用于标识用户是否来自有效 AAD 的已存储用户的邮件列表 |  |
 
 
@@ -78,7 +78,7 @@ Intumit 的 SmartWork 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->不正确。 在对话过程中，我们将使用会话模式进行控制。 使用 id 与 db 中的项相对应，然后访问数据。 我们不会专门记录用户的信息
+>否。 在对话过程中，我们将使用会话模式进行控制。 使用 id 与 db 中的项相对应，然后访问数据。 我们不会专门记录用户的信息
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

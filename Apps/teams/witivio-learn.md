@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 Learn 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 798bd76f786119863f9ff2046e72daa15bcb0696
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f931e75f0a5736ffa49c7366d9928db774c4bdbf
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283346"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527528"
 ---
 # <a name="learn"></a>学习
 
@@ -55,11 +55,11 @@ ms.locfileid: "53283346"
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| User.ReadBasic.All | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| openid | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| 个人资料 | delegated | 无 | 我们将收集授权 UPN 和 AAD ID。 | 8c5c0060-2892-4355-b0db-661f206028a9 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | 不适用 | 我们将收集授权 UPN 和 AAD ID。 | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
+>| User.ReadBasic.All | delegated | 不适用 | 我们将收集授权 UPN 和 AAD ID。 | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
+>| openid | delegated | 不适用 | 我们将收集授权 UPN 和 AAD ID。 | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
+>| 个人资料 | delegated | 不适用 | 我们将收集授权 UPN 和 AAD ID。 | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -73,7 +73,7 @@ ms.locfileid: "53283346"
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 我们使用名单：1) 授权 (授予对自动程序) 的访问权限，2) 检测名字以提供友好 UX;3) 为聊天机器人的业务管理员管理聊天日志 | N/A。 或者自动程序仅个人 |  |
 
 

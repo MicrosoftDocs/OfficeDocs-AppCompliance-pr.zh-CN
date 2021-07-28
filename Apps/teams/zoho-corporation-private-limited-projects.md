@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Zoho Projects 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6e447efd8259b94dbc41eed731912a2288600a5f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: cb0d9ec4caabe3307474e0927adc4a793046a449
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552683"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528338"
 ---
 # <a name="zoho-projects"></a>Zoho Projects
 
@@ -56,17 +56,17 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegated |  | 具有对用户日历的完全访问权限。 | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Files.Read | delegated |  | 读取所有文件。 | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Files.Read.All | delegated |  | 读取用户可以访问的所有文件。 | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Files.Read.Selected | delegated |  | 读取用户选择的文件。 | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Tasks.Read | delegated |  | 读取用户任务。 | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Tasks.ReadWrite | delegated |  | 创建、读取、更新和删除用户任务和项目。 | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Tasks.ReadWrite.Shared | delegated |  | 读取和写入用户任务和共享任务。 | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| User.Read | delegated |  | 登录并读取用户配置文件。 | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| User.ReadBasic.All | delegated |  | 读取所有用户的基本个人资料。 | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| offline_access | delegated |  | 保持对已赋予其访问权限的数据的访问权限。 | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated |  | 具有对用户日历的完全访问权限。 | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Files.Read | delegated |  | 读取所有文件。 | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Files.Read.All | delegated |  | 读取用户可以访问的所有文件。 | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Files.Read.Selected | delegated |  | 读取用户选择的文件。 | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Tasks.Read | delegated |  | 读取用户任务。 | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Tasks.ReadWrite | delegated |  | 创建、读取、更新和删除用户任务和项目。 | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Tasks.ReadWrite.Shared | delegated |  | 读取和写入用户任务和共享任务。 | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| User.Read | delegated |  | 登录并读取用户配置文件。 | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| User.ReadBasic.All | delegated |  | 读取所有用户的基本个人资料。 | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| offline_access | delegated |  | 保持对已赋予其访问权限的数据的访问权限。 | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用

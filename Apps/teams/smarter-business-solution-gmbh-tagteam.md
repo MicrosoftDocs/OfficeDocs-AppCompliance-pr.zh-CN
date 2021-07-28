@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: TagTeam 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b4e3fcf89e816c115887fa5bd0df38cc95d4ae2f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: cd1411cff3f80788bc9a5677f595caad620484e1
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280944"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528308"
 ---
 # <a name="tagteam"></a>TagTeam
 
@@ -56,11 +56,11 @@ Smarter Business Solution GmbH 提供了此信息，这些信息与此应用程�
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| ChannelMessage.Read.All | delegated | 我们不会收集此数据 - 仅用于显示带标记的对话。 我们喜欢将它更改为搜索 API，Graph API 目前不支持此功能。  | 无 | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
->| User.Read | delegated | 显示User-Information (，例如选项卡) 名称 | 无 | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
->| User.ReadBasic.All | delegated | 在User-Avatars选项卡中显示选项卡 | 无 | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
->| openid | delegated | 仅适用于 SignIn - 不存储任何数据 | 无 | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ChannelMessage.Read.All | delegated | 我们不会收集此数据 - 仅用于显示带标记的对话。 我们喜欢将它更改为搜索 API，Graph API 目前不支持此功能。  | 无 | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| User.Read | delegated | 显示User-Information (，例如选项卡) 名称 | 无 | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| User.ReadBasic.All | delegated | 在User-Avatars选项卡中显示选项卡 | 无 | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| openid | delegated | 仅适用于 SignIn - 不存储任何数据 | 无 | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -120,8 +120,8 @@ Smarter Business Solution GmbH 提供了此信息，这些信息与此应用程�
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
-| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
+| 你的应用是否支持条件访问策略？ | 不支持 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |

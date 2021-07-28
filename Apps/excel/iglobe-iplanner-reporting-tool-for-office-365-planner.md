@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: 适用于 Office 365 Planner 的 iPlanner 报告工具的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2b9797eb2b4ec271804711473a77f26a9cce4e13
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 3591c67721188d8dc70bf4f2cf0e34bdb9ffc506
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281144"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526048"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>适用于 Planner 的 iPlanner Office 365工具
 
@@ -53,18 +53,18 @@ iGlobe 提供给 Microsoft 的信息：
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 在用户创建日历条目&#8217;任务截止日期的日历。 |  |
->| Directory.AccessAsUser.All | delegated | 应用程序数据库中不存储任何数据。 | 检查用户是否同意并有权访问使用 API。 |  |
->| Directory.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 若要获取计划工具任务Outlook 微软待办，请标记电子邮件并更新它们。 创建新的 Planner 任务。 |  |
->| Files.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 以附件形式访问文件，将文件上载到任务。 |  |
->| Group.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 获取计划列表并更新任务。 |  |
->| Group.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 若要获取规划器任务并添加新任务，请更新存储桶和线条。 |  |
->| Mail.Read | delegated | 应用程序数据库中不存储任何数据。 | User.Read，用于获取计划工具任务Outlook 微软待办标记的电子邮件并更新它们。 创建新的 Planner 任务 |  |
->| Mail.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 显示邮件并发送邮件。 |  |
->| Mail.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 从所选邮件获取邮件主题。 允许应用从选定的电子邮件获取信息，从而允许将说明字段复制到任务说明中，并允许将附件从邮件或邮件本身保存到任务。 发送通知。 |  |
->| Tasks.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 若要使登录用户Outlook 微软待办 User.Read，若要获取计划工具任务Outlook 微软待办标记的电子邮件并更新它们。 创建新的 Planner 任务。 |  |
->| User.Read | delegated | 应用程序数据库中不存储任何数据。 | 登录并读取用户个人资料 |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 在用户创建日历条目&#8217;任务截止日期的日历。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Directory.AccessAsUser.All | delegated | 应用程序数据库中不存储任何数据。 | 检查用户是否同意并有权访问使用 API。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Directory.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 若要获取计划工具任务Outlook 微软待办，请标记电子邮件并更新它们。 创建新的 Planner 任务。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 以附件形式访问文件，将文件上载到任务。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Group.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 获取计划列表并更新任务。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Group.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 若要获取规划器任务并添加新任务，请更新存储桶和线条。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.Read | delegated | 应用程序数据库中不存储任何数据。 | User.Read，用于获取计划工具任务Outlook 微软待办标记的电子邮件并更新它们。 创建新的 Planner 任务 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 显示邮件并发送邮件。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 从所选邮件获取邮件主题。 允许应用从选定的电子邮件获取信息，从而允许将说明字段复制到任务说明中，并允许将附件从邮件或邮件本身保存到任务。 发送通知。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Tasks.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 若要使登录用户Outlook 微软待办 User.Read，若要获取计划工具任务Outlook 微软待办标记的电子邮件并更新它们。 创建新的 Planner 任务。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | delegated | 应用程序数据库中不存储任何数据。 | 登录并读取用户个人资料 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -93,7 +93,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

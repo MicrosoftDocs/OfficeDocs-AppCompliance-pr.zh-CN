@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: PlayQuiz 的所有可用安全性和合规性信息 - Aprende Juega、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全 &amp; /合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 76593cbcaa9d4284fab7b90e887090254d4ca414
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 2d538edf2b96311ea7f2611a33d2362786453ee3
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852041"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528138"
 ---
-# <a name="playquiz---aprende-amp-juega"></a>PlayQuiz - Aprende &amp; Juega
+# <a name="playquiz---aprende-amp-juega"></a>PlayQuiz - 四月 &amp; 僅
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Teams在 Microsoft 中提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | PlayQuiz - Aprende &amp; Juega |
+| 应用名称 | PlayQuiz - 四月 &amp; 僅 |
 | ID | WA200002820 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | TeamsChamp |
@@ -55,12 +55,12 @@ Teams在 Microsoft 中提供的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | 用户的姓名、电子邮件和个人资料图片 | 电子邮件，用于sing into the app and name to display it in the app | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| User.ReadBasic.All | delegated | 姓名、电子邮件和个人资料图片 | 不存储该数据，仅读取该数据，以将其显示在 leaderboad (应用程序)  | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| openid | delegated | 查看用户的基本个人资料 | 电子邮件，用于在应用中进行 sing，并命名以在应用中显示它 | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| 个人资料 | delegated | 读取用户基本配置文件 | 电子邮件，用于在应用中进行 sing，并命名以在应用中显示它 | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | 用户的姓名、电子邮件和个人资料图片 | 电子邮件，用于sing into the app and name to display it in the app | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| User.ReadBasic.All | delegated | 姓名、电子邮件和个人资料图片 | 不存储该数据，仅读取该数据，以将其显示在 leaderboad (应用程序)  | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| openid | delegated | 查看用户的基本个人资料 | 电子邮件，用于在应用中进行 sing，并命名以在应用中显示它 | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| 个人资料 | delegated | 读取用户基本配置文件 | 电子邮件，用于在应用中进行 sing，并命名以在应用中显示它 | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -118,15 +118,15 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 支持 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 支持 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 支持 |
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 不支持 |
-| 应用是否请求方案最小特权权限？ | 支持 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 支持 |
-| 你的应用是否支持多租户？ | 支持 |
-| 你的应用是否具有机密客户端？ | 支持 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 支持 |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 是 |
+| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 不支持 |
 | 你的应用是否使用预览 API？ | 不支持 |

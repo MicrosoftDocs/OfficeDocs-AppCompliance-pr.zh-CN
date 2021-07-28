@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于实时聊天的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 41df26af03dd56fb89ce316ecaa61d7af3ae7bf5
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: d1e546a5cb1cd375ec3645fd70daa07791f88027
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280924"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528268"
 ---
 # <a name="live-chat"></a>Live Chat
 
@@ -68,7 +68,7 @@ ms.locfileid: "53280924"
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 当团队成员单击"加入聊天"时，我们使用成员电子邮件来标识接受聊天的代理配置文件。 | 接受实时聊天的团队成员的电子邮件和姓名存储在聊天历史记录数据库中。 |  |
 
 

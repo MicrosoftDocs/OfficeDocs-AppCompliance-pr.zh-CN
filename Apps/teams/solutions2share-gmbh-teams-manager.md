@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 Teams Manager 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fbca7409c87bed006a18b31d7de2fa43afd9b95f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0f135c14a96849a21ebf424b152a257df8e5e9e9
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283186"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528258"
 ---
 # <a name="teams-manager"></a>Teams Manager
 
@@ -55,12 +55,12 @@ Solutions2Share GmbH 提供了此信息，这些信息与此应用程序如何�
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | 两者 | 我们将存储 TenantID 和 TeamId 以映射模板。  | 允许列出Teams并创建Teams。 | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| Notes.ReadWrite.All | 应用程序 | 无 | 允许应用将笔记本添加到已批准的团队。 | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.Read | delegated | 无 | 允许用户登录并授予应用对 UPN 的访问权限，以启用无提示登录。 | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.Read.All | 两者 | 我们保存在审批者/管理员部分中输入的用户的 ID。 | 列出所有用户，以在应用内的人员选取器中显示它们。 | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.ReadBasic.All | delegated | 无 | 列出所有用户，以在应用内的人员选取器中显示它们。 | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | 两者 | 我们将存储 TenantID 和 TeamId 以映射模板。  | 允许列出Teams并创建Teams。 | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| Notes.ReadWrite.All | 应用程序 | 无 | 允许应用将笔记本添加到已批准的团队。 | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.Read | delegated | 无 | 允许用户登录并授予应用对 UPN 的访问权限，以启用无提示登录。 | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.Read.All | 两者 | 我们保存在审批者/管理员部分中输入的用户的 ID。 | 列出所有用户，以在应用内的人员选取器中显示它们。 | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.ReadBasic.All | delegated | 无 | 列出所有用户，以在应用内的人员选取器中显示它们。 | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -93,7 +93,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>不支持
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
