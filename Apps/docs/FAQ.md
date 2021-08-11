@@ -1,19 +1,19 @@
 ---
-title: 发布者证明常见问题解答
+title: Publisher证明常见问题解答
 author: LGerrard
 ms.author: Legerrar
-description: 发布者证明常见问题解答
+description: Publisher证明常见问题解答
 keywords: 应用证明认证 365 调查表 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1606195453c232f06fe58a6518e289c13907ed15
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 44898296bede4b34837ee18726164a636cc05824aa1710f273a4cc822b448953
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52070974"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54747692"
 ---
-# <a name="publisher-attestation-faq"></a>发布者证明常见问题解答
+# <a name="publisher-attestation-faq"></a>Publisher证明常见问题解答
 
 |问题                                       |扩展定义                          |
 |----------------------------------------       |---------------------------------------------|
@@ -21,18 +21,18 @@ ms.locfileid: "52070974"
 |什么是公司网站 URL？   |指向公司或应用程序的主页的 URL|
 |应用的信息页面的 URL 是什么？ |概述有关应用程序详细信息的页面的 URL。 用户在哪里可以了解有关应用程序详细信息？ 如果没有此页面，请标记"N/A"。 |
 |应用类别？ |根据与应用相关的字段对应用分类 |
-|如何在 500 个字符 (描述) 应用程序的核心服务？|以 500 个字符或更少（包括应用系列中所有集成）描述应用。 例如， 如果你有 Teams，并且 Outlook 集成没有提供 Teams 应用的特定说明，而是提供适用于这两个应用的说明。 如果公司具有任何平台（例如）多个集成，这应该是一个非常一般的说明，而不是特定于工作负荷的。 Slack、Outlook、Teams、Web App、移动应用。 |
+|如何在 500 个字符 (描述) 应用程序的核心服务？|以 500 个字符或更少（包括应用系列中所有集成）描述应用。 例如， 如果你有一个Teams并且Outlook集成不会提供有关 Teams 应用的特定说明，而是提供适用于这两个应用的说明。 如果公司具有任何平台（例如）多个集成，这应该是一个非常一般的说明，而不是特定于工作负荷的。 Slack、Outlook、Teams、Web App、移动应用。 |
 |开发人员的公司位于哪些国家/地区？|这是需要的，因为它与适用于不同的国家/地区的数据处理做法和法规相关。 |
 |贵公司建立年份？|如果未合并，请标记为 N/A。|
 |应用程序使用的唯一域是什么？|提供程序的标识字符串，用于定义其管理自主性、权威或控制在 Internet 中的领域。 响应应包括 Web 地址。 如果有多个，请用逗号隔开。|
 |用于登录的 URL 是什么？|提供一个登录页，其中可能包含弹出窗口的 URL（如果适用）。 订阅者可以登录到应用程序的唯一 URL。 如果没有，请标记"N/A"。|
 |托管云服务提供商的名称是什么？|示例包括：Microsoft Azure、Amazon AWS、Google...这还可以包括公司的独特解决方案。 |
-|应用是否使用 Microsoft Graph 权限？ |Azure AD 为应用分配唯一的应用程序或客户端 ID。 该门户将打开应用程序的"概述"页。 若要向应用程序添加功能，可以选择其他配置选项，包括品牌、证书和密码、API 权限等。 链接到页面。|
-|Microsoft Graph 权限|下面是可接受的权限列表。 https://docs.microsoft.com/graph/permissions-reference#directory-permissions |
+|应用是否使用 Microsoft Graph权限？ |Azure AD 为应用分配唯一的应用程序或客户端 ID。 该门户将打开应用程序的"概述"页。 若要向应用程序添加功能，可以选择其他配置选项，包括品牌、证书和密码、API 权限等。 链接到页面。|
+|Microsoft Graph权限|下面是可接受的权限列表。 https://docs.microsoft.com/graph/permissions-reference#directory-permissions |
 |此应用使用哪些 Azure 应用程序 ID？|Azure AD 为应用分配唯一的应用程序或客户端 ID。 该门户 https://portal.azure.com/ 将打开应用程序的"概述"页。 若要向应用程序添加功能，可以选择其他配置选项，包括品牌、证书和密码、API 权限等。 |
 |权限类型是什么？|"委派权限由具有登录用户的应用使用。 对于这些应用，用户或管理员同意应用请求的权限，并且应用可在调用 Microsoft Graph 时充当已登录的用户。 一些委派权限可由非管理用户同意，但一些特权级别更高的权限需要管理员同意。                                应用程序权限由无需用户登录即可运行的应用使用；例如，作为后台服务或守护程序运行的应用。 应用程序权限只能由管理员同意。                                                                           https://docs.microsoft.com/graph/auth/auth-concepts#microsoft-graph-permissions"|
 |收集或使用了哪些数据？  添加收集数据或使用数据的理由。|示例可以在我们的文档页面上找到，单击应用，单击数据处理 https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps ，你可以看到其他理由的示例。 |
-|应用在其数据库中存储哪些数据？  添加用于存储数据的理由，包括应用场景和示例（如果适用）。 |此证明是否适用于具有自动程序功能的 Teams 应用？ https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots|
+|应用在其数据库中存储哪些数据？  添加用于存储数据的理由，包括应用场景和示例（如果适用）。 |此证明是否适用于Teams自动程序功能的应用？https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots|
 |机器人能否访问个人身份信息 (个人身份) ？|PII 是可用于标识特定人员的任何数据。 例如， 姓名、电子邮件地址。|
 |添加访问 PII 的理由。|可在我们的文档页面上找到示例，单击某个应用，单击"数据处理"，即可查看通过机器人访问数据的其他 https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps 理由的示例。|
 |正在存储哪些 PII？|个人身份信息 (PII) 是可用于标识特定人员的任何数据。 例如， 姓名、电子邮件地址。|
@@ -40,8 +40,8 @@ ms.locfileid: "52070974"
 |列出应用通过这些 (收集) OII 的任何组织可识别信息。 |OII 是可用于标识组织/租户的任何数据。 例如， 租户 ID 或 IP 地址、租户使用情况数据、电子邮件地址中的租户 (joe@contoso.com) 。|
 |应用程序将存储哪些类型的 OII？|OII (组织可识别) 信息是可用于标识组织/租户的任何数据。 例如， 租户 ID 或 IP 地址、租户使用情况数据、电子邮件地址中的租户 (joe@contoso.com) 。|
 |添加 OII 存储理由。|为什么需要存储组织可识别信息？ |
-|您是否通过非 Microsoft 服务 (EUII) 或 OII 传输或共享最终用户可识别信息？|EUII 是可用于标识客户数据的任何数据。 例如， 员工用户名或 ID、人员的位置信息、用户特定的 IP 地址。 |
-|列出将 OII 转移到的所有非 Microsoft 服务。|例如， Google Cloud， AWS|
+|您是否与非 EUII (或 OII) 或共享最终用户可识别Microsoft 服务？|EUII 是可用于标识客户数据的任何数据。 例如， 员工用户名或 ID、人员的位置信息、用户特定的 IP 地址。 |
+|列出将 OII Microsoft 服务的所有非活动。|例如， Google Cloud， AWS|
 |描述组织的管理员如何控制他们在合作伙伴系统中的信息？|例如， 加密、2FA|
 |用户能否对应用内的数据进行分类？ |例如， Restricted、Confidential、Interal、Public |
 |多重身份验证|MFA (多重) 身份验证是一种通过要求多个凭据来验证用户身份的安全策略。 MFA 不仅要求输入用户名和密码，还需要其他凭据，如用户智能手机中的代码、安全问题答案、指纹或面部识别。|
@@ -87,7 +87,7 @@ ms.locfileid: "52070974"
 
 ## <a name="learn-more"></a>了解详细信息
 
-* [Microsoft 365 应用合规性计划概述](~/overview.md)  
-* [完成发布者验证](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
-* [什么是发布者证明？](~/docs/enterprise-app-attestation-guide.md)  
-* [完成 Microsoft 365 认证](~/docs/certification.md)
+* [Microsoft 365应用合规性计划概述](~/overview.md)  
+* [完成Publisher验证](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
+* [什么是Publisher证明？](~/docs/enterprise-app-attestation-guide.md)  
+* [完成Microsoft 365认证](~/docs/certification.md)
