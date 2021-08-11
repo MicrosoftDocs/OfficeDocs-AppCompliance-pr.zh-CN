@@ -7,12 +7,12 @@ ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Project信息。
 localization_priority: Normal
-ms.openlocfilehash: 0bf22d14bded882899e70c2fb14ca8f32e552624
-ms.sourcegitcommit: 2785ea8a6c1b1af129dea2cbe833de98659e3b2d
+ms.openlocfilehash: 5a6913df4fb7433283637b95474886042d58690c18bc9018469c3aa0d36b3a0e
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53547880"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54802928"
 ---
 # <a name="microsoft-project-apps-security-and-compliance"></a>Microsoft Project应用安全性和合规性
 
