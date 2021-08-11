@@ -6,12 +6,12 @@ description: Microsoft 365认证提交指南粒度视图
 keywords: 应用认证团队Microsoft 365合规性 m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: dd3a61b6b9768c278cd7d48dd88847ea9ee56421
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: 31c974a20e17daa0436826432429bd664a9a1f59dee6b351b587ae0b30cc6bac
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315122"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54750533"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365认证提交指南
 

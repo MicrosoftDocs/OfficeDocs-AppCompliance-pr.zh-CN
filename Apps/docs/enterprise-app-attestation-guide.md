@@ -6,12 +6,12 @@ description: 有关证明Publisher的详细信息
 keywords: 应用证明认证 365 调查表 appSource 发布者
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 10b4bb59d26190535b9aa365c830db774f4865c063678fad02a10c73c6d1ef64
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526098"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54750452"
 ---
 # <a name="what-is-publisher-attestation"></a>什么是Publisher证明？
 

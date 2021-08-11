@@ -6,16 +6,16 @@ description: 适用于应用合规性Microsoft 365 SaaS 的 ISV 用户指南
 keywords: 适用于应用合规性Microsoft 365 SaaS 的 ISV 用户指南
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: b3b8c37a1babf2f941f5764fddd30523319d9a34
-ms.sourcegitcommit: f6f3551bf1c00013efb6313ca3dc280de697137d
+ms.openlocfilehash: 39eed9158ab9cbaa5e26efe036c98fc2ab2b1695d615d8b28930f0d8d4735430
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53202750"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54801324"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>适用于应用合规性计划Microsoft 365合作伙伴的用户指南 - SaaS
 
-|阶段|Title|
+|阶段|标题|
 |---|---|
 |阶段 1| 发布者证明|
 |阶段 2| Microsoft 365 认证|
@@ -75,7 +75,7 @@ ms.locfileid: "53202750"
   
 **批准/拒绝方案：**
   
-A. Publisher证明拒绝
+答： Publisher证明拒绝
 - 如果拒绝，合作伙伴可以：
      - 查看故障报告
           - 合作伙伴将通过电子邮件收到通知，他们可以查看合作伙伴中心中的故障报告

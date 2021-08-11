@@ -1,43 +1,43 @@
 ---
-title: ngDesk 的所有蓝色解决方案的应用程序信息
+title: SmartCite for Papers by Digital Science 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/28/2021
+ms.date: 05/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: ngDesk 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: SmartCite for Papers 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a0d3f507338a8ef504df171542d0fa8c25c37efc
+ms.openlocfilehash: f039eb5f2fd2cedc6110e380a5830a71472d600e
 ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772109"
+ms.locfileid: "53774865"
 ---
-# <a name="ngdesk"></a>ngDesk
+# <a name="smartcite-for-papers"></a>SmartCite for Papers
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 7 月 28 日</p>
+<p>开发人员上次更新时间：2021 年 5 月 29 日</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200002505" target="_blank">在 AppSource 中查看</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104380917" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-所有蓝色解决方案提供给 Microsoft 的信息：
+数字科学提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | ngDesk |
-| ID | WA200002505 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
-| 合作伙伴公司名称 | 所有蓝色解决方案 |
-| 合作伙伴网站的 URL | [https://ngdesk.com](https://ngdesk.com) |
-| 隐私策略的 URL | [https://ngdesk.com/privacy-policy-office-365/](https://ngdesk.com/privacy-policy-office-365/) |
-| 使用条款 URL | [https://ngdesk.com/terms-of-service/](https://ngdesk.com/terms-of-service/) |
+| 应用名称 | SmartCite for Papers |
+| ID | WA104380917 |
+| Office 365支持的客户端 | Word 2016 Mac 或更高版本，Word 2016或更高版本Windows Word web 版 |
+| 合作伙伴公司名称 | 数字科学 |
+| 合作伙伴网站的 URL | [https://papersapp.com](https://papersapp.com) |
+| 隐私策略的 URL | [https://www.papersapp.com/privacy](https://www.papersapp.com/privacy) |
+| 使用条款 URL | [https://www.papersapp.com/terms](https://www.papersapp.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,7 +47,7 @@ ms.locfileid: "53772109"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-所有蓝色解决方案都提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+此信息由数字科学提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -55,6 +55,13 @@ ms.locfileid: "53772109"
 
 >此应用程序不使用 Microsoft Graph。
 
+#### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
+
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+
+>| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| 对话框 API、Word API | 否 |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
@@ -68,13 +75,13 @@ ms.locfileid: "53772109"
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->应用程序遥测或日志中不显示 OII 或 EUII。
+>电子邮件地址。 我们将日志存储 30 天
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们不会向其他合作伙伴系统发送数据
+>Enterprise组织可以启用 SSO 以从系统中删除已加验证和哈希处理的密码
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -90,9 +97,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/42197' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/42197" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -102,7 +109,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-所有蓝色解决方案都提供了此信息，这些信息与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
+此信息由 Digital Science 提供，用于了解此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
 
 | **Information** | **响应** |
 |:----------------|:-------------|

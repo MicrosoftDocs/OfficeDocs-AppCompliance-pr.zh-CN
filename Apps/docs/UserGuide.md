@@ -6,16 +6,16 @@ description: 适用于应用合规性计划的 ISV Microsoft 365指南
 keywords: 适用于应用合规性计划的 ISV Microsoft 365指南
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1da6de6ee6664bb868a2184be538a8e5bbc65ab2
-ms.sourcegitcommit: f6f3551bf1c00013efb6313ca3dc280de697137d
+ms.openlocfilehash: 74bb654b6084319122e0f9388792cf44d85ca4a664ce89bf308982a29cbfdfc8
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53202539"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54801653"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>适用于应用合规性计划Microsoft 365合作伙伴的用户指南
 
-|阶段|Title|
+|阶段|标题|
 |---|---|
 |阶段 1| 发布者证明|
 |阶段 2| Microsoft 365 认证|

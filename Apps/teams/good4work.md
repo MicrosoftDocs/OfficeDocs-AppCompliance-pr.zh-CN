@@ -1,43 +1,45 @@
 ---
-title: ngDesk 的所有蓝色解决方案的应用程序信息
+title: Good4work 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/28/2021
+ms.date: 06/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: ngDesk 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Good4work 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a0d3f507338a8ef504df171542d0fa8c25c37efc
+ms.openlocfilehash: 3d6854fcf2b53d1eb7baefb2f64d258365d5bdaf
 ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772109"
+ms.locfileid: "53774868"
 ---
-# <a name="ngdesk"></a>ngDesk
+# <a name="good4work"></a>Good4work
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 7 月 28 日</p>
+<p>开发人员上次更新时间：2021 年 6 月 15 日</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200002505" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/d1493af7-8634-4b6a-8cbe-eeb23c6724f4" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002962" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-所有蓝色解决方案提供给 Microsoft 的信息：
+Good4work 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | ngDesk |
-| ID | WA200002505 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
-| 合作伙伴公司名称 | 所有蓝色解决方案 |
-| 合作伙伴网站的 URL | [https://ngdesk.com](https://ngdesk.com) |
-| 隐私策略的 URL | [https://ngdesk.com/privacy-policy-office-365/](https://ngdesk.com/privacy-policy-office-365/) |
-| 使用条款 URL | [https://ngdesk.com/terms-of-service/](https://ngdesk.com/terms-of-service/) |
+| 应用名称 | Good4work |
+| ID | WA200002962 |
+| Office 365支持的客户端 | Microsoft Teams |
+| 合作伙伴公司名称 | Good4work |
+| 合作伙伴网站的 URL | [https://good4work.com/#product](https://good4work.com/#product) |
+| "Teams应用程序信息"页的 URL | [https://good4work.com/support/](https://good4work.com/support/) |
+| 隐私策略的 URL | [https://good4work.com/privacy-policy/](https://good4work.com/privacy-policy/) |
+| 使用条款 URL | [https://good4work.com/good4work-terms/](https://good4work.com/good4work-terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,7 +49,7 @@ ms.locfileid: "53772109"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-所有蓝色解决方案都提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+此信息由 Good4work 提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -62,6 +64,11 @@ ms.locfileid: "53772109"
 
 >不Microsoft 服务非活动。
 
+#### <a name="data-access-via-bots"></a>通过机器人访问数据
+
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+
+>无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -74,13 +81,13 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们不会向其他合作伙伴系统发送数据
+>用户数据可通过管理门户访问， (Django 仪表板) 仅对后端开发管理员和 CEO 具有有限访问权限
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>是
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -90,9 +97,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/42196' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/42196" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -102,7 +109,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-所有蓝色解决方案都提供了此信息，这些信息与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
+此信息由 Good4work 提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
