@@ -1,45 +1,45 @@
 ---
-title: Derdack SIGNL4 的 SIGNL4 的应用程序信息
+title: 按百分位显示的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: SIGNL4 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 所有 Available security and compliance information for 一切 Available security and compliance information for Windows、 its data handling policies， its Microsoft Cloud App Security app catalog information， and security/compliance information in the CSA STAR registry.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4cf1eae6ef533a1e744ca3c2968764fed0227d00
+ms.openlocfilehash: 8ba6c9b80db76c43793c42d2265fc563402e39cd
 ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243527"
+ms.locfileid: "58239740"
 ---
-# <a name="signl4"></a>SIGNL4
+# <a name="marvel"></a>奇迹
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 8 月 6 日</p>
+<p>开发人员上次更新时间：2021 年 6 月 22 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/bd19c878-00b7-47cd-9b65-74a2def84427" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001239" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/2e7fb70e-f75d-4e85-997e-90ce89000f43" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381801" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-Derdack SIGNL4 提供给 Microsoft 的信息：
+由 Microsoft 的 Microsoft 提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | SIGNL4 |
-| ID | WA200001239 |
+| 应用名称 | 奇迹 |
+| ID | WA104381801 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Derdack SIGNL4 |
-| 合作伙伴网站的 URL | [https://www.derdack.com](https://www.derdack.com) |
-| Teams信息页的 URL | [https://www.signl4.com](https://www.signl4.com) |
-| 隐私策略的 URL | [https://www.signl4.com/privacy-policy/](https://www.signl4.com/privacy-policy/) |
-| 使用条款 URL | [https://www.signl4.com/terms_of_use/](https://www.signl4.com/terms_of_use/) |
+| 合作伙伴公司名称 | 奇迹 |
+| 合作伙伴网站的 URL | [https://marvelapp.com](https://marvelapp.com) |
+| Teams信息页的 URL | [https://marvelapp.com](https://marvelapp.com) |
+| 隐私策略的 URL | [https://marvelapp.com/privacy/](https://marvelapp.com/privacy/) |
+| 使用条款 URL | [https://marvelapp.com/terms/](https://marvelapp.com/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Derdack SIGNL4 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Derdack SIGNL4 提供，用于了解此应用如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由一位用户提供，这些信息是有关此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -62,9 +62,7 @@ Derdack SIGNL4 提供给 Microsoft 的信息：
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Recurly、Twilio | 递归，电子邮件地址、电子邮件地址是在客户使用应用时向客户发送帐单通知的必需项。 Twilio，电话号码，通过短信发送通知的警报内容 | Azure 管理 API，收集 Azure Monitor 警报，收集发生，因为系统会发送这些警报的通知 |
+>不Microsoft 服务非活动。
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -77,14 +75,13 @@ Derdack SIGNL4 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->电子邮件地址信息包含在日志中。 此外，组织提交的其他警报内容数据也可能包含在日志中。 为了防止这种情况，组织可以终止应用中的帐户。
-为了支持客户对应用的问题进行故障排除，日志中的数据是必需的。
+>应用程序遥测或日志中不显示 OII 或 EUII。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->数据存储在欧洲的 Azure 数据中心。 管理员可以访问它。 2FA 使用 AAD 身份验证。 存储帐户的访问键还用于管理访问。
+>我们通过由客户团队管理的自动化脚本和集成，将所有合作伙伴系统同步到 GDPR 职责。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -100,9 +97,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35955' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/32883' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35955" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/32883" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -112,23 +109,22 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 Derdack SIGNL4 提供，用于说明此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+此信息由一位用户提供的，这些信息是有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
 | 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/><br/> |
 | 你的应用是否公开任何 Web API？ | 是 |
 | 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用预览 API？ | 是 |
 | 你的应用是否使用已弃用 API？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

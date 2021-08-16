@@ -2,24 +2,24 @@
 title: 按社交意图执行实时聊天的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 08/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 用于实时聊天的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d1e546a5cb1cd375ec3645fd70daa07791f88027
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+description: 实时聊天的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 52b8aa65ce11acbe157d61bd46a6f0fee67f9bc6
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528268"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243541"
 ---
 # <a name="live-chat"></a>Live Chat
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2019 年 12 月 16 日</p>
+<p>开发人员上次更新时间：2021 年 8 月 9 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/a55635a5-8def-48e7-bcff-230cd43d3405" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000440" target="_blank">在 AppSource 中查看</a>
@@ -37,8 +37,9 @@ ms.locfileid: "53528268"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Social Intents |
 | 合作伙伴网站的 URL | [https://www.socialintents.com](https://www.socialintents.com) |
-| 隐私策略的 URL | []() |
-| 使用条款 URL | []() |
+| Teams信息页的 URL | [https://www.socialintents.com/teams-live-chat.jsp](https://www.socialintents.com/teams-live-chat.jsp) |
+| 隐私策略的 URL | [https://www.socialintents.com/privacy.html](https://www.socialintents.com/privacy.html) |
+| 使用条款 URL | [https://www.socialintents.com/tos.html](https://www.socialintents.com/tos.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -69,14 +70,14 @@ ms.locfileid: "53528268"
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 当团队成员单击"加入聊天"时，我们使用成员电子邮件来标识接受聊天的代理配置文件。 | 接受实时聊天的团队成员的电子邮件和姓名存储在聊天历史记录数据库中。 |  |
+>| 当团队成员单击"加入聊天"时，我们使用成员电子邮件来标识接受聊天的代理配置文件。 | 接受实时聊天的团队成员的电子邮件和姓名存储在聊天历史记录数据库中。 | 可以选择收集供客户使用的信息，并且客户可以在其聊天售前问题设置中完全禁用这些信息。 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->电子邮件和名称可能会显示在每天删除/删除的每日日志中。
+>电子邮件和名称可能会显示在每小时删除/删除的每日日志中。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -84,6 +85,11 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 >数据存储在受 IP 和 2FA 限制的安全 RDS 实例中。
 
+#### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
+
+是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
+
+>是
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -101,3 +107,16 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>标识信息
+
+此信息由社交意图提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

@@ -2,24 +2,24 @@
 title: 供 Lundano Org@Work的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/22/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息Org@Work、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2c1cfec539c8db4ddd597b8125079521d40615c4
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 81e59d53704529ed26aa6760f3cd00799f77deaa
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521405"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58241259"
 ---
 # <a name="orgwork"></a>Org@Work
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 3 月 22 日</p>
+<p>开发人员上次更新时间：2021 年 8 月 10 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/b9f5d3b0-424e-473d-bcbe-dd01f17f9a41" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002461" target="_blank">在 AppSource 中查看</a>
@@ -37,7 +37,7 @@ Lundano 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Lundano |
 | 合作伙伴网站的 URL | [https://www.lundano.com/en/](https://www.lundano.com/en/) |
-| "Teams应用程序信息"页的 URL | [https://www.lundano.com/orgatwork/index.html#](https://www.lundano.com/orgatwork/index.html#) |
+| Teams信息页的 URL | [https://www.lundano.com/orgatwork/index.html#](https://www.lundano.com/orgatwork/index.html#) |
 | 隐私策略的 URL | [https://cp.lundano.com/privacy_en.html](https://cp.lundano.com/privacy_en.html) |
 | 使用条款 URL | [https://cp.lundano.com/Terms_en.html](https://cp.lundano.com/Terms_en.html) |
 
@@ -58,10 +58,10 @@ Lundano 提供了此信息，这些信息与此应用程序如何收集和存储
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | 我们存储数据。 我们只需使用数据将用户登录到Org@work | 无 | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
->| email | delegated | 我们存储数据。 我们只需使用数据将用户登录到Org@work | 无 | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
+>| 电子邮件 | delegated | 我们存储数据。 我们只需使用数据将用户登录到Org@work | 无 | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
 >| offline_access | delegated | 我们存储数据。 我们只需使用数据将用户登录到Org@work | 无 | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
 >| openid | delegated | 我们存储数据。 我们只需使用数据将用户登录到Org@work | 无 | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
->| 个人资料 | delegated | 我们存储数据。 我们只需使用数据将用户登录到Org@work | 无 | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
+>| profile | delegated | 我们存储数据。 我们只需使用数据将用户登录到Org@work | 无 | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -95,7 +95,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -122,18 +122,18 @@ Lundano 已提供有关此应用如何处理身份验证、授权、应用程序
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 员工、规划经理和管理员 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 不支持 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你的应用是否具有机密客户端？ | 否 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 不支持 |
-| 你的应用是否使用预览 API？ | 不支持 |
+| 你的应用是否公开任何 Web API？ | 否 |
+| 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

@@ -2,17 +2,17 @@
 title: Microsoft Excel应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Excel信息。
 localization_priority: Normal
-ms.openlocfilehash: 708661d07e98e4eaa99ca9b28aafaa65006b944ef712e6222d0e4424ea5b9ce4
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: d8030712f76cdff731c7ff17c94e2e89c5def494
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54801848"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243461"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel应用安全性和合规性
 
@@ -35,3 +35,4 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [QuickCells 规划求解](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |
 | [Sheetgo](./sheetgo-europe-sl.md) | SHEETGO EUROPE SL | **✓** |  |
 | [Wunder365 for Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |
+| [XBRL 归档数据](./xbrl-us-filed-data.md) | XBRL US | **✓** |  |

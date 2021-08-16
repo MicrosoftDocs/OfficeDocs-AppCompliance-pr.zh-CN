@@ -2,26 +2,26 @@
 title: Microsoft SharePoint 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/05/2021
+ms.date: 08/06/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft 应用的所有可用安全性和合规性SharePoint信息。
 localization_priority: Normal
-ms.openlocfilehash: f1cd651728f42db27b312ce27aa9b1213ae649f1f977461222edb138038a8957
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: f5feb7de008c94feeec4affd89d54b78d057847c
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54803018"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58241365"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Microsoft SharePoint 应用安全与合规
 
-Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关 Microsoft SharePoint 应用和外接程序的决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速做出有关 Microsoft SharePoint 应用和外接程序的决策时需要的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [适用于 SharePoint Online 的敏捷任务板](./agile-is-task-board-for-sharepoint-online.md) | Agile-IS | **✓** |  |
-| [Arc功能区地图](./esri-inc-arcgis-maps.md) | 如果为Insi，则使用 | **✓** |  |
+| [ArcGIS 地图](./esri-inc-arcgis-maps.md) | 如果为Insi，则使用 | **✓** |  |
 | [FormMachines 连接器SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | 企业数字计算机 PTY LTD | **✓** |  |
 | [Gaggle for SharePoint](./gagglenet-inc-gaggle-for-sharepoint.md) | Gaggle.net， Inc. | **✓** |  |
 | [iGlobe CRM 加载项](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
