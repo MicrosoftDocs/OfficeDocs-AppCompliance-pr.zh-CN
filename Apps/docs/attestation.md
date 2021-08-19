@@ -6,12 +6,12 @@ description: 有关证明Publisher程序详细信息
 keywords: 应用证明认证 365 调查表 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: ad059066c4685cf72e5d0b76b10b5d9ca22b6df9
-ms.sourcegitcommit: dc086ac579e488a38bad3dad10037d43af7efd55
+ms.openlocfilehash: 286d14e580bdb9f24ccf1754685ebeeaef6d0c11
+ms.sourcegitcommit: eae0e45c87fa8f1a87257e1e38122228e6970ba9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/18/2021
-ms.locfileid: "58385868"
+ms.locfileid: "58390456"
 ---
 # <a name="complete-publisher-attestation"></a>完成Publisher证明
 
@@ -32,12 +32,12 @@ Publisher证明适用于通过合作伙伴中心 (商业市场发布的 Web 应�
 
 
 ## <a name="program-benefits"></a>计划权益
-- 节省时间。 将客户指向您的文档页面，他们可在其中找到有关应用程序的常见问题的回复
-- 加快企业组织的安全性和合规性内部审阅时间线
-- 增强的透明度
-- 与应用商店中其他应用的差异 
-- 从 AppSource 中的条目、Teams管理中心、Microsoft 管理中心和应用商店Teams文档页面 
-- 开始认证Microsoft 365资格
+- 节省时间。 将客户指向您的文档页面，他们可在其中找到有关应用程序的常见问题的回复。
+- 加快企业组织的安全性和合规性内部审阅时间线。
+- 透明度提高。
+- 与应用商店中其他应用的差异。 
+- 从 AppSource 中的条目、Teams管理中心、Microsoft 管理中心和应用商店中链接到Teams页面。 
+- 开始认证Microsoft 365资格。
  
 
 ## <a name="publisher-attestation-process"></a>Publisher证明过程
