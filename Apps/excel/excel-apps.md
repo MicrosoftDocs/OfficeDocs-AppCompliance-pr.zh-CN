@@ -2,17 +2,17 @@
 title: Microsoft Excel应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/11/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Excel信息。
 localization_priority: Normal
-ms.openlocfilehash: d8030712f76cdff731c7ff17c94e2e89c5def494
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.openlocfilehash: b039a772748821cad11fbb8d0f9d65e94b544cc5
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243461"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672879"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel应用安全性和合规性
 
@@ -20,6 +20,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
+| [B2B 合作伙伴的 Canon EMEA 服务成本计算器](./canon-emea-service-cost-calculator-for-b2b-partners.md) | Canon EMEA | **✓** |  |
 | [CloudExtend Analytics for NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | 为 CloudExtend | **✓** |  |
 | [Excel到 Word 文档自动化](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [harmon.ie Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |

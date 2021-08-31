@@ -2,23 +2,23 @@
 title: ELEARNINGFORCE International 的 LMS365 应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/18/2021
+ms.date: 07/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: LMS365 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4a4690496c4da8fd31de70bfa796d15d73dba844
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 5a88349d6fa62769d528c66baeb428b791a007b0
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521765"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672739"
 ---
 # <a name="lms365"></a>LMS365
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2021 年 3 月 18 日</p>
+<p>开发人员上次更新时间：2021 年 7 月 28 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/d136f17e-df84-47f2-97a4-13aa24c0c647" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381467" target="_blank">在 AppSource 中查看</a>
@@ -36,7 +36,7 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ELEARNINGFORCE International |
 | 合作伙伴网站的 URL | [https://www.elearningforce.com](https://www.elearningforce.com) |
-| "Teams应用程序信息"页的 URL | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
+| Teams信息页的 URL | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
 | 隐私策略的 URL | [https://www.elearningforce.com/privacy](https://www.elearningforce.com/privacy) |
 | 使用条款 URL | [https://www.elearningforce.com/LMS365-SaaS-Terms](https://www.elearningforce.com/LMS365-SaaS-Terms) |
 
@@ -52,12 +52,13 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| GroupMember.Read.All | 应用程序 | 无 | 允许应用扩展 AD 组的成员，这是将一组用户注册到课程所必需的。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| Mail.Send | delegated | 无 | 在配置用于通知的电子邮件帐户期间动态请求权限。 允许应用发送通知电子邮件 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| OnlineMeetings.ReadWrite | delegated | 在配置用于通知的电子邮件帐户期间动态请求权限。 允许应用创建和阅读联机会议 | 联机会议 URL 存储为课程会话实体中的引用 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| RoleManagement.Read.Directory | 应用程序 | 无 | 允许应用在SharePoint期间获取域。 域用于 URL 构造。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| User.Invite.All | delegated | 无 | 允许应用代表当前登录的用户邀请外部用户 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| User.Read | delegated | 无 | 登录并读取用户配置文件。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
@@ -71,9 +72,9 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| SharePoint | 不支持 |  |  |  |  |
+>| SharePoint | 否 |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -81,7 +82,7 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -104,7 +105,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -138,11 +139,11 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 不支持 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你的应用是否具有机密客户端？ | 否 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 不支持 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
