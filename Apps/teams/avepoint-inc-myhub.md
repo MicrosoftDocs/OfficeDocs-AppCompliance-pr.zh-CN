@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: MyHub 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cc9d478d0395ad9b70531528bc5fd0f73bf84302
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 4c6997e3caa9d0a72fe81151dadb14bc7bb7374c
+ms.sourcegitcommit: cd30c7ec09b1a06fb0b5696d10739a27c8434c53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/03/2021
-ms.locfileid: "58870017"
+ms.locfileid: "58885802"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -36,7 +36,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | AvePoint, inc. |
 | 合作伙伴网站的 URL | [https://www.avepoint.com](https://www.avepoint.com) |
-| Teams信息页的 URL | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
+| 应用程序Teams页的 URL | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
 | 隐私策略的 URL | [https://www.avepoint.com/privacy-policy/](https://www.avepoint.com/privacy-policy/) |
 | 使用条款 URL | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 
@@ -106,9 +106,9 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35843' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35843" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Salesforce 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a2a4cb54f96d35bfd12b3396da3cf5e9c63b1c96
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 152885012f81c077fc0bb018fda7080867c54986
+ms.sourcegitcommit: cd30c7ec09b1a06fb0b5696d10739a27c8434c53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873457"
+ms.locfileid: "58884610"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -27,7 +27,7 @@ ms.locfileid: "58873457"
 
 ### <a name="general-information"></a>一般信息
 
-由 microsoft salesforce.com 提供的信息：
+由 Microsoft salesforce.com 以下信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -51,18 +51,18 @@ ms.locfileid: "58873457"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| 适用于 Office 的 JavaScript API | 是 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 |
->| Exchange Web 服务 (EWS) | 是 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 |
+>| 适用于 Office 的 JavaScript API | 是 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录到 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录到 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 |
+>| Exchange Web 服务 (EWS) | 是 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录到 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录到 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
@@ -98,9 +98,9 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11114' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/11114" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -110,7 +110,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息已由用户 salesforce.com 应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+此信息已由用户 salesforce.com 此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
 
 | **Information** | **响应** |
 |:----------------|:-------------|

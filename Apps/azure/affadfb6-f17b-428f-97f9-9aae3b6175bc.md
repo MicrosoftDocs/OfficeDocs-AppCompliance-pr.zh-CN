@@ -2,17 +2,17 @@
 title: affadfb6-f17b-428f-97f9-9aae3b6175bc 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/02/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: affadfb6-f17b-428f-97f9-9aae3b6175bc的所有可用安全性和合规性信息。
-ms.openlocfilehash: cb97fd5f8fd95587a3783b26b1f045b4d0456a81
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.openlocfilehash: 49e5e16b2831968350fbd5ad56ee957464be51bb
+ms.sourcegitcommit: cd30c7ec09b1a06fb0b5696d10739a27c8434c53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873137"
+ms.locfileid: "58883860"
 ---
 # <a name="azure-app-id-affadfb6-f17b-428f-97f9-9aae3b6175bc"></a>Azure 应用 ID：affadfb6-f17b-428f-97f9-9aae3b6175bc
 
@@ -26,4 +26,4 @@ ms.locfileid: "58873137"
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用合规性状态
 - Publisher证明状态：已完成
-- Microsoft 365认证：2021 (2021 年 6 月 23 日) 
+- Microsoft 365认证： (2021 年 6 月 23 日) 
