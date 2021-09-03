@@ -2,17 +2,17 @@
 title: Microsoft Excel应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Excel信息。
 localization_priority: Normal
-ms.openlocfilehash: b039a772748821cad11fbb8d0f9d65e94b544cc5
-ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
+ms.openlocfilehash: db1cee3dbc08e6bcbf3e4ece40f4ee916e058f2d
+ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58672879"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58873037"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel应用安全性和合规性
 
@@ -24,13 +24,13 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [CloudExtend Analytics for NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | 为 CloudExtend | **✓** |  |
 | [Excel到 Word 文档自动化](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [harmon.ie Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
-| [适用于 Planner 的 iPlanner Office 365工具](./iglobe-iplanner-reporting-tool-for-office-365-planner.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [适用于 planner 的 iPlanner Office 365工具](./iglobe-iplanner-reporting-tool-for-office-365-planner.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Jira Cloud for Excel](./atlassiancom-jira-cloud-for-excel.md) | Atlassian.com | **✓** |  |
 | [用于图表的 Lucidchart Excel](./lucid-software-inc-lucidchart-diagrams-for-excel.md) | Lucid Software Inc | **✓** |  |
 | [含义云文本分析Excel](./meaningcloud-text-analytics-for-excel.md) | MeaningCloud | **✓** |  |
 | [Office2SharePoint for Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | content Chooser for Office] (./officeatwork-officeatworkcontent-chooser-for-office.md)  | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | 图像选择器Office] (./officeatwork-officeatworkimage-chooser-for-office.md)  | officeatwork | **✓** |  |
+| [officeatwork | image Chooser for Office] (./officeatwork-officeatworkimage-chooser-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [QuickCells 图形](./cc-1c-quickcells-graphs.md) | CC-1C | **✓** |  |
 | [QuickCells 规划求解](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |

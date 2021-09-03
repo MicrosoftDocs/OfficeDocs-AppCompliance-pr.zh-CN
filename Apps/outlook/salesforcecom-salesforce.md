@@ -2,24 +2,24 @@
 title: Salesforce 的应用程序信息（按 salesforce.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 08/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Salesforce 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d0490ea422179e064443f7fad12abb64bc6efa47
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: a2a4cb54f96d35bfd12b3396da3cf5e9c63b1c96
+ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527908"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58873457"
 ---
 # <a name="salesforce"></a>Salesforce
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2019 年 12 月 16 日</p>
+<p>开发人员上次更新时间：2021 年 8 月 24 日</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104379334" target="_blank">在 AppSource 中查看</a>
 
@@ -37,7 +37,7 @@ ms.locfileid: "53527908"
 | 合作伙伴公司名称 | salesforce.com |
 | 合作伙伴网站的 URL | [https://www.salesforce.com](https://www.salesforce.com) |
 | 隐私策略的 URL | [https://www.salesforce.com/company/privacy/](https://www.salesforce.com/company/privacy/) |
-| 使用条款 URL | [https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC...](https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC&amp;p5=WA104379334&amp;cmu=en-US) |
+| 使用条款 URL | [https://www.salesforce.com/content/dam/web/en_us/www/docume...](https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/software-order-form-supplements/Salesforce_Outlook_TOU_Order_Form_Addendum.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,22 +47,22 @@ ms.locfileid: "53527908"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由应用 salesforce.com 如何收集和存储组织数据，以及组织对应用收集的数据的控制。
+此信息由用户 salesforce.com，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| 适用于 Office 的 JavaScript API | 是 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 |  | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前Outlook标识， GetItem (.js 和 EWS) 在保存到 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容，GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) 获取草稿文件夹 CreateItem (.js) ，该文件夹用于创建草稿邮件。 |  |
->| Exchange Web 服务 (EWS) | 是 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 |  | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前Outlook标识， GetItem (.js 和 EWS) 在保存到 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容，GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) 获取草稿文件夹 CreateItem (.js) ，该文件夹用于创建草稿邮件。 |  |
+>| 适用于 Office 的 JavaScript API | 是 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 |
+>| Exchange Web 服务 (EWS) | 是 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用来自 Office.js 和 EWS 的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
@@ -74,9 +74,9 @@ ms.locfileid: "53527908"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->不支持
+>否
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -88,7 +88,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,3 +106,16 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>标识信息
+
+此信息已由用户 salesforce.com 应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
