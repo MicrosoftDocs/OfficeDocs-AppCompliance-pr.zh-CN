@@ -6,12 +6,12 @@ description: Microsoft 365认证详细信息概述
 keywords: appSource Microsoft 365证明
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 7d6c72f39a07fa11bfe87a9da6d94178fd7992b3
-ms.sourcegitcommit: a2851b8a32c181843617568ab5f8b5de741547cf
+ms.openlocfilehash: 9f93edb4bead62eb626f6b65544fbf1a35ad48dd
+ms.sourcegitcommit: 854938b0495a6a30c2d03a6645e32ca52b4ce295
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58885980"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58922979"
 ---
 # <a name="complete-microsoft-365-certification"></a>完成Microsoft 365认证
 
@@ -25,8 +25,7 @@ the Microsoft 365 Certification requires an assessment of your security and comp
 
 > [!IMPORTANT]
 > 通过参与 Microsoft 365 认证计划，即表示你同意这些补充条款，并遵守适用于你参与 Microsoft Corporation ("、"Microsoft"、"we"、"us"或"our") 的 Microsoft 365 认证计划的任何随附文档。 你代表并保证你有权代表自己、公司和/或其他实体接受这些Microsoft 365认证补充条款（如果适用）。 我们可能会随时更改、修订或终止这些补充条款。 在任何更改或修正Microsoft 365继续参与认证计划意味着你同意新的补充条款。 如果你不同意新的补充条款或我们终止这些补充条款，则必须停止参与Microsoft 365计划。
-
->所有证据（包括但不限于文档、屏幕截图和图像）将在安全存储库中保留 18 个月，自提交时起作为审核证明。 18 个月后，将清除所有证据
+所有证据（包括但不限于文档、屏幕截图和图像）将在安全存储库中保留 18 个月，自提交时起作为审核证明。 18 个月后，将清除所有证据
 
 ## <a name="certification-process"></a>认证过程
 
