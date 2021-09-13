@@ -6,14 +6,14 @@ ms.date: 03/31/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关 Learn 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Learn 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: f931e75f0a5736ffa49c7366d9928db774c4bdbf
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527528"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279755"
 ---
 # <a name="learn"></a>学习
 
@@ -74,15 +74,15 @@ ms.locfileid: "53527528"
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 我们使用名单：1) 授权 (授予对自动程序) 的访问权限，2) 检测名字以提供友好 UX;3) 为聊天机器人的业务管理员管理聊天日志 | N/A。 或者自动程序仅个人 |  |
+>| 我们使用名单：1) 授权 (授予对自动程序) 的访问权限，2) 检测第一个名称以提供友好的 UX，3) 为自动程序的业务管理员管理聊天日志 | N/A。 或者自动程序仅个人 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >机器人的遥测包含 UPN 和 AAD ID fr 诊断。
-只有 PROD/Run 管理员有权访问生产遥测。 日志存储 90 天，可请求在专用门户上删除 support.witivio.com 或通过电子邮件 dpo@witivio.com
+只有 PROD/Run 管理员有权访问生产遥测。 日志存储 90 天，可以请求在专用门户上删除 support.witivio.com 或通过电子邮件 dpo@witivio.com
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

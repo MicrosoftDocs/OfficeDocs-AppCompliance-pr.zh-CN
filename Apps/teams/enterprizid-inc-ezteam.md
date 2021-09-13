@@ -9,11 +9,11 @@ certification_type: attested
 description: ezTeam 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 6c4ad813b21963005857c69a05727ca261a73f9c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525656"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279707"
 ---
 # <a name="ezteam"></a>ezTeam
 
@@ -37,7 +37,7 @@ EnterprizID Inc 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | EnterprizID Inc |
 | 合作伙伴网站的 URL | [https://enterprizid.com](https://enterprizid.com) |
-| "Teams应用程序信息"页的 URL | [https://enterprizid.com/discover/](https://enterprizid.com/discover/) |
+| 应用程序Teams页的 URL | [https://enterprizid.com/discover/](https://enterprizid.com/discover/) |
 | 隐私策略的 URL | [https://enterprizid.com/privacy-policy/](https://enterprizid.com/privacy-policy/) |
 | 使用条款 URL | [https://enterprizid.com/terms-of-use/](https://enterprizid.com/terms-of-use/) |
 
@@ -72,7 +72,7 @@ EnterprizID Inc 提供给 Microsoft 的信息：
 >| Group.ReadWrite.All | 应用程序 | 允许应用创建组、读取所有组属性和成员身份、更新组属性和成员身份以及删除组。 还允许应用读取和写入组日历和对话。  | 团队的最后一次活动。 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| GroupMember.Read.All | 应用程序 | 允许应用在没有已登录用户的情况下读取所有组的成员身份和基本组属性。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| GroupMember.ReadWrite.All | 应用程序 | 允许应用在没有已登录用户的情况下列出组、读取基本属性、读取和更新应用有权访问的组的成员身份。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| People.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取任何用户的相关人的得分列表。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| People.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取任何用户的相关人员得分列表。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Reports.Read.All | delegated | 允许应用代表已登录用户读取所有服务使用情况报告。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Reports.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取所有服务使用情况报告。 | 每个组的上一个用户活动 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Sites.ReadWrite.All | 应用程序 | 允许应用在没有登录用户的情况下创建、读取、更新和删除所有网站集中的文档和列表项。 | 按每个用户的大小排名前 10 个网站 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
@@ -100,7 +100,7 @@ EnterprizID Inc 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >EndUser 和组织全名。 保留和删除策略位于"保留 https://enterprizid.com/privacy-policy &quot; 你的个人数据"部分 &quot; 下
 
@@ -141,17 +141,17 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
-| 你的应用是否支持条件访问策略？ | 不支持 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
+| 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 不支持 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你的应用是否具有机密客户端？ | 否 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
 | 你的应用是否使用预览 API？ | 是 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

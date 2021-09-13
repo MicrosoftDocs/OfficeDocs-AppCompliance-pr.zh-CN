@@ -9,11 +9,11 @@ certification_type: attested
 description: Asana 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 14ec3eee9b8ae673565ef91a017019d23d524619
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525876"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59276791"
 ---
 # <a name="asana"></a>Asana
 
@@ -63,20 +63,20 @@ Asana 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| 当用户请求时，外接程序将 (、收件人、主题、正文) 和附件传输至 Asana。 |  | 电子邮件 - 在任务窗格中显示时读取当前打开的电子邮件。 - 读取当前打开的电子邮件附件以上载到 Asana 任务。 - 这使用户能够使用来自电子邮件的信息在 Asana 中快速执行任务。 |
+>| 当用户请求时，外接程序 (向 Asana 传输基本电子邮件 () 、收件人、主题、正文和附件。 |  | 电子邮件 - 在任务窗格中显示时读取当前打开的电子邮件。 - 读取当前打开的电子邮件附件以上载到 Asana 任务。 - 这使用户能够使用来自电子邮件的信息在 Asana 中快速执行任务。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->我们的应用程序仅记录与 Asana 数据有关的信息。 唯一一次记录与用户Outlook相关的内容时，用户显式附加电子邮件或将附件上载到 Asana，甚至不记录内容。 服务器中可能存在短期日志，其中可能包含一些用户数据，但它们只是临时日志，且限制为少于 72 小时的时间。
+>我们的应用程序仅记录与 Asana 数据有关的信息。 唯一一次记录与Outlook信息相关的内容时，即用户显式附加电子邮件或将附件上载到 Asana，甚至不记录内容。 服务器中可能存在短期日志，其中可能包含一些用户数据，但它们只是临时日志，且限制为少于 72 小时的时间。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -89,7 +89,7 @@ Asana 组织管理员能够设置 SAML、SCIM、服务帐户，并拥有放入�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

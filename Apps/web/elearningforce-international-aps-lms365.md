@@ -9,11 +9,11 @@ certification_type: certified
 description: LMS365 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 2fa9fb2637b40b439bc6450514e194e222415ec0
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275224"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59276994"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -59,12 +59,12 @@ ELEARNINGFORCE 国际 APS 向 Microsoft 提供的信息：
 >| User.Invite.All | delegated | 无 | 允许应用代表当前登录的用户邀请外部用户 | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
 >| User.Read | delegated | 无 | 登录并读取用户配置文件。 | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
 >| User.Read.All | delegated | 无 | 允许应用读取当前登录用户的完整个人资料。 | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Read.All | 应用程序 | 允许应用读取完整的用户配置文件。 需要&#8217;用户和管理员&#8217;构建层次结构报告。 | 以下个人数据存储在专用数据库中，供相应客户在应用程序中用于管理管理器仪表板 &amp; 功能。 帐户名称、用户显示名称、电子邮件地址、部门、职务、Office、国家/地区、城市、经理 ID/电子邮件 | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
+>| User.Read.All | 应用程序 | 允许应用读取完整的用户配置文件。 需要&#8217;管理员读取用户&#8217;生成层次结构报告。 | 以下个人数据存储在专用数据库中，供相应客户在应用程序中用于管理管理器仪表板 &amp; 功能。 帐户名称、用户显示名称、电子邮件地址、部门、职务、Office、国家/地区、城市、经理 ID/电子邮件 | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
 >| 个人资料 | delegated | 无 | 查看用户的基本个人资料。 | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
@@ -80,9 +80,9 @@ ELEARNINGFORCE 国际 APS 向 Microsoft 提供的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->是的，我们使用Insights分析遥测/日志，这些遥测/日志仅用于问题处理，并且保留策略为 90 天，之后将删除所有数据。
+>是的，我们使用Insights分析遥测/日志，这些遥测/日志仅用于出问题，并且保留策略为 90 天，之后将删除所有数据。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -121,7 +121,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 设备平台、设备状态、客户端应用 |
@@ -129,9 +129,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 否 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
 | 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

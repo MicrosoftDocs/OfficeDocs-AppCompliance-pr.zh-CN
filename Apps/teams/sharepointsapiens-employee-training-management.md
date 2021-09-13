@@ -9,11 +9,11 @@ certification_type: attested
 description: 员工培训管理的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: a4d2ce3475ce082060bc632d439d0c79770486c2
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53609934"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277191"
 ---
 # <a name="employee-training-management"></a>员工培训管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "53609934"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SharePoint|Sapiens |
 | 合作伙伴网站的 URL | [https://www.sharepointsapiens.com](https://www.sharepointsapiens.com) |
-| "Teams应用程序信息"页的 URL | [https://www.sharepointsapiens.com/employee-training-managem...](https://www.sharepointsapiens.com/employee-training-management-office365/documentation/teams/) |
+| 应用程序Teams页的 URL | [https://www.sharepointsapiens.com/employee-training-managem...](https://www.sharepointsapiens.com/employee-training-management-office365/documentation/teams/) |
 | 隐私策略的 URL | [https://www.sharepointsapiens.com/privacy/](https://www.sharepointsapiens.com/privacy/) |
 | 使用条款 URL | [https://addins.sharepointsapiens.com/licensing/services-agr...](https://addins.sharepointsapiens.com/licensing/services-agreement.html) |
 
@@ -57,11 +57,11 @@ ms.locfileid: "53609934"
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.ReadBasic.All | delegated | 电子邮件地址和会议室Exchange名称以启用会议室和资源预订 | 不存储任何数据 | [9e8e113c-8a08-4606-b08a-de4decc7252f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9e8e113c-8a08-4606-b08a-de4decc7252f) |
+>| User.ReadBasic.All | delegated | 电子邮件地址和会议室Exchange和资源的名称，以启用会议室和资源预订 | 不存储任何数据 | [9e8e113c-8a08-4606-b08a-de4decc7252f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9e8e113c-8a08-4606-b08a-de4decc7252f) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -73,7 +73,7 @@ ms.locfileid: "53609934"
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Mailgun.com (可选) ，Stripe.com (可选)  | 计费的公司名称和地址（如果 Stripe.com 邮件服务用于帐单、日历邀请以及用户电子邮件地址的回复和回复） | 如果您选择使用我们的邮件服务，而不是Exchange联机电子邮件服务，则服务会通过 mail进行 API 和基础结构发送和接收电子邮件。 如果选择使用自己的邮箱Exchange邮箱，邮件系统不会处理任何数据。 如果选择使用信用卡支付订阅费用，收集的数据将受用户控制和 stripe.com。 如果选择通过 PO 和发票而不是信用卡进行购买，则系统不会处理任何 stripe.com。 |
+>| Mailgun.com (可选) ，Stripe.com (可选)  | 计费的公司名称和地址（如果 Stripe.com 邮件服务用于帐单、日历邀请以及用户电子邮件地址的回复和回复） | 如果您选择使用我们的邮件服务而不是 Exchange联机电子邮件服务，则服务会通过 mail进行 API 和基础结构发送和接收电子邮件。 如果选择使用自己的邮箱Exchange邮箱，邮件系统不会处理任何数据。 如果你选择使用信用卡支付订阅费用，收集的数据将被用户控制和 stripe.com。 如果选择通过 PO 和发票而不是信用卡进行购买，则系统不会处理任何 stripe.com。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -84,7 +84,7 @@ ms.locfileid: "53609934"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >不存储 EUII。 TenantID SharePoint域将存储在应用的遥测中。 日志和遥测数据将存储 90 天。
 
@@ -125,14 +125,14 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/><br/> |
 | 你的应用是否公开任何 Web API？ | 否 |
 | 你的应用是否使用预览 API？ | 否 |

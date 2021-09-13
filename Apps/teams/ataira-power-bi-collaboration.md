@@ -9,13 +9,13 @@ certification_type: attested
 description: 有关 Power BI 协作、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 642ac51a231bf583b6cac3facb64ade94b772c3e
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53609594"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278903"
 ---
-# <a name="power-bi-collaboration"></a>Power BI协作
+# <a name="power-bi-collaboration"></a>Power BI 协作
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ Ataira 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Power BI协作 |
+| 应用名称 | Power BI 协作 |
 | ID | WA104381384 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Ataira |
 | 合作伙伴网站的 URL | [https://www.ataira.com](https://www.ataira.com) |
-| "Teams应用程序信息"页的 URL | [https://www.ataira.com/Microsoft/PowerBI/Collaboration](https://www.ataira.com/Microsoft/PowerBI/Collaboration) |
+| 应用程序Teams页的 URL | [https://www.ataira.com/Microsoft/PowerBI/Collaboration](https://www.ataira.com/Microsoft/PowerBI/Collaboration) |
 | 隐私策略的 URL | [https://www.ataira.com/PrivacyPolicy](https://www.ataira.com/PrivacyPolicy) |
 | 使用条款 URL | [https://www.ataira.com/TermsofUse](https://www.ataira.com/TermsofUse) |
 
@@ -49,7 +49,7 @@ Ataira 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-Ataira 已提供有关此应用如何收集和存储组织数据以及你的组织将拥有对应用收集的数据的控制的信息。
+Ataira 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -57,15 +57,15 @@ Ataira 已提供有关此应用如何收集和存储组织数据以及你的组�
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | Also permissions for ChannelMessage.Send Team.ReadBasic.All User.Read. 它们用于允许用户选择通知Teams组和频道 | 使用情况、错误和许可证监视。 [callback_group_id] ，[datetime_id] ，[session_id] ，[app_type] ，[raw_url] ，[user_id] ，[list_name] ，[user_name] ，[state] ，[priority] ，[user_domain] ，[url_text ] ，[group_name] ，[title_name] ，[comments] ，[file_name] ，[description] ，[group_pbi_name] ，[item_type] ，[organization_id] ，[user_objectid] ，[organization_displayName] ，[group_id] | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5) |
+>| User.Read | delegated | Also permissions for ChannelMessage.Send Team.ReadBasic.All User.Read. 它们用于允许用户选择通知Teams组和频道 | 使用情况、错误和许可证监视。 [callback_group_id] ，[datetime_id] ，[session_id] ，[app_type] ，[raw_url] ，[user_id] ，[list_name] ，[user_name] ，[state] ，[priority] ，[user_domain] ，[url_text user_objectid] file_name] ，[group_name] ，[title_name] ，[comments] ，[file_name] ，[description] ，[group_pbi_name] ，[item_type] ，[organization_id] ，[user_objectid] ，[organization_displayName] ，[group_id] | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| https://analysis.windows.net/powerbi/api/ | 是 | 用户电子邮件， 工作区名称， 项目名称， 嵌入 URL | 用于在加载项界面中SharePoint报表和仪表板 | [api_pbi_id] ，[datetime_id] ，[session_id] ，[user_name] ，[user_domain] ，[WorkSpace_Name] ，[WorkSpace_Id] ，[item_Id] ，[item_type] ，[item_name] ，[webUrl] ，[embedUrl] ，[displayName] ，[item_title] ，[isOwnedByMe] | 使用情况、错误和许可证监视 |
+>| https://analysis.windows.net/powerbi/api/ | 是 | 用户电子邮件， 工作区名称， 项目名称， 嵌入 URL | 用于将报表和仪表板填充SharePoint加载项界面中 | [api_pbi_id] ，[datetime_id] ，[session_id] ，[user_name] ，[user_domain] ，[WorkSpace_Name] ，[WorkSpace_Id] ，[item_Id] ，[item_type] ，[item_name] ，[webUrl] ，[embedUrl] ，[displayName] ，[item_title] ，[isOwnedByMe] | 使用情况、错误和许可证监视 |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
@@ -82,7 +82,7 @@ Ataira 已提供有关此应用如何收集和存储组织数据以及你的组�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >填充报表和仪表板Power BI身份验证所需的元数据，以Graph Teams API。 可以在网站上找到更多数据和隐私策略。 https://www.ataira.com/PrivacyPolicy 然后在"应用配置"页上也专门针对数据隐私。 https://www.ataira.com/Microsoft/PowerBI/CollaborationSupport
 
@@ -123,7 +123,7 @@ Ataira 已提供有关此应用如何处理身份验证、授权、应用程序�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 多重身份验证 仅允许 Intune 注册的设备访问特定服务 限制用户位置和 IP 范围 |
@@ -131,9 +131,9 @@ Ataira 已提供有关此应用如何处理身份验证、授权、应用程序�
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
 | 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

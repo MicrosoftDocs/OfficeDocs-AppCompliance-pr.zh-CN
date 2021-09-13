@@ -9,11 +9,11 @@ certification_type: attested
 description: CI 签名的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 3e32777fcce04ad0769fa6b5699925bfc0fd6718
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275239"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279284"
 ---
 # <a name="ci-signature"></a>CI-Signature
 
@@ -33,7 +33,7 @@ ci 解决方案 GmbH 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | CI-Signature |
 | ID | WA200002458 |
-| Office 365支持的客户端 | Outlook 2016或更高版本Windows、Outlook 2016 Mac 或更高版本、Outlook 网页版 |
+| Office 365支持的客户端 | Outlook 2016或更高版本Windows、Outlook 2016 Mac 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | ci 解决方案 GmbH |
 | 合作伙伴网站的 URL | [https://www.ci-solution.com](https://www.ci-solution.com) |
 | 隐私策略的 URL | [https://www.ci-solution.com/fileadmin/downloads/datenschutz...](https://www.ci-solution.com/fileadmin/downloads/datenschutz/ci-solution_Auftragsverarbeitung_CI-Cloud.pdf) |
@@ -47,7 +47,7 @@ ci 解决方案 GmbH 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 ci 解决方案 GmbH 提供，它有关此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由 ci 解决方案 GmbH 提供，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -66,7 +66,7 @@ ci 解决方案 GmbH 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 

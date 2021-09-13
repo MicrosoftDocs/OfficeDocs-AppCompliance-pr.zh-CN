@@ -9,13 +9,13 @@ certification_type: attested
 description: 适用于 SharePoint 的 FormMachines 连接器的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 56c08c242cb3822ebaea854026fb3f758768b7bf
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53522219"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279115"
 ---
-# <a name="formmachines-connector-for-sharepoint"></a>FormMachines 连接器SharePoint
+# <a name="formmachines-connector-for-sharepoint"></a>FormMachines Connector for SharePoint
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,7 +31,7 @@ ms.locfileid: "53522219"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | FormMachines 连接器SharePoint |
+| 应用名称 | FormMachines Connector for SharePoint |
 | ID | WA200000357 |
 | Office 365支持的客户端 | SharePoint 2016 或更高版本 |
 | 合作伙伴公司名称 | 企业数字计算机 PTY LTD |
@@ -55,7 +55,7 @@ ms.locfileid: "53522219"
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated |  (登录名、电子邮件、Azure Guid、displayName、first_login_date_time)  | 允许用户登录并授予应用对 UPN 的访问权限以启用无提示登录，从而使我们能够唯一标识每个用户 | [8c87660f-d36f-41f6-b0ae-025253f380aa](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c87660f-d36f-41f6-b0ae-025253f380aa) |
+>| User.Read | delegated |  (登录、电子邮件、Azure Guid、displayName、first_login_date_time)  | 允许用户登录并授予应用对 UPN 的访问权限以启用无提示登录，从而使我们能够唯一标识每个用户 | [8c87660f-d36f-41f6-b0ae-025253f380aa](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c87660f-d36f-41f6-b0ae-025253f380aa) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -68,7 +68,7 @@ ms.locfileid: "53522219"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >. 我们仅记录错误。 在我们的错误日志中，我们仅记录与错误有关的信息。 不会收集哪个客户端或客户触发了特定错误。 只有支持工程师可以访问错误日志。 错误日志联机查看，而不是下载和查看。 30 天后将自动删除错误日志
 

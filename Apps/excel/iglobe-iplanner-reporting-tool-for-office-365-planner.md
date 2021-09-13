@@ -9,13 +9,13 @@ certification_type: certified
 description: 适用于 Office 365 Planner 的 iPlanner 报告工具的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3591c67721188d8dc70bf4f2cf0e34bdb9ffc506
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526048"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278932"
 ---
-# <a name="iplanner-reporting-tool-for-office-365-planner"></a>适用于 Planner 的 iPlanner Office 365工具
+# <a name="iplanner-reporting-tool-for-office-365-planner"></a>适用于 planner 的 iPlanner Office 365工具
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>开发人员上次更新时间：2019 年 12 月 16 日</p>
@@ -30,9 +30,9 @@ iGlobe 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 适用于 Planner 的 iPlanner Office 365工具 |
+| 应用名称 | 适用于 planner 的 iPlanner Office 365工具 |
 | ID | WA104380686 |
-| Office 365支持的客户端 | Excel 2016 Mac 上的 Windows、Excel web 版、Excel 2016 或更高版本上的 Windows 或更高版本 |
+| Office 365支持的客户端 | Excel 2016 Mac 上的 Windows、Excel web 版、Excel 2016 或更高版本的 Excel 2016 或更高版本 |
 | 合作伙伴公司名称 | iGlobe |
 | 合作伙伴网站的 URL | [https://iglobecrm.com/](https://iglobecrm.com/) |
 | 隐私策略的 URL | [https://instassl.iglobecrm.com/legal-information](https://instassl.iglobecrm.com/legal-information) |
@@ -62,7 +62,7 @@ iGlobe 提供给 Microsoft 的信息：
 >| Group.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 若要获取规划器任务并添加新任务，请更新存储桶和线条。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Mail.Read | delegated | 应用程序数据库中不存储任何数据。 | User.Read，用于获取计划工具任务Outlook 微软待办标记的电子邮件并更新它们。 创建新的 Planner 任务 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Mail.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 显示邮件并发送邮件。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Mail.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 从所选邮件获取邮件主题。 允许应用从选定的电子邮件获取信息，从而允许将说明字段复制到任务说明中，并允许将附件从邮件或邮件本身保存到任务。 发送通知。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 从所选邮件获取邮件主题。 允许应用从选定的电子邮件获取信息，从而允许将说明字段复制到任务说明，并允许将附件从邮件或邮件本身保存到任务。 发送通知。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Tasks.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 若要使登录用户Outlook 微软待办 User.Read，若要获取计划工具任务Outlook 微软待办标记的电子邮件并更新它们。 创建新的 Planner 任务。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | delegated | 应用程序数据库中不存储任何数据。 | 登录并读取用户个人资料 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
@@ -77,7 +77,7 @@ iGlobe 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >iGlobe 收集数据以有效运行，并提供我们的产品和服务的最佳体验。 对于许可：为管理组织&#8217;许可帐户收集的数据，例如当你部署免费外接程序、创建试用订阅或购买订阅时。 收集以下信息。 
 - 出于财务目的：公司名称和地址
@@ -87,13 +87,13 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->所有数据都位于客户自己的租户上。 不存储任何应用程序数据。 新式外接程序在沙盒浏览器中运行，&#8220;进程外&#8221;。 它通过使用数据与用户数据Microsoft 服务。 加载项只能访问用户正使用的数据。
+>所有数据都位于客户自己的租户上。 不存储应用程序数据。 新式外接程序在沙盒浏览器中运行，&#8220;进程外&#8221;。 它通过使用数据与用户数据Microsoft 服务。 加载项只能访问用户正使用的数据。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: 有关 LTAP 的请求、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2db2812a4ba1c2cd191e181ba16b13563752f90a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551983"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278864"
 ---
 # <a name="leave-request-by-ltapps"></a>Leave Request by LTAPPs
 
@@ -65,26 +65,26 @@ LTAPPs SOFTWARE CO.，LTD 提供了此信息，这些信息与此应用程序如
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->加载项不存储最终用户的任何信息。 它仅将 2 个配置信息存储在 Cosmos &amp; db Azure 中
+>加载项不存储最终用户的任何信息。 它仅将 2 个配置 &amp; 信息存储在它们存储在 Cosmos db Azure 中
 - 客户端的租户 GUID
-- 客户端的"离开请求专业人员"应用 URL 
+- 客户端的离开请求专业应用 URL 
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->应用不存储客户端数据。 Sharepoint 网站网站中客户端存储的所有 (数据) 。
-它仅通过 Rest API 获取/SharePoint &amp; 数据到客户端站点，使用 Azure 应用注册进行身份验证
+>应用不存储客户端数据。 Sharepoint 网站集的客户端网站 (存储的所有) 。
+它仅通过 Rest API 获取/设置SharePoint Azure 应用注册进行身份验证 &amp;
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

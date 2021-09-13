@@ -9,11 +9,11 @@ certification_type: attested
 description: NE 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 47278d0af8c6079dd250a035ddb69e699a0afbfc
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407382"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278824"
 ---
 # <a name="ne"></a>NE
 
@@ -37,7 +37,7 @@ NE 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | NE |
 | 合作伙伴网站的 URL | [https://www.ne.se](https://www.ne.se) |
-| Teams信息页的 URL | [https://www.ne.se/info/om-oss/](https://www.ne.se/info/om-oss/) |
+| 应用程序Teams页的 URL | [https://www.ne.se/info/om-oss/](https://www.ne.se/info/om-oss/) |
 | 隐私策略的 URL | [https://www.ne.se/info/hj%C3%A4lp/behandling-av-personuppgi...](https://www.ne.se/info/hj%C3%A4lp/behandling-av-personuppgifter/) |
 | 使用条款 URL | [https://www.ne.se/info/hj%c3%a4lp/allm%c3%a4nna-avtalsvillk...](https://www.ne.se/info/hj%c3%a4lp/allm%c3%a4nna-avtalsvillkor/fleranv%c3%a4ndare/) |
 
@@ -59,13 +59,13 @@ NE 提供了此信息，这些信息与此应用程序如何收集和存储组�
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和外接程序Microsoft 365 Microsoft Graph 其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| oauth | 否 |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -82,7 +82,7 @@ NE 提供了此信息，这些信息与此应用程序如何收集和存储组�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >电子邮件地址，在 6 个月后或用户取消订阅时删除
 

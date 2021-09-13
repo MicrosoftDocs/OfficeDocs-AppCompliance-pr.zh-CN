@@ -9,11 +9,11 @@ certification_type: attested
 description: X0PA ROOM 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: a20b81928065203536f914a6b15d76745b2bc01a
-ms.sourcegitcommit: 90e6c1e10d55dc337c0884b63782cc14cf71b3c8
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58835848"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279504"
 ---
 # <a name="x0pa-room"></a>X0PA 会议室
 
@@ -35,9 +35,9 @@ X0PA AI 新加坡向 Microsoft 提供的信息：
 | 应用名称 | X0PA 会议室 |
 | ID | WA200003028 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | X0PA AI 新加坡 |
+| 合作伙伴公司名称 | X0PA AI（新加坡公司） |
 | 合作伙伴网站的 URL | [https://x0paroom.com](https://x0paroom.com) |
-| "Teams应用程序信息"页的 URL | [https://x0paroom.com](https://x0paroom.com) |
+| 应用程序Teams页的 URL | [https://x0paroom.com](https://x0paroom.com) |
 | 隐私策略的 URL | [https://x0pa.com/privacy-policy/](https://x0pa.com/privacy-policy/) |
 | 使用条款 URL | [https://x0pa.com/terms-of-use](https://x0pa.com/terms-of-use) |
 
@@ -73,7 +73,7 @@ X0PA AI 新加坡提供了此信息，这些信息与此应用程序如何收集
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 

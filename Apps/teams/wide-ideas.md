@@ -9,11 +9,11 @@ certification_type: attested
 description: 有关"广泛想法"的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 1e73a7aebbaaffa12572717f7a4a9968fd5667f7
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528058"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278567"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -57,7 +57,7 @@ ms.locfileid: "53528058"
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | 应用程序 | 我们保存组 ID 以及哪些用户属于哪些组 | 允许应用读取客户组织目录中的数据，如用户和组。  | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
->| Group.ReadWrite.All | 应用程序 | 我们保存与组关联的频道 ID。 | 允许用户从客户门户在 Microsoft Teams内创建团队、频道和选项卡。 这还允许用户将客户门户中的现有Microsoft Teams同步到客户门户。 | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
+>| Group.ReadWrite.All | 应用程序 | 我们保存与组关联的频道 ID。 | 允许用户从客户门户在 Microsoft Teams内创建团队、渠道和选项卡。 这还允许用户将现有团队同步到Microsoft Teams门户。 | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
 >| User.Read | delegated | 我们保存名称 &amp; 电子邮件 | 允许用户登录并代表他们Graph Microsoft 网站的访问权限 | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
 
 
@@ -80,7 +80,7 @@ ms.locfileid: "53528058"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们仅将 IP 号码存储在日志中。 
 
@@ -99,7 +99,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

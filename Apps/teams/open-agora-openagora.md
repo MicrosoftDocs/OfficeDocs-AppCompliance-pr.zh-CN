@@ -9,11 +9,11 @@ certification_type: attested
 description: OpenAgora 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: c1538e5ad361469b5c8b3c07a085ed91d45a70dd
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525406"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279028"
 ---
 # <a name="openagora"></a>OpenAgora
 
@@ -37,7 +37,7 @@ Open Agora 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Open Agora |
 | 合作伙伴网站的 URL | [https://www.open-agora.com/en/products/teams](https://www.open-agora.com/en/products/teams) |
-| "Teams应用程序信息"页的 URL | [https://www.open-agora.com/en/products/teams/support](https://www.open-agora.com/en/products/teams/support) |
+| 应用程序Teams页的 URL | [https://www.open-agora.com/en/products/teams/support](https://www.open-agora.com/en/products/teams/support) |
 | 隐私策略的 URL | [https://www.open-agora.com/en/products/teams/privacy-policy](https://www.open-agora.com/en/products/teams/privacy-policy) |
 | 使用条款 URL | [https://www.open-agora.com/en/terms](https://www.open-agora.com/en/terms) |
 
@@ -77,7 +77,7 @@ Open Agora 提供了此信息，这些信息与此应用程序如何收集和存
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >所有 EUII 和 OII 都可以通过应用程序日志检索，其安全级别与专用服务器的所有应用程序数据 (、容器隔离、受限访问) 。
 日志数据在 2 年后删除。

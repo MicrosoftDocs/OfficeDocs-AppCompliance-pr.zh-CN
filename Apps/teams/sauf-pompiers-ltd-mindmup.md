@@ -9,11 +9,11 @@ certification_type: attested
 description: 有关 MindMup 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 018079ed1d80c0ea3127734a504d56007d06d54e
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243150"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59276753"
 ---
 # <a name="mindmup"></a>MindMup
 
@@ -37,7 +37,7 @@ Sauf Pompiers Ltd 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Sauf Pompiers Ltd |
 | 合作伙伴网站的 URL | [https://www.mindmup.com](https://www.mindmup.com) |
-| Teams信息页的 URL | [https://www.mindmup.com/tutorials/microsoft-teams.html](https://www.mindmup.com/tutorials/microsoft-teams.html) |
+| 应用程序Teams页的 URL | [https://www.mindmup.com/tutorials/microsoft-teams.html](https://www.mindmup.com/tutorials/microsoft-teams.html) |
 | 隐私策略的 URL | [https://www.mindmup.com/resources/privacy_policy.html](https://www.mindmup.com/resources/privacy_policy.html) |
 | 使用条款 URL | [https://www.mindmup.com/resources/terms_mindmup.html](https://www.mindmup.com/resources/terms_mindmup.html) |
 
@@ -78,7 +78,7 @@ Sauf Pompiers Ltd 提供了此信息，这些信息与此应用程序如何收�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >安全访问日志记录用户 ID、office 365 租户 ID 和访问时间戳。 它们持续存在，以防止欺诈和滥用。
 
@@ -86,7 +86,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->用户文档存储在 US-east-1 (AWS 中，) 传输时加密，在其余时间加密。 数据可供创建文档的用户以及所有者显式共享文档的任何用户使用。
+>用户文档存储在 AWS (us-east-1) ，在传输过程中加密，在其余时间加密。 数据可供创建文档的用户以及所有者显式共享文档的任何用户使用。
 
 所有操作员/管理员访问权限都受 2FA 保护。
 
@@ -123,7 +123,7 @@ Sauf Pompiers Ltd 已提供有关此应用程序如何处理身份验证、授�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |

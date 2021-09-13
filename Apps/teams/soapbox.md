@@ -9,11 +9,11 @@ certification_type: attested
 description: Soapbox 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 89151d495479f3390aa179f810325ab56f77337a
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528278"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277293"
 ---
 # <a name="soapbox"></a>Soapbox
 
@@ -37,7 +37,7 @@ Soapbox 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Soapbox |
 | 合作伙伴网站的 URL | [https://soapboxhq.com](https://soapboxhq.com) |
-| "Teams应用程序信息"页的 URL | [https://msteams.services.soapboxhq.com/faqs](https://msteams.services.soapboxhq.com/faqs) |
+| 应用程序Teams页的 URL | [https://msteams.services.soapboxhq.com/faqs](https://msteams.services.soapboxhq.com/faqs) |
 | 隐私策略的 URL | [https://soapboxhq.com/privacy-policy/microsoft-teams](https://soapboxhq.com/privacy-policy/microsoft-teams) |
 | 使用条款 URL | [https://soapboxhq.com/terms-of-service](https://soapboxhq.com/terms-of-service) |
 
@@ -49,7 +49,7 @@ Soapbox 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Soapbox 提供，与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
+此信息由 Soapbox 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -79,7 +79,7 @@ Soapbox 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >能。 名称、电子邮件和 Microsoft 用户 ID 将在我们的统一日志记录平台中最多显示 30 天，以帮助识别问题并帮助用户使用平台。 30 天后，将从日志记录服务器中删除数据。
 

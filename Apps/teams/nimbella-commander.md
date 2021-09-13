@@ -9,13 +9,13 @@ certification_type: attested
 description: 针对一名将员的所有可用安全和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 5db75e564655fa2b47c27197719b275d0d290cfd
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404194"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279187"
 ---
-# <a name="commander"></a>陆
+# <a name="commander"></a>Commander
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ Nimbella 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 陆 |
+| 应用名称 | Commander |
 | ID | WA200002015 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Nimbella |
 | 合作伙伴网站的 URL | [https://www.nimbella.com](https://www.nimbella.com) |
-| Teams信息页的 URL | [https://nimbella.com/integrations/commander/microsoft-teams](https://nimbella.com/integrations/commander/microsoft-teams) |
+| 应用程序Teams页的 URL | [https://nimbella.com/integrations/commander/microsoft-teams](https://nimbella.com/integrations/commander/microsoft-teams) |
 | 隐私策略的 URL | [https://nimbella.com/privacy](https://nimbella.com/privacy) |
 | 使用条款 URL | [https://nimbella.com/terms](https://nimbella.com/terms) |
 
@@ -58,7 +58,7 @@ Nimbella 提供了此信息，这些信息与此应用程序如何收集和存�
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -75,7 +75,7 @@ Nimbella 提供了此信息，这些信息与此应用程序如何收集和存�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >注册标识，存储使用情况日志。 https://nimbella.com/privacy
 

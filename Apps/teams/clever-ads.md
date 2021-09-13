@@ -9,11 +9,11 @@ certification_type: attested
 description: Clever Ads 的所有可用安全性和合规性信息、它的数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 7880682782fe62fad68426bb59b74e3997bb7f64
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521875"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277253"
 ---
 # <a name="clever-ads"></a>Clever Ads
 
@@ -76,9 +76,9 @@ Clever Ads 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->我们不会将任何组织信息存储在遥测或日志中。 我们仅记录用户操作，如向自动程序发送消息或单击按钮，即使在这些日志中，用户的 ID 也是我们的内部用户 ID，与 Microsoft teams ID 不相关。
+>我们不会将任何组织信息存储在遥测或日志中。 我们仅记录用户操作，如向机器人发送消息或单击按钮，即使在这些日志中，用户的 ID 也是我们的内部用户 ID，与 Microsoft teams ID 不相关。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

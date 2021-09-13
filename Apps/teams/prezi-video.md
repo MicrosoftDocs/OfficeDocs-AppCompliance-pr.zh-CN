@@ -6,14 +6,14 @@ ms.date: 06/23/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Prezi Video 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Prezi 视频的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 8e7e9c70ee848fd284e3297a915ec9847d3ef1ee
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521242"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277029"
 ---
 # <a name="prezi-video"></a>Prezi Video
 
@@ -48,7 +48,7 @@ Prezi 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-Prezi 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+此信息由 Prezi 提供，用于说明此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -63,7 +63,7 @@ Prezi 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| 有关详细信息，请访问 https://prezi.com/privacy-policy/ |  | 以下 API/SDK 与 1 一起用于集成。 Botbuilder-SDK (python) ：使用此 SDK，Azure Active Directory API (对象 ID aad_object_id) 。 我们需要此信息将用户映射到Microsoft Teams上创建的任何 Prezi 视频相关 prezi.com。  2. Botbuilder-js (javascript) ：Microsoft Teams SDK 不收集特定数据。 |
+>| 有关详细信息，请访问 https://prezi.com/privacy-policy/ |  | 以下 API/SDK 与 1 一起用于集成。 Botbuilder-SDK (python) ：使用此 SDK，我们将 Azure Active Directory 对象 ID (API aad_object_id) 。 我们需要此信息将用户映射到Microsoft Teams上创建的任何 Prezi 视频相关 prezi.com。  2. Botbuilder-js (javascript) ：Microsoft Teams SDK 不收集特定数据。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -76,7 +76,7 @@ Prezi 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序日志中不显示 EUII 或 OII。
 
@@ -87,11 +87,11 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 >我们将以下信息存储在 RDS 数据库中：
 
-1. Azure Active Directory API (引用的对象 ID aad_object_id) 存储为Microsoft Teams用户&#8217;视频。 系统aad_object_id上的 Microsoft&#8217;官方聊天机器人 sdk 安全地检索到此内容。
+1. Azure Active Directory API (对象 ID aad_object_id) 存储为提取Microsoft Teams用户&#8217;的视频。 系统aad_object_id上的 Microsoft&#8217;官方自动构建器 sdk 安全地检索到此内容。
 
-2. 在 prezi.com 上创建的视频链接。 在 prezi.com 上创建的内容按以下 URL 的第 14 节存储： https://prezi.com/privacy-policy/ 
+2. 在 prezi.com 上创建的视频 prezi.com。 在 prezi.com 上创建的内容按以下 URL 的第 14 节存储： https://prezi.com/privacy-policy/ 
 
-对高风险外部系统的访问权限 (AWS) 通过 OneLogin (的第三方统一身份和访问管理) 。
+对高风险外部系统的访问权限 (AWS) 通过 OneLogin)  (的第三方统一标识和访问管理平台进行管理。
 
 对统一标识和访问管理平台中的人员强制执行密码策略和多重身份验证。 基于情况，不需要从 Office IP 地址进行多重身份验证。
 

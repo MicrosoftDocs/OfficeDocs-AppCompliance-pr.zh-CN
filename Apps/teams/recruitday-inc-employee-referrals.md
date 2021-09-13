@@ -6,14 +6,14 @@ ms.date: 06/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 员工引荐的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 有关员工引荐的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 2aa10a6034260c3774a134eeace4e677f29c83ba
-ms.sourcegitcommit: 823d3d853f6063f34785cab2f3316ac4ac99cdcf
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58392890"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278607"
 ---
 # <a name="employee-referrals"></a>员工引荐
 
@@ -55,9 +55,9 @@ ms.locfileid: "58392890"
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | 两者 | 应用用户的 (名字和姓氏（即员工) ）主要供 HR 用户用来轻松识别引用引荐应用程序跟踪和奖励付款的员工。 它还将用于在发送系统生成的电子邮件通知时正确地址员工。 | 应用用户的 (名字和姓氏（即员工) ）主要供 HR 用户用来轻松识别引用引荐应用程序跟踪和奖励付款的员工。 它还将用于在发送系统生成的电子邮件通知时正确地址员工。 | [7414b436-87d1-4904-9d52-ff47885b89f1](https://docs.microsoft.com/microsoft-365-app-certification/azure/7414b436-87d1-4904-9d52-ff47885b89f1) |
+>| User.Read | 两者 | 应用用户的名字和姓氏 (，即员工) 主要由 HR 用户用来轻松识别推荐了引荐应用程序跟踪并奖励付款的员工。 它还将用于在发送系统生成的电子邮件通知时正确地址员工。 | 应用用户的名字和姓氏 (，即员工) 主要由 HR 用户用来轻松识别推荐了引荐应用程序跟踪并奖励付款的员工。 它还将用于在发送系统生成的电子邮件通知时正确地址员工。 | [7414b436-87d1-4904-9d52-ff47885b89f1](https://docs.microsoft.com/microsoft-365-app-certification/azure/7414b436-87d1-4904-9d52-ff47885b89f1) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -68,7 +68,7 @@ ms.locfileid: "58392890"
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) ）或添加到其中聊天。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -89,7 +89,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
-是否涉及人员查看或分析 OII (或) 收集或存储的任何组织可识别信息？
+是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
 >否
 

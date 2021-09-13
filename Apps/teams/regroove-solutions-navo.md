@@ -9,11 +9,11 @@ certification_type: attested
 description: Navo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: e17eac9ef2db9418a38900d0de84ce62fad71097
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521205"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59276773"
 ---
 # <a name="navo"></a>Navo
 
@@ -77,15 +77,15 @@ Regroove 解决方案提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->是的，在应用程序Insights存储用户经过身份验证的 ID 和租户 ID (用户帐户 id) 。
+>是的，在应用程序Insights存储用户经过身份验证的 ID 和租户 id (用户帐户 id) 。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们存储的所有数据 (，而不是通过带区或应用程序Insights) 存储在 Azure Cosmos数据库中。 所有管理员都使用 2FA，并且访问权限仅限于我们员工的子集。
+>我们存储的所有数据都 (，而不是通过带区或应用程序Insights) 存储在 Azure Cosmos 数据库中。 所有管理员都使用 2FA，并且访问权限仅限于我们员工的子集。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

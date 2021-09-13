@@ -6,14 +6,14 @@ ms.date: 02/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关 word 文档自动化Excel、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
+description: 有关 Excel 到 Word 文档自动化的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 8dc1ac8d012545326f0d3c4f96764d5a2ed391b7
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281204"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278948"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel到 Word 文档自动化
 
@@ -33,7 +33,7 @@ AnalysisPlace 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Excel到 Word 文档自动化 |
 | ID | WA104380955 |
-| Office 365支持的客户端 | Excel 2016或更高版本、Excel 2016 或更高版本、Windows、Word 2016 或 Word 2016更高版本、Windows 或更高版本、Windows PowerPoint 2016 或更高版本、PowerPoint 2016 或更高版本、Windows、Excel web 版、Word web 版、PowerPoint web 版 |
+| Office 365支持的客户端 | Excel 2016或更高版本、Excel 2016 或更高版本、Windows 或 Word 2016 或更高版本、Word 2016 或 Windows 或更高版本、mac 上的 PowerPoint 2016 或更高版本、PowerPoint 2016 或更高版本（Windows、Excel web 版、Word web 版、PowerPoint web 版 |
 | 合作伙伴公司名称 | AnalysisPlace |
 | 合作伙伴网站的 URL | [https://analysisplace.com](https://analysisplace.com) |
 | 隐私策略的 URL | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
@@ -47,7 +47,7 @@ AnalysisPlace 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 AnalysisPlace 提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
+此信息由 AnalysisPlace 提供，用于了解此应用程序如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -66,7 +66,7 @@ AnalysisPlace 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >存储用户名、公司名称和电子邮件。 对于已处于非活动状态 2 年的帐户，将删除这些帐户。
 
@@ -74,7 +74,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->无
+>不适用
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -107,16 +107,16 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 否 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
 | 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

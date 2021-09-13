@@ -1,5 +1,5 @@
 ---
-title: OnePlaceMail for Outlook 解决方案的应用程序信息
+title: OnePlaceMail for Outlook By OnePlace 解决方案的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/31/2021
@@ -9,11 +9,11 @@ certification_type: attested
 description: OnePlaceMail for Outlook 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 18dc1ab4ba71102564c1c85f7ed3846d9f4f1700
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527928"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278696"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail for Outlook
 
@@ -33,7 +33,7 @@ OnePlace 解决方案提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | OnePlaceMail for Outlook |
 | ID | WA104380723 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016 或更高版本、Outlook iOS 版、Outlook Android 版Outlook 网页版 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本Windows、Outlook 2016 Mac 或更高版本、Outlook iOS 版、Outlook Android 版Outlook 网页版 |
 | 合作伙伴公司名称 | OnePlace 解决方案 |
 | 合作伙伴网站的 URL | [https://www.oneplacesolutions.com](https://www.oneplacesolutions.com) |
 | 隐私策略的 URL | [https://www.oneplacesolutions.com/oneplacemailapp-privacy](https://www.oneplacesolutions.com/oneplacemailapp-privacy) |
@@ -56,17 +56,17 @@ OnePlace 解决方案提供了此信息，这些信息与此应用程序如何�
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.ReadWrite.All | delegated | 需要确定Teams用户是其中的成员。 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| Mail.ReadWrite.Shared | delegated | 需要访问邮件属性才能设置SharePoint列，并添加邮件项目的"SharePoint"类别 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Mail.ReadWrite.Shared | delegated | 需要访问邮件属性才能设置SharePoint列，并添加邮件项目的"已SharePoint收件人"类别 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| MailboxSettings.ReadWrite | delegated | 没有收集或使用了任何数据，这用于将类别添加到用户邮箱中的主类别列表 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| Sites.ReadWrite.All | delegated | 需要设置应用已上载到项目的属性SharePoint。 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| User.Read | delegated | 对 Microsoft Graph 进行身份验证Graph。 | 以下数据存储在数据库中，并用于订阅和用户许可证跟踪：用户 ID、电子邮件、名字、姓氏。 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| User.ReadBasic.All | delegated | 在人员选取器字段中显示用户配置文件图像所必需。 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| User.ReadBasic.All | delegated | 在人员选取器字段中显示用户配置文件图像所必需。 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.ReadWrite.All | delegated | 需要确定是否在Teams租户的用户中启用了 Office 365 服务。 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadWrite.All | delegated | 确定是否在租户Teams启用服务，Office 365必需。 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -78,21 +78,21 @@ OnePlace 解决方案提供了此信息，这些信息与此应用程序如何�
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| 充电服务用于订阅管理和计费。 对于应用内 (订阅) "名字、姓氏、电子邮件地址"与 Chargify 共享。 对于购买 (支持多个许可用户) 不会与认证服务共享单个用户详细信息。 | 电子邮件地址 | 能够将订阅生命周期事件传达给用户 |
+>| 充电服务用于订阅管理和计费。 对于应用内 (订阅) 用户的名字、姓氏、电子邮件地址与 Chargify 共享。 对于已购买的 (支持多个许可用户) 不会与充电服务共享单个用户详细信息。 | 电子邮件地址 | 能够将订阅生命周期事件传达给用户 |
 
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->EUII 和 OII 确实显示在遥测中。 此信息存储在 Application Insights中，在 90 天后进行加密、控制和删除访问权限
+>EUII 和 OII 确实显示在遥测中。 此信息存储在应用程序服务器中，Insights进行加密、在 90 天后控制访问权限并删除
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->应用程序中存储的数据在传输过程中和其余时间进行加密。 我们依赖于Office 365凭据，因此不在系统中存储用户密码。 对存储的数据/日志/遥测的访问受到严格控制，内部管理人员需要访问该信息，以便运行和监视应用的运行状况。 Two-Factor内部管理人员强制执行身份验证。
+>应用程序中存储的数据在传输过程中和其余时间进行加密。 我们依赖Office 365凭据，因此不在系统中存储用户密码。 对存储的数据/日志/遥测的访问受到严格控制，内部管理人员需要访问该信息以运行和监视应用的运行状况。 Two-Factor内部管理人员强制执行身份验证。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -125,18 +125,18 @@ OnePlace 解决方案提供了此信息，这些信息与此应用程序如何�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 不支持 |
+| 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 不支持 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

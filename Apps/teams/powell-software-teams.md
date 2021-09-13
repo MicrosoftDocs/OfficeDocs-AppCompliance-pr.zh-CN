@@ -6,16 +6,16 @@ ms.date: 08/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 所有可用的适用于 Teams 的信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 所有可用的 Security and compliance information for Teams、 its data handling policies、 its Microsoft Cloud App Security app catalog information， and security/compliance information in the CSA STAR registry.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 3c774a017f4283646cf46c2042d33b19dc2b8e80
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407377"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277307"
 ---
-# <a name="powell-teams"></a>百年Teams
+# <a name="powell-teams"></a>Powell Teams
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ ms.locfileid: "58407377"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 百年Teams |
+| 应用名称 | Powell Teams |
 | ID | WA200001585 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 亿达软件 |
+| 合作伙伴公司名称 | Powell 软件 |
 | 合作伙伴网站的 URL | [https://www.powell-software.com](https://www.powell-software.com) |
-| Teams信息页的 URL | [https://helpteams.powell-software.com](https://helpteams.powell-software.com) |
+| 应用程序Teams页的 URL | [https://helpteams.powell-software.com](https://helpteams.powell-software.com) |
 | 隐私策略的 URL | [https://powell-software.com/en/powell-teams-privacy](https://powell-software.com/en/powell-teams-privacy) |
 | 使用条款 URL | [https://powell-software.com/en/powell-teams-terms-of-use/](https://powell-software.com/en/powell-teams-terms-of-use/) |
 
@@ -55,7 +55,7 @@ ms.locfileid: "58407377"
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.AccessAsUser.All | delegated | NA | NA | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](https://docs.microsoft.com/microsoft-365-app-certification/azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4) |
 >| Group.ReadWrite.All | delegated | NA | NA | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](https://docs.microsoft.com/microsoft-365-app-certification/azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4) |
@@ -65,7 +65,7 @@ ms.locfileid: "58407377"
 >| User.Read.All | delegated | NA | NA | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](https://docs.microsoft.com/microsoft-365-app-certification/azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -80,7 +80,7 @@ ms.locfileid: "58407377"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >用户 Azure AD ID 和用户租户 ID
 

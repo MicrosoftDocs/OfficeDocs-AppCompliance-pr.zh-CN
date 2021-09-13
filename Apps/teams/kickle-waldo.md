@@ -6,16 +6,16 @@ ms.date: 06/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 所有可用的适用于管理中心的安全与合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 所有可用的适用于用户的安全和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 7a9b7d0595dcd6496222b786f1e2a3df90177e97
-ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58673046"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279512"
 ---
-# <a name="waldo"></a>都鲁巴岛
+# <a name="waldo"></a>Waldo
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ Kickle 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 都鲁巴岛 |
+| 应用名称 | Waldo |
 | ID | WA200003139 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Kickle |
 | 合作伙伴网站的 URL | [https://hellowaldo.app](https://hellowaldo.app) |
-| "Teams应用程序信息"页的 URL | [https://hellowaldo.app/takeatour/](https://hellowaldo.app/takeatour/) |
+| 应用程序Teams页的 URL | [https://hellowaldo.app/takeatour/](https://hellowaldo.app/takeatour/) |
 | 隐私策略的 URL | [https://hellowaldo.app/privacy-policy/](https://hellowaldo.app/privacy-policy/) |
 | 使用条款 URL | [https://hellowaldo.app/terms-and-conditions](https://hellowaldo.app/terms-and-conditions) |
 
@@ -55,9 +55,9 @@ Kickle 提供给 Microsoft 的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Chat.ReadBasic | delegated | 根据你的聊天历史记录，用户识别你的同事。 此列表随后用于在日历视图中显示状态。 | 用户存储每个同事的用户 ID。 这些 ID 用于显示我们过去用来合作的同事列表。 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
+>| Chat.ReadBasic | delegated | 根据你的聊天历史记录，它标识你的同事。 此列表随后用于在日历视图中显示状态。 | 用户存储每个同事的用户 ID。 这些 ID 用于显示我们过去用来合作的同事列表。 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
 >| User.Read | delegated | 此权限由 Microsoft Graph Toolkit | 不适用 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
 >| User.ReadBasic.All | delegated | 此权限由 Microsoft Graph Toolkit | 不适用 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
 >| offline_access | delegated | 由应用用于代表用户创建后台任务， (令牌以执行身份验证)  | 不适用 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
@@ -72,14 +72,14 @@ Kickle 提供给 Microsoft 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -87,7 +87,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->组织可以在 上查看管理管理员、管理联系人和技术联系人 https://app.hellowaldo.app/admin-orga-contacts 。  组织可以联系我们，hello@kickle.com 从应用中删除个人身份信息。 这可能会限制我们可以提供的服务。
+>组织可以在 上查看管理管理员、管理联系人和技术联系人 https://app.hellowaldo.app/admin-orga-contacts 。  组织可以通过联系我们 hello@kickle.com 从应用中删除个人身份信息。 这可能会限制我们可以提供的服务。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

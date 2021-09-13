@@ -6,14 +6,14 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 用于 researcHR 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 用于 researcHR 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: b57d492945766c8d65417cf2f1d642ea4ecb8aae
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873752"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59276771"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -49,11 +49,11 @@ KBE 向 Microsoft&#26666;&#24335;&#20250;&#31038; 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 KBE&#26666;&#24335;&#20250;&#31038; ，它用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由 KBE&#26666;&#24335;&#20250;&#31038; ，它用于了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -74,7 +74,7 @@ KBE 向 Microsoft&#26666;&#24335;&#20250;&#31038; 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -89,7 +89,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->数据库中的所有数据都经过加密。 数据库数据的备份将按照我们的内部操作策略执行和存储一段时间。 如果用户取消此服务，我们将在不延迟的情况下删除用户的用户信息，除非在必要范围内履行法律规定的存储义务。 以下是详细信息。 https://app.researchr.work/privacypolicy
+>数据库中的所有数据都经过加密。 数据库数据的备份将按照我们的内部操作策略执行和存储一段时间。 如果用户取消此服务，我们将立即删除用户的用户信息，除非在必要范围内履行法律规定的存储义务。 以下是详细信息。 https://app.researchr.work/privacypolicy
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -117,7 +117,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 KBE&#26666;&#24335;&#20250;&#31038; ，用于了解此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+此信息由 KBE 组织提供&#26666;&#24335;&#20250;&#31038; 此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
 
 | **Information** | **响应** |
 |:----------------|:-------------|

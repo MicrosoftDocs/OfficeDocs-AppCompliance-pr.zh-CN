@@ -9,11 +9,11 @@ certification_type: attested
 description: Medxnote MT 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 5eff51e5045f299ad8fe9e8335b3c5dac41af919
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525486"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277213"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -75,7 +75,7 @@ Medxnote 提供了此信息，这些信息与此应用程序如何收集和存�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >email address， Name， tenant id， channel id might appear in logs All log data is automatically deleted after 1 month at the latest.
 对它们的访问权限仅限于少数具有 2FA 强制访问权限的组织管理员。

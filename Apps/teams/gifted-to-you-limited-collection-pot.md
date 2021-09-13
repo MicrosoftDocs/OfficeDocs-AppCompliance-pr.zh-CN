@@ -6,14 +6,14 @@ ms.date: 06/11/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 收集点的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Collection Pot 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 64d48d55cdbb437697f6d001636ed505b4fcbc59
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53609947"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279087"
 ---
 # <a name="collection-pot"></a>Collection Pot
 
@@ -35,7 +35,7 @@ ms.locfileid: "53609947"
 | 应用名称 | Collection Pot |
 | ID | WA200002016 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 向您提供有限馈送 |
+| 合作伙伴公司名称 | Gifted to You Limited |
 | 合作伙伴网站的 URL | [https://www.collectionpot.com](https://www.collectionpot.com) |
 | 隐私策略的 URL | [https://www.collectionpot.com/privacy/](https://www.collectionpot.com/privacy/) |
 | 使用条款 URL | [https://www.collectionpot.com/terms-of-service/](https://www.collectionpot.com/terms-of-service/) |
@@ -72,7 +72,7 @@ ms.locfileid: "53609947"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -80,7 +80,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->Collection Pot 保留和保留的所有数据都受我们的隐私策略的约束，位于 https://www.collectionpot.com/privacy/ 。 组织管理员可以在会议与集合 hello@collectionpot.com 联系，以安排对由 Collection Pot 持有的信息的访问。 
+>Collection Pot 保留和保留的所有数据都受我们的隐私策略的约束，位于 https://www.collectionpot.com/privacy/ 。 组织管理员可以在集合 hello@collectionpot.com 联系 Collection Pot，以安排对由 Collection Pot 持有的信息的访问。 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -113,14 +113,14 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 否 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 否 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 否 |
 | 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |

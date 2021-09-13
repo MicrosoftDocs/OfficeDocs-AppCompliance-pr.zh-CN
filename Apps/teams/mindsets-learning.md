@@ -1,21 +1,21 @@
 ---
-title: 按意识和习惯的应用程序Learning
+title: 按意识组织的应用程序信息Learning
 ms.author: elmalova
 author: elenamalova
 ms.date: 07/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关安全机制的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 有关"意识"的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 95f3d60efa1c9cb8cb238fb51af9fa927c17a961
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404375"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279427"
 ---
-# <a name="mindsets"></a>意识
+# <a name="mindsets"></a>Mindsets
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -28,16 +28,16 @@ ms.locfileid: "58404375"
 
 ### <a name="general-information"></a>一般信息
 
-由意识组织Learning向 Microsoft 提供的信息：
+由意识组织向 Microsoft Learning的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 意识 |
+| 应用名称 | Mindsets |
 | ID | WA200003000 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 意识Learning |
+| 合作伙伴公司名称 | 思维方式学习 |
 | 合作伙伴网站的 URL | [https://www.mindsets.com](https://www.mindsets.com) |
-| Teams信息页的 URL | [https://www.mindsets.com](https://www.mindsets.com) |
+| 应用程序Teams页的 URL | [https://www.mindsets.com](https://www.mindsets.com) |
 | 隐私策略的 URL | [https://www.mindsets.com/terms](https://www.mindsets.com/terms) |
 | 使用条款 URL | [https://www.mindsets.com/terms](https://www.mindsets.com/terms) |
 
@@ -49,7 +49,7 @@ ms.locfileid: "58404375"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由意识组织Learning有关此应用程序如何收集和存储组织数据以及你的组织将拥有对应用收集的数据的控制的信息。
+此信息由意识组织Learning此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -58,7 +58,7 @@ ms.locfileid: "58404375"
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -75,7 +75,7 @@ ms.locfileid: "58404375"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -111,7 +111,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由安全机制Learning此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+此信息由意识组织提供Learning此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
 
 | **Information** | **响应** |
 |:----------------|:-------------|

@@ -9,11 +9,11 @@ certification_type: attested
 description: Highspot 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: bbf47f6b42e1f77fefed8de24ce23858e5cb52fd
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521595"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279212"
 ---
 # <a name="highspot"></a>Highspot
 
@@ -37,7 +37,7 @@ Highspot 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Highspot |
 | 合作伙伴网站的 URL | [https://www.highspot.com](https://www.highspot.com) |
-| "Teams应用程序信息"页的 URL | [https://www.highspot.com/overview/](https://www.highspot.com/overview/) |
+| 应用程序Teams页的 URL | [https://www.highspot.com/overview/](https://www.highspot.com/overview/) |
 | 隐私策略的 URL | [https://www.highspot.com/privacy](https://www.highspot.com/privacy) |
 | 使用条款 URL | [https://www.highspot.com/terms/](https://www.highspot.com/terms/) |
 
@@ -59,11 +59,11 @@ Highspot 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Microsoft teams API | 不支持 |  |  |  |  |
+>| Microsoft teams API | 否 |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
@@ -79,12 +79,12 @@ Highspot 提供给 Microsoft 的信息：
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 对于欢迎消息，使用最终用户名称。 | 不支持 |  |
+>| 对于欢迎消息，使用最终用户名称。 | 否 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >客户域标识符;将日志保留 365 天，并符合监管机构的要求。
 
@@ -98,7 +98,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

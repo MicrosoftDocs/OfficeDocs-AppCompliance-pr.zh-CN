@@ -9,11 +9,11 @@ certification_type: attested
 description: 针对 Polly 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3637dd9f14fb7a887372442c9b4a067b30b35d8a
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521355"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279392"
 ---
 # <a name="polly"></a>Polly
 
@@ -37,7 +37,7 @@ ms.locfileid: "53521355"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Polly |
 | 合作伙伴网站的 URL | [https://www.polly.ai](https://www.polly.ai) |
-| "Teams应用程序信息"页的 URL | [https://www.polly.ai/help/msteams](https://www.polly.ai/help/msteams) |
+| 应用程序Teams页的 URL | [https://www.polly.ai/help/msteams](https://www.polly.ai/help/msteams) |
 | 隐私策略的 URL | [https://www.polly.ai/privacy](https://www.polly.ai/privacy) |
 | 使用条款 URL | [https://www.polly.ai/tos](https://www.polly.ai/tos) |
 
@@ -75,7 +75,7 @@ ms.locfileid: "53521355"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >无
 

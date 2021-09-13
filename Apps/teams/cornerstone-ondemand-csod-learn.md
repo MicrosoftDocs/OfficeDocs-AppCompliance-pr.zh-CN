@@ -9,13 +9,13 @@ certification_type: attested
 description: CSOD Learn 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 2064ed00ba6306d86a09b3eff9dc6e56c8d1cc40
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407368"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279809"
 ---
-# <a name="csod-learn"></a>CSOD 学习
+# <a name="csod-learn"></a>CSOD Learn
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ ms.locfileid: "58407368"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | CSOD 学习 |
+| 应用名称 | CSOD Learn |
 | ID | WA200003020 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 基元 OnDemand |
+| 合作伙伴公司名称 | Cornerstone OnDemand |
 | 合作伙伴网站的 URL | [https://www.cornerstoneondemand.com](https://www.cornerstoneondemand.com) |
 | 隐私策略的 URL | [https://www.cornerstoneondemand.com/client-privacy-policy/](https://www.cornerstoneondemand.com/client-privacy-policy/) |
 | 使用条款 URL | [https://www.microsoft.com/en-us/microsoft-teams/group-chat-...](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) |
@@ -52,16 +52,16 @@ ms.locfileid: "58407368"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| 组织数据在 CSOD 服务和 Microsoft 之间共享。 有关详细信息，请参阅与 CSOD 的协议条款 | 组织数据在 CSOD 服务和 Microsoft 之间共享。 有关详细信息，请参阅与 CSOD 的协议条款 | CSOD 服务不使用Graph API。 我们使用 Microsoft 框架 botbuilder^4.9.2 来提升服务性能。 服务使用 OII 数据来标识 CSOD 服务使用者。 有关详细信息，请参阅与 CSOD 的协议条款 |
 
@@ -76,7 +76,7 @@ ms.locfileid: "58407368"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >CSOD 服务在有限时段内存储包含用户与应用交互的应用程序日志，以排查 Bug 和用户报告的问题。 单个日志语句由最终用户内部 lms 用户 ID、CSOD 服务中配置的组织名称以及要执行的适当操作组成。 是
 
@@ -112,7 +112,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由一名（一名）的一名一名小手提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+此信息由一名（一名）的一名一名小手提供，这些信息与该应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
 
 | **Information** | **响应** |
 |:----------------|:-------------|

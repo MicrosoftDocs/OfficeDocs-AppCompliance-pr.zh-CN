@@ -1,5 +1,5 @@
 ---
-title: MySecretary 的为一位用户提供一些应用程序信息，这些应用程序信息由 MySecretary 提供
+title: MySecretary 的为一位用户显示一个针对一位用户的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
@@ -9,11 +9,11 @@ certification_type: attested
 description: 所有 Available security and compliance information for一切 Available security and compliance information for 一切，其数据处理策略、Microsoft Cloud App Security应用程序目录信息，以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 8d7e2fce37cf43fe52cb050e85aa9e4fd5e00802
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525446"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278828"
 ---
 # <a name="secretarybot"></a>SecretaryBot
 
@@ -37,7 +37,7 @@ MySecretary 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | MySecretary |
 | 合作伙伴网站的 URL | [https://secretarybot.wordpress.com/](https://secretarybot.wordpress.com/) |
-| "Teams应用程序信息"页的 URL | [https://secretarybot.wordpress.com/faq/](https://secretarybot.wordpress.com/faq/) |
+| 应用程序Teams页的 URL | [https://secretarybot.wordpress.com/faq/](https://secretarybot.wordpress.com/faq/) |
 | 隐私策略的 URL | [https://secretarybot.wordpress.com/privacy-policy/](https://secretarybot.wordpress.com/privacy-policy/) |
 | 使用条款 URL | [https://secretarybot.wordpress.com/terms-of-use/](https://secretarybot.wordpress.com/terms-of-use/) |
 
@@ -59,7 +59,7 @@ MySecretary 提供了此信息，这些信息与此应用程序如何收集和�
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read.Shared | delegated |  | 获取用户及其同事的空闲时间信息。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Calendars.ReadWrite | delegated |  | 发送会议请求，而不是用户。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| MailboxSettings.Read | delegated | 用于显示正确语言存储语言。 节省时区以正确调用 MS Graph日历 API | 获取用户的语言和时区设置。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| MailboxSettings.Read | delegated | 用于显示正确语言的应用商店语言。 节省时区以正确调用 MS Graph日历 API | 获取用户的语言和时区设置。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| People.Read | delegated |  | 尝试查找与用户具有强关系的同事。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | delegated | 存储用户名、城市、国家/地区以及用于用户分析的语言。 存储用于联系客户的电子邮件。 我们从未使用过电子邮件地址，但可能用于提供支持。 | 尝试查找用户的国家/地区及首选语言。 它用于 MailboxSettings.Read 的备份。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| email | delegated | 具体步骤请见上文。 | 用于存储电子邮件。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -75,16 +75,16 @@ MySecretary 提供了此信息，这些信息与此应用程序如何收集和�
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 使用此信息安排团队会议 | 不支持 |  |
+>| 使用此信息安排团队会议 | 否 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >OII 或 EUII 数据确实显示在遥测或日志中。
 

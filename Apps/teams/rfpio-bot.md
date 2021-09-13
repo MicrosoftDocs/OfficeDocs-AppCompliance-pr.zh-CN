@@ -9,11 +9,11 @@ certification_type: attested
 description: RFPIO 自动程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 53a0dc00f9ac1c34577bd8351ebf6ecfda66cf4d
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53774869"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277358"
 ---
 # <a name="rfpio-bot"></a>RFPIO 机器人
 
@@ -37,7 +37,7 @@ RFPIO 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | RFPIO |
 | 合作伙伴网站的 URL | [https://www.rfpio.com](https://www.rfpio.com) |
-| "Teams应用程序信息"页的 URL | [https://www.rfpio.com/product/](https://www.rfpio.com/product/) |
+| 应用程序Teams页的 URL | [https://www.rfpio.com/product/](https://www.rfpio.com/product/) |
 | 隐私策略的 URL | [https://www.rfpio.com/privacy-policy/](https://www.rfpio.com/privacy-policy/) |
 | 使用条款 URL | [https://www.rfpio.com/terms-of-service/](https://www.rfpio.com/terms-of-service/) |
 
@@ -68,7 +68,7 @@ RFPIO 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -77,7 +77,7 @@ RFPIO 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 > 电子邮件地址、IP 地址。  日志每 90 天轮换一次。 
 
@@ -126,10 +126,10 @@ RFPIO 已提供有关此应用如何处理身份验证、授权、应用程序�
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
 | 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

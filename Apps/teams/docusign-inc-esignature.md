@@ -9,11 +9,11 @@ certification_type: attested
 description: DocuSign eSignature 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 6f924fd6777e53a6b854d2249d334fbdab2a54c0
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52790020"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279100"
 ---
 # <a name="docusign-esignature"></a>DocuSign eSignature
 
@@ -37,7 +37,7 @@ DocuSign， Inc. 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | DocuSign， Inc. |
 | 合作伙伴网站的 URL | [https://www.docusign.com](https://www.docusign.com) |
-| "Teams应用程序信息"页的 URL | [https://docs.docusign.com/supportdocs/ds-for-MS-teams/Conte...](https://docs.docusign.com/supportdocs/ds-for-MS-teams/Content/overview-docusign-for-ms-teams.htm) |
+| 应用程序Teams页的 URL | [https://docs.docusign.com/supportdocs/ds-for-MS-teams/Conte...](https://docs.docusign.com/supportdocs/ds-for-MS-teams/Content/overview-docusign-for-ms-teams.htm) |
 | 隐私策略的 URL | [https://www.docusign.com/company/privacy-policy](https://www.docusign.com/company/privacy-policy) |
 | 使用条款 URL | [https://www.docusign.com/company/terms-and-conditions/web](https://www.docusign.com/company/terms-and-conditions/web) |
 
@@ -66,14 +66,14 @@ DocuSign， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -87,7 +87,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

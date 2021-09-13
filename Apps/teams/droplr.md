@@ -9,11 +9,11 @@ certification_type: attested
 description: Droplr 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a15e235b7f604ba4b5c73c74eef50d4bc1a49e65
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525696"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279735"
 ---
 # <a name="droplr"></a>Droplr
 
@@ -37,7 +37,7 @@ Droplr 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Droplr |
 | 合作伙伴网站的 URL | [https://droplr.com](https://droplr.com) |
-| "Teams应用程序信息"页的 URL | [https://droplr.com/contact](https://droplr.com/contact) |
+| 应用程序Teams页的 URL | [https://droplr.com/contact](https://droplr.com/contact) |
 | 隐私策略的 URL | [https://droplr.com/privacy](https://droplr.com/privacy) |
 | 使用条款 URL | [https://droplr.com/terms](https://droplr.com/terms) |
 
@@ -75,7 +75,7 @@ Droplr 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >否。 记录用户数据违反我们的策略。
 

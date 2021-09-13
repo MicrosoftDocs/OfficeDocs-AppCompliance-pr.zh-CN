@@ -9,11 +9,11 @@ certification_type: attested
 description: Fabasoft 云 Office 外接程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: ab18964a27a5443fc1116c4c18d5e94830d3dc89
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404218"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279015"
 ---
 # <a name="fabasoft-cloud-office-add-in"></a>Fabasoft 云Office加载项
 
@@ -33,7 +33,7 @@ Fabasoft Austria GmbH 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Fabasoft 云Office加载项 |
 | ID | WA200002917 |
-| Office 365支持的客户端 | Word 2016 Mac、Word web 版、Word 2013 或更高版本的 Windows |
+| Office 365支持的客户端 | Word 2016 Mac、Word web 版、Word 2013 或更高版本（Windows |
 | 合作伙伴公司名称 | Fabasoft Austria GmbH |
 | 合作伙伴网站的 URL | [https://www.fabasoft.com](https://www.fabasoft.com) |
 | 隐私策略的 URL | [https://www.fabasoft.com/privacy](https://www.fabasoft.com/privacy) |
@@ -51,19 +51,19 @@ Fabasoft Austria GmbH 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于此模型构建的应用和Microsoft 365可能会使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| officejs API | 否 |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -73,7 +73,7 @@ Fabasoft Austria GmbH 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 

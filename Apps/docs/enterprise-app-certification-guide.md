@@ -7,11 +7,11 @@ keywords: 应用证明 Microsoft 365 认证 365 调查表 appSource
 ms.topic: conceptual
 ms.service: attestation
 ms.openlocfilehash: 49bb08fa252a3907df67766dce39ef810381be27
-ms.sourcegitcommit: 44c92cbf86ee358e4fcdf2a51dae5be001345029
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862035"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278952"
 ---
 # <a name="what-is-microsoft-365-certification"></a>什么是Microsoft 365认证？
 
@@ -31,7 +31,7 @@ Microsoft 365认证适用于与以下 Microsoft 产品集成的所有应用：
 - SharePoint
 - Project
 - OneNote
-- **通过合作伙伴** (商业市场发布的 SaaS 应用的 Web 应用目前处于私人预览状态，如果你有兴趣参与，请填写此表单 [.)](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)
+- **通过 (** 商业市场发布的 SaaS 应用的 Web 应用目前处于私人预览状态，如果你有兴趣参与，请填写此表单 [.)](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)
 
 
 ## <a name="program-benefits"></a>计划权益
@@ -60,7 +60,7 @@ Microsoft 365认证适用于与以下 Microsoft 产品集成的所有应用：
 
 
 ### <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>使用Microsoft 365徽章和相关营销材料
-the Microsoft 365 Certification logo demonstrates that an app has been reviewed for conforms to conforms to controls puted by Microsoft whichly evaluate data security and privacy practices. 完成认证后Microsoft 365 Microsoft 明确书面同意，可以使用 Microsoft 365 徽标。 如果吊销你的认证，或者自认证授予后一年内未启动重新认证过程，则必须停止使用所有与认证相关的Microsoft 365材料。 
+the Microsoft 365 Certification logo demonstrates that an app has been reviewed for conforms to conforms to controls puted by Microsoft whichly evaluate data security and privacy practices. 完成认证后Microsoft 365 Microsoft 明确书面同意，可以使用 Microsoft 365 徽标。 如果你的认证被吊销，或者自认证授予起一年内未启动重新认证过程，则必须停止使用所有与认证相关的Microsoft 365材料。 
 
 此徽标可用于网站、新闻稿和其他专门与已完成认证过程的应用程序相关的论坛Microsoft 365徽标。 徽标必须以合理的大小和位置呈现在数字内容中。 
 

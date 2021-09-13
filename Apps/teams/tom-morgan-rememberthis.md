@@ -9,11 +9,11 @@ certification_type: attested
 description: RememberThis 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a1804f11eaf52e9715b3b50ba558561794fc8b26
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527558"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279628"
 ---
 # <a name="rememberthis"></a>RememberThis
 
@@ -37,7 +37,7 @@ Tom Tom 向 Microsoft 提供的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Tom Morgan |
 | 合作伙伴网站的 URL | [https://www.thoughtstuff.co.uk/free-products/rememberthis](https://www.thoughtstuff.co.uk/free-products/rememberthis) |
-| "Teams应用程序信息"页的 URL | [https://www.thoughtstuff.co.uk/free-products/rememberthis](https://www.thoughtstuff.co.uk/free-products/rememberthis) |
+| 应用程序Teams页的 URL | [https://www.thoughtstuff.co.uk/free-products/rememberthis](https://www.thoughtstuff.co.uk/free-products/rememberthis) |
 | 隐私策略的 URL | [https://www.thoughtstuff.co.uk/rememberthis/privacy-policy](https://www.thoughtstuff.co.uk/rememberthis/privacy-policy) |
 | 使用条款 URL | [https://www.thoughtstuff.co.uk/rememberthis/terms-of-service](https://www.thoughtstuff.co.uk/rememberthis/terms-of-service) |
 
@@ -66,7 +66,7 @@ Tom Tom 向 Microsoft 提供的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -75,7 +75,7 @@ Tom Tom 向 Microsoft 提供的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >OII 或 EUII 数据确实显示在遥测或日志中。
 

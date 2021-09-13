@@ -9,11 +9,11 @@ certification_type: attested
 description: Koan 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 7bd65669087e3e0cb934bf7cb3da4c70bba08d73
-ms.sourcegitcommit: 3660f89e183c638979a31c295ac059daa6c387dd
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58391868"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279207"
 ---
 # <a name="koan"></a>Koan
 
@@ -35,9 +35,9 @@ Koan， Inc. 提供给 Microsoft 的信息：
 | 应用名称 | Koan |
 | ID | WA200002936 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Koan， Inc. |
+| 合作伙伴公司名称 | Koan, Inc. |
 | 合作伙伴网站的 URL | [https://www.koan.co](https://www.koan.co) |
-| "Teams应用程序信息"页的 URL | [https://www.koan.co/how-it-works](https://www.koan.co/how-it-works) |
+| 应用程序Teams页的 URL | [https://www.koan.co/how-it-works](https://www.koan.co/how-it-works) |
 | 隐私策略的 URL | [https://www.koan.co/privacy-policy](https://www.koan.co/privacy-policy) |
 | 使用条款 URL | [https://www.koan.co/terms-of-service](https://www.koan.co/terms-of-service) |
 
@@ -55,7 +55,7 @@ Koan， Inc. 提供给 Microsoft 的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | delegated | 使用通道 ID 和频道名称。 我们使用数据，以便用户可以选择希望发送反射通知的地方。 | 我们将通道 ID 和频道名称存储为用户配置的一部分。 | [5b599e19-a609-432b-9074-c9d4457e8766](https://docs.microsoft.com/microsoft-365-app-certification/azure/5b599e19-a609-432b-9074-c9d4457e8766) |
 >| Team.ReadBasic.All | 两者 | 收集并使用了团队 ID 和团队名称。 我们使用数据，以便用户可以选择希望发送反射通知的地方。 | 我们将团队 ID 和团队名称存储为用户配置的一部分。 | [5b599e19-a609-432b-9074-c9d4457e8766](https://docs.microsoft.com/microsoft-365-app-certification/azure/5b599e19-a609-432b-9074-c9d4457e8766) |
@@ -66,17 +66,17 @@ Koan， Inc. 提供给 Microsoft 的信息：
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Intercom、Hubspot | 用户配置文件信息 | 客户支持 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) ）或添加到其中聊天。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 用户名，在 Microsoft Teams Koan 之间链接配置文件 | 否 |  |
+>| 用户名，链接 Microsoft Teams Koan 之间的配置文件 | 否 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -93,7 +93,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
-是否涉及人员查看或分析 OII (或) 收集或存储的任何组织可识别信息？
+是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
 >是
 
@@ -122,7 +122,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |

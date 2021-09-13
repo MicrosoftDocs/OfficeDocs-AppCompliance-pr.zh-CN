@@ -9,11 +9,11 @@ certification_type: attested
 description: 有关休假跟踪程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 55d54fbb94141dec562a829fdc647279a3cc006e
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527538"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277152"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -37,7 +37,7 @@ ms.locfileid: "53527538"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Vacation Tracker |
 | 合作伙伴网站的 URL | [https://vacationtracker.io](https://vacationtracker.io) |
-| "Teams应用程序信息"页的 URL | [https://vacationtracker.io/vacation-calendar-tracker-featur...](https://vacationtracker.io/vacation-calendar-tracker-features/) |
+| 应用程序Teams页的 URL | [https://vacationtracker.io/vacation-calendar-tracker-featur...](https://vacationtracker.io/vacation-calendar-tracker-features/) |
 | 隐私策略的 URL | [https://vacationtracker.io/privacy-policy/](https://vacationtracker.io/privacy-policy/) |
 | 使用条款 URL | [https://vacationtracker.io/terms-of-service/](https://vacationtracker.io/terms-of-service/) |
 
@@ -58,11 +58,11 @@ ms.locfileid: "53527538"
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Read.All | delegated | 在用户设置其每周或每日通知时，我们会读取公共频道的 ID 和名称。 | 用户可以选择希望从休假跟踪程序接收每日或每周通知的频道。 当用户选择其首选频道时，我们将存储通道 ID。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| Team.ReadBasic.All | delegated | 我们列出Microsoft Teams注册期间加入的团队用户，以允许用户选择要注册休假跟踪程序的团队。 他们也可以注册整个组织。 | 只有当用户Microsoft Teams作为单个团队注册休假跟踪程序，而不是作为整个组织注册为一 (，我们才存储所选团队的) 。 我们使用团队 ID 将已登录的用户与休假跟踪程序中的现有帐户连接。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| Team.ReadBasic.All | delegated | 我们列出Microsoft Teams注册期间加入的团队用户，以允许用户选择要注册休假跟踪程序的团队。 他们也可以注册整个组织。 | 只有当用户Microsoft Teams作为单个团队注册休假跟踪程序，而不是作为整个组织注册，我们才存储 (团队 ID) 。 我们使用团队 ID 将已登录的用户与休假跟踪程序中的现有帐户连接。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| User.Read | delegated | 我们将收集基本用户的信息，包括其名称、ID 和租户 ID。 我们使用此数据在休假跟踪器中将登录的用户连接到其组织。 | 我们存储用户的名称、ID 和租户 ID。 我们使用此数据在休假跟踪器中将登录的用户连接到其组织。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| User.Read.All | delegated | 我们的用户可以从他们的组织或Microsoft 365导入Microsoft Teams用户。 我们使用此权限仅为所选团队或组织导入Microsoft Teams用户。 | 我们存储有关已导入用户的基本信息，包括他们的姓名、电子邮件地址和用户 ID。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| User.ReadBasic.All | delegated | 我们允许用户从他们的组织或他们的团队导入Microsoft Teams用户。 我们使用此权限在导入弹出窗口中列出可用用户及其电子邮件地址。 | 当用户选择要导入休假跟踪程序的同事时，我们将存储有关这些导入用户的基本信息，包括他们的姓名、电子邮件地址和用户 ID。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| email | delegated | 当用户使用 Microsoft AAD 登录时，我们会将用户的电子邮件地址存储为唯一标识符。 | 我们将用户的电子邮件存储为唯一标识符。 我们不会使用此电子邮件进行通信，用户会输入他们在注册期间用于通信的业务电子邮件地址。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| email | delegated | 当用户使用 Microsoft AAD 登录时，我们会将用户的电子邮件地址存储为唯一标识符。 | 我们将用户的电子邮件存储为唯一标识符。 我们不会使用此电子邮件进行通信，用户输入在注册期间用于通信的业务电子邮件地址。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| offline_access | delegated | 我们不会收集具有此权限的任何数据。 它用于维护访问我们有权访问的数据的权限。 | 我们不会存储具有此权限的任何数据。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| openid | delegated | 我们使用此权限登录或注册用户休假跟踪程序。 我们不会收集具有此权限的任何特定数据。 | 我们使用此权限登录或注册用户休假跟踪程序。 我们不会存储具有此权限的任何特定数据。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| 个人资料 | delegated | 我们将收集基本用户的信息，包括其名称、ID 和租户 ID。 我们使用此数据在休假跟踪器中将登录的用户连接到其组织。 | 我们存储用户的名称、ID 和租户 ID。 我们使用此数据在休假跟踪器中将登录的用户连接到其组织。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
@@ -78,16 +78,16 @@ ms.locfileid: "53527538"
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 机器人可以看到有关与机器人通信的用户的基本信息。 但是，我们不会存储或使用该信息。 我们仅使用用户的 ID、对话 ID 和发送给自动程序的消息。 | 我们存储用户的电子邮件地址、 (Microsoft AAD) 和 Microsoft AAD (中定义的)  | 我们将电子邮件地址用作用户的唯一标识符以及用户名和个人资料照片，以允许同一公司的管理员和审批者在我们的仪表板中识别其员工。  |
+>| 机器人可以看到有关与机器人通信的用户的基本信息。 但是，我们不会存储或使用该信息。 我们仅使用用户的 ID、对话 ID 和发送给自动程序的消息。 | 我们存储用户的电子邮件地址、 (Microsoft AAD) 中定义的用户名和用户的个人资料照片 (Microsoft AAD)  | 我们将电子邮件地址用作用户的唯一标识符以及用户名和个人资料照片，以允许同一公司的管理员和审批者在我们的仪表板中识别其员工。  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >公司名称，根据我们针对此类数据的标准一年保留策略进行保留和删除
 
@@ -128,18 +128,18 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
-| 你的应用是否支持条件访问策略？ | 不支持 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
+| 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 不支持 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

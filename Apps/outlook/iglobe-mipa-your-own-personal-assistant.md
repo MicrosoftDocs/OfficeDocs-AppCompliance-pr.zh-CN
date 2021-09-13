@@ -9,11 +9,11 @@ certification_type: certified
 description: MIPA 的所有可用安全性和合规性信息 - 您自己的 个人助理、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 816d87c566fc50d3c6eaeaeaed2b333356d3ca00
-ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58672919"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277038"
 ---
 # <a name="mipa---your-own-personal-assistant"></a>MIPA - 你自己的个人助理
 
@@ -50,9 +50,9 @@ iGlobe 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取和更新日历完整部分 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| Contacts.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取和更新日历完整部分 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
@@ -62,20 +62,20 @@ iGlobe 提供了此信息，这些信息与此应用程序如何收集和存储�
 >| Group.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 读取、更新、创建平移器任务、读取用户的最近文件和共享文件、SharePoint列表、库和文件。 将文件保存到SharePoint列表中。 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| Group.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 读取、更新、创建平移器任务、读取用户的最近文件和共享文件、SharePoint列表、库和文件。 将文件保存到SharePoint列表中。 与 iGlobe CRM Office 365 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| Mail.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取和更新已标记的邮件 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| MailboxSettings.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取和更新 calender 的整个内容、读取和更新标记的邮件、读取和更新Outlook 微软待办整个 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| MailboxSettings.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取和更新 calender 整个、读取和更新标记的邮件、读取和更新Outlook 微软待办整个 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| Tasks.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新 calender 的整个内容、读取Outlook更新为 Do Entreies | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| User.Read | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新 calender 的整个内容、读取Outlook更新为 Do Entreies | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新日历的整个内容、读取Outlook更新为 Do Entreies、Read、Update、Create Panner Tasks | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.ReadBasic.All | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新日历的整个内容、读取Outlook更新为 Do Entreies、Read、Update、Create Panner Tasks | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新日历完整，读取和更新Outlook更新到 Do Entreies | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 读取和更新日历完整，读取和更新Outlook日历、读取、更新、创建平移器任务 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.ReadBasic.All | delegated | 应用程序数据库中不存储任何数据。 | 读取和更新日历完整，读取和更新Outlook日历、读取、更新、创建平移器任务 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新 calender 的整个内容、读取Outlook更新为 Do Entreies | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| email | delegated | 应用程序数据库中不存储任何数据。 | 允许应用读取用户的主电子邮件地址 ( SSO) 。 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| offline_access | delegated | 应用程序数据库中不存储任何数据。 | 允许应用查看和更新你向它提供访问权限的数据，即使用户当前没有使用该应用。 这不会为应用授予针对 SSO (任何其他) 。 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| openid | delegated | 不存储数据应用数据库 | 允许用户使用工作或学校帐户登录应用，并允许应用查看 SSO (的基本) 。 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| 个人资料 | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新日历的整个内容、读取Outlook更新为 Do Entreies、Read、Update、Create Panner Tasks | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| openid | delegated | 数据不会存储在应用数据库 | 允许用户使用工作或学校帐户登录应用，并允许应用查看 SSO (的基本) 。 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| 个人资料 | delegated | 应用程序数据库中不存储任何数据。 | 读取和更新日历完整，读取和更新Outlook日历、读取、更新、创建平移器任务 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和外接程序Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -99,7 +99,7 @@ iGlobe 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >iGlobe 收集数据以有效运行，并提供我们的产品和服务的最佳体验。 对于许可：为管理组织&#8217;许可帐户收集的数据，例如当你部署免费外接程序、创建试用订阅或购买订阅时。 收集以下信息。 - 出于财务目的：公司名称和地址 - 订阅的用户：用户名和电子邮件
 
@@ -140,7 +140,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 安全默认值和任何其他常见策略（如阻止旧版身份验证* 要求管理员使用 MFA* 需要 Azure 管理的 MFA* 要求所有用户使用 MFA* |

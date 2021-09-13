@@ -9,11 +9,11 @@ certification_type: attested
 description: CatchEm 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: bdac27ddbc3148644562af20f8f6d415a56903d9
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53522025"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278660"
 ---
 # <a name="catchem"></a>CatchEm
 
@@ -37,7 +37,7 @@ Chimu 软件提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Chimu Software |
 | 合作伙伴网站的 URL | [https://chimusoftware.com](https://chimusoftware.com) |
-| "Teams应用程序信息"页的 URL | [https://catchem.apps.chimusoftware.com/help](https://catchem.apps.chimusoftware.com/help) |
+| 应用程序Teams页的 URL | [https://catchem.apps.chimusoftware.com/help](https://catchem.apps.chimusoftware.com/help) |
 | 隐私策略的 URL | [https://www.chimusoftware.com/apps/catchem/privacy.html](https://www.chimusoftware.com/apps/catchem/privacy.html) |
 | 使用条款 URL | [https://www.chimusoftware.com/apps/catchem/termsofuse.html](https://www.chimusoftware.com/apps/catchem/termsofuse.html) |
 
@@ -49,7 +49,7 @@ Chimu 软件提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Chimu 软件提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
+此信息由 Chimu 软件提供，与此应用程序如何收集和存储组织数据以及你的组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -62,9 +62,9 @@ Chimu 软件提供给 Microsoft 的信息：
 >| Presence.Read.All | delegated | 联系人当前状态 | 不适用 | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 >| TeamsActivity.Send | 两者 | 在联系人状态更改时向用户发送通知 | 不适用 | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 >| TeamsAppInstallation.ReadWriteSelfForUser | delegated | 为应用程序启用自动更新 | 不适用 | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
->| User.Read | delegated | AadObjectId：用于唯一标识用户。 TenantId：确定联系人是用户的内部联系人还是外部联系人。 DisplayName、GivenName、Surname：用于标识应用程序用户的联系人。 电子邮件、IM 地址、UserPrincipalName：帮助区分姓名相同的联系人并允许 &quot; 单击聊天 &quot; 功能。 CompanyName、Country：Analytics。 AccountEnabled、DeletedDateTime：自动删除已禁用用户的用户数据 | AadObjectId：用于唯一标识用户。 TenantId：确定联系人是用户的内部联系人还是外部联系人。 DisplayName、GivenName、Surname：用于标识应用程序用户的联系人。 电子邮件、IM 地址、UserPrincipalName：帮助区分姓名相同的联系人并允许 &quot; 单击聊天 &quot; 功能。 CompanyName、Country：Analytics。 AccountEnabled、DeletedDateTime：自动删除已禁用用户的用户数据 | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
+>| User.Read | delegated | AadObjectId：用于唯一标识用户。 TenantId：确定联系人是用户的内部联系人还是外部联系人。 DisplayName、GivenName、Surname：用于标识应用程序用户的联系人。 电子邮件、IM 地址、UserPrincipalName：帮助区分同名的联系人并允许 &quot; 单击聊天 &quot; 功能。 CompanyName、Country：Analytics。 AccountEnabled、DeletedDateTime：自动删除已禁用用户的用户数据 | AadObjectId：用于唯一标识用户。 TenantId：确定联系人是用户的内部联系人还是外部联系人。 DisplayName、GivenName、Surname：用于标识应用程序用户的联系人。 电子邮件、IM 地址、UserPrincipalName：帮助区分同名的联系人并允许 &quot; 单击聊天 &quot; 功能。 CompanyName、Country：Analytics。 AccountEnabled、DeletedDateTime：自动删除已禁用用户的用户数据 | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 >| User.ReadBasic.All | delegated | 提高内部联系人数据的准确性。 AadObjectId：用于唯一标识用户。 TenantId：确定联系人是用户的内部联系人还是外部联系人。 DisplayName、GivenName、Surname：用于标识应用程序用户的联系人。 Email， UserPrincipalName： to help distinguish between contacts with the same name， and to &quot; allow click to chat &quot; functionality. | 提高内部联系人数据的准确性。 AadObjectId：用于唯一标识用户。 TenantId：确定联系人是用户的内部联系人还是外部联系人。 DisplayName、GivenName、Surname：用于标识应用程序用户的联系人。 Email， UserPrincipalName： to help distinguish between contacts with the same name， and to &quot; allow click to chat &quot; functionality. | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
->| offline_access | delegated | Graph安全令牌，以允许用户在联系人状态更改时通知并更新联系人列表（当用户未主动使用该应用程序时） | Graph安全令牌 | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
+>| offline_access | delegated | Graph安全令牌，以允许应用程序在联系人状态更改时通知并更新联系人列表（当用户未主动使用该应用程序时） | Graph安全令牌 | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -75,7 +75,7 @@ Chimu 软件提供给 Microsoft 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -84,7 +84,7 @@ Chimu 软件提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -120,21 +120,21 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 Chimu 软件提供，用于说明此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+此信息由 Chimu 软件提供，用于了解此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 不支持 |
+| 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 不支持 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 否 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
 | 你的应用是否使用预览 API？ | 是 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

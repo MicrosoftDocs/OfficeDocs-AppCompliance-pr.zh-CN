@@ -1,5 +1,5 @@
 ---
-title: 由 K 方设置的时间&#246;将启动 GmbH
+title: 由 K 方设置的时间&#246;将获取 GmbH
 ms.author: elmalova
 author: elenamalova
 ms.date: 07/15/2021
@@ -9,11 +9,11 @@ certification_type: attested
 description: timeghost 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: c024080e1471388a5c3803f685a136052cb56d44
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521470"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279204"
 ---
 # <a name="timeghost"></a>timeghost
 
@@ -37,7 +37,7 @@ ms.locfileid: "53521470"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | K&#246;llisch GmbH |
 | 合作伙伴网站的 URL | [https://timeghost.io](https://timeghost.io) |
-| "Teams应用程序信息"页的 URL | [https://timeghost.io](https://timeghost.io) |
+| 应用程序Teams页的 URL | [https://timeghost.io](https://timeghost.io) |
 | 隐私策略的 URL | [https://timeghost.io/privacy-policy/](https://timeghost.io/privacy-policy/) |
 | 使用条款 URL | [https://timeghost.io/terms-and-conditions/](https://timeghost.io/terms-and-conditions/) |
 
@@ -57,12 +57,12 @@ ms.locfileid: "53521470"
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | delegated | Titel、Startdatum、Enddatum、ID | 一名或多米尼的一位专家，该证书将用于向组织提供一个 E-a-12-12-15-36555-155555555555555.1555555.15555.15555.155555.155. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| People.Read | delegated | E-Mail-Adresse | 将 Daten werden gespeichert um weitere Team-Mitglieder hinzuzuf&#252;gen und gen und gene der Nutzer anzuzeigen. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| User.Read | delegated | Vorname、Nachname、E-Mail-Adresse、Organisation、Telefonnummer、Rolle、Sprache、Location | Beim Anlegen eines timeghost User-Profils werden User-Profils Daten gespeichert， um die Benutzererfahrung zu verbessern. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| User.ReadBasic.All | delegated | Um das 分析bild anzuzeigen。 | Keine Daten werden gespeichert. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| Calendars.Read | delegated | Titel、Startdatum、Enddatum、ID | 一名或多米尼的一位专家，该证书将用于向组织提供一个 E-a-12-12-15-36555-155555555555555.15555555.15555.1555555.1555.155. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| People.Read | delegated | E-Mail-Adresse | 将 Daten werden gespeichert um weitere Team-Mitglieder hinzuzuf&#252;gen und gen und gene der Nutzer anzuzeigen。 | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| User.Read | delegated | Vorname、Nachname、E-Mail-Adresse、Organisation、Telefonnummer、Rolle、Sprache、Location | Beim Anlegen eines timeghost User-Profils werden verbe Daten gespeichert， um verbutzererfahrung zu verbessern. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| User.ReadBasic.All | delegated | Um das 分析bild anzuzeigen。 | Keine Daten werden gespeichert。 | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
 >| openid | delegated | ID  | Speicherung der ID des Users zur Zuordnung des Users. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| 个人资料 | delegated | Vorname、Nachname、E-Mail-Adresse、Organisation、Telefonnummer、Rolle、Sprache、Location | Beim Anlegen eines timeghost User-Profils werden User-Profils Daten gespeichert， um die Benutzererfahrung zu verbessern. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| 个人资料 | delegated | Vorname、Nachname、E-Mail-Adresse、Organisation、Telefonnummer、Rolle、Sprache、Location | Beim Anlegen eines timeghost User-Profils werden verbe Daten gespeichert， um verbutzererfahrung zu verbessern. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -82,7 +82,7 @@ ms.locfileid: "53521470"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >E-Mail-Adresse，用户 ID
 
@@ -118,22 +118,22 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 K 用户提供，&#246;此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+此信息由 K 或&#246;GmbH 提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 不支持 |
+| 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/> |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
 | 你的应用是否使用预览 API？ | 是 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

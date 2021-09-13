@@ -9,11 +9,11 @@ certification_type: attested
 description: Beagle 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: b2984bceaa4a6c8871c8413aaf19e4f52c7d620c
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53607607"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278639"
 ---
 # <a name="beagle"></a>Beagle
 
@@ -37,7 +37,7 @@ ms.locfileid: "53607607"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | 决策点 |
 | 合作伙伴网站的 URL | [https://decisionpoint.ai](https://decisionpoint.ai) |
-| "Teams应用程序信息"页的 URL | [https://beagleanalytics.ai](https://beagleanalytics.ai) |
+| 应用程序Teams页的 URL | [https://beagleanalytics.ai](https://beagleanalytics.ai) |
 | 隐私策略的 URL | [https://beagleanalytics.ai/wp-content/uploads/2021/02/Beagl...](https://beagleanalytics.ai/wp-content/uploads/2021/02/Beagle-Privacy-Policy.pdf) |
 | 使用条款 URL | [https://beagleanalytics.ai/wp-content/uploads/2021/02/Terms...](https://beagleanalytics.ai/wp-content/uploads/2021/02/Terms-of-Use.pdf) |
 
@@ -66,7 +66,7 @@ ms.locfileid: "53607607"
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -75,9 +75,9 @@ ms.locfileid: "53607607"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->用户电子邮件 ID，ms teams id。保留策略为 180 天。
+>用户电子邮件 ID，ms teams id。180 天保留策略。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 

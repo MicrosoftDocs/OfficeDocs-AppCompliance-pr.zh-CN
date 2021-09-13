@@ -9,13 +9,13 @@ certification_type: attested
 description: 有关 Bigger则 eLearning 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 9256e0b115815ac4074057d794646fececd0baf4
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407381"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279519"
 ---
-# <a name="bigger-brains-elearning"></a>大百科电子学习
+# <a name="bigger-brains-elearning"></a>Bigger Brains eLearning
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ ms.locfileid: "58407381"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 大百科电子学习 |
+| 应用名称 | Bigger Brains eLearning |
 | ID | WA200002366 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Biggerbrains |
 | 合作伙伴网站的 URL | [https://getbiggerbrains.com](https://getbiggerbrains.com) |
-| Teams信息页的 URL | [https://usedapplicensing001.azurewebsites.net/teamsApp/inde...](https://usedapplicensing001.azurewebsites.net/teamsApp/index.html) |
+| 应用程序Teams页的 URL | [https://usedapplicensing001.azurewebsites.net/teamsApp/inde...](https://usedapplicensing001.azurewebsites.net/teamsApp/index.html) |
 | 隐私策略的 URL | [https://getbiggerbrains.com/privacy-policy/](https://getbiggerbrains.com/privacy-policy/) |
 | 使用条款 URL | [https://getbiggerbrains.com/privacy-legal/](https://getbiggerbrains.com/privacy-legal/) |
 
@@ -58,7 +58,7 @@ This information has been provided by Biggerbrains about how this app collects a
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -75,7 +75,7 @@ This information has been provided by Biggerbrains about how this app collects a
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >存储电子邮件地址。 所有数据将在许可证到期时或根据用户/客户端的请求删除。
 

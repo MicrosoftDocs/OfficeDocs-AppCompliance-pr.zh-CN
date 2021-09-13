@@ -9,11 +9,11 @@ certification_type: attested
 description: 适用于 Office 365 的 CodeTwo 电子邮件签名的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 79db12fe65495df15e21b46e810abd8bbd017359
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58245256"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59276816"
 ---
 # <a name="codetwo-email-signatures-for-office-365"></a>CodeTwo 电子邮件签名Office 365
 
@@ -60,10 +60,10 @@ CodeTwo 提供了此信息，这些信息与此应用程序如何收集和存储
 >| Directory.Read.All | 两者 | 允许应用在组织目录中读取&#8217;，如用户、组和应用。 | 不存储任何数据。 | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
 >| User.ReadBasic.All | delegated | 允许应用代表登录用户读取组织中其他用户的一套基本个人资料属性。 这包括显示名称姓名、名字和姓氏、电子邮件地址和照片。 信息用于自动为用户个性化设置电子邮件签名。 | 不存储任何数据。 | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
 >| User.Read | delegated | 允许用户登录应用，并允许应用读取登录用户的个人资料。 它还允许应用读取已登录用户的基本公司信息。 用于向 CodeTwo 服务注册用户。 | 不存储任何数据。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| 电子邮件 | delegated | 允许应用读取用户的主电子邮件地址。 用于向 CodeTwo 服务注册用户。 | 不存储任何数据。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
+>| email | delegated | 允许应用读取用户的主电子邮件地址。 用于向 CodeTwo 服务注册用户。 | 不存储任何数据。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
 >| offline_access | delegated | 允许应用查看和更新你向它提供访问权限的数据，即使用户当前没有使用该应用。 这不会向应用授予任何其他权限。 | 不存储任何数据。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
 >| openid | delegated | 允许用户以其工作或学校帐户登录应用，并允许应用查看用户的基本个人资料信息。 用于向 CodeTwo 服务注册用户。 | 不存储任何数据。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| profile | delegated | 允许应用查看用户的基本个人资料（名称、图片、用户名称）。 用于向 CodeTwo 服务注册用户。 | 不存储任何数据。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
+>| 个人资料 | delegated | 允许应用查看用户的基本个人资料（名称、图片、用户名称）。 用于向 CodeTwo 服务注册用户。 | 不存储任何数据。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -76,7 +76,7 @@ CodeTwo 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -84,7 +84,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->客户可以通过 CodeTwo 管理面板访问和纠正其联系人 &amp; 组织数据和服务设置。 他们还可通过专用形式的 (联系 CodeTwo 信息安全团队，以行使 CodeTwo 条款和隐私 (中所述的任何权利，即：访问数据、纠正数据、清除和限制处理、同意同意以及反对处理的权利。 https://www.codetwo.com/form/security-officer/) https://www.codetwo.com/regulations/privacy)
+>客户可以通过 CodeTwo 管理面板访问和纠正其联系人 &amp; 组织数据和服务设置。 他们还可通过专用表单 (联系 CodeTwo 信息安全团队，以行使 CodeTwo 条款和隐私 (中所述的任何权利，即：访问数据、纠正数据、清除和限制处理、表示同意以及反对处理的权利。 https://www.codetwo.com/form/security-officer/) https://www.codetwo.com/regulations/privacy)
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -117,7 +117,7 @@ CodeTwo 提供了此信息，这些信息与此应用程序如何处理身份验
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |

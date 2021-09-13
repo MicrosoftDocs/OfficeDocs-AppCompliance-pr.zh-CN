@@ -9,11 +9,11 @@ certification_type: attested
 description: Tikit 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: c17273ad8e2cdc9bd2f60ce5a3157f1f8473bb88
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525786"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277259"
 ---
 # <a name="tikit"></a>Tikit
 
@@ -37,7 +37,7 @@ Cireson 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Cireson |
 | 合作伙伴网站的 URL | [https://tikit.ai](https://tikit.ai) |
-| "Teams应用程序信息"页的 URL | [https://tikit.ai](https://tikit.ai) |
+| 应用程序Teams页的 URL | [https://tikit.ai](https://tikit.ai) |
 | 隐私策略的 URL | [https://tikit.ai/privacy-statement/](https://tikit.ai/privacy-statement/) |
 | 使用条款 URL | [https://tikit.ai/terms-service/](https://tikit.ai/terms-service/) |
 
@@ -61,20 +61,20 @@ Cireson 提供了此信息，这些信息与此应用程序如何收集和存储
 >| Directory.AccessAsUser.All | delegated | RBAC 的组名称和角色 | 组名称 &amp; 角色名称，需要提供安全的映射访问控制。 | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Directory.Read.All | delegated | RBAC 的组名称和角色 | 组名称 &amp; 角色名称，需要提供安全的映射访问控制。 | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Group.Read.All | 两者 | RBAC 的组名称和角色 | RBAC 的组名称和角色 | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read | delegated | 用于身份验证的用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID  | 用于身份验证的用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read.All | 应用程序 | 用于身份验证的用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID  | 用于身份验证的用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.ReadBasic.All | delegated | 用于身份验证的用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID  | 用于身份验证的用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read | delegated | 用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID，用于身份验证  | 用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID，用于身份验证  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read.All | 应用程序 | 用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID，用于身份验证  | 用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID，用于身份验证  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.ReadBasic.All | delegated | 用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID，用于身份验证  | 用户角色、系列名称、给定名称、电子邮件、AAD ID Teams用户 ID，用于身份验证  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| email | delegated | 用于登录和相关实体标识的用户电子邮件。 &quot;已分配用户&quot; | 用于登录和相关实体标识的用户电子邮件。 &quot;已分配用户&quot; | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| openid | delegated | 根据要求通过 MSAL 进行身份验证  | 根据要求通过 MSAL 进行身份验证  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| 个人资料 | delegated | 根据要求通过 MSAL 进行身份验证  | 根据要求通过 MSAL 进行身份验证  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| QnA Maker | 不支持 |  |  |  |  |
+>| QnA Maker | 否 |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
@@ -84,7 +84,7 @@ Cireson 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -93,7 +93,7 @@ Cireson 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们将公司名称、租户 ID、电子邮件、自动程序客户端 ID 存储在应用见解中，并保留策略为 30 dat。
 
@@ -134,7 +134,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 多重身份验证、仅允许 Intune 注册的设备访问特定服务、限制用户位置和 IP 范围 |
@@ -142,10 +142,10 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
 | 你的应用是否使用预览 API？ | 是 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

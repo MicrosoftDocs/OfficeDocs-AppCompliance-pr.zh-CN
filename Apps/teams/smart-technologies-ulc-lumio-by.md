@@ -6,14 +6,14 @@ ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: SMART 提供的 Lumio 的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: SMART 为 Lumio 提供的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 7f97e53eb5b4c27aa8bf2be4c97760f8a536cd06
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53520985"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278584"
 ---
 # <a name="lumio-by-smart"></a>Lumio by SMART
 
@@ -37,7 +37,7 @@ SMART Technologies ULC 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SMART Technologies ULC |
 | 合作伙伴网站的 URL | [https://smarttech.com](https://smarttech.com) |
-| "Teams应用程序信息"页的 URL | [https://www.smarttech.com/smart-learning-suite/](https://www.smarttech.com/smart-learning-suite/) |
+| 应用程序Teams页的 URL | [https://www.smarttech.com/smart-learning-suite/](https://www.smarttech.com/smart-learning-suite/) |
 | 隐私策略的 URL | [https://www.smarttech.com/en/legal/privacy-policies](https://www.smarttech.com/en/legal/privacy-policies) |
 | 使用条款 URL | [https://www.smarttech.com/legal/sls-terms](https://www.smarttech.com/legal/sls-terms) |
 
@@ -76,7 +76,7 @@ SMART Technologies ULC 提供了此信息，这些信息与此应用程序如何
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -84,13 +84,13 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们支持在我们的合作伙伴系统中忘记此权利，这包括日志、审核和存档。 这是一个手动过程，在此过程中，该合作伙伴的系统管理员将删除、编辑或存档数据。 
+>我们支持在我们的合作伙伴系统中忘记的权利，这包括日志、审核和存档。 这是一个手动过程，在此过程中，该合作伙伴的系统管理员将删除、编辑或存档数据。 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

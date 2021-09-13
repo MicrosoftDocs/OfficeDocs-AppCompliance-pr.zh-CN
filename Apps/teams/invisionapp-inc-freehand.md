@@ -9,11 +9,11 @@ certification_type: attested
 description: Freehand 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: a3c92ee618693b4fed77026a47009b490845db60
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525556"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279775"
 ---
 # <a name="freehand"></a>写意
 
@@ -37,7 +37,7 @@ InVisionApp Inc. 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | InVisionApp Inc. |
 | 合作伙伴网站的 URL | [https://www.invisionapp.com](https://www.invisionapp.com) |
-| "Teams应用程序信息"页的 URL | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
+| 应用程序Teams页的 URL | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
 | 隐私策略的 URL | [https://www.invisionapp.com/privacy](https://www.invisionapp.com/privacy) |
 | 使用条款 URL | [https://www.invisionapp.com/legal/terms-of-service](https://www.invisionapp.com/legal/terms-of-service) |
 
@@ -75,21 +75,21 @@ InVisionApp Inc. 提供了此信息，这些信息与此应用程序如何收集
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->系统和应用程序中的日志将收集到集中日志管理系统和具有高度受限访问权限的 SIEM 中，以修改或删除数据。 SIEM 还监视主机入侵、完整性、网络信誉，并将此信息与云风险事件关联。 系统由专门的安全团队监控，警报配置为对电话工程师进行 24/7 的页码。 这两个系统的日志将保留 1 年。
+>系统和应用程序中的日志将收集到集中日志管理系统和具有严格受限访问权限的 SIEM 中，以修改或删除数据。 SIEM 还监视主机入侵、完整性、网络信誉，并将此信息与云风险事件关联。 系统由专门的安全团队进行监视，警报配置为对现场工程师进行 24/7 分页。 这两个系统的日志将保留 1 年。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->对处理个人信息的供应商执行第三方风险评估。 条款已按合同添加，&#8220;审核权&#8221;并且每年根据关键/风险因素重新进行当权调查。 法律部门已实施数据保护附录，以在适用时按合同添加，以及符合 InVision 要求的可接受标准。  (请注意，子处理者将无法访问未加密格式的客户项目) 
+>对处理个人信息的供应商执行第三方风险评估。 条款已按合同添加，&#8220;审核权&#8221;并基于关键/风险因素每年重新进行。 法律部门已实施数据保护附录，以在适用时按合同添加，以及符合 InVision 要求的可接受标准。  (请注意，子处理者将无法访问未加密格式的客户项目) 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,18 +116,18 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 不支持 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
-| 你的应用是否支持条件访问策略？ | 不支持 |
-| 应用是否请求方案最小特权权限？ | 不支持 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 否 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
+| 你的应用是否支持条件访问策略？ | 否 |
+| 应用是否请求方案最小特权权限？ | 否 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/><br/> |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 不支持 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

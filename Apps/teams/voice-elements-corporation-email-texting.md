@@ -6,14 +6,14 @@ ms.date: 07/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 用于电子邮件文本的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 所有可用于电子邮件文本的安全和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 1b07b7d55d9e12ec47b5c2f58b13bc3523299aa4
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407366"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278568"
 ---
 # <a name="email-texting"></a>email-texting
 
@@ -37,7 +37,7 @@ Voice Elements Corporation 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Voice Elements Corporation |
 | 合作伙伴网站的 URL | [https://www.email-texting.com](https://www.email-texting.com) |
-| "Teams应用程序信息"页的 URL | [https://www.email-texting.com](https://www.email-texting.com) |
+| 应用程序Teams页的 URL | [https://www.email-texting.com](https://www.email-texting.com) |
 | 隐私策略的 URL | [https://www.email-texting.com/privacy](https://www.email-texting.com/privacy) |
 | 使用条款 URL | [https://www.email-texting.com/terms-of-use](https://www.email-texting.com/terms-of-use) |
 
@@ -55,12 +55,12 @@ Voice Elements Corporation 提供给 Microsoft 的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | SSO 需要来自 Teams | SSO 所需的用户标识 | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
->| email | delegated | SSO 需要来自 Teams | SSO 所需的用户标识 | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
->| openid | delegated | SSO 需要来自 Teams | SSO 所需的用户标识 | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
->| 个人资料 | delegated | SSO 需要来自 Teams | SSO 所需的用户标识 | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
+>| User.Read | delegated | SSO 需要来自Teams | SSO 所需的用户标识 | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
+>| email | delegated | SSO 需要来自Teams | SSO 所需的用户标识 | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
+>| openid | delegated | SSO 需要来自Teams | SSO 所需的用户标识 | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
+>| 个人资料 | delegated | SSO 需要来自Teams | SSO 所需的用户标识 | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -78,7 +78,7 @@ Voice Elements Corporation 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >日志用于支持目的，并保留 30 天。
 
@@ -119,7 +119,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |

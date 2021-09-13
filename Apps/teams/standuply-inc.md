@@ -9,13 +9,13 @@ certification_type: attested
 description: Standuply 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 0b1613f70b1909faf9582a5a88e73273ae5bcc77
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58245254"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277292"
 ---
-# <a name="standuply"></a>独立
+# <a name="standuply"></a>Standuply
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ Standuply Inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 独立 |
+| 应用名称 | Standuply |
 | ID | WA200003001 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Standuply Inc. |
 | 合作伙伴网站的 URL | [https://standuply.com](https://standuply.com) |
-| Teams信息页的 URL | [https://standuply.com](https://standuply.com) |
+| 应用程序Teams页的 URL | [https://standuply.com](https://standuply.com) |
 | 隐私策略的 URL | [https://standuply.com/privacy-policy](https://standuply.com/privacy-policy) |
 | 使用条款 URL | [https://standuply.com/terms](https://standuply.com/terms) |
 
@@ -80,7 +80,7 @@ Standuply Inc. 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >https://standuply.com/privacy-policy
 
@@ -121,7 +121,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |

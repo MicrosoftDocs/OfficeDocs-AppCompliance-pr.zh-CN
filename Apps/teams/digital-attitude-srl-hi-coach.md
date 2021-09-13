@@ -6,14 +6,14 @@ ms.date: 05/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Hi Digital 一致性的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Hi Digital Coach 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 2ff4472c9c54234c388508039fd10ab4818154ce
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282449"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279267"
 ---
 # <a name="hi-digital-coach"></a>hi Digital Coach
 
@@ -37,7 +37,7 @@ Digital Digital Digital Srl 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Digital Attitude Srl |
 | 合作伙伴网站的 URL | [https://www.habitinspiringplatform.com](https://www.habitinspiringplatform.com) |
-| "Teams应用程序信息"页的 URL | [https://www.habitinspiringplatform.com/coaching-plan](https://www.habitinspiringplatform.com/coaching-plan) |
+| 应用程序Teams页的 URL | [https://www.habitinspiringplatform.com/coaching-plan](https://www.habitinspiringplatform.com/coaching-plan) |
 | 隐私策略的 URL | [https://www.iubenda.com/privacy-policy/98527945/full-legal](https://www.iubenda.com/privacy-policy/98527945/full-legal) |
 | 使用条款 URL | [https://www.iubenda.com/termini-e-condizioni/98527945](https://www.iubenda.com/termini-e-condizioni/98527945) |
 
@@ -73,7 +73,7 @@ Digital Digital Digital Srl 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Qubie 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: d0873a510d894772d494487c293551e12dceb929
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528118"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279631"
 ---
 # <a name="qubie"></a>Qubie
 
@@ -37,7 +37,7 @@ Tivian 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Tivian |
 | 合作伙伴网站的 URL | [https://www.questback.com/our-products/performance-suite/te...](https://www.questback.com/our-products/performance-suite/teams-triumph-with-qubie/) |
-| "Teams应用程序信息"页的 URL | [https://www.questback.com/qubie-ms-teams](https://www.questback.com/qubie-ms-teams) |
+| 应用程序Teams页的 URL | [https://www.questback.com/qubie-ms-teams](https://www.questback.com/qubie-ms-teams) |
 | 隐私策略的 URL | [https://www.questback.com/qubie-privacy-policy/](https://www.questback.com/qubie-privacy-policy/) |
 | 使用条款 URL | [https://www.questback.com/qubie-terms-and-conditions/](https://www.questback.com/qubie-terms-and-conditions/) |
 
@@ -75,7 +75,7 @@ Tivian 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >显示名称和用户电子邮件 - 用于与在 Bug/问题中发送的用户通信
 

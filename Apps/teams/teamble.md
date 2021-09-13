@@ -9,11 +9,11 @@ certification_type: attested
 description: Teamble 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 121622b75fb3680bd3f42a79002c0c0a70892f4e
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404313"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279584"
 ---
 # <a name="teamble"></a>Teamble
 
@@ -37,7 +37,7 @@ Teamble 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Teamble |
 | 合作伙伴网站的 URL | [https://teamble.com](https://teamble.com) |
-| "Teams应用程序信息"页的 URL | [https://teamble.com](https://teamble.com) |
+| 应用程序Teams页的 URL | [https://teamble.com](https://teamble.com) |
 | 隐私策略的 URL | [https://teamble.com/#/privacy-policy](https://teamble.com/#/privacy-policy) |
 | 使用条款 URL | [https://teamble.com/#/terms-of-service](https://teamble.com/#/terms-of-service) |
 
@@ -62,7 +62,7 @@ Teamble 提供了此信息，这些信息与此应用程序如何收集和存储
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS DynamoDB | 用户 ID、用户名、频道名称、频道 ID、租户 ID、租户名称 | 数据托管在 AWS DynamoDB 数据库中 |
 
@@ -75,7 +75,7 @@ Teamble 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 

@@ -1,5 +1,5 @@
 ---
-title: SharePoint， Inc. Gaggle.net Gaggle 的应用程序信息
+title: Gaggle.net， Inc. SharePoint Gaggle 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/03/2020
@@ -9,11 +9,11 @@ certification_type: attested
 description: Gaggle for SharePoint 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 72f13f1e2db58d8376c857bac1d41433a09321a6
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281514"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279439"
 ---
 # <a name="gaggle-for-sharepoint"></a>Gaggle for SharePoint
 
@@ -66,7 +66,7 @@ Gaggle.net， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >IP 地址、电子邮件地址、用户名。 访问所有遥测/日志记录基于基于组的权限方案，利用最小特权原则。 物理和逻辑访问控制已到位，以确保阻止未经授权访问 OII 和 EIUU。
 

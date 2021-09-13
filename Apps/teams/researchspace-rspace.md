@@ -9,11 +9,11 @@ certification_type: attested
 description: RSpace 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3327e47994935c3beace465b60238a2c0978175c
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551812"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59276768"
 ---
 # <a name="rspace"></a>RSpace
 
@@ -37,7 +37,7 @@ ResearchSpace 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ResearchSpace |
 | 合作伙伴网站的 URL | [https://www.researchspace.com](https://www.researchspace.com) |
-| "Teams应用程序信息"页的 URL | [https://www.researchspace.com/enterprise/help-and-support-r...](https://www.researchspace.com/enterprise/help-and-support-resources-enterprise/) |
+| 应用程序Teams页的 URL | [https://www.researchspace.com/enterprise/help-and-support-r...](https://www.researchspace.com/enterprise/help-and-support-resources-enterprise/) |
 | 隐私策略的 URL | [https://www.researchspace.com/terms-conditions/#privacy](https://www.researchspace.com/terms-conditions/#privacy) |
 | 使用条款 URL | [https://www.researchspace.com/terms-conditions](https://www.researchspace.com/terms-conditions) |
 
@@ -49,7 +49,7 @@ ResearchSpace 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-ResearchSpace 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
+ResearchSpace 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -66,14 +66,14 @@ ResearchSpace 提供了此信息，这些信息与此应用程序如何收集和
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >用户名显示在日志中。 对日志的访问权限仅限于指定员工
 

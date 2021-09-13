@@ -9,11 +9,11 @@ certification_type: attested
 description: Wired2Perform 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 53e25098f069130505add53c3e7b0d39d287e1ac
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53774849"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279568"
 ---
 # <a name="wired2perform"></a>Wired2Perform
 
@@ -37,7 +37,7 @@ Wired2Perform 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Wired2Perform |
 | 合作伙伴网站的 URL | [https://wired2perform.com](https://wired2perform.com) |
-| "Teams应用程序信息"页的 URL | [https://wired2perform.com](https://wired2perform.com) |
+| 应用程序Teams页的 URL | [https://wired2perform.com](https://wired2perform.com) |
 | 隐私策略的 URL | [https://wired2perform.com/privacy-for-humans](https://wired2perform.com/privacy-for-humans) |
 | 使用条款 URL | [https://wired2perform.com/terms-conditions](https://wired2perform.com/terms-conditions) |
 
@@ -59,7 +59,7 @@ Wired2Perform 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -80,7 +80,7 @@ Wired2Perform 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -88,7 +88,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->此信息不共享，仅内部
+>此信息不共享，仅内部共享
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

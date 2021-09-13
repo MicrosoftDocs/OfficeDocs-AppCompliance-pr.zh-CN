@@ -9,11 +9,11 @@ certification_type: attested
 description: 所有可用的安全与合规性信息 monday.com、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 7d929b4d9c66aea657d2beb64fa77f31921f59ac
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525456"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279400"
 ---
 # <a name="mondaycom"></a>monday.com
 
@@ -48,7 +48,7 @@ ms.locfileid: "53525456"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息已由用户 monday.com，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+此信息由应用 monday.com 如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -67,14 +67,14 @@ ms.locfileid: "53525456"
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >monday.com 在有限时段内存储包含用户生成内容的应用程序日志，以便我们的 R D 人员能够排查 Bug 和 &amp; 用户报告的问题。 根据我们的数据保留策略，包含 IP 地址的安全日志将保留更长时间。
 
@@ -82,15 +82,15 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->monday.com 服务托管在跨多个可用性区域北部都位于北部都斯的 AWS 基础结构上，而 DR 站点则建立在不同的区域中。 某些备份数据存储在美国、 (GCP) 。 对 monday.com 服务的访问权限由用户组织的管理员控制，并且通过利用以下功能实现：
+>monday.com 服务托管在跨多个可用性区域北部都位于北都纳的 AWS 基础结构上，而 DR 站点则建立在不同的区域中。 某些备份数据存储在美国、 (GCP 上) 。 对 monday.com 服务的访问权限由用户组织的管理员控制，并且通过利用以下功能实现：
 - 用户类型
 - 帐户级别的权限
 - 工作区
 - 板类型
 - 板级权限
-- 列级别权限 monday.com 支持以下身份验证方法：
+- 列级别权限 monday.com 以下身份验证方法：
 - 凭据
-- Google SSO (for Pro plan) 
+- Google SSO (Pro计划) 
 - 帐户管理员可通过平台的管理员面板选择通过短信或验证器应用为 Enterprise 计划) 2FA 启用 Okta、OneLogin 和自定义 SAML 2.0 (。
 所有其余数据都使用 AES-256 进行加密。 在开放网络中传输的所有数据至少使用 TLS 1.3 (TLS 1.2 进行) 。
 

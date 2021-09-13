@@ -1,5 +1,5 @@
 ---
-title: 适用于敏捷 IS 的适用于 SharePoint Online 的敏捷任务板的应用程序信息
+title: Agile-IS 的适用于 SharePoint Online 的敏捷任务板的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/03/2020
@@ -9,11 +9,11 @@ certification_type: attested
 description: 适用于 SharePoint Online 的敏捷任务板的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 649c3ee34514214e91eaa1fe5ed43b43f6d9a43b
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282243"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278448"
 ---
 # <a name="agile-task-board-for-sharepoint-online"></a>适用于 SharePoint Online 的敏捷任务板
 
@@ -66,7 +66,7 @@ Agile-IS 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们在应用程序见解遥测数据中收集域名和哈希用户 ID。 在每个应用实例中，可以控制和关闭遥测数据的传输。 随后必须请求我们删除数据。
 

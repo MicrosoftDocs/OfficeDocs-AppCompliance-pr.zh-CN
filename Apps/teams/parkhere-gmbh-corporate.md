@@ -9,11 +9,11 @@ certification_type: attested
 description: ParkHere Corporate 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: babf29fab04ebc7dddb3ae7d44099bb2fe96bfaf
-ms.sourcegitcommit: 3621f286e5bbd52acf5e0d9c8e4287fcc8c15e38
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567210"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59276772"
 ---
 # <a name="parkhere-corporate"></a>ParkHere Corporate
 
@@ -37,7 +37,7 @@ ParkHere GmbH 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ParkHere GmbH |
 | 合作伙伴网站的 URL | [https://park-here.eu](https://park-here.eu) |
-| Teams信息页的 URL | [https://park-here.eu/komplettloesung/](https://park-here.eu/komplettloesung/) |
+| 应用程序Teams页的 URL | [https://park-here.eu/komplettloesung/](https://park-here.eu/komplettloesung/) |
 | 隐私策略的 URL | [https://park-here.eu/datenschutz-corporate-parking/](https://park-here.eu/datenschutz-corporate-parking/) |
 | 使用条款 URL | [https://park-here.eu/ms-teams-terms-of-use/](https://park-here.eu/ms-teams-terms-of-use/) |
 
@@ -58,7 +58,7 @@ ParkHere GmbH 提供给 Microsoft 的信息：
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -68,14 +68,14 @@ ParkHere GmbH 提供给 Microsoft 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >Nutzungsdaten f&#252;r den Systembetrieb。 将 Speicherdauer kann pro 一起分步细分为 ingestellt werden。
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Wunder365 for Office 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: ab9ea33824f66afecc8af8df74754fc7f2dd6d43
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527988"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277353"
 ---
 # <a name="wunder365-for-office"></a>Wunder365 for Office
 
@@ -33,7 +33,7 @@ JiJi Technologies Private Limited 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Wunder365 for Office |
 | ID | WA200001529 |
-| Office 365支持的客户端 | Excel 2016 Mac、Excel 2013 或更高版本（在 mac Windows、Excel web 版、Word 2016 或更高版本、Word web 版、Word 2013 或 Windows 或更高版本上OneNote web 版 |
+| Office 365支持的客户端 | Excel 2016 Mac、Excel 2013 或更高版本（在 mac Windows、Excel web 版、Word 2016 或更高版本、Word web 版、Word 2013 或 Windows 或更高版本OneNote web 版 |
 | 合作伙伴公司名称 | JiJi Technologies Private Limited |
 | 合作伙伴网站的 URL | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | 隐私策略的 URL | [https://www.wunder365.com/office-addin-privacy-policy](https://www.wunder365.com/office-addin-privacy-policy) |
@@ -47,7 +47,7 @@ JiJi Technologies Private Limited 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 JiJi Technologies Private Limited 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由 JiJi Technologies Private Limited 提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -72,7 +72,7 @@ JiJi Technologies Private Limited 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们正在登录到 Azure 应用程序Insights。 我们正在记录租户 ID 和用户的电子邮件 ID，以识别问题并帮助客户解决问题。
 
@@ -81,14 +81,14 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->所有 Web 应用程序和存储都位于未连接到公司 AAD 的订阅中，只有管理员有权访问这些资源。 这些管理员需要 2FA。 
+>所有 Web 应用程序和存储资源均位于未连接到公司 AAD 的订阅中，只有管理员有权访问这些资源。 这些管理员需要 2FA。 
 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -123,9 +123,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 不支持 |
+| 你的应用是否公开任何 Web API？ | 否 |
 | 你的应用是否使用预览 API？ | 是 |
 | 你的应用是否使用已弃用 API？ | 否 |
 

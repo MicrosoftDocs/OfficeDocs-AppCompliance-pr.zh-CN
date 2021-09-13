@@ -9,11 +9,11 @@ certification_type: attested
 description: Kronos 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3a20e3a40ce61d6610b6f36e4c2943da1e9293d2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552993"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279203"
 ---
 # <a name="kronos"></a>Kronos
 
@@ -37,7 +37,7 @@ Kronos， Inc. 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Kronos, Inc. |
 | 合作伙伴网站的 URL | [https://www.kronos.com/](https://www.kronos.com/) |
-| "Teams应用程序信息"页的 URL | [https://www.kronos.com/contact/en-us/form](https://www.kronos.com/contact/en-us/form) |
+| 应用程序Teams页的 URL | [https://www.kronos.com/contact/en-us/form](https://www.kronos.com/contact/en-us/form) |
 | 隐私策略的 URL | [https://www.kronos.com/privacy-policy](https://www.kronos.com/privacy-policy) |
 | 使用条款 URL | [https://www.kronos.com/terms-of-use](https://www.kronos.com/terms-of-use) |
 
@@ -73,7 +73,7 @@ Kronos， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >这仅存储在独立于租户管理的租户Teams
 

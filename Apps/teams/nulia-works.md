@@ -9,11 +9,11 @@ certification_type: attested
 description: Nulia Works 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 4d176b18a8089d9107f30b7581bcca69daf0871e
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521304"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279180"
 ---
 # <a name="nulia-works"></a>Nulia Works
 
@@ -37,7 +37,7 @@ Nulia 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Nulia |
 | 合作伙伴网站的 URL | [https://nulia.com](https://nulia.com) |
-| "Teams应用程序信息"页的 URL | [https://nulia.com/product](https://nulia.com/product) |
+| 应用程序Teams页的 URL | [https://nulia.com/product](https://nulia.com/product) |
 | 隐私策略的 URL | [https://nulia.com/privacy](https://nulia.com/privacy) |
 | 使用条款 URL | [https://nulia.com/terms](https://nulia.com/terms) |
 
@@ -64,10 +64,10 @@ Nulia 提供了此信息，这些信息与此应用程序如何收集和存储�
 >| Mail.Read | 应用程序 | 我们使用收集的数据为用户对技能和结果的进度进行评分。 我们收集多个 O365 工作负荷的使用率计数。 | 我们将收集的所有数据存储在 blob 存储中。 我们使用此数据为用户对技能分数和结果进度进行评分。 例如，我们将计算用户已创建的自定义邮件文件夹的数量。 该值会影响其技能进度。 | [我们为每个客户创建新的应用程序 ID。例如，我们的 Nulia 租户使用应用程序 ID：623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| MailboxSettings.Read | 应用程序 | 我们使用收集的数据为用户对技能和结果的进度进行评分。 我们收集多个 O365 工作负荷的使用率计数。 | 我们将收集的所有数据存储在 blob 存储中。 我们使用此数据为用户对技能分数和结果进度进行评分。 例如，我们查看用户是否设置了外出答复。 该值会影响其技能进度。 | [我们为每个客户创建新的应用程序 ID。例如，我们的 Nulia 租户使用应用程序 ID：623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| Notes.Read | 应用程序 | 我们使用收集的数据为用户对技能和结果的进度进行评分。 我们收集多个 O365 工作负荷的使用率计数。 | 我们将收集的所有数据存储在 blob 存储中。 我们使用此数据为用户对技能分数和结果进度进行评分。 例如，我们将计算用户共享的笔记本数。 该值会影响其技能进度。 | [我们为每个客户创建新的应用程序 ID。例如，我们的 Nulia 租户使用应用程序 ID：623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
->| Reports.Read.All | 应用程序 | 我们使用收集的数据为用户对技能和结果的进度进行评分。 我们收集多个 O365 工作负荷的使用率计数。 | 我们将收集的所有数据存储在 blob 存储中。 我们使用此数据为用户对技能分数和结果进度进行评分。 例如，我们会从用户报告中检索他们Teams发送的邮件。 该值会影响其技能进度。 | [我们为每个客户创建新的应用程序 ID。例如，我们的 Nulia 租户使用应用程序 ID：623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
+>| Reports.Read.All | 应用程序 | 我们使用收集的数据为用户对技能和结果的进度进行评分。 我们收集多个 O365 工作负荷的使用率计数。 | 我们将收集的所有数据存储在 blob 存储中。 我们使用此数据为用户对技能分数和结果进度进行评分。 例如，我们会从用户报告中检索他们Teams发送的邮件个个。 该值会影响其技能进度。 | [我们为每个客户创建新的应用程序 ID。例如，我们的 Nulia 租户使用应用程序 ID：623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| Sites.Read.All | 应用程序 | 我们使用收集的数据为用户对技能和结果的进度进行评分。 我们收集多个 O365 工作负荷的使用率计数。 | 我们将收集的所有数据存储在 blob 存储中。 我们使用此数据为用户对技能分数和结果进度进行评分。 例如，我们将计算用户创建的网站集的数量。 该值会影响其技能进度。 | [我们为每个客户创建新的应用程序 ID。例如，我们的 Nulia 租户使用应用程序 ID：623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
->| User.Read | 应用程序 | 显示用户的个人资料、显示名称和个人资料图片。 | 我们将显示名称和部门保存在数据库中，因此无需每次Graph点击率。 我们不存储个人资料图片。 | [我们为每个客户创建新的应用程序 ID。例如，我们的 Nulia 租户使用应用程序 ID：623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
->| Organization.Read.All | 应用程序 | 我们将收集租户的名称和Yammer URL。 当用户单击应用中与Yammer活动相关的"试用"按钮时，我们使用此按钮 &quot; &quot; Yammer应用。 | 我们将收集的所有数据存储在 blob 存储中。 例如，当用户单击应用中与Yammer活动相关的"试用"按钮时，我们使用此按钮Yammer &quot; &quot; 应用。 | [我们使用收集的数据为用户对技能和结果的进度进行评分。我们收集多个 O365 工作负荷的使用率计数。](https://docs.microsoft.com/microsoft-365-app-certification/azure/We use the data collected to score user progress on skills and Outcomes. We collect usage counts across multiple O365 workloads.) |
+>| User.Read | 应用程序 | 显示用户的个人资料、显示名称和个人资料图片。 | 我们将显示名称和部门保存在数据库中，因此我们无需每次Graph命中率。 我们不存储个人资料图片。 | [我们为每个客户创建新的应用程序 ID。例如，我们的 Nulia 租户使用应用程序 ID：623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
+>| Organization.Read.All | 应用程序 | 我们将收集租户的名称和Yammer URL。 当用户单击应用中与Yammer活动相关的"试用"按钮时，我们使用此按钮 &quot; &quot; Yammer应用。 | 我们将收集的所有数据存储在 blob 存储中。 例如，当用户单击应用中与 Yammer 活动相关的"试用"按钮时，我们使用此按钮Yammer &quot; &quot; 应用。 | [我们使用收集的数据为用户对技能和结果的进度进行评分。我们收集多个 O365 工作负荷的使用率计数。](https://docs.microsoft.com/microsoft-365-app-certification/azure/We use the data collected to score user progress on skills and Outcomes. We collect usage counts across multiple O365 workloads.) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
@@ -85,7 +85,7 @@ Nulia 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -99,7 +99,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -126,18 +126,18 @@ Nu一直提供有关此应用程序如何处理身份验证、授权、应用程
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 不支持 |
+| 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 不支持 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

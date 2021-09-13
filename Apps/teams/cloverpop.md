@@ -9,11 +9,11 @@ certification_type: attested
 description: Cloverpop 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3865c07aca73134fd9029ee0550559d9a4f93fd2
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521865"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277249"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -56,7 +56,7 @@ Cloverpop 提供了此信息，这些信息与此应用程序如何收集和存�
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | 等存储用户数据。 email， oid， givenName， familyName， user头像， user object id. organization id (tenantId) ， organization 显示名称， Also we store on our side teams/channels names， ids， teams members. 当用户创建此数据并与决策交互时，我们会将该数据与创建该数据的用户、团队和组织关联。 我们还需要在友好的 UX 中显示此所有权，从而存储显示信息，例如用户&#8217;头像。 | 允许用户登录并授予应用对 UPN 的访问权限，以启用无提示登录&#8221; - 电子邮件、名称、oid、tid、givenName、surname、familyName、用户头像 (photo) 、组织 displayName | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
+>| User.Read | delegated | 存储用户数据（如 ）。 email， oid， givenName， familyName， user头像， user object id. organization id (tenantId) ， organization 显示名称， Also we store on our side teams/channels names， ids， teams members. 当用户创建此数据并与决策交互时，我们会将该数据与创建该数据的用户、团队和组织关联。 我们还需要在友好的 UX 中显示此所有权，从而存储显示信息，例如用户&#8217;头像。 | 允许用户登录并授予应用对 UPN 的访问权限，以启用无提示登录&#8221; - 电子邮件、名称、oid、tid、givenName、surname、familyName、用户头像 (照片) 、组织 displayName | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 >| openid | delegated | 存储用户数据（如 ）。 email， oid， givenName， familyName， user头像， user object id. organization id (tenantId) ， organization 显示名称， Also we store on our side teams/channels names， ids， teams members. 当用户创建此数据并与决策交互时，我们会将该数据与创建该数据的用户、团队和组织关联。 我们还需要在友好的 UX 中显示此所有权，从而存储显示信息，例如用户&#8217;头像。 | 若要实现&#8220;Web Teams&#8221;登录。 | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 >| 个人资料 | delegated | 存储用户数据（如 ）。 email， oid， givenName， familyName， user头像， user object id. organization id (tenantId) ， organization 显示名称， Also we store on our side teams/channels names， ids， teams members. 当用户创建此数据并与决策交互时，我们会将该数据与创建该数据的用户、团队和组织关联。 我们还需要在友好的 UX 中显示此所有权，从而存储显示信息，例如用户&#8217;头像。 | 若要实现&#8220;Web Teams&#8221;登录。 | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 
@@ -69,7 +69,7 @@ Cloverpop 提供了此信息，这些信息与此应用程序如何收集和存�
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -78,7 +78,7 @@ Cloverpop 提供了此信息，这些信息与此应用程序如何收集和存�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >能。
 在团队中与应用交互时，团队 ID 会显示在我们的日志中。
@@ -88,9 +88,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->Cloverpop 应用使用 Ruby on Rails 构建，托管在 Heroku PaaS (平台上，作为一项服务) 它利用 AWS 进行云基础结构。 Heroku 和 AWS 都有可以访问的 SOC 报告。 我们的应用使用 PostgreSQL 进行其余数据存储加密，它是一个多租户环境。
+>Cloverpop 应用使用 Ruby on Rails 构建，托管在 Heroku PaaS (平台上，作为服务) 它利用 AWS 实现其云基础结构。 Heroku 和 AWS 都有可以访问的 SOC 报告。 我们的应用使用 PostgreSQL 进行其余数据存储加密，它是一个多租户环境。
  
-我们的所有代码都有针对其编写的自动测试，其中涵盖了数据访问安全性。 每个内部版本都经过严格的代码检查过程的安全性和手动 QA 测试过程，还包括通过可用用户操作检查用户身份验证和数据访问。 我们的生产环境和所有其他环境（如开发和测试）之间是明确分开的。
+我们的所有代码都有针对其编写的自动测试，这些测试涵盖了数据访问安全性。 每个内部版本都经过严格的代码检查过程的安全性和手动 QA 测试过程，还包括通过可用用户操作检查用户身份验证和数据访问。 我们的生产环境和所有其他环境（如开发和测试）之间是明确分开的。
  
 只有选定人员有权访问生产环境和数据库：公司的创始人和少数经过审查的员工已经过背景检查，并且具有量化 (如客户支持) 。
 

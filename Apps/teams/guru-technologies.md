@@ -9,11 +9,11 @@ certification_type: attested
 description: Guru 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 87316d020c6658b00fe7e12cc7326917779f2623
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521645"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277309"
 ---
 # <a name="guru"></a>Guru
 
@@ -37,7 +37,7 @@ Guru Technologies 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Guru Technologies |
 | 合作伙伴网站的 URL | [https://www.getguru.com](https://www.getguru.com) |
-| "Teams应用程序信息"页的 URL | [https://www.getguru.com/integrations/microsoft-teams](https://www.getguru.com/integrations/microsoft-teams) |
+| 应用程序Teams页的 URL | [https://www.getguru.com/integrations/microsoft-teams](https://www.getguru.com/integrations/microsoft-teams) |
 | 隐私策略的 URL | [https://www.getguru.com/privacy/](https://www.getguru.com/privacy/) |
 | 使用条款 URL | [https://www.getguru.com/terms-of-service](https://www.getguru.com/terms-of-service) |
 
@@ -64,32 +64,32 @@ Guru Technologies 提供给 Microsoft 的信息：
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Guru 的最终用户应用程序和内部数据库 | 当用户或公司为用户或公司设置 Guru Teams时，与其用户配置文件关联的常见信息（如用户名、电子邮件和公司名称）由 Guru 记录和访问 | 考虑到用户必须同时拥有 Teams 帐户和 Guru 帐户以使用集成，我们将跟踪和跟踪启用集成的用户，以帮助为这些用户提供支持和管理 |
+>| Guru 的最终用户应用程序和内部数据库 | 当用户或公司为用户或公司设置 Guru Teams时，Guru 将记录并访问与其用户配置文件关联的常见信息，如用户名、电子邮件和公司名称 | 假设用户必须具有一个 Teams 和 Guru 帐户，以便使用集成，我们将跟踪并遵循哪些用户启用集成，以帮助为这些用户提供支持和管理 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->当用户或公司为 Teams 设置 Guru 应用时，与用户配置文件关联的常见信息（如用户名、电子邮件和公司名称）由 Guru 记录和访问。 帐户终止后，数据将保留 90 天，然后被删除。 
+>当用户或公司为 Teams 设置 Guru 应用时，与其用户配置文件关联的常见信息（如用户名、电子邮件和公司名称）由 Guru 记录和访问。 帐户终止后，数据将保留 90 天，然后删除。 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->Guru 的团队 设置 允许团队中的管理员确定基于每个集合预配哪些组 (的) 和访问/角色控件，并能够添加、删除卡并将卡片重新分配给其他个人。 Enterprise SSO 的客户还受益于 SSO 提供程序控制台，可通过 SCIM 载入/注销和建立组
+>Guru 的团队 设置 允许团队中的管理员根据每个集合确定要预配的组 () 和访问/角色控件，并能够向备用个人添加、删除和重新分配卡。 Enterprise SSO 的客户还受益于 SSO 提供程序控制台，可通过 SCIM 载入/注销和建立组
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

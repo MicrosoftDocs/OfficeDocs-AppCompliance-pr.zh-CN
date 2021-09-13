@@ -6,14 +6,14 @@ ms.date: 05/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 用于 Compliancesh 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Compliancesh 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: d9cd325ef8585b5cdc6da00f4f0f40a306cf1b21
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987734"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279810"
 ---
 # <a name="complish"></a>Complish
 
@@ -37,7 +37,7 @@ Cauzey Pty Ltd 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Cauzey Pty Ltd |
 | 合作伙伴网站的 URL | [https://www.complish.app](https://www.complish.app) |
-| "Teams应用程序信息"页的 URL | [https://www.complish.app](https://www.complish.app) |
+| 应用程序Teams页的 URL | [https://www.complish.app](https://www.complish.app) |
 | 隐私策略的 URL | [https://www.complish.app/privacy-policy](https://www.complish.app/privacy-policy) |
 | 使用条款 URL | [https://www.complish.app/privacy-and-terms](https://www.complish.app/privacy-and-terms) |
 
@@ -66,14 +66,14 @@ Cauzey Pty Ltd 提供了此信息，这些信息与此应用程序如何收集�
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 

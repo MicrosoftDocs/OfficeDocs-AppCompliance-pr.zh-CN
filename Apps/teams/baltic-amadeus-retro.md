@@ -6,14 +6,14 @@ ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 所有可用的针对"一致性"的安全和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 有关"一致性"的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2ccca5bd5160eb1772245841df037d2033f58881
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527618"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278900"
 ---
 # <a name="retro"></a>Retro
 
@@ -48,7 +48,7 @@ ms.locfileid: "53527618"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-这些信息由波罗地语提供，关于此应用如何收集和存储组织数据以及你的组织将拥有对应用收集的数据的控制。
+这些信息由波罗尼达语提供，关于此应用如何收集和存储组织数据以及你的组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -63,7 +63,7 @@ ms.locfileid: "53527618"
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| 后向应用具有其自己的 Web API，该 API 不被视为 Microsoft 服务。 如前所述，它存储"电子邮件"和"全名"以用于标识和适当的内容显示目的。 此数据不会发送到任何其他位置。 此外，为将 sprint 数据导出到 Atlassian confluence 空间，一个可选功能。 为此，用户必须输入其多余的用户名和密码。 此数据仅用于代表用户向 api 提出经过身份验证的请求，不会在任意位置存储和记录。 |  | 在 Azure 中注册的代理也具有自己的 Web API。 若要使用它，必须通过 Microsoft 标识平台对用户进行身份验证。 用户必须经过身份验证，以便"反病毒"应用可以服务器用户特定的内容 |
+>| 后向应用具有其自己的 Web API，该 API 不被视为 Microsoft 服务。 如前所述，它存储"电子邮件"和"全名"以用于标识和适当的内容显示目的。 此数据不会发送到任何其他位置。 此外，为将 sprint 数据导出到 Atlassian confluence 空间，一个可选功能。 为此，用户必须输入其多余的用户名和密码。 此数据仅用于代表用户向 api 提出经过身份验证的请求，不会存储也不会记录到任何位置。 |  | 在 Azure 中注册的代理也具有自己的 Web API。 若要使用它，必须通过 Microsoft 标识平台对用户进行身份验证。 用户必须经过身份验证，以便"反病毒"应用可以服务器用户特定的内容 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -76,7 +76,7 @@ ms.locfileid: "53527618"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >否。 在"改进"应用中生成遥测/日志的唯一过程是错误日志记录。 错误日志不包括任何 EUII 或 OII
 

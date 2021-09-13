@@ -9,11 +9,11 @@ certification_type: attested
 description: PagerDuty 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 3729a9523ea4af31015f6e8111c6843e90d465f3
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873751"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279027"
 ---
 # <a name="pagerduty"></a>PagerDuty
 
@@ -53,7 +53,7 @@ PagerDuty， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -83,13 +83,13 @@ PagerDuty， Inc. 提供给 Microsoft 的信息：
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| PagerDuty 维护的数据仅限于监视产品中的计算机数据，PII 信息仅限于：公司电子邮件地址、名字、姓氏和电话号码。 可在此处找到有权访问该数据的子处理器列表： https://www.pagerduty.com/subprocessors/ | PagerDuty 维护的数据仅限于监视产品中的计算机数据，PII 信息仅限于：公司电子邮件地址、名字、姓氏和电话号码。 可在此处找到有权访问该数据的子处理器列表： https://www.pagerduty.com/subprocessors/ | PagerDuty 维护的数据仅限于监视产品中的计算机数据，PII 信息仅限于：公司电子邮件地址、名字、姓氏和电话号码。 可在此处找到有权访问该数据的子处理器列表：有关数据隐私详细信息， https://www.pagerduty.com/subprocessors/ 请参阅： https://www.pagerduty.com/privacy-policy/ |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 

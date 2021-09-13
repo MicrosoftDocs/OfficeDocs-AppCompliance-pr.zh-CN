@@ -9,11 +9,11 @@ certification_type: attested
 description: Beekast 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 3fe1f857d283cf3b582744351590d0d2a0959190
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527608"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279528"
 ---
 # <a name="beekast"></a>Beekast
 
@@ -37,7 +37,7 @@ Beekast 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Beekast |
 | 合作伙伴网站的 URL | [https://www.beekast.com](https://www.beekast.com) |
-| "Teams应用程序信息"页的 URL | [https://www.beekast.com](https://www.beekast.com) |
+| 应用程序Teams页的 URL | [https://www.beekast.com](https://www.beekast.com) |
 | 隐私策略的 URL | [https://www.beekast.com/privacy-policy/](https://www.beekast.com/privacy-policy/) |
 | 使用条款 URL | [https://www.beekast.com/terms/](https://www.beekast.com/terms/) |
 
@@ -77,7 +77,7 @@ Beekast 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >EUII：电子邮件、IP 地址。 15 天后删除
 
@@ -91,7 +91,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->不支持
+>否
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

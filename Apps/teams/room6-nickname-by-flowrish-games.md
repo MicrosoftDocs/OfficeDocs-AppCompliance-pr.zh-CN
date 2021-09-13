@@ -9,13 +9,13 @@ certification_type: attested
 description: 通过流式游戏、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息获取的昵称的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 3e4c0164d4aee94b2019af76aa3b134304f3a471
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873747"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278819"
 ---
-# <a name="nickname-by-flowrish-games"></a>流式游戏的昵称
+# <a name="nickname-by-flowrish-games"></a>按流式游戏选择名称
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ room6 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 流式游戏的昵称 |
+| 应用名称 | 按流式游戏选择名称 |
 | ID | WA200003202 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | room6 |
@@ -53,7 +53,7 @@ room6 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -66,7 +66,7 @@ room6 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 

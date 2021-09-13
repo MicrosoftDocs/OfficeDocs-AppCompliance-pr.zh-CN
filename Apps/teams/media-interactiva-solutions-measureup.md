@@ -9,11 +9,11 @@ certification_type: attested
 description: MeasureUp 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 066526334e1936de0348f06f56239eab3370d0e0
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407379"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277214"
 ---
 # <a name="measureup"></a>MeasureUp
 
@@ -35,9 +35,9 @@ Media Interactiva 解决方案提供给 Microsoft 的信息：
 | 应用名称 | MeasureUp |
 | ID | WA200003111 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Media Interactiva 解决方案 |
+| 合作伙伴公司名称 | 媒体交互解决方案 |
 | 合作伙伴网站的 URL | [https://www.measureup.com](https://www.measureup.com) |
-| Teams信息页的 URL | [https://docs.measureup.com](https://docs.measureup.com) |
+| 应用程序Teams页的 URL | [https://docs.measureup.com](https://docs.measureup.com) |
 | 隐私策略的 URL | [https://www.measureup.com/privacy-policy](https://www.measureup.com/privacy-policy) |
 | 使用条款 URL | [https://www.measureup.com/legal-notice](https://www.measureup.com/legal-notice) |
 
@@ -53,16 +53,16 @@ Media Interactiva 解决方案提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | 要注册并允许登录的配置文件信息。 当用户访问应用程序时，需要 Microsoft 配置文件的数据才能在我们的平台上创建用户配置文件。 | 应用存储用户个人数据，如姓名、姓氏和电子邮件，以便在我们的平台中对用户进行身份验证。 此外，当用户启动我们产品时，某些报告会与这些启动的进度一起存储。 | [481280f4-a4ed-4862-a5a1-4de59da9dca5](https://docs.microsoft.com/microsoft-365-app-certification/azure/481280f4-a4ed-4862-a5a1-4de59da9dca5) |
 >| openid | delegated | 要注册并允许登录的配置文件信息。 当用户访问应用程序时，需要 Microsoft 配置文件的数据才能在我们的平台上创建用户配置文件。 | 应用存储用户个人数据，如姓名、姓氏和电子邮件，以便在我们的平台中对用户进行身份验证。 此外，当用户启动我们产品时，某些报告会与这些启动的进度一起存储。 | [481280f4-a4ed-4862-a5a1-4de59da9dca5](https://docs.microsoft.com/microsoft-365-app-certification/azure/481280f4-a4ed-4862-a5a1-4de59da9dca5) |
 >| 个人资料 | delegated | 要注册并允许登录的配置文件信息。 当用户访问应用程序时，需要 Microsoft 配置文件的数据才能在我们的平台上创建用户配置文件。 | 应用存储用户个人数据，如姓名、姓氏和电子邮件，以便在我们的平台中对用户进行身份验证。 此外，当用户启动我们产品时，某些报告会与这些启动的进度一起存储。 | [481280f4-a4ed-4862-a5a1-4de59da9dca5](https://docs.microsoft.com/microsoft-365-app-certification/azure/481280f4-a4ed-4862-a5a1-4de59da9dca5) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -77,7 +77,7 @@ Media Interactiva 解决方案提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 

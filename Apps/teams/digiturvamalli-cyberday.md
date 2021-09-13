@@ -9,11 +9,11 @@ certification_type: attested
 description: Cyberday 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: f2adf667a89ff8dcdd1a1f56b1f0ef91951f3eb1
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407383"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278619"
 ---
 # <a name="cyberday"></a>Cyberday
 
@@ -37,7 +37,7 @@ Digiturvamalli 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Digiturvamalli |
 | 合作伙伴网站的 URL | [https://cyberday.ai](https://cyberday.ai) |
-| Teams信息页的 URL | [https://cyberday.ai](https://cyberday.ai) |
+| 应用程序Teams页的 URL | [https://cyberday.ai](https://cyberday.ai) |
 | 隐私策略的 URL | [https://cyberday.ai/privacy](https://cyberday.ai/privacy) |
 | 使用条款 URL | [https://cyberday.ai/terms-of-use](https://cyberday.ai/terms-of-use) |
 
@@ -55,13 +55,13 @@ Digiturvamalli 提供给 Microsoft 的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | 使用电子邮件标识此用户是的应用管理员的用户 + 显示 | 电子邮件Teams用户 ID | [1c7d277c-ff8a-4ea4-bc14-7d06314f8941](https://docs.microsoft.com/microsoft-365-app-certification/azure/1c7d277c-ff8a-4ea4-bc14-7d06314f8941) |
 >| openid | delegated | 使用用户 ID 标识用户 | 电子邮件Teams用户 ID | [1c7d277c-ff8a-4ea4-bc14-7d06314f8941](https://docs.microsoft.com/microsoft-365-app-certification/azure/1c7d277c-ff8a-4ea4-bc14-7d06314f8941) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -78,7 +78,7 @@ Digiturvamalli 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >日志将保留，例如登录/身份验证 (保留 2 天) 、电子邮件发送和接收 (保留 90 天) 以及 API 流量/错误 (保留 90 天) 。 此外，除非另行同意，否则他们提交到服务的客户控制数据的所有数据都将在用户协议终止后的六个月内删除。
 
@@ -86,7 +86,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->管理员的完全权限 (，例如删除、保留、审核、存档) 以及针对合作伙伴在单独与每个数据处理者签订的数据处理协议中设置的其他要求。
+>管理员的完全权限 (，例如删除、保留、审核、存档) 以及针对每个数据处理者分别在数据处理协议中为合作伙伴设置的其他要求。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -119,7 +119,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 全部 |

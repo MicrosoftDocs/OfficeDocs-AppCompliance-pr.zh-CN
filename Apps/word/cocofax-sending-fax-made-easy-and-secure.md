@@ -9,11 +9,11 @@ certification_type: attested
 description: CocoFax 的所有可用安全性和合规性信息 - 发送传真轻松安全、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全 &amp; /合规性信息。
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 8b44af37fc4fcfcb9452b3af6fdd666b0565d9d4
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873745"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277288"
 ---
 # <a name="cocofax---sending-fax-made-easy-amp-secure"></a>CocoFax - 发送传真轻松 &amp; 安全
 
@@ -33,7 +33,7 @@ ms.locfileid: "58873745"
 |:----------------|:-------------|
 | 应用名称 | CocoFax - 发送传真轻松 &amp; 安全 |
 | ID | WA200002263 |
-| Office 365支持的客户端 | Word 2016 Mac、Word web 版、Word 2013 或更高版本的 Windows |
+| Office 365支持的客户端 | Word 2016 Mac、Word web 版、Word 2013 或更高版本（Windows |
 | 合作伙伴公司名称 | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; |
 | 合作伙伴网站的 URL | [https://cocofax.com](https://cocofax.com) |
 | 隐私策略的 URL | [https://cocofax.com/privacy.html](https://cocofax.com/privacy.html) |
@@ -47,11 +47,11 @@ ms.locfileid: "58873745"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息已由用户 &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; ，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+此信息由应用 &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; 如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: ApproveSimple 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a4e133d6f86ea92bc210af8399186701f6a4744f
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525836"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59277030"
 ---
 # <a name="approvesimple"></a>ApproveSimple
 
@@ -37,7 +37,7 @@ Capriza， Inc 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Capriza, Inc |
 | 合作伙伴网站的 URL | [https://www.capriza.com/msteams-landing-page](https://www.capriza.com/msteams-landing-page) |
-| "Teams应用程序信息"页的 URL | [https://support.capriza.com/](https://support.capriza.com/) |
+| 应用程序Teams页的 URL | [https://support.capriza.com/](https://support.capriza.com/) |
 | 隐私策略的 URL | [https://www.capriza.com/privacy-policy/](https://www.capriza.com/privacy-policy/) |
 | 使用条款 URL | [https://www.capriza.com/mla/](https://www.capriza.com/mla/) |
 
@@ -75,7 +75,7 @@ Capriza， Inc 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >名称、电子邮件和团队名称
 
@@ -83,7 +83,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->该产品提供了一个管理仪表板，管理员可在其中定义由 ApproveSimple (包括 LDAP 导入) 服务的用户，并控制用户策略，包括管理员权限和登录策略。 审核和存档内置于管理中。 对于数据删除，客户需要发出服务票证。 
+>产品提供管理员仪表板，管理员可以在仪表板中定义由 ApproveSimple (包括 LDAP 导入策略) 并控制用户策略，包括管理员权限和登录策略。 审核和存档内置于管理中。 对于数据删除，客户需要发出服务票证。 
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

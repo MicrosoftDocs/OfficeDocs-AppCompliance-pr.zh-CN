@@ -9,11 +9,11 @@ certification_type: attested
 description: NOW Virtual Agent 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 1ac2988c550894341d5933afbc59de6f63c51b68
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53520995"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59278816"
 ---
 # <a name="now-virtual-agent"></a>Now Virtual Agent
 
@@ -37,7 +37,7 @@ ServiceNow 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ServiceNow |
 | 合作伙伴网站的 URL | [https://www.servicenow.com/](https://www.servicenow.com/) |
-| "Teams应用程序信息"页的 URL | [https://docs.servicenow.com/bundle/london-servicenow-platfo...](https://docs.servicenow.com/bundle/london-servicenow-platform/page/administer/virtual-agent/task/install-va-integrations.html#install-va-integrations) |
+| 应用程序Teams页的 URL | [https://docs.servicenow.com/bundle/london-servicenow-platfo...](https://docs.servicenow.com/bundle/london-servicenow-platform/page/administer/virtual-agent/task/install-va-integrations.html#install-va-integrations) |
 | 隐私策略的 URL | [https://www.servicenow.com/service-privacy.html](https://www.servicenow.com/service-privacy.html) |
 | 使用条款 URL | [https://www.servicenow.com/terms-of-use.html](https://www.servicenow.com/terms-of-use.html) |
 
@@ -75,7 +75,7 @@ ServiceNow 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >ServiceNow 未开箱即用。 客户可以利用虚拟代理框架来构建可能访问组织或最终用户信息的其他功能。 用户在与机器人交互期间可能会键入个人身份信息，并且将该信息发送到 ServiceNow。
 
