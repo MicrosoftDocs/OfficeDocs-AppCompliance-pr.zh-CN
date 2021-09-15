@@ -2,17 +2,17 @@
 title: Microsoft Outlook 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/08/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft 应用的所有可用安全性和合规性Outlook信息。
 localization_priority: Normal
-ms.openlocfilehash: 0433972074d06da3576bdd55f8059387869d937b
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 8a178a3a6641de3b1d972dc92ed52e8625bb378b
+ms.sourcegitcommit: 400dc76d16649c45cc4bc1b45dee07ba3661f890
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59277036"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59353452"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Microsoft Outlook 应用安全与合规
 
@@ -43,5 +43,6 @@ Microsoft 与Microsoft 365开发人员合作伙伴合作，提供组织加速做
 | [ServiceDesk Plus for Email](./zoho-corporation-private-limited-servicedesk-plus-for-email.md) | Zoho Corporation Private Limited | **✓** |  |
 | [用于加载项的 StarLeaf Outlook](./starleaf-add-in-for-outlook.md) | StarLeaf | **✓** |  |
 | [Wunder365](./jiji-technologies-private-limited-wunder365.md) | JiJi Technologies Private Limited | **✓** |  |
+| [XQ 安全电子邮件](./xq-message-secure-email.md) | XQ 消息 | **✓** |  |
 | [用于营销自动化的 Zoho 市场活动工具](./zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md) | Zoho Corporation Private Limited | **✓** |  |
 | [用于电子邮件的 Zoho CRM](./zoho-corporation-private-limited-crm-for-email.md) | Zoho Corporation Private Limited | **✓** |  |

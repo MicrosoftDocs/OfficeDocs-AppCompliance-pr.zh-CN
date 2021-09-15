@@ -1,44 +1,43 @@
 ---
-title: CEMEQ inc. 的 Mediatheque+ 的应用程序信息。
+title: XQ 安全电子邮件 XQ 邮件的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/26/2021
+ms.date: 07/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Mediatheque+的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: XQ 安全电子邮件的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7645c55391a224202c418e01ba9661bbd9e0fb5c
+ms.openlocfilehash: 32a27529004dc7c2b5d5981f84466e31a94dec7a
 ms.sourcegitcommit: 400dc76d16649c45cc4bc1b45dee07ba3661f890
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353883"
+ms.locfileid: "59353823"
 ---
-# <a name="mediatheque"></a>Mediatheque+
+# <a name="xq-secure-email"></a>XQ 安全电子邮件
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 7 月 26 日</p>
+<p>开发人员上次更新时间：2021 年 7 月 4 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/d546d064-6146-4341-b997-3a83855cafb3" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003099" target="_blank">在 AppSource 中查看</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200000090" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-CEMEQ inc. 提供给 Microsoft 的信息：
+XQ Message 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Mediatheque+ |
-| ID | WA200003099 |
-| Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | CEMEQ inc. |
-| 合作伙伴网站的 URL | [https://www.cemeq.qc.ca](https://www.cemeq.qc.ca) |
-| 隐私策略的 URL | [https://www.mediatheque.plus/privacy.html](https://www.mediatheque.plus/privacy.html) |
-| 使用条款 URL | [https://www.cemeq.qc.ca/data/themes/cemeq/viewerJS/Conditio...](https://www.cemeq.qc.ca/data/themes/cemeq/viewerJS/ConditionsUtilisationMEDPLUS.pdf) |
+| 应用名称 | XQ 安全电子邮件 |
+| ID | WA200000090 |
+| Office 365支持的客户端 | Outlook 2016或更高版本Windows、Outlook 2016 Mac 或更高版本、Outlook iOS 版、Outlook Android 版Outlook 网页版 |
+| 合作伙伴公司名称 | XQ 消息 |
+| 合作伙伴网站的 URL | [https://xqmsg.co](https://xqmsg.co) |
+| 隐私策略的 URL | [https://xqmsg.com/privacy.html](https://xqmsg.com/privacy.html) |
+| 使用条款 URL | [https://xqmsg.com/terms.html](https://xqmsg.com/terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,7 +47,7 @@ CEMEQ inc. 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 CEMEQ inc. 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由 XQ Message 提供，有关此应用如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -63,11 +62,6 @@ CEMEQ inc. 提供给 Microsoft 的信息：
 
 >不Microsoft 服务非活动。
 
-#### <a name="data-access-via-bots"></a>通过机器人访问数据
-
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
-
->无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -80,7 +74,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->管理员有权访问执行请求所需的全部数据。
+>吊销要解密的密钥。 取消设置其帐户。 记录安全事务。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -108,7 +102,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 CEMEQ inc. 提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+此信息由 XQ Message 提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
