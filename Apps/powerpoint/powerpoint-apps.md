@@ -2,21 +2,21 @@
 title: Microsoft PowerPoint 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/08/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft 应用的所有可用安全性和合规性PowerPoint信息。
 localization_priority: Normal
-ms.openlocfilehash: 84c0ceb45b41be1e8f6a248804194a15439cabeb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 15c6bc086bcce24969b6acca1fdf60636ff3f394
+ms.sourcegitcommit: 400dc76d16649c45cc4bc1b45dee07ba3661f890
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59278519"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59346375"
 ---
 # <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Microsoft PowerPoint 应用安全与合规
 
-Microsoft 与 Microsoft 365 开发人员合作伙伴合作，为组织提供加速和通知有关 Microsoft PowerPoint 应用和外接程序的决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关 Microsoft PowerPoint 应用和外接程序的决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
