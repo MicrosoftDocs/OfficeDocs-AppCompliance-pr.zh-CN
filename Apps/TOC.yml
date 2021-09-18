@@ -87,11 +87,11 @@
           href: outlook/harmonie-corporation-for-outlook.md
         - name: 发票和时间跟踪 - Zoho 发票
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: iPlanner Office 365 Planner 外接程序Outlook
+        - name: iPlanner Office 365 Planner 外接程序 for Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (official) '
+        - name: 'Jira Cloud for Outlook (Official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: MIPA - 你自己的个人助理
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
@@ -158,7 +158,7 @@
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
         - name: ArcGIS 地图
           href: sharepoint/esri-inc-arcgis-maps.md
-        - name: FormMachines Connector for SharePoint
+        - name: FormMachines 连接器SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: Gaggle for SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
@@ -813,6 +813,8 @@
           href: teams/officeatwork-template-chooser.md
         - name: 文本
           href: teams/approved-contact-text.md
+        - name: ThoughtWire EWS
+          href: teams/thoughtwire-corp-ews.md
         - name: Tikit
           href: teams/cireson-tikit.md
         - name: TimeClock 365
@@ -837,6 +839,8 @@
           href: teams/uservoice.md
         - name: Vacation Tracker
           href: teams/vacation-tracker.md
+        - name: Verto 365
+          href: teams/tmi-systems-verto-365.md
         - name: Viima
           href: teams/viima-solutions-oy.md
         - name: VisualSP
@@ -875,6 +879,8 @@
           href: teams/workjam-home.md
         - name: WorkJam Schedule
           href: teams/workjam-schedule.md
+        - name: WorkJam 任务
+          href: teams/workjam-tasks.md
         - name: WorkplaceBuddy
           href: teams/workplacebuddy.md
         - name: Wunder365
@@ -1136,6 +1142,8 @@
           href: azure/5f1f4eb7-479e-42f3-b86f-4c1f53e1c222.md
         - name: 621d9ae7-c14e-4fab-9604-63e1ffc9e721
           href: azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721.md
+        - name: 626ce0a3-4620-483d-953d-53b106b9ffad
+          href: azure/626ce0a3-4620-483d-953d-53b106b9ffad.md
         - name: 6919164d-b678-4c3d-a268-e6fbecc1e68d
           href: azure/6919164d-b678-4c3d-a268-e6fbecc1e68d.md
         - name: 6996cad6-a969-487a-9182-f4dc4c6c8803
