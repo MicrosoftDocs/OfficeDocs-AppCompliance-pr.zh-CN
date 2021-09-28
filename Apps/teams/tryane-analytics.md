@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tryane Analytics 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 48383622a5bb2907f74136f2003a51e17af20e5c
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: e806f46e2ff2046defcc7967f6d7bec420629329
+ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785112"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59975107"
 ---
 # <a name="tryane-analytics"></a>Tryane Analytics
 
@@ -107,9 +107,9 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36057' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36057" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

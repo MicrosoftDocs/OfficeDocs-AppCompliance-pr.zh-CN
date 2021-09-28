@@ -2,17 +2,17 @@
 title: 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/24/2021
+ms.date: 09/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb 的所有可用安全性和合规性信息。
-ms.openlocfilehash: b96a216bcaee0080d91a10df5a4b5c5a255b652b
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: be276586f6ee02e78c9d9bfa4d09ac45c2ee9131
+ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59781600"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59972674"
 ---
 # <a name="azure-app-id-2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb"></a>Azure 应用 ID：2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
 
