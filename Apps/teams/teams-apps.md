@@ -7,12 +7,12 @@ ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 8f6d8c6942b2844ec262e0ccc8d13d703a0d26cf
-ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
+ms.openlocfilehash: eface3779c8df01a720d7b7528361f504a01e0db
+ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59974857"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59992082"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -30,6 +30,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Agile Task Board](./agile-is-task-board.md) | Agile-IS | **✓** |  |
 | [Alvao Service Desk](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  |
 | [Ambition](./ambition.md) | Ambition | **✓** |  |
+| [AMEX GBT](./30secondstofly-thailand-co-ltd-amex-gbt.md) | 30SecondsToFly（泰国）公司 | **✓** |  |
 | [Amplify by Hootsuite](./hootsuite-inc-amplify-by.md) | Hootsuite Inc. | **✓** |  |
 | [AmTrav 商务旅行](./amtrav-business-travel.md) | AmTrav | **✓** |  |
 | [Appraisd](./appraisd-ltd.md) | Appraisd ltd. | **✓** |  |
@@ -74,6 +75,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Calendar Pro](./witivio-calendar-pro.md) | Witivio | **✓** |  |
 | [CalendarHero](./calendarhero-inc.md) | CalendarHero Inc | **✓** |  |
 | [Canary](./yattee-inc-canary.md) | YATTEE Inc. | **✓** |  |
+| [Casedoc 虚拟听觉](./casedoc-virtual-hearing.md) | Casedoc | **✓** |  |
 | [CatchEm](./chimu-software-catchem.md) | Chimu Software | **✓** |  |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  |
 | [Chronoscope 时间跟踪](./chrono-innovation-chronoscope-time-tracking.md) | Chrono 创新 | **✓** |  |
@@ -97,6 +99,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Confluence 连接器](./move-work-forward-confluence-connector.md) | 推动工作 | **✓** |  |
 | [Connect+](./reward-gateway-connectplus.md) | Reward Gateway | **✓** |  |
 | [Contact Center](./landis-technologies-llc-contact-center.md) | Landis Technologies LLC | **✓** |  |
+| [内容管理器](./colligo-inc-content-manager.md) | Colligo Inc | **✓** |  |
 | [Contextere AVA](./contextere-ava.md) | Contextere | **✓** |  |
 | [CSOD Learn](./cornerstone-ondemand-csod-learn.md) | Cornerstone OnDemand | **✓** |  |
 | [Cuckoo Workout](./cuckoo-networks-oy-workout.md) | Cuckoo Networks Oy | **✓** |  |
@@ -169,6 +172,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Hoylu](./hoylu.md) | Hoylu | **✓** |  |
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  |
 | [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  |
+| [iManage](./imanage.md) | iManage | **✓** |  |
 | [发生危机时](./rockdove-solutions-inc-in-case-of-crisis.md) | RockDove Solutions, Inc. | **✓** |  |
 | [InCaseIT](./pilotech-as-incaseit.md) | Pilotech AS | **✓** |  |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Industry Intelligence Team | **✓** |  |
@@ -255,6 +259,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [PostBeyond](./postbeyond.md) | PostBeyond | **✓** |  |
 | [Powell Teams](./powell-software-teams.md) | Powell 软件 | **✓** |  |
 | [Power BI 协作](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
+| [演示文稿 AI](./infographfx-technologies-presentations-ai.md) | Infographfx 技术 | **✓** |  |
 | [Prezi Video](./prezi-video.md) | Prezi | **✓** |  |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ProdBot](./prodoscore-prodbot.md) | Prodoscore | **✓** |  |
@@ -275,6 +280,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Remind](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
 | [Reminderz](./chitchattr-reminderz.md) | ChitChattr | **✓** |  |
 | [researcHR](./researchr.md) | KBE&#26666;&#24335;&#20250;&#31038; | **✓** |  |
+| [ReTeam](./beremote-llc-reteam.md) | BeRemote LLC | **✓** |  |
 | [Retro](./baltic-amadeus-retro.md) | Baltic Amadeus | **✓** |  |
 | [Rezolve.ai](./actionable-science-rezolveai.md) | 可操作科学 | **✓** |  |
 | [RFPIO 机器人](./rfpio-bot.md) | RFPIO | **✓** |  |
