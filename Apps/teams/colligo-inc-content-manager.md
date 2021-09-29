@@ -1,45 +1,44 @@
 ---
-title: Unscrambl 的 qbo 应用程序信息
+title: Colligo Inc 的内容管理器的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/28/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: qbo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57d228504c0432aea96d8fc915606b1c71d36cf1
+description: 内容管理器的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 7392dc618ff6f22b935b5760e97d72155ea41660
 ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992072"
+ms.locfileid: "59992128"
 ---
-# <a name="qbo"></a>qbo
+# <a name="content-manager"></a>内容管理器
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 9 月 28 日</p>
+<p>开发人员上次更新时间：2021 年 6 月 14 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/834c6939-152c-450b-a305-c65b4dd5d1c7" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001708" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/36ad88c6-ffce-4c52-a5a5-3eae64ed65bf" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003250" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-Unscrambl 提供给 Microsoft 的信息：
+Colligo Inc 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | qbo |
-| ID | WA200001708 |
+| 应用名称 | 内容管理器 |
+| ID | WA200003250 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Unscrambl |
-| 合作伙伴网站的 URL | [https://unscrambl.com](https://unscrambl.com) |
-| "Teams应用程序信息"页的 URL | [https://qbo.ai](https://qbo.ai) |
-| 隐私策略的 URL | [https://qbo.ai/legal/](https://qbo.ai/legal/) |
-| 使用条款 URL | [https://qbo.ai/legal/#service](https://qbo.ai/legal/#service) |
+| 合作伙伴公司名称 | Colligo Inc |
+| 合作伙伴网站的 URL | [https://www.colligo.com](https://www.colligo.com) |
+| 隐私策略的 URL | [https://www.colligo.com/product-policy/](https://www.colligo.com/product-policy/) |
+| 使用条款 URL | [https://www.colligo.com/media/Colligo-Software-License-Agre...](https://www.colligo.com/media/Colligo-Software-License-Agreement-Schedule-A.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,21 +48,21 @@ Unscrambl 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Unscrambl 提供有关此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制的信息。
+Colligo Inc 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和外接程序Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可能会使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Bot Framework API | 是 | 从用户电子邮件中标识的域名 | 我们收集用于发送报告的电子邮件（如果需要）。 | 仅电子邮件 | 作为用户配置文件的一部分存储 |
+>| SharePoint CSOM | 否 |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
@@ -75,9 +74,7 @@ Unscrambl 提供给 Microsoft 的信息：
 
 如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 我们具有允许用户向自己通过电子邮件发送报告 PDF 的应用功能。 | email address | 我们具有允许用户向自己发送电子邮件报告 PDF 的应用功能，此功能存储为用户配置文件的一部分。 |
+>无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -90,7 +87,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->此数据存储在一个 MariaDB 中，托管在 Azure 和 (的 VM 中) 。 对 VM 的访问受 IP 限制，受密码保护，对 DB 的访问也受密码保护。
+>将文档从用户计算机移动到用户选择的目标 (SharePoint Online、Teams 和 OneDrive) 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -106,9 +103,9 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36419' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36419" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -118,11 +115,24 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 Unscrambl 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+此信息由 Colligo Inc 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
+| 你的应用是否支持条件访问策略？ | 是 |
+| 列出支持的策略类型 | 多重身份验证 |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 否 |
+| 你是否拥有为应用注册的所有重定向统一 (URI) URI？ | 是 |
+| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/> |
+| 你的应用是否公开任何 Web API？ | 否 |
+| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
