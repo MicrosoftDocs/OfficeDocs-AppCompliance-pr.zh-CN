@@ -1,18 +1,18 @@
 ---
-title: Microsoft SharePoint 应用安全性和合规性 - 所有应用
+title: Microsoft SharePoint 应用安全与合规 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/16/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft 应用的所有可用安全性和合规性SharePoint信息。
 localization_priority: Normal
-ms.openlocfilehash: 62687fe3c26249cd0d9db810c9ca4520f1f128d1
-ms.sourcegitcommit: 9010c9bace5d935309eae5098f5a126a55270eb6
+ms.openlocfilehash: 1d85d0d3733db1696dd9d6d90b33f22b16cc8dff
+ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59438373"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60080873"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Microsoft SharePoint 应用安全与合规
 
@@ -27,5 +27,6 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [iGlobe CRM 加载项](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iGlobe CRM Office 365 for Microsoft Office 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [表示邮件分析程序](./konnect-email-parser.md) | 库马尼克语电子邮件 | **✓** |  |
+| [闪电工具闪电](./lightning-tools-conductor.md) | 闪电工具 | **✓** |  |
 | [officeatwork | 模板选择器SharePoint] (./officeatwork-officeatworktemplate-chooser-for-sharepoint.md)  | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Power BI 协作](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |

@@ -107,6 +107,8 @@
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
         - name: 推广销售Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
+        - name: Pexip One for Outlook
+          href: outlook/pexipas-pexip-one-for-outlook.md
         - name: 优先级矩阵 - 将电子邮件转换为任务
           href: outlook/appfluence-inc-priority-matrix-turn-emails-into-tasks.md
         - name: Quantum Workplace
@@ -160,7 +162,7 @@
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
         - name: ArcGIS 地图
           href: sharepoint/esri-inc-arcgis-maps.md
-        - name: FormMachines Connector for SharePoint
+        - name: FormMachines 连接器SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: Gaggle for SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
@@ -170,6 +172,8 @@
           href: sharepoint/iglobe-crm-office-365-for-microsoft.md
         - name: 表示邮件分析程序
           href: sharepoint/konnect-email-parser.md
+        - name: 闪电工具闪电
+          href: sharepoint/lightning-tools-conductor.md
         - name: officeatwork |模板选择器SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
         - name: Power BI 协作
@@ -223,6 +227,8 @@
           href: teams/askrai.md
         - name: Assembly
           href: teams/carrothr-inc-assembly.md
+        - name: 星号
+          href: teams/aster.md
         - name: AtBot
           href: teams/h3-solutions-inc-atbot.md
         - name: atSpoke
@@ -511,8 +517,6 @@
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
-        - name: Kronos
-          href: teams/kronos-inc.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
         - name: LawToolBox
@@ -941,6 +945,8 @@
           href: teams/jiji-technologies-pvt-ltd-wunder365.md
         - name: X0PA 会议室
           href: teams/x0pa-ai-singapore-room.md
+        - name: xMatters
+          href: teams/xmatters-inc.md
         - name: YAROOMS
           href: teams/yarooms.md
         - name: Yeeflow
@@ -1146,6 +1152,8 @@
           href: azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c.md
         - name: 3e500164-df82-4d1e-9db8-0901e07d374d
           href: azure/3e500164-df82-4d1e-9db8-0901e07d374d.md
+        - name: 3e701664-cc46-49e4-b356-1a7ac6500998
+          href: azure/3e701664-cc46-49e4-b356-1a7ac6500998.md
         - name: 3e745135-a761-48a7-ab54-5c0277b2e642
           href: azure/3e745135-a761-48a7-ab54-5c0277b2e642.md
         - name: 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d
