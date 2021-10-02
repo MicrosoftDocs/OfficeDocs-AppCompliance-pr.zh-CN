@@ -1,25 +1,25 @@
 ---
-title: OnePlaceMail for Outlook By OnePlace 解决方案的应用程序信息
+title: OnePlaceMail for OnePlace Solutions Outlook应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/31/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: OnePlaceMail for Outlook 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 18dc1ab4ba71102564c1c85f7ed3846d9f4f1700
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 196720a00525971f29618d48436cf11b37a3aaac
+ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59278696"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60080643"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail for Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 1 月 31 日</p>
+<p>开发人员上次更新时间：2021 年 9 月 30 日</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380723" target="_blank">在 AppSource 中查看</a>
 
@@ -51,11 +51,11 @@ OnePlace 解决方案提供了此信息，这些信息与此应用程序如何�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/ (权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Group.ReadWrite.All | delegated | 需要确定Teams用户是其中的成员。 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Group.ReadWrite.All | delegated | 必须确定Teams用户是其中的成员。 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| Mail.ReadWrite.Shared | delegated | 需要访问邮件属性才能设置SharePoint列，并添加邮件项目的"已SharePoint收件人"类别 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| MailboxSettings.ReadWrite | delegated | 没有收集或使用了任何数据，这用于将类别添加到用户邮箱中的主类别列表 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| Sites.ReadWrite.All | delegated | 需要设置应用已上载到项目的属性SharePoint。 | 无 | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
@@ -72,27 +72,27 @@ OnePlace 解决方案提供了此信息，这些信息与此应用程序如何�
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint | 是 | SharePointURL、库/列表/文件夹名称 | 访问的邮箱信息用于简化将电子邮件和附件从 Exchange 保存到SharePoint。 此附加数据不存储在其余位置，在传输过程中加密。 此数据的示例包括SharePoint值，如选项列值、分类值、内容类型名称、文件夹名称、网站名称。  | 虽然应用不存储或收集此数据，但它可能会显示在遥测/日志中，其中该数据将保留 90 天。 | 不存储数据 |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| 充电服务用于订阅管理和计费。 对于应用内 (订阅) 用户的名字、姓氏、电子邮件地址与 Chargify 共享。 对于已购买的 (支持多个许可用户) 不会与充电服务共享单个用户详细信息。 | 电子邮件地址 | 能够将订阅生命周期事件传达给用户 |
+>| 充电服务用于订阅管理和计费。 对于应用内 (订阅) "名字、姓氏、电子邮件地址"与"注册"共享。 对于购买 (支持多个许可用户的订阅) 不会与认证服务共享单个用户详细信息。 | 电子邮件地址 | 能够将订阅生命周期事件传达给用户 |
 
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->EUII 和 OII 确实显示在遥测中。 此信息存储在应用程序服务器中，Insights进行加密、在 90 天后控制访问权限并删除
+>EUII 和 OII 确实显示在遥测中。 此信息存储在 Application Insights中，在 90 天后进行加密、控制访问权限并将其删除
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->应用程序中存储的数据在传输过程中和其余时间进行加密。 我们依赖Office 365凭据，因此不在系统中存储用户密码。 对存储的数据/日志/遥测的访问受到严格控制，内部管理人员需要访问该信息以运行和监视应用的运行状况。 Two-Factor内部管理人员强制执行身份验证。
+>应用程序中存储的数据在传输过程中和其余时间进行加密。 我们依赖于Office 365凭据，因此不在系统中存储用户密码。 对存储的数据/日志/遥测的访问受到严格控制，内部管理人员需要访问该信息以运行和监视应用的运行状况。 Two-Factor内部管理人员强制执行身份验证。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -124,9 +124,9 @@ OnePlace 解决方案提供了此信息，这些信息与此应用程序如何�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 你是否与 Azure AD (Microsoft 标识平台) ？  | 是 |
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
