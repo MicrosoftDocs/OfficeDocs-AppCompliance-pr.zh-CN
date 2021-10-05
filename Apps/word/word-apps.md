@@ -2,21 +2,21 @@
 title: Microsoft Word应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/16/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Word信息。
 localization_priority: Normal
-ms.openlocfilehash: 98817d7e3b75bc3ce8c07dc5c1e297afd2e73bc7
-ms.sourcegitcommit: 9010c9bace5d935309eae5098f5a126a55270eb6
+ms.openlocfilehash: 3c40ee92ac084d0e61e33cd14e4642f6dd434b30
+ms.sourcegitcommit: 2781622670a06d5221dcba8838cc262f93d228d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59434845"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60123422"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word应用安全性和合规性
 
-Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关Microsoft Word应用和外接程序的决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与 Microsoft 365 开发人员合作伙伴合作，以提供组织加速和通知有关Microsoft Word应用和外接程序的决策时需要的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -26,6 +26,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [Excel到 Word 文档自动化](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [Fabasoft 云Office加载项](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
 | [harmon.ie Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
+| [印象签名](./impression-signatures.md) | 印象签名 | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
 | [Loio 合同助理](./loio-inc-contract-assistant.md) | Loio Inc. | **✓** |  |
 | [Word 的 Lucidchart 关系图](./lucid-software-inc-lucidchart-diagrams-for-word.md) | Lucid Software Inc | **✓** |  |
