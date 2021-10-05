@@ -1,25 +1,25 @@
 ---
-title: 按用户 monday.com 的应用程序 monday.com
+title: 供用户 monday.com 的应用程序 monday.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/28/2020
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息 monday.com、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7d929b4d9c66aea657d2beb64fa77f31921f59ac
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 3779d91614f3413034e8bd86d28ec329cf341b67
+ms.sourcegitcommit: e339fa9776aae99797dbc1f0a28932e71b4eb823
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279400"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60131690"
 ---
 # <a name="mondaycom"></a>monday.com
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2020 年 9 月 28 日</p>
+<p>开发人员上次更新时间：2021 年 8 月 3 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/eab2d3ce-6d6a-4415-abc4-5f40a8317b1f" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001798" target="_blank">在 AppSource 中查看</a>
@@ -28,7 +28,7 @@ ms.locfileid: "59279400"
 
 ### <a name="general-information"></a>一般信息
 
-由 Microsoft monday.com 的信息：
+由 microsoft monday.com 提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -36,9 +36,9 @@ ms.locfileid: "59279400"
 | ID | WA200001798 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | monday.com |
-| 合作伙伴网站的 URL | [https://monday.com/](https://monday.com/) |
+| 合作伙伴网站的 URL | [https://monday.com](https://monday.com) |
 | 隐私策略的 URL | [https://monday.com/terms/privacy](https://monday.com/terms/privacy) |
-| 使用条款 URL | [https://monday.com/terms/tos](https://monday.com/terms/tos) |
+| 使用条款 URL | [https://monday.com/l/legal/tos/](https://monday.com/l/legal/tos/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,11 +48,11 @@ ms.locfileid: "59279400"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由应用 monday.com 如何收集和存储组织数据，以及组织对应用收集的数据的控制。
+此信息已由用户 monday.com，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -61,13 +61,13 @@ ms.locfileid: "59279400"
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| monday.com 将以下子处理器用于其服务的性能：&#160;https://monday.com/terms/subprocessors |  | monday.com API。 我们使用以下 Microsoft 框架来提升服务 (如上述) 响应所述：&#8216;botframework-connector&#8217; &#8216;&#8217; &#8216;@micorosft/teams-js&#8217; |
+>| monday.com 将以下子处理器用于其服务的性能：&#160;https://monday.com/terms/subprocessors | 取决于子处理器提供的服务。 | monday.com API。 我们使用以下 Microsoft 框架实现服务 (如以上) 响应所述：&#8216;botframework-connector&#8217; &#8216;&#8217; &#8216;@micorosft/teams-js&#8217; |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -82,17 +82,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->monday.com 服务托管在跨多个可用性区域北部都位于北都纳的 AWS 基础结构上，而 DR 站点则建立在不同的区域中。 某些备份数据存储在美国、 (GCP 上) 。 对 monday.com 服务的访问权限由用户组织的管理员控制，并且通过利用以下功能实现：
-- 用户类型
-- 帐户级别的权限
-- 工作区
-- 板类型
-- 板级权限
-- 列级别权限 monday.com 以下身份验证方法：
-- 凭据
-- Google SSO (Pro计划) 
-- 帐户管理员可通过平台的管理员面板选择通过短信或验证器应用为 Enterprise 计划) 2FA 启用 Okta、OneLogin 和自定义 SAML 2.0 (。
-所有其余数据都使用 AES-256 进行加密。 在开放网络中传输的所有数据至少使用 TLS 1.3 (TLS 1.2 进行) 。
+>----
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -116,3 +106,28 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>标识信息
+
+此信息已由应用 monday.com、授权、应用程序注册最佳做法和其他标识条件的信息提供。
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
+| 你的应用是否支持条件访问策略？ | 否 |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 否 |
+| 你的应用是否具有机密客户端？ | 是 |
+| 你是否拥有为应用注册的所有重定向 (URI) 统一资源标识符？ | 是 |
+| 你的应用是否公开任何 Web API？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 是 |
+| 你的应用是否使用已弃用 API？ | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

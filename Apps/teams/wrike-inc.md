@@ -2,23 +2,24 @@
 title: Wrike Inc. 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/23/2020
+ms.date: 10/04/2021
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: Wrike 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c175c36e7ecb9bc19b2ff3ad95b56bfab38cdcab
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: f5f044ee38389321d9f566d1e5f8e5c95586df4c
+ms.sourcegitcommit: e339fa9776aae99797dbc1f0a28932e71b4eb823
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283336"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60131698"
 ---
 # <a name="wrike"></a>Wrike
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2020 年 3 月 23 日</p>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>开发人员上次更新时间：2021 年 10 月 4 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/05274a45-7312-4c23-8f64-d57fe4a28d6d" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381390" target="_blank">在 AppSource 中查看</a>
@@ -35,10 +36,10 @@ Wrike Inc. 提供给 Microsoft 的信息：
 | ID | WA104381390 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Wrike Inc. |
-| 合作伙伴网站的 URL | [https://www.wrike.com/](https://www.wrike.com/) |
-| "Teams应用程序信息"页的 URL | [https://help.wrike.com/hc/en-us/articles/115001825869-Micro...](https://help.wrike.com/hc/en-us/articles/115001825869-Microsoft-Teams) |
-| 隐私策略的 URL | [https://www.wrike.com/privacy/](https://www.wrike.com/privacy/) |
-| 使用条款 URL | [https://www.wrike.com/terms/](https://www.wrike.com/terms/) |
+| 合作伙伴网站的 URL | [https://wrike.com](https://wrike.com) |
+| Teams应用程序信息页的 URL | [https://wrike.com](https://wrike.com) |
+| 隐私策略的 URL | [https://www.wrike.com/security/privacy/](https://www.wrike.com/security/privacy/) |
+| 使用条款 URL | [https://www.wrike.com/security/terms/](https://www.wrike.com/security/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,49 +57,41 @@ Wrike Inc. 提供给 Microsoft 的信息：
 
 >此应用程序不使用 Microsoft Graph。
 
-#### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
-
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
-
->| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| 适用于 Office 的 JavaScript API | 是 | 外接程序使用 Office.js API 与 Office 应用程序集成。 |  | 没有组织数据存储在 Wrike 的数据库中。 |  |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-------------------|:--------------------------|:--------------------------|
->| Wrike 与有权访问某些数据的以下供应商集成：Marketo 是电子邮件线索捕获服务，仅会向它们提供名称和电子邮件。 推广是基于云的销售活动 - 仅向它们提供名称和电子邮件。 Salesforce CRM 系统 - 具有联系人信息和帐单 (客户的信息) 敏感数据。 Zuora - 计费和开票客户。 所有供应商都有一个 DPA。 |  | 我们使用 JS Office API，但我们不收集/处理/存储任何组织信息。 |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| https://learn.wrike.com/subprocessor-list/ | 用户联系人数据、公司名称、公司规模 | 在 Wrike 中注册帐户所需的数据 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->无法访问 EUII。
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| 给定 Wrike 用户的名称和个人提及的任务标题 | 与上面相同 | 与上面相同 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->否
+>仅 ID，保留 14 天
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->Wrike 具有多租户体系结构，可基于客户元数据&#8217;访问控制来逻辑隔离客户的数据。 此元数据根据特定 Wrike 帐户中基于角色的访问规则与特定租户及其访问权限相关联。 数据在逻辑上隔离和隔离，并且只能通过应用程序访问数据，以确保安全和隐私。 应用程序级别的安全性阻止租户访问或修改另一个租户所拥有的应用程序数据。 Wrike 的应用程序具有广泛的身份验证、基于角色的访问控制、授权以及数据共享 (，并且只允许授权用户访问 https://help.wrike.com/hc/en-us/articles/209603589-Access-Roles https://help.wrike.com/hc/en-us/articles/209602969) 数据。 此外，静态加密适用于通过 Web 应用程序和 API 上传到文件存储中的 Wrike 服务器的用户文件;文件使用 AES 256 位加密自动加密。 此外，所有服务器都使用文件系统加密进行静态加密，此外，Wrike 还为客户管理的加密密钥提供 Wrike Lock 外接程序，请参阅 和 https://www.wrike.com/add-on-wrike-lock/ https://help.wrike.com/hc/en-us/articles/360012347934-Wrike-Lock 。 作为额外的数据安全层，Wrike 提供了审核和报告功能，使管理员能够执行完全安全审查，同时能够更深入了解其 Wrike 帐户中发生的情况，更多详细信息可在 找到 https://help.wrike.com/hc/en-us/articles/209606309-Audit-Reports 。 最后，Wrike 提供允许精细跟踪访问角色的功能，帮助客户完全审核现有数据共享，有关详细信息，请参阅 https://help.wrike.com/hc/en-us/articles/360002004534-Access-Reports 。
-在两种情况下，可考虑访问客户数据：
-- Wrike 支持团队的访问：如果问题排查或验证，需要支持人员访问你的帐户;该访问权限仅能由你授予。 这由系统生成的安全令牌启用，你可以向支持团队提供带外令牌，从而允许支持在有限的时间深入地解决问题。 此保守方法可确保存储在 Wrike 中的数据的额外机密性。
-- Wrike 运营团队的访问：Wrike 运营团队负责维护和支持生产环境，包括监视、修补和更新、将新内部版本交付到生产环境等。在过程和技术方面均严格禁止此访问，并且严格授权控制（包括但不限于 VPN、2FA 和个人证书）已到位，此外，使用 HIDS (基于主机的入侵检测系统) 对访问进行详细监视，由 Wrike 运营安全团队审查。 对于 Amazon KMS (Wrike Lock 功能) ，客户数据存储在 Wrike 数据库中进行加密，因此 Wrike 运营团队不能直接或间接获取该数据，因为数据可以使用客户对 Amazon KMS（仅由客户管理和控制）的访问权限进行解密。
+>在 DPA 条件下
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
 是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
->否
+>是
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,3 +109,29 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>标识信息
+
+此信息由 Wrike Inc. 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
+| 你的应用是否支持条件访问策略？ | 否 |
+| 应用是否请求方案最小特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 你的应用是否支持多租户？ | 是 |
+| 你的应用是否具有机密客户端？ | 是 |
+| 你是否拥有为应用注册的所有重定向 (URI) 统一资源标识符？ | 是 |
+| 对于你的应用，应避免使用什么？ | ,<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
+| 你的应用是否公开任何 Web API？ | 是 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
+| 你的应用是否使用已弃用 API？ | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
