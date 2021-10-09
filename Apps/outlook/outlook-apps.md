@@ -2,21 +2,21 @@
 title: Microsoft Outlook 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/07/2021
+ms.date: 10/08/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft 应用的所有可用安全性和合规性Outlook信息。
 localization_priority: Normal
-ms.openlocfilehash: 45f96f7433f5096420e675ba3b23b75b06b10a18
-ms.sourcegitcommit: 4817af6bd92bcc7624a43ea79ba6b9362da38035
+ms.openlocfilehash: 17e58775e3c396c2ae79d4884e12e2c30b8fd6be
+ms.sourcegitcommit: 085c227ffcf8f88e6e55d3c40752a3df25642592
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60233226"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60255655"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Microsoft Outlook 应用安全与合规
 
-Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关 Microsoft Outlook 应用和外接程序的决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关其使用的 Microsoft Outlook 应用和外接程序的决策时需要的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -31,15 +31,15 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [harmon.ie Outlook](./harmonie-corporation-for-outlook.md) | harmon.ie Corporation | **✓** |  |
 | [展示次数签名Outlook](./impression-signatures-for-outlook.md) | 印象签名 | **✓** |  |
 | [发票和时间跟踪 - Zoho 发票](./zoho-corporation-private-limited-invoice-and-time-tracking.md) | Zoho Corporation Private Limited | **✓** |  |
-| [iPlanner Office 365 Planner 外接程序 for Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [iPlanner Office 365 Planner 外接程序Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Jira Cloud for Outlook (official) ](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  |
+| [Jira Cloud for Outlook (Official) ](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  |
 | [MIPA - 你自己的个人助理](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | 所有蓝色解决方案 | **✓** |  |
 | [Office2SharePoint for Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | content Chooser for Outlook] (./officeatwork-officeatworkcontent-chooser-for-outlook.md)  | officeatwork | **✓** |  |
 | [OnePlaceMail for Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | OnePlace 解决方案 | **✓** |  |
-| [推广销售Outlook](./outreach-sales-engagement-for-outlook.md) | 推广 | **✓** |  |
+| [Outlook](./outreach-sales-engagement-for-outlook.md) | 推广 | **✓** |  |
 | [Pexip One for Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
 | [优先级矩阵 - 将电子邮件转换为任务](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |

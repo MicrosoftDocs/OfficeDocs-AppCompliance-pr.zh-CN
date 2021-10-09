@@ -35,7 +35,7 @@
           href: excel/harmonie-corporation-for-office.md
         - name: 印象签名
           href: excel/impression-signatures.md
-        - name: 适用于 planner 的 iPlanner Office 365工具
+        - name: 适用于 Planner 的 iPlanner Office 365工具
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
         - name: Jira Cloud for Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
@@ -99,7 +99,7 @@
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (official) '
+        - name: 'Jira Cloud for Outlook (Official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: MIPA - 你自己的个人助理
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
@@ -111,7 +111,7 @@
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
         - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: 推广销售Outlook
+        - name: Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One for Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -509,6 +509,8 @@
           href: teams/pilotech-as-incaseit.md
         - name: IndustryIntel
           href: teams/industry-intelligence-team-industryintel.md
+        - name: Infor 为一名 InFor 一名 InFor 一名
+          href: teams/infor-us-inc-coleman.md
         - name: InStation
           href: teams/developers-invillia-instation.md
         - name: isLucid
@@ -553,6 +555,8 @@
           href: teams/elearningforce-international-lms365.md
         - name: Loops - 创意学习
           href: teams/skooler-loops-creative-learning.md
+        - name: LTI 客户端
+          href: teams/flipick-pvt-ltd-lti-client.md
         - name: Lucca
           href: teams/lucca.md
         - name: Lucidchart
@@ -1028,7 +1032,7 @@
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork |验证程序Office
           href: word/officeatwork-officeatworkverifier-for-office.md
-        - name: officeatwork |用于Office
+        - name: officeatwork |Office
           href: word/officeatwork-officeatworkwizard-for-office.md
         - name: RetMig 和 Kommaforslag
           href: word/grammarsoft-aps-retmig-and-kommaforslag.md
@@ -1244,6 +1248,8 @@
           href: azure/5edad654-f2d5-41d8-bfc0-92c2735252e1.md
         - name: 5f1f4eb7-479e-42f3-b86f-4c1f53e1c222
           href: azure/5f1f4eb7-479e-42f3-b86f-4c1f53e1c222.md
+        - name: 5f5ab403-96ae-46a9-b78e-a06d60cc9e4e
+          href: azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md
         - name: 621d9ae7-c14e-4fab-9604-63e1ffc9e721
           href: azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721.md
         - name: 626ce0a3-4620-483d-953d-53b106b9ffad
