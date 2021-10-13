@@ -2,17 +2,17 @@
 title: SaaS 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/08/2021
+ms.date: 10/12/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和合规性信息。
 localization_priority: Normal
-ms.openlocfilehash: f96fe39f0947dfc5f9e78b9226d4a7bc0b6a5203
-ms.sourcegitcommit: 085c227ffcf8f88e6e55d3c40752a3df25642592
+ms.openlocfilehash: 54ea847ba4234990c18870cc3d4f269736e9aa96
+ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60255665"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60284524"
 ---
 # <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和合规性
 
@@ -27,6 +27,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [图像选择器](./officeatwork-image-chooser.md) | officeatwork | **✓** |  |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [LMS365](./elearningforce-international-aps-lms365.md) | ELEARNINGFORCE 国际 APS | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Luware Nimbus for Microsoft Teams](./luware-ag-nimbus-for-microsoft-teams.md) | Luware AG | **✓** |  |
 | [MIPA - 我的智能个人助理](./iglobe-mipa-my-intelligent-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [MyHub for Teams](./avepoint-inc-myhub-for-teams.md) | AvePoint Inc. | **✓** |  |
 | [Office2SharePoint](./iglobe-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -37,4 +38,4 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [模板选择器浏览器](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** |  |
 | [上传者](./officeatwork-uploader.md) | officeatwork | **✓** |  |
 | [验证程序](./officeatwork-verifier.md) | officeatwork | **✓** |  |
-| [Wizard](./officeatwork-wizard.md) | officeatwork | **✓** |  |
+| [向导](./officeatwork-wizard.md) | officeatwork | **✓** |  |
