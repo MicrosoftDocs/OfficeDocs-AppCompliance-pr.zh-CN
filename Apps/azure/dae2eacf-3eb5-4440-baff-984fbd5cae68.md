@@ -2,17 +2,17 @@
 title: dae2eacf-3eb5-4440-baff-984fbd5cae68 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/08/2021
+ms.date: 10/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: dae2eacf-3eb5-4440-baff-984fbd5cae68 的所有可用安全性和合规性信息。
-ms.openlocfilehash: 5f65b1f836876439f7c1d08e47d88403d59e4e51
-ms.sourcegitcommit: 085c227ffcf8f88e6e55d3c40752a3df25642592
+ms.openlocfilehash: 8855f3ee3ebdb9bb125e71d6e5b9735b3b63f56b
+ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60255535"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60286894"
 ---
 # <a name="azure-app-id-dae2eacf-3eb5-4440-baff-984fbd5cae68"></a>Azure 应用 ID：dae2eacf-3eb5-4440-baff-984fbd5cae68
 
@@ -22,7 +22,7 @@ ms.locfileid: "60255535"
 |--------------|---------------|-----------------------|
 | [Template Chooser](https://docs.microsoft.com/microsoft-365-app-certification/forward/officeatwork-ag.template-chooser) |  | [https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser](https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser) |
 | [officeatwork - 适用于 officeatwork 的模板SharePoint](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200001923) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA200001923](https://appsource.microsoft.com/product/office/WA200001923) |
-| [officeatwork - 模板选择器Office](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA104380050) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA104380050](https://appsource.microsoft.com/product/office/WA104380050) |
+| [officeatwork - 适用于 officeatwork 的模板Office](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA104380050) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA104380050](https://appsource.microsoft.com/product/office/WA104380050) |
 | [模板选择器浏览器](https://docs.microsoft.com/microsoft-365-app-certification/forward/officeatwork-ag.template-chooser-browser) |  | [https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser-browser](https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser-browser) |
 | [Template Chooser](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200000110) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA200000110](https://appsource.microsoft.com/product/office/WA200000110) |
 
