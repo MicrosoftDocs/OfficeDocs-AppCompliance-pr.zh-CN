@@ -6,12 +6,12 @@ description: Microsoft 365认证提交指南粒度视图
 keywords: 应用认证团队Microsoft 365合规性 m365 初始文档提交
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: f8b45c5130d4c4a231f2d7ce7b1bc6992757bf46
-ms.sourcegitcommit: 1e461d44be2da90b41fdcb60b35a6a180d52c9d6
+ms.openlocfilehash: 0352b64649d87b40d185a2bc06ce23da6cf341ef
+ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59497098"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60378810"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365证书 - 初始文档提交指南
 
@@ -24,31 +24,15 @@ ms.locfileid: "59497098"
 -   此报告必须包含支持部署应用/添加的环境，以及支持应用/加载项操作的其他环境。
 
 
-## <a name="software-inventory"></a>软件清单
+## <a name="system-component-inventory"></a>系统组件清单
 
-最新软件清单，其中包括范围内环境中使用的所有软件以及版本。
+支持基础结构使用的所有系统组件最新设计。 这将用于在执行评估阶段时帮助采样。 如果您的环境包括 PaaS，如果您可以提供使用的所有 PaaS 服务的详细信息，这将非常有用。
 
-**示例：**
-
-|软件|  Publisher|  版本|     用途|
-|-|-|-|-|
-|Windows Server|    Microsoft 2016 | 内部版本 14393| 生产环境的服务器操作系统|.
-|Linux Ubuntu|  不适用|    16.04 (Xenial) | DMZ 中使用的服务器操作系统。|
-|ESXi|  VMWare| 6.5.0 (内部版本13004031) | 用于支持虚拟服务器。|
-|Mysql (Windows) |   不适用|    8.0.2.1|    用于存储聊天历史记录的数据库服务器。|
-|Tomcat|        Apache| 7.0.92| 客户门户。|
-|IIS|   Microsoft|  10.0|   支持 API。|
-
-
-## <a name="hardware-inventory"></a>硬件清单
-
-支持基础结构使用最新的硬件清单。 这将用于在执行评估阶段时帮助采样。 如果您的环境包括 PaaS，如果您可以提供使用的所有 PaaS 服务的详细信息，这将非常有用。
-
-**注意：** IaaS/PaaS 将没有任何受 ISV 控制的硬件。  
+**注意：** IaaS/PaaS 将没有任何受 ISV 控制的硬件。  在这种情况下，请提供所有虚拟资源的列表或屏幕截图。
 
 **示例：**
 
-|资产名称|    资产类型| 描述|    制造商|   模型|
+|资产名称|    资产类型| 说明|    制造商|   模型|
 |-|-|-|-|-|
 |D212|  Windows 计算机|   虚拟机|    不适用| 不适用|
 |LT101| 便携式计算机| 工作站|    Microsoft|  Surface 3|
@@ -56,7 +40,23 @@ ms.locfileid: "59497098"
 |LXM2|  Linux 计算机|  测试计算机|不适用|不适用|       
 
 
-## <a name="web-dependencies"></a>Web 依赖项
+## <a name="software-inventory"></a>软件清单
+
+所有软件资产（包括范围内环境中使用的所有软件以及版本）的最新版本清单。
+
+**示例：**
+
+|软件|  Publisher|  版本|     用途|
+|-|-|-|-|
+|Windows Server|    Microsoft 2016 | 内部版本 14393| 生产环境的服务器操作系统|.
+|Linux Ubuntu|  不适用|    16.04 (Xenial) | DMZ 中使用的服务器操作系统。|
+|ESXi|  VMWare| 6.5.0 (版本13004031) | 用于支持虚拟服务器。|
+|Mysql (Windows) |   不适用|    8.0.2.1|    用于存储聊天历史记录的数据库服务器。|
+|Tomcat|        Apache| 7.0.92| 客户门户。|
+|IIS|   Microsoft|  10.0|   支持 API。|
+
+
+## <a name="third-party-dependencies"></a>第三方依赖项
 
 列出应用/加载项使用的当前运行版本的所有依赖项的文档。
 
@@ -74,7 +74,7 @@ ms.locfileid: "59497098"
 
 ## <a name="public-ip-addresses"></a>公用 IP 地址
 
-详细说明支持基础结构使用的所有公用 IP 地址和 URL。 这必须包括分配给环境的完整可路由 IP 范围，除非已实现适当的分段来拆分使用中的范围 (需要足够的分段证据) 。
+详细说明支持基础结构使用的所有公用 IP 地址和 URL。 这必须包括分配给环境的完整可路由 IP 范围，除非已实现适当的分段来拆分使用中的范围 (因此需要足够的分段证据) 。
 
 **示例：**
 
@@ -111,10 +111,10 @@ API 名称终结点地址 Contoso Customer API    https://customerapi.contoso.co
 
 ## <a name="data-flow-diagram"></a>数据Flow图
 
-Flow详细说明以下内容的图表：
+Flow详述以下内容的图表：
 -   数据流入和流出应用/加载项 (包括客户数据) 。
 -   如果适用，支持基础结构 (数据流) 
--   这些图表突出显示了存储在何处和存储哪些数据、如何将数据传递给外部第三方 (包括哪些第三方) 以及如何在开放/公用网络及其余网络传输过程中保护数据的详细信息。
+-   这些图表突出显示了存储在何处和存储哪些数据、如何将数据传递给外部第三方 (包括有关哪些第三方) 以及如何在开放/公共网络及其余网络传输过程中保护数据的详细信息。
 
 ![数据Flow图](../media/Dataflowdiagram.png)
 
