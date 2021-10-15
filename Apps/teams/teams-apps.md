@@ -2,17 +2,17 @@
 title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/12/2021
+ms.date: 10/13/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 5bad969ffc131e73eec4861a097eb187522b0c27
-ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.openlocfilehash: aff6731152d48d152d4f5099335f045d60ec0683
+ms.sourcegitcommit: d49943662d5e28a9c1289ee23318818f1f68ff96
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60287804"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60341432"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -192,6 +192,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Karma](./sliday-ltd-karma.md) | Sliday LTD | **✓** |  |
 | [Kazoo](./kazoo.md) | Kazoo | **✓** |  |
 | [Keepass Pro](./witivio-keepass-pro.md) | Witivio | **✓** |  |
+| [Kippa](./klippas-technologies-inc-kippa.md) | KLIPPAS Technologies inc. | **✓** |  |
 | [Klaxoon](./klaxoon.md) | Klaxoon | **✓** |  |
 | [Koan](./koan-inc.md) | Koan, Inc. | **✓** |  |
 | [Kudozza](./survivef5-gmbh-kudozza.md) | surviveF5 GmbH | **✓** |  |
@@ -304,6 +305,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Sailpoint](./sailpoint-technologies-inc.md) | SailPoint Technologies, Inc. | **✓** |  |
 | [SalesTim](./salestim.md) | SalesTim | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ScanBuddy.ai](./moblizeit-llc-scanbuddyai.md) | Moblize.it LLC | **✓** |  |
+| [School Day Wellbeing](./school-day-helsinki-oy-wellbeing.md) | School Day Helsinki Oy | **✓** |  |
 | [ScrumGenius](./scrumgenius.md) | ScrumGenius | **✓** |  |
 | [SecretaryBot](./mysecretary-secretarybot.md) | MySecretary | **✓** |  |
 | [SEFOS](./meaplus-ab-sefos.md) | Meaplus AB | **✓** |  |
@@ -386,6 +388,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Trivia](./springworks-hr-tech-trivia.md) | Springworks HR Tech | **✓** |  |
 | [Trivie](./trivie-inc.md) | Trivie, Inc. | **✓** |  |
 | [Tryane Analytics](./tryane-analytics.md) | Tryane | **✓** |  |
+| [UKG Pro](./ukg-inc-pro.md) | UKG, Inc. | **✓** |  |
 | [UserVoice](./uservoice.md) | UserVoice | **✓** |  |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  |
 | [Verto 365](./tmi-systems-verto-365.md) | TMI 系统 | **✓** |  |
