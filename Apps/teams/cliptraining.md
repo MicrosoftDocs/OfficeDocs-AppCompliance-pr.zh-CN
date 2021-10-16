@@ -2,18 +2,18 @@
 title: ClipTraining 的 ClipTraining 应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: ClipTraining 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5d59d4cbd2d28f1c906e541e7ffc78311c12ffb6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f69ccfc65a7f5b3f27610b424bf27817436bc065
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59277252"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413854"
 ---
 # <a name="cliptraining"></a>ClipTraining
 
@@ -53,9 +53,9 @@ ClipTraining 提供了此信息，这些信息与此应用程序如何收集和�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegated | 用户登录和通讯的电子邮件地址、名字、姓氏。  | 用户登录和通讯的电子邮件地址、名字、姓氏。  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 >| offline_access | delegated | 用户登录和通讯的电子邮件地址、名字、姓氏。  | 用户登录和通讯的电子邮件地址、名字、姓氏。  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
@@ -63,13 +63,13 @@ ClipTraining 提供了此信息，这些信息与此应用程序如何收集和�
 >| 个人资料 | delegated | 用户登录和通讯的电子邮件地址、名字、姓氏。  | 用户登录和通讯的电子邮件地址、名字、姓氏。  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| 非 Microsoft 托管服务、非 Microsoft CRM | 名字、姓氏、电子邮件地址 | 需要用于业务 |
+>| 非 Microsoft 托管服务，非 Microsoft CRM | 名字、姓氏、电子邮件地址 | 需要用于业务 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -80,7 +80,7 @@ ClipTraining 提供了此信息，这些信息与此应用程序如何收集和�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >名字、姓氏、电子邮件地址。 每个 ClipTraining 策略的保留和删除（根据请求提供）
 
@@ -120,8 +120,9 @@ ClipTraining 提供了此信息，这些信息与此应用程序如何处理身�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

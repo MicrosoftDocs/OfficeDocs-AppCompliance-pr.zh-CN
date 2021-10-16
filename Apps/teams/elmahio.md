@@ -2,18 +2,18 @@
 title: 按用户 elmah.io 的应用程序 elmah.io
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/10/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息 elmah.io、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2761f22f1b41c208d7dce1589ac3d62ab41efc54
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b3e652415a7adf625ada6ba19e4bbb6625b7c5f1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279719"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414678"
 ---
 # <a name="elmahio"></a>elmah.io
 
@@ -28,7 +28,7 @@ ms.locfileid: "59279719"
 
 ### <a name="general-information"></a>一般信息
 
-由 Microsoft elmah.io 提供的信息：
+由 Microsoft elmah.io 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -37,7 +37,7 @@ ms.locfileid: "59279719"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | elmah.io |
 | 合作伙伴网站的 URL | [https://elmah.io](https://elmah.io) |
-| 应用程序Teams页的 URL | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |
+| "Teams应用程序信息"页的 URL | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |
 | 隐私策略的 URL | [https://elmah.io/legal/teams-privacy-policy/](https://elmah.io/legal/teams-privacy-policy/) |
 | 使用条款 URL | [https://elmah.io/legal/terms-of-use/](https://elmah.io/legal/terms-of-use/) |
 
@@ -49,20 +49,20 @@ ms.locfileid: "59279719"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息已由用户 elmah.io，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+此信息由用户 elmah.io，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Intercom、Stripe、Mailchimp、Amazon Web Services | 公司名称、名称、电子邮件 | 我们与 Intercom、Mailchimp 和 AWS 共享用户名称和电子邮件，以个性化设置电子邮件。 我们将公司名称与发票的"条纹"等共享。 |
 
@@ -75,7 +75,7 @@ ms.locfileid: "59279719"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -83,7 +83,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->用户可以时刻更新其个人数据。 不购买付费计划的试用用户在注册后 12 个月后将自动删除。 任何用户都可以请求删除支持。 用户可以在配置文件上设置限制处理标志，这将隐藏支持团队的任何个人信息。
+>用户可以时刻更新其个人数据。 不购买付费计划的试用用户在注册后 12 个月后将自动删除。 任何用户都可以请求删除支持。 用户可以在个人资料上设置限制处理标志，这将隐藏支持团队的任何个人信息。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -111,12 +111,13 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息已由应用 elmah.io、授权、应用程序注册最佳做法和其他标识条件的信息提供。
+此信息已由用户 elmah.io 应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

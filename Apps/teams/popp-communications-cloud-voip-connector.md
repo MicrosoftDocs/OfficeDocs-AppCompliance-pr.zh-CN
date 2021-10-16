@@ -2,18 +2,18 @@
 title: 通过 POPP 通信的 POPP 云 VoIP 连接器的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/20/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 用于一台或多组用户的所有可用安全与合规性信息，包括用于一台或多万台云 VoIP 连接器、其数据处理策略、MICROSOFT CLOUD APP SECURITY 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 所有可用的针对 POPP 云 VoIP 连接器的安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9f64b18c26d3fd38e4272171e7a90f493e76de5f
-ms.sourcegitcommit: 11288ac2cbae57aaa7820be0d9fb87c631805b7b
+ms.openlocfilehash: 42930c1020e86aeb6f55fb81929f30285e17dae3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60112258"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414969"
 ---
 # <a name="popp-cloud-voip-connector"></a>POPP 云 VoIP 连接器
 
@@ -35,7 +35,7 @@ ms.locfileid: "60112258"
 | 应用名称 | POPP 云 VoIP 连接器 |
 | ID | WA200003306 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 一些通信 |
+| 合作伙伴公司名称 | POPP Communications |
 | 合作伙伴网站的 URL | [https://popp.com](https://popp.com) |
 | 隐私策略的 URL | [https://popp.com/terms/privacy-policy/](https://popp.com/terms/privacy-policy/) |
 | 使用条款 URL | [https://popp.com/pvnterms/](https://popp.com/pvnterms/) |
@@ -54,7 +54,7 @@ ms.locfileid: "60112258"
 
 列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/ (权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| ChannelMember.Read.All | delegated | 用户 ID 和当前频道成员的显示名称。 应用使用它向用户显示要调用的频道成员列表。 | 元开关不存储此数据。 | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
 >| Chat.Read | delegated |  收集或使用了哪些数据？ 添加收集数据或使用数据的理由。 用户 ID 和显示当前聊天成员的名称。 应用使用它向用户显示要调用的聊天成员列表。 | 元开关不存储此数据。 | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
@@ -64,7 +64,7 @@ ms.locfileid: "60112258"
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -74,15 +74,15 @@ ms.locfileid: "60112258"
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Metaswitch Networks and POPP Communications | 以下 OII 将转移到 MCT 托管自动程序服务器：还将传输 Azure AD 租户 ID 团队 ID 团队 ID 频道/聊天 ID 消息内容，其中可能包含 OII 以下 OII 可能会转移到 CommPortal JSON API：电话 个业务组中用户的数量 电子邮件地址的域 用户 IP 地址 | 添加需要转移 OII 的原因的理由 应用&#8217;主要用途是方便电话呼叫。 如果用户尝试进行电话呼叫，则必须提供此信息以登录到其通信帐户并将该呼叫关联回正确的用户。  传输到 MCT 托管自动程序服务器的 OII 内置于 Bot Framework API 中，用于与 Teams 集成且无法避免。 |
+>| Metaswitch Networks and POPP Communications | 以下 OII 将转移到 MCT 托管自动程序服务器：Azure AD 租户 ID 团队 ID 团队 ID 频道/聊天 ID 消息内容也会传输，其中可能包含 OII 以下 OII 可能会传输到通信 JSON API：电话 个业务组中用户的数量 电子邮件地址的域 用户 IP 地址 | 添加转移 OII 的原因的理由 应用&#8217;主要用途是方便电话呼叫。 如果用户尝试进行电话呼叫，则必须提供此信息以登录到其通信帐户并将该呼叫关联回正确的用户。  传输到 MCT 托管自动程序服务器的 OII 内置于自动程序框架 API 中，用于与 Teams 集成且无法避免。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 应用程序&#8217;的主要目的是促进电话呼叫。 如果用户尝试进行电话呼叫，则必须为呼叫中各方提供 EUII，以在正确的电话用户之间建立呼叫。 | 否 |  |
 
@@ -109,17 +109,6 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
-
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -129,7 +118,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Azure AD (Microsoft 标识平台) ？  | 是 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 否 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
@@ -147,3 +136,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

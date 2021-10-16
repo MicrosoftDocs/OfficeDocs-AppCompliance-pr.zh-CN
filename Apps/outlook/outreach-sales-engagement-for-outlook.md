@@ -1,19 +1,19 @@
 ---
-title: 推广销售活动（按Outlook服务）的应用程序信息
+title: 通过销售渠道推广销售Outlook服务的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/14/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 适用于 Outlook 的推广销售活动的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 6a009dbc5c075f99bb71105834f3f5208ed91dea
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 483fb4fd6741e479403e4cd05ad284b50a87f9c4
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279279"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413554"
 ---
 # <a name="outreach-sales-engagement-for-outlook"></a>推广销售Outlook
 
@@ -51,33 +51,33 @@ ms.locfileid: "59279279"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Outlook外接程序 API 、EWS API、O36 REST API | 否 |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Salesforce CRM | 与 Salesforce 的外向集成允许在两种服务之间安全地双向同步有限的数据集，包括;组织名称、电子邮件地址和用户名。 | 外向的智能双向同步可确保两个系统中数据之间的完全保真度。 在推广中心&#8212;通话、电子邮件等&#8212;活动都会自动记录在 Salesforce 中，冲突解决会检测并解决冲突，以保持数据安全。 它适用于 Salesforce Aloha 和 Lightning 版本。 |
+>| Salesforce CRM | 与 Salesforce 的外向集成允许在两种服务之间安全地双向同步有限的数据集，包括;组织名称、电子邮件地址和用户名。 | 外向的智能双向同步可确保两个系统中数据之间的完全保真度。 在推广&#8212;通话、电子邮件等&#8212;活动都会自动记录在 Salesforce 中，冲突解决会检测并解决冲突，以保持数据安全。 它适用于 Salesforce Aloha 和 Lightning 版本。 |
 
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->推广不会将保留期应用于客户&#8217;数据。 推广作为数据处理者运营，因此，未经客户明确&#8217;，我们的客户绝不会更改数据。 根据我们的 MSA 和 DPA，所有客户数据在业务关系结束后的 60 天内被删除。
+>推广不会将保留期应用于客户&#8217;数据。 推广作为数据处理者运行，因此，未经客户明确许可&#8217;我们的客户绝不会更改数据。 根据我们的 MSA 和 DPA，所有客户数据在业务关系结束后的 60 天内被删除。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -95,17 +95,6 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
-
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -115,8 +104,9 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

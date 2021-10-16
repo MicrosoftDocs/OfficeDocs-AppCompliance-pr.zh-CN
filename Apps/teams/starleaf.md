@@ -2,18 +2,18 @@
 title: StarLeaf 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 06/17/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: StarLeaf 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8f9878d4de6e09c283c6d13ee7351de9fb5f0eb8
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 0a339c98c0d76da7269df25a7dfd76f896e4f96f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59277400"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408261"
 ---
 # <a name="starleaf"></a>StarLeaf
 
@@ -52,15 +52,15 @@ StarLeaf 提供了此信息，这些信息与此应用程序如何收集和存�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | 应用程序 | 我们存储会议的 iCalUId、会议的时间/日期、与会者电子邮件地址以及使用自定义属性接口在会议上读取和写入的Office.js扩展属性。 iCalUId 用于将用户的 outlook 日历&#8217;中的会议与服务上的视频会议关联。 时间/日期和与会者用于在正确的时间为服务上的合适人员提供视频会议。 SVEP 用于我们的 O365 加载项，为用户提供一个界面来设置有关服务上的视频会议的详细信息，例如录制。 | 用于订阅 webhook 通知，以跟踪用户对日历中的事件所做的更改，并更新服务以保持一致。 它还用于在用户与我们的 Teams 应用交互并安排服务上的会议时，在日历中创建事件。 | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
->| User.Read | 应用程序 | 我们存储 oauth 刷新令牌，以能够登录。 我们存储用户配置文件 ID，以便能够与该用户将来的 OAuth 尝试进行比较，并确保我们&#8217;存储其详细信息两次。  | 允许用户登录应用，并允许应用获取用户&#8217;电子邮件地址，以将登录名与服务帐户相关联。  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
+>| Calendars.ReadWrite | 应用程序 | 我们存储会议的 iCalUId、会议的时间/日期、与会者电子邮件地址以及使用 Office.js 自定义属性界面在会议中读取和写入的 Single-Value-Extended-Property。 iCalUId 用于将用户的 outlook 日历中的&#8217;与服务上的视频会议关联。 时间/日期和与会者用于在正确的时间为服务上的合适人员提供视频会议。 SVEP 用于我们的 O365 加载项，为用户提供一个界面来设置有关服务上的视频会议的详细信息，例如录制。 | 用于订阅 webhook 通知，以跟踪用户对日历中的事件所做的更改，并更新服务以保持一致。 它还用于在用户与我们的 Teams 应用交互并安排服务上的会议时，在日历中创建事件。 | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
+>| User.Read | 应用程序 | 我们存储 oauth 刷新令牌，以能够登录。 我们存储用户配置文件 ID，以便能够与该用户将来的 OAuth 尝试进行比较，并确保我们&#8217;存储其详细信息两次。  | 允许用户登录应用，并允许我们的应用&#8217;电子邮件地址，以将登录名与服务帐户相关联。  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -70,18 +70,18 @@ StarLeaf 提供了此信息，这些信息与此应用程序如何收集和存�
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 机器人访问团队名单，以便代表通过机器人预订会议的用户/主持人预订会议。 这允许 StarLeaf 通过一个按钮加入会议提供无缝加入体验。 | 名字、姓氏、电子邮件地址。 这允许 StarLeaf 机器人代表与机器人交互的用户/主机预订会议，并邀请团队的其他成员加入会议。 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->能。 日志包括用户名、IP 地址、呼叫详细信息记录、有关连接质量的信息 (数据包丢失、比特率) 、设备类型、呼叫进度。 技术支持团队和高级开发人员可以使用这些信息来诊断服务问题。 数据在 90 天后匿名处理。 保护此数据的控制措施根据 ISO/IEC 27001 认证进行审核。
+>是。 日志包括用户名、IP 地址、呼叫详细信息记录、有关连接质量的信息 (数据包丢失、比特率) 、设备类型、呼叫进度。 技术支持团队和高级开发人员可以使用这些信息来诊断服务问题。 数据在 90 天后匿名处理。 保护此数据的控制措施根据 ISO/IEC 27001 认证进行审核。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -110,4 +110,5 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

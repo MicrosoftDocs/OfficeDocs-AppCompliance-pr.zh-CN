@@ -2,18 +2,18 @@
 title: SHEETGO EUROPE SL 中 Sheetgo 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Sheetgo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 77da98d015480716b848a47f4d6d04d35035f5fb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 491049af0b675c477fce225476afb1e05919ae2a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59277044"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414808"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -60,7 +60,7 @@ SHEETGO EUROPE SL 提供了此信息，这些信息与此应用程序如何收�
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| MongoDB： Record system and user data in order to function， Google BigQuery： Record system logs usage， Google Firestore： A system which maintains and orchestrates the state of our microservices， Stripe： Payment system |  | 这些应用程序不使用其他 Microsoft API |
 
@@ -68,7 +68,7 @@ SHEETGO EUROPE SL 提供了此信息，这些信息与此应用程序如何收�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >遥测/日志仅包含用户的电子邮件地址作为最终用户可识别信息。 当用户请求时，应用程序支持团队将运行一个内部自动例程，该例程模糊遥测/日志中的电子邮件地址，使用户数据不再可识别。
 
@@ -101,4 +101,5 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

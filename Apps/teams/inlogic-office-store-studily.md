@@ -2,18 +2,18 @@
 title: inLogic-Studi.ly Store Office应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息 Studi.ly、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d682e758d9632a2c3ac19296dda7083dc8379689
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9b84ab2d874bd4c6aab3b8e2c306b5bbc0e8da68
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279672"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412932"
 ---
 # <a name="studily"></a>Studi.ly
 
@@ -54,7 +54,7 @@ inLogic-Office Microsoft 提供的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegated | 我们正在将课程、学校和成员以及来自教育 api 的术语信息存储在我们的 api 中，并且我们需要它，因为如果我们每次从图形 api 获取它，这会使应用程序运行缓慢。我们会根据基于时间的事件将其从教育 api 同步到我们的数据库。 |  | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
 >| Directory.Read.All | delegated | 我们正在将课程、学校和成员以及来自教育 api 的术语信息存储在我们的 api 中，并且我们需要它，因为如果我们每次从图形 api 获取它，这会使应用程序运行缓慢。我们会根据基于时间的事件将其从教育 api 同步到我们的数据库。 | 在工作分配和材料组中编写目录。 | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
@@ -71,7 +71,7 @@ inLogic-Office Microsoft 提供的信息：
 >| User.ReadBasic.All | delegated | 我们正在将课程、学校和成员以及来自教育 api 的术语信息存储在我们的 api 中，并且我们需要它，因为如果我们每次从图形 api 获取它，这会使应用程序运行缓慢。我们会根据基于时间的事件将其从教育 api 同步到我们的数据库。 | 读取用户信息 | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -117,4 +117,5 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

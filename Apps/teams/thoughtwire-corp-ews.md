@@ -2,18 +2,18 @@
 title: ThoughtWire Corp 的 ThoughtWire EWS 的应用程序信息。
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/17/2021
+ms.date: 09/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: ThoughtWire EWS 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 5ed53bb0a29a287cd0102b7f7e2e2fdd782b2c10
-ms.sourcegitcommit: 9010c9bace5d935309eae5098f5a126a55270eb6
+ms.openlocfilehash: ef425a6acb8cfe166502b4c4817229b1b33da14b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59438413"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414909"
 ---
 # <a name="thoughtwire-ews"></a>ThoughtWire EWS
 
@@ -34,8 +34,8 @@ ThoughtWire Corp. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | ThoughtWire EWS |
 | ID | WA200003239 |
-| Office 365客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | ThoughtWire Corp. |
+| Office 365支持的客户端 | Microsoft Teams |
+| 合作伙伴公司名称 | ThoughtWire 公司 |
 | 合作伙伴网站的 URL | [https://thoughtwire.com](https://thoughtwire.com) |
 | 隐私策略的 URL | [https://thoughtwire.com/privacy-policy](https://thoughtwire.com/privacy-policy) |
 | 使用条款 URL | [https://www.thoughtwire.com/end-user-license-agreement/](https://www.thoughtwire.com/end-user-license-agreement/) |
@@ -54,7 +54,7 @@ ThoughtWire Corp. 提供给 Microsoft 的信息：
 
 列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Create | 应用程序 | 允许应用程序为医院单位创建组/团队。 | 无 | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
 >| Group.ReadWrite.All | 应用程序 | 应用程序必须确定需要创建/重新创建哪些组，以及管理成员身份。 | 无 | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
@@ -74,14 +74,14 @@ ThoughtWire Corp. 提供给 Microsoft 的信息：
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 标识执行操作的用户需要用户名。 | 用户名和用户 ID | 通知和事件的审核。 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -101,17 +101,6 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否显示在此应用程�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
-
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -121,8 +110,8 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否显示在此应用程�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台清单中列出的所有适用最佳做法？  | 是 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -139,3 +128,4 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否显示在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

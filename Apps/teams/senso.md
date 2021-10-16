@@ -2,18 +2,18 @@
 title: Senso 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/02/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Senso 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a44620633f9eee6c5d5e18997a58158a16c5e801
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c517e652c97ba8a74cbadd9b6121084dd40c5394
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59278599"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414458"
 ---
 # <a name="senso"></a>Senso
 
@@ -37,7 +37,7 @@ Senso 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Senso |
 | 合作伙伴网站的 URL | [https://www.senso.cloud](https://www.senso.cloud) |
-| 应用程序Teams页的 URL | [https://www.senso.cloud/safeguarding-microsoft-teams/](https://www.senso.cloud/safeguarding-microsoft-teams/) |
+| Teams信息页的 URL | [https://www.senso.cloud/safeguarding-microsoft-teams/](https://www.senso.cloud/safeguarding-microsoft-teams/) |
 | 隐私策略的 URL | [https://www.senso.cloud/privacy](https://www.senso.cloud/privacy) |
 | 使用条款 URL | [https://www.senso.cloud/eula](https://www.senso.cloud/eula) |
 
@@ -55,25 +55,25 @@ Senso 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.ReadBasic.All | 应用程序 | 读取所有频道的频道名称和说明，以确定在何处标记了违反。   | 当发生冲突时，发件人 (From) 、 (的) 收件人 (至) 、频道名称、日期、时间和来自该聊天频道的消息将被记录，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| ChannelMember.Read.All | 应用程序 | 读取所有频道的成员列表和聊天消息。 | 当发生冲突时，发件人 (From) 、 (的) 收件人 (至) 、频道名称、日期、时间和来自该聊天频道的消息将被记录，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| ChannelMessage.Read.All | 应用程序 | 读取所有频道消息 | 当发生冲突时，发件人 (From) 、 (的) 收件人 (至) 、频道名称、日期、时间和来自该聊天频道的消息将被记录，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| Chat.Read.All | 应用程序 | 读取所有聊天消息 | 当发生冲突时，发件人 (From) 、 (的) 收件人 (至) 、频道名称、日期、时间和来自该聊天频道的消息将被记录，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| Directory.Read.All | 应用程序 | 读取目录数据 | 当发生冲突时，发件人 (From) 、 (的) 收件人 (至) 、频道名称、日期、时间和来自该聊天频道的消息将被记录，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| Files.Read.All | 应用程序 | 读取所有网站集中的文件 | 当发生冲突时，发件人 (From) 、 (的) 收件人 (至) 、频道名称、日期、时间和来自该聊天频道的消息将被记录，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
+>| Channel.ReadBasic.All | 应用程序 | 读取所有频道的频道名称和说明，以确定在何处标记了违反。   | 当发生冲突时，发件人 (From) ，将 (的) 收件人名称 (记录到) ，将记录来自该聊天频道的频道名称、日期、时间和消息，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
+>| ChannelMember.Read.All | 应用程序 | 读取所有频道的成员列表和聊天消息。 | 当发生冲突时，发件人 (From) ，将 (的) 收件人名称 (记录到) ，将记录来自该聊天频道的频道名称、日期、时间和消息，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
+>| ChannelMessage.Read.All | 应用程序 | 读取所有频道消息 | 当发生冲突时，发件人 (From) ，将 (的) 收件人名称 (记录到) ，将记录来自该聊天频道的频道名称、日期、时间和消息，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
+>| Chat.Read.All | 应用程序 | 读取所有聊天消息 | 当发生冲突时，发件人 (From) ，将 (的) 收件人名称 (记录到) ，将记录来自该聊天频道的频道名称、日期、时间和消息，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
+>| Directory.Read.All | 应用程序 | 读取目录数据 | 当发生冲突时，发件人 (From) ，将 (的) 收件人名称 (记录到) ，将记录来自该聊天频道的频道名称、日期、时间和消息，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
+>| Files.Read.All | 应用程序 | 读取所有网站集中的文件 | 当发生冲突时，发件人 (From) ，将 (的) 收件人名称 (记录到) ，将记录来自该聊天频道的频道名称、日期、时间和消息，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
 >| User.Read | delegated | 登录并读取用户个人资料 | 用于单一登录 | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| User.Read.All | 应用程序 | 读取所有用户的完整个人资料 | 当发生冲突时，发件人 (From) 、 (的) 收件人 (至) 、频道名称、日期、时间和来自该聊天频道的消息将被记录，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
+>| User.Read.All | 应用程序 | 读取所有用户的完整个人资料 | 当发生冲突时，发件人 (From) ，将 (的) 收件人名称 (记录到) ，将记录来自该聊天频道的频道名称、日期、时间和消息，以向冲突提供上下文。  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Senso.cloud 使用下列子处理器来提升其服务的性能： https://www.senso.cloud/privacy-policy/ 第 5 节。 个人数据的披露。 | 我们和第三方帐户和第三方提供程序共享的数据的类型在表的第 5 节的右记列中 https://www.senso.cloud/privacy-policy/) (。 | 处理每个请求的合法基础基于您执行的合同或出于我们合法利益 (运营业务、存档数据、提供管理和 IT 服务、网络安全以防止欺诈和数据泄露所必需的合同。 例如，向客户发送帐单联系人通知需要企业邮件地址、电子邮件地址，或者如果通过信用卡支付，在访问客户支持时，需要信息才能提出支持票证。 |
+>| Senso.cloud 将以下子处理器用于其服务的性能： https://www.senso.cloud/privacy-policy/ 第 5 节。 个人数据的披露。 | 我们和第三方帐户和第三方提供程序共享的数据的类型在表的右记列 5 中 https://www.senso.cloud/privacy-policy/) (。 | 处理每个请求的合法基础基于您执行的合同或出于我们合法利益 (运营业务、存档数据、提供管理和 IT 服务、网络安全以防止欺诈和数据泄露所必需的合同。 例如，向客户发送帐单联系人通知需要企业邮件地址、电子邮件地址，或者如果通过信用卡支付，在访问客户支持时，需要信息才能提出支持票证。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -81,7 +81,7 @@ Senso 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Senso.cloud 使用下列子处理器来提升其服务的性能： https://www.senso.cloud/privacy-policy/ 第 5 节。 个人数据的披露。 | 我们和第三方帐户和第三方提供程序共享的数据的类型在表的第 5 节的右记列中 https://www.senso.cloud/privacy-policy/) (。 | 处理每个请求的合法基础基于您执行的合同或出于我们合法利益 (运营业务、存档数据、提供管理和 IT 服务、网络安全以防止欺诈和数据泄露所必需的合同。 例如，向客户发送帐单联系人通知需要企业邮件地址、电子邮件地址，或者如果通过信用卡支付，在访问客户支持时，需要信息才能提出支持票证。 |
+>| Senso.cloud 将以下子处理器用于其服务的性能： https://www.senso.cloud/privacy-policy/ 第 5 节。 个人数据的披露。 | 我们和第三方帐户和第三方提供程序共享的数据的类型在表的右记列 5 中 https://www.senso.cloud/privacy-policy/) (。 | 处理每个请求的合法基础基于您执行的合同或出于我们合法利益 (运营业务、存档数据、提供管理和 IT 服务、网络安全以防止欺诈和数据泄露所必需的合同。 例如，向客户发送帐单联系人通知需要企业邮件地址、电子邮件地址，或者如果通过信用卡支付，在访问客户支持时，需要信息才能提出支持票证。 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -126,8 +126,8 @@ Senso 提供了此信息，这些信息与此应用程序如何处理身份验�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 基于角色的访问权限 |
@@ -144,3 +144,4 @@ Senso 提供了此信息，这些信息与此应用程序如何处理身份验�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

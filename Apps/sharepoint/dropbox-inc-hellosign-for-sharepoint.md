@@ -1,19 +1,19 @@
 ---
-title: Dropbox Inc. 的 HelloSign for SharePoint 应用程序信息
+title: helloSign for SharePoint by Dropbox Inc. 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/03/2021
+ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: HelloSign for SharePoint 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: HelloSign for SharePoint 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: e50ca05aa40133e0aa57f3b1de23c4c93e10ab45
-ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
+ms.openlocfilehash: 5ff681f19369a1020cd67e6c161fb1a1dcca135e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60378988"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412091"
 ---
 # <a name="hellosign-for-sharepoint"></a>HelloSign for SharePoint
 
@@ -55,13 +55,13 @@ Dropbox Inc. 提供给 Microsoft 的信息：
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Files.ReadWrite.All | 应用程序 | 这与 Sites.ReadWrite.All 一起用于将 HelloSign 签名文件写回SharePoint网站 | 我们不会存储任何与此范围相关的数据 | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
+>| Files.ReadWrite.All | 应用程序 | 此操作与 Sites.ReadWrite.All 一起用于将 HelloSign 签名文件写回SharePoint网站 | 我们不会存储任何与此范围相关的数据 | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
 >| Sites.ReadWrite.All | 应用程序 | 这与 Files.ReadWrite.All 一起用于将 HelloSign 签名文件写回SharePoint网站 | 我们不会存储任何与此范围相关的数据 | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
 >| User.Read | delegated | 用于在应用程序中标识用户的电子邮件 | 用于交叉引用基于电子邮件的 HelloSign 帐户的电子邮件 | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -73,7 +73,7 @@ Dropbox Inc. 提供给 Microsoft 的信息：
 
 >| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| https://www.hellosign.com/subprocessors | 电子邮件、租户 ID、网站 ID | JN Projects， Inc. dba HelloSign (&#8220;HelloSign&#8221;) 使用某些下级处理者来帮助提供服务。 我们使用可能会存储和处理有关你和最终用户的个人数据的服务提供商， (，&#8220;Sub-Processor&#8221;) 。 此页面提供有关这些材料子处理器的标识、位置和角色的重要信息。 在此页面上使用但没有定义的条款在服务条款协议 (&#8220;条款&#8221;) 。 |
+>| https://www.hellosign.com/subprocessors | 电子邮件、租户 ID、网站 ID | JN Projects， Inc. dba HelloSign (&#8220;HelloSign&#8221;) 使用某些下级处理者来帮助提供服务。 我们使用可能会存储并处理有关你和最终用户的个人数据的服务提供商， (，&#8220;Sub-Processor&#8221;) 。 此页面提供有关这些材料子处理器的标识、位置和角色的重要信息。 在此页面上使用但没有定义的条款在服务条款协议 (&#8220;条款&#8221;) 。 |
 
 
 
@@ -99,17 +99,6 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
-
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -135,3 +124,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

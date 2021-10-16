@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Freehand 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a3c92ee618693b4fed77026a47009b490845db60
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a5dea256df452df987f97baa7251efb836b8cb90
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279775"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412321"
 ---
 # <a name="freehand"></a>写意
 
@@ -53,12 +53,12 @@ InVisionApp Inc. 提供了此信息，这些信息与此应用程序如何收集
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -75,7 +75,7 @@ InVisionApp Inc. 提供了此信息，这些信息与此应用程序如何收集
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >系统和应用程序中的日志将收集到集中日志管理系统和具有严格受限访问权限的 SIEM 中，以修改或删除数据。 SIEM 还监视主机入侵、完整性、网络信誉，并将此信息与云风险事件关联。 系统由专门的安全团队进行监视，警报配置为对现场工程师进行 24/7 分页。 这两个系统的日志将保留 1 年。
 
@@ -83,7 +83,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->对处理个人信息的供应商执行第三方风险评估。 条款已按合同添加，&#8220;审核权&#8221;并基于关键/风险因素每年重新进行。 法律部门已实施数据保护附录，以在适用时按合同添加，以及符合 InVision 要求的可接受标准。  (请注意，子处理者将无法访问未加密格式的客户项目) 
+>对处理个人信息的供应商执行第三方风险评估。 条款已按合同添加，&#8220;审核权&#8221;且每年根据关键/风险因素重新进行当权调查。 法律部门已实施数据保护附录，以在适用时按合同添加，以及符合 InVision 要求的可接受标准。  (请注意，子处理者将无法访问未加密格式的客户项目数据。) 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -115,7 +115,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 否 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
@@ -133,3 +133,4 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

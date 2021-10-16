@@ -2,18 +2,18 @@
 title: Salesforce 的应用程序信息（按 salesforce.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Salesforce 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 152885012f81c077fc0bb018fda7080867c54986
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 749e4cf95c8eefb650f6fd0f8ceb59721d7efcc8
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279468"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413524"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -47,7 +47,7 @@ ms.locfileid: "59279468"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息已由用户 salesforce.com，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+此信息由应用 salesforce.com 如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -57,12 +57,12 @@ ms.locfileid: "59279468"
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| 适用于 Office 的 JavaScript API | 是 | 外接程序使用 Office.js 和 EWS 中的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 Office.js 和 EWS 中的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，用于获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，用于获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 |
->| Exchange Web 服务 (EWS) | 是 | 外接程序使用 Office.js 和 EWS 中的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 Office.js 和 EWS 中的函数复制有关电子邮件的内容和附件Outlook用户已决定登录 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，用于获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前 Outlook 用户标识、GetItem (.js 和 EWS) ，以在保存为 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容。 GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ，GetFolder (.js) ，用于获取草稿文件夹 CreateItem (.js) ，用于创建草稿邮件。 |
+>| 适用于 Office 的 JavaScript API | 是 | 外接程序使用 Office.js 和 EWS 中的函数复制有关电子邮件的内容和附件Outlook用户已决定登录到 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 Office.js 和 EWS 中的函数复制有关电子邮件的内容和附件Outlook用户已决定登录到 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前Outlook标识， GetItem（.js 和 EWS) ）在保存到 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容，GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ， GetFolder (.js) ，用于获取用于创建草稿邮件的草稿文件夹 CreateItem (.js) 。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前Outlook标识， GetItem（.js 和 EWS) ）在保存到 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容，GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ， GetFolder (.js) ，用于获取用于创建草稿邮件的草稿文件夹 CreateItem (.js) 。 |
+>| Exchange Web 服务 (EWS) | 是 | 外接程序使用 Office.js 和 EWS 中的函数复制有关电子邮件的内容和附件Outlook用户已决定登录到 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 Office.js 和 EWS 中的函数复制有关电子邮件的内容和附件Outlook用户已决定登录到 Salesforce。 日历端使用类似功能将约会记录到 Salesforce 中。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前Outlook标识， GetItem（.js 和 EWS) ）在保存到 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容，GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ， GetFolder (.js) ，用于获取用于创建草稿邮件的草稿文件夹 CreateItem (.js) 。 | 外接程序使用 getUserIdentityTokenAsync 等函数获取当前Outlook标识， GetItem（.js 和 EWS) ）在保存到 Salesforce 记录时获取和设置 AdditionalProperties 和当前电子邮件的内容，GetAttachment (EWS) 从 Exchange 检索附件并添加到配对的 Salesforce 电子邮件 UpdateItem (.js) ， GetFolder (.js) ，用于获取用于创建草稿邮件的草稿文件夹 CreateItem (.js) 。 |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
@@ -74,7 +74,7 @@ ms.locfileid: "59279468"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >否
 
@@ -94,28 +94,18 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
-
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
 ### <a name="identity-information"></a>标识信息
 
-此信息已由用户 salesforce.com 应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+此信息已由用户 salesforce.com 此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

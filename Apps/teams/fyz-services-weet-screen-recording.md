@@ -2,18 +2,18 @@
 title: 按 FYZ SERVICES 进行 Weet 屏幕记录的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/23/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Weet 屏幕记录的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 8dc2f7f77b62661226a3ebf184e0bd9f0efc1756
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: fa9dee24b0953351451c92c553ac4f6e6426d87d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785457"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412993"
 ---
 # <a name="weet-screen-recording"></a>Weet 屏幕录制
 
@@ -35,9 +35,9 @@ FYZ SERVICES 提供给 Microsoft 的信息：
 | 应用名称 | Weet 屏幕录制 |
 | ID | WA200003284 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | FYZ SERVICES |
+| 合作伙伴公司名称 | FYZ 服务 |
 | 合作伙伴网站的 URL | [https://weet.co](https://weet.co) |
-| "Teams应用程序信息"页的 URL | [https://weet.co/weet-teams-integration/](https://weet.co/weet-teams-integration/) |
+| Teams信息页的 URL | [https://weet.co/weet-teams-integration/](https://weet.co/weet-teams-integration/) |
 | 隐私策略的 URL | [https://weet.co/privacy-policy/](https://weet.co/privacy-policy/) |
 | 使用条款 URL | [https://weet.co/terms-of-service/](https://weet.co/terms-of-service/) |
 
@@ -55,17 +55,17 @@ FYZ SERVICES 提供了此信息，这些信息与此应用程序如何收集和�
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/ (权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | delegated | 允许检测 Weet 应用是否已安装 | 无数据存储 | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
 >| User.Read | delegated | 我们不收集任何数据，但使用电子邮件仅帮助用户使用自动完成功能 | 我们不存储有关用户的信息，我们仅将电子邮件用于自动完成 | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
 >| User.ReadBasic.All | delegated | 我们不收集任何数据，但使用电子邮件仅帮助用户使用自动完成功能 | 我们不存储有关用户的信息，我们仅将电子邮件用于自动完成 | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
 >| offline_access | delegated | 我们不收集任何数据，但使用电子邮件仅帮助用户使用自动完成功能 | 我们不存储有关用户的信息，我们仅将电子邮件用于自动完成 | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
 >| openid | delegated | 我们不收集任何数据，但使用电子邮件仅帮助用户使用自动完成功能 | 我们不存储有关用户的信息，我们仅将电子邮件用于自动完成 | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| profile | delegated | 我们不收集任何数据，但使用电子邮件仅帮助用户使用自动完成功能 | 我们不存储有关用户的信息，我们仅将电子邮件用于自动完成 | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
+>| 个人资料 | delegated | 我们不收集任何数据，但使用电子邮件仅帮助用户使用自动完成功能 | 我们不存储有关用户的信息，我们仅将电子邮件用于自动完成 | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -73,7 +73,7 @@ FYZ SERVICES 提供了此信息，这些信息与此应用程序如何收集和�
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -88,7 +88,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->可以请求删除个人信息。 如果您要求我们删除个人信息，我们将遵守你的请求并删除个人信息，但受法律的某些例外情况（如 (，但不限于) 其他消费者行使其自由语音的权利、由于法律义务或防止这些活动可能需要进行的任何处理所产生的合规性要求。
+>可以请求删除个人信息。 如果您要求我们删除个人信息，我们将尊重您的请求并删除个人信息，但受法律（如 (等特定例外情况）限制) 但不限于其他消费者行使其自由语音的权利、由于法律义务或防止这些活动可能需要进行的任何处理所产生的合规性要求。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -100,17 +100,6 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
-
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -120,8 +109,9 @@ FYZ SERVICES 已提供有关此应用程序如何处理身份验证、授权、�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

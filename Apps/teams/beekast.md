@@ -2,18 +2,18 @@
 title: Beekast 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/16/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Beekast 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3fe1f857d283cf3b582744351590d0d2a0959190
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c78b03756ef538373a12b2f3601fb6df05c2602b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279528"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411861"
 ---
 # <a name="beekast"></a>Beekast
 
@@ -37,7 +37,7 @@ Beekast 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Beekast |
 | 合作伙伴网站的 URL | [https://www.beekast.com](https://www.beekast.com) |
-| 应用程序Teams页的 URL | [https://www.beekast.com](https://www.beekast.com) |
+| Teams信息页的 URL | [https://www.beekast.com](https://www.beekast.com) |
 | 隐私策略的 URL | [https://www.beekast.com/privacy-policy/](https://www.beekast.com/privacy-policy/) |
 | 使用条款 URL | [https://www.beekast.com/terms/](https://www.beekast.com/terms/) |
 
@@ -55,18 +55,18 @@ Beekast 提供了此信息，这些信息与此应用程序如何收集和存储
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | 电子邮件、名字和姓氏：这些数据用于在 beekast 应用程序中进行协作。 | 电子邮件、名字和姓氏：这些数据用于在 beekast 应用程序内进行协作，并且必须存储在 MS Teams上下文之外。 | [4d0997dc-df53-4b18-9df1-bb283f8a0377](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d0997dc-df53-4b18-9df1-bb283f8a0377) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| 不转移 OII，仅 EUII | 不转移 OII，仅 EUII | 在未 (OII 时不适用，仅 EUII)  |
+>| 不转移 OII，仅 EUII | 不转移 OII，仅 EUII | 如果未 (OII，则不适用，仅 EUII)  |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -117,8 +117,9 @@ Beekast 已提供有关此应用如何处理身份验证、授权、应用程序
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

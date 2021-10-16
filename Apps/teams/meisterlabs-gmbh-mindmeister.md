@@ -2,18 +2,18 @@
 title: MeisterLabs GmbH 的 MindMeister 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 10/31/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: MindMeister 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 75177ef60be80889a14c75fbb76bc1d4aaa9aa49
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 6b36f41be86496cdca75a77d9564b2c13e5536b3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59277211"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413704"
 ---
 # <a name="mindmeister"></a>MindMeister
 
@@ -37,7 +37,7 @@ MeisterLabs GmbH 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | MeisterLabs GmbH |
 | 合作伙伴网站的 URL | [https://www.mindmeister.com](https://www.mindmeister.com) |
-| 应用程序Teams页的 URL | [https://support.mindmeister.com/](https://support.mindmeister.com/) |
+| "Teams应用程序信息"页的 URL | [https://support.mindmeister.com/](https://support.mindmeister.com/) |
 | 隐私策略的 URL | [https://www.mindmeister.com/privacy](https://www.mindmeister.com/privacy) |
 | 使用条款 URL | [https://www.mindmeister.com/terms](https://www.mindmeister.com/terms) |
 
@@ -53,14 +53,14 @@ MeisterLabs GmbH 提供了此信息，这些信息与此应用程序如何收集
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | AAD ID、租户 ID、电子邮件、displayName - 能够识别应用程序中的每个用户，并能够将 MindMeister 特定数据与 Microsoft 用户关联 (即哪些地图属于哪个用户) 。 | 允许用户登录并授予应用对 UPN 的访问权限，以启用无提示登录。 | [d312ff80-0c2b-42ad-887b-c6392bcf6353](https://docs.microsoft.com/microsoft-365-app-certification/azure/d312ff80-0c2b-42ad-887b-c6392bcf6353) |
+>| User.Read | delegated | AADID、租户 ID、电子邮件、displayName - 能够识别应用程序中的每个用户，并能够将 MindMeister 特定数据与 Microsoft 用户关联 (即哪些地图属于哪个用户) 。 | 允许用户登录并授予应用对 UPN 的访问权限，以启用无提示登录。 | [d312ff80-0c2b-42ad-887b-c6392bcf6353](https://docs.microsoft.com/microsoft-365-app-certification/azure/d312ff80-0c2b-42ad-887b-c6392bcf6353) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -68,16 +68,16 @@ MeisterLabs GmbH 提供了此信息，这些信息与此应用程序如何收集
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 标识Teams在 MindMeister 中已有链接的用户，并通知他们安装了自动程序。 | 我们不存储团队名单的任何数据 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们记录用户 HTTP 请求，在某些情况下包括用户 ID，但日志在 7 天后删除。
 
@@ -108,4 +108,5 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

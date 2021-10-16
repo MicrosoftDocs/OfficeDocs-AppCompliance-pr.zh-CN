@@ -2,18 +2,18 @@
 title: Lucid Software Inc 针对 Word 的 Lucidchart 图表的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 适用于 Word 的 Lucidchart 图表、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
+description: 用于 Word 的 Lucidchart 图表、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 36eb26fa83f894db60f1b615ce58f5c17ba3f19c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 1e5c76df854304b05af209288315c762c8300ca7
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59277387"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414297"
 ---
 # <a name="lucidchart-diagrams-for-word"></a>Word 的 Lucidchart 关系图
 
@@ -33,7 +33,7 @@ Lucid Software Inc 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Word 的 Lucidchart 关系图 |
 | ID | WA104380118 |
-| Office 365支持的客户端 | Word 2016 Mac、Word 2013 或更高版本（Windows 或更高版本Word web 版 |
+| Office 365支持的客户端 | Word 2016 Mac、Word 2013 或更高版本（Windows，Word web 版 |
 | 合作伙伴公司名称 | Lucid Software Inc |
 | 合作伙伴网站的 URL | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | 隐私策略的 URL | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
@@ -53,7 +53,7 @@ Lucid Software Inc 提供给 Microsoft 的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegated | 姓名和电子邮件地址。 | 电子邮件、openid 和配置文件权限使 Lucidchart 可以生成用户的 openid 令牌，并获取足够的有关用户的基本信息，以便在必要时为用户注册 Lucidchart 帐户。 为了验证从 Microsoft 返回的数据，我们请求获取其响应已签名的公钥。 作为 SSO 流的一部分，不会从 Microsoft 接收或发送给 Microsoft 其他数据。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| openid | delegated | 姓名和电子邮件地址。 | 电子邮件、openid 和配置文件权限使 Lucidchart 可以生成用户的 openid 令牌，并获取足够的有关用户的基本信息，以便在必要时为用户注册 Lucidchart 帐户。 为了验证从 Microsoft 返回的数据，我们请求获取其响应已签名的公钥。 作为 SSO 流的一部分，不会从 Microsoft 接收或发送给 Microsoft 其他数据。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -61,17 +61,17 @@ Lucid Software Inc 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于此模型构建的应用和Microsoft 365可能会使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| 适用于 Office 的 JavaScript API | 是 | 我们使用 javascript SDK Office OneDrive，使用 OneDrive.open OneDrive打开 () 。 我们不会生成任何访问令牌，也不向自己OneDrive任何请求;OneDrive文件选择器 SDK 为我们这样做。 我们仅看到用户选择的文件名。 |  | 如果用户使用文件选择器选择OneDrive文件，我们将存储文件名。 |  |
+>| 适用于 Office 的 JavaScript API | 是 | 我们使用 Office OneDrive javascript SDK 从 中OneDrive OneDrive.open () 打开文件选择器。 我们不会生成任何访问令牌，也不向自己OneDrive任何请求;OneDrive文件选择器 SDK 为我们这样做。 我们仅看到用户选择的文件名。 |  | 如果用户使用文件选择器选择OneDrive，我们将存储文件名。 |  |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Lucidchart 数据存储在 AWS 中。 |  | 我们不使用任何 Microsoft API。 我们使用 openID 获取基本用户数据来执行 SSO。 我们使用其文件选取器 API，但这不会授予我们访问用户文件的访问权限，只是提供通过选取器提交给我们的文件的访问权限。 |
 
@@ -79,7 +79,7 @@ Lucid Software Inc 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >出于安全和支持原因，我们将记录电子邮件和 IP 地址。 对于记录日志的所有访问 &amp; ，第三方系统实际上不可更改。 对日志的访问需要 MFA。
 
@@ -110,4 +110,5 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

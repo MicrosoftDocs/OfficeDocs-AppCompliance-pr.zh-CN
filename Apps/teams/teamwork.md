@@ -2,20 +2,20 @@
 title: 团队合作的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 所有可用于团队合作的安全和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 用于团队合作的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 4f70d4f2b788d67886b030728a5f9dbd587532ba
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: c6ff65ae2c380e741b6e6567ac05f70a39b76565
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785386"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412692"
 ---
-# <a name="teamwork"></a>团队合作
+# <a name="teamwork"></a>Teamwork
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ ms.locfileid: "59785386"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 团队合作 |
+| 应用名称 | Teamwork |
 | ID | WA200001552 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 团队合作 |
+| 合作伙伴公司名称 | Teamwork |
 | 合作伙伴网站的 URL | [https://www.teamwork.com](https://www.teamwork.com) |
-| "Teams应用程序信息"页的 URL | [https://support.teamwork.com/projects/microsoft-teams/conne...](https://support.teamwork.com/projects/microsoft-teams/connecting-to-teamwork-in-microsoft-teams) |
+| 应用程序Teams页的 URL | [https://support.teamwork.com/projects/microsoft-teams/conne...](https://support.teamwork.com/projects/microsoft-teams/connecting-to-teamwork-in-microsoft-teams) |
 | 隐私策略的 URL | [https://www.teamwork.com/legal/privacy-policy/](https://www.teamwork.com/legal/privacy-policy/) |
 | 使用条款 URL | [https://www.teamwork.com/legal/terms-of-service/](https://www.teamwork.com/legal/terms-of-service/) |
 
@@ -73,7 +73,7 @@ ms.locfileid: "59785386"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -93,17 +93,6 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
-
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -113,8 +102,9 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

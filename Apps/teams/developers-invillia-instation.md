@@ -2,18 +2,18 @@
 title: Invillia 开发人员的 Instation 应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2020
+ms.date: 06/30/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: InStation 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1db56e204dc2fd83916a9ec6f2b20a13e02ed357
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 33ef3024f1b0e9b70cb6445e28c71ee1f6de22be
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59278624"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411770"
 ---
 # <a name="instation"></a>InStation
 
@@ -52,12 +52,12 @@ ms.locfileid: "59278624"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| OnlineMeetings.Read.All | delegated | 存储：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | 存储：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
->| OnlineMeetings.ReadWrite.All | delegated | 存储：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | 存储：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| OnlineMeetings.Read.All | delegated | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| OnlineMeetings.ReadWrite.All | delegated | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | stores：id、join_url、join_web_url 和 chat_id。 允许应用创建会议 | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| Presence.Read | delegated | 允许应用在其第一步登录组织 | 活动和可显示性。 允许应用捕获用户状态; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| Presence.Read.All | delegated | 允许应用在其第一步登录组织， | 活动和可显示性。 允许应用捕获用户状态; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| User.Read | delegated | stores： id， mail， 显示名称， surname and picture. 允许应用搜索用户数据; | stores： id， mail， 显示名称， surname and picture. 允许应用搜索用户数据; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
@@ -68,7 +68,7 @@ ms.locfileid: "59278624"
 >| 个人资料 | delegated | 允许应用捕获管理员&#180;首次登录时的基本信息; | 允许应用捕获管理员&#180;首次登录时的基本信息; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -83,7 +83,7 @@ ms.locfileid: "59278624"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们仅在应用程序中保存用户使用率日志。
 
@@ -114,4 +114,5 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

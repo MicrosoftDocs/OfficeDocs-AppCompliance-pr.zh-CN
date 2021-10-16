@@ -2,18 +2,18 @@
 title: Ataira Power BI协作的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/14/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关 Power BI 协作、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
+description: 有关 Power BI 协作、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c370b6058ef25fd4665e651489e0b1092539b1dd
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 8f5b4117ce5508d627bea6878d5c4ac00d2b2677
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59277420"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413936"
 ---
 # <a name="power-bi-collaboration"></a>Power BI 协作
 
@@ -51,21 +51,21 @@ Ataira 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | Also permissions for ChannelMessage.Send Team.ReadBasic.All User.Read. 它们用于允许用户选择通知Teams组和频道 | 使用情况、错误和许可证监视。 [callback_group_id] ，[datetime_id] ，[session_id] ，[app_type] ，[raw_url] ，[user_id] ，[list_name] ，[user_name] ，[state] ，[priority] ，[user_domain] ，[url_text user_objectid] file_name] ，[group_name] ，[title_name] ，[comments] ，[file_name] ，[description] ，[group_pbi_name] ，[item_type] ，[organization_id] ，[user_objectid] ，[organization_displayName] ，[group_id] | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5) |
+>| User.Read | delegated | Also permissions for ChannelMessage.Send Team.ReadBasic.All User.Read. 它们用于允许用户选择通知Teams组和频道 | 使用情况、错误和许可证监视。 [callback_group_id] ，[datetime_id] ，[session_id] ，[app_type] ，[raw_url] ，[user_id] ，[list_name] ，[user_name] ，[state] ，[priority] ，[user_domain] ，[url_text]] ，[group_name] ，[title_name] ，[comments] ，[file_name] ，[description] ，[group_pbi_name] ，[item_type] ，[organization_id] ，[user_objectid] ，[organization_displayName] ，[group_id] | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
+基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| https://analysis.windows.net/powerbi/api/ | 是 | 用户电子邮件， 工作区名称， 项目名称， 嵌入 URL | 用于将报表和仪表板填充SharePoint加载项界面中 | [api_pbi_id] ，[datetime_id] ，[session_id] ，[user_name] ，[user_domain] ，[WorkSpace_Name] ，[WorkSpace_Id] ，[item_Id] ，[item_type] ，[item_name] ，[webUrl] ，[embedUrl] ，[displayName] ，[item_title] ，[isOwnedByMe] | 使用情况、错误和许可证监视 |
+>| https://analysis.windows.net/powerbi/api/ | 是 | 用户电子邮件， 工作区名称， 项目名称， 嵌入 URL | 用于在加载项界面中SharePoint报表和仪表板 | [api_pbi_id] ，[datetime_id] ，[session_id] ，[user_name] ，[user_domain] ，[WorkSpace_Name] ，[WorkSpace_Id] ，[item_Id] ，[item_type] ，[item_name] ，[webUrl] ，[embedUrl] ，[displayName] ，[item_title] ，[isOwnedByMe] | 使用情况、错误和许可证监视 |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -75,7 +75,7 @@ Ataira 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >填充报表和仪表板Power BI身份验证所需的元数据，以Graph Teams API。 可以在网站上找到更多数据和隐私策略。 https://www.ataira.com/PrivacyPolicy 然后在"应用配置"页上也专门针对数据隐私。 https://www.ataira.com/Microsoft/PowerBI/CollaborationSupport
 
@@ -115,7 +115,7 @@ Ataira 已提供有关此应用如何处理身份验证、授权、应用程序�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
@@ -133,3 +133,4 @@ Ataira 已提供有关此应用如何处理身份验证、授权、应用程序�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

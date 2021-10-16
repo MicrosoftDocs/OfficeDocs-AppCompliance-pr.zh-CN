@@ -2,18 +2,18 @@
 title: AtSpoke 的应用程序信息（由）（由一家位于美国）的由一家 Street Labs， Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/03/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: atSpoke 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2d72ea33577e386c61be6bcd09feeba813e9e1f5
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 86a4512603429feff61ceeee485e8e4042bb9a6d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59277171"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413304"
 ---
 # <a name="atspoke"></a>atSpoke
 
@@ -54,20 +54,20 @@ ms.locfileid: "59277171"
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.ReadWrite.All | delegated | atSpoke 存储 Microsoft 组 ID | 允许读取和写入 atSpoke 和 Microsoft Teams。  | [dfaf15dc-4e94-4484-a25d-79358fe70d8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/dfaf15dc-4e94-4484-a25d-79358fe70d8b) |
 >| User.ReadWrite.All | delegated | atSpoke 存储用户电子邮件和用户 ID | 允许读取和写入 atSpoke 和 Microsoft Teams。 | [dfaf15dc-4e94-4484-a25d-79358fe70d8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/dfaf15dc-4e94-4484-a25d-79358fe70d8b) |
 >| offline_access | delegated | atSpoke 不会存储任何数据。 | 这用于后台同步。 | [dfaf15dc-4e94-4484-a25d-79358fe70d8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/dfaf15dc-4e94-4484-a25d-79358fe70d8b) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| 是的，我们使用第三方服务以提高运行效率。 Google， Inc.：逻辑卷上存储的数据、本机 Google 云网络的存储备份、服务和 API 日志或应用程序日志。 记录的事务事件可能包含用户标识符 (、) 信息和客户内容。 MongoDB， Inc.：存储在基于云的数据库集合中的数据。 - 客户内容，其中包括用户提交的请求、用户添加的请求响应和用户添加的知识文章。 - 用户标识符 (创建分支用户帐户的用户姓名、电子邮件、头像和) 。 Mail且 Technologies， Inc.：用于发送电子邮件通信的用户标识符和联系人信息 (即名称和电子邮件) 。 Twilio， Inc.：用户电话号码和客户内容：通过使用 Twilio&#8217;服务交换的内容，例如文本、邮件正文、语音和视频媒体、图像和声音。 Mixpanel， Inc.：传输的个人数据包括姓名、电子邮件、IP 地址和包含在邮件内容中的个人数据。 Cloudinary， Inc.：最终用户提交的基于文件的客户内容。 弹性搜索， Inc.：记录的应用程序事务事件可能包含客户内容的截断文本。 用户：联系人信息、使用情况信息、订阅者授权用户的非传统标识符，以及订阅者或授权用户提交到平台的其他任何个人数据。 Mode Analytics， Inc.：用户标识符 (信息) 每个用户的分析。 DataDog：记录的应用程序事务事件可能包含客户内容的截断文本;日志保留期为 14 天。 Fullstory， Inc.：录制在我们的 Web 用户界面上采取的操作;包括用于标识目的的分支用户帐户。 |  | 我们使用的是 Bot Framework REST API。 我们使用此 API 向 askSpoke 自动程序服务发送和接收消息。 |
+>| 是的，我们使用第三方服务以提高运行效率。 Google， Inc.：逻辑卷上存储的数据、本机 Google 云网络的存储备份、服务和 API 日志或应用程序日志。 记录的事务事件可能包含用户标识符 (、) 信息和客户内容。 MongoDB， Inc.：存储在基于云的数据库集合中的数据。 - 客户内容，其中包括用户提交的请求、用户添加的请求响应和用户添加的知识文章。 - 用户标识符 (创建分支用户帐户的用户姓名、电子邮件、头像和) 。 Mail且 Technologies， Inc.：用于发送电子邮件通信的用户标识符和联系人信息 (即名称和电子邮件) 。 Twilio， Inc.：用户电话号码和客户内容：通过使用 Twilio&#8217;服务交换的内容，例如文本、邮件正文、语音和视频媒体、图像和声音。 Mixpanel， Inc.：传输的个人数据包括姓名、电子邮件、IP 地址和包含在邮件内容中的个人数据。 Cloudinary， Inc.：最终用户提交的基于文件的客户内容。 弹性搜索， Inc.：记录的应用程序事务事件可能包含客户内容的截断文本。 用户：联系人信息、使用情况信息、订阅者授权用户的非传统标识符，以及订阅者或授权用户提交到平台的其他任何个人数据。 Mode Analytics， Inc.：用户标识符 (用户) 信息，以按用户提供分析。 DataDog：记录的应用程序事务事件可能包含客户内容的截断文本;日志保留期为 14 天。 Fullstory， Inc.：录制在我们的 Web 用户界面上采取的操作;包括用于标识目的的分支用户帐户。 |  | 我们使用的是 Bot Framework REST API。 我们使用此 API 向 askSpoke 自动程序服务发送和接收消息。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -75,7 +75,7 @@ ms.locfileid: "59277171"
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 它允许 atSpoke 同步用户Microsoft Teams创建用户和定义权限。 | atSpoke 仅存储电子邮件Microsoft Teams用户可以以有效用户登录 atSpoke。 |  |
+>| 它允许 atSpoke 从用户Microsoft Teams创建用户和定义权限。 | atSpoke 仅存储电子邮件Microsoft Teams用户可以以有效用户登录 atSpoke。 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -112,4 +112,5 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -1,19 +1,19 @@
 ---
-title: Gaggle.net， Inc. SharePoint Gaggle 的应用程序信息
+title: SharePoint， Inc. Gaggle.net Gaggle 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Gaggle for SharePoint 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 72f13f1e2db58d8376c857bac1d41433a09321a6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 37d1b1811e3e4fff4306e98501ca98da0a7ca8b0
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279439"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412081"
 ---
 # <a name="gaggle-for-sharepoint"></a>Gaggle for SharePoint
 
@@ -47,7 +47,7 @@ Gaggle.net， Inc. 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Gaggle.net， Inc. 提供，它有关此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制。
+此信息由 Gaggle.net， Inc. 提供，它有关此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -66,7 +66,7 @@ Gaggle.net， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >IP 地址、电子邮件地址、用户名。 访问所有遥测/日志记录基于基于组的权限方案，利用最小特权原则。 物理和逻辑访问控制已到位，以确保阻止未经授权访问 OII 和 EIUU。
 
@@ -97,4 +97,5 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: 365-QA 的应用程序信息（通过开发）
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/04/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 365-QA 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 161cae04f765549c7cc0f0397fbeb6ae27de4096
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e4919268e8ad2fda56415314ba1f773011cefb35
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59277032"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411951"
 ---
 # <a name="365-qa"></a>365-QA
 
@@ -37,7 +37,7 @@ ms.locfileid: "59277032"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Advantive |
 | 合作伙伴网站的 URL | [https://www.advantive.be](https://www.advantive.be) |
-| 应用程序Teams页的 URL | [https://www.advantive.be/365-qa-how-to/](https://www.advantive.be/365-qa-how-to/) |
+| Teams信息页的 URL | [https://www.advantive.be/365-qa-how-to/](https://www.advantive.be/365-qa-how-to/) |
 | 隐私策略的 URL | [https://www.advantive.be/privacy-policy-en/](https://www.advantive.be/privacy-policy-en/) |
 | 使用条款 URL | [https://www.advantive.be/terms-of-service-en/](https://www.advantive.be/terms-of-service-en/) |
 
@@ -59,13 +59,13 @@ ms.locfileid: "59277032"
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| 必应自定义搜索 API  | 否 |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -120,8 +120,9 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

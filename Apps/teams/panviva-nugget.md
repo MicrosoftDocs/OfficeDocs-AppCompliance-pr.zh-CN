@@ -2,18 +2,18 @@
 title: Panviva 的 Nugget 应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/12/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Nugget 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6108617e72e1996a335b53941989a707a6544337
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: de483c47b529b889a6e3cc0b6ff51de8546c2f93
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279344"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413604"
 ---
 # <a name="nugget"></a>Nugget
 
@@ -52,12 +52,12 @@ Panviva 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -72,17 +72,17 @@ Panviva 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->能。
-Teams存储用户 ID：这是需要的，以便我们可以检索有关他们位于哪个租户以及用户是否是管理员的信息。
-Teams ID：存储此 ID，以便我们可以检索租户中的用户并检索该特定租户的订阅详细信息。
+>是。
+Teams用户 ID：需要此 ID，以便我们可以检索有关他们位于哪个租户以及用户是否是管理员的信息。
+Teams id ：存储此 ID，以便我们可以检索租户中的用户并检索该特定租户的订阅详细信息。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们使用 Azure 一次存储所有应用程序数据。 若要访问数据，你需要一个终结点和一个密钥，这两者均被注入用于访问数据的配置服务中。 配置服务仅处理具有从我们的自动程序应用服务请求中收到的具有 bearer 令牌的请求。 此令牌最初由 Okta 在用户登录到团队界面上的自动程序时创建。 Panviva 管理员可以访问此数据，这些管理员需要使用Microsoft Azure身份验证登录到新平台。 电子邮件和用户名字存储在 OKTA 中，并且只能使用私钥访问，该私钥存储在密钥保管库中，然后由配置服务访问。 只有配置服务可以通过使用托管标识访问密钥保管库，而应用程序中不会存储任何凭据。
+>我们使用 Azure 一次存储所有应用程序数据。 若要访问数据，你需要一个终结点和一个密钥，这两者均被注入用于访问数据的配置服务中。 配置服务仅处理具有从自动程序应用服务请求中收到的包含令牌的请求。 此令牌最初由 Okta 在用户登录到团队界面上的自动程序时创建。 Panviva 管理员可以访问此数据，这些管理员需要Microsoft Azure 2 因素身份验证登录到新平台。 电子邮件和用户名字存储在 OKTA 中，并且只能使用私钥访问，该私钥存储在密钥保管库中，然后由配置服务访问。 只有配置服务可以通过使用托管标识访问密钥保管库，而应用程序中不会存储任何凭据。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -105,4 +105,5 @@ Teams ID：存储此 ID，以便我们可以检索租户中的用户并检索该
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

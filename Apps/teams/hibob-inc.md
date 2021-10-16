@@ -2,18 +2,18 @@
 title: Hibob Inc. 的 Hibob 应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 11/13/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Hibob 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9168d876cfdf6abc2839311d3820ec8a024f29d1
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b6eaaa5c8e9b7a707bdd88b965964089c5dce472
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59277226"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412361"
 ---
 # <a name="hibob"></a>Hibob
 
@@ -57,7 +57,7 @@ Hibob Inc. 提供给 Microsoft 的信息：
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -69,7 +69,7 @@ Hibob Inc. 提供给 Microsoft 的信息：
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| rooster 用于根据电子邮件Teams用户与 bob 用户匹配。 匹配用于 - 标识、通知、指向Teams链接。 | 仅使用和存储 UPN 属性。 |  |
+>| 轮盘用于根据电子邮件Teams用户与 bob 用户匹配。 匹配用于 - 标识、通知、指向Teams的链接。 | 仅使用和存储 UPN 属性。 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -84,7 +84,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们的平台托管在 Amazon&#8217;的数据中心内，位于位于 Dublin 和 Dublin Access 的平台上，基于角色，根据员工职位在"需要知道/需要做"的基础上进行设置&#8217;设置。
+>我们的平台托管在 Amazon&#8217;数据中心内，位于对平台的 Dublin 和 Dublin Access 中基于角色，根据员工职位基于需要知道/需要做&#8217;进行设置。
 每个用户都有其唯一的凭据，并且我们对关键服务强制执行 2FA 身份验证。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
@@ -108,4 +108,5 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

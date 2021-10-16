@@ -6,16 +6,16 @@ ms.date: 07/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 用于一个功能区 VLE 的所有可用安全性和合规性信息、它的数据处理策略、MICROSOFT CLOUD APP SECURITY应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 用于一个功能区 VLE 的所有可用安全性和合规性信息、其数据处理策略、MICROSOFT CLOUD APP SECURITY应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 2150aa488ad0786da8d2c80bda566b54dba59018
-ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.openlocfilehash: 9c94d52ef9e2c233eeb054d3b52a6175ccf235ea
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60290326"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412842"
 ---
-# <a name="olive-vle"></a>橄榄色 VLE
+# <a name="olive-vle"></a>OLIVE VLE
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ ms.locfileid: "60290326"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 橄榄色 VLE |
+| 应用名称 | OLIVE VLE |
 | ID | WA200003331 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | OliveGroup |
@@ -52,7 +52,7 @@ ms.locfileid: "60290326"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -72,7 +72,7 @@ ms.locfileid: "60290326"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -92,17 +92,6 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
-
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -117,3 +106,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

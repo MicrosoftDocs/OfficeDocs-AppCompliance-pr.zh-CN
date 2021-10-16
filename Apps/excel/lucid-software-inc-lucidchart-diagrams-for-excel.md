@@ -2,18 +2,18 @@
 title: Lucid Software Inc Excel的 Lucidchart 图表的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 适用于 Excel 的 Lucidchart 图表的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 用于 Excel 的 Lucidchart 图表的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: eedc4340815926a96f52e2abebc2d553f07583e3
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 3ff6b23fcb2f771ebfee071bc9140cccb76eed35
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59278536"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415249"
 ---
 # <a name="lucidchart-diagrams-for-excel"></a>用于图表的 Lucidchart Excel
 
@@ -53,7 +53,7 @@ Lucid Software Inc 提供给 Microsoft 的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegated | 姓名和电子邮件地址。 | 电子邮件、openid 和配置文件权限使 Lucidchart 可以生成用户的 openid 令牌，并获取足够的有关用户的基本信息，以便在必要时为用户注册 Lucidchart 帐户。 为了验证从 Microsoft 返回的数据，我们请求获取其响应已签名的公钥。 作为 SSO 流的一部分，不会从 Microsoft 接收或发送给 Microsoft 其他数据。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| openid | delegated | 姓名和电子邮件地址。 | 电子邮件、openid 和配置文件权限使 Lucidchart 可以生成用户的 openid 令牌，并获取足够的有关用户的基本信息，以便在必要时为用户注册 Lucidchart 帐户。 为了验证从 Microsoft 返回的数据，我们请求获取其响应已签名的公钥。 作为 SSO 流的一部分，不会从 Microsoft 接收或发送给 Microsoft 其他数据。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -61,13 +61,13 @@ Lucid Software Inc 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| 适用于 Office 的 JavaScript API | 是 | 我们使用 javascript SDK Office OneDrive ，使用 OneDrive.open OneDrive打开 () 。 我们不会生成任何访问令牌，也不向自己OneDrive任何请求;OneDrive文件选择器 SDK 为我们这样做。 我们仅看到用户选择的文件名。 |  | 如果用户使用文件选择器选择OneDrive文件，我们将存储文件名。 |  |
+>| 适用于 Office 的 JavaScript API | 是 | 我们使用 javascript SDK Office OneDrive ，使用 OneDrive.open () 打开 OneDrive 文件选择器。 我们不会生成任何访问令牌，也不向自己OneDrive任何请求;OneDrive文件选择器 SDK 为我们这样做。 我们仅看到用户选择的文件名。 |  | 如果用户使用文件选择器选择OneDrive，我们将存储文件名。 |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -110,4 +110,5 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,20 +2,20 @@
 title: 由用户数据见解 Sch以z AG 表示的适用于一些用户的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/25/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关一些数据，包括用于一系列安全与合规信息、其数据处理策略、MICROSOFT CLOUD APP SECURITY应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 有关一些数据，包括用于一组用户的所有可用安全与合规信息、它的数据处理策略、MICROSOFT CLOUD APP SECURITY应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9e1101a92834b4f5424b9cd86f396ab71b01b4f8
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: b6e8954ddd27c1383c5af8a9f1a175cca290644f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785422"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411921"
 ---
-# <a name="argusnylar"></a>一些
+# <a name="argusnylar"></a>ARGUSnylar
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ ms.locfileid: "59785422"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 一些 |
+| 应用名称 | ARGUSnylar |
 | ID | WA200003186 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | INSIGHTS DATA INSIGHTS Sch一z AG |
+| 合作伙伴公司名称 | ARGUS DATA INSIGHTS Schweiz AG |
 | 合作伙伴网站的 URL | [https://www.argusdatainsights.ch/en/](https://www.argusdatainsights.ch/en/) |
 | "Teams应用程序信息"页的 URL | [https://portal.nylar.org/help](https://portal.nylar.org/help) |
 | 隐私策略的 URL | [https://www.argusdatainsights.ch/en/privacy-policy-teams](https://www.argusdatainsights.ch/en/privacy-policy-teams) |
@@ -53,14 +53,14 @@ ms.locfileid: "59785422"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/ (权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| openid | 应用程序 | / | / | [5c1f85d2-d744-4159-8c01-16e9a7b1207b](https://docs.microsoft.com/microsoft-365-app-certification/azure/5c1f85d2-d744-4159-8c01-16e9a7b1207b) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -68,14 +68,14 @@ ms.locfileid: "59785422"
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -95,17 +95,6 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
-
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -115,7 +104,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
@@ -123,7 +112,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 否 |
 | 你的应用是否具有机密客户端？ | 否 |
-| 你是否拥有为应用注册的所有重定向统一 (URI) URI？ | 是 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 是 |
 | 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
 | 你的应用是否使用预览 API？ | 否 |
@@ -132,3 +121,4 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
