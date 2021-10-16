@@ -2,18 +2,18 @@
 title: Regroove 解决方案为 Navo 提供的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 01/20/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Navo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e17eac9ef2db9418a38900d0de84ce62fad71097
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 554d59fbb03382ab517bb2f928823a33b2ec4ee0
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59276773"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411527"
 ---
 # <a name="navo"></a>Navo
 
@@ -52,15 +52,15 @@ Regroove 解决方案提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | 应用程序 | 我们存储用户计数，并按计费周期查询一次。 我们还使用租赁 ID 作为组织的 ID。 | 允许我们计算租赁中用于计费的用户数。 它还允许我们查询用户位于哪些组，以便可以使用安全修整来保护某些数据。 我们还查询组织的租赁 ID。 | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
 >| User.Read | delegated | 不存储任何数据 | 登录并读取用户个人资料 | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -77,15 +77,15 @@ Regroove 解决方案提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->是的，在应用程序Insights存储用户经过身份验证的 ID 和租户 id (用户帐户 id) 。
+>是的，在应用程序Insights存储用户经过身份验证的 ID 和租户 ID (用户帐户 id) 。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们存储的所有数据都 (，而不是通过带区或应用程序Insights) 存储在 Azure Cosmos 数据库中。 所有管理员都使用 2FA，并且访问权限仅限于我们员工的子集。
+>我们存储的所有数据 (服务（如 Stripe 或 Application Insights) ）存储在 Azure Cosmos 数据库中。 所有管理员都使用 2FA，并且访问权限仅限于我们员工的子集。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -108,4 +108,5 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

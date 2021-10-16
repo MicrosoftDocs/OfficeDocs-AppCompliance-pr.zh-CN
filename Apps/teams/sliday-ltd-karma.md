@@ -2,18 +2,18 @@
 title: Karma 的应用程序信息（由 Sliday LTD 提供）
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/14/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Karma 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a7603ed4676653b26d93027e5c3e3d47065e83db
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 69163a7c191e9a7e8d460a7f20623466d208042e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59277189"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410906"
 ---
 # <a name="karma"></a>Karma
 
@@ -37,7 +37,7 @@ ms.locfileid: "59277189"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Sliday LTD |
 | 合作伙伴网站的 URL | [https://sliday.com](https://sliday.com) |
-| 应用程序Teams页的 URL | [https://karmabot.readme.io/](https://karmabot.readme.io/) |
+| "Teams应用程序信息"页的 URL | [https://karmabot.readme.io/](https://karmabot.readme.io/) |
 | 隐私策略的 URL | [https://karmabot.readme.io/docs/privacy-policy-for-microsof...](https://karmabot.readme.io/docs/privacy-policy-for-microsoft-teams) |
 | 使用条款 URL | [https://karmabot.readme.io/docs/terms-and-conditions](https://karmabot.readme.io/docs/terms-and-conditions) |
 
@@ -53,14 +53,14 @@ ms.locfileid: "59277189"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | 应用程序 | 名字、姓氏和公司电子邮件地址。面向管理员的报告的名、姓。用于与 Karma 通信的电子邮件地址、帐单用途和存档。 | 管理员同意显示名称。登录并读取用户配置文件。管理员同意说明。允许用户登录应用，并允许应用读取已登录用户的个人资料。 它还允许应用读取已登录用户的基本公司信息。用户同意显示名称签署你并读取你的配置文件。用户同意说明。允许你使用组织帐户登录应用，并允许应用读取你的配置文件。 它还允许应用读取基本公司信息。 | [9ff28b02-ccc5-4cac-9d17-4cf6987c371f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9ff28b02-ccc5-4cac-9d17-4cf6987c371f) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -68,16 +68,16 @@ ms.locfileid: "59277189"
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 名字、姓氏和公司电子邮件地址 名字、面向管理员的姓氏报告与 Karma 通信的电子邮件地址。 出于计费目的和将大量用户拆分为单独的离开，需要名单。 | 面向管理员的报告的名、姓和公司电子邮件地址名字、姓氏。 用于与 Karma、计费目的和 Karma 用户层次结构通信的电子邮件地址。 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们将租户 ID 和用户 ID 存储在日志中。 二者均无法识别。
 
@@ -106,17 +106,17 @@ VM 每周自动备份一次，存储 1 个月。
 
 数据存储在美国数据中心的"数字远地云中心"中。
 
-5. **介绍如何管理唯一加密密钥 (、存储、使用情况、RACI、SOD) 供自己使用以及用于每个租户**
+5. **介绍如何管理唯一加密密钥 (、存储、使用情况、RACI、SOD) 供自己使用以及每个租户使用**
 
 由 Digital Ocean 处理。
 
 6. **介绍提供程序结束时就位的访问管理过程，指出如何确保及时删除不再需要的访问，以及如何控制对作业角色的权限的不足。还介绍重新验证过程及其执行频率**
 
-我们使用双重身份验证来访问控制面板。 只有 3 个人有权访问此帐户，我们每月都会更改密码，保持对访问日志的审核，并确保不再与我们联系的用户已从平台中删除其帐户。
+我们使用双重身份验证来访问控制面板。 只有 3 个人有权访问此帐户，我们每月都会更改密码，保持对访问日志的审核，并确保不再为我们工作的用户将其帐户从平台中删除。
 
-7. **提供在最终实现的过程 (如根、Sys、System 等 ) 、组 ID (供属于同一团队的一些个人使用的常规帐户（例如) 和本地帐户）。介绍如何限制、记录并监视特权帐户的使用和安全设备的访问权限 (例如虚拟机监控程序、防火墙、漏洞扫描程序、网络探查器、API 等 ) 、如何确保更改团队或离开的用户无法再访问组 ID 以及此类 ID 的可跟踪性级别**
+7. **提供在最终实现的过程，以管理共享 ID (例如根、Sys、System 等 ) 、组 ID (供属于同一团队的一些个人使用的通用帐户，例如) 和本地帐户。介绍如何限制、记录并监视特权帐户的使用和安全设备的访问权限 (例如虚拟机监控程序、防火墙、漏洞扫描程序、网络探查器、API 等 ) 、如何确保更改团队或离开的用户无法再访问组 ID 以及此类 ID 的可跟踪级别**
 
-我们使用 1Password 共享可共享 ID&#8217;，每次从共享密码访问共享资源时，我们都有单独的活动源。 除非绝对必要，否则我们不会使用共享帐户，而是使用个人帐户。 无法通过共享登录访问 Karma 数据库上的信息。 2FA 用于访问 1Password 以检索单个登录名。
+我们使用 1Password 共享可共享 ID&#8217;，每次从共享密码密码中访问共享资源时，我们都有单独的活动源。 除非绝对必要，否则我们不会使用共享帐户，而是使用个人帐户。 无法通过共享登录访问 Karma 数据库上的信息。 2FA 用于访问 1Password 以检索单个登录名。
 
 8. **描述确保并监视职责划分得到遵守以及控制频率的过程**
 
@@ -145,4 +145,5 @@ VM 每周自动备份一次，存储 1 个月。
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -1,19 +1,19 @@
 ---
-title: 由一台由一台由一台或多万台用于开发应用程序的用户信息
+title: 由一台由一台由一台或多万台用于开发应用程序的系统信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/19/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 所有 Available security and compliance information for一切 Available security and compliance information for 一切，其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 所有 Available security and compliance information for 一切 Available security and compliance information for 一切，其数据处理策略、Microsoft Cloud App Security应用程序目录信息，以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0ad06df6fb1b41955c2cb69e45f2ea84660b3e06
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 8d3a04daba9ebcbcf435f46beb6313c22310fe22
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279351"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408977"
 ---
 # <a name="pandadoc"></a>PandaDoc
 
@@ -37,7 +37,7 @@ ms.locfileid: "59279351"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | PandaDoc |
 | 合作伙伴网站的 URL | [https://www.pandadoc.com](https://www.pandadoc.com) |
-| 应用程序Teams页的 URL | [https://www.pandadoc.com](https://www.pandadoc.com) |
+| Teams信息页的 URL | [https://www.pandadoc.com](https://www.pandadoc.com) |
 | 隐私策略的 URL | [https://www.pandadoc.com/privacy-notice/?utm_source=microso...](https://www.pandadoc.com/privacy-notice/?utm_source=microsoft-teams&amp;utm_medium=partner&amp;utm_campaign=2021-2-inbd-marketplace-websitevisit-pandadoc-privacy) |
 | 使用条款 URL | [https://www.pandadoc.com/terms-of-use/](https://www.pandadoc.com/terms-of-use/) |
 
@@ -55,7 +55,7 @@ ms.locfileid: "59279351"
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | 两者 | 获取之前接收的每个命令的通道列表 ID，并获取每个通道的文件驱动器 ID。 | 不存储数据 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
 >| ChannelSettings.Read.All | 两者 | 获取之前接收的每个命令的通道列表 ID，并获取每个通道的文件驱动器 ID。  | 不存储数据 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
@@ -67,14 +67,14 @@ ms.locfileid: "59279351"
 >| Files.Read.Selected | 两者 | For sso user from Tab (example - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . 需要获取有权访问 Microsoft 令牌的用户Graph进一步获取用户文件。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
 >| Group.Read.All | 两者 | 获取之前接收的每个命令的通道列表 ID，并获取每个通道的文件驱动器 ID。 文档 - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp ;tabs=http | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
 >| Group.ReadWrite.All | 两者 | 获取之前接收的每个命令的通道列表 ID，并获取每个通道的文件驱动器 ID。 文档 - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp ;tabs=http | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Team.ReadBasic.All | 两者 | 获取用户直接Microsoft Teams的团队 ID。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Team.ReadBasic.All | 两者 | 获取团队 ID，Microsoft Teams用户是直接成员的用户。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
 >| TeamSettings.Read.All | 两者 | 若要获取团队 ID，Microsoft Teams用户是直接成员的用户。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamSettings.ReadWrite.All | 两者 | 或获取用户是Microsoft Teams直接成员的团队 ID。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| TeamSettings.ReadWrite.All | 两者 | 或获取团队 ID Microsoft Teams用户是直接成员的用户。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
 >| TeamsAppInstallation.ReadWriteSelfForTeam.All | 两者 | 需要将应用程序安装在团队中的用户上，在聊天中安装聊天机器人。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | 两者 | 需要将应用程序安装在团队中的用户上，在聊天中安装聊天机器人。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
 >| User.Read | 两者 | For sso user from Tab (example - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . 需要获取有权访问 Microsoft 令牌的用户Graph进一步获取用户文件。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| User.Read.All | 两者 |  用于获取用户直接Microsoft Teams团队的 ID。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| User.ReadWrite.All | 两者 |  用于获取用户直接Microsoft Teams团队的 ID。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| User.Read.All | 两者 |  用于获取用户是Microsoft Teams直接成员的团队 ID。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| User.ReadWrite.All | 两者 |  用于获取用户是Microsoft Teams直接成员的团队 ID。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
 >| email | 两者 | For sso user from Tab (example - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . 需要获取有权访问 Microsoft 令牌的用户Graph进一步获取用户文件。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
 >| offline_access | 两者 | For sso user from Tab (example - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . 需要获取有权访问 Microsoft 令牌的用户Graph进一步获取用户文件。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
 >| openid | 两者 | For sso user from Tab (example - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . 需要获取有权访问 Microsoft 令牌的用户Graph进一步获取用户文件。 | 不存储数据。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
@@ -82,7 +82,7 @@ ms.locfileid: "59279351"
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -90,7 +90,7 @@ ms.locfileid: "59279351"
 >| MS Graph | 否 |  |  |  |  |
 >| Elementor | 否 |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -98,14 +98,14 @@ ms.locfileid: "59279351"
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -145,7 +145,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 否 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
@@ -162,3 +162,4 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

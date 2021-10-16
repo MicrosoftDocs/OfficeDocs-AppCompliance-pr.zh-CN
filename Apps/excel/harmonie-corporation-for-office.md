@@ -2,18 +2,18 @@
 title: harmon.ie corporation Office harmon.ie 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/07/2021
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 适用于 harmon.ie 应用程序的所有Office信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 适用于 HARMON.IE 应用程序的所有Office信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c5a4cc10fdb936e6e0a9c04cc492cd301a374cd8
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c9e803a02b2db799b0aeb2230955746fa905ccbe
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59278935"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410716"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie Office
 
@@ -33,7 +33,7 @@ harmon.ie 向 Microsoft 提供的信息：
 |:----------------|:-------------|
 | 应用名称 | harmon.ie Office |
 | ID | WA104381050 |
-| Office 365支持的客户端 | PowerPoint 2016 mac Windows、Word 2016 或更高版本的 Windows、Excel web 版、Word web 版、PowerPoint web 版、Word 2016 或更高版本、mac PowerPoint 2016 或更高版本上的 PowerPoint 2016 或更高版本 |
+| Office 365支持的客户端 | PowerPoint 2016 mac Windows、Word 2016 或更高版本的 Windows、Excel web 版、Word web 版、PowerPoint web 版、Word 2016 或更高版本PowerPoint 2016 Mac 或更高版本 |
 | 合作伙伴公司名称 | harmon.ie Corporation |
 | 合作伙伴网站的 URL | [https://harmon.ie](https://harmon.ie) |
 | 隐私策略的 URL | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
@@ -53,9 +53,9 @@ harmon.ie 向 Microsoft 提供的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | delegated | 要求 harmon.ie 用户Outlook用户登录并获取用户角色 | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Directory.AccessAsUser.All | delegated | 要求 harmon.ie Outlook用户登录并获取用户角色 | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 >| Files.ReadWrite.All | delegated | 要求 harmon.ie，Outlook允许其从邮箱传输电子邮件Outlook并将其 &amp; 保存到SharePoint | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 >| Mail.ReadWrite | delegated | 要求 harmon.ie，Outlook允许其从邮箱传输电子邮件Outlook并将其 &amp; 保存到SharePoint | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 >| User.Read | delegated | 解析用户配置文件 harmon.ie Outlook要求 | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
@@ -71,7 +71,7 @@ harmon.ie 向 Microsoft 提供的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >使用率数据和用户数量增加
 
@@ -111,8 +111,8 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -129,3 +129,4 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

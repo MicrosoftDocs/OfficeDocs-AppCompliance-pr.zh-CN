@@ -6,16 +6,16 @@ ms.date: 10/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 用于"学校日健康"的所有可用的安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 用于"学校日健康"的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9b953bd648ecc795e57e22dd505676d755b1ee32
-ms.sourcegitcommit: d49943662d5e28a9c1289ee23318818f1f68ff96
+ms.openlocfilehash: babc51460ddb23fd19007f2ebfc8ebab00300a69
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60337903"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408421"
 ---
-# <a name="school-day-wellbeing"></a>学校日健康
+# <a name="school-day-wellbeing"></a>School Day Wellbeing
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ ms.locfileid: "60337903"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 学校日健康 |
+| 应用名称 | School Day Wellbeing |
 | ID | WA200001430 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 学校日Kioy |
+| 合作伙伴公司名称 | School Day Helsinki Oy |
 | 合作伙伴网站的 URL | [https://www.schoolday.com](https://www.schoolday.com) |
-| 应用程序Teams页的 URL | [https://www.schoolday.com/en/resources/faq](https://www.schoolday.com/en/resources/faq) |
+| "Teams应用程序信息"页的 URL | [https://www.schoolday.com/en/resources/faq](https://www.schoolday.com/en/resources/faq) |
 | 隐私策略的 URL | [https://www.schoolday.com/privacy](https://www.schoolday.com/privacy) |
 | 使用条款 URL | [https://www.schoolday.com/eula](https://www.schoolday.com/eula) |
 
@@ -68,7 +68,7 @@ ms.locfileid: "60337903"
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -97,7 +97,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->组织管理员可以通过学校日管理员 (CRUD) 数据。 
+>组织管理员可以通过学校日管理员 (CRUD) 控制数据。 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -109,17 +109,6 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
-
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -146,3 +135,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
