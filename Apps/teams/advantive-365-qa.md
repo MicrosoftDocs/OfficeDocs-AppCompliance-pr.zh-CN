@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 365-QA 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e4919268e8ad2fda56415314ba1f773011cefb35
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: bcf42d4f0ade9c3e6dd44b76b3974ea83e202b94
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411951"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60442118"
 ---
 # <a name="365-qa"></a>365-QA
 
@@ -37,7 +37,7 @@ ms.locfileid: "60411951"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Advantive |
 | 合作伙伴网站的 URL | [https://www.advantive.be](https://www.advantive.be) |
-| Teams信息页的 URL | [https://www.advantive.be/365-qa-how-to/](https://www.advantive.be/365-qa-how-to/) |
+| 应用程序Teams页的 URL | [https://www.advantive.be/365-qa-how-to/](https://www.advantive.be/365-qa-how-to/) |
 | 隐私策略的 URL | [https://www.advantive.be/privacy-policy-en/](https://www.advantive.be/privacy-policy-en/) |
 | 使用条款 URL | [https://www.advantive.be/terms-of-service-en/](https://www.advantive.be/terms-of-service-en/) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60411951"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -80,7 +80,7 @@ ms.locfileid: "60411951"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -125,4 +125,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

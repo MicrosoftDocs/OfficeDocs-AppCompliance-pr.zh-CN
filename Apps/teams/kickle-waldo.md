@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有可用的适用于管理中心的安全与合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 31c6c4b1240c9920a24f013c9d7ac6c61a30c90b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 88766f29eb80c8d9378fc117b42e688db3dff755
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413744"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434581"
 ---
 # <a name="waldo"></a>Waldo
 
@@ -37,7 +37,7 @@ Kickle 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Kickle |
 | 合作伙伴网站的 URL | [https://hellowaldo.app](https://hellowaldo.app) |
-| 应用程序Teams页的 URL | [https://hellowaldo.app/takeatour/](https://hellowaldo.app/takeatour/) |
+| "Teams应用程序信息"页的 URL | [https://hellowaldo.app/takeatour/](https://hellowaldo.app/takeatour/) |
 | 隐私策略的 URL | [https://hellowaldo.app/privacy-policy/](https://hellowaldo.app/privacy-policy/) |
 | 使用条款 URL | [https://hellowaldo.app/terms-and-conditions](https://hellowaldo.app/terms-and-conditions) |
 
@@ -53,18 +53,18 @@ Kickle 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Chat.ReadBasic | delegated | 根据你的聊天历史记录，用户识别你的同事。 此列表随后用于在日历视图中显示状态。 | 用户存储每个同事的用户 ID。 这些 ID 用于显示我们过去用来合作的同事列表。 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
+>| Chat.ReadBasic | delegated | 根据你的聊天历史记录，它标识你的同事。 此列表随后用于在日历视图中显示状态。 | 用户存储每个同事的用户 ID。 这些 ID 用于显示我们过去用来合作的同事列表。 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
 >| User.Read | delegated | 此权限由 Microsoft 应用程序的组件人员Graph Toolkit | 不适用 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
 >| User.ReadBasic.All | delegated | 此权限由 Microsoft 应用程序的组件人员Graph Toolkit | 不适用 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
 >| offline_access | delegated | 由应用用于代表用户创建后台任务， (令牌以执行身份验证)  | 不适用 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
 >| openid | delegated | 身份验证必需 | 不适用 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -72,7 +72,7 @@ Kickle 提供给 Microsoft 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -87,7 +87,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->组织可以在 上查看管理管理员、管理联系人和技术联系人 https://app.hellowaldo.app/admin-orga-contacts 。  组织可以联系我们，hello@kickle.com 从应用中删除个人身份信息。 这可能会限制我们可以提供的服务。
+>组织可以在 上查看管理管理员、管理联系人和技术联系人 https://app.hellowaldo.app/admin-orga-contacts 。  组织可以通过联系我们 hello@kickle.com 从应用中删除个人身份信息。 这可能会限制我们可以提供的服务。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -126,4 +126,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

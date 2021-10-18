@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: CSOD Learn 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 76046422709a8472b17d1b4b6c51f672f043eed8
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c1ffba5aaa75b590f85a1012a3ccfafe28e20bc7
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414708"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434371"
 ---
 # <a name="csod-learn"></a>CSOD Learn
 
@@ -52,7 +52,7 @@ ms.locfileid: "60414708"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -61,7 +61,7 @@ ms.locfileid: "60414708"
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| 组织数据在 CSOD 服务和 Microsoft 之间共享。 有关详细信息，请参阅与 CSOD 的协议条款 | 组织数据在 CSOD 服务和 Microsoft 之间共享。 有关详细信息，请参阅与 CSOD 的协议条款 | CSOD 服务不使用Graph API。 我们使用 Microsoft 框架 botbuilder^4.9.2 来提升服务性能。 服务使用 OII 数据来标识 CSOD 服务使用者。 有关详细信息，请参阅与 CSOD 的协议条款 |
 
@@ -69,14 +69,14 @@ ms.locfileid: "60414708"
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 有关此方面的信息，请参阅与 CSOD 的协议条款 | 最终用户 aadObjectId 映射到 CSOD 用户内部 ID | 有关此方面的信息，请参阅与 CSOD 的协议条款 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >CSOD 服务在有限时段内存储包含用户与应用交互的应用程序日志，以排查 Bug 和用户报告的问题。 单个日志语句由最终用户内部 lms 用户 ID、CSOD 服务中配置的组织名称以及要执行的适当操作组成。 是
 
@@ -101,7 +101,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由一名（一名）的一名一名小手提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+此信息由一名（一名）的一名一名小手提供，这些信息与该应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -110,4 +110,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

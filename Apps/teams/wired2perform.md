@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Wired2Perform 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3d3ba77eff78368f1fdc7f14125afb8618503c54
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3fe27cc92fc4b4af5014f8c209cb0a831679ca48
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414869"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445004"
 ---
 # <a name="wired2perform"></a>Wired2Perform
 
@@ -37,7 +37,7 @@ Wired2Perform 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Wired2Perform |
 | 合作伙伴网站的 URL | [https://wired2perform.com](https://wired2perform.com) |
-| Teams信息页的 URL | [https://wired2perform.com](https://wired2perform.com) |
+| "Teams应用程序信息"页的 URL | [https://wired2perform.com](https://wired2perform.com) |
 | 隐私策略的 URL | [https://wired2perform.com/privacy-for-humans](https://wired2perform.com/privacy-for-humans) |
 | 使用条款 URL | [https://wired2perform.com/terms-conditions](https://wired2perform.com/terms-conditions) |
 
@@ -53,13 +53,13 @@ Wired2Perform 提供了此信息，这些信息有关此应用如何收集和存
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -80,7 +80,7 @@ Wired2Perform 提供了此信息，这些信息有关此应用如何收集和存
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -125,4 +125,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

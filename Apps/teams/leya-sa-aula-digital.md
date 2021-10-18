@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Aula Digital 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 45ccd105d370b2b74625c352cfe501ad6fe39ade
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4efc5ece992e8b80163537bc37d6877e96010cca
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413724"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444482"
 ---
 # <a name="aula-digital"></a>Aula Digital
 
@@ -120,4 +120,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

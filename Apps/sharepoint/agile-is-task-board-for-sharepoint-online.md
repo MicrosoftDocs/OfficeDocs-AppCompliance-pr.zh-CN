@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 SharePoint Online 的敏捷任务板的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 34526c1037ee220cabfecf6dd06fac93bb0e4952
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f4e423cba32f1555b6db7644aca70df01075d83c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412101"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60437018"
 ---
 # <a name="agile-task-board-for-sharepoint-online"></a>适用于 SharePoint Online 的敏捷任务板
 
@@ -51,12 +51,12 @@ Agile-IS 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -76,7 +76,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 >应用程序将所有数据存储在 SharePoint Online 列表和文档库中，这些列表和文档库位于运行应用各自的实例的同一网站上。 对此数据的访问控制取决于客户的租户配置。 
 
-对于许可证控制，域和 UPN 将传输到 Azure 中托管的服务。 此信息受身份验证Azure AD保护。
+对于许可证控制，域和 UPN 将传输到 Azure 中托管的服务。 此信息通过身份验证Azure AD保护。
 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
@@ -100,5 +100,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

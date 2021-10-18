@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Gaggle for SharePoint 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 37d1b1811e3e4fff4306e98501ca98da0a7ca8b0
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 79bdbfff967abc1b4bf5315af606e15c594ea615
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412081"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445484"
 ---
 # <a name="gaggle-for-sharepoint"></a>Gaggle for SharePoint
 
@@ -56,7 +56,7 @@ Gaggle.net， Inc. 提供给 Microsoft 的信息：
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -66,7 +66,7 @@ Gaggle.net， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >IP 地址、电子邮件地址、用户名。 访问所有遥测/日志记录基于基于组的权限方案，利用最小特权原则。 物理和逻辑访问控制已到位，以确保阻止未经授权访问 OII 和 EIUU。
 
@@ -97,5 +97,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

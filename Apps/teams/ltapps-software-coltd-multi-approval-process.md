@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60431014"
+ms.locfileid: "60442762"
 ---
 # <a name="multi-approval-process-ltapps"></a>多审批流程 LTAPP
 

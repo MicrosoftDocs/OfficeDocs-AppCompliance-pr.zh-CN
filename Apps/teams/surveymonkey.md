@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SurveyMonkey 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4d792807b4a8160b3e62c7c1a23b4cf8a49b2148
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: a67e1c8db56a621253fe8ad0471d4db234dc7d70
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413344"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432851"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -37,7 +37,7 @@ SurveyMonkey 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SurveyMonkey |
 | 合作伙伴网站的 URL | [https://www.surveymonkey.com](https://www.surveymonkey.com) |
-| 应用程序Teams页的 URL | [https://help.surveymonkey.com/articles/en_US/kb/Microsoft-T...](https://help.surveymonkey.com/articles/en_US/kb/Microsoft-Teams-Integration) |
+| "Teams应用程序信息"页的 URL | [https://help.surveymonkey.com/articles/en_US/kb/Microsoft-T...](https://help.surveymonkey.com/articles/en_US/kb/Microsoft-Teams-Integration) |
 | 隐私策略的 URL | [https://www.surveymonkey.com/mp/legal/privacy-policy/](https://www.surveymonkey.com/mp/legal/privacy-policy/) |
 | 使用条款 URL | [https://www.surveymonkey.com/mp/legal/terms-of-use/](https://www.surveymonkey.com/mp/legal/terms-of-use/) |
 
@@ -64,9 +64,9 @@ SurveyMonkey 提供了此信息，这些信息与此应用程序如何收集和�
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| 仅 MS 用户 ID 存储在 SurveyMonkey 中，以便将响应和调查与团队用户关联。 |  | 对于团队，我们使用 Microsoft Teams创建、调查和调查结果任务模块模式中的 javascript SDK。 |
+>| 仅 MS 用户 ID 存储在 SurveyMonkey 中，以便将响应和调查与团队用户关联。 |  | 对于团队，我们在创建、Microsoft Teams结果任务模块模式中使用 javascript SDK。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -89,7 +89,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 >我们的主要数据中心位于 NV 的拉斯维加斯，辅助数据中心位于加利福尼亚的圣达拉拉。 SurveyMonkey 在这些位置拥有并运行其所有服务器和基础结构。 我们还为位于加拿大的某些 SurveyMonkey 客户Enterprise加拿大数据驻留。 所有数据都使用带 AES256 的 TDE 进行其余加密，传输中的数据使用 TLS 1.2 进行加密。
 
-SurveyMonkey 使用中心用户身份验证来维护标识和访问管理。 此系统管理对任意及所有企业以及生产基础结构、系统和服务的所有身份验证和授权。 将每季度维护和审查严格访问策略。 评论包括但不限于：用户访问列表、策略组和第三方访问评审。 若要访问我们的生产环境 (即获取特权帐户) ，需要获得经理批准、完成大量必需培训以及获得安全团队的批准。 此时，将设置其他 VPN 帐户，此帐户&#8216;普通&#8217; 帐户与 &#8216;特权&#8217;帐户。
+SurveyMonkey 使用中心用户身份验证来维护标识和访问管理。 此系统管理对任意及所有企业以及生产基础结构、系统和服务的所有身份验证和授权。 将每季度维护和审查严格访问策略。 评论包括但不限于：用户访问列表、策略组和第三方访问评审。 若要访问我们的生产环境 (即获取特权帐户) ，需要获得经理批准、完成大量必需培训以及获得安全团队的批准。 此时，会预配一个额外的 VPN 帐户，此帐户&#8216;普通&#8217; 帐户与 &#8216;特权&#8217;帐户。
 
 仅允许公司颁发的设备访问我们的生产网络。 所有无线供应商默认设置在安装前均会更改，包括但不限于默认的无线加密密钥、密码和 SNMP 社区字符串。 2FA 和 VPN 需要远程执行。 我们有一个单独的 Wifi 网络，用于公司办公室的来宾访问。
 
@@ -116,5 +116,4 @@ SurveyMonkey 使用中心用户身份验证来维护标识和访问管理。 此
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

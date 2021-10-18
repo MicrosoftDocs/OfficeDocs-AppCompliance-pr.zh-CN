@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430924"
+ms.locfileid: "60445119"
 ---
 # <a name="termef"></a>TerMef
 
@@ -51,12 +51,12 @@ Mondeca 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -74,7 +74,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->L'application ne stocke pas de donn&#233;es's usage par &#224;'sateurs， hormis les logs du serveur HTTP contenant des adresses IP horodat&#233;es. Il est possible de r&#233;cup&#233;rer le listing des acc&#232;s associ&#233; &#224; une adresse IP， et d'en demander la suppresion.
+>L'application ne stocke pas de donn es es&#233;es es usage par &#224; l'ses usage parsateurs， hormis les logs du serveur HTTP contenant des adresses IP horodat&#233;es. Il est possible de r&#233;cup&#233;rer le listing des acc&#232;s associ&#233; &#224; une adresse IP， et d'en demander la suppresion.
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

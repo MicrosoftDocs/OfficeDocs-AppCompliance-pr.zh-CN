@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: netDocShare 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 853e192cc9e76faf2b8634723cf81e256fcd7140
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c31fb96fb69a331cc1f4fc3e87efba4f1ba0ab77
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412892"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60435576"
 ---
 # <a name="netdocshare"></a>netDocShare
 
@@ -48,7 +48,7 @@ ms.locfileid: "60412892"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由以下人员提供：关于此应用程序如何收集和存储组织数据，以及你的组织将拥有对应用收集的数据的控制。
+此信息由以下人员提供：有关此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -103,5 +103,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

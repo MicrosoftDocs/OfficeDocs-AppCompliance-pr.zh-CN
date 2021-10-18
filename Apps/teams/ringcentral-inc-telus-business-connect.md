@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430994"
+ms.locfileid: "60445194"
 ---
 # <a name="telus-business-connect"></a>TELUS Business Connect
 
@@ -37,7 +37,7 @@ RingCentral， Inc. 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | RingCentral, Inc. |
 | 合作伙伴网站的 URL | [https://www.ringcentral.com](https://www.ringcentral.com) |
-| Teams信息页的 URL | [https://appsource.microsoft.com/en-us/product/office/WA2000...](https://appsource.microsoft.com/en-us/product/office/WA200002300) |
+| "Teams应用程序信息"页的 URL | [https://appsource.microsoft.com/en-us/product/office/WA2000...](https://appsource.microsoft.com/en-us/product/office/WA200002300) |
 | 隐私策略的 URL | [https://www.telus.com/en/about/privacy/](https://www.telus.com/en/about/privacy/) |
 | 使用条款 URL | [https://telus.com/BusinessConnect/ServiceTerms](https://telus.com/BusinessConnect/ServiceTerms) |
 
@@ -53,12 +53,12 @@ RingCentral， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegated |  允许应用程序通过日历发送会议邀请事件 | 无 | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
->| User.Read | delegated |  允许应用读取用户个人资料&#8217;电子邮件 (名称) ，以便最终进行联系人匹配。 并且允许用户登录，并关联其 O365 帐户和 RingCentral 帐户 |  电子邮件、名字、姓氏 | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| User.Read | delegated |  允许应用读取用户的基本个人资料&#8217;电子邮件 (名称) ，以便最终进行联系人匹配。 并且允许用户登录，并关联其 O365 帐户和 RingCentral 帐户 |  电子邮件、名字、姓氏 | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 >| User.Read.All | delegated | 允许应用程序读取用户的完整个人资料及电话号码，以便使用我们的服务进行电话呼叫。 | 无 | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 >| offline_access | delegated |  允许应用程序获取和更新 oauth 令牌 |  访问令牌、用于访问 MS Graph API 的刷新令牌 | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 
@@ -78,7 +78,7 @@ RingCentral， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -103,7 +103,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 RingCentral， Inc. 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+此信息由 RingCentral， Inc. 提供，用于说明此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
 
 | **Information** | **响应** |
 |:----------------|:-------------|

@@ -6,14 +6,14 @@ ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关 Power BI 协作、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
+description: 有关 CSA STAR 注册表中 Power BI 协作、其数据处理策略、Microsoft Cloud App Security应用程序目录信息和安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8f5b4117ce5508d627bea6878d5c4ac00d2b2677
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: a71a8baab7328dfc139f8ee4f269c4eec5305611
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413936"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444898"
 ---
 # <a name="power-bi-collaboration"></a>Power BI 协作
 
@@ -51,7 +51,7 @@ Ataira 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -59,7 +59,7 @@ Ataira 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -75,7 +75,7 @@ Ataira 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >填充报表和仪表板Power BI身份验证所需的元数据，以Graph Teams API。 可以在网站上找到更多数据和隐私策略。 https://www.ataira.com/PrivacyPolicy 然后在"应用配置"页上也专门针对数据隐私。 https://www.ataira.com/Microsoft/PowerBI/CollaborationSupport
 
@@ -133,4 +133,3 @@ Ataira 已提供有关此应用如何处理身份验证、授权、应用程序�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 Outlook (Official) 的 Jira 云的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 122875d5bd68dc375ef5960a8583b03addbdff0f
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6d8ec55284baf0275551495bc1214949302a4573
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411246"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60442177"
 ---
-# <a name="jira-cloud-for-outlook-official"></a>Jira Cloud for Outlook (official) 
+# <a name="jira-cloud-for-outlook-official"></a>Jira Cloud for Outlook (Official) 
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,9 +31,9 @@ ms.locfileid: "60411246"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Jira Cloud for Outlook (official)  |
+| 应用名称 | Jira Cloud for Outlook (Official)  |
 | ID | WA200000056 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows、mac Outlook 2016 或更高版本、Outlook iOS 版、Outlook Android 版Outlook 网页版 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本Windows、Outlook 2016 Mac 或更高版本、Outlook iOS 版、Outlook Android 版Outlook 网页版 |
 | 合作伙伴公司名称 | Atlassian.com |
 | 合作伙伴网站的 URL | [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira) |
 | 隐私策略的 URL | [https://www.msteams-atlassian.com/privacy-policy/](https://www.msteams-atlassian.com/privacy-policy/) |
@@ -51,12 +51,12 @@ ms.locfileid: "60411246"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -76,7 +76,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 >对于信息，你有一些可用的选择。 以下是这些选项的摘要、如何练习它们以及任何限制。
 
-你的选择：你有权请求你的信息副本、反对我们使用你的信息 (包括出于营销目的) 、请求删除或限制你的信息，或者请求采用结构化的电子格式的信息。 下面我们将介绍用于提出这些请求的工具和过程。 通过登录到服务或帐户内的可用设置，可以练习一些选择。 如果服务由管理员管理 (请参阅下面的"通知给最终用户) ，您可能需要联系管理员，以 &quot; &quot; &quot; &quot; 首先协助处理请求。 对于所有其他请求，你可以联系我们，如下面的联系我们部分所述来请求帮助。
+你的选择：你有权请求你的信息副本、反对我们使用你的信息 (包括出于营销目的) 、请求删除或限制你的信息，或者请求采用结构化的电子格式的信息。 下面我们将介绍用于提出这些请求的工具和过程。 通过登录到服务或帐户内的可用设置，可以练习一些选择。 如果服务由管理员管理 (请参阅) 下面的"通知给最终用户"，您可能需要联系管理员，以便首先 &quot; &quot; &quot; &quot; 协助处理请求。 对于所有其他请求，你可以联系我们，如下面的联系我们部分所述来请求帮助。
 
 在某些情况下，你的请求和选择可能会受到限制：例如，如果满足你的请求将显示有关其他人的信息，或者如果你要求删除法律允许我们或你的管理员保留的信息或具有令人信服的合法利益保留的信息。 当你要求我们和第三方共享数据（例如，通过安装第三方应用）时，你将需要直接与这些第三方服务提供商联系，以删除或以其他方式限制你的信息。 如果你有未解决的问题，你可能有权向你居住在的国家/地区、工作地点或觉得你的权利遭到侵犯的数据保护机构提出投诉。
 
@@ -114,5 +114,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

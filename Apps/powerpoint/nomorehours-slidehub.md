@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SlideHub 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: dacb6758c2fe3d1d551daec80bc53642b3e6b607
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 245920d3a1baf5e895c37dfedb7de6b853818cb6
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410506"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434701"
 ---
 # <a name="slidehub"></a>SlideHub
 
@@ -51,11 +51,11 @@ Nomorehours 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | 应用程序 | 电子邮件和名称。 电子邮件在应用程序中用作用户名。 收集电子邮件有助于更快地注册和登录应用程序。 在注册事件的情况下使用名称。 | 电子邮件用于通过 Office 365，在某些情况下，注册已代表他们接受条款的组织成员的用户。 | [33ccef75-8248-44e8-88d3-24526ca9c2d3](https://docs.microsoft.com/microsoft-365-app-certification/azure/33ccef75-8248-44e8-88d3-24526ca9c2d3) |
+>| User.Read | 应用程序 | 电子邮件和名称。 电子邮件在应用程序中用作用户名。 收集电子邮件有助于更快地注册和登录应用程序。 在注册事件的情况下使用名称。 | 电子邮件用于通过 Office 365在某些情况下注册已代表他们接受条款的组织成员的用户。 | [33ccef75-8248-44e8-88d3-24526ca9c2d3](https://docs.microsoft.com/microsoft-365-app-certification/azure/33ccef75-8248-44e8-88d3-24526ca9c2d3) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
@@ -68,7 +68,7 @@ Nomorehours 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -113,4 +113,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

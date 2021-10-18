@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430954"
+ms.locfileid: "60432837"
 ---
 # <a name="now-virtual-agent"></a>Now Virtual Agent
 
@@ -37,7 +37,7 @@ ServiceNow 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ServiceNow |
 | 合作伙伴网站的 URL | [https://www.servicenow.com/](https://www.servicenow.com/) |
-| 应用程序Teams页的 URL | [https://docs.servicenow.com/bundle/london-servicenow-platfo...](https://docs.servicenow.com/bundle/london-servicenow-platform/page/administer/virtual-agent/task/install-va-integrations.html#install-va-integrations) |
+| Teams信息页的 URL | [https://docs.servicenow.com/bundle/london-servicenow-platfo...](https://docs.servicenow.com/bundle/london-servicenow-platform/page/administer/virtual-agent/task/install-va-integrations.html#install-va-integrations) |
 | 隐私策略的 URL | [https://www.servicenow.com/service-privacy.html](https://www.servicenow.com/service-privacy.html) |
 | 使用条款 URL | [https://www.servicenow.com/terms-of-use.html](https://www.servicenow.com/terms-of-use.html) |
 
@@ -53,7 +53,7 @@ ServiceNow 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -75,7 +75,7 @@ ServiceNow 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >ServiceNow 未开箱即用。 客户可以利用虚拟代理框架来构建可能访问组织或最终用户信息的其他功能。 用户在与机器人交互期间可能会键入个人身份信息，并且将该信息发送到 ServiceNow。
 

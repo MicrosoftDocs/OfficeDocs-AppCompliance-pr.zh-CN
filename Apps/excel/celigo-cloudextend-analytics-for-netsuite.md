@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: CloudExtend Analytics for NetSuite 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3dc8880f51ad68e09bb71276a33b9b2a864a8eaa
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e02f0c9f31495e9ab9e388859b9240e9b05bc534
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413213"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60442274"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics for NetSuite
 
@@ -63,7 +63,7 @@ ms.locfileid: "60413213"
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Chargebee、NetSuite、Salesforce、Intercom、LogRocket、Amazon AWS | Org name， NetSuite Account number， Domain of Org email addresses， Billing contact information | 许可证预配、验证和计费 客户支持、疑难解答和帐户管理 |
 
@@ -129,4 +129,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

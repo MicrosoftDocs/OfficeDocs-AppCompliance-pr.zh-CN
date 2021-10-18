@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Trivia 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f2e79a1843977a1c8c1ea0f62259cfa4bde8f076
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: cb6a1e4c70135aff7286824373b441cb2b045c60
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410846"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445184"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -37,7 +37,7 @@ Springworks HR Tech 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Springworks HR Tech |
 | 合作伙伴网站的 URL | [https://www.springworks.in](https://www.springworks.in) |
-| 应用程序Teams页的 URL | [https://www.springworks.in/trivia](https://www.springworks.in/trivia) |
+| "Teams应用程序信息"页的 URL | [https://www.springworks.in/trivia](https://www.springworks.in/trivia) |
 | 隐私策略的 URL | [https://trivia.springworks.in/policy](https://trivia.springworks.in/policy) |
 | 使用条款 URL | [https://trivia.springworks.in/tnc](https://trivia.springworks.in/tnc) |
 
@@ -53,18 +53,18 @@ Springworks HR Tech 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Read.All | delegated | 否 | 获取用户Teams的用户列表 | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 >| Team.ReadBasic.All | delegated | 是，存储已添加自动程序的团队列表 | 收集有关工作区中所有团队的基本信息 | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
->| User.Read.All | delegated | 是，用于存储用户的唯一 aadObjectId。 用户的各种详细信息，如用户名、电子邮件等，并显示在"Trivia"仪表板上 | 获取工作区中所有用户的详细信息 | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| User.Read.All | delegated | 是，用于存储用户的唯一 aadObjectId。 用户的各种详细信息，如用户名、电子邮件等，并显示在 Trivia 仪表板上 | 获取工作区中所有用户的详细信息 | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 >| openid | delegated | 是，用于存储登录应用的用户。 |  允许用户将应用与帐户一同使用，允许应用使用用户数据 | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 >| 个人资料 | delegated | 是，存储测验和其他功能的用户 ID 和主机名称，并唯一标识它们 | 若要读取用户的基本个人资料信息（如用户名、电子邮件） | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -74,9 +74,9 @@ Springworks HR Tech 提供给 Microsoft 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 此数据用于显示和存储测验和其他此类功能的参与者列表 | 名称、电子邮件 | 是，存储测验的主机和参与者的数据，以及用于分析和与主机通信的其他功能（如果出现错误） |
 
@@ -129,4 +129,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

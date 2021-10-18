@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430984"
+ms.locfileid: "60440990"
 ---
 # <a name="in-case-of-crisis"></a>发生危机时
 
@@ -37,7 +37,7 @@ ms.locfileid: "60430984"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | RockDove Solutions, Inc. |
 | 合作伙伴网站的 URL | [https://www.rockdovesolutions.com](https://www.rockdovesolutions.com) |
-| 应用程序Teams页的 URL | [https://www.rockdovesolutions.com/in-case-of-crisis/in-case...](https://www.rockdovesolutions.com/in-case-of-crisis/in-case-of-crisis-platform) |
+| Teams信息页的 URL | [https://www.rockdovesolutions.com/in-case-of-crisis/in-case...](https://www.rockdovesolutions.com/in-case-of-crisis/in-case-of-crisis-platform) |
 | 隐私策略的 URL | [https://www.rockdovesolutions.com/privacy-policy](https://www.rockdovesolutions.com/privacy-policy) |
 | 使用条款 URL | [https://www.rockdovesolutions.com/terms-of-use](https://www.rockdovesolutions.com/terms-of-use) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60430984"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -85,7 +85,7 @@ ms.locfileid: "60430984"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >电子邮件地址用作系统内的主用户名。  当客户端是最新的时，将保留客户端的用户信息，在客户停止续订其服务合同后，将删除这些信息。
 
@@ -115,7 +115,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |

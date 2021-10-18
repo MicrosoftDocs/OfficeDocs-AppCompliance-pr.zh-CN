@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Evernote 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 06ceedcb926f8e859f2dba4f97bf68e1be5f897d
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 953d06589f6e008f2f24f7c791483ea6cdbc5891
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410255"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60435536"
 ---
 # <a name="evernote"></a>Evernote
 
@@ -37,7 +37,7 @@ Evernote 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Evernote |
 | 合作伙伴网站的 URL | [https://evernote.com](https://evernote.com) |
-| "Teams应用程序信息"页的 URL | [https://evernote.com/about-us](https://evernote.com/about-us) |
+| Teams信息页的 URL | [https://evernote.com/about-us](https://evernote.com/about-us) |
 | 隐私策略的 URL | [https://evernote.com/privacy/policy](https://evernote.com/privacy/policy) |
 | 使用条款 URL | [https://evernote.com/legal/terms-of-service](https://evernote.com/legal/terms-of-service) |
 
@@ -53,7 +53,7 @@ Evernote 提供了此信息，这些信息与此应用程序如何收集和存�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -73,7 +73,7 @@ Evernote 提供了此信息，这些信息与此应用程序如何收集和存�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -107,4 +107,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

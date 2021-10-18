@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于 ecBooking 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 418f653876e6a93d6772317016e460fc0da70954
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 5ab25f148b4e4b92feacd559ab353ac95c67ccdb
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411700"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434651"
 ---
 # <a name="ecbooking"></a>ecBooking
 
@@ -37,7 +37,7 @@ ms.locfileid: "60411700"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Expert Systems IVR(Asia) Co.Ltd. |
 | 合作伙伴网站的 URL | [https://www.esi-asia.com](https://www.esi-asia.com) |
-| 应用程序Teams页的 URL | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/) |
+| "Teams应用程序信息"页的 URL | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/) |
 | 隐私策略的 URL | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/#1510822239639-efecac03-d43200b0-aa88) |
 | 使用条款 URL | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/#1598241760681-29d114e0-5c2b) |
 
@@ -138,4 +138,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

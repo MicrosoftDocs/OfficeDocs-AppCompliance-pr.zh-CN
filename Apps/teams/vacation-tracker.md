@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关休假跟踪程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1acd1c49f70e9571c1ec71dbf110fd898b18d5ca
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 8756d04cf394bdf7b6126f32764696466b34d729
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413263"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60440585"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -37,7 +37,7 @@ ms.locfileid: "60413263"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Vacation Tracker |
 | 合作伙伴网站的 URL | [https://vacationtracker.io](https://vacationtracker.io) |
-| Teams信息页的 URL | [https://vacationtracker.io/vacation-calendar-tracker-featur...](https://vacationtracker.io/vacation-calendar-tracker-features/) |
+| 应用程序Teams页的 URL | [https://vacationtracker.io/vacation-calendar-tracker-featur...](https://vacationtracker.io/vacation-calendar-tracker-features/) |
 | 隐私策略的 URL | [https://vacationtracker.io/privacy-policy/](https://vacationtracker.io/privacy-policy/) |
 | 使用条款 URL | [https://vacationtracker.io/terms-of-service/](https://vacationtracker.io/terms-of-service/) |
 
@@ -53,12 +53,12 @@ ms.locfileid: "60413263"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Read.All | delegated | 在用户设置其每周或每日通知时，我们会读取公共频道的 ID 和名称。 | 用户可以选择希望从休假跟踪程序接收每日或每周通知的频道。 当用户选择其首选频道时，我们将存储通道 ID。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| Team.ReadBasic.All | delegated | 我们列出Microsoft Teams注册期间加入的团队，以允许用户选择要注册休假跟踪程序的团队。 他们也可以注册整个组织。 | 只有当用户Microsoft Teams作为单个团队注册休假跟踪程序，而不是作为整个组织注册为一 (，我们才存储所选团队的) 。 我们使用团队 ID 将已登录的用户与休假跟踪程序中的现有帐户连接。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| Team.ReadBasic.All | delegated | 我们列出Microsoft Teams注册期间加入的团队用户，以允许用户选择要注册休假跟踪程序的团队。 他们也可以注册整个组织。 | 只有当用户Microsoft Teams作为单个团队注册休假跟踪程序，而不是作为整个组织注册为一 (，我们才存储所选团队的) 。 我们使用团队 ID 将已登录的用户与休假跟踪程序中的现有帐户连接。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| User.Read | delegated | 我们将收集基本用户的信息，包括其名称、ID 和租户 ID。 我们使用此数据在休假跟踪器中将登录的用户连接到其组织。 | 我们存储用户的名称、ID 和租户 ID。 我们使用此数据在休假跟踪器中将登录的用户连接到其组织。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| User.Read.All | delegated | 我们的用户可以从他们的组织或Microsoft 365导入Microsoft Teams用户。 我们使用此权限仅为所选团队或组织导入Microsoft Teams用户。 | 我们存储有关已导入用户的基本信息，包括他们的姓名、电子邮件地址和用户 ID。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| User.ReadBasic.All | delegated | 我们允许用户从他们的组织或他们的团队导入Microsoft Teams用户。 我们使用此权限在导入弹出窗口中列出可用用户及其电子邮件地址。 | 当用户选择要导入休假跟踪程序的同事时，我们将存储有关这些导入用户的基本信息，包括他们的姓名、电子邮件地址和用户 ID。 | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
@@ -74,7 +74,7 @@ ms.locfileid: "60413263"
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Stripe、 AWS、Crisp、Customer.io、Segment、Segment、Google Tag Manager | 用户输入 (输入的公司名称)  | 当用户注册时，他们输入其公司名称，我们将此名称用作产品内的组织名称 |
+>| Stripe, AWS, Crisp, Customer.io, Segment, Amplitude, Google Tag Manager | 用户输入 (输入的公司名称)  | 当用户注册时，他们输入其公司名称，我们将此名称用作产品内的组织名称 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
@@ -132,4 +132,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

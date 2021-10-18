@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Degreed 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: fbc3a32f8ee92972908efc96fab15a69bd2d23ab
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 73c33fd0f16cd5fb78d45529495532d9d5ff4f5a
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413844"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60439198"
 ---
 # <a name="degreed"></a>度
 
@@ -37,7 +37,7 @@ Degreed 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | 度 |
 | 合作伙伴网站的 URL | [https://www.degreed.com](https://www.degreed.com) |
-| "Teams应用程序信息"页的 URL | [https://degreed.zendesk.com/hc/en-us/articles/360018873679-...](https://degreed.zendesk.com/hc/en-us/articles/360018873679-Welcome-to-the-Degreed-Microsoft-Teams-App) |
+| 应用程序Teams页的 URL | [https://degreed.zendesk.com/hc/en-us/articles/360018873679-...](https://degreed.zendesk.com/hc/en-us/articles/360018873679-Welcome-to-the-Degreed-Microsoft-Teams-App) |
 | 隐私策略的 URL | [https://degreed.com/about/privacy](https://degreed.com/about/privacy) |
 | 使用条款 URL | [https://degreed.com/about/terms](https://degreed.com/about/terms) |
 
@@ -64,7 +64,7 @@ Degreed 提供给 Microsoft 的信息：
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| 单片、Datadog、Domo、Flakeflake;Sendgrid | 用户名、用户配置文件密钥、OrgID、用于分析的 IP 地址。  电子邮件服务的名、姓和电子邮件地址。 | 调试和分析;与最终用户进行平台电子邮件通信 |
 
@@ -124,4 +124,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

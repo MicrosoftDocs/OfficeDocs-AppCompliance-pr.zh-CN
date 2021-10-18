@@ -6,14 +6,14 @@ ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关 Bigger则 eLearning 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 有关 Bigger 则 eLearning 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 025e8b509f13737c71d78850e38c524bda352e3b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c21de4be4d9e3d25636e9283a391e4020807d730
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412542"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444171"
 ---
 # <a name="bigger-brains-elearning"></a>Bigger Brains eLearning
 
@@ -37,7 +37,7 @@ ms.locfileid: "60412542"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Biggerbrains |
 | 合作伙伴网站的 URL | [https://getbiggerbrains.com](https://getbiggerbrains.com) |
-| 应用程序Teams页的 URL | [https://usedapplicensing001.azurewebsites.net/teamsApp/inde...](https://usedapplicensing001.azurewebsites.net/teamsApp/index.html) |
+| Teams信息页的 URL | [https://usedapplicensing001.azurewebsites.net/teamsApp/inde...](https://usedapplicensing001.azurewebsites.net/teamsApp/index.html) |
 | 隐私策略的 URL | [https://getbiggerbrains.com/privacy-policy/](https://getbiggerbrains.com/privacy-policy/) |
 | 使用条款 URL | [https://getbiggerbrains.com/privacy-legal/](https://getbiggerbrains.com/privacy-legal/) |
 
@@ -53,7 +53,7 @@ This information has been provided by Biggerbrains about how this app collects a
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -75,7 +75,7 @@ This information has been provided by Biggerbrains about how this app collects a
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >存储电子邮件地址。 所有数据将在许可证到期时或根据用户/客户端的请求删除。
 
@@ -109,4 +109,3 @@ This information has been provided by Biggerbrains about how this app handles au
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

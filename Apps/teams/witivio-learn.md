@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Learn 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5fc05537fef58efdc5eb2ee7d5f51bfaea07b108
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c72b5800b40d0a587ebed4e8997d698d9eb5a483
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410776"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432867"
 ---
 # <a name="learn"></a>学习
 
@@ -74,7 +74,7 @@ ms.locfileid: "60410776"
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 我们使用名单：1) 授权 (授予对自动程序) 的访问权限，2) 检测第一个名称以提供友好的用户体验;3) 为聊天机器人的业务管理员管理聊天日志 | N/A。 或者自动程序仅个人 |  |
+>| 我们使用名单：1) 授权 (授予对自动程序) 的访问权限，2) 检测名字以提供友好的用户体验;3) 为聊天机器人的业务管理员管理聊天日志 | N/A。 或者自动程序仅个人 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
@@ -82,14 +82,14 @@ ms.locfileid: "60410776"
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >机器人的遥测包含 UPN 和 AAD ID fr 诊断。
-只有 PROD/Run 管理员有权访问生产遥测。 日志存储 90 天，可请求在专用门户上删除 support.witivio.com 或通过电子邮件 dpo@witivio.com
+只有 PROD/Run 管理员有权访问生产遥测。 日志存储 90 天，并可以在专用门户上请求 support.witivio.com 或通过电子邮件删除 dpo@witivio.com
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
 >百里诺仅使用部署在欧洲北部地区的 Azure 组件。 我们使用应用程序见解和 Cosmos DB 进行数据分析和存储。
-对于所有用户（包括管理员）来说，都使用 MFA。 管理员具有用于工作站 (的用户帐户) 访问 Azure 资源的权限帐户。
+对于所有用户（包括管理员）来说，都使用 MFA。 管理员具有一个用户帐户 (工作站) 访问 Azure 资源的权限帐户。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -112,5 +112,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

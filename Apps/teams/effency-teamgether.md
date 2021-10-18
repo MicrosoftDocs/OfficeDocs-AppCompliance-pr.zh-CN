@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: TeamGether 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 732342d7f6fe531ec57cfbd53ae425b27b0f1205
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6f13250de4ecb806f55621a8ca00b507feb6b757
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413834"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445082"
 ---
 # <a name="teamgether"></a>TeamGether
 
@@ -37,7 +37,7 @@ EFFENCY 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | EFFENCY |
 | 合作伙伴网站的 URL | [https://www.effency.fr](https://www.effency.fr) |
-| "Teams应用程序信息"页的 URL | [https://www.effency.fr/teams/](https://www.effency.fr/teams/) |
+| 应用程序Teams页的 URL | [https://www.effency.fr/teams/](https://www.effency.fr/teams/) |
 | 隐私策略的 URL | [https://www.effency.fr/protection-des-donnees/](https://www.effency.fr/protection-des-donnees/) |
 | 使用条款 URL | [https://www.effency.fr/conditions-generales/](https://www.effency.fr/conditions-generales/) |
 
@@ -120,4 +120,3 @@ EFFENCY 已提供有关此应用如何处理身份验证、授权、应用程序
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

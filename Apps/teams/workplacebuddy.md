@@ -6,14 +6,14 @@ ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: WorkplaceBuddy 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: WorkplaceBuddy 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: bd37d51a5316ba906d6e7fc1314fe2974d1aa502
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 47d67f1f294781a8b1b80462046d3dd0c0ec5e5a
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412682"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444738"
 ---
 # <a name="workplacebuddy"></a>WorkplaceBuddy
 
@@ -37,7 +37,7 @@ WorkplaceBuddy 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | WorkplaceBuddy |
 | 合作伙伴网站的 URL | [https://www.workplacebuddy.com](https://www.workplacebuddy.com) |
-| "Teams应用程序信息"页的 URL | [https://www.workplacebuddy.com](https://www.workplacebuddy.com) |
+| 应用程序Teams页的 URL | [https://www.workplacebuddy.com](https://www.workplacebuddy.com) |
 | 隐私策略的 URL | [https://www.workplacebuddy.com/privacy-policy.pdf](https://www.workplacebuddy.com/privacy-policy.pdf) |
 | 使用条款 URL | [https://www.workplacebuddy.com/terms-of-use.pdf](https://www.workplacebuddy.com/terms-of-use.pdf) |
 
@@ -127,4 +127,3 @@ WorkplaceBuddy 已提供有关此应用如何处理身份验证、授权、应�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

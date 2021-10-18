@@ -1,5 +1,5 @@
 ---
-title: Stack Overflow 中用于Teams的 Stack Overflow 的应用程序信息
+title: Stack Overflow 中用于Teams的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/17/2019
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Stack Overflow for Teams 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3c6493326d8b58ad4c8e7e4fc5486a7f03cd2b8b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6b56ce25aee5e95b1111a9396c193e71d4ea2c72
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410836"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60437371"
 ---
 # <a name="stack-overflow-for-teams"></a>Stack Overflow for Teams
 
@@ -52,7 +52,7 @@ Stack Overflow 提供了此信息，这些信息与此应用程序如何收集�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -67,18 +67,18 @@ Stack Overflow 提供了此信息，这些信息与此应用程序如何收集�
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 机器人使用对话 API 将消息直接发送到团队聊天。 机器人还使用名单直接向用户发送消息 | 我们不存储名单数据 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >不正确。 在 SO Teams 产品Teams MS 和 SO Teams映射。
 MS Teams向我们发送其可识别 ID，我们会将其保存在内部以映射用户。
-此外，MS Teams会向我们发送用于自动程序请求的 JWT (防止) 和 Tab 请求使用 SO Cookie 进行验证。
+此外，MS Teams会向我们发送聊天机器人请求的 JWT， (使用 SO cookie) 验证请求伪造和 Tab 请求验证。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -107,5 +107,4 @@ MS Teams向我们发送其可识别 ID，我们会将其保存在内部以映射
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

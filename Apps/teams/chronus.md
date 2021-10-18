@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Chronus 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6b674ec46174e65bc870c4359893fddd815e3c9e
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4dc60cf6a9bc47f2e0ad0d0e1ec50b729adec0dc
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415159"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60439215"
 ---
 # <a name="chronus"></a>Chronus
 
@@ -37,7 +37,7 @@ Chronus 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Chronus |
 | 合作伙伴网站的 URL | [https://chronus.com](https://chronus.com) |
-| 应用程序Teams页的 URL | [https://chronus.com/services](https://chronus.com/services) |
+| Teams信息页的 URL | [https://chronus.com/services](https://chronus.com/services) |
 | 隐私策略的 URL | [https://chronus.com/privacy-policy](https://chronus.com/privacy-policy) |
 | 使用条款 URL | [https://chronus.com/service-terms-conditions](https://chronus.com/service-terms-conditions) |
 
@@ -53,7 +53,7 @@ Chronus 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -68,14 +68,14 @@ Chronus 提供给 Microsoft 的信息：
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 标识 MS 团队用户并发送通知 | MS Teams 用户 ID | 向 MS 团队用户发送主动通知 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -120,4 +120,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

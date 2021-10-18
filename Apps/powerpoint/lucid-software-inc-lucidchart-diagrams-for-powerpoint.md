@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于 PowerPoint 的 Lucidchart 图表的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f07f093d177c4e38c01930a627cab149e18a1ab5
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 15ac486b0c6c5b08ad3621c9785d067cab89400d
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413956"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445501"
 ---
 # <a name="lucidchart-diagrams-for-powerpoint"></a>用于图表的 Lucidchart PowerPoint
 
@@ -61,7 +61,7 @@ Lucid Software Inc 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -71,7 +71,7 @@ Lucid Software Inc 提供给 Microsoft 的信息：
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Lucidchart 数据存储在 AWS 中。 |  | 我们不使用任何 Microsoft API。 我们使用 openID 获取基本用户数据来执行 SSO。 我们使用其文件选取器 API，但这不会授予我们访问用户文件的访问权限，只是提供通过选取器提交给我们的文件的访问权限。 |
 
@@ -110,5 +110,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

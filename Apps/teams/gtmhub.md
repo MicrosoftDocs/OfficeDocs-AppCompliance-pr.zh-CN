@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Gtmhub 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 85b35713d3e6f558920e49e759be31516bc72442
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b33a6e3edf18ba4a1bd24acb5ec690f84188ca1c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410215"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60438926"
 ---
 # <a name="gtmhub"></a>Gtmhub
 
@@ -37,7 +37,7 @@ Gtmhub 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Gtmhub |
 | 合作伙伴网站的 URL | [https://www.gtmhub.com](https://www.gtmhub.com) |
-| 应用程序Teams页的 URL | [https://help.gtmhub.com/en/articles/3558083-how-to-view-and...](https://help.gtmhub.com/en/articles/3558083-how-to-view-and-update-okrs-from-ms-teams) |
+| "Teams应用程序信息"页的 URL | [https://help.gtmhub.com/en/articles/3558083-how-to-view-and...](https://help.gtmhub.com/en/articles/3558083-how-to-view-and-update-okrs-from-ms-teams) |
 | 隐私策略的 URL | [https://help.gtmhub.com/en/articles/633973-privacy-policy](https://help.gtmhub.com/en/articles/633973-privacy-policy) |
 | 使用条款 URL | [https://gtmhub.com/terms-of-service](https://gtmhub.com/terms-of-service) |
 
@@ -107,4 +107,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: WorkInSync 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 746a7b7c52d8905aaf65d86bc0f15202f486eb82
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 35a505013b59bdd9cc0d9b40986acea1f1c19b53
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413654"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60442714"
 ---
 # <a name="workinsync"></a>WorkInSync
 
@@ -37,7 +37,7 @@ MoveInSync 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | MoveInSync |
 | 合作伙伴网站的 URL | [https://www.workinsync.io](https://www.workinsync.io) |
-| 应用程序Teams页的 URL | [https://www.workinsync.io/teams-app-for-workinsync/](https://www.workinsync.io/teams-app-for-workinsync/) |
+| "Teams应用程序信息"页的 URL | [https://www.workinsync.io/teams-app-for-workinsync/](https://www.workinsync.io/teams-app-for-workinsync/) |
 | 隐私策略的 URL | [https://www.workinsync.io/privacy-policy/](https://www.workinsync.io/privacy-policy/) |
 | 使用条款 URL | [https://www.workinsync.io/terms-and-condition/](https://www.workinsync.io/terms-and-condition/) |
 
@@ -53,11 +53,11 @@ MoveInSync 提供了此信息，这些信息与此应用程序如何收集和存
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | delegated | 1。获取可传递的组的成员详细信息。 在频道上下文中安装时，它们用于"团队活动"选项卡。 2. 获取组织中用户的用户配置文件 &amp;  详细信息列表。 当在个人上下文中安装"团队活动"选项卡时，会使用这些选项卡，作为回退以显示预览，以防人员 API 在非 outlook 用户 (失败时)  | 无 | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| Directory.Read.All | delegated | 1。获取可传递的组的成员详细信息。 在频道上下文中安装时，它们用于"团队活动"选项卡。 2. 获取组织中用户的用户配置文件 &amp;  详细信息列表。 当在个人上下文中安装"团队活动"选项卡时，会使用这些选项卡作为回退显示团队成员的预览，以防人员 API 在非 outlook 用户 (失败)  | 无 | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| People.Read | delegated | 若要获取与要显示在"团队活动"选项卡中的已登录用户最相关的人员，则安装在个人上下文中。 | 无 | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| Presence.Read | delegated | 在个人和频道上下文中的"团队活动"选项卡中获取用户列表状态信息 | 无 | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| Presence.Read.All | delegated | 在个人和频道上下文中的"团队活动"选项卡中获取用户列表状态信息 | 无 | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
@@ -69,7 +69,7 @@ MoveInSync 提供了此信息，这些信息与此应用程序如何收集和存
 >| 个人资料 | delegated | 使用客户端库获取 SSO Teams需要 | 无 | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -77,9 +77,9 @@ MoveInSync 提供了此信息，这些信息与此应用程序如何收集和存
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 1. 我们通过用户原则名称 (员工的电子邮件地址，) WorkInSync 注册用户列表进行匹配。  | 否 |  |
 
@@ -116,7 +116,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 多重身份验证 |
@@ -133,4 +133,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

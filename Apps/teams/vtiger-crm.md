@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Vtiger CRM 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: be7e2463ce3324b2831630cae662813af698a4f6
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3deae708d6b821fae718e0ea6b190cd1b28c1788
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411397"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444629"
 ---
 # <a name="vtiger-crm"></a>Vtiger CRM
 
@@ -122,4 +122,3 @@ Vtiger 已提供有关此应用程序如何处理身份验证、授权、应用�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

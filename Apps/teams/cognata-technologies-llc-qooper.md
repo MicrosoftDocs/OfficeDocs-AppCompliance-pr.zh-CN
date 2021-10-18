@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Qooper 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7556c8dd09095db38f2cacbbd4a5314f8ed47e75
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e61bde5f71e86f38cd0a1f4fd5e31b28f16c4c7b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412492"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432847"
 ---
 # <a name="qooper"></a>Qooper
 
@@ -28,7 +28,7 @@ ms.locfileid: "60412492"
 
 ### <a name="general-information"></a>一般信息
 
-CO的TA TECHNOLOGIES， LLC 提供给 Microsoft 的信息：
+CO一TA TECHNOLOGIES， LLC 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -37,7 +37,7 @@ CO的TA TECHNOLOGIES， LLC 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | COGNATA TECHNOLOGIES, LLC |
 | 合作伙伴网站的 URL | [https://qooper.io](https://qooper.io) |
-| 应用程序Teams页的 URL | [https://qooper.io](https://qooper.io) |
+| "Teams应用程序信息"页的 URL | [https://qooper.io](https://qooper.io) |
 | 隐私策略的 URL | [https://qooper.io/user-privacy-policy](https://qooper.io/user-privacy-policy) |
 | 使用条款 URL | [https://qooper.io/terms-of-use](https://qooper.io/terms-of-use) |
 
@@ -119,4 +119,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

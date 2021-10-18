@@ -6,14 +6,14 @@ ms.date: 10/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 用于"学校日健康"的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 用于"学校日健康"的所有可用的安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: babc51460ddb23fd19007f2ebfc8ebab00300a69
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: ff37e7b9bb25090f65793d99c5ff994fc6af6d65
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60408421"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60440725"
 ---
 # <a name="school-day-wellbeing"></a>School Day Wellbeing
 
@@ -37,7 +37,7 @@ ms.locfileid: "60408421"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | School Day Helsinki Oy |
 | 合作伙伴网站的 URL | [https://www.schoolday.com](https://www.schoolday.com) |
-| "Teams应用程序信息"页的 URL | [https://www.schoolday.com/en/resources/faq](https://www.schoolday.com/en/resources/faq) |
+| Teams信息页的 URL | [https://www.schoolday.com/en/resources/faq](https://www.schoolday.com/en/resources/faq) |
 | 隐私策略的 URL | [https://www.schoolday.com/privacy](https://www.schoolday.com/privacy) |
 | 使用条款 URL | [https://www.schoolday.com/eula](https://www.schoolday.com/eula) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60408421"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -68,7 +68,7 @@ ms.locfileid: "60408421"
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -89,7 +89,7 @@ ms.locfileid: "60408421"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >用户帐户、用户所属的组以及问题答案数据。 删除帐户后，数据在 90 天内删除。
 
@@ -97,7 +97,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->组织管理员可以通过学校日管理员 (CRUD) 控制数据。 
+>组织管理员可以通过学校日管理员 (CRUD) 数据。 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -135,4 +135,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: BravoNow 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 742d23bb2fdc8b91f0636fb0bb1842cac2ee05fa
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d525760a70be0b96c494925a60450ed9441317c6
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410856"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434631"
 ---
 # <a name="bravonow"></a>BravoNow
 
@@ -37,7 +37,7 @@ SpadeWorx 软件服务提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SpadeWorx 软件服务 |
 | 合作伙伴网站的 URL | [https://www.spadeworx.com](https://www.spadeworx.com) |
-| 应用程序Teams页的 URL | [https://bravo.pozitive.io](https://bravo.pozitive.io) |
+| "Teams应用程序信息"页的 URL | [https://bravo.pozitive.io](https://bravo.pozitive.io) |
 | 隐私策略的 URL | [https://docs.pozitive.io/BravoApp_Privacy%20Policy.pdf](https://docs.pozitive.io/BravoApp_Privacy%20Policy.pdf) |
 | 使用条款 URL | [https://docs.pozitive.io/BRAVO_TermsOfService.pdf](https://docs.pozitive.io/BRAVO_TermsOfService.pdf) |
 
@@ -134,4 +134,3 @@ SpadeWorx 软件服务提供了此信息，这些信息与此应用程序如何�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

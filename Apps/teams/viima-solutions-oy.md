@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Viima 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5b9233ff1a9a5cb8613ac7a9c6c2e1e00e71e860
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4e75995c34daf7c50c9c0ec0e6843c776c55ab1c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414879"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434531"
 ---
 # <a name="viima"></a>Viima
 
@@ -37,7 +37,7 @@ Viima Solutions Oy 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Viima Solutions Oy |
 | 合作伙伴网站的 URL | [https://www.viima.com](https://www.viima.com) |
-| "Teams应用程序信息"页的 URL | [https://www.viima.com/product](https://www.viima.com/product) |
+| 应用程序Teams页的 URL | [https://www.viima.com/product](https://www.viima.com/product) |
 | 隐私策略的 URL | [https://www.viima.com/privacy](https://www.viima.com/privacy) |
 | 使用条款 URL | [https://www.viima.com/terms](https://www.viima.com/terms) |
 
@@ -133,4 +133,3 @@ Viima Solutions Oy 提供了此信息，这些信息与此应用程序如何处�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

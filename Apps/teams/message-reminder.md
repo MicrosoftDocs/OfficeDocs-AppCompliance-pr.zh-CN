@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关邮件提醒的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 186c6ba05f9d6f0fc95f2beeeae7c0ef9f4e6b38
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f4109bcdc2e36d1131f61b46f62449d97bab123c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414528"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444861"
 ---
 # <a name="message-reminder"></a>消息提醒程序
 
@@ -49,16 +49,16 @@ ms.locfileid: "60414528"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; 提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
+此信息由 &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; 提供，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -66,7 +66,7 @@ ms.locfileid: "60414528"
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -98,7 +98,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; 提供，用于了解此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+此信息已由 &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; 提供，这些信息与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -107,4 +107,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

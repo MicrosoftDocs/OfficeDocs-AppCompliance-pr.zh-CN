@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Zignals 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9a9e3f1cd6456e1e3c943091325caaff8b934b98
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f0c3c319b43d72bf3c825700cfe3bfe1e93e0d5f
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413113"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434691"
 ---
 # <a name="zignals"></a>Zignals
 
@@ -114,7 +114,7 @@ Alight 已提供有关此应用如何处理身份验证、授权、应用程序�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -130,4 +130,3 @@ Alight 已提供有关此应用如何处理身份验证、授权、应用程序�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -6,14 +6,14 @@ ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Planyway 团队日历的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Planyway 团队日历的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 560e562383d317e3940876627f99559b708f8687
 ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430974"
+ms.locfileid: "60434421"
 ---
 # <a name="planyway-team-calendar"></a>Planyway Team Calendar
 
@@ -37,7 +37,7 @@ ms.locfileid: "60430974"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Rubius |
 | 合作伙伴网站的 URL | [https://rubius.com](https://rubius.com) |
-| Teams信息页的 URL | [https://planyway.com](https://planyway.com) |
+| 应用程序Teams页的 URL | [https://planyway.com](https://planyway.com) |
 | 隐私策略的 URL | [https://planyway.com/legal/privacy-policy](https://planyway.com/legal/privacy-policy) |
 | 使用条款 URL | [https://planyway.com/legal/terms-of-use](https://planyway.com/legal/terms-of-use) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60430974"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -73,7 +73,7 @@ ms.locfileid: "60430974"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 

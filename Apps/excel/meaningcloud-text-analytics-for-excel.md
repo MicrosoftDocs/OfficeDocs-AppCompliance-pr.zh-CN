@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 Excel 的 MeaningCloud 文本分析的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7f35702530ddb9b9f4fed03e3f2594e97ab41b3b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 26de4f6a9660f4dadff3e61b90c4d9fc29bf051d
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414206"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445109"
 ---
 # <a name="meaningcloud-text-analytics-for-excel"></a>含义云文本分析Excel
 
@@ -111,4 +111,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

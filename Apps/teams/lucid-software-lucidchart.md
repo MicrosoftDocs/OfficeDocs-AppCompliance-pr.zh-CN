@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Lucidchart 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4a81e9672714aab3c5842cf16d06348237ce3375
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 753a8a5b68734d35d3d752812b14f80eb75ff2d6
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412231"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60438808"
 ---
 # <a name="lucidchart"></a>Lucidchart
 
@@ -37,7 +37,7 @@ Lucid Software 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Lucid Software |
 | 合作伙伴网站的 URL | [https://www.lucidchart.com](https://www.lucidchart.com) |
-| "Teams应用程序信息"页的 URL | [https://lucidchart.zendesk.com/](https://lucidchart.zendesk.com/) |
+| 应用程序Teams页的 URL | [https://lucidchart.zendesk.com/](https://lucidchart.zendesk.com/) |
 | 隐私策略的 URL | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
 | 使用条款 URL | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 
@@ -53,7 +53,7 @@ Lucid Software 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -63,13 +63,13 @@ Lucid Software 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| 适用于 Office 的 JavaScript API | 是 | 我们使用 Office OneDrive javascript SDK 从 中OneDrive OneDrive.open () 打开文件选择器。 我们不会生成任何访问令牌，也不向自己OneDrive任何请求;OneDrive文件选择器 SDK 为我们这样做。 我们仅看到用户选择的文件名。 |  | 如果用户使用文件选择器选择OneDrive，我们将存储文件名。 |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -79,7 +79,7 @@ Lucid Software 提供给 Microsoft 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -88,7 +88,7 @@ Lucid Software 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->出于安全和支持原因，我们将记录电子邮件和 IP 地址。 第三方系统中记录日志的所有访问实际上 &amp; 不可更改。 对日志的访问需要 MFA。
+>出于安全和支持原因，我们将记录电子邮件和 IP 地址。 对于记录日志的所有访问 &amp; ，第三方系统实际上不可更改。 对日志的访问需要 MFA。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -117,5 +117,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

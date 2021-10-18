@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: X0PA ROOM 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 080a1ef879f271bfb6332b0ad1e10b677dfebff3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 048732df7ec55c74fb372648fd7495ef939d4d24
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414347"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434621"
 ---
 # <a name="x0pa-room"></a>X0PA 会议室
 
@@ -107,4 +107,3 @@ X0PA AI 新加坡已提供有关此应用如何处理身份验证、授权、应
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
