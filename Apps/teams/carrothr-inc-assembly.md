@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 程序集的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3597930ccf3200a42afe3ac7335199cbe5e9e885
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: ec566b8195ee476fa1b971cd638ebc1899a3a629
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411106"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430864"
 ---
 # <a name="assembly"></a>Assembly
 
@@ -37,7 +37,7 @@ ms.locfileid: "60411106"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | CarrotHR Inc. |
 | 合作伙伴网站的 URL | [https://www.joinassembly.com](https://www.joinassembly.com) |
-| "Teams应用程序信息"页的 URL | [https://www.joinassembly.com/about](https://www.joinassembly.com/about) |
+| 应用程序Teams页的 URL | [https://www.joinassembly.com/about](https://www.joinassembly.com/about) |
 | 隐私策略的 URL | [https://joinassembly.com/privacy-policy](https://joinassembly.com/privacy-policy) |
 | 使用条款 URL | [https://joinassembly.com/terms-of-service](https://joinassembly.com/terms-of-service) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60411106"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -66,7 +66,7 @@ ms.locfileid: "60411106"
 >| 个人资料 | delegated | 用于自动填充程序集并保持与程序集中的更改Microsoft Teams | 用户的全名 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -74,7 +74,7 @@ ms.locfileid: "60411106"
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -139,4 +139,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

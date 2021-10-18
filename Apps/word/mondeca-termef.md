@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: TerMef 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 6444814d2eddd24d070b52dcb5ce330dfd3fbbcd
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 78428ca71ff249ba3803f2dbc67d9b2f06519296
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414287"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430924"
 ---
 # <a name="termef"></a>TerMef
 
@@ -56,7 +56,7 @@ Mondeca 提供了此信息，这些信息与此应用程序如何收集和存储
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -66,7 +66,7 @@ Mondeca 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -74,7 +74,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->L'application ne stocke pas de donn&#233;es &#224; usage parsateurs， hormis les logs du serveur HTTP contenant des adresses IP horodat&#233;es. Il est possible de r&#233;cup&#233;rer le listing des acc&#232;s associ&#233; &#224; une adresse IP， et d'en demander la suppresion.
+>L'application ne stocke pas de donn&#233;es's usage par &#224;'sateurs， hormis les logs du serveur HTTP contenant des adresses IP horodat&#233;es. Il est possible de r&#233;cup&#233;rer le listing des acc&#232;s associ&#233; &#224; une adresse IP， et d'en demander la suppresion.
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -100,4 +100,3 @@ Mondeca 提供了此信息，这些信息与此应用程序如何处理身份验
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: FloQast 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 100e594e6fc080d08e6194318d835c419df9bed8
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 96189442de11e252633031d6927624dd5b9a8e13
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412391"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430834"
 ---
 # <a name="floqast"></a>FloQast
 
@@ -37,7 +37,7 @@ FloQast 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | FloQast |
 | 合作伙伴网站的 URL | [https://floqast.com](https://floqast.com) |
-| "Teams应用程序信息"页的 URL | [https://floqast.com](https://floqast.com) |
+| 应用程序Teams页的 URL | [https://floqast.com](https://floqast.com) |
 | 隐私策略的 URL | [https://floqast.com/services-privacy-policy/](https://floqast.com/services-privacy-policy/) |
 | 使用条款 URL | [https://floqast.com/terms-of-use/](https://floqast.com/terms-of-use/) |
 
@@ -62,7 +62,7 @@ FloQast 提供给 Microsoft 的信息：
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| 可请求获取具有 OII 访问权限的子处理器的完整列表 | 公司名称、公司标识符、公司文件夹结构、公司 URL、公司 GL 帐户信息 | FloQast 是一个关闭的管理解决方案，可处理交付服务中的公司信息和会计信息。 |
 
@@ -123,4 +123,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

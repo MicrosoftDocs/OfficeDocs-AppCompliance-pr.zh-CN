@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: MyHub 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 77d0154b06d7acbdb21e956b8c6b7478ae64e7e6
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 60e092ce616ab93cc661149f5f936b900277f0de
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412562"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430884"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -36,7 +36,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | AvePoint, inc. |
 | 合作伙伴网站的 URL | [https://www.avepoint.com](https://www.avepoint.com) |
-| 应用程序Teams页的 URL | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
+| Teams信息页的 URL | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
 | 隐私策略的 URL | [https://www.avepoint.com/privacy-policy/](https://www.avepoint.com/privacy-policy/) |
 | 使用条款 URL | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 
@@ -52,7 +52,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -81,7 +81,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >是，用户的电子邮件和租户 ID 将显示在日志中。 日志存储在安全的位置，只有授权人员可以在疑难解答过程中访问。 这些日志将在 60 天后存档，用于安全审核，并且将在一年后删除。
 
@@ -112,10 +112,10 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
-| 列出支持的策略类型 | 应用程序与 Azure AD，因此可以使用所有条件访问规则。 |
+| 列出支持的策略类型 | 应用程序与 Azure AD联合，因此可以使用所有条件访问规则。 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
@@ -129,4 +129,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

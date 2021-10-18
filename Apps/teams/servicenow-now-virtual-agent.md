@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: NOW Virtual Agent 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 20ae315016fa0d5cbc960616f09bfd350ceb5c43
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 434764db45a5bbd588f96b225d11bfa9d061eee1
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60408341"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430954"
 ---
 # <a name="now-virtual-agent"></a>Now Virtual Agent
 
@@ -37,7 +37,7 @@ ServiceNow 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ServiceNow |
 | 合作伙伴网站的 URL | [https://www.servicenow.com/](https://www.servicenow.com/) |
-| "Teams应用程序信息"页的 URL | [https://docs.servicenow.com/bundle/london-servicenow-platfo...](https://docs.servicenow.com/bundle/london-servicenow-platform/page/administer/virtual-agent/task/install-va-integrations.html#install-va-integrations) |
+| 应用程序Teams页的 URL | [https://docs.servicenow.com/bundle/london-servicenow-platfo...](https://docs.servicenow.com/bundle/london-servicenow-platform/page/administer/virtual-agent/task/install-va-integrations.html#install-va-integrations) |
 | 隐私策略的 URL | [https://www.servicenow.com/service-privacy.html](https://www.servicenow.com/service-privacy.html) |
 | 使用条款 URL | [https://www.servicenow.com/terms-of-use.html](https://www.servicenow.com/terms-of-use.html) |
 
@@ -101,5 +101,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 
