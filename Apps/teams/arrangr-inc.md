@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于排列器的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a79f5d727ae54489bf5623d41c2bf77c32f4be81
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f4a5df023e906ad18e260debe09953351210d5bc
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410416"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427864"
 ---
 # <a name="arrangr"></a>Arrangr
 
@@ -37,7 +37,7 @@ ms.locfileid: "60410416"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Arrangr, Inc. |
 | 合作伙伴网站的 URL | [https://arrangr.com](https://arrangr.com) |
-| Teams信息页的 URL | [https://arrangr.com/welcome](https://arrangr.com/welcome) |
+| "Teams应用程序信息"页的 URL | [https://arrangr.com/welcome](https://arrangr.com/welcome) |
 | 隐私策略的 URL | [https://arrangr.com/privacy_policy](https://arrangr.com/privacy_policy) |
 | 使用条款 URL | [https://arrangr.com/terms_of_use](https://arrangr.com/terms_of_use) |
 
@@ -53,24 +53,24 @@ ms.locfileid: "60410416"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegated | 我们收集用户日历的名称及其日历事件的详细信息，以便于安排会议。 | 我们存储已连接的任何日历的名称，以便他们可以看到和更改已连接的日历 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| Channel.ReadBasic.All | delegated | 收集可供用户使用的频道列表，以便我们可以向用户显示频道列表，以便他们选取一个频道来共享一个排列器邀请。 | 我们不将信息存储在用户频道上 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| ChannelMessage.Send | delegated | 此权限用于代表用户将排列器邀请发送到团队频道。 不用于收集数据。 | 不存储通过此权限收集的数据。 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| Chat.ReadWrite | delegated | 此权限用于将排列器邀请Teams用户进行聊天。 此权限不用于收集数据。 | 不存储通过此权限收集的数据。 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
+>| Chat.ReadWrite | delegated | 此权限用于代表用户向Teams聊天发送排列器邀请。 此权限不用于收集数据。 | 不存储通过此权限收集的数据。 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| ChatMessage.Send | delegated | 此权限用于将排列器邀请发送到一对一，并代表用户发送群聊。 不用于收集数据。 | 不存储通过此权限收集的数据。 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| OnlineMeetings.ReadWrite | delegated | 在生成Microsoft Teams时，排列器会收集会议链接。 我们Teams用户生成会议，以便他们可以在 Arranger 上Teams呼叫。 | 我们存储会议链接，以便可以与相应的各方共享这些链接以加入会议。 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| People.Read | delegated | 我们收集与用户相关的人员的姓名和电子邮件。 这样，我们就可以让用户轻松选择他们作为排列器邀请的收件人。 | 如果用户最终选择了通过此 API 提供的收件人，我们将保存该收件人的姓名和电子邮件，以便召开会议，并方便用户以后再次选择他们作为收件人。 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| Team.ReadBasic.All | delegated | 我们收集用户用户Teams，以便他们可以选择要连接到排列器Teams以及想要共享排列器邀请的团队。 | 排列器存储Teams用户已选择链接到排列器的名称，以便我们可以在设置中显示这些 Teams，并让他们在决定共享排列器邀请的位置时从 Teams 中选择。 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
+>| Team.ReadBasic.All | delegated | 我们收集用户用户Teams，以便他们可以选择要连接到排列器Teams以及想要共享排列器邀请的团队。 | 排列器存储Teams用户已选择链接到排列器的名称，以便我们可以在设置中显示这些 Teams，并让他们在决定在何处共享排列器邀请时从 Teams 中选择。 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| TeamsAppInstallation.ReadWriteSelfForUser | delegated | 我们阅读我们的应用是否已安装在用户的 Teams 帐户中，以便可以询问他们是否想要安装应用，以便可以安装应用。 | 我们不会存储通过此权限收集的数据。 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| 个人资料 | delegated | 名称和电子邮件地址 | 名称和电子邮件地址，以便向用户显示他们连接到服务的帐户。 | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -129,4 +129,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

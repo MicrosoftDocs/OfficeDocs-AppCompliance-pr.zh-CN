@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 事件管理的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 74e6e3963a03ff6cc6da44ffc33184f6b5fe1cf9
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6c01ea167bc634296e6eb9972192db14f61839a9
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412752"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60423088"
 ---
 # <a name="event-management"></a>事件管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "60412752"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SharePoint|Sapiens |
 | 合作伙伴网站的 URL | [https://www.sharepointsapiens.com](https://www.sharepointsapiens.com) |
-| 应用程序Teams页的 URL | [https://www.sharepointsapiens.com/event-management-office36...](https://www.sharepointsapiens.com/event-management-office365/documentation/teams/) |
+| "Teams应用程序信息"页的 URL | [https://www.sharepointsapiens.com/event-management-office36...](https://www.sharepointsapiens.com/event-management-office365/documentation/teams/) |
 | 隐私策略的 URL | [https://www.sharepointsapiens.com/privacy/](https://www.sharepointsapiens.com/privacy/) |
 | 使用条款 URL | [https://addins.sharepointsapiens.com/licensing/services-agr...](https://addins.sharepointsapiens.com/licensing/services-agreement.html) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60412752"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -61,23 +61,23 @@ ms.locfileid: "60412752"
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Office 365 Exchange Online | 否 |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
 >| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Mailgun.com (可选) ，Stripe.com (可选)  | 计费的公司名称和地址（如果 Stripe.com 邮件服务用于帐单、日历邀请以及用户电子邮件地址的回复和回复） | 如果您选择使用我们的邮件服务而不是 Exchange联机电子邮件服务，则服务会通过 mail进行 API 和基础结构发送和接收电子邮件。 如果您选择使用自己的邮箱Exchange邮箱，mail时不会处理任何数据。 如果选择使用信用卡支付订阅费用，收集的数据将受用户控制和 stripe.com。 如果选择通过 PO 和发票而不是信用卡进行购买，则系统不会处理任何 stripe.com。 |
+>| Mailgun.com (可选) ，Stripe.com (可选)  | 计费的公司名称和地址（如果 Stripe.com 邮件服务用于帐单、日历邀请以及用户电子邮件地址的回复和回复） | 如果您选择使用我们的邮件服务而不是 Exchange联机电子邮件服务，则服务会通过 mail进行 API 和基础结构发送和接收电子邮件。 如果选择使用自己的邮箱Exchange邮箱，邮件系统不会处理任何数据。 如果选择使用信用卡支付订阅费用，收集的数据将受用户控制和 stripe.com。 如果选择通过 PO 和发票而不是信用卡进行购买，则系统不会处理任何 stripe.com。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -141,4 +141,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

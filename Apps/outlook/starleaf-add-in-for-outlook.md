@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 Outlook 的 StarLeaf 外接程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a47dfedd6354fae038e4fbcc3ed768866fd8aec2
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: abf5b74e015e427d90ddaabee09a51846261f4cc
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413514"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427904"
 ---
 # <a name="starleaf-add-in-for-outlook"></a>用于加载项的 StarLeaf Outlook
 
@@ -102,5 +102,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

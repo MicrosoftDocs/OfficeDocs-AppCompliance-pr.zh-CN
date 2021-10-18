@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: 适用于 Office 365 Planner 的 iPlanner 报告工具的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ac38f244a862b89ee17ded8ce1432fdb00fb451a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 354eaa3d38bd05834d7083a52ee6f5b723aaab64
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411266"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428164"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>适用于 Planner 的 iPlanner Office 365工具
 
@@ -32,7 +32,7 @@ iGlobe 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | 适用于 Planner 的 iPlanner Office 365工具 |
 | ID | WA104380686 |
-| Office 365支持的客户端 | Excel 2016 Mac 上的 Windows、Excel web 版、Excel 2016 或更高版本的 Excel 2016 或更高版本 |
+| Office 365支持的客户端 | Excel 2016 Mac 上的 Windows、Excel web 版 Excel 2016 或更高版本的 Excel 2016 或更高版本 |
 | 合作伙伴公司名称 | iGlobe |
 | 合作伙伴网站的 URL | [https://iglobecrm.com/](https://iglobecrm.com/) |
 | 隐私策略的 URL | [https://instassl.iglobecrm.com/legal-information](https://instassl.iglobecrm.com/legal-information) |
@@ -46,11 +46,11 @@ iGlobe 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 iGlobe 提供，用于了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
+iGlobe 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -67,7 +67,7 @@ iGlobe 提供给 Microsoft 的信息：
 >| User.Read | delegated | 应用程序数据库中不存储任何数据。 | 登录并读取用户个人资料 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -110,5 +110,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

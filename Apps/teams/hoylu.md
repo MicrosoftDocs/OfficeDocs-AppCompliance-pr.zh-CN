@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Hoylu 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a091c480731e69a51ec002f24f6d62924a814b7b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 191b1e464aefd8d320492526f90754300c78b930
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412331"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60423121"
 ---
 # <a name="hoylu"></a>Hoylu
 
@@ -57,7 +57,7 @@ Hoylu 提供了此信息，这些信息与此应用程序如何收集和存储�
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -65,14 +65,14 @@ Hoylu 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >是。 日志记录用于应用程序安全，EUII 和 OII 以名字和姓氏、电子邮件、IP 地址、组织 ID 的形式收集。 Hoylu 的日志记录提供程序是 Datadog。 Datadog 已通过欧盟-美国隐私保护框架的合规性认证，是 CSA (云安全联盟的 STAR 注册) 。 Datadog 还进行关键的独立第三方验证，验证其安全性、流程和服务，包括完成 SOC 2 类型 II 审核。 用户随时可以通过符合 GDPR 的过程请求删除此信息。
 
@@ -103,5 +103,4 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

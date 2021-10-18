@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Appspace 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 24221bfb9ac02fe9bc7b62127648d9f0cb9e9ca5
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f88973bbe7896480709b5cb872eca80bca0f0dc6
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414778"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429420"
 ---
 # <a name="appspace"></a>Appspace
 
@@ -53,7 +53,7 @@ Appspace， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -61,7 +61,7 @@ Appspace， Inc. 提供给 Microsoft 的信息：
 >| User.ReadBasic.All | delegated | 代表登录用户读取组织中其他用户的基本个人资料属性。 其中包括显示名称、名字和姓氏、电子邮件地址、开放扩展和照片。 此外，还允许应用读取已登录用户的完整个人资料。 | 已登录用户的用户名将保留，以允许用户标识他们链接到 Appspace 平台的用户或服务帐户。 | [a9a866c4-e5cf-47f2-932c-db14cb89008f](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9a866c4-e5cf-47f2-932c-db14cb89008f) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -69,7 +69,7 @@ Appspace， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -121,4 +121,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

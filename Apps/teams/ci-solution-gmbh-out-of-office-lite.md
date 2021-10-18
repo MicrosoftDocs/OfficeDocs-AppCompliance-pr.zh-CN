@@ -1,5 +1,5 @@
 ---
-title: CI-Out-of-Office Lite 的应用程序信息（按解决方案 GmbH）
+title: ci 解决方案 GmbH 中 CI-out-of-Office Lite 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/24/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: CI-Out-of-Office Lite 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c827481d24c72e3998007f381ff1b733a262af9c
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f69fe096294cea61141ec39f05305fce56a8c7bb
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415149"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429370"
 ---
 # <a name="ci-out-of-office-lite"></a>CI-Out-of-Office Lite
 
@@ -37,7 +37,7 @@ ci 解决方案 GmbH 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ci 解决方案 GmbH |
 | 合作伙伴网站的 URL | [https://www.ci-solution.com](https://www.ci-solution.com) |
-| "Teams应用程序信息"页的 URL | [https://www.ci-solution.com/support/en/ci-oof-lite/](https://www.ci-solution.com/support/en/ci-oof-lite/) |
+| Teams信息页的 URL | [https://www.ci-solution.com/support/en/ci-oof-lite/](https://www.ci-solution.com/support/en/ci-oof-lite/) |
 | 隐私策略的 URL | [https://www.ci-solution.com/kontakt/datenschutz.html](https://www.ci-solution.com/kontakt/datenschutz.html) |
 | 使用条款 URL | [https://www.ci-solution.com/agb](https://www.ci-solution.com/agb) |
 
@@ -53,7 +53,7 @@ ci 解决方案 GmbH 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -75,7 +75,7 @@ ci 解决方案 GmbH 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -120,4 +120,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

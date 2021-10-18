@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tactileo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5c341b5c35b5fa8f1cac612c1f29f36b196e9b96
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 536c9721f00085a5095ae8dd4d643d7a76e4befa
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412201"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428014"
 ---
 # <a name="tactileo"></a>Tactileo
 
@@ -37,7 +37,7 @@ Maskott 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Maskott |
 | 合作伙伴网站的 URL | [https://www.maskott.com](https://www.maskott.com) |
-| "Teams应用程序信息"页的 URL | [https://www.tactileo.com](https://www.tactileo.com) |
+| 应用程序Teams页的 URL | [https://www.tactileo.com](https://www.tactileo.com) |
 | 隐私策略的 URL | [https://support.tactileo.com/pc/politique_confidentialite.p...](https://support.tactileo.com/pc/politique_confidentialite.pdf) |
 | 使用条款 URL | [https://support.tactileo.com/cgu/cgu_services_tactileo.pdf](https://support.tactileo.com/cgu/cgu_services_tactileo.pdf) |
 
@@ -59,7 +59,7 @@ Maskott 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -69,7 +69,7 @@ Maskott 提供了此信息，这些信息与此应用程序如何收集和存储
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Base de donn&#233;es MONGODB | ATLAS | Stocker les activit&#233;s Tactileo， les s&#233;ances et les r&#233;sultats des apprenants. |
 
@@ -129,4 +129,3 @@ Maskott 提供了此信息，这些信息与此应用程序如何处理身份验
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

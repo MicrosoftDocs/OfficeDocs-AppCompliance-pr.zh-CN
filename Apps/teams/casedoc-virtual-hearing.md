@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Casedoc 虚拟听力的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 0796ed283a64cd2e146bc011d570e1b5282eb5c6
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c10a429f38ed32c5c11cdab448eb1e523301978a
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415179"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427144"
 ---
 # <a name="casedoc-virtual-hearing"></a>Casedoc 虚拟听觉
 
@@ -37,7 +37,7 @@ Casedoc 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Casedoc |
 | 合作伙伴网站的 URL | [https://www.casedoc.com](https://www.casedoc.com) |
-| Teams信息页的 URL | [https://casedoc.com/virtual-hearing-for-teams/](https://casedoc.com/virtual-hearing-for-teams/) |
+| 应用程序Teams页的 URL | [https://casedoc.com/virtual-hearing-for-teams/](https://casedoc.com/virtual-hearing-for-teams/) |
 | 隐私策略的 URL | [https://casedoc.com/wp-content/uploads/2021/07/Casedoc_Priv...](https://casedoc.com/wp-content/uploads/2021/07/Casedoc_Privacy_Policy_2021.pdf) |
 | 使用条款 URL | [https://casedoc.com/wp-content/uploads/2020/10/Casedoc_Cust...](https://casedoc.com/wp-content/uploads/2020/10/Casedoc_Customer_Agreement.pdf) |
 
@@ -53,7 +53,7 @@ Casedoc 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -86,7 +86,7 @@ Casedoc 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >审核日志，根据 ISMS 策略保留 ISO 27001
 
@@ -116,7 +116,7 @@ Casedoc 提供了此信息，这些信息与此应用程序如何处理身份验
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -133,4 +133,3 @@ Casedoc 提供了此信息，这些信息与此应用程序如何处理身份验
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

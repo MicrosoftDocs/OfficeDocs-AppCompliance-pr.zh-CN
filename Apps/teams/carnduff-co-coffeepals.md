@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: CoffeePals 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b88028bd31f6ad32b8c0007644fa407a0d968604
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 67ef18f421c6934a7f03d774e607884152da76ea
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415189"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427154"
 ---
 # <a name="coffeepals"></a>CoffeePals
 
@@ -37,7 +37,7 @@ Carnduff Co 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Carnduff Co |
 | 合作伙伴网站的 URL | [https://coffeepals.co](https://coffeepals.co) |
-| 应用程序Teams页的 URL | [https://coffeepals.co/product](https://coffeepals.co/product) |
+| Teams信息页的 URL | [https://coffeepals.co/product](https://coffeepals.co/product) |
 | 隐私策略的 URL | [https://coffeepals.co/privacy](https://coffeepals.co/privacy) |
 | 使用条款 URL | [https://coffeepals.co/terms-of-service](https://coffeepals.co/terms-of-service) |
 
@@ -53,7 +53,7 @@ Carnduff Co 提供了此信息，这些信息与此应用程序如何收集和�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -64,20 +64,20 @@ Carnduff Co 提供了此信息，这些信息与此应用程序如何收集和�
 
 >| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Google Analytics、Stripe、Mailchimp、Heroku、MongoDB Atlas、AWS、Logentries | 用户电子邮件地址、付款信息 (、带区) 、名字和姓氏处理 | 我们的应用已付款，因此需要信用卡信息和联系信息。 |
+>| Google Analytics、Stripe、Mailchimp、Heroku、MongoDB Atlas、AWS、Logentries | 用户电子邮件地址、付款信息 (、) 、名字和姓氏处理 | 我们的应用已付款，因此需要信用卡信息和联系信息。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 我们访问其名称，在将用户匹配到一起获取咖啡的邮件中引用用户，并存储电子邮件地址，以将其登录到 Web 应用以收集付款。 使用其名称可使体验更加个性化，我们将电子邮件地址用作唯一标识符，并发送给他们一个登录链接。 | 电子邮件地址，名字和姓氏。 | 数据存储，因此无需每次需要数据进行匹配、消息传送和登录用户时检索数据。 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -122,4 +122,3 @@ Carnduff Co 提供了此信息，这些信息与此应用程序如何处理身�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

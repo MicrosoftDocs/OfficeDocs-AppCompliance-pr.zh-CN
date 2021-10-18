@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: CSA STAR 注册表中批准的联系人日历的所有可用安全性和合规性信息、其数据处理策略Microsoft Cloud App Security应用程序目录信息和安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 19d7bdeab6ec2d8f3d9a490d74cb2d59020a8952
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6bf401411f26e95a952e75256bc46b8f28efed53
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414186"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428154"
 ---
 # <a name="approved-contact-calendars"></a>批准的联系人日历
 
@@ -51,7 +51,7 @@ ms.locfileid: "60414186"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -63,7 +63,7 @@ ms.locfileid: "60414186"
 >| openid | delegated | 否 | Office 365SSO。 | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -129,4 +129,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

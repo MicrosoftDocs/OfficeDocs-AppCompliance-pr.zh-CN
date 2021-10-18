@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 Bright Remind Me 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 91f2a4ec1d7c4342f319ba8090f3d775bc80686d
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c47477fa295332cbcb898638f178ebd69bf7fa0b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411821"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428124"
 ---
 # <a name="bright-remind-me"></a>亮色提醒我
 
@@ -37,7 +37,7 @@ ms.locfileid: "60411821"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | 聊天应用，LLC |
 | 合作伙伴网站的 URL | [https://brightbits.app](https://brightbits.app) |
-| 应用程序Teams页的 URL | [https://brightbits.app/bright-remind-me/](https://brightbits.app/bright-remind-me/) |
+| Teams信息页的 URL | [https://brightbits.app/bright-remind-me/](https://brightbits.app/bright-remind-me/) |
 | 隐私策略的 URL | [https://brightbits.app/privacy/](https://brightbits.app/privacy/) |
 | 使用条款 URL | [https://brightbits.app/terms/](https://brightbits.app/terms/) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60411821"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -68,14 +68,14 @@ ms.locfileid: "60411821"
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 存储用户的名称、唯一的标识号和电子邮件地址是提供和支持功能所必需的。 | 团队和用户唯一 ID、名称和电子邮件地址。 | 唯一的标识号、名称和电子邮件地址是应用功能和支持应用程序所必需的。 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >存储团队和用户唯一标识符以提供支持和错误更正。 日志将保留 30 天，此后将被删除。
 
@@ -109,4 +109,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

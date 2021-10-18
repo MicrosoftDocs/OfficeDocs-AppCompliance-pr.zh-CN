@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: DocuSign eSignature 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 839ac6f0dcbdadb7428c68ba6da9b46e6ed9a862
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4dc5db7db67aac6bf650eec5f762676c6f2120c1
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410285"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428114"
 ---
 # <a name="docusign-esignature"></a>DocuSign eSignature
 
@@ -37,7 +37,7 @@ DocuSign， Inc. 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | DocuSign， Inc. |
 | 合作伙伴网站的 URL | [https://www.docusign.com](https://www.docusign.com) |
-| "Teams应用程序信息"页的 URL | [https://docs.docusign.com/supportdocs/ds-for-MS-teams/Conte...](https://docs.docusign.com/supportdocs/ds-for-MS-teams/Content/overview-docusign-for-ms-teams.htm) |
+| 应用程序Teams页的 URL | [https://docs.docusign.com/supportdocs/ds-for-MS-teams/Conte...](https://docs.docusign.com/supportdocs/ds-for-MS-teams/Content/overview-docusign-for-ms-teams.htm) |
 | 隐私策略的 URL | [https://www.docusign.com/company/privacy-policy](https://www.docusign.com/company/privacy-policy) |
 | 使用条款 URL | [https://www.docusign.com/company/terms-and-conditions/web](https://www.docusign.com/company/terms-and-conditions/web) |
 
@@ -49,7 +49,7 @@ DocuSign， Inc. 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 DocuSign， Inc. 提供，用于说明此应用程序如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
+此信息由 DocuSign， Inc. 提供，用于说明此应用程序如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -118,4 +118,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

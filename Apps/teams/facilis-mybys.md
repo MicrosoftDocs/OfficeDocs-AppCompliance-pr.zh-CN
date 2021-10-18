@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Mybys 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e76ab0d8c6c261bc36d821398c324387460a316f
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 2e8d8adc26700cf71f5d3fa74c7890dda8176cad
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411036"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428094"
 ---
 # <a name="mybys"></a>Mybys
 
@@ -120,4 +120,3 @@ Facilis 提供了此信息，这些信息与此应用程序如何处理身份验
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

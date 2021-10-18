@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: BlackBerry AtHoc 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 38e85981b12faf81ce3b737300aacdbee42dc2a1
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 60183f04c8f82a7e2c365bb26ee73db7a787147a
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415199"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428355"
 ---
 # <a name="blackberry-athoc"></a>BlackBerry AtHoc
 
@@ -37,7 +37,7 @@ BlackBerry 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | BlackBerry |
 | 合作伙伴网站的 URL | [https://www.blackberry.com](https://www.blackberry.com) |
-| Teams信息页的 URL | [https://www.blackberry.com/us/en/products/blackberry-athoc](https://www.blackberry.com/us/en/products/blackberry-athoc) |
+| "Teams应用程序信息"页的 URL | [https://www.blackberry.com/us/en/products/blackberry-athoc](https://www.blackberry.com/us/en/products/blackberry-athoc) |
 | 隐私策略的 URL | [https://www.blackberry.com/us/en/legal/privacy-policy](https://www.blackberry.com/us/en/legal/privacy-policy) |
 | 使用条款 URL | [https://www.athoc.com/pss/terms.html#](https://www.athoc.com/pss/terms.html#) |
 
@@ -53,16 +53,16 @@ BlackBerry 提供了此信息，这些信息与此应用程序如何收集和存
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| ChannelMessage.Send | delegated | 我们访问用户&#8217;基本详细信息，如主体名称，并链接到团队常规频道 (已登录用户有权) 向团队发送警报卡。 | 我们不&#8217;数据库，而是在自动程序内存中存储用户数据。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc 服务器首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc Server 的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| Group.Read.All | delegated | 我们访问用户&#8217;基本详细信息，如主体名称，并链接到团队常规频道 (已登录用户有权) 向团队发送警报卡。 | 我们不&#8217;数据库，而是在自动程序内存中存储用户数据。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc 服务器首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc Server 的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| User.Read | delegated | 我们访问用户&#8217;基本详细信息，如主体名称，并链接到团队常规频道 (已登录用户有权) 向团队发送警报卡。 | 我们不&#8217;数据库，而是在自动程序内存中存储用户数据。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc 服务器首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc Server 的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| email | delegated | 我们访问用户&#8217;基本详细信息，如主体名称，并链接到团队常规频道 (已登录用户有权) 向团队发送警报卡。 | 我们不&#8217;数据库，而是在自动程序内存中存储用户数据。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc 服务器首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc Server 的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| openid | delegated | 我们访问用户&#8217;基本详细信息，如主体名称，并链接到团队常规频道 (已登录用户有权) 向团队发送警报卡。 | 我们不&#8217;数据库，而是在自动程序内存中存储用户数据。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc 服务器首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc Server 的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| 个人资料 | delegated | 我们访问用户&#8217;基本详细信息，如主体名称，并链接到团队常规频道 (已登录用户有权) 向团队发送警报卡。 | 我们不&#8217;数据库，而是在自动程序内存中存储用户数据。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc 服务器首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc Server 的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| ChannelMessage.Send | delegated | 我们访问用户&#8217;基本详细信息（如主体名称）和指向团队常规频道 (已登录用户有权) 向团队发送警报卡片的链接。 | 我们不会&#8217;在数据库中存储用户数据，而是存储在自动程序内存中。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc Server 首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc 服务器的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| Group.Read.All | delegated | 我们访问用户&#8217;基本详细信息（如主体名称）和指向团队常规频道 (已登录用户有权) 向团队发送警报卡片的链接。 | 我们不会&#8217;在数据库中存储用户数据，而是存储在自动程序内存中。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc Server 首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc 服务器的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| User.Read | delegated | 我们访问用户&#8217;基本详细信息（如主体名称）和指向团队常规频道 (已登录用户有权) 向团队发送警报卡片的链接。 | 我们不会&#8217;在数据库中存储用户数据，而是存储在自动程序内存中。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc Server 首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc 服务器的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| email | delegated | 我们访问用户&#8217;基本详细信息（如主体名称）和指向团队常规频道 (已登录用户有权) 向团队发送警报卡片的链接。 | 我们不会&#8217;在数据库中存储用户数据，而是存储在自动程序内存中。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc Server 首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc 服务器的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| openid | delegated | 我们访问用户&#8217;基本详细信息（如主体名称）和指向团队常规频道 (已登录用户有权) 向团队发送警报卡片的链接。 | 我们不会&#8217;在数据库中存储用户数据，而是存储在自动程序内存中。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc Server 首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc 服务器的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| 个人资料 | delegated | 我们访问用户&#8217;基本详细信息（如主体名称）和指向团队常规频道 (已登录用户有权) 向团队发送警报卡片的链接。 | 我们不会&#8217;在数据库中存储用户数据，而是存储在自动程序内存中。 我们将已登录用户的主体名称、AAD令牌、BlackBerry AtHoc 令牌、BlackBerry AtHoc Server 首选项/配置存储在自动程序内存中。 需要将 API 请求发送到 Microsoft Graph API 和 BlackBerry AtHoc 服务器的信息。 | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
@@ -80,7 +80,7 @@ BlackBerry 提供了此信息，这些信息与此应用程序如何收集和存
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -125,4 +125,3 @@ BlackBerry 已提供有关此应用如何处理身份验证、授权、应用程
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

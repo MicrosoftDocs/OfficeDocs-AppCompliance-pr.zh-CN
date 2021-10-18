@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Kazoo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 4e12a15bcbf86c36829c45d6d7b9c528a798848f
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d4bd65ea0c358fb8913f740e160bdc063a17c882
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412902"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60423174"
 ---
 # <a name="kazoo"></a>Kazoo
 
@@ -61,7 +61,7 @@ Kazoo 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Carleton One (GRS) ，你执行我们的奖励履行。 他们需要知道用户希望作为奖励的是什么，以及在哪里提供它。 | 名称和送货地址。 | 该服务允许员工从在线目录中选择奖励。 我们的完成者需要知道商品的发货位置。 |
 
@@ -108,4 +108,3 @@ Kazoo 提供了此信息，这些信息与此应用程序如何处理身份验�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 Excel 的 Jira 云的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8147e1c318502d2eefad376d6df263172a0577a2
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: a09523899c3d8c16174e29594c772ada9a751aa7
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410746"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428204"
 ---
 # <a name="jira-cloud-for-excel"></a>Jira Cloud for Excel
 
@@ -27,7 +27,7 @@ ms.locfileid: "60410746"
 
 ### <a name="general-information"></a>一般信息
 
-由 Microsoft Atlassian.com 的信息：
+由 Microsoft Atlassian.com 提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -47,11 +47,11 @@ ms.locfileid: "60410746"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由用户 Atlassian.com，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+此信息已由用户 Atlassian.com，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -66,7 +66,7 @@ ms.locfileid: "60410746"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们不存储任何 EUII 或 OII。 
 
@@ -76,9 +76,9 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 >对于信息，你有一些可用的选择。 以下是这些选项的摘要、如何练习它们以及任何限制。
 
-你的选择：你有权请求你的信息副本、反对我们使用你的信息 (包括出于营销目的) 、请求删除或限制你的信息，或者请求采用结构化的电子格式的信息。 下面我们将介绍用于提出这些请求的工具和过程。 通过登录到服务或帐户内的可用设置，可以练习一些选择。 如果服务由管理员管理 (请参阅下面的"通知给最终用户) ，您可能需要联系管理员，以 &quot; &quot; &quot; &quot; 首先协助处理请求。 对于所有其他请求，你可以联系我们，如下面的联系我们部分所述来请求帮助。
+你的选择：你有权请求你的信息副本、反对我们使用你的信息 (包括出于营销目的) 、请求删除或限制你的信息，或者请求采用结构化的电子格式的信息。 下面我们将介绍用于提出这些请求的工具和过程。 通过登录到服务，以及使用服务或你的帐户中可用的设置，可以练习一些选择。 如果由管理员管理服务 (请参阅) 下面的"通知给最终用户"，您可能需要联系管理员，以便首先 &quot; &quot; &quot; &quot; 协助处理请求。 对于所有其他请求，你可以联系我们，如下面的联系我们部分所述来请求帮助。
 
-在某些情况下，你的请求和选择可能会受到限制：例如，如果满足你的请求将显示有关其他人的信息，或者如果你要求删除法律允许我们或你的管理员保留的信息或具有令人信服的合法利益保留的信息。 当你要求我们和第三方共享数据（例如，通过安装第三方应用）时，你将需要直接与这些第三方服务提供商联系，以删除或以其他方式限制你的信息。 如果你有未解决的问题，你可能有权向你居住在的国家/地区、工作地点或觉得你的权利遭到侵犯的数据保护机构提出投诉。
+在某些情况下，你的请求和选择可能会受到限制：例如，如果满足你的请求将泄露有关其他人的信息，或者如果你要求删除法律允许我们或你的管理员保留的信息或具有令人信服的合法利益保留的信息。 当你要求我们和第三方共享数据（例如，通过安装第三方应用）时，你将需要直接与这些第三方服务提供商联系，以删除或以其他方式限制你的信息。 如果你有未解决的问题，你可能有权向你居住在的国家/地区、工作地点或觉得你的权利遭到侵犯的数据保护机构提出投诉。
 
 访问和更新你的信息：通过我们的服务和相关文档，你可以从服务内访问和更新有关你的某些信息。 例如，可以从帐户访问配置文件信息，并搜索包含有关你在服务中使用关键字搜索的信息的内容。 可以在配置文件设置中更新配置文件信息，并修改包含有关使用与该内容关联的编辑工具的信息的内容。
 
@@ -114,5 +114,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

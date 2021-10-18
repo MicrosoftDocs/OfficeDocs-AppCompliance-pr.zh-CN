@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息 Rezolve.ai、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b5703e0113d88394c9c0c7a0d6f877a23df68282
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 653721c8e4abc2a776df12738f290b6ace464ad5
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411981"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427894"
 ---
 # <a name="rezolveai"></a>Rezolve.ai
 
@@ -133,4 +133,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

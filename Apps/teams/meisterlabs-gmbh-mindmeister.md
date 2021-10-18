@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: MindMeister 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6b36f41be86496cdca75a77d9564b2c13e5536b3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: ae083cd6b6fd9ecebc5a447c5b0ab27268f8b66e
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413704"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427994"
 ---
 # <a name="mindmeister"></a>MindMeister
 
@@ -108,5 +108,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

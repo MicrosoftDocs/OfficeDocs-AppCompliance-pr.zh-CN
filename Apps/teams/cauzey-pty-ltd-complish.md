@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Compliancesh 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0e0cf863ccdccd332af7e3ccd07283a203695cc5
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3e22104793dbb2482e83cb004384b04f1308a788
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414758"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429380"
 ---
 # <a name="complish"></a>Complish
 
@@ -118,4 +118,3 @@ Cauzey Pty Ltd 提供了此信息，这些信息与此应用程序如何处理�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
