@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SIGNL4 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7042695f0bfb257552e4e040a1b8d254016b612a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 18880e1eeb6c3ed15d55e3a1bd09bdad7258dda5
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411076"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430220"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -37,7 +37,7 @@ Derdack SIGNL4 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Derdack SIGNL4 |
 | 合作伙伴网站的 URL | [https://www.derdack.com](https://www.derdack.com) |
-| Teams信息页的 URL | [https://www.signl4.com](https://www.signl4.com) |
+| "Teams应用程序信息"页的 URL | [https://www.signl4.com](https://www.signl4.com) |
 | 隐私策略的 URL | [https://www.signl4.com/privacy-policy/](https://www.signl4.com/privacy-policy/) |
 | 使用条款 URL | [https://www.signl4.com/terms_of_use/](https://www.signl4.com/terms_of_use/) |
 
@@ -53,7 +53,7 @@ Derdack SIGNL4 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -62,7 +62,7 @@ Derdack SIGNL4 提供给 Microsoft 的信息：
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Recurly、Twilio | 递归，电子邮件地址、电子邮件地址是在客户使用应用时向客户发送帐单通知的必需项。 Twilio，电话号码，通过短信发送通知的警报内容 | Azure 管理 API，收集 Azure Monitor 警报，收集发生，因为系统会发送这些警报的通知 |
 
@@ -75,7 +75,7 @@ Derdack SIGNL4 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >电子邮件地址信息包含在日志中。 此外，组织提交的其他警报内容数据也可能包含在日志中。 为了防止这种情况，组织可以终止应用中的帐户。
 为了支持客户对应用的问题进行故障排除，日志中的数据是必需的。
@@ -117,7 +117,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -134,4 +134,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

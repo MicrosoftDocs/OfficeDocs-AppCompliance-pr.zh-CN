@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关会议 i/o 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7275c8e8ca72d9e989ca11f086956430db81cab8
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 502ccf1b219aed10cc19ba5aa2b796904002b665
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413043"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428335"
 ---
 # <a name="conferences-io"></a>Conferences i/o
 
@@ -120,4 +120,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

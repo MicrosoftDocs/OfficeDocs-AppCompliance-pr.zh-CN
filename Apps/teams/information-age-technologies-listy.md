@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Listy 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5d0a25a0174fd4dd41183be21ad3e34ccdd8e106
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 925573ff2017d818681c833f44b1b7fd4bb3d5dd
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415079"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430060"
 ---
 # <a name="listy"></a>Listy
 
@@ -37,7 +37,7 @@ ms.locfileid: "60415079"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Information Age Technologies |
 | 合作伙伴网站的 URL | [https://www.iat21.com](https://www.iat21.com) |
-| 应用程序Teams页的 URL | [https://www.iat21.com/listy](https://www.iat21.com/listy) |
+| "Teams应用程序信息"页的 URL | [https://www.iat21.com/listy](https://www.iat21.com/listy) |
 | 隐私策略的 URL | [https://www.iat21.com/listy-privacy-policy](https://www.iat21.com/listy-privacy-policy) |
 | 使用条款 URL | [https://www.iat21.com/listy-end-user-license-ag](https://www.iat21.com/listy-end-user-license-ag) |
 
@@ -133,4 +133,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

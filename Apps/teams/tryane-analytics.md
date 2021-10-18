@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tryane Analytics 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 474c7824163b9b457ca3df2e705dc2cb1ccb8845
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 95ea304fb12ba9efc9d98d547347330326dee6be
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410816"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430341"
 ---
 # <a name="tryane-analytics"></a>Tryane Analytics
 
@@ -37,7 +37,7 @@ Tryane 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Tryane |
 | 合作伙伴网站的 URL | [https://www.tryane.com](https://www.tryane.com) |
-| Teams信息页的 URL | [https://tryane.com/en/produit/tat/](https://tryane.com/en/produit/tat/) |
+| 应用程序Teams页的 URL | [https://tryane.com/en/produit/tat/](https://tryane.com/en/produit/tat/) |
 | 隐私策略的 URL | [https://tryane.com/tryane-analytics/privacy_policy.html](https://tryane.com/tryane-analytics/privacy_policy.html) |
 | 使用条款 URL | [https://analytics.tryane.com/docs/en/terms_of_use.html](https://analytics.tryane.com/docs/en/terms_of_use.html) |
 
@@ -53,14 +53,14 @@ Tryane 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | 应用程序 | 通道名称和其他属性 | All 列出包含名称、说明的所有频道 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
->| ChannelMessage.Read.All | 应用程序 | 用户发布的消息数 | 列出所有频道消息&#8217;元数据 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| ChannelMessage.Read.All | 应用程序 | 用户发布的消息数 | 列出元数据的所有&#8217;消息 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 >| Directory.Read.All | 应用程序 | 访问 Ms Teams | 在租户中标识具有团队许可证的用户 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
->| Member.Read.Hidden | 应用程序 | 成员列表 | 获取所有团队、团队&#8217;的成员和隐藏成员身份的列表 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Member.Read.Hidden | 应用程序 | 成员列表 | 获取所有团队、团队&#8217;和隐藏成员身份的列表 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 >| Reports.Read.All | 应用程序 | Teams | 读取团队中的所有用户活动 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 >| Team.ReadBasic.All | 应用程序 | 团队 ID、团队名称、频道 ID、频道名称 | 列出所有频道和团队属性 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 >| User.Read | delegated | 用户 ID、名称、电子邮件地址、创建日期。我们存储此数据是为了在数据上提供使用情况Teams | 在订阅期间标识当前用户 | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
@@ -81,7 +81,7 @@ Tryane 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >IT 安全策略和编码标准中描述的组织规则阻止我们在日志中显示 EUII 和 OII
 
@@ -124,7 +124,7 @@ Tryane 提供了此信息，这些信息与此应用程序如何处理身份验�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -140,4 +140,3 @@ Tryane 提供了此信息，这些信息与此应用程序如何处理身份验�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

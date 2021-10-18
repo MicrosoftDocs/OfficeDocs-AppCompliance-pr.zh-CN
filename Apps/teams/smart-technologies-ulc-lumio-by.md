@@ -6,14 +6,14 @@ ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: SMART 提供的 Lumio 的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: SMART 为 Lumio 提供的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e5749e9439f48960293fbb13d3efe8f3ef00158d
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d948aafb46b8aabe795c82fd82f11c35ef9555a1
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413484"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429540"
 ---
 # <a name="lumio-by-smart"></a>Lumio by SMART
 
@@ -37,7 +37,7 @@ SMART Technologies ULC 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SMART Technologies ULC |
 | 合作伙伴网站的 URL | [https://smarttech.com](https://smarttech.com) |
-| "Teams应用程序信息"页的 URL | [https://www.smarttech.com/smart-learning-suite/](https://www.smarttech.com/smart-learning-suite/) |
+| 应用程序Teams页的 URL | [https://www.smarttech.com/smart-learning-suite/](https://www.smarttech.com/smart-learning-suite/) |
 | 隐私策略的 URL | [https://www.smarttech.com/en/legal/privacy-policies](https://www.smarttech.com/en/legal/privacy-policies) |
 | 使用条款 URL | [https://www.smarttech.com/legal/sls-terms](https://www.smarttech.com/legal/sls-terms) |
 
@@ -53,7 +53,7 @@ SMART Technologies ULC 提供了此信息，这些信息与此应用程序如何
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -61,7 +61,7 @@ SMART Technologies ULC 提供了此信息，这些信息与此应用程序如何
 >| Group.Read.All | delegated | 他们属于哪个组，这用于验证他们是确定功能的学生或教师组的一部分。 未收集数据。  | 仅存储的数据是客户端的唯一 ID | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -69,7 +69,7 @@ SMART Technologies ULC 提供了此信息，这些信息与此应用程序如何
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -121,4 +121,3 @@ SMART Technologies ULC 提供了此信息，这些信息与此应用程序如何
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: qChange Leader Experience 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2123fe401ab5da425903d7821bfc598d7f0d2723
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4fee868b7382deb521cb6089c5288698fd91b158
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414106"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428989"
 ---
 # <a name="qchange-leader-experience"></a>qChange Leader Experience
 
@@ -37,7 +37,7 @@ qChange Software Solution， Inc. 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | qChange Software Solution, Inc. |
 | 合作伙伴网站的 URL | [https://qchange.com](https://qchange.com) |
-| "Teams应用程序信息"页的 URL | [https://www.qchange.com/leader-experience](https://www.qchange.com/leader-experience) |
+| 应用程序Teams页的 URL | [https://www.qchange.com/leader-experience](https://www.qchange.com/leader-experience) |
 | 隐私策略的 URL | [https://www.qchange.com/privacy-policy](https://www.qchange.com/privacy-policy) |
 | 使用条款 URL | [https://www.qchange.com/terms-of-service](https://www.qchange.com/terms-of-service) |
 
@@ -135,4 +135,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

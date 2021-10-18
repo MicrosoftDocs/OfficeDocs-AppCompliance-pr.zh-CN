@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Smartsheet 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f95e090af5a83db8053bf60582a73dd77a2905d0
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d8bbe31189a44c240bc648670a0a04e0b5fce6ec
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410886"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429059"
 ---
 # <a name="smartsheet"></a>Smartsheet
 
@@ -37,7 +37,7 @@ Smartsheet 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Smartsheet |
 | 合作伙伴网站的 URL | [https://www.smartsheet.com](https://www.smartsheet.com) |
-| Teams信息页的 URL | [https://help.smartsheet.com/articles/2476201-interact-with-...](https://help.smartsheet.com/articles/2476201-interact-with-smartsheet-items-in-microsoft-teams) |
+| 应用程序Teams页的 URL | [https://help.smartsheet.com/articles/2476201-interact-with-...](https://help.smartsheet.com/articles/2476201-interact-with-smartsheet-items-in-microsoft-teams) |
 | 隐私策略的 URL | [https://www.smartsheet/legal/privacy](https://www.smartsheet/legal/privacy) |
 | 使用条款 URL | [https://Default 用户协议 https://www.smartsheet.com/.. ：。](https://Default User Agreement: https://www.smartsheet.com/legal/user-agreement) |
 
@@ -72,17 +72,17 @@ Smartsheet 提供了此信息，这些信息与此应用程序如何收集和存
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Bot Framework API | 是 | 我们使用 Bot Framework API 将消息作为团队应用传递。 Smartsheet 存储 userId 信息以跟踪智能表自动程序正在与谁交谈。 |  | 无 |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Smartsheet 将信息存储在由 E一ix 托管的生产数据中心环境和 AWS S3 中（我们将客户附件存储在专用加密桶中）中，处于加密的处于非安全状态。 |  | 我们使用机器人框架 API 将消息作为 Teams 应用提供。 Smartsheet 存储 userId 信息以跟踪智能表自动程序正在与谁交谈。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -122,5 +122,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

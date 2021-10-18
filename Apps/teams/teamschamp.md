@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Teams使用的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d60b2440766ffc5aa94069a2c988a383812b0ae3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 5542bfa53578fb7727073d283006a86ad510e720
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413324"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429039"
 ---
 # <a name="teamschamp"></a>TeamsChamp
 
@@ -37,7 +37,7 @@ Teams在 Microsoft 中提供的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | TeamsChamp |
 | 合作伙伴网站的 URL | [https://www.encamina.com](https://www.encamina.com) |
-| Teams信息页的 URL | [https://www.teamschamp.com](https://www.teamschamp.com) |
+| 应用程序Teams页的 URL | [https://www.teamschamp.com](https://www.teamschamp.com) |
 | 隐私策略的 URL | [https://www.teamschamp.com/privacy-policy/](https://www.teamschamp.com/privacy-policy/) |
 | 使用条款 URL | [https://www.teamschamp.com/terms/](https://www.teamschamp.com/terms/) |
 
@@ -49,11 +49,11 @@ Teams在 Microsoft 中提供的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Teams使用，它可了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
+此信息由 Teams使用，它可了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -79,7 +79,7 @@ Teams在 Microsoft 中提供的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >个人信息作为完整名称，电子邮件
 
@@ -120,7 +120,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -136,4 +136,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

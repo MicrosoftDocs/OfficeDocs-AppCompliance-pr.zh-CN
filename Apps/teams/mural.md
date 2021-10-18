@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: MURAL 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 547125dfa636a60f8a95153c5b75b060ee2f65f1
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 747d07050f375acfefd33609b14611ba20524206
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60409445"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428539"
 ---
 # <a name="mural"></a>MURAL
 
@@ -37,7 +37,7 @@ MURAL 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | MURAL |
 | 合作伙伴网站的 URL | [https://mural.co](https://mural.co) |
-| 应用程序Teams页的 URL | [https://support.mural.co](https://support.mural.co) |
+| Teams信息页的 URL | [https://support.mural.co](https://support.mural.co) |
 | 隐私策略的 URL | [https://mural.co/terms/privacy-policy/](https://mural.co/terms/privacy-policy/) |
 | 使用条款 URL | [https://mural.co/terms](https://mural.co/terms) |
 
@@ -53,7 +53,7 @@ MURAL 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -70,14 +70,14 @@ MURAL 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 我们在注册流中收集事件的用户 ID 和名字、姓氏、电子邮件。 | 用户 ID、名字、姓氏和电子邮件 | 我们在注册流中收集事件的用户 ID 和名字、姓氏、电子邮件。 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >是的，我们会将个人信息记录 (用户名、电子邮件等) 构建我们的审核日志。 该信息存储在已加密的数据库内，并且只能在咨询审核 api 时访问。
 
@@ -122,4 +122,3 @@ MURAL 提供了此信息，这些信息与此应用程序如何处理身份验�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

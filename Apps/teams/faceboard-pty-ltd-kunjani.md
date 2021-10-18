@@ -1,19 +1,19 @@
 ---
-title: 由 FACEBOARD (PTY) LTD 为) 信息
+title: 由 FACEBOARD (PTY) LTD 为) 应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 10/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关一名用户的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 有关一名用户的所有可用安全和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 59123d065a1e7150f86b59b8c1a50938666614e3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d6b17d0e21733176ba2cdd058b7c302316bd56b4
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415129"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428295"
 ---
 # <a name="kunjani"></a>Kunjani
 
@@ -37,7 +37,7 @@ FACEBOARD (PTY) LTD 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | FACEBOARD (PTY) LTD |
 | 合作伙伴网站的 URL | [https://www.kunjani.co](https://www.kunjani.co) |
-| Teams信息页的 URL | [https://Kunjani.co](https://Kunjani.co) |
+| 应用程序Teams页的 URL | [https://Kunjani.co](https://Kunjani.co) |
 | 隐私策略的 URL | [https://www.kunjani.co/privacypolicy](https://www.kunjani.co/privacypolicy) |
 | 使用条款 URL | [https://www.kunjani.co/termsandconditions](https://www.kunjani.co/termsandconditions) |
 
@@ -53,7 +53,7 @@ FACEBOARD (PTY) LTD 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -75,16 +75,16 @@ FACEBOARD (PTY) LTD 提供给 Microsoft 的信息：
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 游戏记分板和会议演示者需要与会者姓名来指定特定用户进行滚动  | 用户名 | 存储用于会议后报告和排行榜的名称  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->用于登录的用户电子邮件地址。 用户生成&#8216;学习游戏&#8217;问题、答案和媒体。 数据每日备份，最终用户可将其删除 
+>用于登录的用户电子邮件地址。 用户生成&#8216;学习游戏&#8217;包括问题、答案和媒体。 数据每日备份，最终用户可将其删除 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -116,4 +116,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

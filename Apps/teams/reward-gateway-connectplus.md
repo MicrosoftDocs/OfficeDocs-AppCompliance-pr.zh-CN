@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 连接+的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ff17f1dd70ce7d6a5e6c33ee325cda0e87a1e526
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6d17d97422cd2351c5d9b901043aa6c6b0620f94
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414086"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429089"
 ---
 # <a name="connect"></a>Connect+
 
@@ -37,7 +37,7 @@ ms.locfileid: "60414086"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Reward Gateway |
 | 合作伙伴网站的 URL | [https://www.rewardgateway.com](https://www.rewardgateway.com) |
-| "Teams应用程序信息"页的 URL | [https://success.rewardgateway.com/hc/en-us/articles/3600158...](https://success.rewardgateway.com/hc/en-us/articles/360015834078-Installing-the-MS-Teams-Integration) |
+| 应用程序Teams页的 URL | [https://success.rewardgateway.com/hc/en-us/articles/3600158...](https://success.rewardgateway.com/hc/en-us/articles/360015834078-Installing-the-MS-Teams-Integration) |
 | 隐私策略的 URL | [https://policies.rewardgateway.net/ms-teams-connect-plus/pr...](https://policies.rewardgateway.net/ms-teams-connect-plus/privacy-policy/) |
 | 使用条款 URL | [https://policies.rewardgateway.net/ms-teams-connect-plus/te...](https://policies.rewardgateway.net/ms-teams-connect-plus/terms-of-use/) |
 
@@ -111,7 +111,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-奖励网关已提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+此信息由奖励网关提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -120,4 +120,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

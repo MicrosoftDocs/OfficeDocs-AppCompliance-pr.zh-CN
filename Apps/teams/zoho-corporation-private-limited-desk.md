@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Zoho Desk 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2882f70ce6c44de4b797ae15bee2bec446212a82
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 8b934d980843f06ad78ca65ceb5782ce951fa41b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414337"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430270"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -37,7 +37,7 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Zoho Corporation Private Limited |
 | 合作伙伴网站的 URL | [https://www.zoho.com/desk](https://www.zoho.com/desk) |
-| 应用程序Teams页的 URL | [https://help.zoho.com/portal/kb/zoho-desk](https://help.zoho.com/portal/kb/zoho-desk) |
+| "Teams应用程序信息"页的 URL | [https://help.zoho.com/portal/kb/zoho-desk](https://help.zoho.com/portal/kb/zoho-desk) |
 | 隐私策略的 URL | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
 | 使用条款 URL | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
 
@@ -89,7 +89,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->1) 用户界面中提供删除实体的选项，具有删除选项的 Zoho desk 内的管理员和代理可以执行这一操作。2) 我们还有导出选项，管理员可以使用这些选项导出和实现其用途。  3) 我们根据客户请求在后端维护审核，可以提供此信息。
+>1) 用户界面中提供删除实体的选项，具有删除选项的 Zoho desk 中的管理员和代理可以执行这一操作。2) 我们还有导出选项，管理员可以使用这些选项导出和实现其用途。  3) 我们根据客户请求在后端维护审核，可以提供此信息。
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -107,5 +107,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

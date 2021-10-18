@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Karma 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 69163a7c191e9a7e8d460a7f20623466d208042e
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 781e9e6fd3ece314f2175fc23c116e6cf2a2b6b6
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410906"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430150"
 ---
 # <a name="karma"></a>Karma
 
@@ -37,7 +37,7 @@ ms.locfileid: "60410906"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Sliday LTD |
 | 合作伙伴网站的 URL | [https://sliday.com](https://sliday.com) |
-| "Teams应用程序信息"页的 URL | [https://karmabot.readme.io/](https://karmabot.readme.io/) |
+| Teams信息页的 URL | [https://karmabot.readme.io/](https://karmabot.readme.io/) |
 | 隐私策略的 URL | [https://karmabot.readme.io/docs/privacy-policy-for-microsof...](https://karmabot.readme.io/docs/privacy-policy-for-microsoft-teams) |
 | 使用条款 URL | [https://karmabot.readme.io/docs/terms-and-conditions](https://karmabot.readme.io/docs/terms-and-conditions) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60410906"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -70,14 +70,14 @@ ms.locfileid: "60410906"
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 名字、姓氏和公司电子邮件地址 名字、面向管理员的姓氏报告与 Karma 通信的电子邮件地址。 出于计费目的和将大量用户拆分为单独的离开，需要名单。 | 面向管理员的报告的名、姓和公司电子邮件地址名字、姓氏。 用于与 Karma、计费目的和 Karma 用户层次结构通信的电子邮件地址。 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们将租户 ID 和用户 ID 存储在日志中。 二者均无法识别。
 
@@ -145,5 +145,4 @@ VM 每周自动备份一次，存储 1 个月。
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

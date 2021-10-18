@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Officevibe 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5aad81602d2ebe11505782ff09355f8fb7c23c10
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c347c1de602d889829ac22aaad650871959be6be
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415009"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430784"
 ---
 # <a name="officevibe"></a>Officevibe
 
@@ -37,7 +37,7 @@ Officevibe 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Officevibe |
 | 合作伙伴网站的 URL | [https://officevibe.com](https://officevibe.com) |
-| "Teams应用程序信息"页的 URL | [https://officevibe-portal.zendesk.com/hc/en-us/articles/360...](https://officevibe-portal.zendesk.com/hc/en-us/articles/360048865311-Officevibe-Communications-via-Microsoft-Teams-Coming-soon-) |
+| 应用程序Teams页的 URL | [https://officevibe-portal.zendesk.com/hc/en-us/articles/360...](https://officevibe-portal.zendesk.com/hc/en-us/articles/360048865311-Officevibe-Communications-via-Microsoft-Teams-Coming-soon-) |
 | 隐私策略的 URL | [https://officevibe.com/privacy](https://officevibe.com/privacy) |
 | 使用条款 URL | [https://officevibe.com/terms](https://officevibe.com/terms) |
 
@@ -53,7 +53,7 @@ Officevibe 提供了此信息，这些信息与此应用程序如何收集和存
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -64,7 +64,7 @@ Officevibe 提供了此信息，这些信息与此应用程序如何收集和存
 >| User.Read.All | delegated | 电子邮件、姓名、图片：在 Officevibe 中创建用户。 链接到所有用户的组：大致了解组织。 租户 ID &amp; 租户名称：在 Officevibe 中设置组织 | 电子邮件、姓名、图片：在 Officevibe 中创建用户。 链接到所有用户的组：大致了解组织。 租户 ID &amp; 租户名称：在 Officevibe 中设置组织 | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -74,7 +74,7 @@ Officevibe 提供了此信息，这些信息与此应用程序如何收集和存
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -126,4 +126,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

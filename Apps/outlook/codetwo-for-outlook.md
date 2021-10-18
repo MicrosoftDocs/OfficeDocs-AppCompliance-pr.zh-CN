@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: CodeTwo for Outlook 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ccabb31cfa84b6aa09570499951b2786c8084cfd
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6307dffe817f1b598419ac9665a8a742696996e2
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60404679"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430110"
 ---
 # <a name="codetwo-for-outlook"></a>CodeTwo for Outlook
 
@@ -51,12 +51,12 @@ CodeTwo 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -74,7 +74,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们系统对于 Microsoft Outlook应用程序没有任何客户管理员交互。
+>在我们的系统中，Microsoft Outlook没有任何客户管理员交互。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -111,4 +111,3 @@ CodeTwo 提供了此信息，这些信息与此应用程序如何处理身份验
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

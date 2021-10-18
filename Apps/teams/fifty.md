@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 50 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 75b2b55b86450821d036f4c7f0d10c21de2c42eb
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 022f2d555e973f8cd86b7afb439ac706ebcb6882
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415119"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430210"
 ---
 # <a name="fifty"></a>Fifty
 
@@ -37,7 +37,7 @@ ms.locfileid: "60415119"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Fifty |
 | 合作伙伴网站的 URL | [https://app.fifty.do](https://app.fifty.do) |
-| Teams信息页的 URL | [https://www.fifty.do](https://www.fifty.do) |
+| 应用程序Teams页的 URL | [https://www.fifty.do](https://www.fifty.do) |
 | 隐私策略的 URL | [https://app.fifty.do/PrivacyPolicy.pdf](https://app.fifty.do/PrivacyPolicy.pdf) |
 | 使用条款 URL | [https://app.fifty.do/CGUV.pdf](https://app.fifty.do/CGUV.pdf) |
 
@@ -58,24 +58,24 @@ ms.locfileid: "60415119"
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| SendInBlue，CM | SendInBlue，CM | SendInBlue (邮件提供商，需要电子邮件) 、CM (短信提供商、需要电话号码)  |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -109,4 +109,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

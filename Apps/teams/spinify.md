@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Spinify 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 79b660f57ef680d5a0f31032d0e639001b39b986
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b13e87411fd3602bb9df5b02a03c81c8e718395e
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412732"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430754"
 ---
 # <a name="spinify"></a>Spinify
 
@@ -37,7 +37,7 @@ Spinify 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Spinify |
 | 合作伙伴网站的 URL | [https://spinify.com](https://spinify.com) |
-| 应用程序Teams页的 URL | [https://spinify.com/integrations/microsoft-teams/](https://spinify.com/integrations/microsoft-teams/) |
+| Teams信息页的 URL | [https://spinify.com/integrations/microsoft-teams/](https://spinify.com/integrations/microsoft-teams/) |
 | 隐私策略的 URL | [https://spinify.com/privacy-policy/](https://spinify.com/privacy-policy/) |
 | 使用条款 URL | [https://spinify.com/terms-of-service/](https://spinify.com/terms-of-service/) |
 
@@ -53,7 +53,7 @@ Spinify 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -73,7 +73,7 @@ Spinify 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -118,4 +118,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

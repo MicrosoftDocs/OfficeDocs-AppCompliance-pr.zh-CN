@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ezTeam 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0c7b8022a8d629af9dbce0c2f97c381b4a15ca2b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 8a058d3d4e8d96a0c915585e75b7c0e53c2f2341
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414658"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428799"
 ---
 # <a name="ezteam"></a>ezTeam
 
@@ -72,7 +72,7 @@ EnterprizID Inc 提供给 Microsoft 的信息：
 >| Group.ReadWrite.All | 应用程序 | 允许应用创建组、读取所有组属性和成员身份、更新组属性和成员身份以及删除组。 还允许应用读取和写入组日历和对话。  | 团队的最后一次活动。 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| GroupMember.Read.All | 应用程序 | 允许应用在没有已登录用户的情况下读取所有组的成员身份和基本组属性。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| GroupMember.ReadWrite.All | 应用程序 | 允许应用在没有已登录用户的情况下列出组、读取基本属性、读取和更新应用有权访问的组的成员身份。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| People.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取任何用户的相关人的得分列表。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| People.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取任何用户的相关人员得分列表。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Reports.Read.All | delegated | 允许应用代表已登录用户读取所有服务使用情况报告。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Reports.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取所有服务使用情况报告。 | 每个组的上一个用户活动 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Sites.ReadWrite.All | 应用程序 | 允许应用在没有登录用户的情况下创建、读取、更新和删除所有网站集中的文档和列表项。 | 按每个用户的大小排名前 10 位的网站 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
@@ -93,14 +93,14 @@ EnterprizID Inc 提供给 Microsoft 的信息：
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 欢迎消息、审批和证明流程通知 | 我们存储显示名称的标识  | 我们的工具允许最终用户为不同的服务项创建请求，并存储请求者显示名称。 请求将遵循审批工作流，我们需要审批者显示名称才能显示在请求详细信息中。 此外，在团队认证过程中的成员中，我们显示名称成员的列表。 |
+>| 欢迎消息、审批和证明流程通知 | 我们存储显示名称的标识  | 我们的工具允许最终用户创建对不同服务项的请求，并存储请求者显示名称。 请求将遵循审批工作流，我们需要审批者显示名称才能显示在请求详细信息中。 此外，在团队认证过程中的成员中，我们显示名称成员的列表。 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >EndUser 和组织全名。 保留和删除策略位于"保留 https://enterprizid.com/privacy-policy &quot; 你的个人数据"部分 &quot; 下
 
@@ -141,7 +141,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -158,4 +158,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

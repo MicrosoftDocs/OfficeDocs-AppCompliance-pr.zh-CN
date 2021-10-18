@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 Outlook、Teams SharePoint、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息，LawToolBox 所有可用的安全性和合规性信息。 &amp;
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b8264ca65796af344d5cba11a55afca6c2e42cc9
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 450fd7c5f0752d523fb94e59308f8f339c95fad8
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411296"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428669"
 ---
 # <a name="lawtoolbox-matters-for-outlook-teams-amp-sharepoint"></a>LawToolBox 对于Outlook、Teams SharePoint &amp;
 
@@ -47,24 +47,24 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 LawToolBox.com Inc. 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由 LawToolBox.com Inc. 提供，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | delegated | 此权限限制访问用户&#8217;他们有权访问的联系人&#8211;我们使用它来允许用户检索其自己的日历信息 | [可选]读取用户的日历。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.Read | delegated | 此权限受限，&#8217;他们有权访问的联系人&#8211;我们使用它来允许用户检索其自己的日历信息 | [可选]读取用户的日历。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Calendars.ReadWrite | delegated | 此权限受限，&#8217;他们有权访问的联系人&#8211;我们使用它来允许用户检索自己的日历信息并写入日历 | 在用户的日历中创建日历邀请。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Calendars.ReadWrite.Shared | delegated | 此权限限制访问用户&#8217;他们有权访问的联系人&#8211;我们使用它来允许用户检索其自己的日历信息 | 创建共享日历的日历邀请。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite.Shared | delegated | 此权限受限，&#8217;他们有权访问的联系人&#8211;我们使用它来允许用户检索其自己的日历信息 | 创建共享日历的日历邀请。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Contacts.ReadWrite | delegated | 此权限限制访问用户&#8217;已有权访问的联系人的用户。  我们使用此权限可允许用户搜索其 O365 联系人并添加到 LawToolBox &#8211;我们不会自动添加任何联系人 (如果您不希望使用此功能，并且可以手动添加联系人，可以撤消此操作 | [Optional]- 读取用户联系人，将用户从联系人列表连接到组。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Contacts.ReadWrite.Shared | delegated | 我们使用此权限允许用户搜索共享的 O365 联系人并添加到 LawToolBox &#8211;我们不会自动添加任何联系人 | [Optional]- 读取用户共享联系人，以提供与案例相关的联系人列表。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Directory.AccessAsUser.All | delegated | 我们在管理门户中使用 从 O365 租户检索要添加到帐户的用户列表 | [可选]作为用户读取组和用户信息。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Directory.ReadWrite.All | delegated | 我们在管理门户中使用 从 O365 租户检索要添加到帐户的用户列表 | [可选]作为用户读取组和用户信息。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Files.Read | delegated | 这允许外接程序读取和列出用户已有权访问的用户文件 | [可选]读取用户OneDrive。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Files.Read.All | delegated | 我们使用此权限读取和列出用户已有权访问的用户文件 | [Optional]-Read user's OneDrive。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Files.ReadWrite | delegated | 我们读取会议Teams、组OneDrive文件 (如果撤销，将阻止我们的 addin 在应用或应用中列出重要)  | [Optional]-Read and modify files in a user's OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite | delegated | 我们读取会议Teams、组OneDrive文件 (如果撤销，将阻止我们的 addin 在应用中列出重要)  | [Optional]-Read and modify files in a user's OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Files.ReadWrite.All | delegated | 我们读取会议Teams、组OneDrive文件 (如果撤销，它将阻止 LTB 在应用或应用中列出重要) 。  用户只能使用 addin 读取和列出用户已有权访问的用户文件 | [可选]读/写用户OneDrive事件关联的文件。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Group.ReadWrite.All | delegated | GroupID、GroupName、GroupEmail | 我们为系统中创建的每个事项创建一个组。 这可帮助用户将与重要信息存储到组，而组又将其数据保存到其自己的租户中。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Mail.Read | delegated | 我们使用此权限阅读 Outlook 外接程序中的 PACER 电子邮件以自动打开这一事项，并读取电子邮件中的联系人以添加到我们的联系人系统  | [可选][InProgress]阅读用户的电子邮件了解事项。 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
@@ -89,7 +89,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >调试日志中的用户电子邮件、用户 ID、AccessToken、组信息
 
@@ -119,7 +119,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 为了更好地控制，管理员可以实现应用权限 |
@@ -136,4 +136,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

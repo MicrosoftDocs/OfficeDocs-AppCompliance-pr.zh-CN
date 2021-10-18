@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Weekly10 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9bdd5e42398270719c9f0ecd9814155974dbee6f
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e0b197ba692a1516f12c6268ccd6f8ad723146af
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411126"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428839"
 ---
 # <a name="weekly10"></a>Weekly10
 
@@ -37,7 +37,7 @@ ms.locfileid: "60411126"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Binary Geek Limited |
 | 合作伙伴网站的 URL | [https://www.weekly10.com](https://www.weekly10.com) |
-| Teams信息页的 URL | [https://www.weekly10.com/integrations/microsoft-teams/](https://www.weekly10.com/integrations/microsoft-teams/) |
+| 应用程序Teams页的 URL | [https://www.weekly10.com/integrations/microsoft-teams/](https://www.weekly10.com/integrations/microsoft-teams/) |
 | 隐私策略的 URL | [https://www.weekly10.com/terms/privacy](https://www.weekly10.com/terms/privacy) |
 | 使用条款 URL | [https://www.weekly10.com/terms/customer](https://www.weekly10.com/terms/customer) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60411126"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -72,14 +72,14 @@ ms.locfileid: "60411126"
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 我们仅Teams个人的用户 ID。 这意味着机器人可以以特定方式响应该用户。 | 否 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >组织名称和用户名（如果报告的错误或问题）。 日志以此格式存储最多 30 天，然后被删除。
 
@@ -87,7 +87,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->驻留在 Weekly10 中的所有数据都可以由指定的管理员控制。 在 Weekly10 中更改策略时，这直接影响客户端数据Microsoft Azure (中数据) 。
+>驻留在 Weekly10 中的所有数据都可以由指定的管理员控制。 在 Weekly10 中更改策略时，这将直接影响客户端数据Microsoft Azure (中数据) 。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -126,4 +126,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

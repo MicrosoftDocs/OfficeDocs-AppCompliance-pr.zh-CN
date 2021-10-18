@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Teamflect 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 99c3dad8bedb9cf986207cb577ca7d58aa8cbef1
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 93fa21382d60f73ebed1a843700f34061e52fd43
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410225"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429620"
 ---
 # <a name="teamflect"></a>Teamflect
 
@@ -52,11 +52,11 @@ ms.locfileid: "60410225"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | 应用程序 | 我们使用此权限来访问用户日历，以标识一对一会议 | 日历项目元数据存储在我们的数据库中 | [c5da92a9-873e-4ea1-86c7-03ec9c1384f0](https://docs.microsoft.com/microsoft-365-app-certification/azure/c5da92a9-873e-4ea1-86c7-03ec9c1384f0) |
+>| Calendars.Read | 应用程序 | 我们使用此权限访问用户日历以标识一对一会议 | 日历项目元数据存储在我们的数据库中 | [c5da92a9-873e-4ea1-86c7-03ec9c1384f0](https://docs.microsoft.com/microsoft-365-app-certification/azure/c5da92a9-873e-4ea1-86c7-03ec9c1384f0) |
 >| Directory.Read.All | delegated | 公司目录 - 我们使用此权限在最终用户执行搜索时向最终用户显示其同事列表 | 不适用 | [c5da92a9-873e-4ea1-86c7-03ec9c1384f0](https://docs.microsoft.com/microsoft-365-app-certification/azure/c5da92a9-873e-4ea1-86c7-03ec9c1384f0) |
 
 
@@ -72,14 +72,14 @@ ms.locfileid: "60410225"
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 我们的自动程序应用程序向最终用户发送通知。 作为这些通知的一部分，我们的机器人处理数据，但此机器人也托管在 Microsoft Azure Datacenter 中，不会将任何 EUII 数据传输给第三方服务。 | 否 |  |
+>| 我们的自动程序应用程序向最终用户发送通知。 作为这些通知的一部分，我们的机器人处理数据，但此机器人也托管在 Microsoft Azure Datacenter 中，不会将任何 EUII 数据传输给外部或第三方服务。 | 否 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们仅存储用户数据，只要他们一直使用我们的应用程序。 5 年后或根据最终用户请求，我们将删除与非活动用户相关的所有数据。
 
@@ -87,7 +87,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们使用 Microsoft Azure 托管我们的应用程序服务器和数据库。 我们仅使用第三方邮件服务将电子邮件通知发送给我们的用户。 此第三方邮件系统存储最终用户电子邮件地址，但由我们根据我们的数据保留和隐私策略进行控制。
+>我们使用 Microsoft Azure托管我们的应用程序服务器和数据库。 我们仅使用第三方邮件服务将电子邮件通知发送给我们的用户。 此第三方邮件系统存储最终用户电子邮件地址，但由我们根据我们的数据保留和隐私策略进行控制。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -109,7 +109,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | BlockAccess、RequireMFA |
@@ -126,4 +126,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Vizito 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: e26770d2942ea4a687dab5f8f98e79a3163fa9b7
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b827adeb9160ec79dbd04cb973418726a95ce45d
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414398"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430331"
 ---
 # <a name="vizito"></a>Vizito
 
@@ -118,4 +118,3 @@ Vizito BV 提供了此信息，这些信息与此应用程序如何处理身份�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于敏捷任务板的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ed25a77c5f07371bad9d2754b53c0b42deab11d6
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 29e9759cfa1d4e27ebeaa745f14973ff257bda0b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411941"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430240"
 ---
 # <a name="agile-task-board"></a>Agile Task Board
 
@@ -52,7 +52,7 @@ Agile-IS 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -72,7 +72,7 @@ Agile-IS 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们在应用程序见解遥测数据中收集域名和哈希用户 ID。 在每个应用实例中，可以控制和关闭遥测数据的传输。 随后必须请求我们删除数据。
 
@@ -82,7 +82,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 >应用程序将所有数据存储在 SharePoint Online 列表和文档库中，这些列表和文档库位于运行应用各自的实例的同一网站上。 对此数据的访问控制取决于客户的租户配置。 
 
-对于许可证控制，域和 UPN 将传输到 Azure 中托管的服务。 此信息通过身份验证Azure AD保护。
+对于许可证控制，域和 UPN 将传输到 Azure 中托管的服务。 此信息受身份验证Azure AD保护。
 
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
@@ -106,5 +106,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

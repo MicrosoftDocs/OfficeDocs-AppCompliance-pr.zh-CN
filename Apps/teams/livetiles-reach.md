@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Reach 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 81e9414b73aef445a14aada037e4b233bbeb7aae
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 882e5bdff55a1217c39b8f97761a28eba92d0036
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414568"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430814"
 ---
 # <a name="reach"></a>Reach
 
@@ -37,7 +37,7 @@ LiveTiles 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | LiveTiles |
 | 合作伙伴网站的 URL | [https://livetilesglobal.com](https://livetilesglobal.com) |
-| Teams信息页的 URL | [https://livetilesglobal.com/products/livetiles-reach/](https://livetilesglobal.com/products/livetiles-reach/) |
+| "Teams应用程序信息"页的 URL | [https://livetilesglobal.com/products/livetiles-reach/](https://livetilesglobal.com/products/livetiles-reach/) |
 | 隐私策略的 URL | [https://livetilesglobal.com/privacy-policy/](https://livetilesglobal.com/privacy-policy/) |
 | 使用条款 URL | [https://livetilesglobal.com/eula/](https://livetilesglobal.com/eula/) |
 
@@ -53,13 +53,13 @@ LiveTiles 提供了此信息，这些信息与此应用程序如何收集和存�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamsActivity.Send | 应用程序 | 无 | 无 | [a7c1920d-3ac0-42db-9757-078a2b321fd8 ](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7c1920d-3ac0-42db-9757-078a2b321fd8 ) |
 >| User.Read | delegated | 用户 DisplayName、用户电子邮件地址、UPN。 需要允许用户登录应用并获取已登录用户的基本信息，例如显示名称。 电子邮件地址用于发送电子邮件通知。  | 用户 DisplayName、用户电子邮件地址、UPN。 需要允许用户登录应用并获取已登录用户的基本信息，例如显示名称。 电子邮件地址用于发送电子邮件通知。  | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
->| User.ReadBasic.All | delegated | 用户显示名称、用户电子邮件地址、UPN、用户部门、用户职务、用户移动电话号码、用户电话号码、用户Office位置。 需要允许用户在 Phonebook (应用程序内搜索) 查看其他用户的基本个人资料和联系信息。  | 无 | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
+>| User.ReadBasic.All | delegated | 用户 DisplayName、用户电子邮件地址、UPN、用户部门、用户职务、用户移动电话号码、用户业务电话号码、用户Office位置。 需要允许用户在 Phonebook (应用程序内搜索) 查看其他用户的基本个人资料和联系信息。  | 无 | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
 >| Directory.Read.All | 应用程序 | 组成员身份，目录中的 AD 组。 用户的组成员身份存储在缓存中，以最大限度地减少对 Microsoft Graph API 的调用。 必须允许用户搜索 Active Directory 组。 此外，应用程序需要此权限才能解析后端 Web 作业中用户的 AD 组成员身份。 | 用户的组成员身份。 用户的组成员身份存储在缓存中，以最大限度地减少对 Microsoft Graph API 的调用。 必须允许用户搜索 Active Directory 组。 此外，应用程序需要此权限才能解析后端 Web 作业中用户的 AD 组成员身份。  | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
 >| User.Read.All | 应用程序 | 从用户配置文件中检索的数据取决于应用程序中指定的访问群体定位功能配置。 需要允许应用在没有登录用户的情况下读取用户配置文件。 应用程序中的信息定位功能需要读取配置文件数据，以便基于特定配置文件属性值向特定用户显示该信息。  | 无 | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
 
@@ -68,7 +68,7 @@ LiveTiles 提供了此信息，这些信息与此应用程序如何收集和存�
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| SendGrid、OneSignal | 电子邮件地址显示名称 | 通过电子邮件和移动推送通知向用户发送通知 |
 
@@ -81,7 +81,7 @@ LiveTiles 提供了此信息，这些信息与此应用程序如何收集和存�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >电子邮件地址 UPN。 最多保留 60 天，删除后
 
@@ -140,4 +140,3 @@ LiveTiles 提供了此信息，这些信息与此应用程序如何处理身份�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

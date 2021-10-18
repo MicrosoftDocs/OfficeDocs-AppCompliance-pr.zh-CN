@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: MIPA 的所有可用安全性和合规性信息 - 您自己的 个人助理、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas-identity-certification
-ms.openlocfilehash: 186699e37129b4fa0576c340c712cff319c51f96
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 1b522d5cd5150d8003037962498ceadbb139042b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412642"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430100"
 ---
 # <a name="mipa---your-own-personal-assistant"></a>MIPA - 你自己的个人助理
 
@@ -46,11 +46,11 @@ iGlobe 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-iGlobe 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+此信息由 iGlobe 提供，用于了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -62,9 +62,9 @@ iGlobe 提供了此信息，这些信息与此应用程序如何收集和存储�
 >| Group.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 读取、更新、创建平移器任务、读取用户的最近文件和共享文件、SharePoint列表、库和文件。 将文件保存到SharePoint列表中。 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| Group.ReadWrite.All | delegated | 应用程序数据库中不存储任何数据。 | 读取、更新、创建平移器任务、读取用户的最近文件和共享文件、SharePoint列表、库和文件。 将文件保存到SharePoint列表中。 与 iGlobe CRM Office 365 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| Mail.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取和更新已标记的邮件 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| MailboxSettings.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取和更新 calender 整个、读取和更新标记的邮件、读取和更新Outlook 微软待办整个 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Tasks.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新 calender 的整个内容、读取Outlook更新到 Do Entreies | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.Read | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新 calender 的整个内容、读取Outlook更新到 Do Entreies | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| MailboxSettings.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取和更新 calender 的整个内容、读取和更新标记的邮件、读取和更新Outlook 微软待办整个 | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Tasks.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新 calender 的整个内容、读取Outlook更新为 Do Entreies | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.Read | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新 calender 的整个内容、读取Outlook更新为 Do Entreies | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| User.Read.All | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新日历的整个内容、读取Outlook更新为 Do Entreies、Read、Update、Create Panner Tasks | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| User.ReadBasic.All | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新日历的整个内容、读取Outlook更新为 Do Entreies、Read、Update、Create Panner Tasks | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| User.ReadWrite | delegated | 应用程序数据库中不存储任何数据。 | 读取并更新 calender 的整个内容、读取Outlook更新为 Do Entreies | [e854ea05-68ab-4204-如果为 db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
@@ -152,43 +152,6 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 | 你的应用是否公开任何 Web API？ | 否 |
 | 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>认证信息
-
-| **Control** | **Microsoft 365认证结果** |
-|:------------|:---------------------------------------|
-| [**应用程序安全性**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渗透测试 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞评估评审 (DAST/SAST/渗透测试)  | 不适用 |
-| [**操作安全性**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 防病毒 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 应用程序控制 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 风险排名 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 修补 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞扫描 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - 防火墙 (或等效技术)  | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - Web 应用程序防火墙 (WAF)  (可选)  | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更改控件 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全软件开发/部署 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帐户管理 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入侵检测和防护 (可选)  | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件日志记录 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看 (日志记录)  | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件警报 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息安全风险管理 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事件响应 | 不适用 |
-| [**数据处理安全 &amp; 隐私**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传输中的数据 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;处于 Rest 的数据 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据保留和处置 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据访问管理 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | 不适用 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

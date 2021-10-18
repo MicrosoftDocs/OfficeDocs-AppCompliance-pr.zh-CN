@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 组通讯簿的所有可用安全性和合规性信息 - NextSet、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 813966b77b9eac36696f07ba7d2647654739e8d8
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 7a9a8cc45cfaca970fa66826af0f024dcca986f6
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414990"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430794"
 ---
 # <a name="group-address-book---nextset"></a>Group 通讯簿 - NextSet
 
@@ -37,7 +37,7 @@ NextSet，Inc. 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | NextSet,Inc. |
 | 合作伙伴网站的 URL | [https://www.nextset.co.jp](https://www.nextset.co.jp) |
-| 应用程序Teams页的 URL | [https://www.nextset.co.jp/address.html](https://www.nextset.co.jp/address.html) |
+| "Teams应用程序信息"页的 URL | [https://www.nextset.co.jp/address.html](https://www.nextset.co.jp/address.html) |
 | 隐私策略的 URL | [https://www.nextset.co.jp/privacy.html](https://www.nextset.co.jp/privacy.html) |
 | 使用条款 URL | [https://www.nextset.co.jp/terms/address.pdf](https://www.nextset.co.jp/terms/address.pdf) |
 
@@ -63,7 +63,7 @@ NextSet，Inc. 提供了此信息，这些信息与此应用程序如何收集�
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -131,4 +131,3 @@ This information has been provided by NextSet，Inc. about how this app handles 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

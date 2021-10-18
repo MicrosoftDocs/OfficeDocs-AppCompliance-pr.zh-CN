@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: AVA 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a23ab8dfa165d43d6f2a9afafab0bc2ac12534bb
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e5b53fbbc4c65c709324611a9ac645b045e4eaa7
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411891"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430000"
 ---
 # <a name="ava"></a>AVA
 
@@ -37,7 +37,7 @@ AvePoint， Inc. 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | AvePoint, Inc. |
 | 合作伙伴网站的 URL | [https://www.avepoint.com/](https://www.avepoint.com/) |
-| 应用程序Teams页的 URL | [https://www.avepoint.com/support/](https://www.avepoint.com/support/) |
+| Teams信息页的 URL | [https://www.avepoint.com/support/](https://www.avepoint.com/support/) |
 | 隐私策略的 URL | [https://www.avepoint.com/company/privacy-policy/](https://www.avepoint.com/company/privacy-policy/) |
 | 使用条款 URL | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 
@@ -53,7 +53,7 @@ AvePoint， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -84,7 +84,7 @@ AvePoint， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >是，用户的电子邮件和租户 ID 将显示在日志中。 日志存储在安全的位置，只有授权人员可以在疑难解答过程中访问。 这些日志将在 60 天后存档，用于安全审核，并且将在一年后删除。
 
@@ -116,5 +116,4 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: RetMig Kommaforslag 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全 &amp; /合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 12501306427c5954c2a67aac9725a42625ce2b3f
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 44c725d7e970de8005c110141ff373883787fc91
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414317"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428445"
 ---
 # <a name="retmig-amp-kommaforslag"></a>RetMig &amp; Kommaforslag
 
@@ -33,7 +33,7 @@ GrammarSoft ApS 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | RetMig &amp; Kommaforslag |
 | ID | WA104382003 |
-| Office 365支持的客户端 | Word 2016 Mac 或更高版本，Word 2016或更高版本Windows、Word web 版 |
+| Office 365支持的客户端 | Word 2016 Mac 或更高版本、Word 2016或更高版本Windows Word web 版 |
 | 合作伙伴公司名称 | GrammarSoft ApS |
 | 合作伙伴网站的 URL | [https://retmig.dk](https://retmig.dk) |
 | 隐私策略的 URL | [https://retmig.dk/terms#privacy](https://retmig.dk/terms#privacy) |
@@ -51,12 +51,12 @@ GrammarSoft ApS 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -100,4 +100,3 @@ GrammarSoft ApS 提供了此信息，这些信息与此应用程序如何处理�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

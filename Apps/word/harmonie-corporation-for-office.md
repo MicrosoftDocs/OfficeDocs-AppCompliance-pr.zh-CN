@@ -1,19 +1,19 @@
 ---
-title: harmon.ie corporation Office harmon.ie 的应用程序信息
+title: Harmon.ie Office harmon.ie 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 适用于 HARMON.IE 应用程序的所有Office信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 适用于 harmon.ie 应用程序的所有Office信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c9e803a02b2db799b0aeb2230955746fa905ccbe
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c04e0329be337a6018db400d64450a6d20e7043b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414818"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429760"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie Office
 
@@ -51,17 +51,17 @@ harmon.ie 向 Microsoft 提供的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.AccessAsUser.All | delegated | 要求 harmon.ie Outlook用户登录并获取用户角色 | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
->| Files.ReadWrite.All | delegated | 要求 harmon.ie，Outlook允许其从邮箱传输电子邮件Outlook并将其 &amp; 保存到SharePoint | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
->| Mail.ReadWrite | delegated | 要求 harmon.ie，Outlook允许其从邮箱传输电子邮件Outlook并将其 &amp; 保存到SharePoint | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
->| User.Read | delegated | 解析用户配置文件 harmon.ie Outlook要求 | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Files.ReadWrite.All | delegated | 要求 harmon.ie，Outlook允许其从邮箱传输电子邮件Outlook &amp; 并将其保存到SharePoint | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Mail.ReadWrite | delegated | 要求 harmon.ie，Outlook允许其从邮箱传输电子邮件Outlook &amp; 并将其保存到SharePoint | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| User.Read | delegated | 要求 harmon.ie Outlook用户配置文件图片 | 无 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -107,7 +107,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息已由 harmon.ie Corporation 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+此信息由 harmon.ie Corporation 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -129,4 +129,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

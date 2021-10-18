@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 合作者的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3dc9a5d3bcd6e5bbc356efab77ad15406e9fb772
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4fb839013c38dcf7b490e02810ad5726be0aabda
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414628"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428589"
 ---
 # <a name="fellow"></a>Fellow
 
@@ -83,7 +83,7 @@ ms.locfileid: "60414628"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >同事存储由用户直接提供的信息，包括个人数据。 同事还存储来自第三方系统的一些信息，例如 OAuth 数据、日历数据和 PII（如名称 &amp; 电子邮件）。 我们无限期保留所有数据，只要有必要，并且出于收集目的法律允许保留这些数据。 收到用户的请求后，我们提前安全地删除此信息。 日志数据将保留 30 天。
 
@@ -119,12 +119,12 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 Insights Inc 提供，用于说明此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+此信息由 Insights Inc. 提供，与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -140,4 +140,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

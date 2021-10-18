@@ -1,5 +1,5 @@
 ---
-title: 按用户 elmah.io 的应用程序 elmah.io
+title: 应用程序应用程序 elmah.io 信息 elmah.io
 ms.author: elmalova
 author: elenamalova
 ms.date: 03/18/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息 elmah.io、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b3e652415a7adf625ada6ba19e4bbb6625b7c5f1
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b1020e782907d8099e4aa0f17119d140aa35067e
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414678"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430080"
 ---
 # <a name="elmahio"></a>elmah.io
 
@@ -37,7 +37,7 @@ ms.locfileid: "60414678"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | elmah.io |
 | 合作伙伴网站的 URL | [https://elmah.io](https://elmah.io) |
-| "Teams应用程序信息"页的 URL | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |
+| Teams信息页的 URL | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |
 | 隐私策略的 URL | [https://elmah.io/legal/teams-privacy-policy/](https://elmah.io/legal/teams-privacy-policy/) |
 | 使用条款 URL | [https://elmah.io/legal/terms-of-use/](https://elmah.io/legal/terms-of-use/) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60414678"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -62,7 +62,7 @@ ms.locfileid: "60414678"
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Intercom、Stripe、Mailchimp、Amazon Web Services | 公司名称、名称、电子邮件 | 我们与 Intercom、Mailchimp 和 AWS 共享用户名称和电子邮件，以个性化设置电子邮件。 我们将公司名称与发票的"条纹"等共享。 |
 
@@ -75,7 +75,7 @@ ms.locfileid: "60414678"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -120,4 +120,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

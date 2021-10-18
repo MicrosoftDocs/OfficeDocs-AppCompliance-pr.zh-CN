@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Beagle 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c2b27ed465588096f1645dbeba4546b9c152acc3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 019ba79a816c3b0826252a207f1b310b64fa157e
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414698"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428315"
 ---
 # <a name="beagle"></a>Beagle
 
@@ -37,7 +37,7 @@ ms.locfileid: "60414698"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | 决策点 |
 | 合作伙伴网站的 URL | [https://decisionpoint.ai](https://decisionpoint.ai) |
-| Teams信息页的 URL | [https://beagleanalytics.ai](https://beagleanalytics.ai) |
+| 应用程序Teams页的 URL | [https://beagleanalytics.ai](https://beagleanalytics.ai) |
 | 隐私策略的 URL | [https://beagleanalytics.ai/wp-content/uploads/2021/02/Beagl...](https://beagleanalytics.ai/wp-content/uploads/2021/02/Beagle-Privacy-Policy.pdf) |
 | 使用条款 URL | [https://beagleanalytics.ai/wp-content/uploads/2021/02/Terms...](https://beagleanalytics.ai/wp-content/uploads/2021/02/Terms-of-Use.pdf) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60414698"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -68,14 +68,14 @@ ms.locfileid: "60414698"
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| 用于对自动程序各种功能的访问控制的用户 ID。 | 否 |  |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >用户电子邮件 ID，ms teams id。180 天保留策略。
 
@@ -120,4 +120,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

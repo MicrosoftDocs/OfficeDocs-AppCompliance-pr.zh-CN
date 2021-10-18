@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Lucidspark 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 97dd4245e0bba6f82adea01c08638f6cfc20698e
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 863883b8e18984bc6a52ed2829811b74e99bf34c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412221"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429700"
 ---
 # <a name="lucidspark"></a>Lucidspark
 
@@ -124,4 +124,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

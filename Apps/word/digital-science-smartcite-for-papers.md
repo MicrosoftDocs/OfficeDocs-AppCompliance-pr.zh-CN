@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SmartCite for Papers 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ec979feae01a67ca76dd5b5cfbb94eabac946c9a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 2a3821da8b8a3fc662f7c315229a1f667ab2a465
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60404650"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429430"
 ---
 # <a name="smartcite-for-papers"></a>SmartCite for Papers
 
@@ -33,7 +33,7 @@ ms.locfileid: "60404650"
 |:----------------|:-------------|
 | 应用名称 | SmartCite for Papers |
 | ID | WA104380917 |
-| Office 365支持的客户端 | Word 2016 Mac 或更高版本，Word 2016或更高版本Windows、Word web 版 |
+| Office 365支持的客户端 | Word 2016 Mac 或更高版本、Word 2016或更高版本Windows Word web 版 |
 | 合作伙伴公司名称 | 数字科学 |
 | 合作伙伴网站的 URL | [https://papersapp.com](https://papersapp.com) |
 | 隐私策略的 URL | [https://www.papersapp.com/privacy](https://www.papersapp.com/privacy) |
@@ -57,7 +57,7 @@ ms.locfileid: "60404650"
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -118,4 +118,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

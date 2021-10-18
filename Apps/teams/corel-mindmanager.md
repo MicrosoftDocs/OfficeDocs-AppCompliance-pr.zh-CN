@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: MindManager 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f9cd3639b4c7abf8cb5472213e11faa879fb7917
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f2c713ac6db2f8a1bb5bcfcd5d7c2a4056d9d045
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411086"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429169"
 ---
 # <a name="mindmanager"></a>MindManager
 
@@ -68,7 +68,7 @@ Corel 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Amazon Web Services | 组织名称、组织域 | 组织需要在我们的应用程序基础结构中设置帐户，以在 Teams |
 
@@ -139,4 +139,3 @@ Corel 已提供有关此应用如何处理身份验证、授权、应用程序�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

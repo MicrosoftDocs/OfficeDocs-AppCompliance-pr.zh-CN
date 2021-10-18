@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: MyHub for Teams 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a19a24cc9178bbbaa16b337cd92fc11686d8d09c
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 09e1b6500f75bde564b3f4cf40538516fb6dbae4
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412624"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429229"
 ---
 # <a name="myhub-for-teams"></a>MyHub for Teams
 
@@ -58,7 +58,7 @@ AvePoint Inc. 提供给 Microsoft 的信息：
 >| Group.ReadWrite.All | 两者 | 从数据处理的角度来看，存储应用程序配置数据 | 读取和写入所有组 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 >| Mail.Send | delegated | 从数据处理的角度来看，存储应用程序配置数据 | 以用户身份发送邮件 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 >| Reports.Read.All | 应用程序 | 从数据处理的角度来看，存储应用程序配置数据 | 读取所有使用情况报告 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Sites.FullControl.All | 应用程序 | 从数据处理的角度来看，存储应用程序配置数据 | 完全控制所有网站集 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.FullControl.All | 应用程序 | 从数据处理的角度来看，存储应用程序配置数据 | 具有对所有网站集的完全控制权限 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 >| Sites.Read.All | 应用程序 | 从数据处理的角度来看，存储应用程序配置数据 | 读取所有网站集中的项目 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 >| Sites.ReadWrite.All | delegated | 从数据处理的角度来看，存储应用程序配置数据 | 编辑或删除所有网站集中的项目 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 >| User.Read.All | 两者 | 从数据处理的角度来看，存储应用程序配置数据 | 读取所有用户&#65533;配置文件 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
@@ -108,7 +108,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 | 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
-| 列出支持的策略类型 | 应用程序与 Azure AD，因此可以使用所有条件访问规则。 |
+| 列出支持的策略类型 | 应用程序与 Azure AD联合，因此可以使用所有条件访问规则。 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
@@ -122,4 +122,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

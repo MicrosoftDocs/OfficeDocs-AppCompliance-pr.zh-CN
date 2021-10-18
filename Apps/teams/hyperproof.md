@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Hyperproof 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b84a4178c13a99e7d41935e77d7c52b61d9804be
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 61874a0b54123d9276301f9e386326f5fa0f8a23
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411006"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428579"
 ---
 # <a name="hyperproof"></a>Hyperproof
 
@@ -37,7 +37,7 @@ Hyperproof 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Hyperproof |
 | 合作伙伴网站的 URL | [https://hyperproof.io](https://hyperproof.io) |
-| 应用程序Teams页的 URL | [https://hyperproof.io/product](https://hyperproof.io/product) |
+| Teams信息页的 URL | [https://hyperproof.io/product](https://hyperproof.io/product) |
 | 隐私策略的 URL | [https://hyperproof.io/privacy-policy](https://hyperproof.io/privacy-policy) |
 | 使用条款 URL | [https://hyperproof.io/terms-of-use](https://hyperproof.io/terms-of-use) |
 
@@ -53,7 +53,7 @@ Hyperproof 提供了此信息，这些信息与此应用程序如何收集和存
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -73,7 +73,7 @@ Hyperproof 提供了此信息，这些信息与此应用程序如何收集和存
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -114,7 +114,7 @@ Hyperproof 已提供有关此应用如何处理身份验证、授权、应用程
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -130,4 +130,3 @@ Hyperproof 已提供有关此应用如何处理身份验证、授权、应用程
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

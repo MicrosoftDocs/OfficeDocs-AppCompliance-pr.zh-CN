@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Goalhub 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 81dae2dab8755d85d72645843ee1094318c8b75e
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 31a71fb394e6dac933831d80e275661a4cf50d93
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414500"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429910"
 ---
 # <a name="goalhub"></a>Goalhub
 
@@ -37,7 +37,7 @@ ms.locfileid: "60414500"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | 动量云 Pty Ltd |
 | 合作伙伴网站的 URL | [https://www.momentumcloud.com.au](https://www.momentumcloud.com.au) |
-| "Teams应用程序信息"页的 URL | [https://www.goalhub.com/about-1](https://www.goalhub.com/about-1) |
+| Teams信息页的 URL | [https://www.goalhub.com/about-1](https://www.goalhub.com/about-1) |
 | 隐私策略的 URL | [https://www.goalhub.com/privacy-policy](https://www.goalhub.com/privacy-policy) |
 | 使用条款 URL | [https://www.goalhub.com/terms](https://www.goalhub.com/terms) |
 
@@ -53,7 +53,7 @@ ms.locfileid: "60414500"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -73,7 +73,7 @@ ms.locfileid: "60414500"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -114,7 +114,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 否 |
@@ -130,4 +130,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

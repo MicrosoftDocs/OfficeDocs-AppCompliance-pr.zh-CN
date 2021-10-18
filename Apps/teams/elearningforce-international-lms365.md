@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: LMS365 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 37053d460cd8619379f7a2e5b3f581f789d00986
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 8f735aeb70d38188f239715bb1c746a017471e4b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410265"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430492"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -36,7 +36,7 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ELEARNINGFORCE International |
 | 合作伙伴网站的 URL | [https://www.elearningforce.com](https://www.elearningforce.com) |
-| 应用程序Teams页的 URL | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
+| Teams信息页的 URL | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
 | 隐私策略的 URL | [https://www.elearningforce.com/privacy](https://www.elearningforce.com/privacy) |
 | 使用条款 URL | [https://www.elearningforce.com/LMS365-SaaS-Terms](https://www.elearningforce.com/LMS365-SaaS-Terms) |
 
@@ -63,7 +63,7 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 >| User.Invite.All | delegated | 无 | 允许应用代表当前登录的用户邀请外部用户 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| User.Read | delegated | 无 | 登录并读取用户配置文件。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| User.Read.All | delegated | 无 | 允许应用读取当前登录用户的完整个人资料。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| User.Read.All | 应用程序 | 允许应用读取完整的用户配置文件。 需要&#8217;管理员读取用户&#8217;生成层次结构报告。 | 以下个人数据存储在专用数据库中，供相应客户在应用程序中用于管理管理器仪表板 &amp; 功能。 帐户名称、用户显示名称、电子邮件地址、部门、职务、Office、国家/地区、城市、经理 ID/电子邮件 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | 应用程序 | 允许应用读取完整的用户配置文件。 若要&#8217;层次结构报告，需要读取&#8217;管理员。 | 以下个人数据存储在专用数据库中，供相应客户在应用程序中用于管理管理器仪表板 &amp; 功能。 帐户名称、用户显示名称、电子邮件地址、部门、职务、Office、国家/地区、城市、经理 ID/电子邮件 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| 个人资料 | delegated | 无 | 查看用户的基本个人资料。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
@@ -74,7 +74,7 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint | 否 |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -82,7 +82,7 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -91,7 +91,7 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >是的，我们使用Insights分析遥测/日志，这些遥测/日志仅用于问题处理，并且保留策略为 90 天，之后将删除所有数据。
 
@@ -132,7 +132,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 设备平台、设备状态、客户端应用 |
@@ -149,4 +149,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

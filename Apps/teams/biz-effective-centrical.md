@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 Centrical 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f1d447f3d7a8dcd717d0a29eedd29e8b081f8ed6
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: fdef4f850c6bab994daa11ef1a3ad326dc5f608c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414768"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430090"
 ---
 # <a name="centrical"></a>Centrical
 
@@ -28,7 +28,7 @@ ms.locfileid: "60414768"
 
 ### <a name="general-information"></a>一般信息
 
-由 Microsoft Biz-Effective的信息：
+由 Microsoft Biz-Effective提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -37,7 +37,7 @@ ms.locfileid: "60414768"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Biz-Effective |
 | 合作伙伴网站的 URL | [https://centrical.com](https://centrical.com) |
-| Teams信息页的 URL | [https://centrical.com/solutions/solutions-by-use-case-2/mic...](https://centrical.com/solutions/solutions-by-use-case-2/microsoft-teams-gamification/) |
+| "Teams应用程序信息"页的 URL | [https://centrical.com/solutions/solutions-by-use-case-2/mic...](https://centrical.com/solutions/solutions-by-use-case-2/microsoft-teams-gamification/) |
 | 隐私策略的 URL | [https://centrical.com/privacy](https://centrical.com/privacy) |
 | 使用条款 URL | [https://centrical.com/terms](https://centrical.com/terms) |
 
@@ -49,11 +49,11 @@ ms.locfileid: "60414768"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由应用Biz-Effective如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制的信息。
+此信息已由用户Biz-Effective，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -73,7 +73,7 @@ ms.locfileid: "60414768"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -109,7 +109,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息已由用户Biz-Effective应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+此信息已由应用Biz-Effective、授权、应用程序注册最佳做法和其他标识条件的信息提供。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -118,4 +118,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

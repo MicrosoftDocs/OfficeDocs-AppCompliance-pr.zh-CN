@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于 researcHR 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: bc174eb69b69cdf2d04c27bc4649f18111d87811
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c66735e8d928de6cd469773477be5a9258128c16
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412802"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429109"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -37,7 +37,7 @@ KBE 向 Microsoft&#26666;&#24335;&#20250;&#31038; 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | KBE&#26666;&#24335;&#20250;&#31038; |
 | 合作伙伴网站的 URL | [https://app.researchr.work/corporate](https://app.researchr.work/corporate) |
-| 应用程序Teams页的 URL | [https://app.researchr.work](https://app.researchr.work) |
+| "Teams应用程序信息"页的 URL | [https://app.researchr.work](https://app.researchr.work) |
 | 隐私策略的 URL | [https://researchr.work/privacypolicy](https://researchr.work/privacypolicy) |
 | 使用条款 URL | [https://app.researchr.work/tos](https://app.researchr.work/tos) |
 
@@ -49,7 +49,7 @@ KBE 向 Microsoft&#26666;&#24335;&#20250;&#31038; 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 KBE&#26666;&#24335;&#20250;&#31038; ，它用于了解此应用程序如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
+此信息由 KBE&#26666;&#24335;&#20250;&#31038; ，它用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -62,7 +62,7 @@ KBE 向 Microsoft&#26666;&#24335;&#20250;&#31038; 的信息：
 >| Group.Read.All | 应用程序 | 我们使用此范围获取通道的 ID 和名称，以在网站上显示这些数据。 请参阅： https://docs.microsoft.com/en-us/graph/api/channel-list | 我们不会在数据库中存储这些数据。 | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| Team.ReadBasic.All | 应用程序 | 我们使用此范围获取团队成员，以便用户可以在我们的网站上看到他们的团队成员。 请参阅： https://docs.microsoft.com/en-us/graph/api/group-list-members | 我们不会在数据库外存储这些数据。 | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| User.Read.All | 应用程序 | 我们使用此范围获取用户加入的频道，以便用户可以在我们的网站上查看其加入的团队。 请参阅： https://docs.microsoft.com/en-us/graph/api/user-list-joinedteams | 我们不会在数据库中存储这些数据。 | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| User.ReadBasic.All | delegated | 我们使用此范围启用 OAuth 登录并收集用户AAD ID、访问令牌和刷新令牌。 请参阅： https://docs.microsoft.com/en-us/graph/auth-v2-user | 我们将用户的 AAD ID、访问令牌和刷新令牌存储在数据库中，以便用户可以使用 OAuth 登录我们网站。 | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
+>| User.ReadBasic.All | delegated | 我们使用此范围启用 OAuth 登录并收集用户AAD ID、访问令牌和刷新令牌。 请参阅： https://docs.microsoft.com/en-us/graph/auth-v2-user | 我们将用户的 AAD ID、访问令牌和刷新令牌存储在我们的数据库中，以便用户可以使用 OAuth 登录我们的网站。 | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| offline_access | delegated | 我们使用此范围获取刷新令牌，以便我们可以刷新已验证用户的访问令牌，而无需任何用户交互。 请参阅： https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | 我们将刷新令牌存储在数据库中，以便我们可以刷新访问令牌，而无需任何用户交互。 | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 
 
@@ -89,7 +89,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->数据库中的所有数据都经过加密。 数据库数据的备份将按照我们的内部操作策略执行和存储一段时间。 如果用户取消此服务，我们将在不延迟的情况下删除用户的用户信息，除非在必要范围内履行法律规定的存储义务。 以下是详细信息。 https://app.researchr.work/privacypolicy
+>数据库中的所有数据都经过加密。 数据库数据的备份将按照我们的内部操作策略执行和存储一段时间。 如果用户取消此服务，我们将立即删除用户的用户信息，除非在必要范围内履行法律规定的存储义务。 以下是详细信息。 https://app.researchr.work/privacypolicy
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -106,7 +106,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 KBE&#26666;&#24335;&#20250;&#31038; ，它提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+此信息由 KBE&#26666;&#24335;&#20250;&#31038; ，用于了解此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -115,4 +115,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

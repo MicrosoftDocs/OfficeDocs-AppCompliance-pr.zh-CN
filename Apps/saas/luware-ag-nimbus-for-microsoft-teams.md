@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Luware Nimbus for Microsoft Teams 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d7139f3ca934da20e58bb9f838217796ca5644da
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 34991a9d979fb497a02c074ade1bd8a7f8faea0d
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410486"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430532"
 ---
 # <a name="luware-nimbus-for-microsoft-teams"></a>Luware Nimbus for Microsoft Teams
 
@@ -56,20 +56,20 @@ Luware AG 提供了此信息，这些信息与此应用程序如何收集和存�
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | delegated | 助理控制台：读取登录用户的日历显示带约会的日历 | 无 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| Calendars.Read.Shared | delegated | 助理控制台：读取共享日历以显示带约会的日历 | 无 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Contacts.Read | delegated | 助理控制台：搜索Exchange登录用户的联系人 | 无 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Contacts.Read | delegated | 助理控制台：在登录Exchange联系人的联系人中搜索 | 无 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| Contacts.Read.Shared | delegated | 助理控制台：在共享联系人Exchange搜索 | 无 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| GroupMember.Read.All | 应用程序 | 获取团队成员、读取安全组 | 我们将此信息存储为通过组成员身份管理呼叫中心代理 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| Presence.Read.All | delegated | 在助理控制台页面上的联系人搜索中显示状态 | 无 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| User.Read | delegated | 从已登录 (用户记录获取 UserInformation)  | 无 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| User.Read.All | 两者 | Nimbus 应用 - 获取 CallerInformation。 在拨打到联系人中心的内部呼叫时，我们将对可能是谁进行反向查找，以便向代理显示该信息。 在助理控制台 (委派权限) 我们搜索整个内部目录以查找转移目标。 | 对于报告调用最多的 REasons，我们将存储该数据。 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| User.ReadBasic.All | delegated | 有限用户搜索 | 无 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Calls.AccessMedia.All | 应用程序 | 其中许多应用/机器人 (每个联系人中心队列一) ：订阅 DTMF 提示音，客户可以在其中实际选择他的位置在 IVR 中 | 用于报告原因的通过 IVR 的选定方式的所有 DTMF 信息 | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.Initiate.All | 应用程序 | 其中许多应用/机器人 (每个联系人中心队列) 一个：呼叫代理  | 用于报告原因的所有 CDR 信息 | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.InitiateGroupCall.All | 应用程序 | 其中许多应用/机器人 (每个联系人中心队列) 一个：呼叫代理  | 用于报告原因的所有 CDR 信息 | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.JoinGroupCall.All | 应用程序 | 其中许多应用/机器人 (每个联系人中心队列) 一个：加入升级的呼叫以播放通知 | 用于报告原因的所有 CDR 信息 | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
+>| Calls.AccessMedia.All | 应用程序 | 其中许多应用/机器人 (每个联系人中心队列) 一个：订阅 DTMF 提示音，客户可以在其中实际选择在 IVR 中的位置 | 用于报告原因的通过 IVR 的选定方式的所有 DTMF 信息 | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
+>| Calls.Initiate.All | 应用程序 | 其中的许多应用/机器人 (每个联系人中心队列一) ：呼叫代理  | 用于报告原因的所有 CDR 信息 | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
+>| Calls.InitiateGroupCall.All | 应用程序 | 其中的许多应用/机器人 (每个联系人中心队列一) ：呼叫代理  | 用于报告原因的所有 CDR 信息 | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
+>| Calls.JoinGroupCall.All | 应用程序 | 其中的许多应用/机器人 (每个联系人中心队列) 一个：加入升级的呼叫以播放通知 | 用于报告原因的所有 CDR 信息 | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -79,7 +79,7 @@ Luware AG 提供了此信息，这些信息与此应用程序如何收集和存�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >聚合报告数据 (呼叫详细信息记录、呼叫者信息、呼叫处理和呼叫旅程详细信息等 ) ：24 个月的配置数据：客户合同持续时间 +30 天应用程序日志：临时存储内部应用程序日志 (，以帮助我们的支持工程师对应用程序组件的性能和操作进行故障排除) 30 天。
 
@@ -127,4 +127,3 @@ Luware AG 提供了此信息，这些信息与此应用程序如何处理身份�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

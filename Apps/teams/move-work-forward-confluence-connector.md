@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Confluence Connector 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 62b34c18df1b792a9a1cb7269e7a7a0ad364fd70
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4ac76d007fa7c76e356acc748a34f781e455bb40
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414499"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428549"
 ---
 # <a name="confluence-connector"></a>Confluence 连接器
 
@@ -37,7 +37,7 @@ ms.locfileid: "60414499"
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | 推动工作 |
 | 合作伙伴网站的 URL | [https://www.moveworkforward.com](https://www.moveworkforward.com) |
-| Teams信息页的 URL | [https://www.moveworkforward.com/product/microsoft-teams-con...](https://www.moveworkforward.com/product/microsoft-teams-confluence-connector) |
+| 应用程序Teams页的 URL | [https://www.moveworkforward.com/product/microsoft-teams-con...](https://www.moveworkforward.com/product/microsoft-teams-confluence-connector) |
 | 隐私策略的 URL | [https://moveworkforward.com/privacy-policy](https://moveworkforward.com/privacy-policy) |
 | 使用条款 URL | [https://www.moveworkforward.com/license-agreement/eula](https://www.moveworkforward.com/license-agreement/eula) |
 
@@ -57,14 +57,14 @@ ms.locfileid: "60414499"
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegated | 通道名称和 id 用于将通知从 Jira 发送到 Microsoft Teams。 | 存储通道 ID 和名称以配置从 Jira 到 Microsoft Teams 的通知。 | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| Channel.ReadBasic.All | delegated | 通道名称和 id 用于将通知从 Jira 发送到Microsoft Teams。 | 存储通道 ID 和名称以配置从 Jira 到 Microsoft Teams 的通知。 | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 >| Teams.ReadBasic.All | delegated | 该权限用于让用户选择 Jira 中加入的团队之一。 | 在 Jira 的配置屏幕中显示的团队 ID 和名称。 | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 >| TeamsAppInstallation.ReadForTeam | delegated | 读取Teams团队中的应用。 当设置发送到Microsoft Teams应用可以发送到安装了自动Teams的计算机。 | Nothing | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 >| User.Read | delegated | 允许用户与同事一起创建讨论频道，在频道消息中单击 @-mention | Nothing | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 >| email | delegated | 电子邮件用于匹配 Atlassian 和 Microsoft 用户 | 不存储电子邮件。 仅在匹配过程中使用。 | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -72,7 +72,7 @@ ms.locfileid: "60414499"
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -81,7 +81,7 @@ ms.locfileid: "60414499"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >我们将记录租户 URL，此 URL 在日志中存储最多 5 天。
 
@@ -106,12 +106,12 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 Move Work Forward 提供有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+此信息由"移动工作转发"提供，与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |
@@ -127,4 +127,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

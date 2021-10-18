@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Teamble 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3e2612373fe7f5bca487118c488a12ff96a8c120
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b1f79536688d5ca16b611735d377e326143166c7
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60405921"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429049"
 ---
 # <a name="teamble"></a>Teamble
 
@@ -37,7 +37,7 @@ Teamble 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Teamble |
 | 合作伙伴网站的 URL | [https://teamble.com](https://teamble.com) |
-| Teams信息页的 URL | [https://teamble.com](https://teamble.com) |
+| 应用程序Teams页的 URL | [https://teamble.com](https://teamble.com) |
 | 隐私策略的 URL | [https://teamble.com/#/privacy-policy](https://teamble.com/#/privacy-policy) |
 | 使用条款 URL | [https://teamble.com/#/terms-of-service](https://teamble.com/#/terms-of-service) |
 
@@ -53,7 +53,7 @@ Teamble 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -75,7 +75,7 @@ Teamble 提供了此信息，这些信息与此应用程序如何收集和存储
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -109,4 +109,3 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -1,5 +1,5 @@
 ---
-title: 用于 Jira 连接应用程序信息（由 yasoon GmbH）
+title: 由 yasoon GmbH 连接 Jira 智能应用的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 07/22/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Smart 连接 for Jira 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4342897ef390842396e62798debc54e146a979e3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3c5dbcb87b2d99c727b01ff903ec9daf83935978
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413253"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430280"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect for Jira
 
@@ -37,7 +37,7 @@ yasoon GmbH 提供给 Microsoft 的信息：
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | yasoon GmbH |
 | 合作伙伴网站的 URL | [https://www.yasoon.com](https://www.yasoon.com) |
-| 应用程序Teams页的 URL | [https://yasoon.com/microsoft-teams-for-jira/](https://yasoon.com/microsoft-teams-for-jira/) |
+| Teams信息页的 URL | [https://yasoon.com/microsoft-teams-for-jira/](https://yasoon.com/microsoft-teams-for-jira/) |
 | 隐私策略的 URL | [https://yasoon.com/privacy-policy-services/](https://yasoon.com/privacy-policy-services/) |
 | 使用条款 URL | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474846970/Product_42949680957/Asset_3f25ec80-eacb-454f-8cc2-eeee583b65c6/170825EULAOfficeaddinEN.doc) |
 
@@ -68,17 +68,17 @@ yasoon GmbH 提供给 Microsoft 的信息：
 >| User.ReadBasic.All | delegated | 允许用户在频道消息中选择同事 @-mention | 无 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
->| **所有非 Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| 可以在此处看到 Atlassian Jira 以及我们的承包商之一： https://go.yasoon.com/contractors | 邮件元数据 (ID、时间戳) 、用户和组织元数据 (用户 ID、组织 id) 和用户电子邮件地址 | 支持应用功能 (例如，将 Atlassian 帐户与 Office 帐户) 并支持更快地解决问题。 |
+>| 可以在此处看到 Atlassian Jira 以及我们的承包商之一： https://go.yasoon.com/contractors | 邮件 (ID、时间戳) 、用户和组织元数据 (用户 ID、组织 id 的) 和用户电子邮件地址 | 支持应用功能 (例如，将 Atlassian 帐户与 Office 帐户) 并支持更快地解决问题。 |
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -87,7 +87,7 @@ yasoon GmbH 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >用户元数据 (id) 
 
@@ -144,4 +144,3 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
