@@ -6,7 +6,7 @@ ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Social 则所有可用的安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Social则所有可用的安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: f95d86d19f42865ffdf7c4a094a7c62a6ad97f37
 ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
@@ -34,7 +34,7 @@ Oktopost 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | 社交宣传 |
 | ID | WA200002598 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Oktopost |
 | 合作伙伴网站的 URL | [https://www.oktopost.com](https://www.oktopost.com) |
 | "Teams应用程序信息"页的 URL | [https://www.oktopost.com](https://www.oktopost.com) |
@@ -53,7 +53,7 @@ Oktopost 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -66,9 +66,9 @@ Oktopost 提供给 Microsoft 的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| PII 用于身份验证和授权目的。 | 名称、电子邮件、会话数据 (IP、位置)  | PII 用于身份验证、授权和日志记录目的。 |
 
