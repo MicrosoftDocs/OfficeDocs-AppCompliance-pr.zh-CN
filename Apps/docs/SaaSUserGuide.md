@@ -2,32 +2,32 @@
 title: SaaS 应用用户指南
 author: LGerrard
 ms.author: legerrar
-description: 适用于应用合规性Microsoft 365 SaaS 的 ISV 用户指南
-keywords: 适用于应用合规性Microsoft 365 SaaS 的 ISV 用户指南
+description: 适用于应用合规性计划 saaS Microsoft 365 ISV 用户指南
+keywords: 适用于应用合规性计划 saaS Microsoft 365 ISV 用户指南
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 39eed9158ab9cbaa5e26efe036c98fc2ab2b1695d615d8b28930f0d8d4735430
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 5f12c95e413ab069b1f8849a09be50251660fbb1
+ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54801324"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60545833"
 ---
-# <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>适用于应用合规性计划Microsoft 365合作伙伴的用户指南 - SaaS
+# <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>适用于应用合规性计划的合作伙伴Microsoft 365指南 - SaaS
 
-|阶段|标题|
+|阶段|Title|
 |---|---|
 |阶段 1| 发布者证明|
 |阶段 2| Microsoft 365 认证|
 
 ## <a name="1-overview"></a>1. 概述 
 
-本文档是我们的合作伙伴的分步用户指南，已注册 Microsoft 365 应用合规性计划，旨在通过合作伙伴中心门户为 SaaS 应用进行 Publisher 证明和认证。
+本文档充当我们的合作伙伴的分步用户指南，已注册 Microsoft 365 应用合规性计划，旨在通过合作伙伴中心门户为 SaaS 应用进行 Publisher 证明和认证。
 
 ## <a name="2-acronyms--definitions"></a>2. 首字母缩略&定义
 |首字母缩略词 | 定义 |
 |----|----|
-|[电脑 (合作伙伴中心) ](https://partner.microsoft.com/)|所有 Microsoft 合作伙伴的门户。 合作伙伴登录到合作伙伴中心并提交自我评估调查表。 应用合规性[Microsoft 365中心](https://partner.microsoft.com/dashboard/home)|
+|[电脑 (合作伙伴中心) ](https://partner.microsoft.com/)|所有 Microsoft 合作伙伴的门户。 合作伙伴登录到合作伙伴中心并提交自我评估调查表。 应用合规性Microsoft 365[中心](https://partner.microsoft.com/dashboard/home)|
 |ISV | 独立软件供应商 a.k.a. 合作伙伴或开发人员 |
 |应用源 | 应用程序目录 |
 |示例 |[Now virtual agent](https://appsource.microsoft.com/product/office/WA104381816)|
@@ -36,36 +36,31 @@ ms.locfileid: "54801324"
 
 **主页：** 这是合作伙伴登录到合作伙伴中心后登录页面。
 
-![合作伙伴中心主屏幕](../media/Saas1.PNG)
   
-**步骤 1：** 在页面左侧的导航栏上：
+**步骤 1：** 选择市场产品/服务
 
-- 选择商业市场
-- 选择概述
+![合作伙伴中心中的商业市场](../media/NewPChomepage.png)
 
-![合作伙伴中心中的商业市场](../media/Saas2.PNG)
   
-选择"概述"后，合作伙伴可以看到可用于启动合规性计划Microsoft 365列表。
-  
-**步骤 2：** 从列表中选择应用以开始Publisher证明过程。
+**步骤 2：** 选择"市场产品/服务"后，切换到"商业市场"。
 
-![在商业市场中选择应用](../media/Saas3.PNG)
+![在商业市场中选择应用](../media/NewPCOffersOffice.png)
 
-选择应用时，会弹出另一个导航栏，并添加选项"应用合规性"。
+Select an app from the list and another navigation bar will pop up with option 'App Compliance'.
   
 **步骤 3：** 选择"应用合规性"
   
-![商业市场中的应用合规性](../media/Saas4.PNG)
+![商业市场中的应用合规性](../media/PCappcompliance3.png)
   
 **步骤 4：** 填写个人证明的自我Publisher调查表。
 
 ![完整Publisher证明](../media/UserGuidePhotos/5.5.png)
   
-**注意 如果你要返回以更新/重新提交应用程序，请单击"选择产品"下拉列表，选择应用并单击"克隆"。**
+**注意 如果你要返回更新/重新提交应用程序，请单击"选择产品"下拉列表，选择应用，然后单击"克隆"。**
 
 ![克隆功能](../media/UserGuidePhotos/05.png)
 
-**您还可以利用表单导入/导出以脱机方式完成表单，并完成导入。**
+**您还可以利用表单导入/导出以脱机方式完成表单，并完成之后将其导入。**
 
 ![导入导出功能](../media/UserGuidePhotos/06.png)
  
@@ -95,7 +90,7 @@ B.  Publisher证明审批
   
 **发布Publisher证明审批：适用于发布者证明应用的 AppSource 中的链接示例。**
   
-![批准的联系人示例](../media/UserGuidePhotos/12.png)
+![已批准的联系人示例](../media/UserGuidePhotos/12.png)
    
 ## <a name="4---microsoft-365-certification-workflow"></a>4. Microsoft 365认证工作流
   
@@ -160,11 +155,11 @@ B.  Publisher证明审批
   
 **Microsoft 365Publisher证明和认证续订工作流：**  
 
-Microsoft 365应用合规性计划现在提供年度续订流程。 在此过程中，应用开发人员可以更新其现有Publisher证明调查表和认证Microsoft 365文档。 
+Microsoft 365应用合规性计划现在提供年度续订流程。 在此过程中，应用开发人员可以更新其现有Publisher证明调查表和认证所需的Microsoft 365文档。 
  
 **优点：** 
 
-- 在 AppSource、Office 应用商店、Teams应用商店和各种管理门户中维护你的认证锁屏提醒，以将你的应用与其他门户区分。 
+- 在 AppSource、Office 应用商店、Teams 应用商店和各种管理门户中维护你的认证锁屏提醒，以将你的应用与其他门户区分。 
 - 提高客户对使用认证应用的信心。 
 - 使用更新的认证信息帮助 IT 管理员做出明智的决策。
 
@@ -172,7 +167,7 @@ Microsoft 365应用合规性计划现在提供年度续订流程。 在此过程
  
 **阶段 1：Publisher证明续订：**
   
-应用Publisher证明答案将需要每年重新提交。 当证明接近 1 年标志时，将发送电子邮件提醒，鼓励重新提交证明。 
+需要每年重新提交Publisher证明答案。 当证明接近 1 年标志时，将发送电子邮件提醒，鼓励重新提交证明。 
  
 **步骤 1：** 选择 **续订** 以续订Publisher证明。
   
@@ -190,7 +185,7 @@ Microsoft 365应用合规性计划现在提供年度续订流程。 在此过程
   
 **Publisher证明已过期：**
   
-需要在到期日期之前续订应用的信息，以维护 Microsoft 文档上的Publisher证明页面。及时续订还将确保在各种店面继续使用应用的标记和图标。 
+需要在到期日期之前续订应用的信息，以维护 Microsoft Publisher证明页面。及时续订还将确保在各种店面继续使用应用的标记和图标。 
  
 ![Renewel approved](../media/UserGuidePhotos/31.png)
 

@@ -2,21 +2,21 @@
 title: Microsoft Word应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/18/2021
+ms.date: 10/20/2021
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Word信息。
 localization_priority: Normal
-ms.openlocfilehash: 02788e37b9c87331bc914ee9dbef58d01f92c1ae
-ms.sourcegitcommit: ae9bbad444b4786735dbf63e50073d10b5da3852
+ms.openlocfilehash: 0fe327d8eb336f5f152d088cd96c66601bd3cc38
+ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "60476065"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60545892"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word应用安全性和合规性
 
-Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速做出有关Microsoft Word应用和外接程序的决策时需要的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与Microsoft 365开发人员合作伙伴合作，为组织提供快速做出有关Microsoft Word应用和外接程序的决策时需要的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -35,7 +35,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速做出有关
 | [Office2SharePoint for Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | content Chooser for Office] (./officeatwork-officeatworkcontent-chooser-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | 设计器Office] (./officeatwork-officeatworkdesigner-for-office.md)  | officeatwork | **✓** |  |
-| [officeatwork | 图像选择器Office] (./officeatwork-officeatworkimage-chooser-for-office.md)  | officeatwork | **✓** |  |
+| [officeatwork | image Chooser for Office] (./officeatwork-officeatworkimage-chooser-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | uploader for Office] (./officeatwork-officeatworkuploader-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | Office验证程序] (./officeatwork-officeatworkverifier-for-office.md)  | officeatwork | **✓** |  |

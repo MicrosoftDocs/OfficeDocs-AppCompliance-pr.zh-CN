@@ -2,23 +2,23 @@
 title: Adobe Sign for Application Information for Add-In for Outlook by Adobe Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/06/2021
+ms.date: 10/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Adobe Sign for Add-In for Outlook 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Adobe Sign Add-In for Outlook 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d5c347a461d9b3901f880fb7e3c7ff03f4505051
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 2de39ef437ba0bc7740d4fc6124d7b500ddc6c62
+ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430682"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60545862"
 ---
 # <a name="adobe-sign-add-in-for-outlook"></a>Adobe Sign Add-In for Outlook
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2021 年 10 月 1 日</p>
+<p>开发人员上次更新时间：2021 年 10 月 19 日</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104381158" target="_blank">在 AppSource 中查看</a>
 
@@ -50,12 +50,12 @@ Adobe Inc. 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Mail.ReadWrite | delegated | 填充附加的文档、发件人和收件人电子邮件以及电子邮件中的邮件内容到 Adobe sign 以发送进行签名。 这是为了节省用户在 Adobe Sign 中重新键入这些字段的时间。 签署协议后，我们将自动撰写一封新电子邮件，让用户发送电子邮件，通知其收件人交易已完成。 | Adobe Sign 将附件另存为临时文件，其有效期为 24 小时。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
->| People.Read | delegated | 若要在"发送供签名"体验中自动填充电子邮件地址，请键入一些初始字母，无需用户 &quot; &quot; 键入整个电子邮件。 | Adobe Sign 将仅存储协议中的收件人电子邮件和 displayName。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
+>| People.Read | delegated | 若要在"发送供签名"体验中自动填充电子邮件地址，请键入一些初始字母，无需用户 &quot; &quot; 键入整个电子邮件。 | Adobe Sign 将仅在协议中存储收件人电子邮件和 displayName。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
 >| User.Read | delegated | 要读取用户配置文件并基本上匹配其 (，他们的电子邮件和 userId) 我们的数据库，以便他们可以使用 Adobe Sign。 | 要读取用户配置文件并基本上匹配其 (，他们的电子邮件和 userId) 我们的数据库，以便他们可以使用 Adobe Sign。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
 >| offline_access | delegated | 在当前令牌过期时刷新访问令牌。 例如，当用户在签名发送窗口中将其保持非活动状态的时间太长时，我们需要在用户处于活动状态时 &quot; &quot; 刷新新令牌。 | 在当前令牌过期时刷新访问令牌。 例如，当用户在签名发送窗口中将其保持非活动状态的时间太长时，我们需要在用户处于活动状态时 &quot; &quot; 刷新新令牌。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
 >| openid | delegated | 电子邮件和 UserId。 登录以确保用户同意使用 Adobe Sign 应用的权限。  | 电子邮件是 Adobe Sign 中用户的唯一标识符。 我们存储电子邮件 ID，以便可以将该用户的所有活动映射到其 Adobe Sign 记录。  | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
@@ -79,7 +79,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->在我们的系统中，Microsoft Outlook没有任何客户管理员交互。
+>我们系统对于 Microsoft Outlook应用程序没有任何客户管理员交互。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -112,7 +112,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已查看并遵循了集成清单中列出的所有适用的Microsoft 标识平台做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |

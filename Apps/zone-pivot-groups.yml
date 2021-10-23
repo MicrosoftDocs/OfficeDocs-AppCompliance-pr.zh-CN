@@ -78,6 +78,16 @@ groups:
     title: 安全性和合规性
   - id: certification
     title: 认证
+- id: app-info-data-certification
+  title: 应用信息类别
+  prompt: 选择要为此应用查看的信息类别：
+  pivots:
+  - id: general
+    title: 常规
+  - id: data
+    title: 数据处理
+  - id: certification
+    title: 认证
 - id: app-info-data-identity-certification
   title: 应用信息类别
   prompt: 选择要为此应用查看的信息类别：
@@ -104,10 +114,44 @@ groups:
     title: 标识
   - id: certification
     title: 认证
+- id: app-info-data-security-compliance-privsection-zerotrust
+  title: 应用信息类别
+  prompt: 选择要为此应用查看的信息类别：
+  pivots:
+  - id: general
+    title: 常规
+  - id: data
+    title: 数据处理
+  - id: security
+    title: 安全性
+  - id: compliance
+    title: 合规性
+  - id: privsection
+    title: 隐私
+  - id: zerotrust
+    title: 标识
+- id: app-info-data-security-compliance-privsection-zerotrust-certification
+  title: 应用信息类别
+  prompt: 选择要为此应用查看的信息类别：
+  pivots:
+  - id: general
+    title: 常规
+  - id: data
+    title: 数据处理
+  - id: security
+    title: 安全性
+  - id: compliance
+    title: 合规性
+  - id: privsection
+    title: 隐私
+  - id: zerotrust
+    title: 标识
+  - id: certification
+    title: 认证
 metadata:
-  ms.openlocfilehash: 251f0461ab55741522c650f13a0ff3b50eecb560
-  ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+  ms.openlocfilehash: f3ee86598a788c911d9a82186a2de24997477ff6
+  ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/16/2021
-  ms.locfileid: "60411276"
+  ms.lasthandoff: 10/22/2021
+  ms.locfileid: "60545882"
