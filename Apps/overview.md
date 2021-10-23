@@ -7,20 +7,20 @@ keywords: microsoft 365 m365 应用发布者证明认证
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: c644414281f46696ff49f3b9eb1341f02e96f0ba
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e36bee4289de320d264a8a5e55c7bc20a4ea803b
+ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279276"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60545763"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 应用合规计划
 
-Microsoft 365 应用合规计划是实现应用安全性和合规性的一种三层方法。 每一层都在下一层的基础上构建 - 提供分层计划来让用户在 Microsoft 365 生态系统中使用应用时建立起所需的信心。 目前，该计划中的所有层都是自发的，由应用开发人员自行决定完成。 
+Microsoft 365 应用合规性计划是应用安全性和合规性的两个步骤方法，包括发布者验证和 Microsoft 365 认证。 每一层都在下一层的基础上构建 - 提供分层计划来让用户在 Microsoft 365 生态系统中使用应用时建立起所需的信心。  
 
 我们的宗旨是：Microsoft 客户完全信任运行其组织的应用程序。
 
-  ![实现应用合规性的三层方法](media/Microsoft-App-Compliance-Overview.png) 
+![实现应用合规性的两层方法](media/Microsoft365AppComplianceBanner.png)
 
 ## <a name="publisher-verification"></a>发布者验证
 
@@ -32,9 +32,11 @@ Microsoft 365 应用合规计划是实现应用安全性和合规性的一种三
 > [!IMPORTANT]
 > 发布者验证不会妨碍应用开发人员开始或完成发布者证明或 Microsoft 365 认证。 如果不适用于应用，则可能会跳过验证并可开始证明。
 
-## <a name="publisher-attestation"></a>发布者证明
+## <a name="microsoft-365-certification"></a>Microsoft 365 认证
+Microsoft 365 认证过程分为两个阶段： **证明** 和 **认证**。
+1.  **证明** 涉及完成有关客户最重要的应用的安全性、数据处理和合规性属性的调查表。 然后，所有信息都以一致、易于阅读的格式在一处发布。 目的是简化和加快应用采用流程，同时向用户保证其在自己租户中使用的应用符合其组织标准。
+1.  **认证** 是指根据一组源自领先行业标准框架的控制措施对应用进行全面审核。 在获得认证之前，系统将要求 ISV 提供证据以证明他们满足每个控制措施的要求。 目标是向客户保证，他们可以信任应用，确保已收到 Microsoft 365 认证的应用具有强大的安全性和合规性，以保护他们的数据安全性和隐私。
 
-在[发布者证明](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-attestation-guide)中，开发人员分享有关其应用服务的一般性、数据处理和安全性与合规性信息。 这减少了 IT 管理员直接与应用发布者合作的需求。 对于已完成发布者证明的所有应用，可在一个位置，以一致的格式找到作出知情决策所需的全部信息。 目的是简化和加快应用采用流程，同时向用户保证其在自己租户中使用的应用符合其组织标准。
 
 发布者证明适用于 WebApps 以及与以下 Microsoft 产品集成的所有应用：
 -   Teams
@@ -46,10 +48,7 @@ Microsoft 365 应用合规计划是实现应用安全性和合规性的一种三
 - Project
 - OneNote
 
-> [!IMPORTANT]
-> Microsoft 不对所提供的信息进行验证。开发者仅确认证明文件和相应应用程序性能数据的真实性、准确性和完整性。 
-
-## <a name="microsoft-365-certification"></a>Microsoft 365 认证
-[Microsoft 365 认证](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide)向组织提供保证和确信，肯定在使用 Microsoft Teams 应用时数据和隐私都得到充分的保护。 认证确认了应用解决方案与 Microsoft 技术兼容、符合云应用安全最佳做法且受到 Microsoft 支持。在此过程中，应用开发人员与第三方评估者合作，共同验证组织的安全性和合规性标准。 Microsoft 365 认证适用于符合 Publisher Attestation 资格的相同应用程序。 
-
+### <a name="get-started"></a>入门
+- [如何完成发布者验证](https://docs.microsoft.com/en-us/azure/active-directory/develop/mark-app-as-publisher-verified)
+- [如何完成 Microsoft 365 认证](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification)
 
