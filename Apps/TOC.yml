@@ -7,8 +7,6 @@
           href: overview.md
         - name: 什么是Publisher验证？
           href: 'https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview'
-        - name: 什么是Publisher证明？
-          href: docs/enterprise-app-attestation-guide.md
         - name: 什么是Microsoft 365认证？
           href: docs/enterprise-app-certification-guide.md
     - name: 对于开发人员
@@ -16,8 +14,6 @@
       items:
         - name: 完成Publisher验证
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
-        - name: 完整Publisher证明
-          href: docs/attestation.md
         - name: 完成Microsoft 365认证
           href: docs/certification.md
         - name: Microsoft 365认证提交指南
@@ -35,7 +31,7 @@
           href: excel/harmonie-corporation-for-office.md
         - name: 印象签名
           href: excel/impression-signatures.md
-        - name: 适用于 Planner 的 iPlanner Office 365工具
+        - name: 适用于 planner 的 iPlanner Office 365工具
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
         - name: Jira Cloud for Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
@@ -103,11 +99,11 @@
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (official) '
+        - name: 'Jira Cloud for Outlook (Official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox 期限和事项管理 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: LawToolBox 对于Outlook、Teams和SharePoint
+        - name: LawToolBox 对于 Outlook、Teams 和 SharePoint
           href: outlook/lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md
         - name: MIPA - 你自己的个人助理
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
@@ -119,7 +115,7 @@
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
         - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: 推广销售Outlook
+        - name: Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One for Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -176,9 +172,9 @@
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
         - name: 适用于 SharePoint Online 的敏捷任务板
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
-        - name: Arc适用于 SharePoint
+        - name: Arc适用于SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
-        - name: FormMachines Connector for SharePoint
+        - name: FormMachines 连接器SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: Gaggle for SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
@@ -643,7 +639,7 @@
           href: teams/soe-technologies-myokr.md
         - name: MyWorkDrive
           href: teams/myworkdrive.md
-        - name: 已剪下
+        - name: Nailted
           href: teams/nailted-app-sl.md
         - name: Navo
           href: teams/regroove-solutions-navo.md
@@ -779,7 +775,7 @@
           href: teams/salestim.md
         - name: ScanBuddy.ai
           href: teams/moblizeit-llc-scanbuddyai.md
-        - name: 学校日
+        - name: 上学日
           href: teams/school-day-helsinki-oy.md
         - name: ScrumGenius
           href: teams/scrumgenius.md
@@ -815,6 +811,8 @@
           href: teams/saltflat-limited-skilledhuman.md
         - name: Skills by Pipe9
           href: teams/pipe9com-skills-by-pipe9.md
+        - name: Skillsoft Percipio
+          href: teams/skillsoft-percipio.md
         - name: SkyPoint Cloud
           href: teams/skypoint-cloud-inc.md
         - name: Slido
@@ -929,8 +927,8 @@
           href: teams/cireson-tikit.md
         - name: TimeClock 365
           href: teams/softsale-timeclock-365.md
-        - name: timeghost
-          href: teams/kollisch-gmbh-timeghost.md
+        - name: timeghost - 时间跟踪
+          href: teams/kollisch-gmbh-timeghost-time-tracking.md
         - name: Timeneye
           href: teams/dm-digital-srl-timeneye.md
         - name: TINYpulse
@@ -1070,7 +1068,7 @@
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork |验证程序Office
           href: word/officeatwork-officeatworkverifier-for-office.md
-        - name: officeatwork |Office
+        - name: officeatwork |用于Office
           href: word/officeatwork-officeatworkwizard-for-office.md
         - name: RetMig 和 Kommaforslag
           href: word/grammarsoft-aps-retmig-and-kommaforslag.md
@@ -1107,6 +1105,8 @@
           href: saas/iglobe-mipa-my-intelligent-personal-assistant.md
         - name: MyHub for Teams
           href: saas/avepoint-inc-myhub-for-teams.md
+        - name: Netskope for Microsoft Teams
+          href: saas/netskope-for-microsoft-teams.md
         - name: Office2SharePoint
           href: saas/iglobe-office2sharepoint.md
         - name: Priority Matrix
@@ -1274,6 +1274,8 @@
           href: azure/50356ee3-b48b-424b-a7a7-35e53c2ce736.md
         - name: 51e2b67d-9854-446a-8da1-cdd89ef0b987
           href: azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md
+        - name: 52b2da9b-4cd6-4334-be22-4a3b1b99bac7
+          href: azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7.md
         - name: 53628f6a-ac66-4fde-8945-d639c8da4c0d
           href: azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md
         - name: 539ffd4e-15ba-4d18-b136-0d73b67d05f0
@@ -1356,8 +1358,6 @@
           href: azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md
         - name: 82eb2bf2-969c-46da-9e89-1db59ac4fbb3
           href: azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md
-        - name: 88546d4f-9973-4716-98e4-cd181c04bc2d
-          href: azure/88546d4f-9973-4716-98e4-cd181c04bc2d.md
         - name: 89d5ca9f-d63b-4885-bd30-6e7433c1540c
           href: azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md
         - name: 8aa22b64-9a2c-403b-83c1-feaf774c764c
@@ -1390,6 +1390,8 @@
           href: azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71.md
         - name: 9b03f15d-1219-4b2f-9699-640be54e1319
           href: azure/9b03f15d-1219-4b2f-9699-640be54e1319.md
+        - name: 9b5751f4-eb23-43ad-ad90-da7afb9300ae
+          href: azure/9b5751f4-eb23-43ad-ad90-da7afb9300ae.md
         - name: 9bc8244d-a186-4b12-809e-c47b3eee73c6
           href: azure/9bc8244d-a186-4b12-809e-c47b3eee73c6.md
         - name: 9de91aee-708c-4d9f-958b-109fdb79d993
