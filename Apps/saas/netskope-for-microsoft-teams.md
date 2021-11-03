@@ -12,8 +12,8 @@ ms.openlocfilehash: a986a6f8fbbf98f408dcbf3e90b6bf219951889f
 ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60683728"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60719724"
 ---
 # <a name="netskope-for-microsoft-teams"></a>Netskope for Microsoft Teams
 
@@ -36,7 +36,7 @@ Netskope 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | Netskope |
 | 公司网站 | [https://www.netskope.com](https://www.netskope.com) |
 | 应用的使用条款 | [https://www.netskope.com/subscription-terms/](https://www.netskope.com/subscription-terms/) |
-| 应用的核心功能 | Netskope 具有业界唯一&#8217;的解决方案，该解决方案在一个平台 （Netskope 安全云）下具有统一的以市场领先的 CASB、下一代 SWG、远程浏览器隔离、云防火墙、公共云安全性和零信任专用访问。  除了这些模块化功能之外，Netskope 还提供其他安全微服务，可添加这些微服务以进一步微调客户的安全状况，例如高级 DLP、加密和威胁防护功能。 |
+| 应用的核心功能 | Netskope 具有业界唯一的&#8217;解决方案，该解决方案在一个平台 （Netskope 安全云）下具有统一的以市场领先的 CASB、下一代 SWG、远程浏览器隔离、云防火墙、公共云安全性和零信任专用访问。  除了这些模块化功能之外，Netskope 还提供其他安全微服务，可添加这些微服务以进一步微调客户的安全状况，例如我们的高级 DLP、加密和威胁防护功能。 |
 | 公司总部位置 | 美国 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | IsvHosted |
@@ -90,7 +90,7 @@ Netskope 提供了此信息，这些信息与此应用程序如何收集和存�
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
+| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
