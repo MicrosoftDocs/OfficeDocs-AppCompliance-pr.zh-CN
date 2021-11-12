@@ -1,18 +1,18 @@
 ---
-title: 用于存储的 Azure 应用 ID 信息 170ee-dbd7-4efa-b48e-b0937ded1689
+title: 适用于用户 azure 的应用 ID 信息 170ee-dbd7-4efa-b48e-b0937ded1689
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/08/2021
+ms.date: 11/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 适用于用户的所有可用安全性和合规性信息 170ee-dbd7-4efa-b48e-b0937ded1689。
-ms.openlocfilehash: 0160f8e59ff7ba79f2a5559c2fa7349c6ddf794b
-ms.sourcegitcommit: cb50f8967ff1ca98c98bcadb26c05b3a5c5a6ea8
+ms.openlocfilehash: a25b2c0945466a71b522b3e5d0561cd83cbe285e
+ms.sourcegitcommit: 358503f5b89862e61a6c8ad4ba5bda9ccd8e8357
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60874128"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60921304"
 ---
 # <a name="azure-app-id-bed170ee-dbd7-4efa-b48e-b0937ded1689"></a>Azure 应用 ID：bed170ee-dbd7-4efa-b48e-b0937ded1689
 
