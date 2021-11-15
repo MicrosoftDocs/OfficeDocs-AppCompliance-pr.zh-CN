@@ -31,7 +31,7 @@
           href: excel/harmonie-corporation-for-office.md
         - name: 印象签名
           href: excel/impression-signatures.md
-        - name: 适用于 planner 的 iPlanner Office 365工具
+        - name: 适用于 Planner 的 iPlanner Office 365工具
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
         - name: Jira Cloud for Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
@@ -61,7 +61,7 @@
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: XBRL 归档数据
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote 应用
+    - name: Microsoft OneNote应用
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork |内容选择器Office
@@ -99,11 +99,11 @@
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (official) '
+        - name: 'Jira Cloud for Outlook (Official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox 期限和事项管理 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: LawToolBox 对于 Outlook、Teams 和 SharePoint
+        - name: LawToolBox 对于Outlook、Teams和SharePoint
           href: outlook/lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md
         - name: MIPA - 你自己的个人助理
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
@@ -351,6 +351,8 @@
           href: teams/gifted-to-you-limited-collection-pot.md
         - name: Commander
           href: teams/nimbella-commander.md
+        - name: 公司导航器
+          href: teams/konica-minolta-it-solutions-company-navigator.md
         - name: Complish
           href: teams/cauzey-pty-ltd-complish.md
         - name: Conferences i/o
@@ -457,6 +459,8 @@
           href: teams/fifty.md
         - name: File Fabric
           href: teams/storage-made-easy-file-fabric.md
+        - name: Fireflies AI
+          href: teams/firefliesai-fireflies-ai.md
         - name: FireWatch
           href: teams/infographics-uk-ltd-firewatch.md
         - name: FloQast
@@ -681,6 +685,8 @@
           href: teams/nulia-works.md
         - name: OfficeAmp
           href: teams/anaek-inc-officeamp.md
+        - name: OfficeRnd 混合工作
+          href: teams/officernd-hybrid-work.md
         - name: OfficeSpace
           href: teams/officespace-software.md
         - name: Officevibe
@@ -835,6 +841,8 @@
           href: teams/pipe9com-skills-by-pipe9.md
         - name: Skillsoft Percipio
           href: teams/skillsoft-percipio.md
+        - name: Skoach
+          href: teams/cultify-lda-skoach.md
         - name: SkyPoint Cloud
           href: teams/skypoint-cloud-inc.md
         - name: Slido
