@@ -2,17 +2,17 @@
 title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/10/2021
+ms.date: 11/12/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: ee657af96f49b1bdd0ce5cf23ffbfae5973b9ce7
-ms.sourcegitcommit: 358503f5b89862e61a6c8ad4ba5bda9ccd8e8357
+ms.openlocfilehash: aeca6ab37c806c4b9966bc1be5f4fa229120a8c1
+ms.sourcegitcommit: bbdf2ba4c6b7682eb6645aa40671738f64105876
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/12/2021
-ms.locfileid: "60921694"
+ms.locfileid: "60930955"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -29,6 +29,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Agenda Boss](./appfluence-inc-agenda-boss.md) | Appence Inc | **✓** |  |
 | [Agile Task Board](./agile-is-task-board.md) | Agile-IS | **✓** |  |
 | [Alvao Service Desk](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  |
+| [琥珀色](./infeedo-amber.md) | inFeedo | **✓** |  |
 | [Ambition](./ambition.md) | Ambition | **✓** |  |
 | [AMEX GBT](./30secondstofly-thailand-co-ltd-amex-gbt.md) | 30SecondsToFly（泰国）公司 | **✓** |  |
 | [Amplify by Hootsuite](./hootsuite-inc-amplify-by.md) | Hootsuite Inc. | **✓** |  |
