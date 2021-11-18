@@ -2,17 +2,17 @@
 title: a554bdf0-866f-4ee2-b95b-3afbfc70d5bc 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/17/2021
+ms.date: 11/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: a554bdf0-866f-4ee2-b95b-3afbfc70d5bc的所有可用安全性和合规性信息。
-ms.openlocfilehash: 5ddd03163b620e7c045b75fae10847b1ec623ac7
-ms.sourcegitcommit: 16228ecbe73bc51d49d6bf71584774537b76c41c
+ms.openlocfilehash: c07e32b7ba9e756a184174de8fa42c0dd5b2f168
+ms.sourcegitcommit: 8695694a7da27a4114480a394616e66ae180b7e3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61056789"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61075033"
 ---
 # <a name="azure-app-id-a554bdf0-866f-4ee2-b95b-3afbfc70d5bc"></a>Azure 应用 ID：a554bdf0-866f-4ee2-b95b-3afbfc70d5bc
 
