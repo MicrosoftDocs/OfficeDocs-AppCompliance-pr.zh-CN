@@ -7,12 +7,12 @@ ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Project信息。
 localization_priority: Normal
-ms.openlocfilehash: c473f1e8da8a83c3a9eb1beb3282190b25722fe2
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 7e92714f95069389ad1aa3223e1c0e41381b8fde
+ms.sourcegitcommit: 1ae3b2c9057829f6d868439ba674d8d8d9f30663
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413173"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61066510"
 ---
 # <a name="microsoft-project-apps-security-and-compliance"></a>Microsoft Project应用安全性和合规性
 
@@ -20,4 +20,4 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** |  |

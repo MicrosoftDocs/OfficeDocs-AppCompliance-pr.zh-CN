@@ -6,18 +6,19 @@ ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: officeatwork 服务的所有可用安全性和合规性|内容选择器Office、其数据处理策略、Microsoft Cloud App Security应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息。
+description: officeatwork 服务的所有可用安全性和合规性|内容选择器Office、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8c6183fd0573ab38e5bf0b68976380af56133581
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 128e62ce29c8f7a9da9eca7f78bd15c6148b4116
+ms.sourcegitcommit: 1ae3b2c9057829f6d868439ba674d8d8d9f30663
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59276981"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61066530"
 ---
 # <a name="officeatwork--content-chooser-for-office"></a>officeatwork |内容选择器Office
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>开发人员上次更新时间：2021 年 6 月 23 日</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380602" target="_blank">在 AppSource 中查看</a>
@@ -32,7 +33,7 @@ officeatwork 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | officeatwork - officeatwork 的内容Office |
 | ID | WA104380602 |
-| Office 365支持的客户端 | Excel Mac iPad 2013 Service Pack 1 或更高版本Excel 2016 Mac、Excel 2013 Service Pack 1 或Windows， Excel web 版、iPad 上的 Word、Mac 上的 Word 2016 或更高版本、Word web 版、Windows 上的 Word 2013 Service Pack 1 或更高版本、iPad 上的 PowerPoint、Mac 上的 PowerPoint 2016 或更高版本、PowerPoint web 版、PowerPoint 2013 Service Pack Windows 1 或更高版本OneNote web 版 |
+| Office 365支持的客户端 | Excel mac 上的 iPad、Excel 2016 或更高版本、Windows 上的 Excel 2013 Service Pack 1 或更高版本、Excel web 版、iPad 上的 Word、Mac 上的 Word 2016 或更高版本、Word web 版、Word 2013 Service Pack 1 或更高版本在 Windows PowerPoint、iPad PowerPoint 2016 或更高版本、PowerPoint web 版、PowerPoint 2013 Service Pack 1 或更高版本（Windows，OneNote web 版 |
 | 合作伙伴公司名称 | officeatwork |
 | 合作伙伴网站的 URL | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | 隐私策略的 URL | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -50,24 +51,24 @@ officeatwork 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Files.ReadWrite.All | delegated | 不存储任何数据。 | 收藏夹：能够读取数据并写入用户OneDrive。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| Files.ReadWrite.All | delegated | 不存储任何数据。 | 收藏夹：能够读取和写入用户数据OneDrive。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
 >| Files.ReadWrite.All | delegated | 不存储任何数据。 | OneDrive：能够读取和写入用户数据OneDrive。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
 >| Group.ReadWrite.All | delegated | 不存储任何数据。 | Teams：能够读取和写入组数据。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
->| GroupMember.Read.All | delegated | 不存储任何数据。 | SharePoint联机 - 安全组支持：允许应用列出组、读取基本组属性和读取登录用户有权访问的所有组的成员身份 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
->| Sites.Read.All | delegated | 不存储任何数据。 | SharePoint联机：允许从 SharePoint Online 中读取数据。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| GroupMember.Read.All | delegated | 不存储任何数据。 | SharePoint Online - 安全组支持：允许应用列出组、读取基本组属性和读取登录用户有权访问的所有组的成员身份 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| Sites.Read.All | delegated | 不存储任何数据。 | SharePoint Online：允许从 SharePoint Online 中读取数据。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
 >| User.Read | delegated | 不存储任何数据。 | Sing-In：使 officeatwork 应用能够读取用户的基本属性。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
->| User.Read.All | delegated | 不存储任何数据。 | Teams：了解用户属于哪些组。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| User.Read.All | delegated | 不存储任何数据。 | Teams：了解用户所属的组。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
 >| offline_access | delegated | 不存储任何数据。 | Sing-In：要像没有刷新令牌一样启用自动登录，用户每次启动 officeatwork 应用时必须手动登录。 只有未启用 SSO 的主机应用程序才需要此范围。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
 >| openid | delegated | 不存储任何数据。 | Sing-In：允许用户使用其组织和/或 Microsoft 帐户登录 officeatwork 应用。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
 >| 个人资料 | delegated | 不存储任何数据。 | Sing-In：在 officeatwork 应用中显示登录用户。 这有助于确保/确认用户登录 officeatwork 应用所使用的帐户。 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和Microsoft 365可以使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出此应用使用的任何 Microsoft GRAPH Microsoft API。
+基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -83,7 +84,7 @@ officeatwork 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >是，事件包括 oid 和 tenantId，并发送到 Azure AppInsights。 事件将在 90 天后自动删除。 如果客户希望删除此数据，他们可以使用隐私声明中提供的链接来开始删除该数据。
 
@@ -91,7 +92,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->应用程序设置数据 (功能标志、组织 显示名称、tenantId、管理员列表 oids) 存储在 Azure Cosmos DB 实例中 (每个租户) 。 DB 文件已加密，并且访问权限仅限于选定的办公工程师和支持人员。 客户可以使用管理中心 Web 应用访问和处理 officeatwork 应用设置数据。
+>应用程序设置数据 (功能标志、组织 显示名称、tenantId、管理员列表 oids) 存储在 Azure Cosmos DB 实例中 (每个租户实例一) 。 DB 文件已加密，并且访问权限仅限于选定的办公工程师和支持人员。 客户可以使用管理中心 Web 应用访问和处理 officeatwork 应用设置数据。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -123,7 +124,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 是 |
