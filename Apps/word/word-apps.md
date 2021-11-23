@@ -2,17 +2,17 @@
 title: Microsoft Word应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/08/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Word信息。
 localization_priority: Normal
-ms.openlocfilehash: a393f652e193ab3b4dbeca233159e4e98350b5e9
-ms.sourcegitcommit: 1ae3b2c9057829f6d868439ba674d8d8d9f30663
+ms.openlocfilehash: 10e3f16c158e8abfdaf91188dd933ea4626f37b7
+ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61066290"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "61144816"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word应用安全性和合规性
 
@@ -29,15 +29,15 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [harmon.ie Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [印象签名](./impression-signatures.md) | 印象签名 | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
-| [Loio 合同助理](./loio-inc-contract-assistant.md) | Loio Inc. | **✓** |  |
+| [Loio 合同审阅软件](./loio-inc-contract-review-software.md) | Loio Inc. | **✓** |  |
 | [Word 的 Lucidchart 关系图](./lucid-software-inc-lucidchart-diagrams-for-word.md) | Lucid Software Inc | **✓** |  |
 | [Mendeley 一些](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
 | [一些](./neopolis-gmbh.md) | 将 gmbH | **✓** |  |
 | [Office2SharePoint for Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | content Chooser for Office] (./officeatwork-officeatworkcontent-chooser-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | 设计器Office] (./officeatwork-officeatworkdesigner-for-office.md)  | officeatwork | **✓** |  |
-| [officeatwork | image Chooser for Office] (./officeatwork-officeatworkimage-chooser-for-office.md)  | officeatwork | **✓** |  |
-| [officeatwork | 模板选择器 for Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** |  |
+| [officeatwork | 图像选择器Office] (./officeatwork-officeatworkimage-chooser-for-office.md)  | officeatwork | **✓** |  |
+| [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | uploader for Office] (./officeatwork-officeatworkuploader-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | Office] (验证程序。/officeatwork-officeatworkverifier-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | Office] (./officeatwork-officeatworkwizard-for-office.md)  | officeatwork | **✓** |  |
