@@ -2,17 +2,17 @@
 title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/18/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 91e2a350d2037ec8ce22e11ecd34b1aeb854488b
-ms.sourcegitcommit: 8695694a7da27a4114480a394616e66ae180b7e3
+ms.openlocfilehash: 825c33040a6b9a22c3cf998c08cbd0dc5cc8284f
+ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61070346"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "61148070"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 

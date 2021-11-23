@@ -1,44 +1,45 @@
 ---
-title: LawToolBox 截止期限和事务管理的应用程序信息 - Outlook LawToolBox.com Inc.
+title: timeghost 的应用程序信息 - K 跟踪&#246;GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/24/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: LawToolBox 期限和事务管理 - Outlook、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
+description: timeghost 的所有可用安全性和合规性信息 - 时间跟踪、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9baa7ea9b51626f8d887d568b428a83999b77940
+ms.openlocfilehash: 1c70233a07a2bda76bd44da2b838cd51519e06bd
 ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148120"
+ms.locfileid: "61148137"
 ---
-# <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>LawToolBox 期限和事项管理 - Outlook
+# <a name="timeghost---time-tracking"></a>timeghost - 时间跟踪
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 6 月 24 日</p>
+<p>开发人员上次更新时间：2021 年 7 月 15 日</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200003103" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/e3956558-7399-4ec1-848a-c61a2aa95bc1" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001532" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-LawToolBox.com Inc. 提供给 Microsoft 的信息：
+由 K 提供&#246;将 GmbH 提供给 Microsoft：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | LawToolBox 期限和事项管理 - Outlook |
-| ID | WA200003103 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows，Outlook 2016 Mac 或更高版本，Outlook 网页版 |
-| 合作伙伴公司名称 | LawToolBox.com Inc. |
-| 公司网站 | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
-| 应用的使用条款 | [https://www.lawtoolbox.com/customersupport/2019/LawToolBox_...](https://www.lawtoolbox.com/customersupport/2019/LawToolBox_End_User_License_Agreement_and_SLA_LAWTOOLBOX_2019_APR.pdf) |
-| 应用的核心功能 | 使用我们适用于法律的 Microsoft 365 管理期限和搜索文件 |
-| 公司总部位置 | 美国 |
+| 应用名称 | timeghost - 时间跟踪 |
+| ID | WA200001532 |
+| Office 365支持的客户端 | Microsoft Teams |
+| 合作伙伴公司名称 | K&#246;llisch GmbH |
+| 公司网站 | [https://timeghost.io](https://timeghost.io) |
+| 应用的使用条款 | [https://timeghost.io/terms-and-conditions/](https://timeghost.io/terms-and-conditions/) |
+| 应用的核心功能 | Timeghost 是专为时间跟踪工具Office 365。 |
+| 公司总部位置 | 德国 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
 
@@ -50,7 +51,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 LawToolBox.com Inc. 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由 K 用户&#246;，它将发现 GmbH 有关此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -59,7 +60,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 | 数据库中存储了哪些数据？ |  |
 | 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
 | 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ | 已保留 |
+| 帐户终止后，数据将保留多久？ | 在 2 周之内删除 |
 | 您是否已建立数据访问管理流程？ |  |
 | 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
 | 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
@@ -75,7 +76,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否对应用执行年度渗透测试？ | 否 |
-| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 否 |
+| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
 | 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ |  |
@@ -88,7 +89,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ |  |
 | 启用了 MFA (多重) 身份验证： |  |
 | 您是否已制定设置、修改和删除员工帐户的流程？ |  |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ |  |
+| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ |  |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ |  |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ |  |
@@ -104,7 +105,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 是 |
+| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -115,13 +116,13 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 | 最新 SOC3 认证日期 | |
 | 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 是 |
 | 应用程序国际标准化组织 (ISO 27001) 认证？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
-| 应用是否遵守 FERPA (家庭教育权和隐私) ？ | 是 |
+| 应用是否遵守 FERPA (家庭教育权和隐私) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (《) ？ | 是 |
+| 应用是否遵守 SOX Sarbanes-Oxley (《) ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ |  |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -137,7 +138,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ |  |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ |  |
 | 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ |  |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
+| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ |  |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ |  |
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
@@ -156,8 +157,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | true |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
-| 你的应用是否支持条件访问策略？ | 是 |
-| 列出支持的策略类型 | 为了更好地控制，管理员可以实现应用权限 |
+| 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  |  |
 | 你的应用是否将任何凭据存储在代码中？ |  |
 | 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |

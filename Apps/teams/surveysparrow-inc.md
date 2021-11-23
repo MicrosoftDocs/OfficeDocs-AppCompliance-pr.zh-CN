@@ -1,43 +1,44 @@
 ---
-title: LawToolBox 截止期限和事务管理的应用程序信息 - Outlook LawToolBox.com Inc.
+title: SurveySparrow inc. Application Information for SurveySparrow
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/24/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: LawToolBox 期限和事务管理 - Outlook、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
+description: SurveySparrow 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9baa7ea9b51626f8d887d568b428a83999b77940
+ms.openlocfilehash: 0bdcd162a9407454ba7294d424946f5e22217b93
 ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148120"
+ms.locfileid: "61148135"
 ---
-# <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>LawToolBox 期限和事项管理 - Outlook
+# <a name="surveysparrow"></a>SurveySparrow
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 6 月 24 日</p>
+<p>开发人员上次更新时间：2021 年 4 月 19 日</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200003103" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/1b923c85-b04c-43d4-b2c2-0fdc0f598658" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002257" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-LawToolBox.com Inc. 提供给 Microsoft 的信息：
+SurveySparrow inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | LawToolBox 期限和事项管理 - Outlook |
-| ID | WA200003103 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows，Outlook 2016 Mac 或更高版本，Outlook 网页版 |
-| 合作伙伴公司名称 | LawToolBox.com Inc. |
-| 公司网站 | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
-| 应用的使用条款 | [https://www.lawtoolbox.com/customersupport/2019/LawToolBox_...](https://www.lawtoolbox.com/customersupport/2019/LawToolBox_End_User_License_Agreement_and_SLA_LAWTOOLBOX_2019_APR.pdf) |
-| 应用的核心功能 | 使用我们适用于法律的 Microsoft 365 管理期限和搜索文件 |
+| 应用名称 | SurveySparrow |
+| ID | WA200002257 |
+| Office 365支持的客户端 | Microsoft Teams |
+| 合作伙伴公司名称 | SurveySparrow inc. |
+| 公司网站 | [https://surveysparrow.com](https://surveysparrow.com) |
+| 应用的使用条款 | [https://surveysparrow.com/legal/terms-of-service/](https://surveysparrow.com/legal/terms-of-service/) |
+| 应用的核心功能 | 执行日常独立、每月主持，并轻松测量员工脉冲。 |
 | 公司总部位置 | 美国 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
@@ -50,7 +51,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 LawToolBox.com Inc. 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由 SurveySparrow inc. 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -59,7 +60,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 | 数据库中存储了哪些数据？ |  |
 | 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
 | 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ | 已保留 |
+| 帐户终止后，数据将保留多久？ | 在 2 周之内删除 |
 | 您是否已建立数据访问管理流程？ |  |
 | 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
 | 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
@@ -74,8 +75,8 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对应用执行年度渗透测试？ | 否 |
-| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 否 |
+| 你是否对应用执行年度渗透测试？ | 是 |
+| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
 | 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ |  |
@@ -105,7 +106,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 是 |
-| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 否 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -115,13 +116,13 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 | 最新 SOC3 认证日期 | |
 | 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 是 |
 | 应用程序国际标准化组织 (ISO 27001) 认证？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
-| 应用是否遵守 FERPA (家庭教育权和隐私) ？ | 是 |
-| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (《) ？ | 是 |
+| 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 是 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 (法) ？ | 否 |
 | 应用是否符合 NIST 800-171？ |  |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -154,10 +155,9 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
-| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | true |
+| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | false |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
-| 你的应用是否支持条件访问策略？ | 是 |
-| 列出支持的策略类型 | 为了更好地控制，管理员可以实现应用权限 |
+| 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  |  |
 | 你的应用是否将任何凭据存储在代码中？ |  |
 | 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
