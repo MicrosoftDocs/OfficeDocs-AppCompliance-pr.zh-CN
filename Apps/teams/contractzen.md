@@ -1,47 +1,47 @@
 ---
-title: Unscrambl 的 qbo 应用程序信息
+title: ContractZen 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: qbo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: ContractZen 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f48255e8f29512bfc18a9d9c1a3d079829d31769
+ms.openlocfilehash: 0a5b82b8fd6cd816b31a961b2be969ae38014470
 ms.sourcegitcommit: 7395a3f8bf109af577dc24ad1de4e7d18db9c26d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/29/2021
-ms.locfileid: "61211019"
+ms.locfileid: "61215970"
 ---
-# <a name="qbo"></a>qbo
+# <a name="contractzen"></a>ContractZen
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 11 月 25 日</p>
+<p>开发人员上次更新时间：2021 年 11 月 23 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/834c6939-152c-450b-a305-c65b4dd5d1c7" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001708" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/701972b8-c49f-45f9-8cfa-15cbd38cbef5" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001389" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-Unscrambl 提供给 Microsoft 的信息：
+ContractZen 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | qbo |
-| ID | WA200001708 |
+| 应用名称 | ContractZen |
+| ID | WA200001389 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Unscrambl |
-| 公司网站 | [https://unscrambl.com](https://unscrambl.com) |
-| 应用的使用条款 | [https://qbo.ai/legal/#service](https://qbo.ai/legal/#service) |
-| 应用的核心功能 | qbo 由 Unscrambl qbo 见解提供，它使分析对话使用一流 NLP。 用户键入问题，qbo 会快速呈现最相关的见解和可视化效果。 用户可以与同事积极协作、做出决策，并捕获演示文稿就绪板中的结果。 qbo 使组织中的每个人都能够做出数据驱动的决策。 qbo 直接连接到一系列云或本地源，并且可以通过 Microsoft Teams 或浏览器访问。 |
-| 公司总部位置 | 美国 |
+| 合作伙伴公司名称 | ContractZen |
+| 公司网站 | [https://www.contractzen.com](https://www.contractzen.com) |
+| 应用的使用条款 | [https://my.contractzen.com/Terms](https://my.contractzen.com/Terms) |
+| 应用的核心功能 | 用于高级合同管理、板载会议管理、实体管理、电子签名和虚拟数据会议室的安全 (VDR)  |
+| 公司总部位置 | 芬兰 |
 | 应用信息页面 | |
-| 用于运行应用的托管环境或服务模型是什么？ | Iaas |
+| 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -52,7 +52,7 @@ Unscrambl 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Unscrambl 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+ContractZen 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -60,13 +60,13 @@ Unscrambl 提供给 Microsoft 的信息：
 | 你的应用将处理哪些数据？ | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ | 名称和电子邮件地址 |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 新加坡 |
+| 数据库中存储了哪些数据？ | 用户配置文件数据 |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 荷兰 ()  |
 | 你是否已制定数据租用和处置流程？ | 是 |
-| 帐户终止后，数据将保留多久？ | 不保留 |
+| 帐户终止后，数据将保留多久？ | 少于 90 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 是 |
+| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -86,13 +86,13 @@ Unscrambl 提供给 Microsoft 的信息：
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
-| 外部网络边界上是否安装了防火墙？ | 是 |
+| 外部网络边界上是否安装了防火墙？ | 否 |
 | 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
 | 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
-| 启用了 MFA (多重) 身份验证： | Credential、DNSManagement、CodeRepositories |
+| 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 否 |
+| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 否 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -117,7 +117,7 @@ Unscrambl 提供给 Microsoft 的信息：
 | 最新 SOC2 认证日期 | |
 | 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
 | 最新 SOC3 认证日期 | |
-| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 否 |
+| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 不适用 |
 | 应用程序国际标准化组织 (ISO 27001) 认证？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
@@ -139,7 +139,7 @@ Unscrambl 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 是 |
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
-| 隐私策略 URL | https://qbo.ai/legal/ |
+| 隐私策略 URL | https://my.contractzen.com/Privacy |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ | 否 |
 | 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
@@ -157,16 +157,20 @@ Unscrambl 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 否 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 否 |
-| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ |  |
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
+| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 不适用 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 否 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
 | 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
 
->此应用程序不使用 Microsoft Graph。
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
+
+>|   **Graph权限**  | **权限类型** |          **字距调整**          |
+>|:------------------------|:--------------------|:------------------------------------|
+>| User.Read | delegated | 能够使用用户配置文件信息 |
 
 >此应用程序没有其他 API。
 
