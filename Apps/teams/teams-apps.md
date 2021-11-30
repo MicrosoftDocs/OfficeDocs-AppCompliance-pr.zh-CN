@@ -2,17 +2,17 @@
 title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/24/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: fb2f84845ad4ed000ff0e18b30766ce3b578b910
-ms.sourcegitcommit: 3a357b6131b8459972e1aec73f2f795f9d674981
+ms.openlocfilehash: 529aa117854df492b68fba9a856b53025043da2b
+ms.sourcegitcommit: 0987264f7eb14ac7fc2666d9310ab2707e0f25ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61176852"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "61231960"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -55,6 +55,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Avaamo IT 助手](./avaamo-it-assistant.md) | Avaamo | **✓** |  |
 | [Axelleron](./axelleron.md) | Axelleron | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | 决策点 | **✓** |  |
+| [Bed](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
 | [Beekast](./beekast.md) | Beekast | **✓** |  |
 | [Beesy](./beesapps-beesy.md) | BeesApps | **✓** |  |
 | [Berrycast](./technologies-openmind-inc-les-berrycast.md) | Technologies Openmind Inc, Les | **✓** |  |
@@ -108,6 +109,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [联系人中心 | ROGER365.io](./roger365io-contact-centerroger365io.md) | ROGER365.io | **✓** |  |
 | [内容管理器](./colligo-inc-content-manager.md) | Colligo Inc | **✓** |  |
 | [Contextere AVA](./contextere-ava.md) | Contextere | **✓** |  |
+| [ContractZen](./contractzen.md) | ContractZen | **✓** |  |
 | [CSOD Learn](./cornerstone-ondemand-csod-learn.md) | Cornerstone OnDemand | **✓** |  |
 | [Cuckoo Workout](./cuckoo-networks-oy-workout.md) | Cuckoo Networks Oy | **✓** |  |
 | [Cultr Connect](./cultr-connect.md) | Cultr | **✓** |  |
@@ -354,6 +356,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [SkyPoint Cloud](./skypoint-cloud-inc.md) | SkyPoint Cloud Inc. | **✓** |  |
 | [Slido](./slido.md) | Slido | **✓** |  |
 | [Smart Connect for Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  |
+| [SmartDraw](./smartdraw-software-llc.md) | SmartDraw 软件， LLC | **✓** |  |
 | [Smartnotation](./smartnotation-bv.md) | Smartnotation B.V. | **✓** |  |
 | [Smartsheet](./smartsheet.md) | Smartsheet | **✓** |  |
 | [SmartWork](./smartwork-of-intumit.md) | SmartWork of Intumit | **✓** |  |

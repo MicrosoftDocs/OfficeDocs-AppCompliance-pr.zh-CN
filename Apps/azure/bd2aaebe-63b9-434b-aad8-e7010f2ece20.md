@@ -1,26 +1,26 @@
 ---
-title: 5edad654-f2d5-41d8-bfc0-92c2735252e1 的 Azure 应用 ID 信息
+title: bd2aaebe-63b9-434b-aad8-e7010f2ece20 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 5edad654-f2d5-41d8-bfc0-92c2735252e1 的所有可用安全性和合规性信息。
-ms.openlocfilehash: 897f4c3f5739636801a2788024cd18f2fc1de471
+description: bd2aaebe-63b9-434b-aad8-e7010f2ece20 的所有可用安全性和合规性信息。
+ms.openlocfilehash: 9b68c94131658c83c12ecd20bef1866acece0290
 ms.sourcegitcommit: 0987264f7eb14ac7fc2666d9310ab2707e0f25ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/30/2021
-ms.locfileid: "61232380"
+ms.locfileid: "61233451"
 ---
-# <a name="azure-app-id-5edad654-f2d5-41d8-bfc0-92c2735252e1"></a>Azure 应用 ID：5edad654-f2d5-41d8-bfc0-92c2735252e1
+# <a name="azure-app-id-bd2aaebe-63b9-434b-aad8-e7010f2ece20"></a>Azure 应用 ID：bd2aaebe-63b9-434b-aad8-e7010f2ece20
 
 
 ### <a name="apps-associated-with-this-id"></a>与此 ID 关联的应用：
 | **应用名称** | **认证** | **在 AppSource 中查看** |
 |--------------|---------------|-----------------------|
-| [CrossCheck](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200003198) |  | [https://appsource.microsoft.com/product/office/WA200003198](https://appsource.microsoft.com/product/office/WA200003198) |
+| [Geekbot](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200003224) |  | [https://appsource.microsoft.com/product/office/WA200003224](https://appsource.microsoft.com/product/office/WA200003224) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用合规性状态
 - Publisher证明状态：已完成
