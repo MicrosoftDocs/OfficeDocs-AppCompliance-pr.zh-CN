@@ -2,17 +2,17 @@
 title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/30/2021
+ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 529aa117854df492b68fba9a856b53025043da2b
-ms.sourcegitcommit: 0987264f7eb14ac7fc2666d9310ab2707e0f25ad
+ms.openlocfilehash: 54680ceed23191b03dc6132870bc76b58bb581d8
+ms.sourcegitcommit: 7395a3f8bf109af577dc24ad1de4e7d18db9c26d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "61231960"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61215649"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -356,7 +356,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [SkyPoint Cloud](./skypoint-cloud-inc.md) | SkyPoint Cloud Inc. | **✓** |  |
 | [Slido](./slido.md) | Slido | **✓** |  |
 | [Smart Connect for Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  |
-| [SmartDraw](./smartdraw-software-llc.md) | SmartDraw 软件， LLC | **✓** |  |
 | [Smartnotation](./smartnotation-bv.md) | Smartnotation B.V. | **✓** |  |
 | [Smartsheet](./smartsheet.md) | Smartsheet | **✓** |  |
 | [SmartWork](./smartwork-of-intumit.md) | SmartWork of Intumit | **✓** |  |
