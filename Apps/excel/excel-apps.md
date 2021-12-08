@@ -2,21 +2,21 @@
 title: Microsoft Excel应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/22/2021
+ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Excel信息。
 localization_priority: Normal
-ms.openlocfilehash: f5e36298554672e6cb7c22cb84d32c68d902cb37
-ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
+ms.openlocfilehash: 94eba70bda84194b7055912f4125348dea4df0d3
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61145224"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61353407"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel应用安全性和合规性
 
-Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关Microsoft Excel应用和外接程序的决策时需要的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与Microsoft 365合作伙伴合作，为组织提供快速做出有关Microsoft Excel应用和外接程序的决策时需要的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -26,9 +26,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [For一](./forbury-property.md) | For一属性 | **✓** |  |
 | [harmon.ie Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [印象签名](./impression-signatures.md) | 印象签名 | **✓** |  |
-| [适用于 Planner 的 iPlanner Office 365工具](./iglobe-iplanner-reporting-tool-for-office-365-planner.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Jira Cloud for Excel](./atlassiancom-jira-cloud-for-excel.md) | Atlassian.com | **✓** |  |
-| [用于图表的 Lucidchart Excel](./lucid-software-inc-lucidchart-diagrams-for-excel.md) | Lucid Software Inc | **✓** |  |
 | [含义云文本分析Excel](./meaningcloud-text-analytics-for-excel.md) | MeaningCloud | **✓** |  |
 | [Office2SharePoint for Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | content Chooser for Office] (./officeatwork-officeatworkcontent-chooser-for-office.md)  | officeatwork | **✓** |  |

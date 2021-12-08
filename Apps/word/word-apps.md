@@ -2,17 +2,17 @@
 title: Microsoft Word应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/29/2021
+ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Word信息。
 localization_priority: Normal
-ms.openlocfilehash: ead76387b7cdfd52f035f81db53baa59e3bf580f
-ms.sourcegitcommit: 79e749c1746f3658789e7b080e413be97883abef
+ms.openlocfilehash: c45c9f29de245e5c60199eb85b54c0324ece68b0
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61217046"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61353667"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word应用安全性和合规性
 
@@ -31,7 +31,6 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [印象签名](./impression-signatures.md) | 印象签名 | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
 | [Loio 合同审阅软件](./loio-inc-contract-review-software.md) | Loio Inc. | **✓** |  |
-| [Word 的 Lucidchart 关系图](./lucid-software-inc-lucidchart-diagrams-for-word.md) | Lucid Software Inc | **✓** |  |
 | [Mendeley 一些](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
 | [一些](./neopolis-gmbh.md) | 将 gmbH | **✓** |  |
 | [Office2SharePoint for Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
