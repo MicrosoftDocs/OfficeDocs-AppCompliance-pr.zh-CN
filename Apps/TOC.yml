@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Microsoft 365认证提交指南
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel应用
+    - name: Microsoft Excel 应用
       href: excel/excel-apps.md
       items:
         - name: B2B 合作伙伴的 Canon EMEA 服务成本计算器
@@ -87,7 +87,7 @@
           href: outlook/evernote.md
         - name: harmon.ie Outlook
           href: outlook/harmonie-corporation-for-outlook.md
-        - name: 展示次数签名Outlook
+        - name: 展示次数Outlook
           href: outlook/impression-signatures-for-outlook.md
         - name: 发票和时间跟踪 - Zoho 发票
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
@@ -1095,6 +1095,8 @@
           href: saas/officeatwork-uploader.md
         - name: 验证程序
           href: saas/officeatwork-verifier.md
+        - name: 广泛的想法 - 创新软件
+          href: saas/wide-ideasidea2innovation-ideas-innovation-software.md
         - name: 向导
           href: saas/officeatwork-wizard.md
     - name: Azure 应用 ID
@@ -1482,6 +1484,8 @@
           href: azure/d27f56ed-ddc7-4cf8-86ac-721b76c7d287.md
         - name: d2c7af43-2e9d-41b2-b374-e9ffbe316d61
           href: azure/d2c7af43-2e9d-41b2-b374-e9ffbe316d61.md
+        - name: d44d071f-a9e5-4f99-b72e-5ab38cd7b175
+          href: azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md
         - name: d492530a-8cff-481c-90da-9c3c3f1be7da
           href: azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md
         - name: d5630318-189a-4912-abae-99b1f8f82cce
