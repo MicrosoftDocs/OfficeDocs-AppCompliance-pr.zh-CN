@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Microsoft 365认证提交指南
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel应用
+    - name: Microsoft Excel 应用
       href: excel/excel-apps.md
       items:
         - name: B2B 合作伙伴的 Canon EMEA 服务成本计算器
@@ -59,7 +59,7 @@
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: XBRL 归档数据
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote 应用
+    - name: Microsoft OneNote应用
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork |内容选择器Office
@@ -91,15 +91,15 @@
           href: outlook/impression-signatures-for-outlook.md
         - name: 发票和时间跟踪 - Zoho 发票
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: iPlanner Office 365 Planner 外接程序 for Outlook
+        - name: iPlanner Office 365 Planner 外接程序Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (official) '
+        - name: 'Jira Cloud for Outlook (Official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
-        - name: LawToolBox 期限和事项管理 - Outlook
+        - name: LawToolBox 截止时间和管理事项 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: LawToolBox 期限和事项管理 - Outlook
+        - name: LawToolBox 截止时间和管理事项 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
         - name: Mailbutler
           href: outlook/mailbutler.md
@@ -152,7 +152,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project应用
+    - name: Microsoft Project 应用
       href: project/project-apps.md
       items:
         - name: officeatwork |模板选择器Office
@@ -162,7 +162,7 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc适用于 SharePoint
+        - name: Arc→for SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: HelloSign for SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
@@ -379,7 +379,7 @@
           href: teams/r2-docuo.md
         - name: DocuSign eSignature
           href: teams/docusign-inc-esignature.md
-        - name: 呼叫者统一呼叫录制
+        - name: Dubber 统一的通话记录
           href: teams/dubber-unified-call-recording.md
         - name: Easy Projects
           href: teams/logic-software-inc-easy-projects.md
@@ -821,6 +821,8 @@
           href: teams/iqar-suitepro-g.md
         - name: SuperBeings
           href: teams/haptivity-technologies-pvt-ltd-superbeings.md
+        - name: SuperOffice
+          href: teams/superoffice-infobridge-software.md
         - name: SurveyMonkey
           href: teams/surveymonkey.md
         - name: SurveySparrow
@@ -845,6 +847,8 @@
           href: teams/ityss-tamplo.md
         - name: Taskworld
           href: teams/taskworld.md
+        - name: 团队跟踪程序
+          href: teams/team-tracker-ltd.md
         - name: Teamble
           href: teams/teamble.md
         - name: TeaMe 运行状况检查机器人
@@ -1030,7 +1034,7 @@
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork |验证程序Office
           href: word/officeatwork-officeatworkverifier-for-office.md
-        - name: officeatwork |用于Office
+        - name: officeatwork |Office
           href: word/officeatwork-officeatworkwizard-for-office.md
         - name: RetMig 和 Kommaforslag
           href: word/grammarsoft-aps-retmig-and-kommaforslag.md
@@ -1089,6 +1093,8 @@
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
           href: saas/salestim.md
+        - name: 适用于 M365 的 SendGuard
+          href: saas/standss-south-pacific-pte-limited-sendguard-for-m365.md
         - name: 幻灯片选择器
           href: saas/officeatwork-slide-chooser.md
         - name: Template Chooser

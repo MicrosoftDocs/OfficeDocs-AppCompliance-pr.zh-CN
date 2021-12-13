@@ -2,17 +2,17 @@
 title: SaaS 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/08/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和合规性信息。
 localization_priority: Normal
-ms.openlocfilehash: 14125ffe6afd36925adfb2e993f059ba4a3a84ba
-ms.sourcegitcommit: e50a2b92ad5918cb72b9cffca73aeffc8f2d6d76
+ms.openlocfilehash: 2a9bab81bc6786c4e3b8c49e7119f6993ebc449e
+ms.sourcegitcommit: e3daf82725ca37fec97f5ff639b6a9c2d5365c85
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61359704"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420770"
 ---
 # <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和合规性
 
@@ -40,6 +40,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [策略 &amp; Insights策略Microsoft Office 365](./avepoint-inc-policies-and-insights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
+| [适用于 M365 的 SendGuard](./standss-south-pacific-pte-limited-sendguard-for-m365.md) | 代表 (太平洋) PTE Limited | **✓** |  |
 | [幻灯片选择器](./officeatwork-slide-chooser.md) | officeatwork | **✓** |  |
 | [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** |  |
 | [模板选择器浏览器](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** |  |
