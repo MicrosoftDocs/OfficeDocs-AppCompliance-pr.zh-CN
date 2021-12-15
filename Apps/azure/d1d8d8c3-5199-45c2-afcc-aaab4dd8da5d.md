@@ -1,26 +1,26 @@
 ---
-title: 8277a51c-3ad6-446c-9b7e-e3f6e27257c1 的 Azure 应用 ID 信息
+title: d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 8277a51c-3ad6-446c-9b7e-e3f6e27257c1 的所有可用安全性和合规性信息。
-ms.openlocfilehash: 2b574553aedae2999e20cb60b003d4e7d94382a6
+description: d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d 的所有可用安全和合规性信息。
+ms.openlocfilehash: 7a87257371927f5e562caa5b51cb2e50c0e03f65
 ms.sourcegitcommit: 849d584236cda08570ca2c72b4147853ab0314a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 12/14/2021
-ms.locfileid: "61505508"
+ms.locfileid: "61509668"
 ---
-# <a name="azure-app-id-8277a51c-3ad6-446c-9b7e-e3f6e27257c1"></a>Azure 应用 ID：8277a51c-3ad6-446c-9b7e-e3f6e27257c1
+# <a name="azure-app-id-d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d"></a>Azure 应用 ID：d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d
 
 
 ### <a name="apps-associated-with-this-id"></a>与此 ID 关联的应用：
 | **应用名称** | **认证** | **在 AppSource 中查看** |
 |--------------|---------------|-----------------------|
-| [Moneypenny](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200003396) |  | [https://appsource.microsoft.com/product/office/WA200003396](https://appsource.microsoft.com/product/office/WA200003396) |
+| [Team Tracker](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200003572) |  | [https://appsource.microsoft.com/product/office/WA200003572](https://appsource.microsoft.com/product/office/WA200003572) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用合规性状态
 - Publisher证明状态：已完成
