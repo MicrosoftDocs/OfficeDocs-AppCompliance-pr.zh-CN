@@ -2,21 +2,21 @@
 title: Microsoft Word应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/07/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Word信息。
 localization_priority: Normal
-ms.openlocfilehash: c45c9f29de245e5c60199eb85b54c0324ece68b0
-ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.openlocfilehash: 2a684455e3806339d3e369ce42a4d00acc76f526
+ms.sourcegitcommit: fc537c6574ed98a1706c4cadf02150a2f3e1137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61353667"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "61537774"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word应用安全性和合规性
 
-Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关Microsoft Word应用和外接程序的决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与Microsoft 365开发人员合作伙伴合作，为组织提供加速和通知有关Microsoft Word应用和外接程序的决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -39,7 +39,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [officeatwork | 图像选择器Office] (./officeatwork-officeatworkimage-chooser-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | uploader for Office] (./officeatwork-officeatworkuploader-for-office.md)  | officeatwork | **✓** |  |
-| [officeatwork | Office] (验证程序。/officeatwork-officeatworkverifier-for-office.md)  | officeatwork | **✓** |  |
+| [officeatwork | 验证程序Office] (./officeatwork-officeatworkverifier-for-office.md)  | officeatwork | **✓** |  |
 | [officeatwork | Office] (./officeatwork-officeatworkwizard-for-office.md)  | officeatwork | **✓** |  |
 | [RetMig &amp; Kommaforslag](./grammarsoft-aps-retmig-and-kommaforslag.md) | GrammarSoft ApS | **✓** |  |
 | [SmartCite for Papers](./digital-science-smartcite-for-papers.md) | 数字科学 | **✓** |  |

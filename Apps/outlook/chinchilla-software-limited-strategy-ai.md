@@ -1,48 +1,47 @@
 ---
-title: Fabasoft Austria GmbH 针对 Fabasoft 云的应用程序信息
+title: Chinchilla Software Limited 针对 Strategy-AI 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/15/2021
+ms.date: 12/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Fabasoft 云的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 有关 Strategy-AI 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 763553b5e9220bfa21b48312c40a9fc4afbcb4de
+ms.openlocfilehash: ccd5a4d249cf5a27d0f1b99040b0278f1b31fb4a
 ms.sourcegitcommit: fc537c6574ed98a1706c4cadf02150a2f3e1137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 12/16/2021
-ms.locfileid: "61537104"
+ms.locfileid: "61537889"
 ---
-# <a name="fabasoft-cloud"></a>Fabasoft Cloud
+# <a name="strategy-ai"></a>Strategy-AI
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 12 月 14 日</p>
+<p>开发人员上次更新时间：2021 年 12 月 1 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/12ba525f-5370-4cd9-b1c9-fde7edecae8a" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002184" target="_blank">在 AppSource 中查看</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003576" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-Fabasoft Austria GmbH 提供给 Microsoft 的信息：
+Chinchilla Software Limited to Microsoft 提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Fabasoft Cloud |
-| ID | WA200002184 |
-| Office 365客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Fabasoft Austria GmbH |
-| 公司网站 | [https://www.fabasoft.com](https://www.fabasoft.com) |
-| 应用的使用条款 | [https://www.fabasoft.com/terms-of-use](https://www.fabasoft.com/terms-of-use) |
-| 应用的核心功能 | 从 Fabasoft 业务流程云共享业务数据 |
-| 公司总部位置 | 奥地利 |
+| 应用名称 | Strategy-AI |
+| ID | WA200003576 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
+| 合作伙伴公司名称 | Chinchilla Software Limited |
+| 公司网站 | [https://www.strategy-ai.com](https://www.strategy-ai.com) |
+| 应用的使用条款 | [https://www.strategy-ai.com/terms](https://www.strategy-ai.com/terms) |
+| 应用的核心功能 | 提供一致的跨业务、跨平台数据属性 |
+| 公司总部位置 | 新西兰 |
 | 应用信息页面 | |
-| 用于运行应用的托管环境或服务模型是什么？ | IsvHosted |
-| 应用使用哪些托管云提供商？ |  |
+| 用于运行应用的托管环境或服务模型是什么？ | Paas |
+| 应用使用哪些托管云提供商？ | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,7 +51,7 @@ Fabasoft Austria GmbH 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Fabasoft Austria GmbH 提供，用于说明此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由 Chinchilla Software Limited 提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -78,9 +77,9 @@ Fabasoft Austria GmbH 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 你是否对应用执行年度渗透测试？ | 是 |
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
-| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls、TraditionalAntiMalware |
+| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
@@ -88,7 +87,7 @@ Fabasoft Austria GmbH 提供给 Microsoft 的信息：
 | 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
 | 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
-| 启用了 MFA (多重) 身份验证： | DNSManagement、CodeRepositories、Credential |
+| 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
 | 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
@@ -107,23 +106,23 @@ Fabasoft Austria GmbH 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
-| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
-| 应用是否遵守 SOC 2 (服务组织) ？ | 是 |
-| 你获得哪种 SOC 2 认证？ |  type2 |
-| 最新 SOC2 认证日期 |  2021-04-30 |
+| 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
+| 你获得哪种 SOC 2 认证？ | |
+| 最新 SOC2 认证日期 | |
 | 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
 | 最新 SOC3 认证日期 | |
-| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 否 |
-| 应用程序国际标准化组织 (ISO 27001) 认证？ | 是 |
-| 应用是否符合国际标准化组织 (ISO 27018) ？ | 是 |
+| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 是 |
+| 应用程序国际标准化组织 (ISO 27001) 认证？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 否 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -136,7 +135,8 @@ Fabasoft Austria GmbH 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 是 |
-| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
+| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
+| 隐私策略 URL | https://www.strategy-ai.com/privacy |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
 | 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
