@@ -2,17 +2,17 @@
 title: SaaS 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/10/2021
+ms.date: 12/20/2021
 ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和合规性信息。
 localization_priority: Normal
-ms.openlocfilehash: 2a9bab81bc6786c4e3b8c49e7119f6993ebc449e
-ms.sourcegitcommit: e3daf82725ca37fec97f5ff639b6a9c2d5365c85
+ms.openlocfilehash: cd88d3f0d6a4e4edeb82a7ebd875a440768afc83
+ms.sourcegitcommit: 287c15520b2d24d1b150c144ee8001b713b0aa8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61420770"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "61590609"
 ---
 # <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和合规性
 
@@ -21,16 +21,19 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [适用于联系人的热门Teams](./geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md) | Geomant-Algotech Zrt。 | **✓** |  |
+| [CC4Teams](./cc4all-cc4teams.md) | CC4ALL | **✓** |  |
 | [Classroom.cloud](./netsupport-ltd-classroomcloud.md) | NETSUPPORT LTD. | **✓** |  |
 | [云备份Microsoft Office 365](./avepoint-inc-cloud-backup-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [CodeTwo 电子邮件签名Office 365](./codetwo-email-signatures-for-office-365.md) | CodeTwo | **✓** |  |
 | [Competella 通信套件](./competella-ab-communication-suite.md) | Competella AB | **✓** |  |
 | [内容选择器](./officeatwork-content-chooser.md) | officeatwork | **✓** |  |
 | [Designer](./officeatwork-designer.md) | officeatwork | **✓** |  |
+| [EmailNotes for Outlook](./standss-south-pacific-pte-limited-emailnotes-for-outlook.md) | 代表 (太平洋) PTE Limited | **✓** |  |
 | [iGlobe CRM Office 365 for Microsoft 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** |  |
 | [图像选择器](./officeatwork-image-chooser.md) | officeatwork | **✓** |  |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [LMS365](./elearningforce-international-aps-lms365.md) | ELEARNINGFORCE 国际 APS | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [适用于 Microsoft Teams 的 Luware 合规性记录](./luware-ag-compliance-recording-for-microsoft-teams.md) | Luware AG | **✓** |  |
 | [Luware Nimbus for Microsoft Teams](./luware-ag-nimbus-for-microsoft-teams.md) | Luware AG | **✓** |  |
 | [MIPA - 我的智能个人助理](./iglobe-mipa-my-intelligent-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [MyHub for Teams](./avepoint-inc-myhub-for-teams.md) | AvePoint Inc. | **✓** |  |
@@ -40,7 +43,6 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [策略 &amp; Insights策略Microsoft Office 365](./avepoint-inc-policies-and-insights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
-| [适用于 M365 的 SendGuard](./standss-south-pacific-pte-limited-sendguard-for-m365.md) | 代表 (太平洋) PTE Limited | **✓** |  |
 | [幻灯片选择器](./officeatwork-slide-chooser.md) | officeatwork | **✓** |  |
 | [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** |  |
 | [模板选择器浏览器](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** |  |
