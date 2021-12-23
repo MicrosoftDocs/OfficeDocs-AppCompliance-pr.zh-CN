@@ -599,6 +599,8 @@
           href: teams/mindsets-learning.md
         - name: MIPA - Your Personal Assistant
           href: teams/iglobe-mipa-your-personal-assistant.md
+        - name: M一
+          href: teams/miro.md
         - name: monday.com
           href: teams/mondaycom.md
         - name: Moneypenny
@@ -1063,7 +1065,7 @@
     - name: SaaS 应用
       href: saas/saas-apps.md
       items:
-        - name: Teams
+        - name: 适用于联系人的热门Teams
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
         - name: CC4Teams
           href: saas/cc4all-cc4teams.md
