@@ -59,7 +59,7 @@
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: XBRL 归档数据
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote 应用
+    - name: Microsoft OneNote应用
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork |内容选择器Office
@@ -91,15 +91,15 @@
           href: outlook/impression-signatures-for-outlook.md
         - name: 发票和时间跟踪 - Zoho 发票
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: iPlanner Office 365 Planner 外接程序 for Outlook
+        - name: iPlanner Office 365 Planner 外接程序Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (Official) '
+        - name: 'Jira Cloud for Outlook (official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
-        - name: LawToolBox 截止时间和管理事项 - Outlook
+        - name: LawToolBox 期限和事项管理 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: LawToolBox 截止时间和管理事项 - Outlook
+        - name: LawToolBox 期限和事项管理 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
         - name: Mailbutler
           href: outlook/mailbutler.md
@@ -113,7 +113,7 @@
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
         - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: 推广销售Outlook
+        - name: Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One for Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -154,7 +154,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project应用
+    - name: Microsoft Project 应用
       href: project/project-apps.md
       items:
         - name: officeatwork |模板选择器Office
@@ -186,7 +186,7 @@
           href: sharepoint/ataira-power-bi-collaboration.md
         - name: 更智能的事件预订
           href: sharepoint/smarter-business-solutions-gmbh-event-booking.md
-    - name: Microsoft Teams应用
+    - name: Microsoft Teams 应用
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -585,6 +585,8 @@
           href: teams/mentimeter.md
         - name: 消息提醒程序
           href: teams/message-reminder.md
+        - name: MetaVisitor
+          href: teams/wafer-systems-metavisitor.md
         - name: MGR360
           href: teams/mgr360.md
         - name: Mia
@@ -599,7 +601,7 @@
           href: teams/mindsets-learning.md
         - name: MIPA - Your Personal Assistant
           href: teams/iglobe-mipa-your-personal-assistant.md
-        - name: M一
+        - name: Miro
           href: teams/miro.md
         - name: monday.com
           href: teams/mondaycom.md
