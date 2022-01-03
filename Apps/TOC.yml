@@ -95,7 +95,7 @@
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (official) '
+        - name: 'Jira Cloud for Outlook (Official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox 期限和事项管理 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
@@ -113,7 +113,7 @@
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
         - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Outlook
+        - name: 推广销售Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One for Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -166,7 +166,7 @@
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
         - name: Arc适用于SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
-        - name: FormMachines 连接器SharePoint
+        - name: FormMachines Connector for SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: HelloSign for SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
@@ -186,7 +186,7 @@
           href: sharepoint/ataira-power-bi-collaboration.md
         - name: 更智能的事件预订
           href: sharepoint/smarter-business-solutions-gmbh-event-booking.md
-    - name: Microsoft Teams 应用
+    - name: Microsoft Teams应用
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -483,8 +483,6 @@
           href: teams/heedify.md
         - name: HelloTeam
           href: teams/helloteam-inc.md
-        - name: HeyTaco!
-          href: teams/heytaco!.md
         - name: hi Digital Coach
           href: teams/digital-attitude-srl-hi-coach.md
         - name: Hi5
@@ -515,8 +513,6 @@
           href: teams/infor-us-inc-coleman.md
         - name: isLucid
           href: teams/uab-lucid-agreements-islucid.md
-        - name: Jetdocs
-          href: teams/jetdocs.md
         - name: Jira Cloud
           href: teams/atlassian-jira-cloud.md
         - name: JobPts
@@ -1005,7 +1001,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word应用
+    - name: Microsoft Word 应用
       href: word/word-apps.md
       items:
         - name: Adobe Sign for Word and PowerPoint
@@ -1093,7 +1089,7 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
-        - name: 适用于 Microsoft Teams 的 Luware 合规性记录
+        - name: 适用于 Microsoft Teams 的 Luware 合规性Microsoft Teams
           href: saas/luware-ag-compliance-recording-for-microsoft-teams.md
         - name: Luware Nimbus for Microsoft Teams
           href: saas/luware-ag-nimbus-for-microsoft-teams.md
@@ -1107,7 +1103,7 @@
           href: saas/iglobe-office2sharepoint.md
         - name: 适用于 MS365 的 Onna Discovery
           href: saas/onna-discovery-for-ms365.md
-        - name: 策略和Insights策略Microsoft Office 365
+        - name: 适用于Insights的策略Microsoft Office 365
           href: saas/avepoint-inc-policies-and-insights-for-microsoft-office-365.md
         - name: Priority Matrix
           href: saas/appfluence-inc-priority-matrix.md
@@ -1230,6 +1226,8 @@
           href: azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md
         - name: 421da895-5e99-4254-b038-209f1ddd5cbb
           href: azure/421da895-5e99-4254-b038-209f1ddd5cbb.md
+        - name: 43067020-c59f-49f8-a532-e84ed3bb5f4e
+          href: azure/43067020-c59f-49f8-a532-e84ed3bb5f4e.md
         - name: 43134ae0-301f-4762-b7a9-aa9f2ff77b38
           href: azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38.md
         - name: 431a9917-9c32-480e-a584-6c149e7b7213
@@ -1460,8 +1458,6 @@
           href: azure/bd2aaebe-63b9-434b-aad8-e7010f2ece20.md
         - name: be181d9c-9060-40a0-a692-b29f2e314d16
           href: azure/be181d9c-9060-40a0-a692-b29f2e314d16.md
-        - name: be8d11cf-265a-4974-9912-4ff28c29fc21
-          href: azure/be8d11cf-265a-4974-9912-4ff28c29fc21.md
         - name: be93046b-63ab-4216-9bcc-78faa55eeaa7
           href: azure/be93046b-63ab-4216-9bcc-78faa55eeaa7.md
         - name: 一个 170ee-dbd7-4efa-b48e-b0937ded1689
