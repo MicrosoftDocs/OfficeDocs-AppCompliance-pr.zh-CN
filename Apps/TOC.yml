@@ -154,7 +154,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project应用
+    - name: Microsoft Project 应用
       href: project/project-apps.md
       items:
         - name: officeatwork |模板选择器Office
@@ -164,9 +164,11 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc功能区SharePoint
+        - name: Arc适用于SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
-        - name: FormMachines 连接器SharePoint
+        - name: 标书管理系统
+          href: sharepoint/beyond-technologies-bid-management-system.md
+        - name: FormMachines Connector for SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: HelloSign for SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
@@ -863,6 +865,8 @@
           href: teams/teamble.md
         - name: TeaMe 运行状况检查机器人
           href: teams/teame-health-check-bot.md
+        - name: Teameo 类空间
+          href: teams/ls2-innovation-teameo-class-space.md
         - name: Teamflect
           href: teams/grepsi-software-teamflect.md
         - name: TeamGether
@@ -991,6 +995,8 @@
           href: teams/akmii-yeeflow.md
         - name: yuccaHR
           href: teams/yucca-technologies-gmbh-yuccahr.md
+        - name: Zesavi
+          href: teams/zesavi-gmbh.md
         - name: Zignals
           href: teams/alight-zignals.md
         - name: Zoho CRM
@@ -1046,7 +1052,7 @@
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork |验证程序Office
           href: word/officeatwork-officeatworkverifier-for-office.md
-        - name: officeatwork |Office
+        - name: officeatwork |用于Office
           href: word/officeatwork-officeatworkwizard-for-office.md
         - name: RetMig 和 Kommaforslag
           href: word/grammarsoft-aps-retmig-and-kommaforslag.md
@@ -1091,7 +1097,7 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
-        - name: 适用于 Microsoft Teams 的 Luware 合规性记录
+        - name: 适用于 Microsoft Teams 的 Luware 合规性Microsoft Teams
           href: saas/luware-ag-compliance-recording-for-microsoft-teams.md
         - name: Luware Nimbus for Microsoft Teams
           href: saas/luware-ag-nimbus-for-microsoft-teams.md
@@ -1528,6 +1534,8 @@
           href: azure/eab5463e-8168-40ee-887a-7ac78de1d266.md
         - name: eb628055-f790-4ef0-9fce-ac95b4c61466
           href: azure/eb628055-f790-4ef0-9fce-ac95b4c61466.md
+        - name: eb668aa5-abb2-445c-81b4-3c174db84fe2
+          href: azure/eb668aa5-abb2-445c-81b4-3c174db84fe2.md
         - name: edb24f8f-38af-4b3e-9475-0da243678d5a
           href: azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md
         - name: f0199b83-0ca3-4b41-a23b-d9b234484438
