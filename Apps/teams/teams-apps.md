@@ -2,17 +2,17 @@
 title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/23/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 9d7343c204d68fa7177781f45bbf655db5059b1e
-ms.sourcegitcommit: 1be3c2ca2c8a781c6acda29412224061c90790c9
+ms.openlocfilehash: 790f21ce23639a69e7c5079286bd87e4e6cbf361
+ms.sourcegitcommit: 15d24d32e05987f1fafdbfb1bb3ab440cd76be03
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "61603130"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "61669032"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -167,7 +167,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Health Hero](./health-hero.md) | 运行状况主图 | **✓** |  |
 | [Heedify](./heedify.md) | Heedify | **✓** |  |
 | [HelloTeam](./helloteam-inc.md) | HelloTeam Inc. | **✓** |  |
-| [HeyTaco!](./heytaco!.md) | HeyTaco! | **✓** |  |
 | [hi Digital Coach](./digital-attitude-srl-hi-coach.md) | Digital Attitude Srl | **✓** |  |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  |
 | [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  |
@@ -175,7 +174,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Hive](./hive.md) | Hive | **✓** |  |
 | [Humu](./humu-inc.md) | Humu Inc. | **✓** |  |
 | [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  |
-| [iGlobe CRM for Teams](./iglobe-crm-for-teams.md) | iGlobe | **✓** |  |
+| [iGlobe CRM for Teams](./iglobe-crm-for-teams.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iManage](./imanage.md) | iManage | **✓** |  |
 | [imDocShare](./kl-software-technologies-imdocshare.md) | KL Software Technologies | **✓** |  |
 | [发生危机时](./rockdove-solutions-inc-in-case-of-crisis.md) | RockDove Solutions, Inc. | **✓** |  |
@@ -183,7 +182,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Indeqa](./indeqa-bv.md) | Indeqa B.V. | **✓** |  |
 | [Infor Coleman](./infor-us-inc-coleman.md) | INFOR (US), INC. | **✓** |  |
 | [isLucid](./uab-lucid-agreements-islucid.md) | UAB Lucid 协议 | **✓** |  |
-| [Jetdocs](./jetdocs.md) | Jetdocs | **✓** |  |
 | [Jira Cloud](./atlassian-jira-cloud.md) | Atlassian | **✓** |  |
 | [JobPts](./semos-cloud-soultions-jobpts.md) | Semos Cloud Soultions | **✓** |  |
 | [KAKEAI](./kakeai.md) | KAKEAI | **✓** |  |
@@ -347,6 +345,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [SurveySparrow](./surveysparrow-inc.md) | SurveySparrow inc. | **✓** |  |
 | [Svava for Meetings](./svava-ab-for-meetings.md) | Svava AB | **✓** |  |
 | [SwiftAssess](./gamalearn-swiftassess.md) | GamaLearn | **✓** |  |
+| [Switchvox](./sangoma-switchvox.md) | Sangoma | **✓** |  |
 | [Sympli](./sympli-llc.md) | Sympli, LLC | **✓** |  |
 | [SysAid](./sysaid.md) | SysAid | **✓** |  |
 | [TackleBox](./insiten-tacklebox.md) | Insiten | **✓** |  |
