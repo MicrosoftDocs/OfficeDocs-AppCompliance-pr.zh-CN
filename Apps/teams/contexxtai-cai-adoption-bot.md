@@ -1,25 +1,24 @@
 ---
-title: 适用于采用自动 C.AI 的应用程序信息 contexxt.ai
+title: 适用于采用自动 C.AI 程序的应用程序 contexxt.ai
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/04/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: 适用于采用自动程序 C.AI 所有可用的安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 85c64b89b739d96d48de528d2394f909f404b06e
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+certification_type: certified
+description: 适用于采用自动程序的所有 C.AI 信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: f37bafaac714c26c948b4f2264c4d139f5863bf5
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430512"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61785599"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 5 月 6 日</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>开发人员上次更新时间：2022 年 1 月 11 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/f5323aab-3063-46cb-b632-ee01d95de494" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002633" target="_blank">在 AppSource 中查看</a>
@@ -36,10 +35,12 @@ ms.locfileid: "60430512"
 | ID | WA200002633 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | contexxt.ai |
-| 合作伙伴网站的 URL | [https://contexxt.ai](https://contexxt.ai) |
-| 应用程序Teams页的 URL | [https://contexxt.ai/cai-adoption-bot/](https://contexxt.ai/cai-adoption-bot/) |
-| 隐私策略的 URL | [https://contexxt.ai/privacy-policy](https://contexxt.ai/privacy-policy) |
-| 使用条款 URL | [https://contexxt.ai/terms-of-use](https://contexxt.ai/terms-of-use) |
+| 公司网站 | [https://contexxt.ai](https://contexxt.ai) |
+| 应用的使用条款 | [https://contexxt.ai/terms-of-use](https://contexxt.ai/terms-of-use) |
+| 应用的核心功能 | 使用整个采用套件时，包括 &quot;个人指导为用户，分析引擎 (C.AI 应用分析) 通过 Graph API 匿名化使用情况数据 &quot; &amp; Exchange Teams。 基于此数据，自动程序算法 (C.AI Adoption Bot) 检测特定学习情况时 &amp; ，会向用户发送快速提示。 例如，如果用户从未向帖子添加Teams，机器人会假定用户不知道如何操作并发送自定义的学习材料。 如果没有分析，它将只是问答 &amp; 自动程序。 |
+| 公司总部位置 | 德国 |
+| 应用信息页面 | |
+| 用于运行应用的托管环境或服务模型是什么？ |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,91 +52,120 @@ ms.locfileid: "60430512"
 
 此信息已由用户 contexxt.ai，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
-
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
-
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | 应用程序 | 用户能否在正确的时间发送提示，而不是在专注时间发送提示，例如 | 匿名用户能否在正确的时间发送提示，而不是在专注时间发送提示，例如 | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| ChannelMessage.Read.All | 应用程序 | Microsoft Teams元数据（如私人或不同频道）或每个频道的对话量来分析Teams | 匿名Microsoft Teams通道元数据，例如私人或每个频道的对话量，以分析Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Chat.Read.All | 应用程序 | Microsoft Teams聊天元数据，例如消息是否被喜欢或者存在多少个组和一对一聊天来分析聊天Teams | 匿名Microsoft Teams聊天元数据，如是否喜欢消息或存在多少个组和一对一聊天来分析聊天Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Directory.Read.All | 应用程序 | 用户对象 ID，用于以后能够向指定用户发送提示。 | 哈希 (匿名) 用户的 Object-ID，以稍后能够向指定用户发送提示。 | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Group.Read.All | 应用程序 | Microsoft Teams元数据，如Teams分析元数据使用率的Teams | Microsoft Teams元数据，如Teams分析元数据使用率的Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Mail.Read | 应用程序 | Microsoft Exchange元数据（如电子邮件数量和组与 1：1 电子邮件）来分析电子邮件Exchange (与Teams)  | 匿名 microsoft Exchange元数据，如电子邮件数量和组数与 1：1 电子邮件，用于分析Exchange (使用情况Teams)  | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| User.Read.All | 应用程序 | Microsoft Teams聊天和对话元数据，例如，是否提到用户来分析Teams | 匿名Microsoft Teams聊天和对话元数据，如用户被提及以分析Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
-
-
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
-
-如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
-
->不Microsoft 服务非活动。
-
-#### <a name="data-access-via-bots"></a>通过机器人访问数据
-
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
-
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 在 Bot 框架中，将自动传输用户 ID，以与用户通信。 来自应用 C.AI 分析的其他使用情况数据用于个性化化用户的学习体验，因此，只向可能不知道这些提示的用户发送合适的有用提示 | 否 |  |
-
-
-#### <a name="telemetry-data"></a>遥测数据
-
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
-
->应用程序遥测或日志中不显示 OII 或 EUII。
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
-
-描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
-
->组织可以管理 (用户分配/) 许可证。 组织可以分配不同的角色来管理其许可证。 管理员始终可以请求删除其数据。
-
-#### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
-
-是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
-
->是
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
+| 数据库中存储了哪些数据？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 你是否已制定数据租用和处置流程？ |  |
+| 帐户终止后，数据将保留多久？ | 在 2 周之内删除 |
+| 您是否已建立数据访问管理流程？ |  |
+| 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
+| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37589' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37589" target="_blank">在新建选项卡中查看</a>
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否对应用执行年度渗透测试？ | 不支持 |
+| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 否 |
+| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
+| 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ |  |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ |  |
+| 你的环境是否具有任何不受支持的操作系统或软件？ |  |
+| 你是否对应用和支持它的内结构进行季度漏洞扫描？ |  |
+| 外部网络边界上是否安装了防火墙？ |  |
+| 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ |  |
+| 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ |  |
+| 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ |  |
+| 启用了 MFA (多重) 身份验证： |  |
+| 您是否已制定设置、修改和删除员工帐户的流程？ |  |
+| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ |  |
+| 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ |  |
+| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
+| 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ |  |
+| 是否建立了正式的信息安全风险管理流程？ |  |
+| 您是否已记录并建立了正式的安全事件响应流程？ |  |
+| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>标识信息
-
-此信息已由应用 contexxt.ai、授权、应用程序注册最佳做法和其他标识条件的信息提供。
+::: zone pivot="compliance"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 否 |
-| 应用是否请求方案最小特权权限？ | 是 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
-| 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
-| 你的应用是否公开任何 Web API？ | 否 |
-| 你的应用是否使用预览 API？ | 否 |
-| 你的应用是否使用已弃用 API？ | 否 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
+| 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
+| 最新 SOC1 认证日期 |   |
+| 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
+| 你获得哪种 SOC 2 认证？ | |
+| 最新 SOC2 认证日期 | |
+| 应用是否遵守 SOC 3 (服务组织) ？ | 不支持 |
+| 最新 SOC3 认证日期 | |
+| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 不适用 |
+| 应用国际标准化组织 (ISO 27001) 认证？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 (管理) ？ | 不适用 |
+| 应用是否符合 NIST 800-171？ |  |
+| 该应用已通过云安全联盟 (CSA Star) 认证？ | 不支持 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ |  |
+| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ |  |
+| 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ |  |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ |  |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
+| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ |  |
+| 应用是否具有根据请求删除个人个人数据的功能？ |  |
+| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
+| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | True |
+| 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
+| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否支持 CAE (连续访问)  |  |
+| 你的应用是否将任何凭据存储在代码中？ |  |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+
+>此应用程序不使用 Microsoft Graph。
+
+>此应用程序没有其他 API。
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
