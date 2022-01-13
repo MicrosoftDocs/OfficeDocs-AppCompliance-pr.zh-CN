@@ -2,17 +2,17 @@
 title: Microsoft Excel应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/11/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Excel信息。
 localization_priority: Normal
-ms.openlocfilehash: dd62d497c0071968f52c6d936bcbcf00eeb1fbab
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: 17fb073b5bbdf008d5fe83ee400ec8e2b04d81c5
+ms.sourcegitcommit: 19aa86f2bbf281851e555ecc4465c25384ba97d7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61786110"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62028827"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel应用安全性和合规性
 
@@ -23,19 +23,12 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [B2B 合作伙伴的 Canon EMEA 服务成本计算器](./canon-emea-service-cost-calculator-for-b2b-partners.md) | Canon EMEA | **✓** |  |
 | [CloudExtend Analytics for NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | 为 CloudExtend | **✓** |  |
 | [Excel到 Word 文档自动化](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
-| [For一](./forbury-property.md) | For一属性 | **✓** |  |
 | [harmon.ie Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [印象签名](./impression-signatures.md) | 印象签名 | **✓** |  |
 | [Jira Cloud for Excel](./atlassiancom-jira-cloud-for-excel.md) | Atlassian.com | **✓** |  |
-| [含义云文本分析Excel](./meaningcloud-text-analytics-for-excel.md) | MeaningCloud | **✓** |  |
 | [Office2SharePoint for Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | content Chooser for Office] (./officeatwork-officeatworkcontent-chooser-for-office.md)  | officeatwork | **✓** |  |
-| [officeatwork | 图像选择器Office] (./officeatwork-officeatworkimage-chooser-for-office.md)  | officeatwork | **✓** |  |
-| [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** |  |
 | [QuickCells 图形](./cc-1c-quickcells-graphs.md) | CC-1C | **✓** |  |
 | [QuickCells 规划求解](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |
 | [Report Builder](./adobe-inc-report-builder.md) | Adobe Inc. | **✓** |  |
-| [Sheetgo](./sheetgo-europe-sl.md) | SHEETGO EUROPE SL | **✓** |  |
-| [Supermetrics](./supermetrics.md) | Supermetrics | **✓** |  |
 | [Wunder365 for Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |
 | [XBRL 归档数据](./xbrl-us-filed-data.md) | XBRL US | **✓** |  |
