@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Microsoft 365认证提交指南
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel 应用
+    - name: Microsoft Excel应用
       href: excel/excel-apps.md
       items:
         - name: B2B 合作伙伴的 Canon EMEA 服务成本计算器
@@ -73,11 +73,11 @@
           href: outlook/impression-signatures-for-outlook.md
         - name: 发票和时间跟踪 - Zoho 发票
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: iPlanner Office 365 Planner 外接程序Outlook
+        - name: iPlanner Office 365 Planner 外接程序 for Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (Official) '
+        - name: 'Jira Cloud for Outlook (official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox 期限和事项管理 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
@@ -127,7 +127,7 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc适用于SharePoint
+        - name: Arc功能区SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: iGlobe CRM 加载项
           href: sharepoint/iglobe-crm-add-ons.md
@@ -143,7 +143,7 @@
           href: sharepoint/smarter-business-solutions-gmbh-event-booking.md
         - name: 分类
           href: sharepoint/accuracy-software-inc-taxonomy.md
-    - name: Microsoft Teams应用
+    - name: Microsoft Teams 应用
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -748,8 +748,6 @@
           href: teams/totara-learning.md
         - name: Tribute
           href: teams/tribute-co.md
-        - name: Trivia
-          href: teams/springworks-hr-tech-trivia.md
         - name: Trivia Engine
           href: teams/enableuc-trivia-engine.md
         - name: Trivie
@@ -826,7 +824,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word应用
+    - name: Microsoft Word 应用
       href: word/word-apps.md
       items:
         - name: Adobe Sign for Word and PowerPoint
