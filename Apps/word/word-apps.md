@@ -2,17 +2,17 @@
 title: Microsoft Word应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/13/2022
+ms.date: 01/17/2022
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Word信息。
 localization_priority: Normal
-ms.openlocfilehash: bdc052ee1288ec94333ef5427491c872c831fcd3
-ms.sourcegitcommit: 19aa86f2bbf281851e555ecc4465c25384ba97d7
+ms.openlocfilehash: 9f1a7da8bf8caac6329d9765c051d2fdb7e75233
+ms.sourcegitcommit: 23ef75d7c108123853d76b1f80492a2f479c8aeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62028524"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62067228"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word应用安全性和合规性
 
@@ -31,10 +31,9 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [Loio 合同审阅软件](./loio-inc-contract-review-software.md) | Loio Inc. | **✓** |  |
 | [Mendeley 一些](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
 | [Office2SharePoint for Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | 验证程序Office] (./officeatwork-officeatworkverifier-for-office.md)  | officeatwork | **✓** |  |
+| [officeatwork | Office验证程序] (./officeatwork-officeatworkverifier-for-office.md)  | officeatwork | **✓** |  |
 | [RetMig &amp; Kommaforslag](./grammarsoft-aps-retmig-and-kommaforslag.md) | GrammarSoft ApS | **✓** |  |
 | [SmartCite for Papers](./digital-science-smartcite-for-papers.md) | 数字科学 | **✓** |  |
 | [TaxKit 文档](./taxyio-gmbh-taxkit-docs.md) | Taxy.io GmbH | **✓** |  |
 | [TerMef](./mondeca-termef.md) | Mondeca | **✓** |  |
-| [Wunder365 for Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |
 | [xLaw - 知识管理系统](./evertn-xlaw-knowledge-management-system.md) | evertn | **✓** |  |
