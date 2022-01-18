@@ -41,15 +41,8 @@
           href: excel/cc-1c-quickcells-solvers.md
         - name: Report Builder
           href: excel/adobe-inc-report-builder.md
-        - name: Wunder365 for Office
-          href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: XBRL 归档数据
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote应用
-      href: onenote/onenote-apps.md
-      items:
-        - name: Wunder365 for Office
-          href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
     - name: Microsoft Outlook 应用
       href: outlook/outlook-apps.md
       items:
@@ -103,8 +96,6 @@
           href: outlook/salesforcecom-salesforce.md
         - name: ServiceDesk Plus for Email
           href: outlook/zoho-corporation-private-limited-servicedesk-plus-for-email.md
-        - name: Wunder365
-          href: outlook/jiji-technologies-private-limited-wunder365.md
         - name: XQ 安全电子邮件
           href: outlook/xq-message-secure-email.md
         - name: 用于电子邮件的 Zoho CRM
@@ -127,7 +118,7 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc功能区SharePoint
+        - name: Arc适用于SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: iGlobe CRM 加载项
           href: sharepoint/iglobe-crm-add-ons.md
@@ -200,6 +191,8 @@
           href: teams/breathe-india-advisors-pvt-ltd-bigfish.md
         - name: Bigger Brains eLearning
           href: teams/biggerbrains-bigger-brains-elearning.md
+        - name: Biz-Oin
+          href: teams/suzuyo-shinwart-corporation-biz-oin.md
         - name: Bizfone
           href: teams/mobikom-bizfone.md
         - name: BlackBerry AtHoc
@@ -726,7 +719,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: 团队合作
+        - name: Teamwork
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -804,8 +797,6 @@
           href: teams/workplacebuddy.md
         - name: Wrike
           href: teams/wrike-inc.md
-        - name: Wunder365
-          href: teams/jiji-technologies-pvt-ltd-wunder365.md
         - name: X0PA 会议室
           href: teams/x0pa-ai-singapore-room.md
         - name: xMatters
@@ -824,7 +815,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word 应用
+    - name: Microsoft Word应用
       href: word/word-apps.md
       items:
         - name: Adobe Sign for Word and PowerPoint
@@ -859,8 +850,6 @@
           href: word/taxyio-gmbh-taxkit-docs.md
         - name: TerMef
           href: word/mondeca-termef.md
-        - name: Wunder365 for Office
-          href: word/jiji-technologies-private-limited-wunder365-for-office.md
         - name: xLaw - 知识管理系统
           href: word/evertn-xlaw-knowledge-management-system.md
     - name: SaaS 应用
