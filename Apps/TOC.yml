@@ -66,11 +66,11 @@
           href: outlook/impression-signatures-for-outlook.md
         - name: 发票和时间跟踪 - Zoho 发票
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: iPlanner Office 365 Planner 外接程序 for Outlook
+        - name: iPlanner Office 365 Planner 外接程序Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (official) '
+        - name: 'Jira Cloud for Outlook (Official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox 期限和事项管理 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
@@ -118,7 +118,7 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc适用于SharePoint
+        - name: Arc→for SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: iGlobe CRM 加载项
           href: sharepoint/iglobe-crm-add-ons.md
@@ -493,8 +493,6 @@
           href: teams/facilis-mybys.md
         - name: Myfone
           href: teams/flexfone-myfone.md
-        - name: MyHub
-          href: teams/avepoint-inc-myhub.md
         - name: MyWorkDrive
           href: teams/myworkdrive.md
         - name: NE
