@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 Outlook (Official) 的 Jira 云的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 54923c84744de7f0bf8b2cec43458f2030dbcfce
-ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
+ms.openlocfilehash: 6b9a6a2cdcc6f7c214a8e27f73ca3e4554fff1fb
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60682576"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62146700"
 ---
 # <a name="jira-cloud-for-outlook-official"></a>Jira Cloud for Outlook (official) 
 
@@ -33,7 +33,7 @@ ms.locfileid: "60682576"
 |:----------------|:-------------|
 | 应用名称 | Jira Cloud for Outlook (official)  |
 | ID | WA200000056 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本Windows Mac Outlook 2016 或更高版本、Outlook iOS 版、Outlook Android 版Outlook 网页版 |
+| Office 365支持的客户端 | Outlook 2013 或更高版本Windows、mac Outlook 2016 或更高版本、Outlook iOS 版、Outlook Android 版Outlook 网页版 |
 | 合作伙伴公司名称 | Atlassian.com |
 | 公司网站 | [https://www.atlassian.com](https://www.atlassian.com) |
 | 应用的使用条款 | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
@@ -91,7 +91,7 @@ ms.locfileid: "60682576"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 不适用 |
+| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 不适用 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -123,8 +123,8 @@ ms.locfileid: "60682576"
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 否 |
-| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
-| 应用是否遵守 SOX Sarbanes-Oxley《 () ？ | 是 |
+| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
+| 应用是否符合 SOX Sarbanes-Oxley的 (法案) ？ | 是 |
 | 应用是否符合 NIST 800-171？ | 否 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 是 |
 
@@ -140,12 +140,12 @@ ms.locfileid: "60682576"
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
-| 应用是否具有根据请求删除个人个人数据的功能？ | 否 |
-| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 否 |
-| 该应用是否向个人提供更正或更新其个人数据的能力？ | 否 |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 否 |
+| 应用是否具有根据请求删除个人个人数据的功能？ |  |
+| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -156,7 +156,7 @@ ms.locfileid: "60682576"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 否 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 否 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 否 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ |  |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SmartDraw 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 41803da7a532212e56920b988499e8cdb9c7bc6f
-ms.sourcegitcommit: 79e749c1746f3658789e7b080e413be97883abef
+ms.openlocfilehash: 6e7316127bd80d571c9120a377bf81c58b48d450
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61217188"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62143909"
 ---
 # <a name="smartdraw"></a>SmartDraw
 
@@ -34,8 +34,8 @@ SmartDraw Software， LLC 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | SmartDraw |
 | ID | WA200003505 |
-| Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | SmartDraw Software， LLC |
+| Office 365客户端 | Microsoft Teams |
+| 合作伙伴公司名称 | SmartDraw 软件， LLC |
 | 公司网站 | [https://www.smartdraw.com](https://www.smartdraw.com) |
 | 应用的使用条款 | [https://www.smartdraw.com/support/terms-of-service.pdf](https://www.smartdraw.com/support/terms-of-service.pdf) |
 | 应用的核心功能 | 简单的 &amp; 功能强大的工具，可制作流程图、UML、ERD、技术图表等。 |
@@ -82,7 +82,7 @@ SmartDraw Software， LLC 提供给 Microsoft 的信息：
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
+| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
@@ -108,8 +108,8 @@ SmartDraw Software， LLC 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
-| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 是 |
@@ -123,9 +123,9 @@ SmartDraw Software， LLC 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
-| 应用是否遵守 FERPA (家庭教育权和隐私) ？ | 不适用 |
-| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (《) ？ | 不适用 |
+| 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
+| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 否 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -140,13 +140,13 @@ SmartDraw Software， LLC 提供给 Microsoft 的信息：
 | 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 否 |
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
-| 应用是否具有根据请求删除个人个人数据的功能？ | 否 |
-| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 否 |
-| 该应用是否向个人提供更正或更新其个人数据的能力？ | 否 |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 否 |
+| 应用是否具有根据请求删除个人个人数据的功能？ |  |
+| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: 团队跟踪程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d9e73cb82217a7a73ef0ba836688f494dfe5426f
-ms.sourcegitcommit: e3daf82725ca37fec97f5ff639b6a9c2d5365c85
+ms.openlocfilehash: c37c717b65e51dc0b6d561cef9e4efe3d3c95c32
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61420831"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62144549"
 ---
-# <a name="team-tracker"></a>团队跟踪程序
+# <a name="team-tracker"></a>Team Tracker
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Team Tracker Ltd 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 团队跟踪程序 |
+| 应用名称 | Team Tracker |
 | ID | WA200003572 |
 | Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Team Tracker Ltd |
@@ -92,7 +92,7 @@ Team Tracker Ltd 提供了此信息，这些信息与此应用程序如何收集
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 否 |
@@ -122,10 +122,10 @@ Team Tracker Ltd 提供了此信息，这些信息与此应用程序如何收集
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (《) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 (法案) ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -140,13 +140,13 @@ Team Tracker Ltd 提供了此信息，这些信息与此应用程序如何收集
 | 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 否 |
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据，如 (，即营销、分析) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
-| 应用是否具有根据请求删除个人个人数据的功能？ | 否 |
-| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 否 |
-| 该应用是否向个人提供更正或更新其个人数据的能力？ | 否 |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 否 |
+| 应用是否具有根据请求删除个人个人数据的功能？ |  |
+| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -163,14 +163,14 @@ Team Tracker Ltd 提供了此信息，这些信息与此应用程序如何收集
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 否 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          |
 >|:------------------------|:--------------------|:------------------------------------|
 >| Calendars.ReadWrite | delegated | 在用户设置其未来几周的活动后，团队跟踪程序将基于用户的选择更新用户日历及其可用性。  |
->| email | delegated | 用于验证用户电子邮件 |
+>| 电子邮件 | delegated | 用于验证用户电子邮件 |
 >| MailboxSettings.Read | delegated | 用于获取用于创建日历事件的时区 |
 >| openid | delegated | 允许用户使用其帐户Office 365登录 |
 >| 个人资料 | delegated | 针对用户的个人资料验证用户的基本信息 |
