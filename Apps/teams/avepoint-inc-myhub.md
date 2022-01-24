@@ -2,18 +2,18 @@
 title: AvePoint， inc. 针对 MyHub 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/14/2022
+ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: MyHub 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 920959d96e132cabf5081a8e7dd16584f122ebac
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 99e70f3b37e35ebf2060640137b3796976abf31d
+ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62143979"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62175635"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -33,11 +33,11 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | MyHub |
 | ID | WA200000726 |
-| Office 365客户端 | Microsoft Teams |
+| Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | AvePoint, inc. |
 | 公司网站 | [https://www.avepoint.com](https://www.avepoint.com) |
 | 应用的使用条款 | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| 应用的核心功能 | 与 MyHub 会面，这是一个一站式商店，用于请求Office 365现有 &amp; 工作区的新网站。 MyHub 提供易于使用的预配、重新认证和 &amp; 生命周期服务，而不会给 IT 团队带来负担。 用户能够扩展安全工作区，并通知他们何时采取措施，从而更轻松地完成 &amp; &amp; 其任务列表。 MyHub&#65533;持续安全 &amp; 框架由 AvePoint&#65533;云治理提供支持。 |
+| 应用的核心功能 | 与 MyHub 会面，这是一个一站式商店，用于请求Office 365现有 &amp; 工作区的新网站。 MyHub 提供易于使用的预配、重新认证和 &amp; 生命周期服务，而不会给 IT 团队带来负担。 用户能够扩展安全工作区，并通知他们何时采取措施，从而更轻松地完成 &amp; &amp; 其任务列表。 MyHub&#65533;安全框架由 &amp; AvePoint&#65533;云治理提供支持。 |
 | 公司总部位置 | 美国 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
@@ -89,7 +89,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | Credential、DNSManagement、CodeRepositories |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
+| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -105,8 +105,8 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
-| 应用是否遵守健康信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 是 |
@@ -119,10 +119,10 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (管理) ？ | 是 |
+| 应用是否遵守 SOX Sarbanes-Oxley (的) ？ | 是 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 是 |
 
@@ -138,9 +138,9 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://www.avepoint.com/company/privacy-and-security |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销 (分析）未) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
-| 应用是否收集或处理来自未成年人 (，即 16 岁以下的儿童的数据) ？ | 否 |
+| 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否收集或处理来自未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 否 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
 | 该应用是否向个人提供更正或更新其个人数据的能力？ | 否 |
@@ -155,14 +155,14 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了集成清单中列出的所有适用的Microsoft 标识平台做法？ | 是 |
+| 您是否已查看并遵循了集成清单中列出的所有适用的Microsoft 标识平台做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 应用程序与 Azure AD，因此可以使用所有条件访问规则。 |
 | 你的应用是否支持 CAE (连续访问)  | 是 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于用户的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
