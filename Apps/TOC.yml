@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Microsoft 365认证提交指南
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel 应用
+    - name: Microsoft Excel应用
       href: excel/excel-apps.md
       items:
         - name: B2B 合作伙伴的 Canon EMEA 服务成本计算器
@@ -89,7 +89,7 @@
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (Official) '
+        - name: 'Jira Cloud for Outlook (official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox 期限和事项管理 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
@@ -109,7 +109,7 @@
           href: outlook/officeatwork-officeatworkmail-signature-for-outlook.md
         - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Outlook
+        - name: 推广销售Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One for Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -142,7 +142,7 @@
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork |模板选择器Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: 'Showmaster (Helper 插件) '
+        - name: 'Showmaster (帮助程序插件) '
           href: powerpoint/cherryware-showmaster-helper-plugin.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
@@ -156,7 +156,7 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc功能区SharePoint
+        - name: Arc适用于 SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: 标书管理系统
           href: sharepoint/beyond-technologies-bid-management-system.md
@@ -186,7 +186,7 @@
           href: sharepoint/accuracy-software-inc-taxonomy.md
         - name: Zynyo Sign for SharePoint Online
           href: sharepoint/zynyo-sign-for-sharepoint-online.md
-    - name: Microsoft Teams 应用
+    - name: Microsoft Teams应用
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -567,8 +567,6 @@
           href: teams/lifeworks.md
         - name: Link Spotter
           href: teams/communardo-products-link-spotter.md
-        - name: Listy
-          href: teams/information-age-technologies-listy.md
         - name: Live Chat
           href: teams/social-intents-live-chat.md
         - name: LMS365
@@ -963,7 +961,7 @@
           href: teams/vtiger-crm.md
         - name: Waldo
           href: teams/kickle-waldo.md
-        - name: 百年
+        - name: Wats
           href: teams/skillbase-wats.md
         - name: Wazoku
           href: teams/wazoku.md
@@ -1062,7 +1060,7 @@
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork |验证程序Office
           href: word/officeatwork-officeatworkverifier-for-office.md
-        - name: officeatwork |用于Office
+        - name: officeatwork |Office
           href: word/officeatwork-officeatworkwizard-for-office.md
         - name: RetMig 和 Kommaforslag
           href: word/grammarsoft-aps-retmig-and-kommaforslag.md
@@ -1111,7 +1109,7 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
-        - name: 适用于 Microsoft Teams 的 Luware 合规性记录
+        - name: 适用于 Microsoft Teams 的 Luware 合规性Microsoft Teams
           href: saas/luware-ag-compliance-recording-for-microsoft-teams.md
         - name: Luware Nimbus for Microsoft Teams
           href: saas/luware-ag-nimbus-for-microsoft-teams.md
@@ -1604,6 +1602,8 @@
           href: azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md
         - name: f6f894ce-5b44-4c9b-aff4-253d2fbe8a99
           href: azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md
+        - name: f9eaef18-fbd1-4045-b417-c26598755298
+          href: azure/f9eaef18-fbd1-4045-b417-c26598755298.md
         - name: fb507a6d-2eaa-4f1f-b43a-140f388c4445
           href: azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445.md
         - name: fb6ddd39-35f2-4110-a45d-d2e73b946cae

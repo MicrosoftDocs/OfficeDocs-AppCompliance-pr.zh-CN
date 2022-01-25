@@ -2,17 +2,17 @@
 title: Microsoft PowerPoint 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/24/2022
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft 应用的所有可用安全性和合规性PowerPoint信息。
 localization_priority: Normal
-ms.openlocfilehash: 6d88e3741842a585af474310628b76179ceade4c
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 22aa0eb20aedc94b6407f6bf5610d76aff8cac68
+ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/25/2022
-ms.locfileid: "62195739"
+ms.locfileid: "62210411"
 ---
 # <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Microsoft PowerPoint 应用安全与合规
 
@@ -24,9 +24,9 @@ Microsoft 与 Microsoft 365 开发人员合作伙伴合作，为组织提供加�
 | [Excel到 Word 文档自动化](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [harmon.ie Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Office2SharePoint for Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | content Chooser for Office] (./officeatwork-officeatworkcontent-chooser-for-office.md)  | officeatwork | **✓** |  |
-| [officeatwork | 图像选择器Office] (./officeatwork-officeatworkimage-chooser-for-office.md)  | officeatwork | **✓** |  |
-| [officeatwork | 幻灯片选择器Office] (./officeatwork-officeatworkslide-chooser-for-office.md)  | officeatwork | **✓** |  |
-| [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** |  |
+| [officeatwork | content Chooser for Office] (./officeatwork-officeatworkcontent-chooser-for-office.md)  | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | 图像选择器Office] (./officeatwork-officeatworkimage-chooser-for-office.md)  | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | 幻灯片选择器Office] (./officeatwork-officeatworkslide-chooser-for-office.md)  | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Showmaster (帮助程序插件) ](./cherryware-showmaster-helper-plugin.md) | 一些 | **✓** |  |
 | [SlideHub](./nomorehours-slidehub.md) | nomorehours | **✓** |  |

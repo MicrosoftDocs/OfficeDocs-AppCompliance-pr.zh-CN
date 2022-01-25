@@ -2,17 +2,17 @@
 title: Microsoft Project应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/24/2022
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Project信息。
 localization_priority: Normal
-ms.openlocfilehash: d6fb96c2e43e29c1516a0cb9112748b3e597ea88
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: b9e36915f98d58db796253d89b7f7c2ce8f2feb4
+ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/25/2022
-ms.locfileid: "62197409"
+ms.locfileid: "62205783"
 ---
 # <a name="microsoft-project-apps-security-and-compliance"></a>Microsoft Project应用安全性和合规性
 
@@ -20,4 +20,4 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** |  |
+| [officeatwork | 模板选择器Office] (./officeatwork-officeatworktemplate-chooser-for-office.md)  | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
