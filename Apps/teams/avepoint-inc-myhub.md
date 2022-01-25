@@ -5,19 +5,20 @@ author: elenamalova
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: MyHub 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 99e70f3b37e35ebf2060640137b3796976abf31d
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: ad85daad3a14dd1afa42dd0050a10c9bdeab74a5
+ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62175635"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62193579"
 ---
 # <a name="myhub"></a>MyHub
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>开发人员上次更新时间：2022 年 1 月 14 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/c3ff6344-f6f0-4bfa-8697-b9d47b32ca4b" target="_blank">在应用商店Teams视图</a>
@@ -37,7 +38,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | AvePoint, inc. |
 | 公司网站 | [https://www.avepoint.com](https://www.avepoint.com) |
 | 应用的使用条款 | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| 应用的核心功能 | 与 MyHub 会面，这是一个一站式商店，用于请求Office 365现有 &amp; 工作区的新网站。 MyHub 提供易于使用的预配、重新认证和 &amp; 生命周期服务，而不会给 IT 团队带来负担。 用户能够扩展安全工作区，并通知他们何时采取措施，从而更轻松地完成 &amp; &amp; 其任务列表。 MyHub&#65533;安全框架由 &amp; AvePoint&#65533;云治理提供支持。 |
+| 应用的核心功能 | 与 MyHub 会面，这是一个一站式商店，用于请求Office 365工作区 &amp; 管理现有工作区。 MyHub 提供易于使用的预配、重新认证和 &amp; 生命周期服务，而不会给 IT 团队带来负担。 用户能够扩展安全工作区，并通知他们何时采取措施，从而更轻松地完成 &amp; &amp; 其任务列表。 MyHub&#65533;安全框架由 &amp; AvePoint&#65533;云治理提供支持。 |
 | 公司总部位置 | 美国 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
@@ -89,7 +90,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | Credential、DNSManagement、CodeRepositories |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
+| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -119,10 +120,10 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理计划 (是否) 合规性？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (的) ？ | 是 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 是 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 是 |
 

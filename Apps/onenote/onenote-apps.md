@@ -2,17 +2,17 @@
 title: Microsoft OneNote应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/19/2022
+ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft OneNote信息。
 localization_priority: Normal
-ms.openlocfilehash: ec9be90625e68817748455e0e6a7d29b5bd500f9
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 4fd0fc45fbfc00e50d49030adce123b1e49484ec
+ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62143689"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62194249"
 ---
 # <a name="microsoft-onenote-apps-security-and-compliance"></a>Microsoft OneNote应用安全性和合规性
 
