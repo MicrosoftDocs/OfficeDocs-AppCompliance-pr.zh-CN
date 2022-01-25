@@ -2,17 +2,17 @@
 title: SaaS 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/21/2022
+ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和合规性信息。
 localization_priority: Normal
-ms.openlocfilehash: 1c3f33682524566171bf2cc2892e5b7787803559
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: 55ed6d30fca77164efa213a7e6080dc8bb85c50d
+ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62172802"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62197919"
 ---
 # <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和合规性
 
@@ -54,4 +54,4 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [上传者](./officeatwork-uploader.md) | officeatwork | **✓** |  |
 | [验证程序](./officeatwork-verifier.md) | officeatwork | **✓** |  |
 | [广泛的想法 - 创新软件](./wide-ideasidea2innovation-ideas-innovation-software.md) | 广泛的想法/想法2Innovation | **✓** |  |
-| [向导](./officeatwork-wizard.md) | officeatwork | **✓** |  |
+| [Wizard](./officeatwork-wizard.md) | officeatwork | **✓** |  |
