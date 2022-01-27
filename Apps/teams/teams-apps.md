@@ -2,17 +2,17 @@
 title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/25/2022
+ms.date: 01/26/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 04d35fb74a79149e0e8c83877caf36863be39f2f
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: c7b4f06efdcd61dd75a4aff9ba40ba2de95fd3a8
+ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62209531"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62230988"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -130,6 +130,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Eloops](./eloops.md) | Eloops | **✓** |  |
 | [Email TeamMate](./harmonie-email-teammate.md) | harmon.ie | **✓** |  |
 | [email-texting](./voice-elements-corporation-email-texting.md) | Voice Elements Corporation | **✓** |  |
+| [由 DSMN8 发起员工宣传](./dsmn8-employee-advocacy-by.md) | DSMN8 | **✓** |  |
 | [员工引荐](./recruitday-inc-employee-referrals.md) | Recruitday Inc. | **✓** |  |
 | [员工培训管理](./sharepointsapiens-employee-training-management.md) | SharePoint-Sapiens | **✓** |  |
 | [Empuls](./empuls.md) | Empuls | **✓** |  |
@@ -194,7 +195,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [isLucid](./uab-lucid-agreements-islucid.md) | UAB Lucid 协议 | **✓** |  |
 | [Jira Cloud](./atlassian-jira-cloud.md) | Atlassian | **✓** |  |
 | [JobPts](./semos-cloud-soultions-jobpts.md) | Semos Cloud Soultions | **✓** |  |
-| [KAKEAI](./kakeai.md) | KAKEAI | **✓** |  |
+| [Kakeai](./kakeai.md) | KAKEAI | **✓** |  |
 | [Kanban Tool](./shore-labs-kanban-tool.md) | Shore Labs | **✓** |  |
 | [Kaptain Charlie](./askrai-kaptain-charlie.md) | askR.ai | **✓** |  |
 | [Kazoo](./kazoo.md) | Kazoo | **✓** |  |
@@ -295,6 +296,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [合格](./qualified.md) | 认证 | **✓** |  |
 | [Quicklinks](./chitchattr-quicklinks.md) | ChitChattr | **✓** |  |
 | [Quire](./potix-corporation-quire.md) | Potix Corporation | **✓** |  |
+| [Quitch](./quitch.md) | Quitch | **✓** |  |
 | [Rafiky](./global-congress-srl-rafiky.md) | GLOBAL CONGRESS SRL | **✓** |  |
 | [Reach](./livetiles-reach.md) | LiveTiles | **✓** |  |
 | [实时翻译工具](./fairuse-real-time-translator.md) | Fairuse | **✓** |  |

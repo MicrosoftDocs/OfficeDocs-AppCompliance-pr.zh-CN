@@ -7,16 +7,16 @@ ms.topic: article
 ms.service: attestation
 description: 所有 Azure 应用 ID 的所有可用安全性和合规性信息。
 localization_priority: Normal
-ms.openlocfilehash: bef6b8f2af3b632f953638bb31e57cffd7e54065
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: aa8d85e027e62dc44f909dcb24190b6f3f616f5e
+ms.sourcegitcommit: f58ade86a900c29f53b231ee88dba3908a380e95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62234598"
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "62242290"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Azure 应用 ID 安全性和合规性
 
-Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关其使用的 Azure 应用 ID 和外接程序的决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与Microsoft 365合作伙伴合作，以提供组织加速和通知有关其使用的 Azure 应用 ID 和外接程序的决策时需要的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **Azure 应用 ID** | **发布者证明** | **认证** |
 |:--------|:------------|:-------------:|
@@ -69,6 +69,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [39073da9-c47c-4da8-b57a-3786461db8f4](./39073da9-c47c-4da8-b57a-3786461db8f4.md) | **✓** |  |
 | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](./39d845a0-3fa2-4fba-acc2-61afe40cfcea.md) | **✓** |  |
 | [3b1655d0-505a-4b03-a01f-519a91f77625](./3b1655d0-505a-4b03-a01f-519a91f77625.md) | **✓** |  |
+| [3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c](./3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c.md) | **✓** |  |
 | [3e701664-cc46-49e4-b356-1a7ac6500998](./3e701664-cc46-49e4-b356-1a7ac6500998.md) | **✓** |  |
 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](./3ee373aa-62fa-4fc6-b11f-9627d5b4a73d.md) | **✓** |  |
 | [3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d](./3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d.md) | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -221,6 +222,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [d76f016f-52c7-41b5-835b-900361d7040c](./d76f016f-52c7-41b5-835b-900361d7040c.md) | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [d871e46e-e346-445d-bfe8-2a66419bf278](./d871e46e-e346-445d-bfe8-2a66419bf278.md) | **✓** |  |
 | [d8843264-a57b-41e3-aea6-b83ea56f6bd6](./d8843264-a57b-41e3-aea6-b83ea56f6bd6.md) | **✓** |  |
+| [d980249e-fb0c-40a9-8706-f77f95660bdc](./d980249e-fb0c-40a9-8706-f77f95660bdc.md) | **✓** |  |
 | [dae2eacf-3eb5-4440-baff-984fbd5cae68](./dae2eacf-3eb5-4440-baff-984fbd5cae68.md) | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [dc171e47-c074-4bc2-9e7b-3856b71e0630](./dc171e47-c074-4bc2-9e7b-3856b71e0630.md) | **✓** |  |
 | [dea67e43-444e-4852-b57b-b57878a4022b](./dea67e43-444e-4852-b57b-b57878a4022b.md) | **✓** |  |

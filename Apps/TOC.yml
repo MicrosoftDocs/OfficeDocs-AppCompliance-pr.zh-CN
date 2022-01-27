@@ -186,7 +186,7 @@
           href: sharepoint/accuracy-software-inc-taxonomy.md
         - name: Zynyo Sign for SharePoint Online
           href: sharepoint/zynyo-sign-for-sharepoint-online.md
-    - name: Microsoft Teams 应用
+    - name: Microsoft Teams应用
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -409,7 +409,7 @@
           href: teams/harmonie-email-teammate.md
         - name: email-texting
           href: teams/voice-elements-corporation-email-texting.md
-        - name: 员工按 DSMN8
+        - name: 由 DSMN8 发起员工宣传
           href: teams/dsmn8-employee-advocacy-by.md
         - name: 员工引荐
           href: teams/recruitday-inc-employee-referrals.md
@@ -1083,7 +1083,7 @@
       items:
         - name: 管理中心
           href: saas/officeatwork-admin-center.md
-        - name: 适用于联系人的流行Teams
+        - name: 适用于联系人的热门Teams
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
         - name: CC4Teams
           href: saas/cc4all-cc4teams.md
@@ -1113,7 +1113,7 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
-        - name: 适用于 Microsoft Teams 的 Luware 合规性Microsoft Teams
+        - name: Luware 合规性记录Microsoft Teams
           href: saas/luware-ag-compliance-recording-for-microsoft-teams.md
         - name: Luware Nimbus for Microsoft Teams
           href: saas/luware-ag-nimbus-for-microsoft-teams.md
@@ -1252,6 +1252,8 @@
           href: azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea.md
         - name: 3b1655d0-505a-4b03-a01f-519a91f77625
           href: azure/3b1655d0-505a-4b03-a01f-519a91f77625.md
+        - name: 3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c
+          href: azure/3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c.md
         - name: 3e701664-cc46-49e4-b356-1a7ac6500998
           href: azure/3e701664-cc46-49e4-b356-1a7ac6500998.md
         - name: 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d
@@ -1556,6 +1558,8 @@
           href: azure/d871e46e-e346-445d-bfe8-2a66419bf278.md
         - name: d8843264-a57b-41e3-aea6-b83ea56f6bd6
           href: azure/d8843264-a57b-41e3-aea6-b83ea56f6bd6.md
+        - name: d980249e-fb0c-40a9-8706-f77f95660bdc
+          href: azure/d980249e-fb0c-40a9-8706-f77f95660bdc.md
         - name: dae2eacf-3eb5-4440-baff-984fbd5cae68
           href: azure/dae2eacf-3eb5-4440-baff-984fbd5cae68.md
         - name: dc171e47-c074-4bc2-9e7b-3856b71e0630
