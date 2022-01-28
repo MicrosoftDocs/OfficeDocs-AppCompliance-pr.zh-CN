@@ -1,5 +1,5 @@
 ---
-title: AvePoint Inc.Microsoft Office 365云备份的应用程序信息。
+title: AvePoint Inc. Microsoft Office 365云备份的应用程序信息。
 ms.author: elmalova
 author: elenamalova
 ms.date: 10/27/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: 适用于云备份的所有可用安全性和合规性信息Microsoft Office 365、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84b6ec36d05f39e307c3955d8eb9112d4a4712ac
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 6fc3b2c5bc0fb54b4075f71e21ef1c2d14ace0f7
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147447"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260938"
 ---
 # <a name="cloud-backup-for-microsoft-office-365"></a>云备份Microsoft Office 365
 
@@ -36,7 +36,7 @@ AvePoint Inc. 提供给 Microsoft 的信息：
 | 公司网站 | [https://www.avepoint.com](https://www.avepoint.com) |
 | 应用的使用条款 | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 | 应用的核心功能 | AvePoint 云备份是行业&#8217;最完整的云到云备份解决方案，Microsoft 365。 With
-在 Azure 存储或你自己的云中，AvePoint&#8217;自动备份和安全存储，只需决定恢复量和恢复时间。 按需和精细的项目级还原可以随时访问业务关键型电子邮件、文件、对话、录制、项目、任务、组、Teams、Planner 和网站。 | |公司总部|美国| |应用信息页面| | |用于运行应用的托管环境或服务模型是什么？ |Paas | |应用使用哪些托管云提供商？ |Azure |
+在 Azure 存储或你自己的云中，&#8217;自动备份和安全存储，只需决定要恢复多少以及何时恢复。 按需和精细的项目级还原可以随时访问业务关键型电子邮件、文件、对话、录制、项目、任务、组、Teams、Planner 和网站。 | |公司总部|美国| |应用信息页面| | |用于运行应用的托管环境或服务模型是什么？ |Paas | |应用使用哪些托管云提供商？ |Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -76,7 +76,7 @@ AvePoint Inc. 提供给 Microsoft 的信息：
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
+| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
@@ -86,7 +86,7 @@ AvePoint Inc. 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、Credential、DNSManagement |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
+| 在支持你的应用的网络 (外围) 是否部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -102,8 +102,8 @@ AvePoint Inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植和会计) ？ | 不适用 |
-| 应用是否遵守健康信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 是 |
@@ -118,8 +118,8 @@ AvePoint Inc. 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 是 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
-| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 是 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 是 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 是 |
 
@@ -154,28 +154,28 @@ AvePoint Inc. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 应用程序与 Azure AD，因此可以使用所有条件访问规则。 |
 | 你的应用是否支持 CAE (连续访问)  | 是 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用和外接程序可能使用 Microsoft Graph。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegated | 登录并读取用户个人资料 |
->| Directory.Read.All | 应用程序 | 读取目录数据 |
->| Files.Read.All | 应用程序 | 读取所有网站集中的文件 |
->| Group.ReadWrite.All | 应用程序 | 读取和写入所有组 |
->| Sites.ReadWrite.All | 应用程序 | 读取和写入所有网站集中的项目 |
->| Reports.Read.All | 应用程序 | 读取所有使用情况报告 |
->| ChannelMember.ReadWrite.All | 应用程序 | 从所有频道添加和删除成员 |
->| ChannelMessage.Read.All | 应用程序 | 读取所有频道消息 |
->| ChannelSettings.ReadWrite.All | 应用程序 | 读取和写入所有频道的名称、说明和设置 |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| ChannelMember.ReadWrite.All | 应用程序 | 从所有频道添加和删除成员 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| ChannelMessage.Read.All | 应用程序 | 读取所有频道消息 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| ChannelSettings.ReadWrite.All | 应用程序 | 读取和写入所有频道的名称、说明和设置 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Directory.Read.All | 应用程序 | 读取目录数据 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Files.Read.All | 应用程序 | 读取所有网站集中的文件 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Group.ReadWrite.All | 应用程序 | 读取和写入所有组 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Reports.Read.All | 应用程序 | 读取所有使用情况报告 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.ReadWrite.All | 应用程序 | 读取和写入所有网站集中的项目 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| User.Read | delegated | 登录并读取用户个人资料 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 
 >此应用程序没有其他 API。
 

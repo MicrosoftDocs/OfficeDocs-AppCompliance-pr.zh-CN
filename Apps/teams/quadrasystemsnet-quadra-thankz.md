@@ -1,5 +1,5 @@
 ---
-title: Quadra Thankz 的应用程序信息 Quadrasystems.net
+title: Quadra Thankz 的应用程序 Quadrasystems.net
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/19/2022
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Quadra Thankz 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: de7a23b194cc8b947de890d7cf616a67a605213d
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 8109f919461d6c475f2be34a54950ade99ee027c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147533"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260458"
 ---
 # <a name="quadra-thankz"></a>Quadra Thankz
 
@@ -38,7 +38,7 @@ ms.locfileid: "62147533"
 | 合作伙伴公司名称 | Quadrasystems.net |
 | 公司网站 | [https://www.quadrasystems.net](https://www.quadrasystems.net) |
 | 应用的使用条款 | [https://www.quadrasystems.net/tou](https://www.quadrasystems.net/tou) |
-| 应用的核心功能 | "感谢z"是构建中国国家/公司的关键。 它是在熟悉的Microsoft Teams界面上构建的，它是一种与每天一起工作的人联系的全新的方式。  "感谢"工具可帮助用户以一种有趣的方式相互识别。&#160;它提供丰富的最终用户和企业功能，从而启用排行榜、预算和控件等功能。 "感谢"帮助员工感觉有连接、有章、有回报。 |
+| 应用的核心功能 | "感谢z"是构建中国国家/公司的关键。 它是在熟悉的Microsoft Teams界面上构建的，它是一种与每天一起工作的人联系的全新的方式。  "感谢"是一种有助于用户以一种有趣方式相互识别的工具。&#160;它提供丰富的最终用户和企业功能，从而启用排行榜、预算和控件等功能。 "感谢"帮助员工感觉有连接、有章、有回报。 |
 | 公司总部位置 | 印度 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
@@ -52,7 +52,7 @@ ms.locfileid: "62147533"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由用户 Quadrasystems.net，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
+此信息由应用 Quadrasystems.net 如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -80,7 +80,7 @@ ms.locfileid: "62147533"
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 否 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 否 |
+| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 否 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 否 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 否 |
@@ -90,7 +90,7 @@ ms.locfileid: "62147533"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 否 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 不适用 |
+| 你是否具有在支持 (网络边界) 部署的入侵检测和防护 IDPS 和软件？ | 不适用 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 否 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 否 |
@@ -122,8 +122,8 @@ ms.locfileid: "62147533"
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
-| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否符合 SOX Sarbanes-Oxley的 (法案) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -155,20 +155,20 @@ ms.locfileid: "62147533"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 所有AAD条件访问策略  |
 | 你的应用是否支持 CAE (连续访问)  | 是 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用和外接程序可能使用 Microsoft Graph。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | 应用程序 | 获取用户的经理信息  |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read.All | 应用程序 | 获取用户的经理信息  | [5d8eb1a9-2188-4292-86f6-f4964d49e8b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/5d8eb1a9-2188-4292-86f6-f4964d49e8b3) |
 
 >此应用程序没有其他 API。
 

@@ -1,5 +1,5 @@
 ---
-title: For Application Information for EmailNotes for Outlook by Standss (South Pacific) PTE Limited
+title: 代表 Outlook Senotes for (PTE Limited 的 EmailNotes) 信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/10/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 适用于 Outlook 的 EmailNotes 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 841b0ad019cda22d01b5990b8aabf80931ffe130
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: a09c055a42f69c7174773835e8c83b99e83f0013
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147390"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62261528"
 ---
 # <a name="emailnotes-for-outlook"></a>EmailNotes for Outlook
 
@@ -27,7 +27,7 @@ ms.locfileid: "62147390"
 
 ### <a name="general-information"></a>一般信息
 
-Microsoft PTE () 代表提供的信息：
+来自太平洋 (PTE) Microsoft 代表提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -36,7 +36,7 @@ Microsoft PTE () 代表提供的信息：
 | 合作伙伴公司名称 | 代表 (太平洋) PTE Limited |
 | 公司网站 | [https://www.standss.com](https://www.standss.com) |
 | 应用的使用条款 | [https://www.standss.com/sendguard_m365/terms_conditions.htm](https://www.standss.com/sendguard_m365/terms_conditions.htm) |
-| 应用的核心功能 | SendGuard for Outlook M365 是一种风险和合规性工具，用于检测、提示、警告和保护用户不向意外收件人发送敏感、机密或不当信息 |
+| 应用的核心功能 | SendGuard for Outlook M365 是一种风险和合规性工具，用于检测、提示、警告和保护用户，防止向意外收件人发送敏感、机密或不当信息 |
 | 公司总部位置 | 斐济 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
@@ -50,7 +50,7 @@ Microsoft PTE () 代表提供的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 () PTE Limited 提供的，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
+此信息由 () PTE Limited 提供有关此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -90,7 +90,7 @@ Microsoft PTE () 代表提供的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 不适用 |
+| 在支持你的应用的网络 (外围) 是否部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 不适用 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -106,8 +106,8 @@ Microsoft PTE () 代表提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 是 |
-| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 是 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 是 |
+| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 是 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -122,8 +122,8 @@ Microsoft PTE () 代表提供的信息：
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
-| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -156,24 +156,24 @@ Microsoft PTE () 代表提供的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 需要对具有管理角色的用户进行多重身份验证 |
 | 你的应用是否支持 CAE (连续访问)  | 是 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用和外接程序可能使用 Microsoft Graph。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | delegated | 从主题、正文、附加到会议请求的附件内容中读取内容  |
->| Mail.ReadWrite | delegated | 从主题、正文、附加到邮件项目的附件内容中读取内容  |
->| openid | delegated | SSO 单一登录 (SSO) 的要求 |
->| 个人资料 | delegated | SSO 单一登录 (SSO) 的要求 |
->| User.Read | delegated | 这是读取用户数据以验证其域/用户帐户的许可信息 |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated | 从主题、正文、附加到会议请求的附件内容中读取内容  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| Mail.ReadWrite | delegated | 从主题、正文、附加到邮件项目的附件内容中读取内容  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| User.Read | delegated | 这是读取用户数据以验证其域/用户帐户的许可信息 | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| openid | delegated | SSO 单一登录 (SSO) 的要求 | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| 个人资料 | delegated | SSO 单一登录 (SSO) 的要求 | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
 
 >此应用程序没有其他 API。
 

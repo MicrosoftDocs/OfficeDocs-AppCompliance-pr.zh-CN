@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: ASC Recording Insights的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 23028cb70e0d93e3f086e499cd2b6595eeec932f
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 626de477768e85b62479862b53743e2ede42598a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155135"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260780"
 ---
 # <a name="asc-recording-insights"></a>ASC Recording Insights
 
@@ -34,7 +34,7 @@ ASC Technologies AG 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | ASC Recording Insights |
 | ID | WA200000708 |
-| Office 365客户端 | Microsoft Teams |
+| Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ASC 技术 AG |
 | 公司网站 | [https://asctechnologies.com/english/index.html](https://asctechnologies.com/english/index.html) |
 | 应用的使用条款 | [https://asctechnologies.com/english/asc_impressum.html](https://asctechnologies.com/english/asc_impressum.html) |
@@ -92,7 +92,7 @@ ASC Technologies AG 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、Credential、DNSManagement |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
+| 在支持你的应用的网络 (外围) 是否部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -108,8 +108,8 @@ ASC Technologies AG 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植和会计) ？ | 不适用 |
-| 应用是否遵守健康信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -122,10 +122,10 @@ ASC Technologies AG 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (管理) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -141,9 +141,9 @@ ASC Technologies AG 提供给 Microsoft 的信息：
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://asctechnologies.com/english/ASCrecordingapp/privacy.html |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销 (分析）未) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
-| 应用是否收集或处理来自未成年人 (，即 16 岁以下的儿童的数据) ？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 否 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
 | 该应用是否向个人提供更正或更新其个人数据的能力？ | 否 |
@@ -158,33 +158,33 @@ ASC Technologies AG 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了集成清单中列出的所有适用的Microsoft 标识平台做法？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 否 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于用户的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Chat.Read | delegated | 读取用户聊天消息 |
->| User.Read | delegated | 登录并读取用户个人资料 |
->| User.ReadBasic.All | delegated | 读取所有用户的基本个人资料 |
->| Group.Read.All | delegated | 读取所有组 |
->| openid | delegated | 让用户登录 |
->| 个人资料 | delegated | 查看用户基本个人资料 |
->| People.Read | delegated | 读取用户相关人员列表 |
->| Contacts.Read | delegated | 读取用户联系人 |
->| OnlineMeetings.Read.All | 应用程序 | 阅读联机会议详细信息 |
->| Calendars.Read | 应用程序 | 读取所有邮箱中的 calenders |
->| Group.Read.All | 应用程序 | 读取所有组 |
->| User.Read.All | 应用程序 | 读取所有用户的完整个人资料 |
->| ChannelMember.Read.All | 应用程序 | 读取所有频道的成员 |
->| Chat.Read.All | 应用程序 | 读取所有聊天消息 |
->| ChannelMessage.Read.All | 应用程序 | 读取所有频道消息 |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | 应用程序 | 读取所有邮箱中的 calenders | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| ChannelMember.Read.All | 应用程序 | 读取所有频道的成员 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| ChannelMessage.Read.All | 应用程序 | 读取所有频道消息 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| Chat.Read | delegated | 读取用户聊天消息 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| Chat.Read.All | 应用程序 | 读取所有聊天消息 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| Contacts.Read | delegated | 读取用户联系人 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| Group.Read.All | delegated | 读取所有组 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| Group.Read.All | 应用程序 | 读取所有组 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| OnlineMeetings.Read.All | 应用程序 | 阅读联机会议详细信息 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| People.Read | delegated | 读取用户相关人员列表 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| User.Read | delegated | 登录并读取用户个人资料 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| User.Read.All | 应用程序 | 读取所有用户的完整个人资料 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| User.ReadBasic.All | delegated | 读取所有用户的基本个人资料 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| openid | delegated | 让用户登录 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| 个人资料 | delegated | 查看用户基本个人资料 | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
 
 >此应用程序没有其他 API。
 
