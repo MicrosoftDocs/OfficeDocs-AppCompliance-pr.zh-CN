@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Office2SharePoint for Teams 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b17138289458464ef786daca4c9289fa646f62b8
-ms.sourcegitcommit: e756bf7bcad1b37cad74f3330b9885595fd6ab04
+ms.openlocfilehash: ba344dc35a29968d4967c6116d47d07c0ecd9b0f
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62222504"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250238"
 ---
 # <a name="office2sharepoint-for-teams"></a>Office2SharePoint for Teams
 
@@ -35,7 +35,7 @@ iGlobe 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | iGlobe |
 | 公司网站 | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | 应用的使用条款 | [https://www.iglobecrm.com/content/end-user-license-agreemen...](https://www.iglobecrm.com/content/end-user-license-agreement-office2sharepoint) |
-| 应用的核心功能 | Office2SharePoint - 使用SharePoint Teams和Outlook Office和连接。 打破团队成员之间的通信障碍，使所有团队成员均可访问文档和 &amp; SharePoint Teams。 将电子邮件和邮件附件直接从 Outlook 保存到SharePoint或Teams和平台上。 Office2SharePoint 应用程序服务权限级别为 Outlook 和 Office 外接程序设置。 |
+| 应用的核心功能 | Office2SharePoint - 使用SharePoint Teams和Outlook Office和轻松处理。 打破团队成员之间通信障碍，使所有团队成员均可访问文档和 &amp; SharePoint Teams。 将电子邮件和邮件附件直接从 Outlook 保存到SharePoint或Teams和平台上。 Office2SharePoint 应用程序服务权限级别为 Outlook 和 Office 外接程序设置。 |
 | 公司总部位置 | 丹麦 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
@@ -77,7 +77,7 @@ iGlobe 提供给 Microsoft 的信息：
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
+| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
@@ -87,7 +87,7 @@ iGlobe 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络边界) 部署的入侵检测和防护 IDPS 和软件？ | 不适用 |
+| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 不适用 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -104,7 +104,7 @@ iGlobe 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 是 |
-| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 是 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 是 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 是 |
 | 最新 SOC1 认证日期 |  2020-11-01 |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 是 |
@@ -164,17 +164,17 @@ iGlobe 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Directory.AccessAsUser.All | delegated | 允许应用以登录用户身份访问目录中的信息。 |
->| Directory.Read.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 |
->| Directory.ReadWrite.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 |
->| Group.Read.All | delegated | 获取用户组网站。 |
->| Group.ReadWrite.All | delegated | 访问所选的邮件并获取附件。 From the mail or add from SharePoint or Groups site to the mail. |
->| Sites.Manage.All | delegated | 允许应用程序代表登录用户创建或删除所有网站集中的文档库和列表。 |
->| Sites.Read.All | delegated | 获取用户SharePoint网站。 获取文件并保存选定邮件中的附件。     |
->| Sites.ReadWrite.All | delegated | 获取SharePoint、库和文件。 将文件保存到SharePoint列表中。 |
->| User.Read | delegated | 为用户获取SharePoint网站、OneDrive和组网站。 |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | delegated | 允许应用以登录用户身份访问目录中的信息。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Directory.Read.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Directory.ReadWrite.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Group.Read.All | delegated | 获取用户组网站。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Group.ReadWrite.All | delegated | 访问所选的邮件并获取附件。 From the mail or add from SharePoint or Groups site to the mail. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.Manage.All | delegated | 允许应用程序代表登录用户创建或删除所有网站集中的文档库和列表。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.Read.All | delegated | 获取用户SharePoint网站。 获取文件并保存选定邮件中的附件。     | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.ReadWrite.All | delegated | 获取SharePoint、库和文件。 将文件保存到SharePoint列表中。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| User.Read | delegated | 为用户获取SharePoint网站、OneDrive和组网站。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 
 >此应用程序没有其他 API。
 

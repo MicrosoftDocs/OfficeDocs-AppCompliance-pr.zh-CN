@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Emailgistics 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84228626adf3865be785d8c58c78374db9620a90
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: cea41a85550bd0b2a5d4effda544674d46c06b67
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62177605"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250248"
 ---
 # <a name="emailgistics"></a>Emailgistics
 
@@ -106,8 +106,8 @@ Emailgistics Corp. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
-| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
+| 应用是否遵守健康信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -120,10 +120,10 @@ Emailgistics Corp. 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理计划 (是否) 合规性？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley (的) ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -139,13 +139,13 @@ Emailgistics Corp. 提供给 Microsoft 的信息：
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://emailgistics.com/privacy |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
-| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
+| 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否收集或处理来自未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 不适用 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 不适用 |
 | 该应用是否向个人提供更正或更新其个人数据的能力？ | 不适用 |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私) ，以确定与应用个人数据处理相关的风险？ | 不适用 |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 不适用 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -156,7 +156,7 @@ Emailgistics Corp. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
+| 您是否已查看并遵循了集成清单中列出的所有适用的Microsoft 标识平台做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 否 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
@@ -166,15 +166,15 @@ Emailgistics Corp. 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Mail.ReadWrite | delegated | 读取访问权限 req'd 可获取有关共享邮箱中的邮件的信息。 若要执行客户定义的规则（ (如果邮件包含 &#8220;发票&#8221;（例如) ）来正确跟踪对话 (（对于对话历史记录和自动分配) ）和报告 (（例如，Open Messages Detail report) ）而言，需要邮件信息。
-写入访问权限 req'd 从规则发送邮件 (如自动答复) 电子邮件会话 ID 更新邮件主题。 |
->| Mail.Send | delegated | 允许电子邮件从共享邮箱发送电子邮件。 需要此权限才能从规则或规则 (，如自动答复) 。 |
->| MailboxSettings.ReadWrite | delegated | 允许 Emailgistics 获取共享邮箱名称并创建邮箱规则，以将传入邮件路由到隐藏的 Incoming 文件夹，以用于初始处理、规则执行和自动分配。 |
->| User.Read | delegated | 允许 Emailgistics 以共享邮箱身份登录并读取有关它的基本信息，例如服务主体 ID、电子邮件地址和用户名。 |
->| User.ReadBasic.All | delegated | 允许 Emailgistics 读取有关租户中用户的基本信息。 必需，以便检测邮箱成员的电子邮件地址和名称中的更改，并自动更新此信息（用于在 Emailgistics 中跟踪和报告目的）。 这是作用域扩展到共享邮箱之外的唯一权限。 |
->| offline_access | delegated | 允许 Emailgistics 作为后端应用程序运行，而不是要求用户只要正常工作就登录的基于浏览器的交互式应用。 此权限允许 Emailgistics 获取刷新令牌，可以根据需要刷新该令牌以保持持续访问。 |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Mail.ReadWrite | delegated | 读取访问权限 req'd 可获取有关共享邮箱中的邮件的信息。 若要执行客户定义的规则 (如果邮件包含 &#8220;发票&#8221;（例如) ）来正确跟踪对话 (（对于对话历史记录和自动分配) ）和报告 (（例如，Open Messages Detail report) ）而言，需要邮件信息。
+写入访问权限 req'd 从规则发送邮件 (如自动答复) 电子邮件会话 ID 更新邮件主题。 | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| Mail.Send | delegated | 允许电子邮件从共享邮箱发送电子邮件。 需要此权限才能从规则发送 (，如自动答复) 。 | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| MailboxSettings.ReadWrite | delegated | 允许 Emailgistics 获取共享邮箱名称并创建邮箱规则，以将传入邮件路由到隐藏的 Incoming 文件夹，以用于初始处理、规则执行和自动分配。 | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| User.Read | delegated | 允许 Emailgistics 以共享邮箱身份登录并读取有关它的基本信息，例如服务主体 ID、电子邮件地址和用户名。 | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| User.ReadBasic.All | delegated | 允许 Emailgistics 读取有关租户中用户的基本信息。 必需，以便检测邮箱成员的电子邮件地址和名称中的更改，并自动更新此信息（用于在 Emailgistics 中跟踪和报告目的）。 这是作用域扩展到共享邮箱之外的唯一权限。 | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| offline_access | delegated | 允许 Emailgistics 作为后端应用程序运行，而不是要求用户只要正常工作就登录的基于浏览器的交互式应用。 此权限允许 Emailgistics 获取刷新令牌，可以根据需要刷新该令牌以保持持续访问。 | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
 
 >此应用程序没有其他 API。
 

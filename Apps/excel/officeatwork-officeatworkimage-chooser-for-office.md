@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: officeatwork 服务的所有可用安全性和合规性|图像选择Office、其数据处理策略、Microsoft Cloud App Security应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e50f68551778ff655ca443bb98e97a746f8434b5
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: 3cb9c4a9b599711396e0b2e171c2d5f9a67f3bdc
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62210421"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62252578"
 ---
 # <a name="officeatwork--image-chooser-for-office"></a>officeatwork |图像选择器Office
 
@@ -30,9 +30,9 @@ officeatwork 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | officeatwork - officeatwork 的图像Office |
+| 应用名称 | officeatwork - 图像选择器Office |
 | ID | WA200002683 |
-| Office 365支持的客户端 | Excel Mac 上的 iPad、Excel 2016 或更高版本、Windows、Excel web 版、iPad 上的 Word、Mac 上的 Word 2016 或更高版本、Word web 版、Word 2013 Service Pack 1 或更高版本上的 Excel 2013 Service Pack 1 或更高版本在 Windows PowerPoint、iPad PowerPoint 2016 或更高版本、PowerPoint web 版、PowerPoint 2013 Service Pack 1 或 Windows OneNote web 版 |
+| Office 365客户端 | Excel Mac 上的 iPad、Excel 2016 或更高版本、Windows 上的 Excel 2013 Service Pack 1 或更高版本、Excel web 版、iPad 上的 Word、Mac 上的 Word 2016 或更高版本、Word web 版、Word 2013 Service Pack 1 或更高版本Windows、PowerPoint mac iPad PowerPoint 2016 或更高版本、PowerPoint web 版、PowerPoint 2013 Service Pack 1 或更高版本（Windows 或更高版本OneNote web 版 |
 | 合作伙伴公司名称 | officeatwork |
 | 公司网站 | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | 应用的使用条款 | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
@@ -167,17 +167,17 @@ officeatwork 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| openid | delegated | 启用登录 |
->| 个人资料 | delegated | 启用登录 |
->| offline_access | delegated | 为旧版主机启用Office登录 |
->| User.Read | delegated | 允许显示已登录用户 |
->| Files.ReadWrite.All | delegated | 启用收藏夹和OneDrive功能 |
->| Group.ReadWrite.All | delegated | 启用Teams功能 |
->| User.Read.All | delegated | 启用显示用户属性 |
->| Sites.Read.All | delegated | 读取存储在网站中的用户模板SharePoint |
->| GroupMember.Read.All | delegated | 启用Teams功能 |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.ReadWrite.All | delegated | 启用收藏夹和OneDrive功能 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| Group.ReadWrite.All | delegated | 启用Teams功能 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| GroupMember.Read.All | delegated | 启用Teams功能 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| Sites.Read.All | delegated | 读取存储在网站中的用户模板SharePoint | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| User.Read | delegated | 允许显示已登录用户 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| User.Read.All | delegated | 启用显示用户属性 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| offline_access | delegated | 为旧版主机启用Office登录 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| openid | delegated | 启用登录 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| 个人资料 | delegated | 启用登录 | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
 
 >此应用程序没有其他 API。
 

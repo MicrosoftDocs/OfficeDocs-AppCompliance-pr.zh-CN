@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 团队跟踪程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c37c717b65e51dc0b6d561cef9e4efe3d3c95c32
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: cdb4c7dea2bfc330ddccbe58ad1f8405a9a419ef
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144549"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62252200"
 ---
 # <a name="team-tracker"></a>Team Tracker
 
@@ -34,7 +34,7 @@ Team Tracker Ltd 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Team Tracker |
 | ID | WA200003572 |
-| Office 365客户端 | Microsoft Teams |
+| Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Team Tracker Ltd |
 | 公司网站 | [https://team-tracker.com](https://team-tracker.com) |
 | 应用的使用条款 | [https://team-tracker.com/terms-and-conditions.html](https://team-tracker.com/terms-and-conditions.html) |
@@ -92,7 +92,7 @@ Team Tracker Ltd 提供了此信息，这些信息与此应用程序如何收集
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
+| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 否 |
@@ -108,7 +108,7 @@ Team Tracker Ltd 提供了此信息，这些信息与此应用程序如何收集
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -124,8 +124,8 @@ Team Tracker Ltd 提供了此信息，这些信息与此应用程序如何收集
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
-| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否符合 SOX Sarbanes-Oxley的 (法案) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley (法) ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -140,8 +140,8 @@ Team Tracker Ltd 提供了此信息，这些信息与此应用程序如何收集
 | 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 否 |
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (，即营销、分析) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (如种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
@@ -167,14 +167,14 @@ Team Tracker Ltd 提供了此信息，这些信息与此应用程序如何收集
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | delegated | 在用户设置其未来几周的活动后，团队跟踪程序将基于用户的选择更新用户日历及其可用性。  |
->| 电子邮件 | delegated | 用于验证用户电子邮件 |
->| MailboxSettings.Read | delegated | 用于获取用于创建日历事件的时区 |
->| openid | delegated | 允许用户使用其帐户Office 365登录 |
->| 个人资料 | delegated | 针对用户的个人资料验证用户的基本信息 |
->| User.Read | delegated | 针对用户的个人资料验证用户信息 |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated | 在用户设置其未来几周的活动后，团队跟踪程序将基于用户的选择更新用户日历及其可用性。  | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| MailboxSettings.Read | delegated | 用于获取用于创建日历事件的时区 | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| User.Read | delegated | 针对用户的个人资料验证用户信息 | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| 电子邮件 | delegated | 用于验证用户电子邮件 | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| openid | delegated | 允许用户使用其帐户Office 365登录 | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| 个人资料 | delegated | 针对用户的个人资料验证用户的基本信息 | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
 
 >此应用程序没有其他 API。
 

@@ -1,5 +1,5 @@
 ---
-title: 用于按 Zrt 的 Teams 中心Geomant-Algotech信息。
+title: 用于通过 Zrt Teams的 Geomant-Algotech 中心的应用程序信息。
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/29/2021
@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: 用于 Teams 的一致性联系人中心的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f80ef944b502b1bacb5253f917154747761ee6ae
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b73e059f9b820a1f3f880a4bd4237649121b9c5b
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147451"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251311"
 ---
-# <a name="buzzeasy-contact-center-for-teams"></a>适用于联系人的热门Teams
+# <a name="buzzeasy-contact-center-for-teams"></a>适用于联系人的流行Teams
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,7 +31,7 @@ ms.locfileid: "62147451"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 适用于联系人的热门Teams |
+| 应用名称 | 适用于联系人的流行Teams |
 | ID | geomant.buzzeasy_teams_contact_center |
 | 合作伙伴公司名称 | Geomant-Algotech Zrt。 |
 | 公司网站 | [https://www.buzzeasy.com](https://www.buzzeasy.com) |
@@ -90,7 +90,7 @@ ms.locfileid: "62147451"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 不适用 |
+| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 不适用 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -106,8 +106,8 @@ ms.locfileid: "62147451"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
-| 应用是否遵守健康信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
+| 应用是否遵守健康信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -120,10 +120,10 @@ ms.locfileid: "62147451"
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (管理) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley (法) ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -139,8 +139,8 @@ ms.locfileid: "62147451"
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://www.geomant.com/privacy-policy |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ | 否 |
-| 你是否处理特殊类别的敏感数据，例如 (或种族、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (，即营销、分析) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (如种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
@@ -166,16 +166,16 @@ ms.locfileid: "62147451"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Mail.ReadWrite | 应用程序 | 允许代理通过代理用户界面 (共享) /写入特定邮件。  (可以筛选到特定邮箱。)  |
->| Mail.Send | 应用程序 | 代表共享邮箱发送电子邮件。 |
->| User.Read | delegated | 登录并读取用户个人资料 |
->| Presence.Read.All | delegated | 显示其他代理的代理/用户状态，与代理状态同步。 |
->| User.Read.All | delegated | 在AAD/用户界面上显示用户信息 |
->| User.ReadBasic.All | delegated | 在AAD/用户界面上显示用户信息 |
->| User.Read | delegated | 显示用于注册的管理员的用户列表。 |
->| Mail.Send | 应用程序 | 代表服务用户发送邀请。 |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Mail.Send | 应用程序 | 代表服务用户发送邀请。 | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| Presence.Read.All | delegated | 显示其他代理的代理/用户状态，与代理状态同步。 | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.Read | delegated | 显示用于注册的管理员的用户列表。 | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.Read.All | delegated | 在AAD/用户界面上显示用户信息 | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.ReadBasic.All | delegated | 在AAD/用户界面上显示用户信息 | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| Mail.ReadWrite | 应用程序 | 允许代理通过代理用户界面 (共享) /写入特定邮件。  (可以筛选到特定邮箱。)  | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
+>| Mail.Send | 应用程序 | 代表共享邮箱发送电子邮件。 | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
+>| User.Read | delegated | 登录并读取用户个人资料 | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
 
 >此应用程序没有其他 API。
 

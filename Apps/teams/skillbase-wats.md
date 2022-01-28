@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: 所有 Available security and compliance information for Windows、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 87f742ca884060d51b35ea2ba48cae3e4fd89e91
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 49aba56648206ad302a6b078bb28ad3b055bbc5f
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200568"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251650"
 ---
-# <a name="wats"></a>百年
+# <a name="wats"></a>Wats
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ ms.locfileid: "62200568"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 百年 |
+| 应用名称 | Wats |
 | ID | WA200003597 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 技能库 |
+| 合作伙伴公司名称 | Skillbase |
 | 公司网站 | [https://wats.ai](https://wats.ai) |
 | 应用的使用条款 | [https://wats.ai/en/terms-of-use/](https://wats.ai/en/terms-of-use/) |
 | 应用的核心功能 | 共享和访问知识协作解决方案。 利用你的百分百利用你的企业！ |
@@ -167,21 +167,21 @@ ms.locfileid: "62200568"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Files.Read | delegated | 对 fichiers sharepoint 进行讲座 |
->| Files.Read.All | delegated | 对 fichiers sharepoint 进行讲座 |
->| Group.Read.All | delegated | avoir acc&#232;aux groupes pour le ask for it |
->| offline_access | delegated | mobile |
->| openid | delegated | OBO |
->| Organization.Read.All | delegated | recup&#233;le tenant ID pour bien configurer l'application的ETSS et g&#233;rer leisonnement des donn&#233;es |
->| Presence.Read | delegated | afficher， comme sur les apps office， si un应用 est connect&#233; ou pas |
->| Presence.Read.All | delegated | afficher， comme sur les apps office， si un应用 est connect&#233; ou pas |
->| 个人资料 | delegated | info sur l'utilisateur |
->| Sites.Read.All | delegated | acces aux infos des sharepoints |
->| TeamsActivity.Send | 两者 | envoie d'activit&#233;s aux使用者 quand un ask for it est cr&#233;&#233; |
->| User.Read | delegated | login |
->| User.Read.All | delegated | info sur les autres的利用率urs |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.Read | delegated | 对 fichiers sharepoint 进行讲座 | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Files.Read.All | delegated | 对 fichiers sharepoint 进行讲座 | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Group.Read.All | delegated | avoir acc&#232;aux groupes pour le ask for it | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Organization.Read.All | delegated | recup&#233;le tenant ID pour bien configurer l'application的ETSS et g&#233;rer leisonnement des donn&#233;es | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Presence.Read | delegated | afficher， comme sur les apps office， si un应用 est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Presence.Read.All | delegated | afficher， comme sur les apps office， si un应用 est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Sites.Read.All | delegated | acces aux infos des sharepoints | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| TeamsActivity.Send | 两者 | envoie d'activit&#233;aux使用者 quand un ask for it est cr&#233;&#233; | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| User.Read | delegated | login | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| User.Read.All | delegated | info sur les autres的利用率urs | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| offline_access | delegated | mobile | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| openid | delegated | OBO | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| 个人资料 | delegated | info sur l'utilisateur | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
 
 >此应用程序没有其他 API。
 

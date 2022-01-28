@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Lucidspark Whiteboard 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 078375102550d360ce6f4f64d2c666b2f4ffe498
-ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
+ms.openlocfilehash: c8ce523115fff2910606ea519118d6b2e14131e9
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61143511"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253638"
 ---
 # <a name="lucidspark-whiteboard"></a>Lucidspark Whiteboard
 
@@ -38,7 +38,7 @@ Lucid Software 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | Lucid Software |
 | 公司网站 | [https://lucid.co](https://lucid.co) |
 | 应用的使用条款 | [https://lucid.co/tos](https://lucid.co/tos) |
-| 应用的核心功能 | Lucidspark 是一个基于云的虚拟白板，团队可以在其中演示他们的最佳创意。 作为团队实时进行集体讨论和协作，&#8217;远程工作还是以个人方式工作。 Lucidspark 可帮助人们整理笔记和注释，并转换为演示就绪的概念。 在&#8217;步骤的时间时，团队可以开发工作流并处理文档，以将想法变为现实。 |
+| 应用的核心功能 | Lucidspark 是一个基于云的虚拟白板，团队可以在其中演示他们的最佳创意。 以团队实时方式进行集体讨论和协作，&#8217;远程工作还是以个人方式工作。 Lucidspark 可帮助人们整理笔记和注释，并转换为演示就绪的概念。 在&#8217;步骤时，团队可以开发工作流并处理文档，以将想法变为现实。 |
 | 公司总部位置 | 美国 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
@@ -79,7 +79,7 @@ Lucid Software 提供给 Microsoft 的信息：
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
-| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ |  |
+| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ |  |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ |  |
 | 你的环境是否具有任何不受支持的操作系统或软件？ |  |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ |  |
@@ -89,7 +89,7 @@ Lucid Software 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ |  |
 | 启用了 MFA (多重) 身份验证： |  |
 | 您是否已制定设置、修改和删除员工帐户的流程？ |  |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ |  |
+| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ |  |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ |  |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ |  |
@@ -105,7 +105,7 @@ Lucid Software 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 否 |
+| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 否 |
 | 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 否 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
@@ -120,9 +120,9 @@ Lucid Software 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
-| 应用是否遵守 FERPA (家庭教育权和隐私) ？ | 是 |
+| 应用是否遵守 FERPA (家庭教育) ？ | 是 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 是 |
-| 应用是否遵守 SOX Sarbanes-Oxley (《) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley (的) ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ |  |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -138,8 +138,8 @@ Lucid Software 提供给 Microsoft 的信息：
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ |  |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ |  |
 | 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ |  |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
-| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ |  |
+| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
+| 应用是否收集或处理来自未成年人（ (16 岁以下的儿童）的数据) ？ |  |
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
 | 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
@@ -154,15 +154,21 @@ Lucid Software 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 否 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 否 |
+| 您是否已查看并遵循了集成清单中列出的所有适用的Microsoft 标识平台做法？ | 否 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ |  |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  |  |
 | 你的应用是否将任何凭据存储在代码中？ |  |
-| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
->此应用程序不使用 Microsoft Graph。
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
+
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| 电子邮件 | delegated | 姓名和电子邮件地址。 | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| openid | delegated | 姓名和电子邮件地址。 | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| 个人资料 | delegated | 姓名和电子邮件地址。 | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
 
 >此应用程序没有其他 API。
 

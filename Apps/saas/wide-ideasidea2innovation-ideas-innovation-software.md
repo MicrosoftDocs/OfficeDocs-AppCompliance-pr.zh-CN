@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关"宽创意 - 创新软件"、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 55c7276aaf212bf8b6dbc2861f47711af0b0ea6b
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d5bbf1d032d5537dab0775522f80d83a472db661
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155170"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251198"
 ---
 # <a name="wide-ideas---innovation-software"></a>广泛的想法 - 创新软件
 
@@ -36,7 +36,7 @@ ms.locfileid: "62155170"
 | 合作伙伴公司名称 | 广泛的想法/想法2Innovation |
 | 公司网站 | [https://getwideideas.com](https://getwideideas.com) |
 | 应用的使用条款 | [https://getwideideas.com/eula](https://getwideideas.com/eula) |
-| 应用的核心功能 | 通过嵌入到 Microsoft 365 和 Teams 中的创新管理软件，共享挑战、客户体验和新解决方案的想法将成为员工工作文化中的一部分。 |
+| 应用的核心功能 | 通过将"宽创意"中的创新管理软件嵌入Microsoft 365和Teams，分享挑战、客户体验和新解决方案的想法将成为员工工作文化中的一部分。 |
 | 公司总部位置 | 瑞典 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | IsvHosted |
@@ -90,7 +90,7 @@ ms.locfileid: "62155170"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
+| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -106,8 +106,8 @@ ms.locfileid: "62155170"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
-| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -122,8 +122,8 @@ ms.locfileid: "62155170"
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
-| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否符合 SOX Sarbanes-Oxley的 (法案) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley (法) ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -139,8 +139,8 @@ ms.locfileid: "62155170"
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://getwideideas.com/privacy-policy/ |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (，即营销、分析) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (如种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
@@ -166,14 +166,14 @@ ms.locfileid: "62155170"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| TeamsAppInstallation.ReadWriteForTeam | delegated | 允许宽创意管理中心读取、安装、升级和卸载Teams登录用户可以访问的团队中的应用。  |
->| Channel.Create | delegated | 允许广泛的想法管理中心代表登录用户在任何团队中创建频道。  |
->| TeamsTab.Create | delegated |  允许宽创意管理中心代表登录用户Microsoft Teams团队中的任意团队创建选项卡。 |
->| Directory.Read.All | delegated | 允许广泛的想法管理中心读取组织&#8217;（如用户、组和应用）的数据 |
->| Group.Read.All | delegated | 允许广泛的想法管理中心代表登录用户列出组并读取其属性和所有组成员身份 |
->| User.Read | delegated | 允许用户登录到宽创意管理中心，并允许应用读取已登录用户的个人资料。  |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.Create | delegated | 允许广泛的想法管理中心代表登录用户在任何团队中创建频道。  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| Directory.Read.All | delegated | 允许广泛的想法管理中心读取组织&#8217;（如用户、组和应用）的数据 | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| Group.Read.All | delegated | 允许广泛的想法管理中心代表登录用户列出组并读取其属性和所有组成员身份 | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| TeamsAppInstallation.ReadWriteForTeam | delegated | 允许宽创意管理中心读取、安装、升级和卸载Teams登录用户可以访问的团队中的应用。  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| TeamsTab.Create | delegated |  允许宽创意管理中心代表登录用户Microsoft Teams团队中的任意团队创建选项卡。 | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| User.Read | delegated | 允许用户登录到宽创意管理中心，并允许应用读取已登录用户的个人资料。  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
 
 >此应用程序没有其他 API。
 

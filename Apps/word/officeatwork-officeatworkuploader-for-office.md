@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: officeatwork 服务的所有可用安全性和合规性|CSA STAR 注册表Office数据、数据处理策略、Microsoft Cloud App Security应用程序目录信息和安全/合规性信息的上载程序。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6c71745e5d6f533de53228cf0b2a44ab30fa32da
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: fdd2f6c4786225cbfbda16722735cc2fdc31e2f1
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62208971"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251478"
 ---
 # <a name="officeatwork--uploader-for-office"></a>officeatwork |上传程序Office
 
@@ -167,17 +167,17 @@ officeatwork 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| openid | delegated | 启用登录 |
->| 个人资料 | delegated | 启用登录 |
->| offline_access | delegated | 为旧版主机启用Office登录 |
->| User.Read | delegated | 允许显示已登录用户 |
->| Files.ReadWrite.All | delegated | 启用收藏夹OneDrive功能以及文件上载 |
->| Group.ReadWrite.All | delegated | 启用Teams功能 |
->| User.Read.All | delegated | 启用显示用户属性 |
->| Sites.Read.All | delegated | 读取存储在SharePoint |
->| GroupMember.Read.All | delegated | 启用Teams功能 |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.ReadWrite.All | delegated | 启用收藏夹OneDrive功能以及文件上载 | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| Group.ReadWrite.All | delegated | 启用Teams功能 | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| GroupMember.Read.All | delegated | 启用Teams功能 | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| Sites.Read.All | delegated | 读取存储在SharePoint | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| User.Read | delegated | 允许显示已登录用户 | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| User.Read.All | delegated | 启用显示用户属性 | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| offline_access | delegated | 为旧版主机启用Office登录 | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| openid | delegated | 启用登录 | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| 个人资料 | delegated | 启用登录 | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
 
 >此应用程序没有其他 API。
 

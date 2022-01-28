@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: SQQ 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 49df8a96511b80d7d47a416a5a8dd40ec74f097a
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 0dfeb1cc7cf0cbc593cb2cfa2f897bd299963236
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200587"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251651"
 ---
 # <a name="sqq"></a>SQQ
 
@@ -38,7 +38,7 @@ SuperQuickQuestion 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | SuperQuickQuestion |
 | 公司网站 | [https://superquickquestion.com](https://superquickquestion.com) |
 | 应用的使用条款 | [https://superquickquestion.com/termsofuse](https://superquickquestion.com/termsofuse) |
-| 应用的核心功能 | SuperQuickQuestion 是一个实时一对一视频会议平台，时间限制为 60 秒。 我们希望鼓励更高效的对话，消除不必要的会议，并帮助你提高解决问题的速度并回收日历，一次一分钟。 正如我们有人花时间与十几个人一起尝试相互交谈一样，较长的会议不一定等同于更多协作，SQQ 可以&#8217;帮助。 |
+| 应用的核心功能 | SuperQuickQuestion 是一个实时一对一视频会议平台，时间限制为 60 秒。 我们希望鼓励更高效的对话，消除不必要的会议，并帮助你提高解决问题的速度并回收日历，一次一分钟。 正如我们中有人花时间与十几个人一起尝试相互交谈一样，较长的会议不一定等同于更多协作，&#8217;SQQ 可以提供帮助。 |
 | 公司总部位置 | 美国 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
@@ -82,7 +82,7 @@ SuperQuickQuestion 提供了此信息，这些信息与此应用程序如何收�
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 否 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 否 |
-| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
+| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 否 |
@@ -92,7 +92,7 @@ SuperQuickQuestion 提供了此信息，这些信息与此应用程序如何收�
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络边界) 部署的入侵检测和防护 IDPS 和软件？ | 不适用 |
+| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 不适用 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 否 |
@@ -168,11 +168,11 @@ SuperQuickQuestion 提供了此信息，这些信息与此应用程序如何收�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Chat.ReadBasic | delegated | 获取聊天中的参与者数量 |
->| openid | delegated | 从应用登录用户以访问 Graph 终结点 |
->| User.Read | delegated | 读取用户租户名称 |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Chat.ReadBasic | delegated | 获取聊天中的参与者数量 | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
+>| User.Read | delegated | 读取用户租户名称 | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
+>| openid | delegated | 从应用登录用户以访问 Graph 终结点 | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
 
 >此应用程序没有其他 API。
 
