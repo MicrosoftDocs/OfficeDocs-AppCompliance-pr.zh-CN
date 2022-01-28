@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关提醒的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c65bd6433972a7014c6fa8853d2f5651891db5f7
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 71d37c38b4cc3bdcc92182b4063061146d34c0dd
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144899"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255028"
 ---
 # <a name="remind"></a>Remind
 
@@ -34,11 +34,11 @@ ms.locfileid: "62144899"
 |:----------------|:-------------|
 | 应用名称 | Remind |
 | ID | WA200001444 |
-| Office 365客户端 | Microsoft Teams |
+| Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | 88 Ventures Limited |
 | 公司网站 | [https://moonbearapps.com](https://moonbearapps.com) |
 | 应用的使用条款 | [https://teamsreminder.app/#terms](https://teamsreminder.app/#terms) |
-| 应用的核心功能 | 提醒你自己或团队成员重要会议、事项甚至生日。 设置个人提醒、群聊提醒或频道提醒。 你甚至可以设置定期提醒 (例如每周一上午 9 点召开) ！ |
+| 应用的核心功能 | 提醒你自己或团队成员重要会议、事项甚至生日。 设置个人提醒、群聊提醒或频道提醒。 你甚至可以设置定期提醒 (每周一上午 9 点召开团队) ！ |
 | 公司总部位置 | 香港特别行政区 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
@@ -90,7 +90,7 @@ ms.locfileid: "62144899"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
+| 你是否具有在支持 (网络边界) 部署的入侵检测和防护 IDPS 和软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -107,7 +107,7 @@ ms.locfileid: "62144899"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 否 |
-| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 否 |
+| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 否 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -122,8 +122,8 @@ ms.locfileid: "62144899"
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 否 |
-| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
-| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 否 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 否 |
 | 应用是否符合 NIST 800-171？ | 否 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -155,19 +155,19 @@ ms.locfileid: "62144899"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 否 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用和外接程序可能使用 Microsoft Graph。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Directory.Read.All | delegated | 在管理员搜索用户以将其分配给许可证时使用。 此功能的用法完全是可选的，在正常应用使用期间不需要。 |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.Read.All | delegated | 在管理员搜索用户以将其分配给许可证时使用。 此功能的用法完全是可选的，在正常应用使用期间不需要。 | [88546d4f-9973-4716-98e4-cd181c04bc2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/88546d4f-9973-4716-98e4-cd181c04bc2d) |
 
 >此应用程序没有其他 API。
 

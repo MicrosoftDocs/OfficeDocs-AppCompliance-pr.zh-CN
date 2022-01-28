@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 Heedify 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 30d5a9d784604a50e05c04b6f4b60b39a78293b6
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 692b53d85d3d4e9e2984147575fdff0a702d193a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200579"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257798"
 ---
 # <a name="heedify"></a>Heedify
 
@@ -34,7 +34,7 @@ ms.locfileid: "62200579"
 |:----------------|:-------------|
 | 应用名称 | Heedify |
 | ID | WA200003512 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Heedify |
 | 公司网站 | [https://heedify.io](https://heedify.io) |
 | 应用的使用条款 | [https://heedify.io/terms](https://heedify.io/terms) |
@@ -60,7 +60,7 @@ ms.locfileid: "62200579"
 | 你的应用将处理哪些数据？ | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ | 状态信息和呼叫详细信息 (从呼叫中心)   |
+| 数据库中存储了哪些数据？ | 状态信息和呼叫详细信息 (呼叫中心)   |
 | 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 爱尔兰 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 30 天 |
@@ -92,7 +92,7 @@ ms.locfileid: "62200579"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 不适用 |
+| 在支持你的应用的网络 (外围) 是否部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 不适用 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -108,7 +108,7 @@ ms.locfileid: "62200579"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -125,7 +125,7 @@ ms.locfileid: "62200579"
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (的) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -141,9 +141,9 @@ ms.locfileid: "62200579"
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://heedify.io/privacy |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
-| 应用是否收集或处理来自未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 否 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 否 |
 | 该应用是否向个人提供更正或更新其个人数据的能力？ | 是 |
@@ -158,23 +158,23 @@ ms.locfileid: "62200579"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已查看并遵循了集成清单中列出的所有适用的Microsoft 标识平台做法？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 否 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 否 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用和外接程序可能使用 Microsoft Graph。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Presence.Read.All | delegated | 联系人中心代理需要状态信息以更好地管理呼叫和联系人，尤其是在呼叫转移的情况下  |
->| User.Read.All | delegated | 要管理联系人，已登录的用户需要能够浏览用户并读取其信息，包括其离职和经理 (（如果接待员)   |
->| Calendars.Read | delegated | 接待员需要在转接电话或通过电话与客户共享信息之前检查用户日历 |
->| Contacts.ReadWrite | delegated | 应用程序需要能够向用户添加联系人 (代理) 读取其联系人  |
->| Contacts.ReadWrite.Shared | delegated | 应用程序需要能够向其他用户添加共享联系人 (代理) 读取其共享联系人  |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | delegated | 接待员需要在转接电话或通过电话与客户共享信息之前检查用户日历 | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Contacts.ReadWrite | delegated | 应用程序需要能够向用户添加联系人 (代理) 读取其联系人  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Contacts.ReadWrite.Shared | delegated | 应用程序需要能够与其他用户添加共享联系人 (代理) 读取其共享联系人  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Presence.Read.All | delegated | 联系人中心代理需要状态信息以更好地管理呼叫和联系人，尤其是在呼叫转移的情况下  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| User.Read.All | delegated | 为了管理联系人，已登录的用户需要能够浏览用户并读取其信息，包括其离职和经理 (，以防有接待员)   | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
 
 >此应用程序没有其他 API。
 

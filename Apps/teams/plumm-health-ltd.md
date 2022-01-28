@@ -6,14 +6,14 @@ ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 所有可用的安全与合规性信息（如，一张大写）、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 8fef6e74339b611b06d39e6bbe32f9661e20656c
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+description: 所有可用的安全与合规性信息（如，一文集、其数据处理策略、Microsoft Cloud App Security应用程序目录信息）以及 CSA STAR 注册表中的安全/合规性信息。
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 6ba4a1853102f77129d740418b81f9de67146da0
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60429870"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255588"
 ---
 # <a name="plumm"></a>Plumm
 
@@ -34,12 +34,14 @@ ms.locfileid: "60429870"
 |:----------------|:-------------|
 | 应用名称 | Plumm |
 | ID | WA200003326 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Plumm Health LTD |
-| 合作伙伴网站的 URL | [https://www.plummhealth.com](https://www.plummhealth.com) |
-| 应用程序Teams页的 URL | [https://www.plummhealth.com/about-us](https://www.plummhealth.com/about-us) |
-| 隐私策略的 URL | [https://www.plummhealth.com/privacy-policy](https://www.plummhealth.com/privacy-policy) |
-| 使用条款 URL | [https://www.plummhealth.com/terms-of-use](https://www.plummhealth.com/terms-of-use) |
+| 公司网站 | [https://www.plummhealth.com](https://www.plummhealth.com) |
+| 应用的使用条款 | [https://www.plummhealth.com/terms-of-use](https://www.plummhealth.com/terms-of-use) |
+| 应用的核心功能 | 花红为员工提供其生活所需的支持。 每个一位一流成员都有权访问由 150 多个认证专家的全球网络、一个由世纪者引导的健身课程、聊天聊天和引导中介的数字库&#8211;所有内容均位于一处。 用户可以与用户联系，观看一对一在线视频，或与用户就自己的要求进行私人聊天。 由用户引导的联机课程和课程提供自助支持。 |
+| 公司总部位置 | 英国大英和爱尔兰 ()  |
+| 应用信息页面 | |
+| 用于运行应用的托管环境或服务模型是什么？ |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,82 +53,130 @@ ms.locfileid: "60429870"
 
 此信息由一家由一家用户运行状况公司提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
-
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
-
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| TeamsActivity.Send | 应用程序 | 在此权限中，我们使用 userID。 这用于根据用户的服务使用情况向用户发送必要的通知。 这一点很重要，以便用户可以在我们的应用中收到其帐户的适当通知。 | 在此权限中，我们不会在数据库中存储任何数据。 事实上，我们使用 userID 根据每个用户的使用情况向每个用户发送相应的通知。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| TeamsAppInstallation.ReadWriteForUser.All | 应用程序 | 我们使用此权限接收安装 ID。 对于我们来说，这一点非常重要，以便能够向每个用户发送相应正确的通知。 | 我们不会使用此权限在应用中存储任何数据。 我们不需要它，因为我们只需要通过提供 userID 而获取的安装 ID。 这是在运行时动态获取的，因此无需存储安装 ID。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read | delegated | 我们正在通过此权限收集用户的姓名、图片和电子邮件。 这是必需的，以便我们能够识别单个用户，并且这些数据点应显示在所需的任何位置，如个人配置文件页和电子邮件/通知通信。 | 此权限允许应用查看用户的基本个人资料 (姓名、图片、电子邮件) 。 此数据将用于向我们显示用户的应用帐户上以及电子邮件通信和/或通知上的用户名和/或个人资料图片。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read.All | 应用程序 | 此权限允许应用在没有登录用户的情况下读取用户配置文件。 我们目前仅收集姓名、个人资料图片和电子邮件。 这是必需的，以便我们能够识别单个用户，并且这些数据点应显示在所需的任何位置，如个人配置文件页和电子邮件/通知通信。 | 此权限允许应用查看用户的基本个人资料 (姓名、图片、电子邮件) 。 此数据将用于向我们显示用户的应用帐户上以及电子邮件通信和/或通知上的用户名和/或个人资料图片。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| email | delegated | 收集用户的电子邮件 ID。 我们需要此数据，以便向用户授予服务访问权限，并登录到我们的应用，并接收有关他们的帐户和服务在此电子邮件 ID 上的通知。  | 电子邮件 ID 存储在数据库中。 我们需要存储电子邮件 ID，以便唯一标识用户、为用户提供访问应用的访问权限、帮助他们登录并帮助我们接收有关其帐户的通知。 例如，电子邮件 ID 为 abc@xyz.com 登录后，将能够访问我们的应用和服务Teams &quot; &quot; 此电子邮件 ID。 根据使用情况，我们将能够根据该用户/她的电子邮件 ID 向该用户发送通知。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| openid | delegated | 对于此权限，我们不会收集任何数据。  | 对于此权限，我们不会收集任何数据。 此权限允许用户使用工作电子邮件 ID 登录我们的应用，并允许应用查看基本用户配置文件信息。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| 个人资料 | delegated | 我们正在通过此权限收集用户的姓名、图片和电子邮件。 这是必需的，以便我们能够识别单个用户，并且这些数据点应显示在所需的任何位置，如个人配置文件页和电子邮件/通知通信。 | 此权限允许应用查看用户的基本个人资料 (姓名、图片、电子邮件) 。 此数据将用于向我们显示用户的应用帐户上以及电子邮件通信和/或通知上的用户名和/或个人资料图片。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
-
-
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
-
-如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
-
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Intercom | 名字、姓氏、电子邮件 | Intercom 是一种 CRM，可帮助我们管理与所有用户的通信。 因此，我们需要将用户的名字、姓氏和电子邮件 ID 发送到 CRM，以便向用户发送相应的邮件/电子邮件。 |
-
-#### <a name="data-access-via-bots"></a>通过机器人访问数据
-
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
-
->无法访问 EUII。
-
-
-#### <a name="telemetry-data"></a>遥测数据
-
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
-
->我们存储服务使用情况数据，如使用的会话数、已查看课程数、查看的会话数、会话日期等。我们会保留用户数据，直到用户明确要求删除或"忘记"其帐户。
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
-
-描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
-
->我们通过服务器管理发送到 CRM 的数据。 运行所需的最小数据将传递到 CRM (Intercom) 。 对于传递到 CRM 的数据、在 Intercom 上保留数据以及删除数据，用户具有完全控制权。 下面是查看 Intercom 的客户数据策略的链接： https://www.intercom.com/legal/terms-and-policies#customer-data
-
-#### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
-
-是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
-
->是
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
+| 数据库中存储了哪些数据？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 你是否已制定数据租用和处置流程？ |  |
+| 帐户终止后，数据将保留多久？ | 已保留 |
+| 您是否已建立数据访问管理流程？ |  |
+| 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
+| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="security"
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>标识信息
-
-此信息已由一家由一家用户运行状况公司提供，用于说明此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件。
+下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 否 |
-| 应用是否请求方案最小特权权限？ | 是 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
-| 你的应用是否支持多租户？ | 否 |
-| 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | ,<br/><br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 否 |
-| 你的应用是否使用已弃用 API？ | 否 |
+| 你是否对应用执行年度渗透测试？ | 是 |
+| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 否 |
+| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
+| 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
+| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ |  |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ |  |
+| 你的环境是否具有任何不受支持的操作系统或软件？ |  |
+| 你是否对应用和支持它的内结构进行季度漏洞扫描？ |  |
+| 外部网络边界上是否安装了防火墙？ |  |
+| 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ |  |
+| 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ |  |
+| 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ |  |
+| 启用了 MFA (多重) 身份验证： |  |
+| 您是否已制定设置、修改和删除员工帐户的流程？ |  |
+| 在支持你的应用的网络 (外围) 是否部署了入侵检测和防护 IDPS 和 IDPS 软件？ |  |
+| 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ |  |
+| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
+| 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ |  |
+| 是否建立了正式的信息安全风险管理流程？ |  |
+| 您是否已记录并建立了正式的安全事件响应流程？ |  |
+| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 是 |
+| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 否 |
+| 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
+| 最新 SOC1 认证日期 |   |
+| 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
+| 你获得哪种 SOC 2 认证？ | |
+| 最新 SOC2 认证日期 | |
+| 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
+| 最新 SOC3 认证日期 | |
+| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 是 |
+| 应用程序国际标准化组织 (ISO 27001) 认证？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用是否符合 NIST 800-171？ |  |
+| 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ |  |
+| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ |  |
+| 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ |  |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ |  |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ |  |
+| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ |  |
+| 应用是否具有根据请求删除个人个人数据的功能？ |  |
+| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 是 |
+| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | true |
+| 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
+| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否支持 CAE (连续访问)  |  |
+| 你的应用是否将任何凭据存储在代码中？ |  |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用和外接程序可能使用 Microsoft Graph。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
+
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| TeamsActivity.Send | 应用程序 | 在此权限中，我们使用 userID。 这用于根据用户的服务使用情况向用户发送必要的通知。 这一点很重要，以便用户可以在我们的应用中收到其帐户的适当通知。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| TeamsAppInstallation.ReadWriteForUser.All | 应用程序 | 我们使用此权限接收安装 ID。 对于我们来说，这一点非常重要，以便能够向每个用户发送相应正确的通知。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| User.Read | delegated | 我们正在通过此权限收集用户的姓名、图片和电子邮件。 这是必需的，以便我们能够识别单个用户，并且这些数据点应显示在所需的任何位置，如个人配置文件页和电子邮件/通知通信。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| User.Read.All | 应用程序 | 此权限允许应用在没有登录用户的情况下读取用户配置文件。 我们目前仅收集姓名、个人资料图片和电子邮件。 这是必需的，以便我们能够识别单个用户，并且这些数据点应显示在所需的任何位置，如个人配置文件页和电子邮件/通知通信。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| 电子邮件 | delegated | 收集用户的电子邮件 ID。 我们需要此数据，以便向用户授予服务访问权限，并登录到我们的应用，并接收有关他们的帐户和服务在此电子邮件 ID 上的通知。  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| openid | delegated | 对于此权限，我们不会收集任何数据。  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| 个人资料 | delegated | 我们正在通过此权限收集用户的姓名、图片和电子邮件。 这是必需的，以便我们能够识别单个用户，并且这些数据点应显示在所需的任何位置，如个人配置文件页和电子邮件/通知通信。 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+
+>此应用程序没有其他 API。
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

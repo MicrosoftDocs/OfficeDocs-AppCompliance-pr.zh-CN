@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: isLucid 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 5c482dbb0a7fda2f588eef80e16abb5f495be478
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 83c9786dcb0cd7f8ff6c5d744c5eaf3fb63b9ab3
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60445014"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255458"
 ---
 # <a name="islucid"></a>isLucid
 
@@ -34,12 +34,15 @@ UAB Lucid 协议提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | isLucid |
 | ID | WA200002385 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | UAB Lucid 协议 |
-| 合作伙伴网站的 URL | [https://islucid.com](https://islucid.com) |
-| 应用程序Teams页的 URL | [https://islucid.com](https://islucid.com) |
-| 隐私策略的 URL | [https://islucid.com/privacy-policy/](https://islucid.com/privacy-policy/) |
-| 使用条款 URL | [https://islucid.com/eula/](https://islucid.com/eula/) |
+| 公司网站 | [https://islucid.com](https://islucid.com) |
+| 应用的使用条款 | [https://islucid.com/eula/](https://islucid.com/eula/) |
+| 应用的核心功能 | 启用通话Microsoft Teams实时捕获和创建转录任务。 将这些任务与现有 Project软件集成。 |
+| 公司总部位置 | 立陶宛 |
+| 应用信息页面 | |
+| 用于运行应用的托管环境或服务模型是什么？ | 混合 |
+| 应用使用哪些托管云提供商？ | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,84 +54,132 @@ UAB Lucid 协议提供给 Microsoft 的信息：
 
 此信息由 UAB Lucid 协议提供，这些协议与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
-
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
-
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calls.AccessMedia.All | 两者 | 在用户单独同意每个呼叫的情况下， (启动的) 访问音频流。 音频流将转发到转录服务，以便用户获得进一步的功能。 | Azure 上的独立容器中的应用商店 (blob 存储和Cosmos DB 中，每个客户端) 转录和相关元数据信息。 这要求为用户提供对会议信息的进一步访问，该用户使用该应用程序并参与特定会议。 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| Calls.JoinGroupCall.All | 两者 | 在用户单独同意每个呼叫的情况下， (启动的) 访问音频流。 音频流将转发到转录服务，以便用户获得进一步的功能。 | Azure 上的独立容器中的应用商店 (blob 存储和Cosmos DB 中，每个客户端) 转录和相关元数据信息。 这要求为用户提供对会议信息的进一步访问，该用户使用该应用程序并参与特定会议。 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| Group.ReadWrite.All | 两者 | 当用户使用与 Microsoft Planner 的集成通过呼叫创建任务并自动存储在 MS Planner 中时，isLucid 收集该用户可用的组、计划、被分配者。 如果没有此权限，用户将无法使用 isLucid 从转录创建任务 | 存储任务标题、任务创建者、任务时间戳、任务说明，以便用户可以访问从特定会议创建的任务历史记录。 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| OnlineMeetings.Read.All | 两者 | 应用程序收集会议标题，以便用户 (会议结束后) 可以更轻松地找到以前的脚本和任务。 | 会议标题、会议组织者的时间戳 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| Tasks.ReadWrite | 两者 | 当用户使用与 Microsoft Planner 的集成通过呼叫创建任务并自动存储在 MS Planner 中时，isLucid 收集该用户可用的组、计划、被分配者。 如果没有此权限，用户将无法使用 isLucid 从转录创建任务 | 存储任务标题、任务创建者、任务时间戳、任务说明，以便用户可以访问从特定会议创建的任务历史记录。 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| User.ReadWrite.All | 两者 | 当用户使用与 Microsoft Planner 的集成通过呼叫创建任务并自动存储在 MS Planner 中时，isLucid 收集该用户可用的组、计划、被分配者。 如果没有此权限，用户将无法使用 isLucid 从转录创建任务 | 存储任务标题、任务创建者、任务时间戳、任务说明，以便用户可以访问从特定会议创建的任务历史记录。 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| openid | 两者 | 收集的用户 ID、租户 ID，Azure Active Directory我们的用户提供登录功能 | 用户 ID、用于进一步权限管理的租户 ID | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
-
-
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
-
-如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
-
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| hubspot.com | 姓名、姓氏、电子邮件电话新注册用户的数量 | 我们使用 Hubspot CRM 维护销售相关信息 |
-
-#### <a name="data-access-via-bots"></a>通过机器人访问数据
-
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
-
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 机器人支持将音频流发送到转录服务。 若要提供可读的转录，我们需要将音频与用户 (扬声器) 。 如果不提供此类信息脚本，则毫无用处 | 姓名、姓氏、状态（如果是来宾帐户或 Microsoft 帐户） | 机器人支持将音频流发送到转录服务。 若要提供可读的转录，我们需要将音频与用户 (扬声器) 。 会议参与者信息还与使用户能够查看谁正在参加会议有关。 |
-
-
-#### <a name="telemetry-data"></a>遥测数据
-
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
-
->使用我们的服务的用户正在生成脚本。 在脚本中，会议参与者 (姓名、姓氏) 显示。 呼叫过程中可能会提到任何内容。 只要用户使用我们的服务，我们就存储用户的此数据。 客户端结束使用后，我们将在 30 天内销毁所有关联的数据。
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
-
-描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
-
->当客户端购买为托管解决方案时，我们不会控制客户端上的任何数据。 对于 SaaS 解决方案，我们允许用户使用服务取消，然后删除与Cosmos关联的 DB 实例。 我们正在将信息发送到合规性 API
-
-#### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
-
-是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
-
->是
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 是 |
+| 你的应用将处理哪些数据？ | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| 应用是否支持 TLS 1.1 或更高版本？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
+| 数据库中存储了哪些数据？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 你是否已制定数据租用和处置流程？ |  |
+| 帐户终止后，数据将保留多久？ | 在一个月内删除 |
+| 您是否已建立数据访问管理流程？ |  |
+| 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
+| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="security"
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>标识信息
-
-此信息由 UAB Lucid 协议提供，这些协议与此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件有关。
+下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 否 |
-| 应用是否请求方案最小特权权限？ | 是 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
-| 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 否 |
-| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | - 通配符重定向 URI，<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/>- 资源所有者密码凭据 (ROPC) 流 |
-| 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 是 |
-| 你的应用是否使用已弃用 API？ | 是 |
+| 你是否对应用执行年度渗透测试？ | 否 |
+| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 否 |
+| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
+| 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
+| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ |  |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ |  |
+| 你的环境是否具有任何不受支持的操作系统或软件？ |  |
+| 你是否对应用和支持它的内结构进行季度漏洞扫描？ |  |
+| 外部网络边界上是否安装了防火墙？ |  |
+| 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ |  |
+| 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ |  |
+| 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ |  |
+| 启用了 MFA (多重) 身份验证： |  |
+| 您是否已制定设置、修改和删除员工帐户的流程？ |  |
+| 在支持你的应用的网络 (外围) 是否部署了入侵检测和防护 IDPS 和 IDPS 软件？ |  |
+| 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ |  |
+| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
+| 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ |  |
+| 是否建立了正式的信息安全风险管理流程？ |  |
+| 您是否已记录并建立了正式的安全事件响应流程？ |  |
+| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
+| 最新 SOC1 认证日期 |   |
+| 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
+| 你获得哪种 SOC 2 认证？ | |
+| 最新 SOC2 认证日期 | |
+| 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
+| 最新 SOC3 认证日期 | |
+| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 不适用 |
+| 应用程序国际标准化组织 (ISO 27001) 认证？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| 应用是否遵守 FERPA (家庭教育) ？ | 否 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用是否符合 NIST 800-171？ |  |
+| 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 是 |
+| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ |  |
+| 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ |  |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ |  |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ |  |
+| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ |  |
+| 应用是否具有根据请求删除个人个人数据的功能？ |  |
+| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 是 |
+| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | true |
+| 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
+| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否支持 CAE (连续访问)  |  |
+| 你的应用是否将任何凭据存储在代码中？ |  |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用和外接程序可能使用 Microsoft Graph。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
+
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calls.AccessMedia.All | 两者 | 在用户单独同意每个呼叫的情况下 (启动的转录) 访问音频流。 音频流将转发到转录服务，以便用户获得进一步的功能。 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| Calls.JoinGroupCall.All | 两者 | 在用户单独同意每个呼叫的情况下 (启动的转录) 访问音频流。 音频流将转发到转录服务，以便用户获得进一步的功能。 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| Group.ReadWrite.All | 两者 | 当用户使用与 Microsoft Planner 的集成通过呼叫创建任务并自动存储在 MS Planner 中时，isLucid 会收集该用户的可用组、计划、被分配者。 如果没有此权限，用户将无法使用 isLucid 从转录创建任务 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| OnlineMeetings.Read.All | 两者 | 应用程序收集会议标题，以便 (会议结束后) 可以更轻松地找到以前的脚本和任务。 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| Tasks.ReadWrite | 两者 | 当用户使用与 Microsoft Planner 的集成通过呼叫创建任务并自动存储在 MS Planner 中时，isLucid 会收集该用户的可用组、计划、被分配者。 如果没有此权限，用户将无法使用 isLucid 从转录创建任务 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| User.ReadWrite.All | 两者 | 当用户使用与 Microsoft Planner 的集成通过呼叫创建任务并自动存储在 MS Planner 中时，isLucid 会收集该用户的可用组、计划、被分配者。 如果没有此权限，用户将无法使用 isLucid 从转录创建任务 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| openid | 两者 | 收集的用户 ID、租户 ID，Azure Active Directory我们的用户提供登录功能 | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+
+>此应用程序没有其他 API。
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

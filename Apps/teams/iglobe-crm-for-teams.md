@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: 适用于 Teams 的 iGlobe CRM 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6aaeddce93a513ca22b0bf5c0b4fdf8b85a7830d
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 63646b2a2425eeef310ae5534209d015d06896c1
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147450"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257758"
 ---
 # <a name="iglobe-crm-for-teams"></a>iGlobe CRM for Teams
 
@@ -37,7 +37,7 @@ iGlobe 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | iGlobe |
 | 公司网站 | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | 应用的使用条款 | [https://iglobecrm.com/content/iglobe-crm-office-365-end-use...](https://iglobecrm.com/content/iglobe-crm-office-365-end-user-license-agreement) |
-| 应用的核心功能 | iGlobe CRM Office 365 SharePoint托管的客户端。 iGlobe CRM Office 365是一种简单且易于使用的 CRM 外接程序，适用于企业，Office 365。 借助 Outlook、Excel、Word 外接程序和 Teams 应用，与 Office 365 Planner、SharePoint 和 Teams iGlobe SharePoint 外接程序的无缝集成是真正的 Office 365 扩展。 iGlobe CRM 权限级别基于所有已使用服务中的集成Microsoft 365级别。  |
+| 应用的核心功能 | iGlobe CRM Office 365 SharePoint托管的客户端。 iGlobe CRM Office 365是一种简单且易于使用的 CRM 外接程序，适用于使用 Office 365。 借助 Outlook、Excel、Word 外接程序和 Teams 应用，与 Office 365 Planner、SharePoint 和 Teams iGlobe SharePoint 外接程序的无缝集成是真正的 Office 365 扩展。 iGlobe CRM 权限级别基于所有已使用服务中的集成Microsoft 365级别。  |
 | 公司总部位置 | 丹麦 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
@@ -89,7 +89,7 @@ iGlobe 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 不适用 |
+| 在支持你的应用的网络 (外围) 是否部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 不适用 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -105,8 +105,8 @@ iGlobe 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植和会计) ？ | 是 |
-| 应用是否遵守健康信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 是 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 是 |
+| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 是 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 是 |
 | 最新 SOC1 认证日期 |  2020-11-01 |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 是 |
@@ -119,10 +119,10 @@ iGlobe 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 是 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 是 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 是 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 是 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (管理) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -138,9 +138,9 @@ iGlobe 提供给 Microsoft 的信息：
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://iglobecrm.com/content/legal-information |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销 (分析）未) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
-| 应用是否收集或处理来自未成年人 (，即 16 岁以下的儿童的数据) ？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
 | 该应用是否向个人提供更正或更新其个人数据的能力？ | 是 |
@@ -155,32 +155,32 @@ iGlobe 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了集成清单中列出的所有适用的Microsoft 标识平台做法？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 否 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 安全默认值和任何其他常见策略（如阻止旧版身份验证* 要求管理员使用 MFA* 需要 Azure 管理的 MFA* 要求所有用户使用 MFA* |
 | 你的应用是否支持 CAE (连续访问)  | 是 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于用户的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
+| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | delegated | 在将会议报告从 canlendar 提交到 iGlobe 时，有权访问用户日历    |
->| Contacts.ReadWrite | delegated | 允许应用以登录用户身份访问目录中的信息。    |
->| Directory.Read.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。   |
->| Directory.ReadWrite.All | delegated | 允许应用以登录用户身份访问目录中的信息。   |
->| Files.ReadWrite.All | delegated | 读取、更新、创建平移器任务、读取用户的最近文件和共享文件、SharePoint列表、库和文件。 将文件和数据保存到SharePoint列表。     |
->| Group.Read.All | delegated | 读取、更新、创建平移器任务、读取用户的最近文件和共享文件、SharePoint列表、库和文件。 将文件保存到SharePoint列表。   |
->| Group.ReadWrite.All | delegated | 读取、更新、创建平移器任务、读取用户的最近文件和共享文件、SharePoint列表、库和文件。 将文件保存到SharePoint列表。 与 iGlobe CRM Office 365     |
->| Mail.ReadWrite | delegated | Svae the eamil to iGlobe CRM and get informatiopn from iGlobe to a new e-amil    |
->| Sites.Manage.All | delegated | 在 iGlobe CRM 中创建、编辑和删除项目和列表     |
->| Sites.Read.All | delegated | 读取 iGlobe CRM 中的项目     |
->| Sites.ReadWrite.All | delegated | 编辑和删除 iGlobe CRM 中的项目和列表  |
->| Tasks.ReadWrite | delegated | 从 iGlobe CRM 创建计划工具任务     |
->| User.Read | delegated | 获取子用户 iGlobe CRM 的信息    |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated | 在将会议报告从 canlendar 提交到 iGlobe 时，有权访问用户日历    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Contacts.ReadWrite | delegated | 允许应用以登录用户身份访问目录中的信息。    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.Read.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.ReadWrite.All | delegated | 允许应用以登录用户身份访问目录中的信息。   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Files.ReadWrite.All | delegated | 读取、更新、创建平移器任务、读取用户的最近文件和共享文件、SharePoint列表、库和文件。 将文件和数据保存到SharePoint列表中。     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.Read.All | delegated | 读取、更新、创建平移器任务、读取用户的最近文件和共享文件、SharePoint列表、库和文件。 将文件保存到SharePoint列表中。   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.ReadWrite.All | delegated | 读取、更新、创建平移器任务、读取用户的最近文件和共享文件、SharePoint列表、库和文件。 将文件保存到SharePoint列表中。 与 iGlobe CRM Office 365     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Mail.ReadWrite | delegated | Svae the eamil to iGlobe CRM and get informatiopn from iGlobe to a new e-amil    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Manage.All | delegated | 在 iGlobe CRM 中创建、编辑和删除项目和列表     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Read.All | delegated | 读取 iGlobe CRM 中的项目     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.ReadWrite.All | delegated | 编辑和删除 iGlobe CRM 中的项目和列表  | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Tasks.ReadWrite | delegated | 从 iGlobe CRM 创建计划工具任务     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| User.Read | delegated | 获取子用户 iGlobe CRM 的信息    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 
 >此应用程序没有其他 API。
 

@@ -2,17 +2,17 @@
 title: bd2aaebe-63b9-434b-aad8-e7010f2ece20 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2022
+ms.date: 01/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: bd2aaebe-63b9-434b-aad8-e7010f2ece20 的所有可用安全性和合规性信息。
-ms.openlocfilehash: 9e1383d7d81939dbe66ea6f8c4a448f54173fbfe
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: eeb576e81493be7c2b8a5f26cf643f0b035a7474
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62235728"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62258038"
 ---
 # <a name="azure-app-id-bd2aaebe-63b9-434b-aad8-e7010f2ece20"></a>Azure 应用 ID：bd2aaebe-63b9-434b-aad8-e7010f2ece20
 
