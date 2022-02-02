@@ -2,17 +2,17 @@
 title: 39d845a0-3fa2-4fba-acc2-61afe40cfcea 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/28/2022
+ms.date: 01/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 39d845a0-3fa2-4fba-acc2-61afe40cfcea 的所有可用安全性和合规性信息。
-ms.openlocfilehash: 47c829f637c1dfbda70ccb155048a802996564b4
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 2f895a03cd74f56c9f7b807845d78207983ca7d3
+ms.sourcegitcommit: 58f40775dd4adee3a6037a74e4ccd98823f4832c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62258808"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62303437"
 ---
 # <a name="azure-app-id-39d845a0-3fa2-4fba-acc2-61afe40cfcea"></a>Azure 应用 ID：39d845a0-3fa2-4fba-acc2-61afe40cfcea
 

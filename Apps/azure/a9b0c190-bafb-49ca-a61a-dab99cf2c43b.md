@@ -2,17 +2,17 @@
 title: a9b0c190-bafb-49ca-a61a-用户-用户 id a9b2c43b 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/28/2022
+ms.date: 01/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: a9b0c190-bafb-49ca-a61a-具有99cf2c43b的所有可用安全性和合规性信息。
-ms.openlocfilehash: 635fe0bdaa8c69885d3ff6e310841f881bddaa98
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 23e72db0d2f1296909801c4ca0263d1f483013ec
+ms.sourcegitcommit: 58f40775dd4adee3a6037a74e4ccd98823f4832c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254408"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62302647"
 ---
 # <a name="azure-app-id-a9b0c190-bafb-49ca-a61a-dab99cf2c43b"></a>Azure 应用 ID：a9b0c190-bafb-49ca-a61a-具有99cf2c43b
 
