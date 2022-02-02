@@ -2,21 +2,21 @@
 title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2022
+ms.date: 01/31/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: c7b4f06efdcd61dd75a4aff9ba40ba2de95fd3a8
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: f21b81f3898b89a3c7c935e00142b283d4830f2d
+ms.sourcegitcommit: 58f40775dd4adee3a6037a74e4ccd98823f4832c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62230988"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62304837"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
-Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用的 Microsoft Teams 应用和加载项更快作出决策和作出知情决策所需的信息。 此信息对 [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) 应用目录中的信息和开发人员提交其应用程序时提供的信息进行了补充。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用的 Microsoft Teams 应用和加载项更快作出决策和作出知情决策所需的信息。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -27,6 +27,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [ADI](./akari-solutions-limited-adi.md) | Akari Solutions Limited | **✓** |  |
 | [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** |  |
 | [Agenda Boss](./appfluence-inc-agenda-boss.md) | Appence Inc | **✓** |  |
+| [Aimful](./aimful.md) | Aimful | **✓** |  |
 | [Alloy 自助服务助手](./alloy-software-self-service-assistant.md) | Alloy 软件 | **✓** |  |
 | [Alvao Service Desk](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  |
 | [琥珀色](./infeedo-amber.md) | inFeedo | **✓** |  |
@@ -99,7 +100,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Confluence Cloud](./atlassian-confluence-cloud.md) | Atlassian | **✓** |  |
 | [Confluence Connector by MWF](./move-work-forward-confluence-connector-by-mwf.md) | 推动工作 | **✓** |  |
 | [Connect+](./reward-gateway-connectplus.md) | Reward Gateway | **✓** |  |
-| [联系人中心 | ROGER365.io](./roger365io-contact-centerroger365io.md) | ROGER365.io | **✓** |  |
+| [联系中心 - ROGER365.io](./roger365io-contact-centerroger365io.md) | ROGER365.io | **✓** |  |
 | [Contacts Pro](./witivio-contacts-pro.md) | Witivio | **✓** |  |
 | [内容管理器](./colligo-inc-content-manager.md) | Colligo Inc | **✓** |  |
 | [Contextere AVA](./contextere-ava.md) | Contextere | **✓** |  |
@@ -181,6 +182,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  |
 | [Highspot](./highspot.md) | Highspot | **✓** |  |
 | [Hive](./hive.md) | Hive | **✓** |  |
+| [HubSite 365](./netforce-365-gmbh-hubsite.md) | NetForce 365 GmbH | **✓** |  |
 | [Hugo](./hugo.md) | Hugo | **✓** |  |
 | [huminos](./soe-technologies-huminos.md) | SOE Technologies | **✓** |  |
 | [Humu](./humu-inc.md) | Humu Inc. | **✓** |  |
@@ -206,7 +208,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [KUDO 多语言会议](./kudo-inc-multilingual-meetings.md) | KUDO, Inc. | **✓** |  |
 | [Kudozza](./survivef5-gmbh-kudozza.md) | surviveF5 GmbH | **✓** |  |
 | [Kunjani](./faceboard-pty-ltd-kunjani.md) | FACEBOARD (PTY) LTD | **✓** |  |
-| [LawToolBox](./lawtoolboxcominc-lawtoolbox.md) | LawToolBox.com,Inc. | **✓** |  |
 | [Lexion](./lexion.md) | Lexion | **✓** |  |
 | [LifeWorks](./lifeworks.md) | LifeWorks | **✓** |  |
 | [Link Spotter](./communardo-products-link-spotter.md) | Communardo 产品 | **✓** |  |
@@ -219,7 +220,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Lucidspark Whiteboard](./lucid-software-lucidspark-whiteboard.md) | Lucid Software | **✓** |  |
 | [LumApps](./lumapps.md) | LumApps | **✓** |  |
 | [Lumio by SMART](./smart-technologies-ulc-lumio-by.md) | SMART Technologies ULC | **✓** |  |
-| [MailClark](./mailclark.md) | MailClark | **✓** |  |
 | [Map Pro](./witivio-map-pro.md) | Witivio | **✓** |  |
 | [Marvel](./marvel.md) | 奇迹 | **✓** |  |
 | [MeasureUp](./media-interactiva-solutions-measureup.md) | 媒体交互解决方案 | **✓** |  |
