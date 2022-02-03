@@ -109,7 +109,7 @@
           href: outlook/officeatwork-officeatworkmail-signature-for-outlook.md
         - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Outlook
+        - name: 推广销售Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One for Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -144,7 +144,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Showmaster
           href: powerpoint/cherryware-showmaster.md
-        - name: 'Showmaster (帮助程序插件) '
+        - name: 'Showmaster (Helper 插件) '
           href: powerpoint/cherryware-showmaster-helper-plugin.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
@@ -158,7 +158,7 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc适用于SharePoint
+        - name: Arc→for SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: 标书管理系统
           href: sharepoint/beyond-technologies-bid-management-system.md
@@ -503,8 +503,8 @@
           href: teams/heedify.md
         - name: HelloTeam
           href: teams/helloteam-inc.md
-        - name: HeyTaco!
-          href: teams/heytaco!.md
+        - name: HeyTaco
+          href: teams/heytaco-llc.md
         - name: hi Digital Coach
           href: teams/digital-attitude-srl-hi-coach.md
         - name: Hi5
@@ -561,8 +561,8 @@
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
-        - name: KUDO 多语言会议
-          href: teams/kudo-inc-multilingual-meetings.md
+        - name: KUDO
+          href: teams/kudo-inc.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
         - name: Kunjani
@@ -599,6 +599,8 @@
           href: teams/media-interactiva-solutions-measureup.md
         - name: Mediatheque+
           href: teams/cemeq-inc-mediathequeplus.md
+        - name: Meetgeek
+          href: teams/aivision-products-srl-meetgeek.md
         - name: Mentimeter
           href: teams/mentimeter.md
         - name: 消息提醒程序
@@ -1023,7 +1025,7 @@
           href: teams/zesavi-gmbh.md
         - name: Zignals
           href: teams/alight-zignals.md
-    - name: Microsoft Word应用
+    - name: Microsoft Word 应用
       href: word/word-apps.md
       items:
         - name: Adobe Sign for Word and PowerPoint
@@ -1117,7 +1119,7 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
-        - name: 适用于 Microsoft Teams 的 Luware 合规性Microsoft Teams
+        - name: 适用于 Microsoft Teams 的 Luware 合规性记录
           href: saas/luware-ag-compliance-recording-for-microsoft-teams.md
         - name: Luware Nimbus for Microsoft Teams
           href: saas/luware-ag-nimbus-for-microsoft-teams.md
