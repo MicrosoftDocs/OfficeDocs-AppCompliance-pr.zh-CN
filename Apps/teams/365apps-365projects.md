@@ -2,24 +2,18 @@
 title: 365 项目的应用程序信息 （按 365Apps）
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/18/2021
+ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 365 项目的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 30670ebb5d80435dfbe77b3e735aeb72a695907c
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430914"
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 ---
 # <a name="365projects"></a>365Projects
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 3 月 16 日</p>
+<p>开发人员上次更新时间：2022 年 2 月 2 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/a9c31598-b014-4e20-b3bd-3d275fa738d3" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002160" target="_blank">在 AppSource 中查看</a>
@@ -36,10 +30,14 @@ ms.locfileid: "60430914"
 | ID | WA200002160 |
 | Office 365支持的客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | 365Apps |
-| 合作伙伴网站的 URL | [https://365apps.com.au](https://365apps.com.au) |
-| 应用程序Teams页的 URL | [https://365projects.app](https://365projects.app) |
-| 隐私策略的 URL | [https://365projects.app/privacy](https://365projects.app/privacy) |
-| 使用条款 URL | [https://365projects.app/eula](https://365projects.app/eula) |
+| 公司网站 | [https://365apps.com.au](https://365apps.com.au) |
+| 应用的使用条款 | [https://365projects.app/eula](https://365projects.app/eula) |
+| 应用的核心功能 | 将项目Microsoft Teams &amp; 在一起
+创建Project，将其连接到现有/新频道 |
+| 公司总部位置 | 澳大利亚 |
+| 应用信息页面 | |
+| 用于运行应用的托管环境或服务模型是什么？ | Paas |
+| 应用使用哪些托管云提供商？ | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,91 +49,125 @@ ms.locfileid: "60430914"
 
 此信息由 365Apps 提供有关此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制的信息。
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
-
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
-
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegated | 团队中将项目与频道链接的频道 | 团队中将项目与频道链接的频道 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
->| Group.Read.All | delegated | 获取工作组规划器/规划器任务，如果另一个最小特权范围允许应用获取用户计划和计划任务，但遗憾的是没有允许此操作的范围 | 未存储在 DB 中 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
->| Group.ReadWrite.All | 应用程序 | 创建Teams  | 未存储在 DB 中 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
->| People.Read | delegated | 用户名，将它们添加为工作组成员或为其分配任务 | 用户 Guid 存储在任务分配中 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
->| Team.ReadBasic.All | delegated | 加入的团队名称，将项目链接到Teams频道 | 团队 Guid 存储在项目元数据中以建立链接 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
->| User.Read | delegated | 获取用户信息以在标头中显示此信息  | 首次预配租户时，用户电子邮件存储为所有者 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
->| User.Read.All | delegated | 读取用户以更新任务分配 | 仅存储用户 Guid，未在 DB 中存储任何个人识别信息 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
-
-
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
-
-如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
-
->不Microsoft 服务非活动。
-
-#### <a name="data-access-via-bots"></a>通过机器人访问数据
-
-如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
-
->无法访问 EUII。
-
-
-#### <a name="telemetry-data"></a>遥测数据
-
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
-
->应用程序遥测或日志中不显示 OII 或 EUII。
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
-
-描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
-
->应用不会存储除应用管理员 Guid 之外的用户数据 (用户在租户内使用应用)  
-
-#### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
-
-是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
-
->否
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
+| 数据库中存储了哪些数据？ | 客户电子邮件地址 |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 澳大利亚 |
+| 你是否已制定数据租用和处置流程？ | 是 |
+| 帐户终止后，数据将保留多久？ | 不保留 |
+| 您是否已建立数据访问管理流程？ | 是 |
+| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
+| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36555' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36555" target="_blank">在新建选项卡中查看</a>
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否对应用执行年度渗透测试？ | 否 |
+| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 否 |
+| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls、TraditionalAntiMalware |
+| 您是否已制定缩进和风险分级安全漏洞的流程？ | 否 |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 否 |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ | 否 |
+| 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
+| 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 否 |
+| 外部网络边界上是否安装了防火墙？ | 是 |
+| 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
+| 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ | 否 |
+| 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 否 |
+| 启用了 MFA (多重) 身份验证： | NoneOfTheAbove |
+| 您是否已制定设置、修改和删除员工帐户的流程？ | 否 |
+| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 不适用 |
+| 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
+| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
+| 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 否 |
+| 是否建立了正式的信息安全风险管理流程？ | 否 |
+| 您是否已记录并建立了正式的安全事件响应流程？ |  |
+| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>标识信息
-
-此信息由 365Apps 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+::: zone pivot="compliance"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 否 |
-| 应用是否请求方案最小特权权限？ | 是 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
-| 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 否 |
-| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | ,<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/> |
-| 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 否 |
-| 你的应用是否使用已弃用 API？ | 否 |
+| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
+| 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
+| 最新 SOC1 认证日期 |   |
+| 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
+| 你获得哪种 SOC 2 认证？ | |
+| 最新 SOC2 认证日期 | |
+| 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
+| 最新 SOC3 认证日期 | |
+| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 不适用 |
+| 应用国际标准化组织 (ISO 27001) 认证？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley (管理) ？ | 不适用 |
+| 应用是否符合 NIST 800-171？ | 不适用 |
+| 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 否 |
+| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
+| 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (营销、分析) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
+| 应用是否具有根据请求删除个人个人数据的功能？ |  |
+| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **响应** |
+|:----------------|:-------------|
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
+| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
+| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
+| 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
+| 你的应用是否支持条件访问策略？ | 否 |
+| 你的应用是否支持 CAE (连续访问)  | 否 |
+| 你的应用是否将任何凭据存储在代码中？ | 否 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
+
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Tasks.ReadWrite | delegated | 读取和更新规划器任务 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| User.Read | delegated | 读取用户电子邮件 | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+
+>此应用程序没有其他 API。
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
