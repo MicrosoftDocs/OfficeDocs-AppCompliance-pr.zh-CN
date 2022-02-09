@@ -2,17 +2,17 @@
 title: b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/07/2022
+ms.date: 02/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 的所有可用安全性和合规性信息。
-ms.openlocfilehash: 202c830f5455d2167fe0279118d3705afa290209
-ms.sourcegitcommit: dd610febc885b7c5766014e7364ed43c4bd942ac
+ms.openlocfilehash: 4f1c1afca75e095ba8e55bfcd52e83cbefeee25c
+ms.sourcegitcommit: 27afe4d564e72c28ea073e4b31801ad983aec173
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "62449777"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62475067"
 ---
 # <a name="azure-app-id-b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7"></a>Azure 应用 ID：b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 

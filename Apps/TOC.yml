@@ -57,7 +57,7 @@
           href: excel/supermetrics.md
         - name: XBRL 归档数据
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote应用
+    - name: Microsoft OneNote 应用
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork |内容选择器Office
@@ -109,7 +109,7 @@
           href: outlook/officeatwork-officeatworkmail-signature-for-outlook.md
         - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Outlook
+        - name: 推广销售Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One for Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -457,6 +457,8 @@
           href: teams/storage-made-easy-file-fabric.md
         - name: Fireflies AI
           href: teams/firefliesai-fireflies-ai.md
+        - name: 防火墙助理
+          href: teams/dewmaker-design-inc-firewall-assistant.md
         - name: FireWatch
           href: teams/infographics-uk-ltd-firewatch.md
         - name: FloQast
@@ -919,7 +921,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: 团队合作
+        - name: Teamwork
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -1037,7 +1039,7 @@
           href: teams/zesavi-gmbh.md
         - name: Zignals
           href: teams/alight-zignals.md
-    - name: Microsoft Word应用
+    - name: Microsoft Word 应用
       href: word/word-apps.md
       items:
         - name: Adobe Sign for Word and PowerPoint
@@ -1080,7 +1082,7 @@
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork |验证程序Office
           href: word/officeatwork-officeatworkverifier-for-office.md
-        - name: officeatwork |Office
+        - name: officeatwork |用于Office
           href: word/officeatwork-officeatworkwizard-for-office.md
         - name: RetMig 和 Kommaforslag
           href: word/grammarsoft-aps-retmig-and-kommaforslag.md
@@ -1099,7 +1101,7 @@
       items:
         - name: 管理中心
           href: saas/officeatwork-admin-center.md
-        - name: Teams
+        - name: 适用于联系人的热门Teams
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
         - name: CC4Teams
           href: saas/cc4all-cc4teams.md
@@ -1149,7 +1151,7 @@
           href: saas/iglobe-office2sharepoint-for-teams.md
         - name: 适用于 MS365 的 Onna Discovery
           href: saas/onna-discovery-for-ms365.md
-        - name: 适用于Insights策略Microsoft Office 365
+        - name: 适用于Insights的策略Microsoft Office 365
           href: saas/avepoint-inc-policies-and-insights-for-microsoft-office-365.md
         - name: Priority Matrix
           href: saas/appfluence-inc-priority-matrix.md
@@ -1280,6 +1282,8 @@
           href: azure/3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c.md
         - name: 3e701664-cc46-49e4-b356-1a7ac6500998
           href: azure/3e701664-cc46-49e4-b356-1a7ac6500998.md
+        - name: 3e745135-a761-48a7-ab54-5c0277b2e642
+          href: azure/3e745135-a761-48a7-ab54-5c0277b2e642.md
         - name: 3f1a3775-c192-4e8c-ae48-d70d144a46c2
           href: azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md
         - name: 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d
