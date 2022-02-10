@@ -1,48 +1,48 @@
 ---
-title: Streem 的应用程序信息
+title: 由 Zesavi GmbH 为 Clypp 提供的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/09/2022
+ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Streem 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Clypp 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a46f768877115fc10aec39a683ca630600623f73
+ms.openlocfilehash: 3dd95a6b2c0faf604d3bbe0688103165490cfd14
 ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/10/2022
-ms.locfileid: "62513086"
+ms.locfileid: "62510540"
 ---
-# <a name="streem"></a>Streem
+# <a name="clypp"></a>Clypp
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 2 月 8 日</p>
+<p>开发人员上次更新时间：2021 年 11 月 17 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/608c5480-b3aa-4a0f-8f26-b97715313f4a" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000197" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/34ed2c1e-bccf-463d-8fbc-0403e72e89fc" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003621" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-Streem 提供给 Microsoft 的信息：
+由 Zesavi GmbH 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Streem |
-| ID | WA200000197 |
+| 应用名称 | Clypp |
+| ID | WA200003621 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Streem |
-| 公司网站 | [https://www.streem.com.au](https://www.streem.com.au) |
-| 应用的使用条款 | [https://www.streem.com.au/terms](https://www.streem.com.au/terms) |
-| 应用的核心功能 | Streem 通过收集和分析来自澳大利亚和新西兰的打印、联机、电视、无线电和社交媒体源的内容，提供实时媒体监视服务。 每个新内容&amp;与客户关心的关键字匹配，相关警报和报告通过电子邮件、移动桌面应用程序或与 Slack 和 Microsoft Teams 集成发送。 |
-| 公司总部位置 | 澳大利亚 |
+| 合作伙伴公司名称 | Zesavi GmbH |
+| 公司网站 | [https://zesavi.com](https://zesavi.com) |
+| 应用的使用条款 | [https://zesavi.com/en/impressum/](https://zesavi.com/en/impressum/) |
+| 应用的核心功能 | Zesavi 使公司中的 &amp; 每个人都可以直接在 Internet 浏览器中创建、编辑共享简短视频文档。 |
+| 公司总部位置 | 德国 |
 | 应用信息页面 | |
-| 用于运行应用的托管环境或服务模型是什么？ | Paas |
-| 应用使用哪些托管云提供商？ | GCP |
+| 用于运行应用的托管环境或服务模型是什么？ | Iaas |
+| 应用使用哪些托管云提供商？ | 其他 |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,17 +52,17 @@ Streem 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Streem 提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
+此信息由 Zesavi GmbH 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
+| 数据库中存储了哪些数据？ | 每个用户的对象 ID |
 | 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ |  |
-| 您是否已建立数据访问管理流程？ |  |
+| 你是否已制定数据租用和处置流程？ | 是 |
+| 帐户终止后，数据将保留多久？ | 不保留 |
+| 您是否已建立数据访问管理流程？ | 是 |
 | 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
 | 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
 
@@ -78,7 +78,7 @@ Streem 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 你是否对应用执行年度渗透测试？ | 是 |
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
-| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
+| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
 | 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
@@ -90,7 +90,7 @@ Streem 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络边界) 部署的入侵检测和防护 IDPS 软件？ | 不适用 |
+| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -106,7 +106,7 @@ Streem 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (的健康保险可移植性) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -135,16 +135,17 @@ Streem 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 否 |
-| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
+| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 是 |
+| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
+| 隐私策略 URL | https://zesavi.com/en/datenschutz/ |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
 | 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
-| 应用是否具有根据请求删除个人个人数据的功能？ |  |
-| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
-| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
+| 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
+| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ | 是 |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,9 +155,9 @@ Streem 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 否 |
-| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 否 |
-| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ |  |
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
+| 您是否已查看并遵循了集成清单中列出的所有适用的Microsoft 标识平台做法？ | 是 |
+| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 不适用 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 否 |

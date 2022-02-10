@@ -1,48 +1,48 @@
 ---
-title: Streem 的应用程序信息
+title: Team Central 的应用程序信息（由 Atlassian， Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/09/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Streem 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Team Central 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a46f768877115fc10aec39a683ca630600623f73
+ms.openlocfilehash: 383e6ddbf0e2c0fcf4b427134e12ae33e072a35f
 ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/10/2022
-ms.locfileid: "62513086"
+ms.locfileid: "62510544"
 ---
-# <a name="streem"></a>Streem
+# <a name="team-central"></a>Team Central
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 2 月 8 日</p>
+<p>开发人员上次更新时间：2022 年 2 月 9 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/608c5480-b3aa-4a0f-8f26-b97715313f4a" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000197" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/69883cee-eb8c-41c2-9533-7fdb0762e913" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003760" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-Streem 提供给 Microsoft 的信息：
+由 Atlassian， Inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Streem |
-| ID | WA200000197 |
+| 应用名称 | Team Central |
+| ID | WA200003760 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Streem |
-| 公司网站 | [https://www.streem.com.au](https://www.streem.com.au) |
-| 应用的使用条款 | [https://www.streem.com.au/terms](https://www.streem.com.au/terms) |
-| 应用的核心功能 | Streem 通过收集和分析来自澳大利亚和新西兰的打印、联机、电视、无线电和社交媒体源的内容，提供实时媒体监视服务。 每个新内容&amp;与客户关心的关键字匹配，相关警报和报告通过电子邮件、移动桌面应用程序或与 Slack 和 Microsoft Teams 集成发送。 |
+| 合作伙伴公司名称 | Atlassian， Inc. |
+| 公司网站 | [https://atlassian.com](https://atlassian.com) |
+| 应用的使用条款 | [https://atlassian.com/legal/cloud-terms-of-service](https://atlassian.com/legal/cloud-terms-of-service) |
+| 应用的核心功能 | 在团队中释放良好的沟通 |
 | 公司总部位置 | 澳大利亚 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
-| 应用使用哪些托管云提供商？ | GCP |
+| 应用使用哪些托管云提供商？ | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,7 +52,7 @@ Streem 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Streem 提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
+此信息由 Atlassian， Inc. 提供，有关此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -76,13 +76,13 @@ Streem 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对应用执行年度渗透测试？ | 是 |
+| 你是否对应用执行年度渗透测试？ | 否 |
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
-| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
+| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
 | 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
-| 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
+| 你的环境是否具有任何不受支持的操作系统或软件？ | 是 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
 | 外部网络边界上是否安装了防火墙？ | 是 |
 | 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
@@ -92,7 +92,7 @@ Streem 提供给 Microsoft 的信息：
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
 | 你是否具有在支持 (网络边界) 部署的入侵检测和防护 IDPS 软件？ | 不适用 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
-| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
+| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 否|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
 | 是否建立了正式的信息安全风险管理流程？ | 是 |
 | 您是否已记录并建立了正式的安全事件响应流程？ |  |
@@ -123,8 +123,8 @@ Streem 提供给 Microsoft 的信息：
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育权和隐私) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
-| 应用是否符合 NIST 800-171？ | 不适用 |
+| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 是 |
+| 应用是否符合 NIST 800-171？ | 否 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -135,16 +135,16 @@ Streem 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 否 |
+| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 是 |
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
 | 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
-| 应用是否具有根据请求删除个人个人数据的功能？ |  |
-| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
-| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
+| 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
+| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 不适用 |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ | 不适用 |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,7 +155,7 @@ Streem 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 否 |
-| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 否 |
+| 您是否已查看并遵循了集成清单中列出的所有适用的Microsoft 标识平台做法？ | 否 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ |  |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |

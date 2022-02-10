@@ -1,48 +1,48 @@
 ---
-title: Streem 的应用程序信息
+title: 由系统处理 MetaWorkspace 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/09/2022
+ms.date: 02/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Streem 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: MetaWorkspace 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a46f768877115fc10aec39a683ca630600623f73
+ms.openlocfilehash: 2ff321cba44fc8a215d4e34a4137f04f0df61b9b
 ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/10/2022
-ms.locfileid: "62513086"
+ms.locfileid: "62510543"
 ---
-# <a name="streem"></a>Streem
+# <a name="metaworkspace"></a>MetaWorkspace
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 2 月 8 日</p>
+<p>开发人员上次更新时间：2021 年 11 月 24 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/608c5480-b3aa-4a0f-8f26-b97715313f4a" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000197" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/431b1597-8da3-45ca-9b36-ff245ea7c442" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003747" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-Streem 提供给 Microsoft 的信息：
+由Microsoft 系统提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Streem |
-| ID | WA200000197 |
+| 应用名称 | MetaWorkspace |
+| ID | WA200003747 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Streem |
-| 公司网站 | [https://www.streem.com.au](https://www.streem.com.au) |
-| 应用的使用条款 | [https://www.streem.com.au/terms](https://www.streem.com.au/terms) |
-| 应用的核心功能 | Streem 通过收集和分析来自澳大利亚和新西兰的打印、联机、电视、无线电和社交媒体源的内容，提供实时媒体监视服务。 每个新内容&amp;与客户关心的关键字匹配，相关警报和报告通过电子邮件、移动桌面应用程序或与 Slack 和 Microsoft Teams 集成发送。 |
-| 公司总部位置 | 澳大利亚 |
+| 合作伙伴公司名称 | Wafer Systems |
+| 公司网站 | [https://www.wafersystems.com](https://www.wafersystems.com) |
+| 应用的使用条款 | [https://cloud.rd.virsical.cn/service](https://cloud.rd.virsical.cn/service) |
+| 应用的核心功能 | MetaVisitor&#33268;&#21147;&#20110;&#35775;&#23458;&#19994;&#21153;&#22330;&#26223;&#30340;&#20840;&#36807;&#31243;&#25968;&#23383;&#21270;&#12289;&#26234;&#33021;&#21270;&#65292;&#26500;&#24314;&#20113;&#26102;&#20195;&#30340;&#35775;&#23458;&#39044;&#32422;&#65292;&#21161;&#21147;&#39640;&#25928;&#21150;&#20844;&#12290; |
+| 公司总部位置 | 中国 |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
-| 应用使用哪些托管云提供商？ | GCP |
+| 应用使用哪些托管云提供商？ | Cloud |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,17 +52,19 @@ Streem 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Streem 提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
+此信息由设备系统提供，关于此应用如何收集和存储组织数据，以及你的组织将拥有对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
+| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 是 |
+| 你的应用将处理哪些数据？ | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
+| 数据库中存储了哪些数据？ | 用户名、电子邮件 |
 | 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ |  |
-| 您是否已建立数据访问管理流程？ |  |
+| 你是否已制定数据租用和处置流程？ | 是 |
+| 帐户终止后，数据将保留多久？ | 不保留 |
+| 您是否已建立数据访问管理流程？ | 是 |
 | 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
 | 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
 
@@ -88,9 +90,9 @@ Streem 提供给 Microsoft 的信息：
 | 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
 | 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
-| 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
+| 启用了 MFA (多重) 身份验证： | CodeRepositories |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络边界) 部署的入侵检测和防护 IDPS 软件？ | 不适用 |
+| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -106,7 +108,7 @@ Streem 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (的健康保险可移植性) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -116,13 +118,13 @@ Streem 提供给 Microsoft 的信息：
 | 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
 | 最新 SOC3 认证日期 | |
 | 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 不适用 |
-| 应用程序国际标准化组织 (ISO 27001) 认证？ | 否 |
+| 应用程序国际标准化组织 (ISO 27001) 认证？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
-| 应用是否遵守 FERPA (家庭教育权和隐私) ？ | 不适用 |
-| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
+| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
 | 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
@@ -154,16 +156,20 @@ Streem 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 否 |
-| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 否 |
-| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ |  |
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
+| 您是否已查看并遵循了集成清单中列出的所有适用的Microsoft 标识平台做法？ | 是 |
+| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 不适用 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 否 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
 | 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
->此应用程序不使用 Microsoft Graph。
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
+
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | 应用程序 | &#23637;&#31034;&#29992;&#25143;&#20449;&#24687; | [43067020-c59f-49f8-a532-e84ed3bb5f4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/43067020-c59f-49f8-a532-e84ed3bb5f4e) |
 
 >此应用程序没有其他 API。
 

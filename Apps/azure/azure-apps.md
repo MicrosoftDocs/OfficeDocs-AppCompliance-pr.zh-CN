@@ -2,21 +2,21 @@
 title: Azure 应用 ID 安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/08/2022
+ms.date: 02/10/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Azure 应用 ID 的所有可用安全性和合规性信息。
 localization_priority: Normal
-ms.openlocfilehash: 05cebc8da9059b3e93f3ee0744f0795de52b4bb2
-ms.sourcegitcommit: 27afe4d564e72c28ea073e4b31801ad983aec173
+ms.openlocfilehash: a5ef0359d07634065a31ca28efdba8991e722d61
+ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62474203"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62513336"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Azure 应用 ID 安全性和合规性
 
-Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和告知有关其使用的 Azure 应用 ID 和外接程序的决策所需的信息。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关其使用的 Azure 应用 ID 和外接程序的决策所需的信息。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **Azure 应用 ID** | **发布者证明** | **认证** |
 |:--------|:------------|:-------------:|

@@ -2,17 +2,17 @@
 title: 5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/08/2022
+ms.date: 02/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9 的所有可用安全性和合规性信息。
-ms.openlocfilehash: 03a18cd018572530247218c6608a43a2db893a7d
-ms.sourcegitcommit: 27afe4d564e72c28ea073e4b31801ad983aec173
+ms.openlocfilehash: 3b64a996828c68a031e0feddb60e3fc4e122702f
+ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62476179"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62514488"
 ---
 # <a name="azure-app-id-5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9"></a>Azure 应用 ID：5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9
 
