@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Microsoft 365认证提交指南
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel应用
+    - name: Microsoft Excel 应用
       href: excel/excel-apps.md
       items:
         - name: B2B 合作伙伴的 Canon EMEA 服务成本计算器
@@ -109,7 +109,7 @@
           href: outlook/officeatwork-officeatworkmail-signature-for-outlook.md
         - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Outlook
+        - name: 推广销售Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One for Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -158,7 +158,7 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc适用于SharePoint
+        - name: Arc功能区SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: 标书管理系统
           href: sharepoint/beyond-technologies-bid-management-system.md
@@ -459,7 +459,7 @@
           href: teams/storage-made-easy-file-fabric.md
         - name: Fireflies AI
           href: teams/firefliesai-fireflies-ai.md
-        - name: 防火墙助理
+        - name: 防火墙助手
           href: teams/dewmaker-design-inc-firewall-assistant.md
         - name: FireWatch
           href: teams/infographics-uk-ltd-firewatch.md
@@ -579,6 +579,8 @@
           href: teams/survivef5-gmbh-kudozza.md
         - name: Kunjani
           href: teams/faceboard-pty-ltd-kunjani.md
+        - name: Learnbee
+          href: teams/bsharp-sales-enablers-learnbee.md
         - name: Lexion
           href: teams/lexion.md
         - name: LifeWorks
@@ -807,7 +809,7 @@
           href: teams/sensei-labs-inc-conductor.md
         - name: Senso
           href: teams/senso.md
-        - name: WNI 共享线程
+        - name: 按 WNI 共享线程
           href: teams/wni-shared-thread-by.md
         - name: SHL
           href: teams/shl.md
@@ -1045,7 +1047,7 @@
           href: teams/yucca-technologies-gmbh-yuccahr.md
         - name: Zignals
           href: teams/alight-zignals.md
-    - name: Microsoft Word应用
+    - name: Microsoft Word 应用
       href: word/word-apps.md
       items:
         - name: Adobe Sign for Word and PowerPoint
@@ -1157,7 +1159,7 @@
           href: saas/iglobe-office2sharepoint-for-teams.md
         - name: 适用于 MS365 的 Onna Discovery
           href: saas/onna-discovery-for-ms365.md
-        - name: 适用于Insights的策略Microsoft Office 365
+        - name: 策略和Insights策略Microsoft Office 365
           href: saas/avepoint-inc-policies-and-insights-for-microsoft-office-365.md
         - name: Priority Matrix
           href: saas/appfluence-inc-priority-matrix.md
