@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Microsoft 365认证提交指南
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel 应用
+    - name: Microsoft Excel应用
       href: excel/excel-apps.md
       items:
         - name: B2B 合作伙伴的 Canon EMEA 服务成本计算器
@@ -89,7 +89,7 @@
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (official) '
+        - name: 'Jira Cloud for Outlook (Official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox 期限和事项管理 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
@@ -148,7 +148,7 @@
           href: powerpoint/cherryware-showmaster-helper-plugin.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project 应用
+    - name: Microsoft Project应用
       href: project/project-apps.md
       items:
         - name: officeatwork |模板选择器Office
@@ -158,13 +158,13 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc功能区SharePoint
+        - name: Arc适用于 SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: 标书管理系统
           href: sharepoint/beyond-technologies-bid-management-system.md
         - name: Bizagi Webparts
           href: sharepoint/bizagi-team-webparts.md
-        - name: FormMachines 连接器SharePoint
+        - name: FormMachines Connector for SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: HelloSign for SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
@@ -233,6 +233,8 @@
           href: teams/arrangr-inc.md
         - name: 亚洲
           href: teams/two-app-studio-pte-ltd-asa.md
+        - name: Asana
+          href: teams/asana.md
         - name: ASC Recording Insights
           href: teams/asc-technologies-ag-recording-insights.md
         - name: Assembly
@@ -385,6 +387,8 @@
           href: teams/degreed.md
         - name: DELTAoverC
           href: teams/deltaoverc.md
+        - name: 桌面预订
+          href: teams/tns-consulting-aps-desk-reservations.md
         - name: Desk365
           href: teams/kani-technologies-inc-desk365.md
         - name: Digiplein
@@ -571,6 +575,8 @@
           href: teams/klippas-technologies-inc-kippa.md
         - name: Klaxoon
           href: teams/klaxoon.md
+        - name: 百米尼特
+          href: teams/ernst-klett-verlag-gmbh.md
         - name: Koan
           href: teams/koan-inc.md
         - name: KUDO
@@ -1090,7 +1096,7 @@
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork |验证程序Office
           href: word/officeatwork-officeatworkverifier-for-office.md
-        - name: officeatwork |用于Office
+        - name: officeatwork |Office
           href: word/officeatwork-officeatworkwizard-for-office.md
         - name: RetMig 和 Kommaforslag
           href: word/grammarsoft-aps-retmig-and-kommaforslag.md
@@ -1167,6 +1173,8 @@
           href: saas/salestim.md
         - name: 幻灯片选择器
           href: saas/officeatwork-slide-chooser.md
+        - name: Talkdesk Microsoft Teams 连接器
+          href: saas/talkdesk-inc-microsoft-teams-connector.md
         - name: Template Chooser
           href: saas/officeatwork-template-chooser.md
         - name: 模板选择器浏览器
@@ -1218,6 +1226,8 @@
           href: azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md
         - name: 1064f7e4-a9e2-467d-8d42-f45cc59f145d
           href: azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md
+        - name: 10d8604b-e6ea-4c59-8414-aca1bf1ffda8
+          href: azure/10d8604b-e6ea-4c59-8414-aca1bf1ffda8.md
         - name: 12397cb1-c0e5-42ae-a5be-ca4084aeadd8
           href: azure/12397cb1-c0e5-42ae-a5be-ca4084aeadd8.md
         - name: 14cf575a-fae2-48e2-af39-e3448d3a48bb
@@ -1580,6 +1590,8 @@
           href: azure/c71a6f53-cf0c-426d-a826-cedae8b073f7.md
         - name: c859de61-8a6b-42e6-ba88-f639df33bc72
           href: azure/c859de61-8a6b-42e6-ba88-f639df33bc72.md
+        - name: c9b3645e-2695-46c5-970d-e06f5c74bcfa
+          href: azure/c9b3645e-2695-46c5-970d-e06f5c74bcfa.md
         - name: cb657bc2-9910-4b9c-82a0-6f4f3a47006b
           href: azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md
         - name: cbc8bfef-8dd2-4714-ab18-18e15566b63e
