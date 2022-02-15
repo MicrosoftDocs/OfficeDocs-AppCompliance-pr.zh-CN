@@ -1,48 +1,48 @@
 ---
-title: MGR360 的应用程序信息 （按 MGR360）
+title: OfficeTogether， Inc. 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/14/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: MGR360 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: OfficeTogether 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c07df7dcf3d2554421b2c2d3c92dbaa73501076c
+ms.openlocfilehash: 60fecadc5f9a2fc186e997a8115cf197ee05a2c3
 ms.sourcegitcommit: 9905237eb3270d099820cbf413d64b7cc066dc7c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/15/2022
-ms.locfileid: "62808672"
+ms.locfileid: "62811733"
 ---
-# <a name="mgr360"></a>MGR360
+# <a name="officetogether"></a>OfficeTogether
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 2 月 7 日</p>
+<p>开发人员上次更新时间：2021 年 9 月 9 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/a229e17d-d19a-403b-8ddf-fc44cf8d5462" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003329" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/d75e21dd-41a9-498d-8585-f96a516e8989" target="_blank">在应用商店Teams视图</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003767" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-MGR360 提供给 Microsoft 的信息：
+OfficeTogether， Inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | MGR360 |
-| ID | WA200003329 |
+| 应用名称 | OfficeTogether |
+| ID | WA200003767 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | MGR360 |
-| 公司网站 | [https://mgr360.com](https://mgr360.com) |
-| 应用的使用条款 | [https://mgr360.com/terms-and-conditions](https://mgr360.com/terms-and-conditions) |
-| 应用的核心功能 | 适用于出色的领导的应用。 管理团队&#8217;目标、任务、评论和一对一&#8230;全部位于一处。 |
+| 合作伙伴公司名称 | OfficeTogether， Inc. |
+| 公司网站 | [https://www.officetogether.com](https://www.officetogether.com) |
+| 应用的使用条款 | [https://www.officetogether.com/terms-of-use/](https://www.officetogether.com/terms-of-use/) |
+| 应用的核心功能 | OfficeTogether 是一个计划和 Office 预订平台。 |
 | 公司总部位置 | 美国 |
 | 应用信息页面 | |
-| 用于运行应用的托管环境或服务模型是什么？ | Paas |
-| 应用使用哪些托管云提供商？ | Azure |
+| 用于运行应用的托管环境或服务模型是什么？ | Iaas |
+| 应用使用哪些托管云提供商？ | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,7 +52,7 @@ MGR360 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 MGR360 提供，用于了解此应用如何收集和存储组织数据，以及组织将拥有对应用收集的数据的控制。
+此信息由 OfficeTogether， Inc. 提供，有关此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -60,11 +60,11 @@ MGR360 提供给 Microsoft 的信息：
 | 你的应用将处理哪些数据？ | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
+| 数据库中存储了哪些数据？ | 用户电子邮件、Teams ID、租户 ID |
 | 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ |  |
-| 您是否已建立数据访问管理流程？ |  |
+| 你是否已制定数据租用和处置流程？ | 是 |
+| 帐户终止后，数据将保留多久？ | 少于 30 天 |
+| 您是否已建立数据访问管理流程？ | 是 |
 | 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
 | 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
 
@@ -78,25 +78,25 @@ MGR360 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对应用执行年度渗透测试？ | 否 |
-| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 否 |
-| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
-| 您是否已制定缩进和风险分级安全漏洞的流程？ | 否 |
-| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 否 |
-| 是否根据修补策略 SLA 执行修补程序管理活动？ | 否 |
+| 你是否对应用执行年度渗透测试？ | 是 |
+| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
+| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls、TraditionalAntiMalware |
+| 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
+| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
-| 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 否 |
+| 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
 | 外部网络边界上是否安装了防火墙？ | 是 |
 | 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
 | 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
-| 启用了 MFA (多重) 身份验证： | NoneOfTheAbove |
+| 启用了 MFA (多重) 身份验证： | Credential、CodeRepositories、DNSManagement |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 不适用 |
+| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 否 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
-| 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 否 |
-| 是否建立了正式的信息安全风险管理流程？ | 否 |
+| 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
+| 是否建立了正式的信息安全风险管理流程？ | 是 |
 | 您是否已记录并建立了正式的安全事件响应流程？ |  |
 | 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？| |
 
@@ -108,7 +108,7 @@ MGR360 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 是 |
+| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -124,7 +124,7 @@ MGR360 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
-| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
 | 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
@@ -137,16 +137,17 @@ MGR360 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 否 |
-| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
+| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 是 |
+| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
+| 隐私策略 URL | https://www.officetogether.com/privacy-policy |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据（如营销、 (）中未) ？ | 否 |
 | 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
-| 应用是否具有根据请求删除个人个人数据的功能？ |  |
-| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
-| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
+| 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
+| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ | 是 |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -169,19 +170,18 @@ MGR360 提供给 Microsoft 的信息：
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | 两者 | 支持查看事件和将事件写入用户日历的能力  | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Directory.Read.All | 两者 | 确定可用的会议室  | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Files.Read | 两者 | 支持个人资料图片 | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Group.ReadWrite.All | 两者 | 这是创建任务并放置到组 | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Mail.Read | 两者 | 支持创建日历邀请  | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| MailboxSettings.ReadWrite | 两者 | 允许应用程序为日历事件创建类别 | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Presence.Read.All | 两者 | 读取用户状态信息 | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Tasks.ReadWrite.Shared | 两者 | 读取和写入用户任务和共享任务 | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| User.Read.All | 两者 | 允许应用程序读取用户的完整个人资料，获取姓名、电子邮件、标题 | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| 电子邮件 | 两者 | 允许应用程序读取用户电子邮件地址  | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| offline_access | 两者 | 维护对数据的访问  | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| openid | 两者 | 让用户登录 | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| 个人资料 | 两者 | 查看用户的基本个人资料和个人资料图片 | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
+>| Calendars.ReadWrite | 两者 | 我们使用此权限管理员工的日历，例如同步办公室内天数或管理会议室。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| Group.ReadWrite.All | 应用程序 | 对于进入办公室的所有用户，我们每天创建一个团队供用户聊天和讨论办公室。 管理此权限是必需的  | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| Presence.Read | delegated | 用于将员工的 OfficeTogether 状态同步到Teams。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| Team.ReadBasic.All | 应用程序 | 我们使用此权限来管理创建的每日团队，例如存档这些团队。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| Teams。创建 | 应用程序 | 对于进入办公室的所有用户，我们每天创建一个团队供用户聊天和讨论办公室。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | 应用程序 | 我们的应用是个人应用。 将其安装到公司的单个用户后，我们将自动安装到同一公司中所有注册的 OfficeTogether 用户。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| User.Read | delegated | 将 SSO 放入团队电子邮件中。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| User.ReadWrite.All | 应用程序 | 请参阅 TeamsAppInstallation.ReadWriteSelfForUser.All。 若要为所有相关用户安装 OfficeTogether，我们将扫描目录并匹配用户。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| 电子邮件 | delegated | 将 SSO 放入团队电子邮件中。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| offline_access | delegated | 将 SSO 放入团队电子邮件中。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| openid | delegated | 将 SSO 放入团队电子邮件中。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| 个人资料 | delegated | 将 SSO 放入团队电子邮件中。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
 
 >此应用程序没有其他 API。
 

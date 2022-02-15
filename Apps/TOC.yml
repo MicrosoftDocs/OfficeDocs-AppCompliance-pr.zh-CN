@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Microsoft 365认证提交指南
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel应用
+    - name: Microsoft Excel 应用
       href: excel/excel-apps.md
       items:
         - name: B2B 合作伙伴的 Canon EMEA 服务成本计算器
@@ -144,7 +144,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Showmaster
           href: powerpoint/cherryware-showmaster.md
-        - name: 'Showmaster (帮助程序插件) '
+        - name: 'Showmaster (Helper 插件) '
           href: powerpoint/cherryware-showmaster-helper-plugin.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
@@ -158,13 +158,13 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc适用于 SharePoint
+        - name: Arc→for SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: 标书管理系统
           href: sharepoint/beyond-technologies-bid-management-system.md
         - name: Bizagi Webparts
           href: sharepoint/bizagi-team-webparts.md
-        - name: FormMachines Connector for SharePoint
+        - name: FormMachines 连接器SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: HelloSign for SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
@@ -251,6 +251,8 @@
           href: teams/auditboard.md
         - name: Aula Digital
           href: teams/leya-sa-aula-digital.md
+        - name: Autopilot 工作流
+          href: teams/autopilot-workflow-solutions-workflows.md
         - name: Avaamo IT 助手
           href: teams/avaamo-it-assistant.md
         - name: Axelleron
@@ -387,7 +389,7 @@
           href: teams/degreed.md
         - name: DELTAoverC
           href: teams/deltaoverc.md
-        - name: 桌面预订
+        - name: 桌位预留
           href: teams/tns-consulting-aps-desk-reservations.md
         - name: Desk365
           href: teams/kani-technologies-inc-desk365.md
@@ -575,7 +577,7 @@
           href: teams/klippas-technologies-inc-kippa.md
         - name: Klaxoon
           href: teams/klaxoon.md
-        - name: 百米尼特
+        - name: Klett
           href: teams/ernst-klett-verlag-gmbh.md
         - name: Koan
           href: teams/koan-inc.md
@@ -697,6 +699,8 @@
           href: teams/officespace-software.md
         - name: OfficeSuite
           href: teams/windstream-officesuite.md
+        - name: OfficeTogether
+          href: teams/officetogether-inc.md
         - name: Officevibe
           href: teams/officevibe.md
         - name: OLIVE VLE
