@@ -2,24 +2,24 @@
 title: OfficeTogether， Inc. 的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/14/2022
+ms.date: 02/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: OfficeTogether 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 60fecadc5f9a2fc186e997a8115cf197ee05a2c3
-ms.sourcegitcommit: 9905237eb3270d099820cbf413d64b7cc066dc7c
+ms.openlocfilehash: f291b6d1586c5b119fb01eafc9a18ce867f63646
+ms.sourcegitcommit: e43a258f089034069a6101a3290dc315725762fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62811733"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62832533"
 ---
 # <a name="officetogether"></a>OfficeTogether
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 9 月 9 日</p>
+<p>开发人员上次更新时间：2022 年 2 月 15 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/d75e21dd-41a9-498d-8585-f96a516e8989" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003767" target="_blank">在 AppSource 中查看</a>
@@ -35,7 +35,7 @@ OfficeTogether， Inc. 提供给 Microsoft 的信息：
 | 应用名称 | OfficeTogether |
 | ID | WA200003767 |
 | Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | OfficeTogether， Inc. |
+| 合作伙伴公司名称 | OfficeTogether, Inc. |
 | 公司网站 | [https://www.officetogether.com](https://www.officetogether.com) |
 | 应用的使用条款 | [https://www.officetogether.com/terms-of-use/](https://www.officetogether.com/terms-of-use/) |
 | 应用的核心功能 | OfficeTogether 是一个计划和 Office 预订平台。 |
@@ -82,7 +82,7 @@ OfficeTogether， Inc. 提供给 Microsoft 的信息：
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls、TraditionalAntiMalware |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
@@ -92,7 +92,7 @@ OfficeTogether， Inc. 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | Credential、CodeRepositories、DNSManagement |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 否 |
+| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 和软件？ | 否 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -170,18 +170,18 @@ OfficeTogether， Inc. 提供给 Microsoft 的信息：
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | 两者 | 我们使用此权限管理员工的日历，例如同步办公室内天数或管理会议室。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| Group.ReadWrite.All | 应用程序 | 对于进入办公室的所有用户，我们每天创建一个团队供用户聊天和讨论办公室。 管理此权限是必需的  | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| Presence.Read | delegated | 用于将员工的 OfficeTogether 状态同步到Teams。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| Team.ReadBasic.All | 应用程序 | 我们使用此权限来管理创建的每日团队，例如存档这些团队。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| Teams。创建 | 应用程序 | 对于进入办公室的所有用户，我们每天创建一个团队供用户聊天和讨论办公室。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| TeamsAppInstallation.ReadWriteSelfForUser.All | 应用程序 | 我们的应用是个人应用。 将其安装到公司的单个用户后，我们将自动安装到同一公司中所有注册的 OfficeTogether 用户。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| User.Read | delegated | 将 SSO 放入团队电子邮件中。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| User.ReadWrite.All | 应用程序 | 请参阅 TeamsAppInstallation.ReadWriteSelfForUser.All。 若要为所有相关用户安装 OfficeTogether，我们将扫描目录并匹配用户。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| 电子邮件 | delegated | 将 SSO 放入团队电子邮件中。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| offline_access | delegated | 将 SSO 放入团队电子邮件中。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| openid | delegated | 将 SSO 放入团队电子邮件中。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| 个人资料 | delegated | 将 SSO 放入团队电子邮件中。 | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| Calendars.ReadWrite | 两者 | 我们使用此权限管理员工的日历，例如同步办公室内天数或管理会议室。 | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| Group.ReadWrite.All | 应用程序 | 对于进入办公室的所有用户，我们每天创建一个团队供用户聊天和讨论办公室。 管理此权限是必需的  | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| Presence.Read | delegated | 用于将员工的 OfficeTogether 状态同步到Teams。 | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| Team.ReadBasic.All | 应用程序 | 我们使用此权限来管理创建的每日团队，例如存档这些团队。 | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| Teams。创建 | 应用程序 | 对于进入办公室的所有用户，我们每天创建一个团队供用户聊天和讨论办公室。 | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | 应用程序 | 我们的应用是个人应用。 将其安装到公司的单个用户后，我们将自动安装到同一公司中所有注册的 OfficeTogether 用户。 | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| User.Read | delegated | 将 SSO 放入团队电子邮件中。 | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| User.ReadWrite.All | 应用程序 | 请参阅 TeamsAppInstallation.ReadWriteSelfForUser.All。 若要为所有相关用户安装 OfficeTogether，我们将扫描目录并匹配用户。 | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| 电子邮件 | delegated | 将 SSO 放入团队电子邮件中。 | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| offline_access | delegated | 将 SSO 放入团队电子邮件中。 | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| openid | delegated | 将 SSO 放入团队电子邮件中。 | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| 个人资料 | delegated | 将 SSO 放入团队电子邮件中。 | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
 
 >此应用程序没有其他 API。
 
