@@ -144,7 +144,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Showmaster
           href: powerpoint/cherryware-showmaster.md
-        - name: 'Showmaster (帮助程序插件) '
+        - name: 'Showmaster (Helper 插件) '
           href: powerpoint/cherryware-showmaster-helper-plugin.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
@@ -158,7 +158,7 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc功能区SharePoint
+        - name: Arc→for SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: 标书管理系统
           href: sharepoint/beyond-technologies-bid-management-system.md
@@ -529,6 +529,8 @@
           href: teams/highside-inc.md
         - name: Highspot
           href: teams/highspot.md
+        - name: HitHorizons
+          href: teams/finstat-sro-hithorizons.md
         - name: Hive
           href: teams/hive.md
         - name: HubSite 365
