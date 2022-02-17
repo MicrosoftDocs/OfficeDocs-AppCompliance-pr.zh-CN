@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Microsoft 365认证提交指南
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel 应用
+    - name: Microsoft Excel应用
       href: excel/excel-apps.md
       items:
         - name: B2B 合作伙伴的 Canon EMEA 服务成本计算器
@@ -57,7 +57,7 @@
           href: excel/supermetrics.md
         - name: XBRL 归档数据
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote应用
+    - name: Microsoft OneNote 应用
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork |内容选择器Office
@@ -83,9 +83,9 @@
           href: outlook/evernote.md
         - name: harmon.ie Outlook
           href: outlook/harmonie-corporation-for-outlook.md
-        - name: 展示次数签名Outlook
+        - name: 展示次数的Outlook
           href: outlook/impression-signatures-for-outlook.md
-        - name: iPlanner Office 365 Planner 外接程序Outlook
+        - name: iPlanner Office 365 Planner 外接程序 for Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
@@ -144,7 +144,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Showmaster
           href: powerpoint/cherryware-showmaster.md
-        - name: 'Showmaster (Helper 插件) '
+        - name: 'Showmaster (帮助程序插件) '
           href: powerpoint/cherryware-showmaster-helper-plugin.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
@@ -158,7 +158,7 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc→for SharePoint
+        - name: Arc适用于SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: 标书管理系统
           href: sharepoint/beyond-technologies-bid-management-system.md
@@ -395,6 +395,8 @@
           href: teams/kani-technologies-inc-desk365.md
         - name: Digiplein
           href: teams/educatieve-uitgeversgroep-bv-digiplein.md
+        - name: 学习Boards
+          href: teams/diligent-boards.md
         - name: 通讯组列表专业版
           href: teams/witivio-distribution-lists-pro.md
         - name: do!book CB
@@ -896,7 +898,7 @@
         - name: SurveySparrow
           href: teams/surveysparrow-inc.md
         - name: Svava for Meetings
-          href: teams/svava-ab-for-meetings.md
+          href: teams/svava-for-meetings.md
         - name: SwiftAssess
           href: teams/gamalearn-swiftassess.md
         - name: Switchvox
@@ -949,6 +951,8 @@
           href: teams/ringcentral-inc-telus-business-connect.md
         - name: Template Chooser
           href: teams/officeatwork-template-chooser.md
+        - name: Tendfor
+          href: teams/tendfor.md
         - name: 文本
           href: teams/approved-contact-text.md
         - name: 吸引中心
@@ -1020,7 +1024,7 @@
         - name: Wellness Coach
           href: teams/meditationlive-inc-wellness-coach.md
         - name: Wide Ideas
-          href: teams/wide-ideas.md
+          href: teams/idea2innovation-wide-ideas.md
         - name: Wired2Perform
           href: teams/wired2perform.md
         - name: Wisembly
@@ -1121,6 +1125,8 @@
           href: saas/officeatwork-admin-center.md
         - name: 适用于联系人的热门Teams
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
+        - name: CallCabinet Atmos 合规性记录和分析
+          href: saas/callcabinet-corporation-atmos-compliance-recording-and-analytics.md
         - name: CC4Teams
           href: saas/cc4all-cc4teams.md
         - name: Classroom.cloud
@@ -1151,7 +1157,7 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
-        - name: 适用于 Microsoft Teams 的 Luware 合规性记录
+        - name: Luware 合规性记录Microsoft Teams
           href: saas/luware-ag-compliance-recording-for-microsoft-teams.md
         - name: Luware Nimbus for Microsoft Teams
           href: saas/luware-ag-nimbus-for-microsoft-teams.md
@@ -1169,7 +1175,7 @@
           href: saas/iglobe-office2sharepoint-for-teams.md
         - name: 适用于 MS365 的 Onna Discovery
           href: saas/onna-discovery-for-ms365.md
-        - name: 适用于Insights的策略Microsoft Office 365
+        - name: 适用于Insights策略Microsoft Office 365
           href: saas/avepoint-inc-policies-and-insights-for-microsoft-office-365.md
         - name: Priority Matrix
           href: saas/appfluence-inc-priority-matrix.md
@@ -1240,6 +1246,8 @@
           href: azure/15439749-b811-4e89-b777-4fe6ef247801.md
         - name: 170d42a4-4ec0-4f51-bef0-693c589fccfc
           href: azure/170d42a4-4ec0-4f51-bef0-693c589fccfc.md
+        - name: 17bd2add-67cb-4ffe-b69b-10b130558e89
+          href: azure/17bd2add-67cb-4ffe-b69b-10b130558e89.md
         - name: 192ba193-b68c-464c-a920-7eaa93b59a12
           href: azure/192ba193-b68c-464c-a920-7eaa93b59a12.md
         - name: 1ac9e5c6-4850-4864-96c5-b91e4512334e

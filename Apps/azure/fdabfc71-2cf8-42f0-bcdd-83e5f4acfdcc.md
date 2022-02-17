@@ -2,17 +2,17 @@
 title: 用于 fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/15/2022
+ms.date: 02/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 用于 fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc 的所有可用的安全性和合规性信息。
-ms.openlocfilehash: c1df41fec94e16a7cf7498369c26bb5cbaf29a9a
-ms.sourcegitcommit: 2e7d3c3ce21db674e9964db4a0b5b8794e74142f
+ms.openlocfilehash: e0a95f5af395869031c1c53ec417ec4210a3acf3
+ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62830162"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62877179"
 ---
 # <a name="azure-app-id-fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc"></a>Azure 应用 ID：fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc
 

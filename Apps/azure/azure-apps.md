@@ -2,21 +2,21 @@
 title: Azure 应用 ID 安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/15/2022
+ms.date: 02/16/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Azure 应用 ID 的所有可用安全性和合规性信息。
 localization_priority: Normal
-ms.openlocfilehash: ab4e8d4f90fb457272de2040c6c169938582e285
-ms.sourcegitcommit: 2e7d3c3ce21db674e9964db4a0b5b8794e74142f
+ms.openlocfilehash: ce693de6780dde56f8ce74ad6e5a87f615177098
+ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62830062"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62876457"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Azure 应用 ID 安全性和合规性
 
-Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有关其使用的 Azure 应用 ID 和外接程序的决策所需的信息。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
+Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和告知有关其使用的 Azure 应用 ID 和外接程序的决策所需的信息。 这些有关安全性、数据处理和合规性的信息旨在帮助组织评估和管理使用这些应用时的风险。
 
 | **Azure 应用 ID** | **发布者证明** | **认证** |
 |:--------|:------------|:-------------:|
@@ -43,6 +43,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [14cf575a-fae2-48e2-af39-e3448d3a48bb](./14cf575a-fae2-48e2-af39-e3448d3a48bb.md) | **✓** |  |
 | [15439749-b811-4e89-b777-4fe6ef247801](./15439749-b811-4e89-b777-4fe6ef247801.md) | **✓** |  |
 | [170d42a4-4ec0-4f51-bef0-693c589fccfc](./170d42a4-4ec0-4f51-bef0-693c589fccfc.md) | **✓** |  |
+| [17bd2add-67cb-4ffe-b69b-10b130558e89](./17bd2add-67cb-4ffe-b69b-10b130558e89.md) | **✓** |  |
 | [192ba193-b68c-464c-a920-7eaa93b59a12](./192ba193-b68c-464c-a920-7eaa93b59a12.md) | **✓** |  |
 | [1ac9e5c6-4850-4864-96c5-b91e4512334e](./1ac9e5c6-4850-4864-96c5-b91e4512334e.md) | **✓** |  |
 | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](./1b81b79d-10ff-4614-81cc-5ac3dc64a40c.md) | **✓** |  |
