@@ -57,6 +57,8 @@
           href: excel/supermetrics.md
         - name: XBRL 归档数据
           href: excel/xbrl-us-filed-data.md
+        - name: 用于 Excel 的 ZEMA
+          href: excel/ze-powergroup-zema-for-excel.md
     - name: Microsoft OneNote 应用
       href: onenote/onenote-apps.md
       items:
@@ -83,13 +85,13 @@
           href: outlook/evernote.md
         - name: harmon.ie Outlook
           href: outlook/harmonie-corporation-for-outlook.md
-        - name: 展示次数的Outlook
+        - name: 展示次数签名Outlook
           href: outlook/impression-signatures-for-outlook.md
-        - name: iPlanner Office 365 Planner 外接程序 for Outlook
+        - name: iPlanner Office 365 Planner 外接程序Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (Official) '
+        - name: 'Jira Cloud for Outlook (official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox 期限和事项管理 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
@@ -109,7 +111,7 @@
           href: outlook/officeatwork-officeatworkmail-signature-for-outlook.md
         - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: 推广销售Outlook
+        - name: Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One for Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -158,7 +160,7 @@
       items:
         - name: Adobe Sign for SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: Arc适用于SharePoint
+        - name: Arc→for SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: 标书管理系统
           href: sharepoint/beyond-technologies-bid-management-system.md
@@ -395,7 +397,7 @@
           href: teams/kani-technologies-inc-desk365.md
         - name: Digiplein
           href: teams/educatieve-uitgeversgroep-bv-digiplein.md
-        - name: 学习Boards
+        - name: 勤奋的 Boards
           href: teams/diligent-boards.md
         - name: 通讯组列表专业版
           href: teams/witivio-distribution-lists-pro.md
@@ -829,6 +831,8 @@
           href: teams/shl.md
         - name: Shortlinks
           href: teams/chitchattr-shortlinks.md
+        - name: SightCall
+          href: teams/sightcall.md
         - name: SIGNL4
           href: teams/derdack-signl4.md
         - name: Simple In/Out
@@ -1061,7 +1065,7 @@
           href: teams/yucca-technologies-gmbh-yuccahr.md
         - name: Zignals
           href: teams/alight-zignals.md
-    - name: Microsoft Word应用
+    - name: Microsoft Word 应用
       href: word/word-apps.md
       items:
         - name: Adobe Sign for Word and PowerPoint
@@ -1157,7 +1161,7 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
-        - name: Luware 合规性记录Microsoft Teams
+        - name: 适用于测试的 Luware 合规性Microsoft Teams
           href: saas/luware-ag-compliance-recording-for-microsoft-teams.md
         - name: Luware Nimbus for Microsoft Teams
           href: saas/luware-ag-nimbus-for-microsoft-teams.md
@@ -1175,7 +1179,7 @@
           href: saas/iglobe-office2sharepoint-for-teams.md
         - name: 适用于 MS365 的 Onna Discovery
           href: saas/onna-discovery-for-ms365.md
-        - name: 适用于Insights策略Microsoft Office 365
+        - name: 适用于Insights的策略Microsoft Office 365
           href: saas/avepoint-inc-policies-and-insights-for-microsoft-office-365.md
         - name: Priority Matrix
           href: saas/appfluence-inc-priority-matrix.md
@@ -1572,6 +1576,8 @@
           href: azure/b5d4e933-e001-4168-83f8-abdd974877bd.md
         - name: b6e2ef19-7612-4ab7-a700-9669d49b88b9
           href: azure/b6e2ef19-7612-4ab7-a700-9669d49b88b9.md
+        - name: b7e8237f-d86d-4874-8f8b-7faa8f768436
+          href: azure/b7e8237f-d86d-4874-8f8b-7faa8f768436.md
         - name: b8e57f6b-31cf-468e-9e99-81f0395cb1f9
           href: azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md
         - name: b9604964-9c3a-483e-abf2-1b5cba495081
@@ -1668,6 +1674,8 @@
           href: azure/eb668aa5-abb2-445c-81b4-3c174db84fe2.md
         - name: edb24f8f-38af-4b3e-9475-0da243678d5a
           href: azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md
+        - name: ef5fa233-c0bb-424e-b9dc-0466d46bade2
+          href: azure/ef5fa233-c0bb-424e-b9dc-0466d46bade2.md
         - name: f0199b83-0ca3-4b41-a23b-d9b234484438
           href: azure/f0199b83-0ca3-4b41-a23b-d9b234484438.md
         - name: f121a92d-d9a9-43fd-be70-f7a47ff83d4f
