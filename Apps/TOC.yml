@@ -87,15 +87,15 @@
           href: outlook/harmonie-corporation-for-outlook.md
         - name: 展示次数签名Outlook
           href: outlook/impression-signatures-for-outlook.md
-        - name: iPlanner Office 365 Planner 外接程序Outlook
+        - name: iPlanner Office 365 Planner 外接程序 for Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: 'Jira Cloud for Outlook (official) '
+        - name: 'Jira Cloud for Outlook (Official) '
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
-        - name: LawToolBox 期限和事项管理 - Outlook
+        - name: LawToolBox 截止时间和管理事项 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: LawToolBox 期限和事项管理 - Outlook
+        - name: LawToolBox 截止时间和管理事项 - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
         - name: Mailbutler
           href: outlook/mailbutler.md
@@ -150,7 +150,7 @@
           href: powerpoint/cherryware-showmaster-helper-plugin.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project应用
+    - name: Microsoft Project 应用
       href: project/project-apps.md
       items:
         - name: officeatwork |模板选择器Office
@@ -879,6 +879,8 @@
           href: teams/standuply-inc.md
         - name: 装订
           href: teams/crowd-cast-ltd-staple.md
+        - name: 百万
+          href: teams/starbucks.md
         - name: StealthMail
           href: teams/stealthmail-software-ltd.md
         - name: Streem
@@ -1606,6 +1608,8 @@
           href: azure/c36d31a2-8de1-4eb5-9e7d-01da45244c04.md
         - name: c4e4c98c-f859-4682-89a5-48b66838c496
           href: azure/c4e4c98c-f859-4682-89a5-48b66838c496.md
+        - name: c5312ffd-d146-4515-89e0-b43fa5282368
+          href: azure/c5312ffd-d146-4515-89e0-b43fa5282368.md
         - name: c5da92a9-873e-4ea1-86c7-03ec9c1384f0
           href: azure/c5da92a9-873e-4ea1-86c7-03ec9c1384f0.md
         - name: c71a6f53-cf0c-426d-a826-cedae8b073f7
