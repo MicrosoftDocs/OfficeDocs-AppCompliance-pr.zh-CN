@@ -2,17 +2,17 @@
 title: 6f5cab29-c1ad-4048-bf96-fdbe54dba6ba 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/18/2022
+ms.date: 03/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 6f5cab29-c1ad-4048-bf96-fdbe54dba6ba 的所有可用安全性和合规性信息。
-ms.openlocfilehash: 7eb1d239e56d54f9d12b8a970610bd871cbb41c8
-ms.sourcegitcommit: 777bb0494027ce5382c2d0cb42415910c112b56e
+ms.openlocfilehash: f24e5ef98ed5ff5392a8691867f45dbf5ba5bc6d
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62900232"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63078346"
 ---
 # <a name="azure-app-id-6f5cab29-c1ad-4048-bf96-fdbe54dba6ba"></a>Azure 应用 ID：6f5cab29-c1ad-4048-bf96-fdbe54dba6ba
 
