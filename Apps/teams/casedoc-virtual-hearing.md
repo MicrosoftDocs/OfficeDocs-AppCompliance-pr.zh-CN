@@ -2,18 +2,19 @@
 title: Casedoc 虚拟听力的应用程序信息
 ms.author: elmalova
 author: elenamalova
+ms.manager: tonybal
 ms.date: 03/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Casedoc 虚拟听力的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7235bc36a986a6ff254525d130f5fbd77ef7e0ac
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: b9d0b7d3800ad464cc49ab2afc7af483dd0de24b
+ms.sourcegitcommit: 0bd8c5bf11934d14ea75ec30388534345dcb02a5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63078056"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63424640"
 ---
 # <a name="casedoc-virtual-hearing"></a>Casedoc 虚拟听觉
 
@@ -40,7 +41,7 @@ Casedoc 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://casedoc.com/wp-content/uploads/2021/07/Casedoc_Term...](https://casedoc.com/wp-content/uploads/2021/07/Casedoc_Terms_of_Use_2021.pdf) |
 | 应用的核心功能 | 将Microsoft Teams会议转换为听觉。 免费Microsoft Teams用户 |
 | 公司总部位置 | 冰岛 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://casedoc.com/virtual-hearing-for-microsoft-teams](https://casedoc.com/virtual-hearing-for-microsoft-teams) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -57,14 +58,7 @@ Casedoc 提供了此信息，这些信息与此应用程序如何收集和存储
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ |  |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -167,20 +161,20 @@ Casedoc 提供了此信息，这些信息与此应用程序如何收集和存储
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| AppCatalog.ReadWrite.All | delegated | 将应用程序目录中的应用程序添加到会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Calendars.ReadWrite | delegated | 能够订阅会议更新 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Calendars.ReadWrite | 应用程序 | 能够创建会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Directory.ReadWrite.All | 应用程序 | 能够创建与会议关联的组 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Files.ReadWrite.All | delegated | 允许用户将文件上载到会议组 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Files.ReadWrite.All | 应用程序 | 允许应用程序将会议数据上载到会议组 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Group.ReadWrite.All | 应用程序 | 允许应用程序创建与会议关联的组 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| MailboxSettings.Read | 应用程序 | 允许应用程序读取用户时区 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| OnlineMeetings.ReadWrite | delegated | 启用会议类型标记 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsAppInstallation.ReadForUser | delegated | 将应用程序添加到会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsAppInstallation.ReadWriteSelfForUser | delegated | 将应用程序添加到会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsTab.Create | delegated | 将应用程序添加到会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsTab.ReadWrite.All | delegated | 将应用程序添加到会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| User.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取用户配置文件 | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| AppCatalog.ReadWrite.All | delegated | 将应用程序目录中的应用程序添加到会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Calendars.ReadWrite | delegated | 能够订阅会议更新 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Calendars.ReadWrite | 应用程序 | 能够创建会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Directory.ReadWrite.All | 应用程序 | 能够创建与会议关联的组 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Files.ReadWrite.All | delegated | 允许用户将文件上载到会议组 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Files.ReadWrite.All | 应用程序 | 允许应用程序将会议数据上载到会议组 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Group.ReadWrite.All | 应用程序 | 允许应用程序创建与会议关联的组 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| MailboxSettings.Read | 应用程序 | 允许应用程序读取用户时区 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| OnlineMeetings.ReadWrite | delegated | 启用会议类型标记 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsAppInstallation.ReadForUser | delegated | 将应用程序添加到会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsAppInstallation.ReadWriteSelfForUser | delegated | 将应用程序添加到会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsTab.Create | delegated | 将应用程序添加到会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsTab.ReadWrite.All | delegated | 将应用程序添加到会议 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| User.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取用户配置文件 | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 
 >此应用程序没有其他 API。
 
