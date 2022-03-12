@@ -2,19 +2,19 @@
 title: Adobe Systems Inc. 的 Adobe Acrobat 应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.manager: tonybal
+manager: tonybal
 ms.date: 03/09/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Adobe Acrobat 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3a2bf567352c8d039d02314f0a7909be84e28f7f
-ms.sourcegitcommit: 0bd8c5bf11934d14ea75ec30388534345dcb02a5
+ms.openlocfilehash: b94696ec95be7b58f03aaa048169e7c5b6cd89a0
+ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63425260"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63459315"
 ---
 # <a name="adobe-acrobat"></a>Adobe Acrobat
 

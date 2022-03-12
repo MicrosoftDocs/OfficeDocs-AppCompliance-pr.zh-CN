@@ -2,24 +2,25 @@
 title: Cloudwell 日历覆盖的应用程序信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/25/2022
+manager: tonybal
+ms.date: 03/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 日历覆盖层的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: beabfa708d3a10d6bda1ca7df248dc5cd26784ba
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: a623b5e2887f0e08cdf5939e63dabd91ca47033a
+ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081038"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63454267"
 ---
 # <a name="calendar-overlay"></a>日历覆盖层
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 2 月 24 日</p>
+<p>开发人员上次更新时间：2022 年 3 月 10 日</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003806" target="_blank">在 AppSource 中查看</a>
 
@@ -39,7 +40,7 @@ Cloudwell 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://cwlicensingprod.blob.core.windows.net/termsofuse/St...](https://cwlicensingprod.blob.core.windows.net/termsofuse/StandardContractMarch2019.pdf) |
 | 应用的核心功能 | 日历覆盖 Web 部件允许你在一SharePoint查看所有 Microsoft Exchange、Planner 和事件！ |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://cloudwell.io/products/calendar-overlay](https://cloudwell.io/products/calendar-overlay) |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -61,8 +62,8 @@ Cloudwell 提供了此信息，这些信息与此应用程序如何收集和存�
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | 用户电子邮件地址、用户租户 ID |
 | 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ | 否 |
-| 帐户终止后，数据将保留多久？ | 少于 90 天 |
+| 你是否已制定数据租用和处置流程？ | 是 |
+| 帐户终止后，数据将保留多久？ | 少于 30 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
 | 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
 | 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
