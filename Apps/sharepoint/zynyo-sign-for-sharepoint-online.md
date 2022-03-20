@@ -1,21 +1,22 @@
 ---
-title: Zynyo Online SharePoint Zynyo 的应用程序信息
+title: Zynyo For SharePoint Online 的 Zynyo 签名的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 适用于 SharePoint Online 的 Zynyo Sign 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9b36b38e24a421f4bd39d935b6506c87ea67a0e
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 451bf9e9e325e4d0f9f2269598c82d5067d4ba45
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200597"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553251"
 ---
-# <a name="zynyo-sign-for-sharepoint-online"></a>Zynyo Sign for SharePoint Online
+# <a name="zynyo-sign-for-sharepoint-online"></a>Zynyo 登录 SharePoint Online
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,15 +32,15 @@ Zynyo 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Zynyo Sign for SharePoint Online |
+| 应用名称 | Zynyo 登录 SharePoint Online |
 | ID | WA200003673 |
-| Office 365支持的客户端 | SharePoint 2016 或更高版本 |
+| Office 365客户端 | SharePoint 2016 或更高版本 |
 | 合作伙伴公司名称 | Zynyo |
 | 公司网站 | [https://zynyo.com](https://zynyo.com) |
 | 应用的使用条款 | [https://zynyo.com/Algemene%20Voorwaarden%20Zynyo%20BV.pdf](https://zynyo.com/Algemene%20Voorwaarden%20Zynyo%20BV.pdf) |
 | 应用的核心功能 | Alle documenten eenvoudig en rechtsgeldig digitaal laten ondertekenen. |
 | 公司总部位置 | 荷兰 ()  |
-| 应用信息页面 | |
+| 应用信息页面 | [https://zynyo.com/signing-service-diensten/sharepoint/](https://zynyo.com/signing-service-diensten/sharepoint/) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | 其他 |
 
@@ -91,7 +92,7 @@ Zynyo 提供了此信息，这些信息与此应用程序如何收集和存储�
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络边界) 部署的入侵检测和防护 IDPS 和软件？ | 不适用 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 不适用 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -107,7 +108,7 @@ Zynyo 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
@@ -121,10 +122,10 @@ Zynyo 提供了此信息，这些信息与此应用程序如何收集和存储�
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理计划 (是否) 合规性？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 是 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 是 |
-| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 是 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 是 |
 | 应用是否符合 NIST 800-171？ | 是 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -146,7 +147,7 @@ Zynyo 提供了此信息，这些信息与此应用程序如何收集和存储�
 | 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
 | 该应用是否向个人提供更正或更新其个人数据的能力？ | 是 |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私) ，以确定与应用个人数据处理相关的风险？ | 是 |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -163,7 +164,7 @@ Zynyo 提供了此信息，这些信息与此应用程序如何收集和存储�
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 否 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 >此应用程序不使用 Microsoft Graph。
 
