@@ -2,18 +2,19 @@
 title: 由Pro联系人的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 03/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: CSA STAR 注册表中有关联系人Pro、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息和安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ca10bb626f33ce2c4b5bafc618c784b46fe3e1e7
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 9c5744d35076dbe6453a54dae466f99856e23030
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63080256"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544130"
 ---
 # <a name="contacts-pro"></a>Contacts Pro
 
@@ -61,7 +62,7 @@ ms.locfileid: "63080256"
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | 联系人 |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 爱尔兰 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 60 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
@@ -170,11 +171,11 @@ ms.locfileid: "63080256"
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
->| 电子邮件 | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
->| offline_access | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
->| openid | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
->| 个人资料 | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
+>| User.Read | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](../azure/b2380441-bb33-439e-bf4a-8cd277dcebc8.md) |
+>| 电子邮件 | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](../azure/b2380441-bb33-439e-bf4a-8cd277dcebc8.md) |
+>| offline_access | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](../azure/b2380441-bb33-439e-bf4a-8cd277dcebc8.md) |
+>| openid | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](../azure/b2380441-bb33-439e-bf4a-8cd277dcebc8.md) |
+>| profile | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](../azure/b2380441-bb33-439e-bf4a-8cd277dcebc8.md) |
 
 >此应用程序没有其他 API。
 

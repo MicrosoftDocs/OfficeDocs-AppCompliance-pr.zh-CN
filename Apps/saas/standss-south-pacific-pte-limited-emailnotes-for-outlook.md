@@ -2,24 +2,25 @@
 title: 代表 Outlook Senotes for (PTE Limited 的 EmailNotes) 信息
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/10/2022
+manager: tonybal
+ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: 适用于 Outlook 电子邮件的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d1287dc50181b69c6f1d8f3f31b43c84db569641
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 4bd54849249220757f9c657380716ea27e7ac499
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63076186"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541380"
 ---
 # <a name="emailnotes-for-outlook"></a>EmailNotes for Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 1 月 17 日</p>
+<p>开发人员上次更新时间：2021 年 11 月 28 日</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/standsssouthpacificltd1581455821226.emailnotes" target="_blank">在 AppSource 中查看</a>
 
@@ -38,7 +39,7 @@ ms.locfileid: "63076186"
 | 应用的使用条款 | [https://www.standss.com/sendguard_m365/terms_conditions.htm](https://www.standss.com/sendguard_m365/terms_conditions.htm) |
 | 应用的核心功能 | SendGuard for Outlook M365 是一种风险和合规性工具，用于检测、提示、警告和保护用户，防止向意外收件人发送敏感、机密或不当信息 |
 | 公司总部位置 | 斐济 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://www.standss.com/sendguard_m365/default.htm](https://www.standss.com/sendguard_m365/default.htm) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -57,14 +58,7 @@ ms.locfileid: "63076186"
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 是 |
 | 你的应用将处理哪些数据？ | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ |  |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -169,11 +163,11 @@ ms.locfileid: "63076186"
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated | 从主题、正文、附加到会议请求的附件内容中读取内容  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| Mail.ReadWrite | delegated | 从主题、正文、附加到邮件项目的附件内容中读取内容  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| User.Read | delegated | 这是读取用户数据以验证其域/用户帐户的许可信息 | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| openid | delegated | SSO 单一登录 (SSO) 的要求 | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| 个人资料 | delegated | SSO 单一登录 (SSO) 的要求 | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| Calendars.ReadWrite | delegated | 从主题、正文、附加到会议请求的附件内容中读取内容  | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| Mail.ReadWrite | delegated | 从主题、正文、附加到邮件项目的附件内容中读取内容  | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| User.Read | delegated | 这是读取用户数据以验证其域/用户帐户的许可信息 | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| openid | delegated | SSO 单一登录 (SSO) 的要求 | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| profile | delegated | SSO 单一登录 (SSO) 的要求 | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
 
 >此应用程序没有其他 API。
 

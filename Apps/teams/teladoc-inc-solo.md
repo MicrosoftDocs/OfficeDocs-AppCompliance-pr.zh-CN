@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: 所有 Available security and compliance information for 一致性、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e10502dc12daa3bf5c64fbc9bf59f06168d56105
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: ee5b3a7dda8caaefd5584af648d1a177058695b1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470133"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544160"
 ---
-# <a name="solo"></a>单曲
+# <a name="solo"></a>Solo
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,10 +33,10 @@ Teladoc， Inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 单曲 |
+| 应用名称 | Solo |
 | ID | WA200003826 |
 | Office 365客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Teladoc， Inc. |
+| 合作伙伴公司名称 | Teladoc, Inc. |
 | 公司网站 | [https://www.teladochealth.com/platform/](https://www.teladochealth.com/platform/) |
 | 应用的使用条款 | [https://www.teladochealth.com/terms-and-conditions/](https://www.teladochealth.com/terms-and-conditions/) |
 | 应用的核心功能 | 具有可配置服务和患者工作流的虚拟医疗平台。 |
@@ -62,7 +62,7 @@ Teladoc， Inc. 提供给 Microsoft 的信息：
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | 用户的对象 ID 和租户的租户 ID |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 美国 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 90 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
@@ -171,15 +171,15 @@ Teladoc， Inc. 提供给 Microsoft 的信息：
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| AppCatalog.Read.All | delegated | 获取侧窗格应用的目录应用程序 ID，以及将其安装在计划的电话会议约会中 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| CallRecords.Read.All | 应用程序 | 确保与电话会议约会相关的呼叫的呼叫质量 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| OnlineMeetings.ReadWrite | delegated | 在自定义应用中安装主机 sidePanel，将患者加入约会 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| TeamsActivity.Send | 应用程序 | 远程约会的会话信号结束。 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| User.Read | delegated | 来自应用程序的应用程序 SSO Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| 电子邮件 | delegated | 来自应用程序的应用程序 SSO Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| offline_access | delegated | 来自应用程序的应用程序 SSO Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| openid | delegated | 来自应用程序的应用程序 SSO Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| profile | delegated | oid 和 tid 用于映射一个"Teams"帐户，因此Teams可以查看其远程约会 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
+>| AppCatalog.Read.All | delegated | 获取侧窗格应用的目录应用程序 ID，以及将其安装在计划的电话会议约会中 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| CallRecords.Read.All | 应用程序 | 确保与电话会议约会相关的呼叫的呼叫质量 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| OnlineMeetings.ReadWrite | delegated | 在自定义应用中安装主机 sidePanel，将患者加入约会 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| TeamsActivity.Send | 应用程序 | 远程约会的会话信号结束。 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| User.Read | delegated | 来自应用程序的应用程序 SSO Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| 电子邮件 | delegated | 来自应用程序的应用程序 SSO Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| offline_access | delegated | 来自应用程序的应用程序 SSO Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| openid | delegated | 来自应用程序的应用程序 SSO Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| profile | delegated | oid 和 tid 用于映射一个"Teams"帐户，因此Teams可以查看其远程约会 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
 
 >此应用程序没有其他 API。
 

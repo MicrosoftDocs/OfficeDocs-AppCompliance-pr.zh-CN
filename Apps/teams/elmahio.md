@@ -1,13 +1,20 @@
 ---
-title: 按用户 elmah.io 的应用程序 elmah.io
+title: 应用程序应用程序 elmah.io 的信息 elmah.io
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 所有可用的安全与合规性信息 elmah.io、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: e3250fd5c8cbbc90aeaf33766f70bbb5b5573343
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544780"
 ---
 # <a name="elmahio"></a>elmah.io
 
@@ -28,13 +35,13 @@ zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 |:----------------|:-------------|
 | 应用名称 | elmah.io |
 | ID | WA104381965 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | elmah.io |
 | 公司网站 | [https://elmah.io](https://elmah.io) |
 | 应用的使用条款 | [https://elmah.io/legal/terms-of-use/](https://elmah.io/legal/terms-of-use/) |
 | 应用的核心功能 | elmah.io .NET Web 开发人员的错误日志记录和正常运行时间监视服务。 elmah.io 与所有主要 Web 和日志记录框架集成，并跨 Web、Windows和移动应用程序提供广泛的监视体验。 |
 | 公司总部位置 | 丹麦 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure、Aws |
 
@@ -76,7 +83,7 @@ zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls、TraditionalAntiMalware |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 否 |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 否 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 否 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
@@ -86,7 +93,7 @@ zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -102,7 +109,7 @@ zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 否 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 否 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 否 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
@@ -116,10 +123,10 @@ zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (法案) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -135,8 +142,8 @@ zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://elmah.io/legal/privacy-policy/ |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
@@ -158,7 +165,7 @@ zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 否 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 >此应用程序不使用 Microsoft Graph。
 

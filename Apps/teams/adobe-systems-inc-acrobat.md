@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Adobe Acrobat 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b94696ec95be7b58f03aaa048169e7c5b6cd89a0
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: 015ddceffb9bf0a0a7a45bdff8ac0f4ddbb9faad
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459315"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544030"
 ---
 # <a name="adobe-acrobat"></a>Adobe Acrobat
 
@@ -62,7 +62,7 @@ Adobe Systems Inc. 提供给 Microsoft 的信息：
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | tenant_id、upn_hash、profile_and_token_info、oauth_state、ims_login_changed_at、preference_data、updated_at、created_at、expires_at |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 美国 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 30 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
@@ -171,13 +171,13 @@ Adobe Systems Inc. 提供给 Microsoft 的信息：
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite.All | delegated | 能够列出和浏览用户的最近、OneDrive和Teams频道的文件和文件夹。 我们允许用户访问这些文件、使用它们对这些文件执行操作，以及将文件保存回其存储。 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| Team.ReadBasic.All | delegated | 读取团队的名称和说明 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| User.Read | delegated | 登录并读取用户个人资料 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| 电子邮件 | delegated | 查看用户的电子邮件地址 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| offline_access | delegated | 保持对已给定数据的访问权限 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| openid | delegated | 让用户登录 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| 个人资料 | delegated | 查看用户基本个人资料 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| Files.ReadWrite.All | delegated | 能够列出和浏览用户的最近、OneDrive和Teams频道的文件和文件夹。 我们允许用户访问这些文件、使用它们对这些文件执行操作，以及将文件保存回其存储。 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| Team.ReadBasic.All | delegated | 读取团队的名称和说明 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| User.Read | delegated | 登录并读取用户个人资料 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| 电子邮件 | delegated | 查看用户的电子邮件地址 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| offline_access | delegated | 保持对已给定数据的访问权限 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| openid | delegated | 让用户登录 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| profile | delegated | 查看用户基本个人资料 | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
 
 >此应用程序没有其他 API。
 

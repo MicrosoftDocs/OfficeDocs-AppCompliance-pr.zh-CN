@@ -2,20 +2,21 @@
 title: 由 Ernst 提供用于表示其应用程序的应用程序信息（由 Ernst 提供）的百分号 Verlag GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 所有可用的适用于 WindowsEtt 的安全和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 所有可用的适用于以下项的安全与合规性信息：为"Microsoft Cloud App Security"、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e1a5e3b691fb1face8b122f028146bb34e92a705
-ms.sourcegitcommit: 49991df115de43a1e5e5579ebef4ebc71df29fae
+ms.openlocfilehash: 3a9842883f221d7a51af14ea7db73ef0ea47e273
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62795758"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541310"
 ---
-# <a name="klett"></a>百米尼特
+# <a name="klett"></a>Klett
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,17 +33,16 @@ Ernst 为 Microsoft 提供的信息：由 Ernst 提供，由 Microsoft 提供：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 百米尼特 |
+| 应用名称 | Klett |
 | ID | WA200003716 |
-| Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Ernst 表示其 Verlag GmbH |
+| Office 365客户端 | Microsoft Teams |
+| 合作伙伴公司名称 | Ernst Klett Verlag GmbH |
 | 公司网站 | [https://www.klett.de/index/](https://www.klett.de/index/) |
 | 应用的使用条款 | [https://www.klett.de/inhalt/rechtliches/nutzungsbedingungen...](https://www.klett.de/inhalt/rechtliches/nutzungsbedingungen-fuer-digitale-inhalte-und-online-services/6931) |
 | 应用的核心功能 | Bequemer Zugriff auf die digitalen Produkte passend zum Schulbuch |
 | 公司总部位置 | 德国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://www.klett.de/inhalt/217167](https://www.klett.de/inhalt/217167) |
 | 用于运行应用的托管环境或服务模型是什么？ | IsvHosted |
-| 应用使用哪些托管云提供商？ |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,14 +57,7 @@ Ernst 为 Microsoft 提供的信息：由 Ernst 提供，由 Microsoft 提供：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ |  |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -90,7 +83,7 @@ Ernst 为 Microsoft 提供的信息：由 Ernst 提供，由 Microsoft 提供：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 否 |
 | 启用了 MFA (多重) 身份验证： | Credential、DNSManagement、CodeRepositories |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 和软件？ | 否 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 否 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -106,7 +99,7 @@ Ernst 为 Microsoft 提供的信息：由 Ernst 提供，由 Microsoft 提供：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -120,10 +113,10 @@ Ernst 为 Microsoft 提供的信息：由 Ernst 提供，由 Microsoft 提供：
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -139,7 +132,7 @@ Ernst 为 Microsoft 提供的信息：由 Ernst 提供，由 Microsoft 提供：
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://www.klett.de/datenschutz |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销、 (）中未) ？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
 | 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 否 |

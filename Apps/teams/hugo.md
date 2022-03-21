@@ -2,18 +2,19 @@
 title: 用于为用户提供的应用程序信息（按百万）
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 所有可用的针对 Windows 的安全和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 所有可用于为用户提供的 Security and compliance 信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 408d46c4352292e2c5ad4320675f0283fc65dc16
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d05c1839ed59c6308ab621f6e3114e262e6f4e4a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147526"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542970"
 ---
 # <a name="hugo"></a>Hugo
 
@@ -34,15 +35,14 @@ ms.locfileid: "62147526"
 |:----------------|:-------------|
 | 应用名称 | Hugo |
 | ID | WA200003616 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Hugo |
 | 公司网站 | [https://www.hugo.team](https://www.hugo.team) |
 | 应用的使用条款 | [https://www.hugo.team/terms](https://www.hugo.team/terms) |
-| 应用的核心功能 | 对于专为使用 Microsoft Teams 的团队而设计的会议、&#8211;和任务，都可使用 Microsoft Teams。 通过以日历为中心的笔记记录平台，你和团队可以集中处理会议议程和笔记、任务和操作&#8211;所有由你开会的联系人和公司自动组织，并连接到你每天使用的 20 多个应用。 |
+| 应用的核心功能 | 对于专为使用 &#8211; 的团队而设计的会议、笔记和任务，Microsoft Teams。 通过以日历为中心的笔记记录平台，你和团队可以集中处理会议议程和笔记、任务和操作&#8211;所有由你开会的联系人和公司自动组织，并连接到你每天使用的 20 多个应用。 |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://www.hugo.team/teams](https://www.hugo.team/teams) |
 | 用于运行应用的托管环境或服务模型是什么？ | IsvHosted |
-| 应用使用哪些托管云提供商？ |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -92,7 +92,7 @@ ms.locfileid: "62147526"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | DNSManagement、Credential、CodeRepositories |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -108,7 +108,7 @@ ms.locfileid: "62147526"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 否 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 否 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 否 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
@@ -122,9 +122,9 @@ ms.locfileid: "62147526"
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 否 |
-| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
 | 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 否 |
 | 应用是否符合 NIST 800-171？ | 否 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
@@ -142,7 +142,7 @@ ms.locfileid: "62147526"
 | 隐私策略 URL | https://www.hugo.team/privacy |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |

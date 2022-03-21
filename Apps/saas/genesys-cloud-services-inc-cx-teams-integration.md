@@ -2,18 +2,19 @@
 title: 由百年云服务公司Teams云 CX 集成的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 有关部署云 CX Teams 集成的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 673c8bbc637288ae5c92c3367445893586523af9
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 81ddd4b2bcaaf688b5a95d6351673d3cad19a352
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081075"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541820"
 ---
 # <a name="genesys-cloud-cx-teams-integration"></a>百年云 CX Teams集成
 
@@ -38,7 +39,7 @@ ms.locfileid: "63081075"
 | 应用的使用条款 | [https://help.mypurecloud.com/articles/global-genesys-cloud-...](https://help.mypurecloud.com/articles/global-genesys-cloud-service-terms-and-conditions/) |
 | 应用的核心功能 | 用于云云的&#8482; 集成Microsoft Teams |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://appsource.microsoft.com/en-us/product/web-apps/gene...](https://appsource.microsoft.com/en-us/product/web-apps/genesyslabs.genesys-cloud_teams_integration) |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
 | 应用使用哪些托管云提供商？ | Aws |
 
@@ -59,7 +60,7 @@ ms.locfileid: "63081075"
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | 用户配置文件数据 |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 美国 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 90 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
@@ -169,7 +170,7 @@ ms.locfileid: "63081075"
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Presence.Read.All | 两者 | 转接电话呼叫之前，联系中心代理必须能够查看其同事状态 | [728ece5a-0f26-4c43-9705-cea9debe3fb5](https://docs.microsoft.com/microsoft-365-app-certification/azure/728ece5a-0f26-4c43-9705-cea9debe3fb5) |
+>| Presence.Read.All | 两者 | 转接电话呼叫之前，联系中心代理必须能够查看其同事状态 | [728ece5a-0f26-4c43-9705-cea9debe3fb5](../azure/728ece5a-0f26-4c43-9705-cea9debe3fb5.md) |
 
 >此应用程序没有其他 API。
 

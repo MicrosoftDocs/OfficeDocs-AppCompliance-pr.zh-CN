@@ -2,18 +2,19 @@
 title: AIVISION 产品 SRL 的 Meetgeek 应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Meetgeek 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 334a0658f1ce5403153bd1c94849148dce45ce8c
-ms.sourcegitcommit: c02a78e87cd408ded50ad143138502ce1f1d883e
+ms.openlocfilehash: b020c5d318f563a9431ab68db48cb0af206c21f3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62335852"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543720"
 ---
 # <a name="meetgeek"></a>Meetgeek
 
@@ -34,13 +35,13 @@ AIVISION 产品 SRL 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Meetgeek |
 | ID | WA200003720 |
-| Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | AIVISION 产品 SRL |
+| Office 365客户端 | Microsoft Teams |
+| 合作伙伴公司名称 | AIVISION PRODUCTS SRL |
 | 公司网站 | [https://meetgeek.ai](https://meetgeek.ai) |
 | 应用的使用条款 | [https://meetgeek.ai/terms](https://meetgeek.ai/terms) |
 | 应用的核心功能 | 最大程度地提高联机会议的工作效率！ 自动记录、转录、共享摘要和访问会议见解。 |
 | 公司总部位置 | 罗马尼亚 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://meetgeek.ai](https://meetgeek.ai) |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -82,7 +83,7 @@ AIVISION 产品 SRL 提供了此信息，这些信息与此应用程序如何收
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls、TraditionalAntiMalware |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
@@ -92,7 +93,7 @@ AIVISION 产品 SRL 提供了此信息，这些信息与此应用程序如何收
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络边界) 部署的入侵检测和防护 IDPS 和软件？ | 是 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -108,8 +109,8 @@ AIVISION 产品 SRL 提供了此信息，这些信息与此应用程序如何收
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
-| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -118,14 +119,14 @@ AIVISION 产品 SRL 提供了此信息，这些信息与此应用程序如何收
 | 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
 | 最新 SOC3 认证日期 | |
 | 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 不适用 |
-| 应用国际标准化组织 (ISO 27001) 认证？ | 否 |
+| 应用程序国际标准化组织 (ISO 27001) 认证？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (管理) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -141,8 +142,8 @@ AIVISION 产品 SRL 提供了此信息，这些信息与此应用程序如何收
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://meetgeek.ai/privacy-policy |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据，如 (营销、分析) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
@@ -158,7 +159,7 @@ AIVISION 产品 SRL 提供了此信息，这些信息与此应用程序如何收
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 不适用 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
@@ -170,17 +171,17 @@ AIVISION 产品 SRL 提供了此信息，这些信息与此应用程序如何收
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated | 同步用户的日历数据 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| OnlineMeetings.ReadWrite | delegated | 为用户同步联机会议 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| User.Read | delegated | 标识登录的用户 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| 电子邮件 | delegated | 标识登录的用户 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| offline_access | delegated | 同步用户的日历数据 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| openid | delegated | 标识登录的用户 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| profile | delegated | 标识登录的用户 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| Calls.AccessMedia.All | delegated | 触发 Meetgeek 机器人加入 MS Teams用户的呼叫 | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba) |
->| Calls.Initiate.All | delegated | 触发 Meetgeek 机器人加入 MS Teams用户的呼叫 | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba) |
->| Calls.InitiateGroupCall.All | delegated | 触发 Meetgeek 机器人加入 MS Teams用户的呼叫 | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba) |
->| Calls.JoinGroupCall.All | delegated | 触发 Meetgeek 机器人加入 MS Teams用户的呼叫 | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba) |
+>| Calendars.ReadWrite | delegated | 同步用户的日历数据 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| OnlineMeetings.ReadWrite | delegated | 为用户同步联机会议 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| User.Read | delegated | 标识登录的用户 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| 电子邮件 | delegated | 标识登录的用户 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| offline_access | delegated | 同步用户的日历数据 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| openid | delegated | 标识登录的用户 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| profile | delegated | 标识登录的用户 | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| Calls.AccessMedia.All | delegated | 触发 Meetgeek 机器人加入 MS Teams用户的呼叫 | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](../azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba.md) |
+>| Calls.Initiate.All | delegated | 触发 Meetgeek 机器人加入 MS Teams用户的呼叫 | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](../azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba.md) |
+>| Calls.InitiateGroupCall.All | delegated | 触发 Meetgeek 机器人加入 MS Teams用户的呼叫 | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](../azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba.md) |
+>| Calls.JoinGroupCall.All | delegated | 触发 Meetgeek 机器人加入 MS Teams用户的呼叫 | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](../azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba.md) |
 
 >此应用程序没有其他 API。
 

@@ -2,18 +2,19 @@
 title: 自动程序平台培训助手的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 培训助手的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e644d66f69da228ff7de892d309d09de0e6a4a41
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: bf18fbe8cbd5d492378f873901293088c11c7b2c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147522"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541560"
 ---
 # <a name="training-assistant"></a>Training Assistant
 
@@ -34,11 +35,11 @@ ms.locfileid: "62147522"
 |:----------------|:-------------|
 | 应用名称 | Training Assistant |
 | ID | WA200003547 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | The Bot Platform |
 | 公司网站 | [https://thebotplatform.com](https://thebotplatform.com) |
 | 应用的使用条款 | [https://thebotplatform.com/wp-content/uploads/2021/11/TBP-T...](https://thebotplatform.com/wp-content/uploads/2021/11/TBP-Training-Assistant-Customer-Terms-of-Use.pdf) |
-| 应用的核心功能 | 此数字助理将你接受一系列培训模块，这些模块涵盖设置和使用Teams。 每个模块都包含特定的教程视频和培训内容，以确保员工完全了解 Microsoft Teams 功能的范围以及如何使用它们。 |
+| 应用的核心功能 | 此数字助理将介绍一系列培训模块，这些模块涵盖设置和使用Teams。 每个模块都包含特定的教程视频和培训内容，以确保员工完全了解 Microsoft Teams 可用功能以及如何使用它们。 |
 | 公司总部位置 | 英国大英和爱尔兰 ()  |
 | 应用信息页面 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
@@ -92,7 +93,7 @@ ms.locfileid: "62147522"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -108,8 +109,8 @@ ms.locfileid: "62147522"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 不适用 |
-| 应用是否遵守健康信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -125,7 +126,7 @@ ms.locfileid: "62147522"
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (管理) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -141,8 +142,8 @@ ms.locfileid: "62147522"
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://thebotplatform.com/wp-content/uploads/2021/11/TBP-Training-Assistant-Privacy-Statement.pdf |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ | 否 |
-| 你是否处理特殊类别的敏感数据，例如 (或种族、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 否 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 否 |

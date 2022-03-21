@@ -3,17 +3,17 @@ title: 用于 fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/12/2022
+ms.date: 03/17/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 用于 fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc 的所有可用的安全性和合规性信息。
-ms.openlocfilehash: 76240db9978a64e218b1c59e4ed35291d97caba7
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: 6c7509de3ddd9316785512e4ac5252b9db240a54
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463455"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540700"
 ---
 # <a name="azure-app-id-fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc"></a>Azure 应用 ID：fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc
 
@@ -21,7 +21,7 @@ ms.locfileid: "63463455"
 ### <a name="apps-associated-with-this-id"></a>与此 ID 关联的应用：
 | **应用名称** | **认证** | **在 AppSource 中查看** |
 |--------------|---------------|-----------------------|
-| [WorkInSync](../forward/WA200002974) |  | [https://appsource.microsoft.com/product/office/WA200002974](https://appsource.microsoft.com/product/office/WA200002974) |
+| [WorkInSync](../forward/WA200002974.md) |  | [https://appsource.microsoft.com/product/office/WA200002974](https://appsource.microsoft.com/product/office/WA200002974) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用合规性状态
 - Publisher证明状态：已完成

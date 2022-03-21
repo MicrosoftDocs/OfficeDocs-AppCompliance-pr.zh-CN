@@ -2,18 +2,19 @@
 title: HeyTaco 的应用程序信息（由 LlC 的 HeyTaco 提供）
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 有关 HeyTaco 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 43fa80b9334baaeb92d699ae6993e29fe44944e4
-ms.sourcegitcommit: c02a78e87cd408ded50ad143138502ce1f1d883e
+ms.openlocfilehash: 1d409065a274e91d20b61fcd4e913bbaddd70f27
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62337978"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543670"
 ---
 # <a name="heytaco"></a>HeyTaco
 
@@ -34,8 +35,8 @@ ms.locfileid: "62337978"
 |:----------------|:-------------|
 | 应用名称 | HeyTaco |
 | ID | WA200001346 |
-| Office 365支持的客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | HeyTaco，LLC |
+| Office 365客户端 | Microsoft Teams |
+| 合作伙伴公司名称 | HeyTaco, LLC |
 | 公司网站 | [https://www.heytaco.chat](https://www.heytaco.chat) |
 | 应用的使用条款 | [https://www.heytaco.chat/terms](https://www.heytaco.chat/terms) |
 | 应用的核心功能 | HeyTaco! 通过鼓励积极沟通，并通过认可、奖励和奖励将人们汇集在一起，有助于建立更强大的公司文化。 每天，每个人都有 5 个联系人要向其他团队成员提供。 Tacos 被赋予了对从小获胜到巨大成就的一切的感谢和认可。 然后，用户可以使用其累积的奖励来兑换你创建的基于个人或团队的激动人心的奖励。 |
@@ -80,7 +81,7 @@ ms.locfileid: "62337978"
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 是 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
@@ -106,8 +107,8 @@ ms.locfileid: "62337978"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植和会计) ？ | 否 |
-| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 否 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 否 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 否 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -120,10 +121,10 @@ ms.locfileid: "62337978"
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 否 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
-| 应用是否遵守 SOX Sarbanes-Oxley (管理) ？ | 否 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 否 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -140,7 +141,7 @@ ms.locfileid: "62337978"
 | 隐私策略 URL | https://www.heytaco.chat/privacy |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 否 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 否 |
@@ -156,7 +157,7 @@ ms.locfileid: "62337978"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
@@ -168,9 +169,9 @@ ms.locfileid: "62337978"
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| 电子邮件 | delegated | 用于组织用户数据 | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
->| openid | delegated | 允许用户登录选项卡 | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
->| profile | delegated | 存储用户的配置文件信息 | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| 电子邮件 | delegated | 用于组织用户数据 | [be8d11cf-265a-4974-9912-4ff28c29fc21](../azure/be8d11cf-265a-4974-9912-4ff28c29fc21.md) |
+>| openid | delegated | 允许用户登录选项卡 | [be8d11cf-265a-4974-9912-4ff28c29fc21](../azure/be8d11cf-265a-4974-9912-4ff28c29fc21.md) |
+>| profile | delegated | 存储用户的配置文件信息 | [be8d11cf-265a-4974-9912-4ff28c29fc21](../azure/be8d11cf-265a-4974-9912-4ff28c29fc21.md) |
 
 >此应用程序没有其他 API。
 
