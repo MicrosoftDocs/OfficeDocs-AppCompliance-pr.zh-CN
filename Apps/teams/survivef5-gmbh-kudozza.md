@@ -2,12 +2,19 @@
 title: kudozza 的应用程序信息（按 surviveF5 GmbH）
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Kudozza 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: ae20cb817283550e9dd6c75ef2abe6215d616ff1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545924"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -28,13 +35,13 @@ surviveF5 GmbH 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Kudozza |
 | ID | WA200002599 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | surviveF5 GmbH |
 | 公司网站 | [https://surviveF5.com](https://surviveF5.com) |
 | 应用的使用条款 | [https://kudozza.com/terms](https://kudozza.com/terms) |
 | 应用的核心功能 | Kudozza 允许向其他团队成员提供 Kudos，以向这些成员展示您的喜欢。 它提供了各种工具（如表情符号参与、类别或排名）来鼓励 Kudos 的提供。 |
 | 公司总部位置 | 德国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://kudozza.com](https://kudozza.com) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Aws、Azure |
 
@@ -76,7 +83,7 @@ surviveF5 GmbH 提供给 Microsoft 的信息：
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 否 |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 否 |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 否 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 否 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 否 |
@@ -102,7 +109,7 @@ surviveF5 GmbH 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -116,10 +123,10 @@ surviveF5 GmbH 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 否 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
-| 应用是否遵守 SOX Sarbanes-Oxley (法案) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -135,8 +142,8 @@ surviveF5 GmbH 提供给 Microsoft 的信息：
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://www.kudozza.com/privacy/ |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 否 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
@@ -158,16 +165,16 @@ surviveF5 GmbH 提供给 Microsoft 的信息：
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 否 |
 | 你的应用是否将任何凭据存储在代码中？ | 是 |
-| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegated | 读取团队频道，让用户可以选择想要发布 kudos 的频道 | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
->| Teams.ReadBasic.All | delegated | 用户可以选择希望发布 kudos 的团队和频道。 阅读团队需要团队读取权限。 | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
->| User.Read | delegated | 获取用户参与的团队 | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
->| User.ReadBasic.All | delegated | 读取用户名 | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
+>| Channel.ReadBasic.All | delegated | 读取团队频道，让用户可以选择想要发布 kudos 的频道 | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
+>| Teams.ReadBasic.All | delegated | 用户可以选择希望发布 kudos 的团队和频道。 阅读团队需要团队读取权限。 | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
+>| User.Read | delegated | 获取用户参与的团队 | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
+>| User.ReadBasic.All | delegated | 读取用户名 | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
 
 >此应用程序没有其他 API。
 

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有可用的缺少安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 73642d7ff02b79175b19cb4141098917e500ad29
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: 0bf3b44455bd598b532f0708654252f6620c60c6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470138"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546110"
 ---
 # <a name="absentify"></a>absentify
 
@@ -36,7 +36,7 @@ ms.locfileid: "63470138"
 | 应用名称 | absentify |
 | ID | WA200003833 |
 | Office 365客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | BrainCore 解决方案 GmbH |
+| 合作伙伴公司名称 | BrainCore Solutions GmbH |
 | 公司网站 | [https://braincore.solutions](https://braincore.solutions) |
 | 应用的使用条款 | [https://absentify.com/terms-and-conditions](https://absentify.com/terms-and-conditions) |
 | 应用的核心功能 | 处理员工请假的最简单方法 - Microsoft Teams |
@@ -62,7 +62,7 @@ ms.locfileid: "63470138"
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | Microsoft User ID，Email，DisplayName |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 德国 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 30 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
@@ -171,10 +171,10 @@ ms.locfileid: "63470138"
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | 应用程序 | 可选。 向用户发送Microsoft Teams。 | [0f5eabc0-89bf-4cc6-80d1-10094b5919d2](../azure/0f5eabc0-89bf-4cc6-80d1-10094b5919d2) |
->| Calendars.ReadWrite | delegated | 可选：自动创建Outlook的日历条目。 | [3dbcb38b-8d2f-4e97-9bd1-975fb770b31c](../azure/3dbcb38b-8d2f-4e97-9bd1-975fb770b31c) |
->| User.Read | delegated | 对于登录 | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886) |
->| User.ReadBasic.All | delegated | 可选：查看用户的 Microsoft 个人资料图片。 | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886) |
+>| TeamsActivity.Send | 应用程序 | 可选。 向用户发送Microsoft Teams。 | [0f5eabc0-89bf-4cc6-80d1-10094b5919d2](../azure/0f5eabc0-89bf-4cc6-80d1-10094b5919d2.md) |
+>| Calendars.ReadWrite | delegated | 可选：自动创建Outlook的日历条目。 | [3dbcb38b-8d2f-4e97-9bd1-975fb770b31c](../azure/3dbcb38b-8d2f-4e97-9bd1-975fb770b31c.md) |
+>| User.Read | delegated | 对于登录 | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886.md) |
+>| User.ReadBasic.All | delegated | 可选：查看用户的 Microsoft 个人资料图片。 | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886.md) |
 
 >此应用程序没有其他 API。
 

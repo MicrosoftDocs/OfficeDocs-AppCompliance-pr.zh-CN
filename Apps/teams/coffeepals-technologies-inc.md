@@ -2,18 +2,19 @@
 title: CoffeePals Technologies Inc. 的 CoffeePals 应用程序信息。
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: CoffeePals 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0e3a60a4cf08eccad2811f1f2737432a667f9ba9
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 2863be05be41765c8100f8742f955eca2e8ff122
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081056"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546490"
 ---
 # <a name="coffeepals"></a>CoffeePals
 
@@ -40,8 +41,9 @@ CoffeePals Technologies Inc. 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://coffeepals.co/terms-of-service](https://coffeepals.co/terms-of-service) |
 | 应用的核心功能 | CoffeePals 随机配对人员以会面和聊天形成个人连接。 它将包含允许员工更好地进行联系的其他功能。 |
 | 公司总部位置 | 加拿大 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://coffeepals.co/product](https://coffeepals.co/product) |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
+| 应用使用哪些托管云提供商？ | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ CoffeePals Technologies Inc. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ |  |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ | 已保留 |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

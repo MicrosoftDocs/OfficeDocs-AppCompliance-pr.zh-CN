@@ -2,18 +2,19 @@
 title: AvePoint， inc. 针对 MyHub 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: MyHub 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7086ba2566e0b3d44b8a30edcd43e4dce7eb9963
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0620429641e4e7b9669d48ec07af70eafe3accd3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260779"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546820"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -38,9 +39,9 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | AvePoint, inc. |
 | 公司网站 | [https://www.avepoint.com](https://www.avepoint.com) |
 | 应用的使用条款 | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| 应用的核心功能 | 认识 MyHub，这是一个一站式商店，用于请求Office 365现有&amp;工作区的新网站。 MyHub 提供易于使用的预配、重新 &amp; 认证和生命周期服务，而不会给 IT 团队带来负担。 用户能够扩展安全&amp;&amp;工作区，并通知他们何时采取措施，从而更轻松地完成其任务列表。 MyHub&#65533;&amp; 安全框架由 AvePoint&#65533;云治理提供支持。 |
+| 应用的核心功能 | 与 MyHub 会面，这是一个一站式商店，用于请求Office 365现有&amp;工作区的新网站。 MyHub 提供易于使用的预配、重新 &amp; 认证和生命周期服务，而不会给 IT 团队带来负担。 用户能够扩展安全&amp;&amp;工作区，并通知他们何时采取措施，从而更轻松地完成其任务列表。 MyHub&#65533;&amp; 持续安全框架由 AvePoint&#65533;云治理支持。 |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -80,7 +81,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
@@ -90,7 +91,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | Credential、DNSManagement、CodeRepositories |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 在支持你的应用的网络 (外围) 是否部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -107,7 +108,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
-| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 是 |
@@ -120,10 +121,10 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 是 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 是 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 是 |
 
@@ -140,7 +141,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 隐私策略 URL | https://www.avepoint.com/company/privacy-and-security |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 否 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
@@ -156,31 +157,31 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 应用程序与 Azure AD，因此可以使用所有条件访问规则。 |
 | 你的应用是否支持 CAE (连续访问)  | 是 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用和外接程序Microsoft 365 Microsoft 应用和外接程序可能使用 Microsoft Graph。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | 两者 | 检索组设置对象的列表。 例如，外部共享经典功能、enableCreateGroup (应用程序) 等。 | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Group.ReadWrite.All | 两者 | 创建组、检索、添加或删除组成员身份 | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Mail.Send | delegated | 如果当前用户想要加入专用组，我们将向组所有者发送通知 | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Reports.Read.All | 应用程序 | 获取网站/组使用情况报告 | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.FullControl.All | 应用程序 | 创建或删除网站 | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.Read.All | 应用程序 | 获取网站基本信息 | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.ReadWrite.All | delegated | 关注/取消关注网站 | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| User.Read.All | 两者 | 委派：获取用户照片;应用程序：搜索/解析用户 | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| 电子邮件 | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| offline_access | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| openid | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| 个人资料 | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Directory.Read.All | 两者 | 检索组设置对象的列表。 例如，外部共享经典功能、enableCreateGroup (应用程序) 等。 | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Group.ReadWrite.All | 两者 | 创建组、检索、添加或删除组成员身份 | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Mail.Send | delegated | 如果当前用户想要加入专用组，我们将向组所有者发送通知 | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Reports.Read.All | 应用程序 | 获取网站/组使用情况报告 | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.FullControl.All | 应用程序 | 创建或删除网站 | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.Read.All | 应用程序 | 获取网站基本信息 | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.ReadWrite.All | delegated | 关注/取消关注网站 | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| User.Read.All | 两者 | 委派：获取用户照片;应用程序：搜索/解析用户 | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| 电子邮件 | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| offline_access | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| openid | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| profile | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
 
 >此应用程序没有其他 API。
 

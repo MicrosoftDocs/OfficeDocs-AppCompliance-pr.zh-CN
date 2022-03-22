@@ -1,19 +1,20 @@
 ---
-title: 由 SUZUYO Biz-Oin Wart Corporation 开发的应用程序信息
+title: SUZUYO Biz-Oin Wart Corporation 开发的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/12/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Biz-Oin 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2c551dc467d6c4e5934daa14c50f840d3b6c697e
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b9210678cad1309290d70101499a92b2f9ae7ac2
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144089"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545921"
 ---
 # <a name="biz-oin"></a>Biz-Oin
 
@@ -34,7 +35,7 @@ SUZUYOWart Corporation 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Biz-Oin |
 | ID | WA200003662 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | SUZUYOWart Corporation |
 | 公司网站 | [https://www.shinwart.co.jp](https://www.shinwart.co.jp) |
 | 应用的使用条款 | [https://www.biz-oin.com/terms/tou](https://www.biz-oin.com/terms/tou) |
@@ -60,7 +61,7 @@ SUZUYOWart Corporation 提供给 Microsoft 的信息：
 | 你的应用将处理哪些数据？ | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ | &quot;&quot; &quot; &quot; &quot; id、mail、displayName、userPrincipalName &quot; &quot;&quot; |
+| 数据库中存储了哪些数据？ | &quot;id&quot;、 &quot;mail&quot;、 &quot;displayName&quot;、 &quot;userPrincipalName&quot; |
 | 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 日本 |
 | 你是否已制定数据租用和处置流程？ | 否 |
 | 帐户终止后，数据将保留多久？ | 少于 90 天 |
@@ -108,7 +109,7 @@ SUZUYOWart Corporation 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植和会计) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -122,9 +123,9 @@ SUZUYOWart Corporation 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
-| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
 | 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 否 |
 | 应用是否符合 NIST 800-171？ | 否 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
@@ -141,7 +142,7 @@ SUZUYOWart Corporation 提供给 Microsoft 的信息：
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |

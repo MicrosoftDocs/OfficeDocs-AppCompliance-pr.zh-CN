@@ -2,18 +2,19 @@
 title: Chat Apps， LLC 中用于提醒我的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 有关 Bright Remind Me 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5c5495382e68a3bbb0823c76e38511adeb54506e
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d0ac061a03a958c397b2044d583ba0365165e393
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146232"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545440"
 ---
 # <a name="bright-remind-me"></a>亮色提醒我
 
@@ -34,13 +35,13 @@ ms.locfileid: "62146232"
 |:----------------|:-------------|
 | 应用名称 | 亮色提醒我 |
 | ID | WA200003002 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | 聊天应用，LLC |
 | 公司网站 | [https://brightbits.app](https://brightbits.app) |
 | 应用的使用条款 | [https://brightbits.app/terms/](https://brightbits.app/terms/) |
 | 应用的核心功能 | 在方便你进行响应时获取重要消息的提醒。 |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://brightbits.app/bright-remind-me/](https://brightbits.app/bright-remind-me/) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Aws、Heroku |
 
@@ -108,7 +109,7 @@ ms.locfileid: "62146232"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植和会计) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -122,9 +123,9 @@ ms.locfileid: "62146232"
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
-| 应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
 | 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
@@ -141,7 +142,7 @@ ms.locfileid: "62146232"
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |

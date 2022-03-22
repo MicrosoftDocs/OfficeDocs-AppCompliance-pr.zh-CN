@@ -2,20 +2,21 @@
 title: Law在 APAC 中由 Law使用的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Law在 APAC 中提供的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 13067a989948468c3cfef21c486e93d52ae38e4a
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 84bc836f026ce2b45f58adb58567e5950cff20ac
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081048"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545970"
 ---
-# <a name="lawvu-apac"></a>Law在 APAC
+# <a name="lawvu-apac"></a>LawVu APAC
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,15 +33,15 @@ Law提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Law在 APAC |
+| 应用名称 | LawVu APAC |
 | ID | WA200003796 |
 | Office 365客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Law在 |
+| 合作伙伴公司名称 | LawVu |
 | 公司网站 | [https://lawvu.com](https://lawvu.com) |
 | 应用的使用条款 | [https://lawvu.com/wp-content/uploads/Std-Saas-Agreement-202...](https://lawvu.com/wp-content/uploads/Std-Saas-Agreement-2021.pdf) |
 | 应用的核心功能 | 业务用户可以从客户请求中Teams。  集成将捕获所有相关字段，包括原始邮件的内容和任何附件，并创建 Law在 Law在 Law使用中&#8217;属于法律团队&#8217;记录系统。 |
 | 公司总部位置 | 新西兰 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://help.lawvu.com/en/articles/5953276-microsoft-teams-...](https://help.lawvu.com/en/articles/5953276-microsoft-teams-integration-coming-soon) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -61,7 +62,7 @@ Law提供给 Microsoft 的信息：
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | MS 团队中的附件文件将拉入我们的数据存储中。 |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 澳大利亚 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 90 天 |
 | 您是否已建立数据访问管理流程？ | 是 |

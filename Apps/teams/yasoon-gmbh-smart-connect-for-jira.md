@@ -2,18 +2,19 @@
 title: 由 yasoon GmbH 为 Jira 连接应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Smart 连接 for Jira 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2f8db5fc4087ece98bf19f20ff3b91ab96875ed0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: af133a525bc0809ecea134167b6a24b95b8c45d4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252059"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545840"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect for Jira
 
@@ -34,14 +35,15 @@ yasoon GmbH 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Smart Connect for Jira |
 | ID | WA200002055 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | yasoon GmbH |
 | 公司网站 | [https://www.yasoon.com](https://www.yasoon.com) |
 | 应用的使用条款 | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474846970/Product_42949680957/Asset_3f25ec80-eacb-454f-8cc2-eeee583b65c6/170825EULAOfficeaddinEN.doc) |
-| 应用的核心功能 | yasoon 侧重于在 Atlassian 和 Microsoft 服务 &amp; 之间提供智能的深层安全集成。 我们提供的工具可将 Outlook 和 Teams Atlassian Jira 连接在一起。 我们的适用于 Microsoft Teams 的 Jira 应用通过将聊天和对话与 Jira 问题Teams软件和业务团队更好地协作。 |
+| 应用的核心功能 | yasoon 侧重于在 Atlassian 和 Microsoft 服务 &amp; 之间提供智能的深层安全集成。 我们提供了将 Outlook 和 Teams与 Atlassian Jira 连接的工具。 我们的适用于 Microsoft Teams 的 Jira 应用通过将聊天和对话与 Jira 问题Teams，帮助软件和业务团队更好地协同工作。 |
 | 公司总部位置 | 德国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://yasoon.com/microsoft-teams-for-jira/](https://yasoon.com/microsoft-teams-for-jira/) |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
+| 应用使用哪些托管云提供商？ | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ yasoon GmbH 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ |  |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ | 在 3months 内删除 |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -79,7 +74,7 @@ yasoon GmbH 提供给 Microsoft 的信息：
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 否 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ |  |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ |  |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ |  |
 | 你的环境是否具有任何不受支持的操作系统或软件？ |  |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ |  |
@@ -89,7 +84,7 @@ yasoon GmbH 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ |  |
 | 启用了 MFA (多重) 身份验证： |  |
 | 您是否已制定设置、修改和删除员工帐户的流程？ |  |
-| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ |  |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ |  |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ |  |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ |  |
@@ -105,7 +100,7 @@ yasoon GmbH 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 否 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 否 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 否 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
@@ -119,10 +114,10 @@ yasoon GmbH 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理计划 (是否) 合规性？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ |  |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -143,7 +138,7 @@ yasoon GmbH 提供给 Microsoft 的信息：
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
 | 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私) ，以确定与应用个人数据处理相关的风险？ |  |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,26 +150,26 @@ yasoon GmbH 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
-| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | true |
+| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | True |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  |  |
 | 你的应用是否将任何凭据存储在代码中？ |  |
-| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegated | 该权限用于让用户选择 Jira 中加入的频道之一。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelMessage.Read.Group | 应用程序 | 允许应用在 Jira 中显示链接的频道消息。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelMessage.Send | delegated | 没有使用数据，此 API 用于让用户从 Jira 回复频道消息。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelSettings.Read.Group | 应用程序 | 用于查找有关频道的详细信息。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Chat.ReadWrite | delegated | 用于允许用户向聊天添加新回复并查看来自 Jira 的聊天消息。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Member.Read.Group | 应用程序 | 用于权限检查，允许应用验证用户的团队成员身份。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Team.ReadBasic.All | delegated | 该权限用于让用户选择 Jira 中加入的团队之一。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| TeamSettings.Read.Group | 应用程序 | 允许应用读取团队设置以遵守某些默认值。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| User.ReadBasic.All | delegated | 允许用户在频道消息中选择同事 @-mention | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| Channel.ReadBasic.All | delegated | 该权限用于让用户选择 Jira 中加入的频道之一。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| ChannelMessage.Read.Group | 应用程序 | 允许应用在 Jira 中显示链接的频道消息。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| ChannelMessage.Send | delegated | 没有使用数据，此 API 用于让用户从 Jira 回复频道消息。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| ChannelSettings.Read.Group | 应用程序 | 用于查找有关频道的详细信息。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| Chat.ReadWrite | delegated | 用于允许用户向聊天添加新回复并查看来自 Jira 的聊天消息。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| Member.Read.Group | 应用程序 | 用于权限检查，允许应用验证用户的团队成员身份。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| Team.ReadBasic.All | delegated | 该权限用于让用户选择 Jira 中加入的团队之一。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| TeamSettings.Read.Group | 应用程序 | 允许应用读取团队设置以遵守某些默认值。 | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| User.ReadBasic.All | delegated | 允许用户在频道消息中选择同事 @-mention | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
 
 >此应用程序没有其他 API。
 

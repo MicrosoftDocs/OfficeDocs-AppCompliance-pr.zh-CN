@@ -2,18 +2,19 @@
 title: 由数字计算机Enterprise FormMachines 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: FormMachines 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9ec325100eafc5d6b84150a00a2c5a13880236b7
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: 3c526bb2d83bf12bacb9f34c0fad203a37449daf
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62209551"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546460"
 ---
 # <a name="formmachines"></a>FormMachines
 
@@ -33,13 +34,13 @@ ms.locfileid: "62209551"
 |:----------------|:-------------|
 | 应用名称 | FormMachines |
 | ID | WA200001217 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Enterprise Digital Machines |
 | 公司网站 | [https://www.formmachines.com](https://www.formmachines.com) |
 | 应用的使用条款 | [https://www.formmachines.com/dist/docs#/statements_and_agre...](https://www.formmachines.com/dist/docs#/statements_and_agreements/terms_of_service) |
 | 应用的核心功能 | 为用户提供Teams轻松生成企业表单的能力 |
 | 公司总部位置 | 澳大利亚 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://www.formmachines.com](https://www.formmachines.com) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -51,7 +52,7 @@ ms.locfileid: "62209551"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息已由 Enterprise Digital Machines 提供有关此应用如何收集和存储组织数据以及你的组织将拥有对应用收集的数据的控制的信息。
+此信息已由 Enterprise Digital Machines 提供有关此应用如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -81,7 +82,7 @@ ms.locfileid: "62209551"
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
@@ -91,7 +92,7 @@ ms.locfileid: "62209551"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 否 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 否 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -107,7 +108,7 @@ ms.locfileid: "62209551"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -121,10 +122,10 @@ ms.locfileid: "62209551"
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理计划 (是否) 合规性？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (的) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -141,12 +142,12 @@ ms.locfileid: "62209551"
 | 隐私策略 URL | https://www.formmachines.com/dist/docs#/statements_and_agreements/privacy |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
 | 该应用是否向个人提供更正或更新其个人数据的能力？ | 是 |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私) ，以确定与应用个人数据处理相关的风险？ | 是 |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -163,7 +164,7 @@ ms.locfileid: "62209551"
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 是 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 >此应用程序不使用 Microsoft Graph。
 

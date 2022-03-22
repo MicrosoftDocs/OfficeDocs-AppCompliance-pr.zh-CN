@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Startgrid 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f77e20e7fc93faa5f0e6be80074d71248c9bb714
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: 2c93c1893e18f6e2f16751fb86b34d5d15f912ba
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470134"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546330"
 ---
 # <a name="startgrid"></a>Startgrid
 
@@ -43,7 +43,6 @@ Startgrid 提供给 Microsoft 的信息：
 | 公司总部位置 | 美国 |
 | 应用信息页面 | [https://corp.startgrid.com/platform](https://corp.startgrid.com/platform) |
 | 用于运行应用的托管环境或服务模型是什么？ | IsvHosted |
-| 应用使用哪些托管云提供商？ |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

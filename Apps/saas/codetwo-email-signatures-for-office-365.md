@@ -2,18 +2,19 @@
 title: CodeTwo 电子邮件签名的应用程序信息Office 365 CodeTwo
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 适用于 Office 365 的 CodeTwo 电子邮件签名的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84b557eb3ae79dcc747bb4d3d1492e2963a13da1
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 4662ec055aa9c74c091d8a2dffc648215bd5e676
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63080066"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546140"
 ---
 # <a name="codetwo-email-signatures-for-office-365"></a>CodeTwo 电子邮件签名Office 365
 
@@ -38,7 +39,7 @@ CodeTwo 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://www.codetwo.com/license-agreement](https://www.codetwo.com/license-agreement) |
 | 应用的核心功能 | CodeTwo email Signatures for Office 365 is an Azure-based cloud service that adds automatic email signatures， legal disclaimers and branding to messages sent from any email client &amp; device. 它允许用户 (管理员或) 团队集中管理组织中电子邮件Microsoft 365 (Office 365) 签名。 当用户键入时，电子邮件 (或直接在云) 或直接Outlook云中添加签名。 |
 | 公司总部位置 | Poland（波兰） |
-| 应用信息页面 | |
+| 应用信息页面 | [https://www.codetwo.com/email-signatures/](https://www.codetwo.com/email-signatures/) |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -59,7 +60,7 @@ CodeTwo 提供了此信息，这些信息与此应用程序如何收集和存储
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | 用户配置文件数据 |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 美国 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 90 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
@@ -168,16 +169,16 @@ CodeTwo 提供了此信息，这些信息与此应用程序如何收集和存储
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | 允许用户登录应用，并允许应用读取登录用户的个人资料。它还允许应用读取登录用户的基本公司信息。 | [2a93620e-4345-4e3b-9bae-0195f08aab69](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a93620e-4345-4e3b-9bae-0195f08aab69) |
->| User.Read | delegated | 允许用户登录应用，并允许应用读取登录用户的个人资料。它还允许应用读取登录用户的基本公司信息。 | [7afd058a-f568-4496-96b1-28d06ab3500f](https://docs.microsoft.com/microsoft-365-app-certification/azure/7afd058a-f568-4496-96b1-28d06ab3500f) |
->| Directory.AccessAsUser.All | delegated | 允许应用以登录用户身份访问目录中的信息。 | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| Directory.Read.All | 两者 | 允许应用读取组织中&#8217;目录（如用户、组和应用）的数据。 | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| User.ReadBasic.All | delegated | 允许应用代表登录用户读取组织中其他用户的一套基本个人资料属性。 这包括显示名称姓名、名字和姓氏、电子邮件地址和照片。 信息用于自动为用户个性化设置电子邮件签名。 | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| User.Read | delegated | 允许用户登录应用，并允许应用读取登录用户的个人资料。 它还允许应用读取已登录用户的基本公司信息。 用于向 CodeTwo 服务注册用户。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| 电子邮件 | delegated | 允许应用读取用户的主电子邮件地址。 用于向 CodeTwo 服务注册用户。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| offline_access | delegated | 允许应用查看和更新你向它提供访问权限的数据，即使用户当前没有使用该应用。 这不会向应用授予任何其他权限。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| openid | delegated | 允许用户以其工作或学校帐户登录应用，并允许应用查看用户的基本个人资料信息。 用于向 CodeTwo 服务注册用户。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| 个人资料 | delegated | 允许应用查看用户的基本个人资料（名称、图片、用户名称）。 用于向 CodeTwo 服务注册用户。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
+>| User.Read | delegated | 允许用户登录应用，并允许应用读取登录用户的个人资料。它还允许应用读取登录用户的基本公司信息。 | [2a93620e-4345-4e3b-9bae-0195f08aab69](../azure/2a93620e-4345-4e3b-9bae-0195f08aab69.md) |
+>| User.Read | delegated | 允许用户登录应用，并允许应用读取登录用户的个人资料。它还允许应用读取登录用户的基本公司信息。 | [7afd058a-f568-4496-96b1-28d06ab3500f](../azure/7afd058a-f568-4496-96b1-28d06ab3500f.md) |
+>| Directory.AccessAsUser.All | delegated | 允许应用以登录用户身份访问目录中的信息。 | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| Directory.Read.All | 两者 | 允许应用读取组织中&#8217;目录（如用户、组和应用）的数据。 | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| User.ReadBasic.All | delegated | 允许应用代表登录用户读取组织中其他用户的一套基本个人资料属性。 这包括显示名称姓名、名字和姓氏、电子邮件地址和照片。 信息用于自动为用户个性化设置电子邮件签名。 | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| User.Read | delegated | 允许用户登录应用，并允许应用读取登录用户的个人资料。 它还允许应用读取已登录用户的基本公司信息。 用于向 CodeTwo 服务注册用户。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| 电子邮件 | delegated | 允许应用读取用户的主电子邮件地址。 用于向 CodeTwo 服务注册用户。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| offline_access | delegated | 允许应用查看和更新你向它提供访问权限的数据，即使用户当前没有使用该应用。 这不会向应用授予任何其他权限。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| openid | delegated | 允许用户以其工作或学校帐户登录应用，并允许应用查看用户的基本个人资料信息。 用于向 CodeTwo 服务注册用户。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| profile | delegated | 允许应用查看用户的基本个人资料（名称、图片、用户名称）。 用于向 CodeTwo 服务注册用户。 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
 
 >此应用程序没有其他 API。
 

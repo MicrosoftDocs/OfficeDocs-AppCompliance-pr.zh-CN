@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: UserVoice 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0abf55a4dbed692837abab9beaa3ef01426b9991
-ms.sourcegitcommit: 6f2370c0eb79cc4acc9b53b2215b7a61c2ab30d6
+ms.openlocfilehash: b815858d1846f5388114a3c0c3329f4d54b97f06
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/17/2022
-ms.locfileid: "63563689"
+ms.locfileid: "63547230"
 ---
 # <a name="uservoice"></a>UserVoice
 
@@ -37,11 +37,11 @@ UserVoice 提供给 Microsoft 的信息：
 | ID | WA200001944 |
 | Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | UserVoice |
-| 公司网站 | 不适用 |
-| 应用的使用条款 | 不适用 |
+| 公司网站 | [https://www.uservoice.com](https://www.uservoice.com) |
+| 应用的使用条款 | [https://www.uservoice.com/tos](https://www.uservoice.com/tos) |
 | 应用的核心功能 | 获取有关产品反馈计划的最新动态，Microsoft Teams。 |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | 不适用 |
+| 应用信息页面 | [https://help.uservoice.com/hc/en-us/articles/360052330913-M...](https://help.uservoice.com/hc/en-us/articles/360052330913-Microsoft-Teams-Integration) |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
 | 应用使用哪些托管云提供商？ | GCP |
 
