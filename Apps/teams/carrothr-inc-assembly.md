@@ -2,18 +2,19 @@
 title: 供 AssemblyHR Inc. 程序集使用的应用程序信息。
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 程序集的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6015c68e34f9d1f1a08685968281d563de08088f
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 8271fa02cf76c7747a2a4f24f699484c02e7a5c8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257948"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547960"
 ---
 # <a name="assembly"></a>Assembly
 
@@ -40,8 +41,9 @@ ms.locfileid: "62257948"
 | 应用的使用条款 | [https://joinassembly.com/terms-of-service](https://joinassembly.com/terms-of-service) |
 | 应用的核心功能 | 程序集是员工参与和认可平台。 |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://www.joinassembly.com/about](https://www.joinassembly.com/about) |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
+| 应用使用哪些托管云提供商？ | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ ms.locfileid: "62257948"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ |  |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ | 在 2 周之内删除 |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -79,7 +74,7 @@ ms.locfileid: "62257948"
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ |  |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ |  |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ |  |
 | 你的环境是否具有任何不受支持的操作系统或软件？ |  |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ |  |
@@ -89,7 +84,7 @@ ms.locfileid: "62257948"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ |  |
 | 启用了 MFA (多重) 身份验证： |  |
 | 您是否已制定设置、修改和删除员工帐户的流程？ |  |
-| 在支持你的应用的网络 (外围) 是否部署了入侵检测和防护 IDPS 和 IDPS 软件？ |  |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ |  |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ |  |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ |  |
@@ -106,7 +101,7 @@ ms.locfileid: "62257948"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
-| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 是 |
 | 最新 SOC1 认证日期 |  2020-09-01 |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 是 |
@@ -119,10 +114,10 @@ ms.locfileid: "62257948"
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ |  |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -138,7 +133,7 @@ ms.locfileid: "62257948"
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ |  |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ |  |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ |  |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或违反通知法的数据类别？ |  |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ |  |
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
@@ -154,25 +149,25 @@ ms.locfileid: "62257948"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？ | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | false |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  |  |
 | 你的应用是否将任何凭据存储在代码中？ |  |
-| 适用于应用和外接程序Microsoft 365 Microsoft 应用和外接程序可能使用 Microsoft Graph。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | delegated | 允许用户从应用将应用分配到新创建的频道 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| Directory.Read.All | 应用程序 | 保持配置文件同步，以便成员在程序集中正确搜索 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| Group.Read.All | delegated | 我们观察数据以确保他们可以将应用分配给正确的组 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| Teams.ReadBasic.All | 应用程序 | 能够将应用分配给正确的团队选项卡 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| TeamsTab.Create | 应用程序 | 我们使用它来允许正确将应用追加到频道/团队 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| 电子邮件 | delegated | 用户的电子邮件，以便我们可以授予他们访问其特定帐户的权限 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| 个人资料 | delegated | 用于自动填充程序集并保持与程序集中的更改Microsoft Teams | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Channel.Create | delegated | 允许用户从应用将应用分配到新创建的频道 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| Directory.Read.All | 应用程序 | 保持配置文件同步，以便成员在程序集中正确搜索 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| Group.Read.All | delegated | 我们观察数据以确保他们可以将应用分配给正确的组 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| Teams.ReadBasic.All | 应用程序 | 能够将应用分配给正确的团队选项卡 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| TeamsTab.Create | 应用程序 | 我们使用它来允许正确将应用追加到频道/团队 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| 电子邮件 | delegated | 用户的电子邮件，以便我们可以授予他们访问其特定帐户的权限 | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| profile | delegated | 用于自动填充程序集并保持与程序集中的更改Microsoft Teams | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
 
 >此应用程序没有其他 API。
 

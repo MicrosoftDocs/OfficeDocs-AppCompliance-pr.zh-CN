@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: ENA SmartUC 连接器的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d2095a16fc5f3d9a0e28f8cf782ae292c330a947
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: 4f3825a2a210998277fcf00634fc8e78679ff6a5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459767"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548880"
 ---
-# <a name="ena-smartuc-connector"></a>ENA SmartUC 连接器
+# <a name="ena-smartuc-connector"></a>ENA SmartUC Connector
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,7 +33,7 @@ ENA 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | ENA SmartUC 连接器 |
+| 应用名称 | ENA SmartUC Connector |
 | ID | WA200003354 |
 | Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ENA |
@@ -163,13 +163,13 @@ ENA 提供了此信息，这些信息与此应用程序如何收集和存储组�
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.Read.All | delegated | 用户 ID 和显示当前频道/聊天成员的名称。 应用使用它向用户显示要调用的频道/聊天成员的列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| Chat.ReadBasic | delegated | 用户 ID 和显示当前聊天成员的名称。 应用使用它向用户显示要调用的聊天成员列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| People.Read.All | delegated | 用户 ID 和当前团队成员的显示名称。 应用使用它向用户显示要呼叫的团队成员列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| User.Read.All | delegated | 用户的业务和移动电话号码。 这是必需的，以便可以发起拨打这些号码的电话呼叫。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| offline_access | delegated | 用户授权令牌，授权应用访问Graph列出的其他 API 终结点。 Microsoft Identity 平台应用程序必须拥有这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| openid | delegated | 用户授权令牌，授权应用访问Graph列出的其他 API 终结点。 Microsoft Identity 平台应用程序必须拥有这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| 个人资料 | delegated | 用户授权令牌，授权应用访问Graph列出的其他 API 终结点。 Microsoft Identity 平台应用程序必须拥有这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| ChannelMember.Read.All | delegated | 用户 ID 和显示当前频道/聊天成员的名称。 应用使用它向用户显示要调用的频道/聊天成员的列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| Chat.ReadBasic | delegated | 用户 ID 和显示当前聊天成员的名称。 应用使用它向用户显示要调用的聊天成员列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| People.Read.All | delegated | 用户 ID 和当前团队成员的显示名称。 应用使用它向用户显示要呼叫的团队成员列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| User.Read.All | delegated | 用户的业务和移动电话号码。 这是必需的，以便可以发起拨打这些号码的电话呼叫。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| offline_access | delegated | 用户授权令牌，授权应用访问Graph列出的其他 API 终结点。 Microsoft Identity 平台应用程序必须拥有这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| openid | delegated | 用户授权令牌，授权应用访问Graph列出的其他 API 终结点。 Microsoft Identity 平台应用程序必须拥有这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| profile | delegated | 用户授权令牌，授权应用访问Graph列出的其他 API 终结点。 Microsoft Identity 平台应用程序必须拥有这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
 
 >此应用程序没有其他 API。
 

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: 有关 vimheslo 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0149e5bd2930cc2cbb93964cfdcd0399ce119f88
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: c419392746cbd58dcd3ba656b0da369f5294a06a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470142"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548470"
 ---
 # <a name="vimheslo"></a>vimheslo
 
@@ -36,7 +36,7 @@ ms.locfileid: "63470142"
 | 应用名称 | vimheslo |
 | ID | WA200003843 |
 | Office 365客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | 欧洲代码工厂 s.r.o. |
+| 合作伙伴公司名称 | European Code Factory s.r.o. |
 | 公司网站 | [https://ecodef.cz](https://ecodef.cz) |
 | 应用的使用条款 | [https://ecodef.cz/terms_of_use.html](https://ecodef.cz/terms_of_use.html) |
 | 应用的核心功能 | 密码管理器 |
@@ -161,10 +161,10 @@ ms.locfileid: "63470142"
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.Read.All | delegated | 数据存储在文档OneDrive SharePoint中，应用程序需要读取数据。 | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| Sites.Read.All | delegated | 团队上下文中的应用程序将数据存储在SharePoint文档库中，应用程序需要将网站名称读取到安装路径（包含数据的文件所在的位置）。 | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| User.Read | delegated | 应用程序需要知道个人OneDrive来存储个人数据。 | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| 电子邮件 | delegated | 允许共享数据。 | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
+>| Files.Read.All | delegated | 数据存储在文档OneDrive SharePoint中，应用程序需要读取数据。 | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| Sites.Read.All | delegated | 团队上下文中的应用程序将数据存储在SharePoint文档库中，应用程序需要将网站名称读取到安装路径（包含数据的文件所在的位置）。 | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| User.Read | delegated | 应用程序需要知道个人OneDrive来存储个人数据。 | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| 电子邮件 | delegated | 允许共享数据。 | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
 
 >此应用程序没有其他 API。
 

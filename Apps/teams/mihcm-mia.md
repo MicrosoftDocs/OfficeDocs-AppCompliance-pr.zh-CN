@@ -2,18 +2,19 @@
 title: Mia 的应用程序信息（由 MiHCM 提供）
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Mia 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1e8fa45f92c45f54d50ce94397eeb5a9adba49ca
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 780b2ad28c44c486eeba73569fbe1448461bda25
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63079716"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548850"
 ---
 # <a name="mia"></a>Mia
 
@@ -40,7 +41,7 @@ MiHCM 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://mia.work/terms-of-use](https://mia.work/terms-of-use) |
 | 应用的核心功能 | Mia Workplace 虚拟助理使组织能够为所有用户提供一个Microsoft Teams助手。 此办公Microsoft Teams帮助组织提高工作效率、提高员工参与度、执行大量 HR &amp; 请求、与工作相关的服务请求、健身健康等。 Mia 为员工参与度、无缝的员工体验提供丰富的 HR 服务/交互。 |
 | 公司总部位置 | 斯里兰卡 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://mia.work](https://mia.work) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -61,7 +62,7 @@ MiHCM 提供了此信息，这些信息与此应用程序如何收集和存储�
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | 用户日历事件、用户时区 |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 新加坡 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 30 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
@@ -171,10 +172,10 @@ MiHCM 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | 应用程序 | 读取用户的计划日历事件 | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| Group.Read.All | delegated | 读取用户的 Microsoft Planner 任务 | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| MailboxSettings.Read | 应用程序 | 读取用户的时区 | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| User.Read | delegated | 唯一标识用户 | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
+>| Calendars.Read | 应用程序 | 读取用户的计划日历事件 | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| Group.Read.All | delegated | 读取用户的 Microsoft Planner 任务 | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| MailboxSettings.Read | 应用程序 | 读取用户的时区 | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| User.Read | delegated | 唯一标识用户 | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
 
 >此应用程序没有其他 API。
 

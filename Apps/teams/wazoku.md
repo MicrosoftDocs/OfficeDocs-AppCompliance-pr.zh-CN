@@ -2,18 +2,19 @@
 title: Wazoku 的应用程序信息 （由 Wazoku 表示）
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Wazoku 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1c9aef70ea9958b82698b54fca43ebf2853f5d73
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 9dd9552c6b636d16f6c419979fada3fda866e793
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251538"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549610"
 ---
 # <a name="wazoku"></a>Wazoku
 
@@ -34,13 +35,13 @@ Wazoku 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Wazoku |
 | ID | WA200003384 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Wazoku |
 | 公司网站 | [https://www.wazoku.com](https://www.wazoku.com) |
 | 应用的使用条款 | [https://www.wazoku.com/terms-of-use/](https://www.wazoku.com/terms-of-use/) |
 | 应用的核心功能 | Wazoku 创意管理平台 |
 | 公司总部位置 | 英国大英和爱尔兰 ()  |
-| 应用信息页面 | |
+| 应用信息页面 | [https://support.wazoku.com/microsoft-teams-integration](https://support.wazoku.com/microsoft-teams-integration) |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
 | 应用使用哪些托管云提供商？ | Azure、Aws |
 
@@ -82,7 +83,7 @@ Wazoku 提供了此信息，这些信息与此应用程序如何收集和存储�
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ | 是 |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
@@ -92,7 +93,7 @@ Wazoku 提供了此信息，这些信息与此应用程序如何收集和存储�
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ | 是 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 否 |
@@ -108,7 +109,7 @@ Wazoku 提供了此信息，这些信息与此应用程序如何收集和存储�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -122,10 +123,10 @@ Wazoku 提供了此信息，这些信息与此应用程序如何收集和存储�
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理计划 (是否) 合规性？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 否 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -147,7 +148,7 @@ Wazoku 提供了此信息，这些信息与此应用程序如何收集和存储�
 | 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
 | 该应用是否向个人提供更正或更新其个人数据的能力？ | 是 |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私) ，以确定与应用个人数据处理相关的风险？ | 是 |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,17 +165,17 @@ Wazoku 提供了此信息，这些信息与此应用程序如何收集和存储�
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 是 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | 单一登录 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| 电子邮件 | delegated | 单一登录 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| offline_access | delegated | 单一登录 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| openid | delegated | 单一登录 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| 个人资料 | delegated | 单一登录 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
+>| User.Read | delegated | 单一登录 | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| 电子邮件 | delegated | 单一登录 | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| offline_access | delegated | 单一登录 | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| openid | delegated | 单一登录 | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| profile | delegated | 单一登录 | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
 
 >此应用程序没有其他 API。
 
