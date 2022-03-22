@@ -2,20 +2,21 @@
 title: DewMaker Design， Inc. 针对防火墙助理的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 防火墙助理的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e9cf30e4f4b283cb1da66dfb40e5a3c9745901c6
-ms.sourcegitcommit: 27afe4d564e72c28ea073e4b31801ad983aec173
+ms.openlocfilehash: ef5b9990a4c9cd5338172c45b61f5612f1d4f54a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62477520"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550250"
 ---
-# <a name="firewall-assistant"></a>防火墙助理
+# <a name="firewall-assistant"></a>防火墙助手
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,15 +33,15 @@ DewMaker Design， Inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 防火墙助理 |
+| 应用名称 | 防火墙助手 |
 | ID | WA200003363 |
 | Office 365客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | DewMaker Design， Inc. |
+| 合作伙伴公司名称 | DewMaker Design, Inc. |
 | 公司网站 | [https://dewmaker.com](https://dewmaker.com) |
 | 应用的使用条款 | [https://teamwell.services/terms.html](https://teamwell.services/terms.html) |
 | 应用的核心功能 | Azure 的自助服务管理SQL Server Azure 防火墙规则Microsoft Teams。 |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://firewallassistant.com](https://firewallassistant.com) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -92,7 +93,7 @@ DewMaker Design， Inc. 提供给 Microsoft 的信息：
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ | 是 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -109,7 +110,7 @@ DewMaker Design， Inc. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
-| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -123,9 +124,9 @@ DewMaker Design， Inc. 提供给 Microsoft 的信息：
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
-| 应用是否遵守 FERPA (家庭教育权和隐私) ？ | 不适用 |
+| 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (法案) ？ | 是 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 是 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -140,8 +141,8 @@ DewMaker Design， Inc. 提供给 Microsoft 的信息：
 | 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 否 |
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销 (分析）未) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
@@ -157,7 +158,7 @@ DewMaker Design， Inc. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 否 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 否 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |

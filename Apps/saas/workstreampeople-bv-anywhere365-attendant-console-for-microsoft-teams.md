@@ -2,18 +2,19 @@
 title: WORKSTREAMPEOPLE BV Microsoft Teams BV Microsoft Teams Anywhere365 Attendant 控制台的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/22/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 适用于 Microsoft Teams 的 Anywhere365 Attendant 控制台的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: adbb46b7c7b8cb5320a61cd41c58c8318315af82
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 27d7116b0f3adea4c4174bd25a64cd58f195a2ff
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081044"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550801"
 ---
 # <a name="anywhere365-attendant-console-for-microsoft-teams"></a>Anywhere365 Attendant Console for Microsoft Teams
 
@@ -38,7 +39,7 @@ WORKSTREAMPEOPLE BV 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://anywhere365.io/terms-conditions/](https://anywhere365.io/terms-conditions/) |
 | 应用的核心功能 | 市场中功能最强大且用户友好的助理控制台，本地Microsoft Teams |
 | 公司总部位置 | 荷兰 ()  |
-| 应用信息页面 | |
+| 应用信息页面 | [https://anywhere365.io/attendant-console-for-microsoft-team...](https://anywhere365.io/attendant-console-for-microsoft-teams/) |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -59,7 +60,7 @@ WORKSTREAMPEOPLE BV 提供给 Microsoft 的信息：
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | TenantId |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 荷兰 ()  |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 90 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
@@ -168,14 +169,14 @@ WORKSTREAMPEOPLE BV 提供给 Microsoft 的信息：
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read.Shared | delegated | 我们想要显示用户有权访问的同事的日历 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| People.Read | delegated | 我们希望显示用户同事的详细信息，以能够联系他们 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| Presence.Read.All | delegated | 我们希望显示联系人列表中所有用户的存在 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| User.Read.All | delegated | 我们希望能够显示同事的所有信息 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| 电子邮件 | delegated | 我们希望能够向用户发送电子邮件，并将其用于回叫邮件 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| offline_access | delegated | 我们希望能够保持数据最新 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| openid | delegated | 在平台中标识用户 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| 个人资料 | delegated | 我们需要配置文件数据来标识用户并个性化体验 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
+>| Calendars.Read.Shared | delegated | 我们想要显示用户有权访问的同事的日历 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| People.Read | delegated | 我们希望显示用户同事的详细信息，以能够联系他们 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| Presence.Read.All | delegated | 我们希望显示联系人列表中所有用户的存在 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| User.Read.All | delegated | 我们希望能够显示同事的所有信息 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| 电子邮件 | delegated | 我们希望能够向用户发送电子邮件，并将其用于回叫邮件 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| offline_access | delegated | 我们希望能够保持数据最新 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| openid | delegated | 在平台中标识用户 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| profile | delegated | 我们需要配置文件数据来标识用户并个性化体验 | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
 
 >此应用程序没有其他 API。
 

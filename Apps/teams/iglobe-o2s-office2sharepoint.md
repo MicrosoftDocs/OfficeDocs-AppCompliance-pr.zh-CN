@@ -2,18 +2,19 @@
 title: O2S 的应用程序信息 - Office2SharePoint by iGlobe
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: O2S 的所有可用安全性和合规性信息 - Office2SharePoint、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 16ad82f70ea0765da6910cc5073bb4dbdfc1cd00
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: fcb03e4fa1b956f1d5ae49282d15372e9b8fa701
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63075506"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551481"
 ---
 # <a name="o2s---office2sharepoint"></a>O2S - Office2SharePoint
 
@@ -39,7 +40,7 @@ iGlobe 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://www.iglobecrm.com/content/end-user-license-agreemen...](https://www.iglobecrm.com/content/end-user-license-agreement-office2sharepoint) |
 | 应用的核心功能 | 通过跨 Microsoft Teams、Microsoft 365、SharePoint、Outlook、Office 和 OneDrive 提供集成体验，使日常工作更加轻松。  |
 | 公司总部位置 | 丹麦 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://o2s.iglobe.dk](https://o2s.iglobe.dk) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -56,14 +57,7 @@ iGlobe 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ |  |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -168,17 +162,54 @@ iGlobe 提供给 Microsoft 的信息：
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | delegated | 允许应用以登录用户身份访问目录中的信息。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Directory.Read.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Directory.ReadWrite.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Group.Read.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Group.ReadWrite.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Sites.Manage.All | delegated | 允许应用程序代表登录用户创建或删除所有网站集中的文档库和列表。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Sites.Read.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Sites.ReadWrite.All | delegated | 获取权限和获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| User.Read | delegated | 为用户获取SharePoint网站、OneDrive和组网站。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Directory.AccessAsUser.All | delegated | 允许应用以登录用户身份访问目录中的信息。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Directory.Read.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Directory.ReadWrite.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Group.Read.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Group.ReadWrite.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Sites.Manage.All | delegated | 允许应用程序代表登录用户创建或删除所有网站集中的文档库和列表。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Sites.Read.All | delegated | 检查权限并获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Sites.ReadWrite.All | delegated | 获取权限和获取网站和列表。 创建文件夹、获取文件和保存文件。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| User.Read | delegated | 为用户获取SharePoint网站、OneDrive和组网站。 | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
 
 >此应用程序没有其他 API。
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>认证信息
+
+| **Control** | **Microsoft 365认证结果** |
+|:------------|:---------------------------------------|
+| [**应用程序安全性**](../docs/certification-submission-guide.md#application-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渗透测试 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞评估评审 (DAST/SAST/渗透测试)  | 不适用 |
+| [**操作安全性**](../docs/certification-submission-guide.md#operational-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 防病毒 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 应用程序控制 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 风险排名 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 修补 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞扫描 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - 防火墙 (或等效技术)  | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - Web 应用程序防火墙 (WAF)  (可选)  | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更改控件 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全软件开发/部署 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帐户管理 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入侵检测和防护 (可选)  | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件日志记录 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看 (日志记录)  | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件警报 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息安全风险管理 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事件响应 | 不适用 |
+| [**数据处理安全 &amp; 隐私**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传输中的数据 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;处于 Rest 的数据 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据保留和处置 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据访问管理 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | 不适用 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

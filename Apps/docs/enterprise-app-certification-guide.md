@@ -6,16 +6,16 @@ description: Microsoft 365认证详细信息
 keywords: 应用证明 Microsoft 365 认证 365 调查表 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: e41a9c0d09fec10b0034e7da5e8a335cbc4473fc
-ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
+ms.openlocfilehash: 47f479258f2bb944cf30665c4479bb151523a561
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60719554"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63697382"
 ---
 # <a name="what-is-microsoft-365-certification"></a>什么是Microsoft 365认证？
 
-Microsoft 365 认证是一项认证，旨在向客户表明应用已针对源自领先行业标准框架的控制措施进行了审查，并且已制定强大的安全性和合规性做法来保护客户数据。 认证Microsoft 365阶段：**证明和****认证**。
+Microsoft 365 认证是一项认证，旨在让客户了解应用已针对源自领先行业标准框架的控制措施进行了审查，并且已制定强大的安全性和合规性做法来保护客户数据。 认证Microsoft 365阶段：**证明和****认证**。
 
 >[!VIDEO https://www.youtube.com/embed/Wv1lcNAycuE]
 
@@ -41,9 +41,9 @@ Microsoft 365 认证是一项认证，旨在向客户表明应用已针对源自
 应用认证是通过合格的分析师对以应用的安全性和合规性框架、流程和过程为中心的全面评估进行审阅和审批实现的。 
 
 已经过认证的应用已跨以下三个域进行评估：
-1.  [**应用程序安全**]( https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security)
-1.  [**操作安全性/安全部署**]( https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security)
-1.  [**数据处理安全和隐私**]( https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy)
+1.  [**应用程序安全**]( https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#application-security)
+1.  [**操作安全性/安全部署**]( https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#operational-security)
+1.  [**数据处理安全和隐私**]( https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy)
 
 尽管参与是可选的，但当应用获得认证时，它表示它已经过严格的安全审查，并且可信任客户数据。 有关 ISV 必须经过认证的严格流程的完整详细信息。 请参阅[Microsoft 365认证提交指南](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)。
 
@@ -58,34 +58,34 @@ Microsoft 365认证适用于与以下 Microsoft 产品集成的所有应用：
 - SharePoint
 - Project
 - OneNote
-- **通过** 合作伙伴 (商业市场发布的 SaaS 应用的 Web 应用目前处于私人预览状态，如果你有兴趣参与，请填写此表单 [.)](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)
+- **通过合作伙伴** (商业市场发布的 SaaS 应用的 Web 应用目前处于私人预览状态，如果你有兴趣参与，请填写此 [表单](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u)。
 
 ## <a name="program-benefits"></a>计划权益
 参与和完成Microsoft 365认证可以为 IT 管理员和开发人员带来巨大优势：
 
 **应用开发人员权益**
--   **免费评估**- ISV 无需任何货币成本，也无需Microsoft 365认证
--   **增加曝光**- (AppSource、Teams、Office) 、管理门户 (Teams、M365) 和 Microsoft Docs 中的应用一览上打印的 Microsoft 365 认证徽章
+-   **免费评估** - ISV 实现免费认证无需Microsoft 365成本
+-   **增加曝光** - (AppSource、Teams、Office) 、管理门户 (Teams、M365) 和 Microsoft Docs 中的应用一览上打印的 Microsoft 365 认证锁屏提醒
 -   **节省时间** - 减少在 RFP 过程中用于解决客户安全问题的时间 
-- **营销材料**- 免费营销工具包，可提升你作为Microsoft 365认证应用的状态
-- **推广活动** - 在 Microsft 活动（如 Build 和 Ignite）中突出显示的机会
+- **营销材料** - 免费营销工具包，可提升你作为Microsoft 365认证应用的状态
+- **促销活动** - 在 Microsft 活动（如 Build 和 Ignite）中突出显示的机会
 
 **IT 管理员权益**
 - **节省时间** - 查看应用的 Microsoft Docs 页面，并减少调查应用安全性和合规性所花费的时间和资源 
 -   **提高可信度** - 认证应用已采取措施来保护你的数据 
--   **受信任信号**- Microsoft 365认证锁屏提醒提供了一种简单方法，用于解除对受信任的应用的信任
+-   **受信任信号** - Microsoft 365认证锁屏提醒提供了一种简单方法，用于解除对受信任的应用的信任
 
 
 ### <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>使用Microsoft 365徽章和相关营销材料
-the Microsoft 365 Certification logo demonstrates that an app has been reviewed for conforms to conforms to controls puted by Microsoft whichly evaluate data security and privacy practices. 完成认证后Microsoft 365 Microsoft 明确书面同意，可以使用 Microsoft 365 徽标。 如果你的认证被吊销，或者自认证授予起一年内未启动重新认证过程，则必须停止使用所有与认证相关的Microsoft 365材料。 
+the Microsoft 365 Certification logo demonstrates that an app has been reviewed for conforms to conforms to controls puted by Microsoft whichly evaluate data security and privacy practices. 完成认证后，Microsoft 365 Microsoft 明确书面同意，使用 Microsoft 365 徽标。 如果你的认证被吊销，或者自认证授予起一年内未启动重新认证过程，则必须停止使用所有与认证相关的Microsoft 365材料。 
 
-此徽标可用于网站、新闻稿和其他专门与已完成认证过程的应用程序相关的论坛Microsoft 365徽标。 徽标必须以合理的大小和位置呈现在数字内容中。 
+此徽标可用于网站、新闻稿和其他专门与已完成认证过程的应用程序相关的Microsoft 365徽标。 徽标必须以合理的大小和位置呈现在数字内容中。 
 
-以下语句必须随附徽标："具有 Microsoft 365 认证徽标的应用表示此应用已Microsoft 365认证。 除了应用安全性之外，此计划还审核应用发布者采用的做法和过程。 当客户数据受应用发布者控制时，你可以放心，Microsoft 已验证应用是否以安全的方式处理它。"
+以下语句必须随附徽标："具有 Microsoft 365 认证徽标的应用表示此应用已Microsoft 365认证。 除了应用安全性，此计划还审阅应用发布者采用的做法和过程。 当客户数据受应用发布者控制时，你可以放心，Microsoft 已验证应用是否以安全的方式处理它。"
 
 
-### <a name="learn-more"></a>了解详情
+### <a name="learn-more"></a>了解详细信息
 * [Microsoft 365应用合规性计划概述](~/overview.md)  
-* [完成Microsoft 365认证](~/docs/certification.md)  
+* [完成 Microsoft 365 认证](~/docs/certification.md)  
 * [Microsoft 365认证提交指南](~/docs/certification-submission-guide.md)
 

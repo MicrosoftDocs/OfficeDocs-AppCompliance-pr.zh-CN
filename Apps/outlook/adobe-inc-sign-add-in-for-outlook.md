@@ -2,18 +2,19 @@
 title: Adobe Sign for Application Information for Add-In for Outlook by Adobe Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Adobe Sign Add-In for Outlook 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 55945315fcc8c34bd0badd80a0dfacf88bed8c54
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 310ce48ea85d531d50a6ebcbafeedcf1130e8f2b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63079496"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550431"
 ---
 # <a name="adobe-sign-add-in-for-outlook"></a>Adobe Sign Add-In for Outlook
 
@@ -38,8 +39,9 @@ Adobe Inc. 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://www.adobe.com/legal/licenses-terms.html](https://www.adobe.com/legal/licenses-terms.html) |
 | 应用的核心功能 | 将 Adobe Sign 添加到文档签名工作流时，保持文档签名工作流Outlook。 现在，在Outlook中，你可以签署文档，发送文档，以通过 Microsoft 的首选电子签名解决方案&#8212;绑定电子签名和审批。 |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://helpx.adobe.com/sign/help/adobesign_microsoft_teams...](https://helpx.adobe.com/sign/help/adobesign_microsoft_teams.html) |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
+| 应用使用哪些托管云提供商？ | AWS、Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -54,14 +56,7 @@ Adobe Inc. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ |  |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ | 在一个月内删除 |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,11 +159,11 @@ Adobe Inc. 提供给 Microsoft 的信息：
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Mail.ReadWrite | delegated | 填充附加的文档、发件人和收件人电子邮件以及电子邮件中的邮件内容到 Adobe sign 以发送进行签名。 这是为了节省用户在 Adobe Sign 中重新键入这些字段的时间。 签署协议后，我们将自动撰写一封新电子邮件，让用户发送电子邮件，通知其收件人交易已完成。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
->| People.Read | delegated | 若要在"发送供签名&quot;&quot;"体验中自动填充电子邮件地址，请键入一些初始字母，无需用户键入整个电子邮件。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
->| User.Read | delegated | 要读取用户配置文件并基本上匹配其 (，他们的电子邮件和 userId) 我们的数据库，以便他们可以使用 Adobe Sign。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
->| offline_access | delegated | 在当前令牌过期时刷新访问令牌。 例如，当用户&quot;&quot;在签名发送窗口中将其保持非活动状态的时间太长时，我们需要在用户处于活动状态时刷新新令牌。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
->| openid | delegated | 电子邮件和 UserId。 登录以确保用户同意使用 Adobe Sign 应用的权限。  | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
+>| Mail.ReadWrite | delegated | 填充附加的文档、发件人和收件人电子邮件以及电子邮件中的邮件内容到 Adobe sign 以发送进行签名。 这是为了节省用户在 Adobe Sign 中重新键入这些字段的时间。 签署协议后，我们将自动撰写一封新电子邮件，让用户发送电子邮件，通知其收件人交易已完成。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](../azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b.md) |
+>| People.Read | delegated | 若要在"发送供签名&quot;&quot;"体验中自动填充电子邮件地址，请键入一些初始字母，无需用户键入整个电子邮件。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](../azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b.md) |
+>| User.Read | delegated | 要读取用户配置文件并基本上匹配其 (，他们的电子邮件和 userId) 我们的数据库，以便他们可以使用 Adobe Sign。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](../azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b.md) |
+>| offline_access | delegated | 在当前令牌过期时刷新访问令牌。 例如，当用户&quot;&quot;在签名发送窗口中将其保持非活动状态的时间太长时，我们需要在用户处于活动状态时刷新新令牌。 | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](../azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b.md) |
+>| openid | delegated | 电子邮件和 UserId。 登录以确保用户同意使用 Adobe Sign 应用的权限。  | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](../azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b.md) |
 
 >此应用程序没有其他 API。
 

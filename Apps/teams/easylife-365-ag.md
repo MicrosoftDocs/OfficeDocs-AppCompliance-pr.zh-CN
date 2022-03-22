@@ -3,24 +3,24 @@ title: EasyLife 365 AG 的 EasyLife 365 应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 02/04/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: EasyLife 365 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cf7a3b8b77e915f42d1a8d3d1573ca23fcf1cf78
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 1bbd4661f847866ed0d9094f641ba7d34fefd8c0
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63548490"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63696504"
 ---
 # <a name="easylife-365"></a>EasyLife 365
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 1 月 5 日</p>
+<p>开发人员上次更新时间：2022 年 3 月 21 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/93731bac-4d43-480f-9e40-9fc567dfb817" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003697" target="_blank">在 AppSource 中查看</a>
@@ -42,7 +42,8 @@ EasyLife 365 AG 提供给 Microsoft 的信息：
 | 应用的核心功能 | 轻松管理！ |
 | 公司总部位置 | Switzerland（瑞士） |
 | 应用信息页面 | [https://www.easylife365.cloud/governance/features](https://www.easylife365.cloud/governance/features) |
-| 用于运行应用的托管环境或服务模型是什么？ | IsvHosted |
+| 用于运行应用的托管环境或服务模型是什么？ | Paas |
+| 应用使用哪些托管云提供商？ | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -170,22 +171,42 @@ EasyLife 365 AG 提供给 Microsoft 的信息：
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Read.All | delegated | 允许管理Microsoft 365中的组 | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
->| User.Read.All | delegated | 用于检索应用程序中的用户信息。 在人员选取器中使用 | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
->| ChannelMember.ReadWrite.All | 应用程序 | 用于在后端应用中读取和操作通道成员 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| Directory.ReadWrite.All | 两者 | 用于验证 EasyLife 365 租户中的应用权限。 用于在后端禁用/启用对 Microsoft 365 组的来宾访问。 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| Group.ReadWrite.All | 应用程序 | 用于预配Microsoft 365组、验证组的所有者、存档Teams、删除后端服务中的组 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| Mail.Send | 应用程序 | 允许向环境中具有任意邮箱的用户发送邮件通知。 管理员将其配置为从共享邮箱或用户发送邮件。 管理员通常将此应用程序的权限限制为应用 ID | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| MailboxSettings.Read | 应用程序 | 用于在以特定语言发送通知之前读取用户邮箱的语言设置 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| Reports.Read.All | 应用程序 | 用于验证后端Microsoft 365组使用情况 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| Sites.Read.All | 应用程序 | 用于枚举租户SharePoint Online 网站 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| User.Read.All | 应用程序 | 用于查找用户和检索基本信息以发送通知 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| User.ReadWrite.All | 应用程序 | 用于在后端应用程序中邀请来宾帐户、修改来宾帐户元数据和删除来宾帐户（如果需要） | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| ChannelMember.ReadWrite.All | delegated | 由用户用来操作团队的频道成员身份 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
->| Group.ReadWrite.All | delegated | Used by to manipulate the metadata for Microsoft 365 Groups and Teams. 用于在环境中搜索组 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| Group.Read.All | delegated | 允许读取组或Teams | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| Group.ReadWrite.All | delegated | 允许管理组或用户Teams | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| GroupMember.Read.All | delegated | 读取组的成员 | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| User.Read.All | delegated | 允许检索来宾帐户元数据 | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| User.ReadBasic.All | delegated | 允许搜索组织的成员或来宾帐户 | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| Channel.Create | 应用程序 | 为团队创建频道 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Channel.ReadBasic.All | 应用程序 | 读取现有团队的频道 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Directory.Read.All | 应用程序 | 获取当前组和来宾帐户设置模板 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Directory.ReadWrite.All | 应用程序 | 应用组或团队的来宾帐户设置 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Group.Create | 应用程序 | 创建组 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Group.Read.All | 两者 | 读取组信息并检索组别名 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Group.ReadWrite.All | 应用程序 | 操作后端中的组元数据 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| GroupMember.Read.All | 应用程序 | 检索后端中的组或团队成员身份 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| GroupMember.ReadWrite.All | 应用程序 | 允许从组或团队中添加或删除成员 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| IdentityRiskyUser.ReadWrite.All | 应用程序 | 允许操作来宾帐户及其元数据 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Mail.Send | 应用程序 | 使用共享邮箱发送邮件 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| MailboxSettings.Read | 应用程序 | 检索用户的首选语言设置 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Reports.Read.All | 应用程序 | 检索组和组的使用情况Teams | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Team.ReadBasic.All | 应用程序 | 检索基本团队信息 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| TeamSettings.ReadWrite.All | 应用程序 | 允许存档和解压缩团队 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Teams。创建 | 应用程序 | 创建团队 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| TeamsTab.Read.All | 应用程序 | 从已创建的团队检索选项卡 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| TeamsTab.ReadWrite.All | 应用程序 | 允许创建或管理已创建团队的选项卡 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| User.Invite.All | 应用程序 | 邀请用户加入租户 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| User.Read | delegated | 获取用户信息和组织信息 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| User.Read.All | 两者 | 检索来宾和用户信息 | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Group.Read.All | delegated | 读取所有用户的组 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| Group.ReadWrite.All | delegated | 修改用户的组元数据以及操作组和Teams | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| GroupMember.Read.All | delegated | 允许组所有者读取组或团队的成员身份 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| GroupMember.ReadWrite.All | delegated | 允许组所有者操纵组或团队的成员身份 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| TeamSettings.ReadWrite.All | delegated | 允许存档或解压缩团队 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
 >| TeamsActivity.Send | 应用程序 | 用于在Teams发送通知 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
 >| TeamsAppInstallation.ReadForUser.All | 应用程序 | 验证用户是否安装了 EasyLife 应用，然后再通过 Teams。 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
->| User.Read.All | delegated | 由人员选取器用于在组织中搜索用户;用于枚举来宾帐户 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| User.Read | delegated | 读取组织数据和用户信息 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| User.Read.All | delegated | 允许搜索目录中的其他成员或来宾帐户 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| User.ReadBasic.All | delegated | 显示用户的照片 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
 >| 电子邮件 | delegated | 由 SSO 身份验证使用 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
 >| offline_access | delegated | 由 SSO 身份验证使用 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
 >| openid | delegated | 由 SSO 身份验证使用 | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |

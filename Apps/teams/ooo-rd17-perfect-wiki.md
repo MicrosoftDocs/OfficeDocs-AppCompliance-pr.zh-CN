@@ -2,20 +2,21 @@
 title: OOO RD17 完美 Wiki 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 有关完美 Wiki 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2eab3751f755b6ed2826a7f9b0aa964608811a26
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: c635cc3f035977baba211e7d6faa77ce461923d7
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63080988"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551981"
 ---
-# <a name="perfect-wiki"></a>完美 Wiki
+# <a name="perfect-wiki"></a>Perfect Wiki
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +33,7 @@ OOO RD17 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 完美 Wiki |
+| 应用名称 | Perfect Wiki |
 | ID | WA200001679 |
 | Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | OOO RD17 |
@@ -40,8 +41,9 @@ OOO RD17 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://docs.google.com/document/d/e/2PACX-1vTMQNAdgN7xy6n9...](https://docs.google.com/document/d/e/2PACX-1vTMQNAdgN7xy6n9tNvhDe8Sb2AF8A9v8jfG3gJ503cXzIq1nr_Zbq5aShN0mU49fvADgKZ8a58Oha-C/pub) |
 | 应用的核心功能 | Feature Rich Wiki for Microsoft Teams |
 | 公司总部位置 | 联盟 ()  |
-| 应用信息页面 | |
+| 应用信息页面 | [https://perfectwikiforteams.com](https://perfectwikiforteams.com) |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
+| 应用使用哪些托管云提供商？ | Azure、GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ OOO RD17 提供了此信息，这些信息与此应用程序如何收集和存�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ |  |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ | 在一个月内删除 |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,7 +150,7 @@ OOO RD17 提供了此信息，这些信息与此应用程序如何收集和存�
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
-| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | True |
+| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | true |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  |  |
@@ -166,9 +161,9 @@ OOO RD17 提供了此信息，这些信息与此应用程序如何收集和存�
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegated | ChannelId 和 channelName，我们获取该信息以在应用中显示用户 | [b9604964-9c3a-483e-abf2-1b5cba495081](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9604964-9c3a-483e-abf2-1b5cba495081) |
->| Team.ReadBasic.All | delegated | 获取用户的 teamId 并获取团队名称 | [b9604964-9c3a-483e-abf2-1b5cba495081](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9604964-9c3a-483e-abf2-1b5cba495081) |
->| User.Read | delegated | userId，用于了解登录的用户 | [b9604964-9c3a-483e-abf2-1b5cba495081](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9604964-9c3a-483e-abf2-1b5cba495081) |
+>| Channel.ReadBasic.All | delegated | ChannelId 和 channelName，我们获取该信息以在应用中显示用户 | [b9604964-9c3a-483e-abf2-1b5cba495081](../azure/b9604964-9c3a-483e-abf2-1b5cba495081.md) |
+>| Team.ReadBasic.All | delegated | 获取用户的 teamId 并获取团队名称 | [b9604964-9c3a-483e-abf2-1b5cba495081](../azure/b9604964-9c3a-483e-abf2-1b5cba495081.md) |
+>| User.Read | delegated | userId，用于了解登录的用户 | [b9604964-9c3a-483e-abf2-1b5cba495081](../azure/b9604964-9c3a-483e-abf2-1b5cba495081.md) |
 
 >此应用程序没有其他 API。
 

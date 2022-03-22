@@ -2,18 +2,19 @@
 title: GmbH 内的由用户管理 &amp; eCademy Lernplattform 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: eCademy Lernplattform 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 286ac7c77b326169bc660489c38c17d32724614c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ee636f59401f63a8ec64eb8c25fc5734e4a3f78f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250217"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552671"
 ---
 # <a name="ecademy-lernplattform"></a>eCademy Lernplattform
 
@@ -34,14 +35,15 @@ ms.locfileid: "62250217"
 |:----------------|:-------------|
 | 应用名称 | eCademy Lernplattform |
 | ID | WA200002717 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Cornelsen eCademy &amp; inside GmbH |
 | 公司网站 | [https://www.ecademy-learning.com](https://www.ecademy-learning.com) |
 | 应用的使用条款 | [https://www.ecademy-learning.com/agb/](https://www.ecademy-learning.com/agb/) |
 | 应用的核心功能 | 对于希望实现创新教学和学习的讲师和培训人员，eCademy Lernplattform 是一种数字学习解决方案，可随时在任意位置打开个人和实践学习路径。 我们帮助公司和教育机构为未来的劳动力市场成功培训并培养熟练员工，并帮助他们在需求不断增加和异类人才池不断增加时表现更佳。 |
 | 公司总部位置 | 德国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://www.ecademy-learning.com](https://www.ecademy-learning.com) |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
+| 应用使用哪些托管云提供商？ | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ ms.locfileid: "62250217"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ |  |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ | 在一个月内删除 |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -79,7 +74,7 @@ ms.locfileid: "62250217"
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ |  |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ |  |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ |  |
 | 你的环境是否具有任何不受支持的操作系统或软件？ |  |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ |  |
@@ -89,7 +84,7 @@ ms.locfileid: "62250217"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ |  |
 | 启用了 MFA (多重) 身份验证： |  |
 | 您是否已制定设置、修改和删除员工帐户的流程？ |  |
-| 你是否具有在支持 (网络) 外围部署的入侵检测和防护 IDPS 软件？ |  |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ |  |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ |  |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ |  |
@@ -105,7 +100,7 @@ ms.locfileid: "62250217"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -119,10 +114,10 @@ ms.locfileid: "62250217"
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理计划 (是否) 合规性？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (法) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ |  |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -137,8 +132,8 @@ ms.locfileid: "62250217"
 | 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ |  |
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ |  |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ |  |
-| 应用是否出于次要目的处理客户数据，如 (，即营销、分析) ？ |  |
-| 你是否处理特殊类别的敏感数据 (如种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ |  |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ |  |
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |

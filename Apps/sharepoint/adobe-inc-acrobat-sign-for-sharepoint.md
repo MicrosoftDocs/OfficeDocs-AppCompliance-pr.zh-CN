@@ -2,18 +2,19 @@
 title: Adobe Acrobat Sign for SharePoint Adobe Inc. 的应用程序信息。
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Adobe Acrobat Sign for SharePoint 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 4839a19d8a616ae4d5e71850c28e6eefaca3028a
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: d7c8f5754741fc8443bfc25443918267333cd0f7
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081043"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550791"
 ---
 # <a name="adobe-acrobat-sign-for-sharepoint"></a>Adobe Acrobat Sign for SharePoint
 
@@ -38,8 +39,9 @@ Adobe Inc. 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://www.adobe.com/legal/licenses-terms.html](https://www.adobe.com/legal/licenses-terms.html) |
 | 应用的核心功能 | 将 Adobe Sign 添加到工作流时，保持文档签名工作流Teams。 现在，在Teams中，你可以签署文档，发送这些文档，以通过 Microsoft 首选电子签名解决方案&#8212;绑定电子签名和审批。 |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://helpx.adobe.com/sign/using/microsoft-sharepoint-use...](https://helpx.adobe.com/sign/using/microsoft-sharepoint-user-guide.html) |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
+| 应用使用哪些托管云提供商？ | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -54,14 +56,7 @@ Adobe Inc. 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ |  |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ | 在一个月内删除 |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,7 +159,7 @@ Adobe Inc. 提供给 Microsoft 的信息：
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | delegated | 获取用户角色并验证用户是否被授予了应用程序功能的某些权限。 | [99a3ad8d-8682-4f2a-9c2c-b4b27e99585c](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a3ad8d-8682-4f2a-9c2c-b4b27e99585c) |
+>| Directory.Read.All | delegated | 获取用户角色并验证用户是否被授予了应用程序功能的某些权限。 | [99a3ad8d-8682-4f2a-9c2c-b4b27e99585c](../azure/99a3ad8d-8682-4f2a-9c2c-b4b27e99585c.md) |
 
 >此应用程序没有其他 API。
 

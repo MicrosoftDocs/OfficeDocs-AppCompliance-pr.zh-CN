@@ -2,18 +2,19 @@
 title: Streem 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/09/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Streem 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7a51d9881df2405737276cf50478a70456e0c5ba
-ms.sourcegitcommit: 0bd8c5bf11934d14ea75ec30388534345dcb02a5
+ms.openlocfilehash: 12641f55e9b8f9a564d422cf89b47ccd270d859d
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63421580"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550080"
 ---
 # <a name="streem"></a>Streem
 

@@ -2,18 +2,19 @@
 title: 通过闪电工具进行社交平方论坛的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 03/02/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 有关社交论坛的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 692c53d52f0a31717b2f263d8d3b452c1bf7e540
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: ddb338b61c19918ab32409b55256349e40c265fa
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081042"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551681"
 ---
 # <a name="social-squared-discussion-forums"></a>社交正方形论坛
 
@@ -39,7 +40,7 @@ ms.locfileid: "63081042"
 | 应用的使用条款 | [https://lightningtools.com/lightning-tools-social-squared-c...](https://lightningtools.com/lightning-tools-social-squared-client-side-web-part-software-license-agreement) |
 | 应用的核心功能 | Microsoft Teams 和 Microsoft SharePoint 讨论板应用 |
 | 公司总部位置 | 英国大英和爱尔兰 ()  |
-| 应用信息页面 | |
+| 应用信息页面 | [https://lightningtools.com/product/social-squared-sharepoin...](https://lightningtools.com/product/social-squared-sharepoint-discussion-board) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -56,14 +57,7 @@ ms.locfileid: "63081042"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ |  |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -167,9 +161,9 @@ ms.locfileid: "63081042"
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | 应用程序 | 为组的成员订阅论坛帖子 | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Presence.Read.All | 应用程序 | 在讨论板用户配置文件中显示用户状态 | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| User.ReadBasic.All | 应用程序 | 确定用户标题和通知电子邮件 | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
+>| Group.ReadWrite.All | 应用程序 | 为组的成员订阅论坛帖子 | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](../azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md) |
+>| Presence.Read.All | 应用程序 | 在讨论板用户配置文件中显示用户状态 | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](../azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md) |
+>| User.ReadBasic.All | 应用程序 | 确定用户标题和通知电子邮件 | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](../azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md) |
 
 >此应用程序没有其他 API。
 

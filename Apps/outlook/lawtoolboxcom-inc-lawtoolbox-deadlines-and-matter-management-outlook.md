@@ -1,28 +1,28 @@
 ---
-title: LawToolBox 期限事项&amp;管理的应用程序信息 - Outlook LawToolBox.com Inc.
+title: LawToolBox 截止期限和事务管理的应用程序信息 - Outlook LawToolBox.com Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/11/2022
+ms.date: 03/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: LawToolBox 期限&amp;事项管理的所有可用安全性和合规性信息 - Outlook、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: LawToolBox 期限和事务管理 - Outlook、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c15a934f25c3f7650d2fd7ac927029f8a08e2b56
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: b1bf6d736341aef40ae0087ef005f490a37db23f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459185"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552421"
 ---
-# <a name="lawtoolbox-deadlines-amp-matter-management---outlook"></a>LawToolBox 期限&amp;事项管理 - Outlook
+# <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>LawToolBox 期限和事项管理 - Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 3 月 7 日</p>
+<p>开发人员上次更新时间：2022 年 3 月 15 日</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104120953" target="_blank">在 AppSource 中查看</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003103" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
@@ -32,8 +32,8 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | LawToolBox 期限&amp;事项管理 - Outlook |
-| ID | WA104120953 |
+| 应用名称 | LawToolBox 期限和事项管理 - Outlook |
+| ID | WA200003103 |
 | Office 365客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | LawToolBox.com Inc. |
 | 公司网站 | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
@@ -61,7 +61,7 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | email， UPN， name， groupid， group email， tenantid， user object id |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 美国 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 90 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
@@ -171,22 +171,38 @@ LawToolBox.com Inc. 提供给 Microsoft 的信息：
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | 应用程序 | 此权限用于使普通用户不限于 250 多个组，并且可能会设置超过 250 个组 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa) |
->| User.ReadWrite.All | 应用程序 | 此权限用于从目录中读取用户相关信息，并允许具有 LawToolBox 管理门户访问权限的最终用户将人员添加到他们不是其成员的组。 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa) |
->| Calendars.ReadWrite | delegated | 此权限允许用户检索其自己的日历信息。  最终用户仅具有访问权限可以使用该应用检索其自己的日历信息， (打开自己的日历日历Outlook检索的相同)  | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Contacts.ReadWrite | delegated | 此权限用于允许用户搜索联系人Microsoft 365 Outlook添加到联系人管理系统，&#8211;自动添加联系人 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Contacts.ReadWrite.Shared | delegated | 此权限用于允许用户搜索共享的 M365 联系人，并添加为联系人管理系统的联系人&#8211;联系人从不自动添加 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Files.ReadWrite | delegated | LawToolBox 从 Teams、组和 OneDrive 中为会议读取和写入文件 (如果最终用户撤销此权限，它将阻止 LTB 从模板创建文件夹和文件，并列出应用中的)  | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Group.ReadWrite.All | delegated | 此权限对于读取 Teams API、创建 Teams 事件、创建日历事件、创建频道是必需的，并且一键式外部文件共享功能也是必需的。  需要管理组。 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Mail.Read | delegated | 此权限用于读取 Outlook 外接程序中的 PACER 电子邮件，以自动打开这一点，以及读取电子邮件中的联系人。  如果最终用户撤销此权限，他们将无法将收件箱中的电子邮件电子邮件联系人添加到我们的联系人系统 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Mail.Send | delegated | 此权限用于作为用户发送电子邮件-例如，用户可以从自己发送重要的截止时间图表。 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| MailboxSettings.ReadWrite | delegated | 此权限用于标记带有标签的电子邮件，指示已使用应用将电子邮件保存到组文件夹 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Notes.ReadWrite.All | delegated | 此权限允许用户将所选数据（如案例备注、截止时间图表或重要联系人）保存到与OneNote关联的联系人 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| OnlineMeetings.ReadWrite | delegated | 此权限用于简化创建和管理会议，以及使用与会者角色建议与会者 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| People.Read | delegated | 此权限用于允许用户使用 Microsoft AI 搜索共享的 M365 联系人并添加到 LawToolBox 联系人管理系统，并建议人员添加到应用联系人管理系统&#8211;我们不会自动添加任何联系人 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| User.Read | delegated | 需要此权限才能读取用户信息 (例如姓名、电子邮件、时区) 以便管理员能够向系统添加准确的用户 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| 电子邮件 | delegated | 此权限允许应用读取电子邮件，以使最终用户能够从收件箱中的电子邮件中收集电子邮件联系人信息，此权限还允许应用读取包含 PACER 信息的电子邮件，以便应用默认可以使用 PACER 扩展坞编号打开相关案例 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| 个人资料 | delegated | 这是 SSO 身份验证所必需的， (LawToolBox 不会请求写入配置文件的权限) 此权限是用户使用单一登录授权登录 LAWTOOLBOX 应用所必需的。 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
+>| Calendars.ReadWrite | delegated | 此权限允许用户检索其自己的日历信息。  最终用户仅具有访问权限可以使用该应用检索其自己的日历信息， (打开自己的日历日历Outlook检索的相同)  | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Contacts.ReadWrite | delegated | 此权限用于允许用户搜索联系人Microsoft 365 Outlook添加到联系人管理系统，&#8211;自动添加联系人 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Contacts.ReadWrite.Shared | delegated | 此权限用于允许用户搜索共享的 M365 联系人，并添加为联系人管理系统的联系人&#8211;联系人从不自动添加 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Files.ReadWrite | delegated | LawToolBox 从 Teams、组和 OneDrive 中为会议读取和写入文件 (如果最终用户撤销此权限，它将阻止 LTB 从模板创建文件夹和文件，并列出应用中的)  | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Group.ReadWrite.All | delegated | 此权限对于读取 Teams API、创建 Teams 事件、创建日历事件、创建频道是必需的，并且一键式外部文件共享功能也是必需的。  需要管理组。 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Group.ReadWrite.All | 应用程序 | 此权限用于使普通用户不限于 250 多个组，并且可能会设置超过 250 个组 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Mail.Read | delegated | 此权限用于读取 Outlook 外接程序中的 PACER 电子邮件，以自动打开这一点，以及读取电子邮件中的联系人。  如果最终用户撤销此权限，他们将无法将收件箱中的电子邮件电子邮件联系人添加到我们的联系人系统 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Mail.Send | delegated | 此权限用于作为用户发送电子邮件-例如，用户可以从自己发送重要的截止时间图表。 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| MailboxSettings.ReadWrite | delegated | 此权限用于标记带有标签的电子邮件，指示已使用应用将电子邮件保存到组文件夹 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Notes.ReadWrite.All | delegated | 此权限允许用户将所选数据（如案例备注、截止时间图表或重要联系人）保存到与OneNote关联的联系人 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| OnlineMeetings.ReadWrite | delegated | 此权限用于简化创建和管理会议，以及使用与会者角色建议与会者 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| People.Read | delegated | 此权限用于允许用户使用 Microsoft AI 搜索共享的 M365 联系人并添加到 LawToolBox 联系人管理系统，并建议人员添加到应用联系人管理系统&#8211;我们不会自动添加任何联系人 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| User.Read | delegated | 需要此权限才能读取用户信息 (例如姓名、电子邮件、时区) 以便管理员能够向系统添加准确的用户 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| User.ReadWrite.All | 应用程序 | 此权限用于从目录中读取用户相关信息，并允许具有 LawToolBox 管理门户访问权限的最终用户将人员添加到他们不是其成员的组。 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| 电子邮件 | delegated | 此权限允许应用读取电子邮件，以使最终用户能够从收件箱中的电子邮件中收集电子邮件联系人信息，此权限还允许应用读取包含 PACER 信息的电子邮件，以便应用默认可以使用 PACER 扩展坞编号打开相关案例 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| profile | delegated | 这是 SSO 身份验证所必需的， (LawToolBox 不会请求写入配置文件的权限) 此权限是用户使用单一登录授权登录 LAWTOOLBOX 应用所必需的。 | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Calendars.ReadWrite | delegated | 此权限允许用户检索其自己的日历信息。  最终用户仅具有访问权限可以使用该应用检索其自己的日历信息， (打开自己的日历日历Outlook检索的相同)  | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Contacts.ReadWrite | delegated | 此权限用于允许用户搜索联系人Microsoft 365 Outlook添加到联系人管理系统，&#8211;自动添加联系人 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Contacts.ReadWrite.Shared | delegated | 此权限用于允许用户搜索共享的 M365 联系人，并添加为联系人管理系统的联系人&#8211;联系人从不自动添加 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Files.ReadWrite | delegated | LawToolBox 从 Teams、组和 OneDrive 中为会议读取和写入文件 (如果最终用户撤销此权限，它将阻止 LTB 从模板创建文件夹和文件，并列出应用中的)  | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Group.ReadWrite.All | delegated | 此权限对于读取 Teams API、创建 Teams 事件、创建日历事件、创建频道是必需的，并且一键式外部文件共享功能也是必需的。  需要管理组。 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Group.ReadWrite.All | 应用程序 | 此权限用于使普通用户不限于 250 多个组，并且可能会设置超过 250 个组 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Mail.Read | delegated | 此权限用于读取 Outlook 外接程序中的 PACER 电子邮件，以自动打开这一点，以及读取电子邮件中的联系人。  如果最终用户撤销此权限，他们将无法将收件箱中的电子邮件电子邮件联系人添加到我们的联系人系统 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Mail.Send | delegated | 此权限用于作为用户发送电子邮件-例如，用户可以从自己发送重要的截止时间图表。 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| MailboxSettings.ReadWrite | delegated | 此权限用于标记带有标签的电子邮件，指示已使用应用将电子邮件保存到组文件夹 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Notes.ReadWrite.All | delegated | 此权限允许用户将所选数据（如案例备注、截止时间图表或重要联系人）保存到与OneNote关联的联系人 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| OnlineMeetings.ReadWrite | delegated | 此权限用于简化创建和管理会议，以及使用与会者角色建议与会者 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| People.Read | delegated | 此权限用于允许用户使用 Microsoft AI 搜索共享的 M365 联系人并添加到 LawToolBox 联系人管理系统，并建议人员添加到应用联系人管理系统&#8211;我们不会自动添加任何联系人 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| User.Read | delegated | 需要此权限才能读取用户信息 (例如姓名、电子邮件、时区) 以便管理员能够向系统添加准确的用户 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| User.ReadWrite.All | 应用程序 | 此权限用于从目录中读取用户相关信息，并允许具有 LawToolBox 管理门户访问权限的最终用户将人员添加到他们不是其成员的组。 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| 电子邮件 | delegated | 此权限允许应用读取电子邮件，以使最终用户能够从收件箱中的电子邮件中收集电子邮件联系人信息，此权限还允许应用读取包含 PACER 信息的电子邮件，以便应用默认可以使用 PACER 扩展坞编号打开相关案例 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| profile | delegated | 这是 SSO 身份验证所必需的， (LawToolBox 不会请求写入配置文件的权限) 此权限是用户使用单一登录授权登录 LAWTOOLBOX 应用所必需的。 | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
 
 >此应用程序没有其他 API。
 

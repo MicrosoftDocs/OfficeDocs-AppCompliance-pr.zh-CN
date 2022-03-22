@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于云联系人中心 Teams 集成的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6e4c79749325a66c6a9537e23257f2131ac9acf1
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: 37d301bcbab0c389e87eb49fcb8b7c86a01cd00b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459781"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551691"
 ---
 # <a name="storm-cloud-contact-center-teams-integration"></a>cloud Cloud Contact Center Teams Integration
 
@@ -41,7 +41,6 @@ ms.locfileid: "63459781"
 | 公司总部位置 | 英国大英和爱尔兰 ()  |
 | 应用信息页面 | [https://www.contentguru.com/microsoft-teams-integration/](https://www.contentguru.com/microsoft-teams-integration/) |
 | 用于运行应用的托管环境或服务模型是什么？ | IsvHosted |
-| 应用使用哪些托管云提供商？ |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -1,19 +1,20 @@
 ---
-title: 由 SharePoint， Inc. 的 Arc适用于 Arc功能的应用程序信息
+title: 由 SharePoint， Inc. 使用的 Arc适用于 Arc适用于应用程序的应用程序信息。
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Arc CSA for SharePoint 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 14034e3d6c413ad8d88db2165a569b774445e07a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 114dbf2119c3b4d3110f60cf3ca158b7672c9098
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252414"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552971"
 ---
 # <a name="arcgis-for-sharepoint"></a>Arc适用于SharePoint
 
@@ -39,8 +40,9 @@ ms.locfileid: "62252414"
 | 应用的使用条款 | [https://www.esri.com/en-us/legal/terms/master-agreement-pro...](https://www.esri.com/en-us/legal/terms/master-agreement-product) |
 | 应用的核心功能 | Arc功能在线包括一套应用、权威地图和数以千计的主题数据、可视化数据所需的新式映射工具、分析以发现和传达数据中的有意义模式，以及管理工具，以轻松管理用户和内容，使每个人都能够创建和共享地图。 ArcANYWHERE 使组织中的每个人都可以随时随地从任何设备发现、使用、制作和共享地图。 |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://www.esri.com/en-us/about/esri-partner-network/our-p...](https://www.esri.com/en-us/about/esri-partner-network/our-partners/global-alliances/microsoft-esri/overview) |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
+| 应用使用哪些托管云提供商？ | Azure、AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ ms.locfileid: "62252414"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ |  |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ | 在 3months 内删除 |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ |  |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -78,7 +73,7 @@ ms.locfileid: "62252414"
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
-| 您是否具有管理服务级别协议的策略 (SLA) 修补程序？ |  |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ |  |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ |  |
 | 你的环境是否具有任何不受支持的操作系统或软件？ |  |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ |  |
@@ -88,7 +83,7 @@ ms.locfileid: "62252414"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ |  |
 | 启用了 MFA (多重) 身份验证： |  |
 | 您是否已制定设置、修改和删除员工帐户的流程？ |  |
-| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ |  |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ |  |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ |  |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ |  |
@@ -104,8 +99,8 @@ ms.locfileid: "62252414"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植) ？ | 否 |
-| 应用是否遵守健康信息信任联盟、HITRUST CSF (安全框架) ？ | 否 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 否 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 否 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -118,10 +113,10 @@ ms.locfileid: "62252414"
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ | 是 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 是 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 否 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
-| 应用是否遵守 SOX Sarbanes-Oxley (法) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ |  |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 是 |
 
@@ -136,8 +131,8 @@ ms.locfileid: "62252414"
 | 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ |  |
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ |  |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ |  |
-| 应用是否出于次要目的处理客户数据，如 (，即营销、分析) ？ |  |
-| 你是否处理特殊类别的敏感数据 (如种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ |  |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ |  |
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |

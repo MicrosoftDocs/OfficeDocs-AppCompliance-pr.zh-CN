@@ -2,18 +2,19 @@
 title: Oktopost 的社交社交应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Social 则所有可用的安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d2512c15493639790c1853f00dfe005ae32cfbb7
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: c4715e95265d4edd96b51fa8b59e5535eef892d4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155147"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552011"
 ---
 # <a name="social-advocacy"></a>社交宣传
 
@@ -34,13 +35,13 @@ Oktopost 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | 社交宣传 |
 | ID | WA200002598 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Oktopost |
 | 公司网站 | [https://www.oktopost.com](https://www.oktopost.com) |
 | 应用的使用条款 | [https://www.oktopost.com/terms](https://www.oktopost.com/terms) |
-| 应用的核心功能 | Oktopost 是 B2B 的社交媒体管理和员工参与平台。 通过 Oktopost，可以在一个地方管理、监视和衡量所有社交媒体活动。 Oktopost 有两个核心解决方案：1) 社交媒体管理，包括发布、监视、分析、参与度以及 2) 员工监视，允许营销人员管理员工的社交共享计划。 Oktopost 独特的价值主张还允许营销人员将社交数据与营销堆栈集成。 |
+| 应用的核心功能 | Oktopost 是 B2B 的社交媒体管理和员工参与平台。 通过 Oktopost，可以在一个地方管理、监视和衡量所有社交媒体活动。 Oktopost 有两个核心解决方案：1) 社交媒体管理，包括发布、监视、分析、参与度以及 2) 员工保密，允许营销人员管理员工的社交共享计划。 Oktopost 独特的价值主张还允许营销人员将社交数据与营销堆栈集成。 |
 | 公司总部位置 | Israel（以色列） |
-| 应用信息页面 | |
+| 应用信息页面 | [https://www.oktopost.com](https://www.oktopost.com) |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
 | 应用使用哪些托管云提供商？ | Aws |
 
@@ -57,14 +58,7 @@ Oktopost 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ |  |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,8 +100,8 @@ Oktopost 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植和会计) ？ | 不适用 |
-| 应用是否遵守健康信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
@@ -123,7 +117,7 @@ Oktopost 提供给 Microsoft 的信息：
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 否 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley (管理) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 否 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 是 |
 
@@ -139,8 +133,8 @@ Oktopost 提供给 Microsoft 的信息：
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://www.oktopost.com/privacy |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据（如营销、 (）未) ？ | 否 |
-| 你是否处理特殊类别的敏感数据，例如 (或种族、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
 | 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |

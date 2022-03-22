@@ -7,12 +7,12 @@ keywords: microsoft 365 m365 应用发布者证明认证
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: e36bee4289de320d264a8a5e55c7bc20a4ea803b
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: 17aab158f4fc7803966afed9df88adf9688fcc63
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60545763"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63697064"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 应用合规计划
 
@@ -38,7 +38,7 @@ Microsoft 365 认证过程分为两个阶段： **证明** 和 **认证**。
 1.  **认证** 是指根据一组源自领先行业标准框架的控制措施对应用进行全面审核。 在获得认证之前，系统将要求 ISV 提供证据以证明他们满足每个控制措施的要求。 目标是向客户保证，他们可以信任应用，确保已收到 Microsoft 365 认证的应用具有强大的安全性和合规性，以保护他们的数据安全性和隐私。
 
 
-发布者证明适用于 WebApps 以及与以下 Microsoft 产品集成的所有应用：
+Microsoft 365认证适用于与以下 Microsoft 产品集成的所有应用：
 -   Teams
 -   Word
 -   Excel
@@ -47,8 +47,9 @@ Microsoft 365 认证过程分为两个阶段： **证明** 和 **认证**。
 - SharePoint
 - Project
 - OneNote
+- **Web 应用** （合作伙伴中心中通过商业市场发布的 SaaS 应用目前为个人预览版，如果你有兴趣参与，请填写此 [表单](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u)。
 
 ### <a name="get-started"></a>入门
-- [如何完成发布者验证](https://docs.microsoft.com/en-us/azure/active-directory/develop/mark-app-as-publisher-verified)
-- [如何完成 Microsoft 365 认证](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification)
+- [如何完成发布者验证](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)
+- [如何完成 Microsoft 365 认证](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification)
 

@@ -2,18 +2,19 @@
 title: 365-QA 的应用程序信息（通过开发）
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 365-QA 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a0150c10a05a04039a8d7c9132caea0a63068b4d
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 58553b5a12cc0c6d17710bce98179385582fc8d9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200527"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551651"
 ---
 # <a name="365-qa"></a>365-QA
 
@@ -34,13 +35,13 @@ ms.locfileid: "62200527"
 |:----------------|:-------------|
 | 应用名称 | 365-QA |
 | ID | WA200001394 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Advantive |
 | 公司网站 | [https://www.advantive.be](https://www.advantive.be) |
 | 应用的使用条款 | [https://www.advantive.be/terms-of-service-en/](https://www.advantive.be/terms-of-service-en/) |
 | 应用的核心功能 | Advantive 是 ICT 专业人员的一个积极团队，他们使用 Microsoft 技术开发和实施创新 ICT 解决方案。 我们基于标准 Microsoft 功能提供高质量的建议、产品和服务。 这使&#8217;客户能够提高效率并充分利用快速变化的环境。 我们的核心业务是提供包括建议、开发、实施、项目支持和维护的服务。 |
 | 公司总部位置 | 比利时 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://www.advantive.be/365-qa-how-to/](https://www.advantive.be/365-qa-how-to/) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -57,14 +58,7 @@ ms.locfileid: "62200527"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ |  |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -90,7 +84,7 @@ ms.locfileid: "62200527"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 否 |
-| 你是否具有在支持 (网络边界) 部署的入侵检测和防护 IDPS 和软件？ | 不适用 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 不适用 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
@@ -106,7 +100,7 @@ ms.locfileid: "62200527"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植和会计) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
@@ -120,10 +114,10 @@ ms.locfileid: "62200527"
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理计划 (是否) 合规性？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否遵守 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
@@ -144,7 +138,7 @@ ms.locfileid: "62200527"
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
 | 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私) ，以确定与应用个人数据处理相关的风险？ |  |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -161,7 +155,7 @@ ms.locfileid: "62200527"
 | 你的应用是否支持条件访问策略？ | 否 |
 | 你的应用是否支持 CAE (连续访问)  | 否 |
 | 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
 
 >此应用程序不使用 Microsoft Graph。
 

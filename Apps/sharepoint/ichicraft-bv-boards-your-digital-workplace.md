@@ -2,18 +2,19 @@
 title: Ichicraft Boards应用程序信息 - ichicraft b.v 提供的数字工作场所
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Ichicraft Boards 的所有可用安全性和合规性信息 - 你的数字工作区、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a4ca245baa59050f7d3c925fd9cd3a89d71d5cdf
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: b006f9afc956d41843ab40f8620a8688c4954fed
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081033"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550290"
 ---
 # <a name="ichicraft-boards---your-digital-workplace"></a>Ichicraft Boards - 你的数字工作场所
 
@@ -39,7 +40,7 @@ ichicraft b.v 提供的信息。 到 Microsoft：
 | 应用的使用条款 | [https://ichicraft.com/terms/](https://ichicraft.com/terms/) |
 | 应用的核心功能 | 最全面且易于使用的个人数字工作场所。  |
 | 公司总部位置 | 荷兰 ()  |
-| 应用信息页面 | |
+| 应用信息页面 | [https://ichicraft.com](https://ichicraft.com) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -56,14 +57,7 @@ ichicraft b.v 提供的信息。 到 Microsoft：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ |  |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
-| 你是否已制定数据租用和处置流程？ |  |
-| 帐户终止后，数据将保留多久？ |  |
-| 您是否已建立数据访问管理流程？ |  |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

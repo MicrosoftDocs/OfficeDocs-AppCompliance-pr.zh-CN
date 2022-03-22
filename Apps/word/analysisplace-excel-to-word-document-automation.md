@@ -2,18 +2,19 @@
 title: AnalysisPlace Excel Word 文档自动化的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 有关 Excel 到 Word 文档自动化的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6ede1a98c44b8d6e71a12069c15065f7499bb5e2
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: ceb3175ecfbe45b33fe7c1fe62ae59e62f00d7ad
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63075286"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551221"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel到 Word 文档自动化
 
@@ -39,7 +40,7 @@ AnalysisPlace 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://analysisplace.com/Terms](https://analysisplace.com/Terms) |
 | 应用的核心功能 | AnalysisPlace 提供用于自动更新文档Microsoft Office服务 |
 | 公司总部位置 | 美国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://analysisplace.com/Document-Automation](https://analysisplace.com/Document-Automation) |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -60,7 +61,7 @@ AnalysisPlace 提供给 Microsoft 的信息：
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | 用户名、用户电子邮件地址、组织租户 ID |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 美国 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 90 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
