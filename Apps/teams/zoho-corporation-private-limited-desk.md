@@ -2,18 +2,19 @@
 title: Zoho Desk 的应用程序信息（由 Zoho Corporation 专用有限提供）
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Zoho Desk 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8b934d980843f06ad78ca65ceb5782ce951fa41b
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: ee371d3cd431fae46b5f97d434ff9acb0fbcbe1e
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430270"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63751080"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -34,10 +35,10 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Zoho Desk |
 | ID | WA104382044 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Zoho Corporation Private Limited |
 | 合作伙伴网站的 URL | [https://www.zoho.com/desk](https://www.zoho.com/desk) |
-| "Teams应用程序信息"页的 URL | [https://help.zoho.com/portal/kb/zoho-desk](https://help.zoho.com/portal/kb/zoho-desk) |
+| 应用程序Teams页的 URL | [https://help.zoho.com/portal/kb/zoho-desk](https://help.zoho.com/portal/kb/zoho-desk) |
 | 隐私策略的 URL | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
 | 使用条款 URL | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
 
@@ -53,17 +54,17 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
+>| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Files.Read | delegated |  | 读取用户文件。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Files.Read.All | delegated |  | 读取用户可以访问的所有文件。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| User.Read | delegated |  | 登录并读取用户配置文件。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| User.ReadBasic.All | delegated |  | 读取所有用户的基本个人资料。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| email | delegated |  | 查看用户的电子邮件地址。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| offline_access | delegated |  | 保持对已赋予其访问权限的数据的访问权限。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| 个人资料 | delegated |  | 查看用户的基本个人资料。 | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.Read | delegated |  | 读取用户文件。 |  |
+>| Files.Read.All | delegated |  | 读取用户可以访问的所有文件。 |  |
+>| User.Read | delegated |  | 登录并读取用户配置文件。 |  |
+>| User.ReadBasic.All | delegated |  | 读取所有用户的基本个人资料。 |  |
+>| 电子邮件 | delegated |  | 查看用户的电子邮件地址。 |  |
+>| offline_access | delegated |  | 保持对已赋予其访问权限的数据的访问权限。 |  |
+>| profile | delegated |  | 查看用户的基本个人资料。 |  |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
@@ -89,7 +90,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->1) 用户界面中提供删除实体的选项，具有删除选项的 Zoho desk 中的管理员和代理可以执行这一操作。2) 我们还有导出选项，管理员可以使用这些选项导出和实现其用途。  3) 我们根据客户请求在后端维护审核，可以提供此信息。
+>1) 用户界面中提供删除实体的选项，具有删除选项的 Zoho desk 内的管理员和代理可以执行这一操作。2) 我们还有导出选项，管理员可以使用这些选项导出和实现其用途。  3) 我们根据客户请求在后端维护审核，可以提供此信息。
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

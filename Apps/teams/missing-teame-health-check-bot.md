@@ -2,20 +2,21 @@
 title: TeaMe 运行状况检查自动程序的应用程序 &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531;
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关 TeaMe 运行状况检查自动程序、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
+description: 有关 TeaMe 运行状况检查自动程序、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 33670e4e1e73d4ce832304e6ae70a994f73f9dbd
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 840aae9bb34679f6fc53bea8d823bcf0be1e28b2
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282510"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63747820"
 ---
-# <a name="teame-health-check-bot"></a>TeaMe 运行状况检查自动程序
+# <a name="teame-health-check-bot"></a>TeaMe 运行状况检查机器人
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -28,13 +29,13 @@ ms.locfileid: "53282510"
 
 ### <a name="general-information"></a>一般信息
 
-由 Microsoft &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; 的信息：
+Microsoft &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; 提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | TeaMe 运行状况检查自动程序 |
+| 应用名称 | TeaMe 运行状况检查机器人 |
 | ID | WA200002779 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; |
 | 合作伙伴网站的 URL | [https://www.cdc-jp.com](https://www.cdc-jp.com) |
 | 隐私策略的 URL | [https://www.cdc-jp.com/health_check_privacy](https://www.cdc-jp.com/health_check_privacy) |
@@ -57,7 +58,7 @@ ms.locfileid: "53282510"
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -74,7 +75,7 @@ ms.locfileid: "53282510"
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->处理数据：用户的组织 ID、用户 ID (EUII) ，以及用户对问题的回复;当用户请求删除其数据时，将删除这些数据。
+>处理数据：用户的组织 ID、用户 ID (EUII) 以及用户对问题的回复;当用户请求删除其数据时，将删除这些数据。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -112,7 +113,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

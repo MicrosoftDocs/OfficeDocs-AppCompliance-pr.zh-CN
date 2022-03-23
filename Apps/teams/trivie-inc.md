@@ -2,18 +2,19 @@
 title: Tri一，Inc. 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tri操作的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9bd5ca53c6108da34ff26ce05b679f2bac8af9fb
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: d678d98c42a3c178ec71403c8cae72b18587f336
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60444442"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63750982"
 ---
 # <a name="trivie"></a>Trivie
 
@@ -34,10 +35,10 @@ Tri一，Inc. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Trivie |
 | ID | WA200002718 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Trivie, Inc. |
 | 合作伙伴网站的 URL | [https://trivie.com](https://trivie.com) |
-| Teams信息页的 URL | [https://trivie.com](https://trivie.com) |
+| 应用程序Teams页的 URL | [https://trivie.com](https://trivie.com) |
 | 隐私策略的 URL | [https://trivie.com/privacy-policy](https://trivie.com/privacy-policy) |
 | 使用条款 URL | [https://trivie.com/terms-of-service](https://trivie.com/terms-of-service) |
 
@@ -75,7 +76,7 @@ Tri一，Inc. 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >名字、姓氏、电子邮件。 客户请求或合同终止 +30 天后删除。
 
