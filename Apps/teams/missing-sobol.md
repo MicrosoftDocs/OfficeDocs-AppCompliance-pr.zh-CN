@@ -2,18 +2,19 @@
 title: ConsenSys AG 和 Sobol&#8217;Sobol 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Sobol 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 54da5a152d84b23d80568f21bf4a283361ea9da5
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 52989c74fb4de620204b7066d5b9f01f0e6f8678
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404364"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752974"
 ---
 # <a name="sobol"></a>Sobol
 
@@ -28,16 +29,16 @@ ms.locfileid: "58404364"
 
 ### <a name="general-information"></a>一般信息
 
-ConsenSys AG 向 microsoft&#8217;Sobol 提供的信息：
+ConsenSys AG 向 Microsoft&#8217;Sobol 提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用名称 | Sobol |
 | ID | WA200002999 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ConsenSys AG&#8217;s Sobol |
 | 合作伙伴网站的 URL | [https://sobol.io](https://sobol.io) |
-| Teams信息页的 URL | [https://sobol.io/features](https://sobol.io/features) |
+| 应用程序Teams页的 URL | [https://sobol.io/features](https://sobol.io/features) |
 | 隐私策略的 URL | [https://sobol.io/privacy-policy](https://sobol.io/privacy-policy) |
 | 使用条款 URL | [https://sobol.io/terms-of-service/](https://sobol.io/terms-of-service/) |
 
@@ -68,7 +69,7 @@ ConsenSys AG 向 microsoft&#8217;Sobol 提供的信息：
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -115,7 +116,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

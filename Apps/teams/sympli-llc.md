@@ -2,18 +2,19 @@
 title: Sympli，LLC 的 Sympli 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Sympli 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6cc7ec4b892939c4a1f6ca8c55a3a01c4dc9bc85
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: f983d7b3c48a24e35bd48f175132aa98d535a374
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428699"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752926"
 ---
 # <a name="sympli"></a>Sympli
 
@@ -34,10 +35,10 @@ Sympli，LLC 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Sympli |
 | ID | WA200001551 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Sympli, LLC |
 | 合作伙伴网站的 URL | [https://sympli.io](https://sympli.io) |
-| Teams信息页的 URL | [https://help.sympli.io/en/articles/3931575-using-microsoft-...](https://help.sympli.io/en/articles/3931575-using-microsoft-teams-with-sympli-handoff) |
+| 应用程序Teams页的 URL | [https://help.sympli.io/en/articles/3931575-using-microsoft-...](https://help.sympli.io/en/articles/3931575-using-microsoft-teams-with-sympli-handoff) |
 | 隐私策略的 URL | [https://sympli.io/policy](https://sympli.io/policy) |
 | 使用条款 URL | [https://sympli.io/agreement](https://sympli.io/agreement) |
 
@@ -77,7 +78,7 @@ Sympli，LLC 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -85,7 +86,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->我们依赖于相应服务的策略，例如 https://www.intercom.com/legal/privacy 、 https://legal.hubspot.com/privacy-policyhttps://stripe.com/privacy
+>我们依赖于相应服务的策略https://www.intercom.com/legal/privacy，例如 、 https://legal.hubspot.com/privacy-policyhttps://stripe.com/privacy
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 

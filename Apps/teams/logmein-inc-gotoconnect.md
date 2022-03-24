@@ -2,18 +2,19 @@
 title: LogMeIn Inc. GoToConnect 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: GoToConnect 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7be440517f70ed5375cdf1b41a4394aea325df35
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: c54655da774fa1a7c1d68f61caaed7bdbfbb80cb
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60434641"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752265"
 ---
 # <a name="gotoconnect"></a>GoToConnect
 
@@ -34,7 +35,7 @@ LogMeIn Inc. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | GoToConnect |
 | ID | WA200000962 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | LogMeIn Inc. |
 | 合作伙伴网站的 URL | [https://logmein.com](https://logmein.com) |
 | 应用程序Teams页的 URL | [https://www.goto.com/integrations/microsoft-teams/gotoconne...](https://www.goto.com/integrations/microsoft-teams/gotoconnect) |
@@ -58,7 +59,7 @@ LogMeIn Inc. 提供了此信息，这些信息与此应用程序如何收集和�
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -66,7 +67,7 @@ LogMeIn Inc. 提供了此信息，这些信息与此应用程序如何收集和�
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 

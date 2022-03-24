@@ -2,18 +2,19 @@
 title: QBURST TECHNOLOGIES PVT LTD 的程序包通知程序的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 程序包通知程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a65e9bdfa8d10bfb0dad48d1433bcd65a870c580
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: e8f961dbe619141fa9eba435f08e131029890d72
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430381"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753669"
 ---
 # <a name="package-notifier"></a>Package Notifier
 
@@ -34,7 +35,7 @@ QBURST TECHNOLOGIES PVT LTD 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Package Notifier |
 | ID | WA200002737 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | QBURST TECHNOLOGIES PVT LTD |
 | 合作伙伴网站的 URL | [https://www.qburst.in](https://www.qburst.in) |
 | 隐私策略的 URL | [https://package-notifier.qburst.in/privacy-policy.html](https://package-notifier.qburst.in/privacy-policy.html) |
@@ -58,11 +59,11 @@ QBURST TECHNOLOGIES PVT LTD 提供了此信息，这些信息与此应用程序�
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于组织构建的应用和加载项Microsoft 365除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Azure DevOps ServicesREST API | 否 |  |  |  |  |
+>| Azure DevOps Services REST API | 否 |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
@@ -79,7 +80,7 @@ QBURST TECHNOLOGIES PVT LTD 提供了此信息，这些信息与此应用程序�
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -120,7 +121,7 @@ QBURST TECHNOLOGIES PVT LTD 已提供有关此应用如何处理身份验证、�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 499b84ac-1321-427f-aa17-267ca6975798/user_impersonation offline_access |

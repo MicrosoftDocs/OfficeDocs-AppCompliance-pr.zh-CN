@@ -2,18 +2,19 @@
 title: Goodera 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Goodera 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8a2edbd7962434cf3525b9ca262ead552bb86640
-ms.sourcegitcommit: c02a78e87cd408ded50ad143138502ce1f1d883e
+ms.openlocfilehash: f44ae5b38928d1bb89fd78c8ae9cd43dc732e7c7
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62337990"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752199"
 ---
 # <a name="goodera"></a>Goodera
 
@@ -34,7 +35,7 @@ Goodera 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Goodera |
 | ID | WA200002136 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Goodera |
 | 合作伙伴网站的 URL | [https://goodera.com](https://goodera.com) |
 | 隐私策略的 URL | [https://about.goodera.com/privacy](https://about.goodera.com/privacy) |
@@ -52,7 +53,7 @@ Goodera 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -63,7 +64,7 @@ Goodera 提供给 Microsoft 的信息：
 >不Microsoft 服务非活动。
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -71,7 +72,7 @@ Goodera 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
@@ -81,7 +82,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 >不适用
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
-是否涉及人员查看或分析 OII (或) 收集或存储的任何组织可识别信息？
+是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
 
 >否 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

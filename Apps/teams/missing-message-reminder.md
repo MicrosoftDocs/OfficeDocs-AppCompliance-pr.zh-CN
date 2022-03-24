@@ -2,20 +2,21 @@
 title: 邮件提醒的应用程序信息 &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089;
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 有关邮件提醒的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c367d46abd5f0e5ac3f4e3e12d59e28e507a9e60
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: c95ef8bab0d735eb35c89ed1e910428407d1d5eb
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404195"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753541"
 ---
-# <a name="message-reminder"></a>邮件提醒
+# <a name="message-reminder"></a>消息提醒程序
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +33,12 @@ ms.locfileid: "58404195"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 邮件提醒 |
+| 应用名称 | 消息提醒程序 |
 | ID | WA200001875 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; |
 | 合作伙伴网站的 URL | [https://systemz.io](https://systemz.io) |
-| Teams信息页的 URL | [https://systemz.io/product/message-reminder](https://systemz.io/product/message-reminder) |
+| 应用程序Teams页的 URL | [https://systemz.io/product/message-reminder](https://systemz.io/product/message-reminder) |
 | 隐私策略的 URL | [https://systemz.io/files/MESSAGE-REMINDER-APP-FOR-TEAMS-PRI...](https://systemz.io/files/MESSAGE-REMINDER-APP-FOR-TEAMS-PRIVACY-STATEMENT.pdf) |
 | 使用条款 URL | [https://systemz.io/files/EULA-Message-Reminder-EN.pdf](https://systemz.io/files/EULA-Message-Reminder-EN.pdf) |
 
@@ -49,7 +50,7 @@ ms.locfileid: "58404195"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由 &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; 提供，这些信息与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -66,7 +67,7 @@ ms.locfileid: "58404195"
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 
@@ -113,7 +114,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

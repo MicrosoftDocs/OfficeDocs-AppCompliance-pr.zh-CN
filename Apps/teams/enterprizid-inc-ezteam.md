@@ -2,18 +2,19 @@
 title: EnterprizID Inc 针对 ezTeam 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: ezTeam 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8a058d3d4e8d96a0c915585e75b7c0e53c2f2341
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: ff6cde9fda8939e2be6d45025f0c1b9e173340e6
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428799"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752600"
 ---
 # <a name="ezteam"></a>ezTeam
 
@@ -34,7 +35,7 @@ EnterprizID Inc 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | ezTeam |
 | ID | WA200002546 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | EnterprizID Inc |
 | 合作伙伴网站的 URL | [https://enterprizid.com](https://enterprizid.com) |
 | 应用程序Teams页的 URL | [https://enterprizid.com/discover/](https://enterprizid.com/discover/) |
@@ -55,32 +56,32 @@ EnterprizID Inc 提供给 Microsoft 的信息：
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
+>| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| AppCatalog.Read.All | delegated | 应用程序列表Teams，以便我们可以在请求创建过程中Teams列表 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Application.Read.All | delegated | 允许此应用代表已登录的用户读取应用程序和服务主体。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Directory.AccessAsUser.All | delegated | 允许应用以登录用户身份访问目录中的信息。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Directory.Read.All | delegated | 允许应用程序读取组织目录中的数据，如用户、组和应用程序。 | Teams所有权和成员身份信息  | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Directory.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取组织目录中的数据（如用户、组和应用）。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Directory.ReadWrite.All | delegated | 允许应用读取和写入组织目录中的数据，例如用户和组 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Directory.ReadWrite.All | 应用程序 | 允许应用在没有登录用户的情况下读取和写入组织目录中的数据（如用户和组）。不允许删除用户或组。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Files.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取所有网站集中的全部文件。 | 最终用户管理下的数据量（以 GB 为单位） | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| AppCatalog.Read.All | delegated | 应用程序列表Teams，以便我们可以在请求创建过程中Teams列表 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Application.Read.All | delegated | 允许此应用代表已登录的用户读取应用程序和服务主体。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Directory.AccessAsUser.All | delegated | 允许应用以登录用户身份访问目录中的信息。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Directory.Read.All | delegated | 允许应用程序读取组织目录中的数据，如用户、组和应用程序。 | Teams所有权和成员身份信息  | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Directory.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取组织目录中的数据（如用户、组和应用）。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Directory.ReadWrite.All | delegated | 允许应用读取和写入组织目录中的数据，例如用户和组 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Directory.ReadWrite.All | 应用程序 | 允许应用在没有登录用户的情况下读取和写入组织目录中的数据（如用户和组）。不允许删除用户或组。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Files.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取所有网站集中的全部文件。 | 最终用户管理下的数据量（以 GB 为单位） | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
 >| Group.Create | 应用程序 | 允许应用在没有登录用户的情况下创建组。 | 新的组属性详细信息。 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Group.Read.All | delegated | 允许应用代表登录用户列出组，并读取其属性以及所有组成员身份。 用于确定我的Teams  | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Group.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取组属性和成员身份，并读取所有组的日历和对话。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Group.ReadWrite.All | delegated | 允许应用代表登录用户创建组并读取所有组属性和成员身份。  | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Group.ReadWrite.All | 应用程序 | 允许应用创建组、读取所有组属性和成员身份、更新组属性和成员身份以及删除组。 还允许应用读取和写入组日历和对话。  | 团队的最后一次活动。 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| GroupMember.Read.All | 应用程序 | 允许应用在没有已登录用户的情况下读取所有组的成员身份和基本组属性。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| GroupMember.ReadWrite.All | 应用程序 | 允许应用在没有已登录用户的情况下列出组、读取基本属性、读取和更新应用有权访问的组的成员身份。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| People.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取任何用户的相关人员得分列表。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Reports.Read.All | delegated | 允许应用代表已登录用户读取所有服务使用情况报告。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Reports.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取所有服务使用情况报告。 | 每个组的上一个用户活动 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Sites.ReadWrite.All | 应用程序 | 允许应用在没有登录用户的情况下创建、读取、更新和删除所有网站集中的文档和列表项。 | 按每个用户的大小排名前 10 位的网站 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| User.Read | delegated | 允许用户登录应用，并允许应用读取登录用户的个人资料。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| User.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取用户配置文件。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| offline_access | delegated | 允许应用查看和更新你向它提供访问权限的数据，即使用户当前没有使用该应用。  | 机器人通知 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| openid | delegated | 允许用户以其工作或学校帐户登录应用，并允许应用查看用户的基本个人资料信息。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| 个人资料 | delegated | 允许应用查看用户的基本个人资料 (姓名、图片、用户名)  | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Group.Read.All | delegated | 允许应用代表登录用户列出组，并读取其属性以及所有组成员身份。 用于确定我的Teams  | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Group.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取组属性和成员身份，并读取所有组的日历和对话。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Group.ReadWrite.All | delegated | 允许应用代表登录用户创建组并读取所有组属性和成员身份。  | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Group.ReadWrite.All | 应用程序 | 允许应用创建组、读取所有组属性和成员身份、更新组属性和成员身份以及删除组。 还允许应用读取和写入组日历和对话。  | 团队的最后一次活动。 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| GroupMember.Read.All | 应用程序 | 允许应用在没有已登录用户的情况下读取所有组的成员身份和基本组属性。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| GroupMember.ReadWrite.All | 应用程序 | 允许应用在没有已登录用户的情况下列出组、读取基本属性、读取和更新应用有权访问的组的成员身份。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| People.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取任何用户的相关人的得分列表。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Reports.Read.All | delegated | 允许应用代表已登录用户读取所有服务使用情况报告。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Reports.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取所有服务使用情况报告。 | 每个组的上一个用户活动 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| Sites.ReadWrite.All | 应用程序 | 允许应用在没有登录用户的情况下创建、读取、更新和删除所有网站集中的文档和列表项。 | 按每个用户的大小排名前 10 位的网站 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| User.Read | delegated | 允许用户登录应用，并允许应用读取登录用户的个人资料。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| User.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取用户配置文件。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| offline_access | delegated | 允许应用查看和更新你向它提供访问权限的数据，即使用户当前没有使用该应用。  | 机器人通知 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| openid | delegated | 允许用户以其工作或学校帐户登录应用，并允许应用查看用户的基本个人资料信息。 | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| profile | delegated | 允许应用查看用户的基本个人资料 (姓名、图片、用户名)  | 不适用 | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
@@ -95,14 +96,14 @@ EnterprizID Inc 提供给 Microsoft 的信息：
 
 >| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 欢迎消息、审批和证明流程通知 | 我们存储显示名称的标识  | 我们的工具允许最终用户创建对不同服务项的请求，并存储请求者显示名称。 请求将遵循审批工作流，我们需要审批者显示名称才能显示在请求详细信息中。 此外，在团队认证过程中的成员中，我们显示名称成员的列表。 |
+>| 欢迎消息、审批和证明流程通知 | 我们存储显示名称的标识  | 我们的工具允许最终用户为不同的服务项目创建请求，并存储请求者显示名称。 请求将遵循审批工作流，我们需要审批显示名称审批者才能显示在请求详细信息中。 此外，在团队认证过程中的成员中，我们显示名称成员的列表。 |
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->EndUser 和组织全名。 保留和删除策略位于"保留 https://enterprizid.com/privacy-policy &quot; 你的个人数据"部分 &quot; 下
+>EndUser 和组织全名。 保留和删除策略位于"保留https://enterprizid.com/privacy-policy&quot;你的个人数据"部分&quot;下
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
@@ -141,7 +142,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 否 |
 | 应用是否请求方案最小特权权限？ | 是 |

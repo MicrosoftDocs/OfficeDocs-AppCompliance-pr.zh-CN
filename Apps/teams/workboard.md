@@ -2,18 +2,19 @@
 title: 工作板的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Workboard 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7b795de57f2acf2b75cc63699d7ae4c14510dadd
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: afedc6e44e38273b1b48b8bfccf2fe91ec4e17f3
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527518"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753749"
 ---
 # <a name="workboard"></a>Workboard
 
@@ -33,10 +34,10 @@ Workboard 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Workboard |
 | ID | WA104381599 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Workboard |
 | 合作伙伴网站的 URL | [https://www.workboard.com](https://www.workboard.com) |
-| "Teams应用程序信息"页的 URL | [https://www.workboard.com/microsoft/](https://www.workboard.com/microsoft/) |
+| 应用程序Teams页的 URL | [https://www.workboard.com/microsoft/](https://www.workboard.com/microsoft/) |
 | 隐私策略的 URL | [https://www.workboard.com/license/privacy-policy.html](https://www.workboard.com/license/privacy-policy.html) |
 | 使用条款 URL | [https://www.workboard.com/license/terms_of_use_v1.php](https://www.workboard.com/license/terms_of_use_v1.php) |
 
@@ -48,18 +49,18 @@ Workboard 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Workboard 提供，与此应用程序如何收集和存储组织数据以及组织对应用收集的数据的控制有关。
+此信息由 Workboard 提供，与此应用程序如何收集和存储组织数据以及组织将拥有对应用收集的数据的控制有关。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | 电子邮件地址和用户的 ID。  它用于将用户映射到 WorkBoard 的用户 ID | WorkBoard 仅将用户标识存储在其数据库中 | [User.Read](https://docs.microsoft.com/microsoft-365-app-certification/azure/User.Read) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -116,19 +117,19 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 不支持 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
+| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | WorkBoard 已实现自己的访问策略，这些策略在应用内强制执行。  用户的组织、团队和标识用于确定访问权限。 |
 | 应用是否请求方案最小特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 不支持 |
-| 你是否拥有为应用注册的所有重定向统 (URI) URI？ | 是 |
+| 你的应用是否具有机密客户端？ | 否 |
+| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 不支持 |
+| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
+| 你的应用是否使用预览 API？ | 否 |
 | 你的应用是否使用已弃用 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

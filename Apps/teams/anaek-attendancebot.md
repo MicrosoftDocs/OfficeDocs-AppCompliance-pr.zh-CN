@@ -2,18 +2,19 @@
 title: 用于 AttendanceBot 的应用程序信息（由Anaek 提供）
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: AttendanceBot 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bd6cda0bf9f1a7b05684cee46ae68f286c59bfad
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 56e5dc8ea5847564786f53bcf879686decb0b59f
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60429069"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752764"
 ---
 # <a name="attendancebot"></a>AttendanceBot
 
@@ -34,10 +35,10 @@ ms.locfileid: "60429069"
 |:----------------|:-------------|
 | 应用名称 | AttendanceBot |
 | ID | WA104381652 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Anaek |
 | 合作伙伴网站的 URL | [https://www.harmonizehq.com](https://www.harmonizehq.com) |
-| Teams信息页的 URL | [https://www.attendancebot.com](https://www.attendancebot.com) |
+| 应用程序Teams页的 URL | [https://www.attendancebot.com](https://www.attendancebot.com) |
 | 隐私策略的 URL | [https://www.attendancebot.com/privacy](https://www.attendancebot.com/privacy) |
 | 使用条款 URL | [https://www.attendancebot.com/attendance/tos/](https://www.attendancebot.com/attendance/tos/) |
 
@@ -75,7 +76,7 @@ ms.locfileid: "60429069"
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 

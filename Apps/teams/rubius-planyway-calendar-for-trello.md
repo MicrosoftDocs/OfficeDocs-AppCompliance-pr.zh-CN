@@ -2,20 +2,21 @@
 title: 用于 Trello 的 Planyway 日历的应用程序信息（由 Rubius 提供）
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 适用于 Trello 的 Planyway 日历的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Planyway Calendar for Trello 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1f7f0b736cbe100b0131d4064c2702cb28e9ea35
-ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.openlocfilehash: 5936b0c382642d1e614803928111e14a38ab1a5e
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61354582"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753771"
 ---
-# <a name="planyway-calendar-for-trello"></a>Trello 的 Planyway 日历
+# <a name="planyway-calendar-for-trello"></a>Planyway Calendar for Trello
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,9 +33,9 @@ ms.locfileid: "61354582"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Trello 的 Planyway 日历 |
+| 应用名称 | Planyway Calendar for Trello |
 | ID | WA200002712 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Rubius |
 | 公司网站 | [https://rubius.com](https://rubius.com) |
 | 应用的使用条款 | [https://planyway.com/legal/terms-of-use](https://planyway.com/legal/terms-of-use) |
@@ -79,7 +80,7 @@ ms.locfileid: "61354582"
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 否 |
 | 您的环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
-| 你是否具有管理服务级别协议的策略， (SLA) 修补程序？ |  |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ |  |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ |  |
 | 你的环境是否具有任何不受支持的操作系统或软件？ |  |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ |  |
@@ -89,7 +90,7 @@ ms.locfileid: "61354582"
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ |  |
 | 启用了 MFA (多重) 身份验证： |  |
 | 您是否已制定设置、修改和删除员工帐户的流程？ |  |
-| 你是否在支持你的应用的网络 (外围部署了入侵检测和) IDPS 和 IDPS 软件？ |  |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ |  |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ |  |
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ |  |
@@ -105,10 +106,10 @@ ms.locfileid: "61354582"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (《健康保险可移植性) ？ | 不适用 |
-| 应用是否遵守运行状况信息信任联盟、COMMON Security Framework (HITRUST CSF) ？ | 不适用 |
+| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
+| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | {
-  &quot;CMP08_complianceSOC_1 &quot; ： &quot; Na } &quot; | |最新 SOC1 认证日期|  | |应用是否遵守 SOC 2 (服务组织) ？ |无| |你获得哪种 SOC 2 认证？ | | |最新 SOC2 认证日期| | |应用是否遵守 SOC 3 (服务组织) ？ |无| |最新 SOC3 认证日期| | |您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ |无| |应用程序国际标准化组织 (ISO 27001) 认证？ |无| |应用是否符合国际标准化组织 (ISO 27018) ？ |{ &quot; CMP16_complianceISO_27018 ： Na } &quot; &quot; &quot; | |应用是否符合国际标准化组织 (ISO 27017) ？ |无| |应用是否符合国际标准化组织 (ISO 27002) ？ |无| |FedRAMP 应用程序联邦风险和授权管理 (是否符合) 标准？ |无| |应用是否遵守 FERPA (家庭教育权和隐私) ？ |N/A | |该应用是否遵守 COPPA (《儿童在线隐私保护) ？ |N/A | |应用是否遵守 SOX Sarbanes-Oxley () ？ |N/A | |应用是否符合 NIST 800-171？ | | |该应用已通过云安全联盟 (CSA Star) 认证？ |无|
+  &quot;&quot;CMP08_complianceSOC_1：&quot;Na&quot; } | |最新 SOC1 认证日期|  | |应用是否遵守 SOC 2 (服务组织) ？ |无| |你获得哪种 SOC 2 认证？ | | |最新 SOC2 认证日期| | |应用是否遵守 SOC 3 (服务组织) ？ |无| |最新 SOC3 认证日期| | |您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ |无| |应用程序国际标准化组织 (ISO 27001) 认证？ |无| |应用是否符合国际标准化组织 (ISO 27018) ？ |{ &quot;CMP16_complianceISO_27018&quot;： &quot;Na&quot; } | |应用是否符合国际标准化组织 (ISO 27017) ？ |无| |应用是否符合国际标准化组织 (ISO 27002) ？ |无| |FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ |无| |应用是否遵守 FERPA (家庭教育) ？ |N/A | |该应用是否遵守 COPPA (《儿童在线隐私保护) ？ |N/A | |应用是否符合 SOX Sarbanes-Oxley的 () ？ |N/A | |应用是否符合 NIST 800-171？ | | |该应用已通过云安全联盟 (CSA Star) 认证？ |无|
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -121,8 +122,8 @@ ms.locfileid: "61354582"
 | 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ |  |
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ |  |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ |  |
-| 应用是否出于次要目的处理客户数据，如 (营销、分析) ？ |  |
-| 你是否处理特殊类别的敏感数据 (，即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ |  |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
 | 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ |  |
 | 应用是否具有根据请求删除个人个人数据的功能？ |  |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
@@ -138,7 +139,7 @@ ms.locfileid: "61354582"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 否 |
-| 您是否已审阅并遵循了 Microsoft 标识平台清单中列出的所有适用最佳做法？ | 否 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 否 |
 | 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ |  |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 否 |

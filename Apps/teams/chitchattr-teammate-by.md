@@ -2,18 +2,19 @@
 title: ChitChattr 针对 TeamMate 的应用程序信息（由 ChitChattr 提供）
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: ChitChattr 为 TeamMate 提供的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9e12f758f81980d155f769e14323556e73c67fab
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 64d99813e4c76f06a776f5882fac52d9eea8285a
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430854"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753550"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -34,7 +35,7 @@ ChitChattr 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | TeamMate by ChitChattr |
 | ID | WA200002530 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | ChitChattr |
 | 合作伙伴网站的 URL | [https://www.chitchattr.com](https://www.chitchattr.com) |
 | 应用程序Teams页的 URL | [https://www.chitchattr.com/teammate/](https://www.chitchattr.com/teammate/) |
@@ -53,11 +54,11 @@ ChitChattr 提供了此信息，这些信息与此应用程序如何收集和存
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
+>| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| People.Read | delegated | 应用允许管理员选择面向特定体验的用户，因此它需要存储用户名、电子邮件和Azure AD对象 ID | 应用允许管理员选择面向特定体验的用户，因此它需要存储用户名、电子邮件和Azure AD对象 ID | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50) |
+>| People.Read | delegated | 应用允许管理员选择面向特定体验的用户，因此它需要存储用户名、电子邮件和Azure AD对象 ID | 应用允许管理员选择面向特定体验的用户，因此它需要存储用户名、电子邮件和Azure AD对象 ID | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](../azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50.md) |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
@@ -70,9 +71,9 @@ ChitChattr 提供了此信息，这些信息与此应用程序如何收集和存
 
 如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
->| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 () ？** | **存储 EUII 的理由** |
+>| **访问 EUII 的理由？**  | **EUII 是否存储在数据库 (中) ？** | **存储 EUII 的理由** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| 如果发生任何问题，自动程序将查找用户，并为用户提供在应用中注册为管理员的用户的姓名和联系人详细信息 (本质上是联系管理员-这是他们) &quot; &quot; | 名称、电子邮件 | 如前面的部分所述 - 能够根据 (的管理员配置) 识别目标体验的用户，并允许用户查看其内部公司管理员是该应用的用户。 |
+>| 如果发生任何问题，自动程序将查找并向用户显示在应用中注册为管理员的用户的姓名和联系人详细信息 (基本上 &quot;请与管理员联系-&quot; 这是他们)  | 名称、电子邮件 | 如上一节所述 - 能够根据 (管理员配置) 确定目标体验的用户，并允许用户查看其内部公司管理员是该应用的用户。 |
 
 
 #### <a name="telemetry-data"></a>遥测数据

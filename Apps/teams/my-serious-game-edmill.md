@@ -2,18 +2,19 @@
 title: My-Serious-Game 的 EdMill 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: EdMill 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a0cc33efe3ae49f7b0b8a3e827e0e8d813ab8467
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: c251afc887d00d8b4888ec31edff6759a1cda7e4
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60429580"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753637"
 ---
 # <a name="edmill"></a>EdMill
 
@@ -34,10 +35,10 @@ My-Serious-Game 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | EdMill |
 | ID | WA200002622 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | My-Serious-Game |
 | 合作伙伴网站的 URL | [https://www.my-serious-game.com](https://www.my-serious-game.com) |
-| Teams信息页的 URL | [https://www.edmill.com](https://www.edmill.com) |
+| 应用程序Teams页的 URL | [https://www.edmill.com](https://www.edmill.com) |
 | 隐私策略的 URL | [https://app.edmill.com/privacy-policy](https://app.edmill.com/privacy-policy) |
 | 使用条款 URL | [https://app.edmill.com/static/cgv.pdf](https://app.edmill.com/static/cgv.pdf) |
 
@@ -73,7 +74,7 @@ My-Serious-Game 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >应用程序遥测或日志中不显示 OII 或 EUII。
 
@@ -114,7 +115,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已查看并遵循了 Microsoft 标识平台 清单中列出的所有适用最佳做法？  | 是 |
+| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | Oauth2 |

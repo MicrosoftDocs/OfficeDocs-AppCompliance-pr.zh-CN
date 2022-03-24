@@ -2,18 +2,19 @@
 title: Talview Inc 的 Talview Interviews 应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Talview Interviews 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 380c0e14a2aa7d4d680fbe4c375b5f0e01e16a43
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 19dc757e6bd95c434999f7f2228f8cb757addd28
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428489"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753155"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -34,7 +35,7 @@ Talview Inc 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Talview Interviews |
 | ID | WA200002437 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Talview Inc |
 | 合作伙伴网站的 URL | [https://talview.com](https://talview.com) |
 | 应用程序Teams页的 URL | [https://info.talview.com/talview-partners-microsoft-teams](https://info.talview.com/talview-partners-microsoft-teams) |
@@ -55,15 +56,15 @@ Talview Inc 提供了此信息，这些信息与此应用程序如何收集和�
 
 列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
+>| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | 登录并读取用户个人资料 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
->| email | delegated | 查看用户的电子邮件地址以映射用户帐户 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
->| openid | delegated | 登录用户，登录到平台 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
->| 个人资料 | delegated | 查看用户的基本个人资料 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
+>| User.Read | delegated | 登录并读取用户个人资料 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
+>| 电子邮件 | delegated | 查看用户的电子邮件地址以映射用户帐户 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
+>| openid | delegated | 登录用户，登录到平台 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
+>| profile | delegated | 查看用户的基本个人资料 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -71,7 +72,7 @@ Talview Inc 提供了此信息，这些信息与此应用程序如何收集和�
 
 #### <a name="data-access-via-bots"></a>通过机器人访问数据
 
-如果此应用包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
+如果此应用程序包含机器人或消息扩展，则它可以访问最终用户可识别信息 (EUII) ：名单 (名字、姓氏、显示名称、电子邮件地址) （团队中任何团队成员的姓名、姓氏、电子邮件地址) 或添加到其中聊天）。 此应用是否使用了此功能？
 
 >无法访问 EUII。
 

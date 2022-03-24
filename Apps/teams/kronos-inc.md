@@ -2,18 +2,19 @@
 title: Kronos 公司针对 Kronos 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Kronos 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3a20e3a40ce61d6610b6f36e4c2943da1e9293d2
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 29bf43294bf500a1698a6527cd6b9b83cd4dab41
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279203"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753239"
 ---
 # <a name="kronos"></a>Kronos
 
@@ -34,7 +35,7 @@ Kronos， Inc. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Kronos |
 | ID | WA104381629 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Kronos, Inc. |
 | 合作伙伴网站的 URL | [https://www.kronos.com/](https://www.kronos.com/) |
 | 应用程序Teams页的 URL | [https://www.kronos.com/contact/en-us/form](https://www.kronos.com/contact/en-us/form) |
@@ -49,7 +50,7 @@ Kronos， Inc. 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Kronos， Inc. 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+此信息由 Kronos， Inc. 提供，用于说明此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -58,7 +59,7 @@ Kronos， Inc. 提供给 Microsoft 的信息：
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -73,7 +74,7 @@ Kronos， Inc. 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >这仅存储在独立于租户管理的租户Teams
 

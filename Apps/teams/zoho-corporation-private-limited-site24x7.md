@@ -2,18 +2,19 @@
 title: Zoho Corporation Private Limited 的 Site24x7 应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Site24x7 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Site24x7 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fbc53d0d7efbe32bc2f61b26507713566206232c
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 56af9bdf29f9c23a2c10f665e6f96e7bdf511f4b
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60434381"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752748"
 ---
 # <a name="site24x7"></a>Site24x7
 
@@ -34,10 +35,10 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Site24x7 |
 | ID | WA104381289 |
-| Office 365支持的客户端 | Microsoft Teams |
+| Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Zoho Corporation Private Limited |
 | 合作伙伴网站的 URL | [https://www.site24x7.com/features.html](https://www.site24x7.com/features.html) |
-| "Teams应用程序信息"页的 URL | [https://www.site24x7.com/help/admin/third-party-integration...](https://www.site24x7.com/help/admin/third-party-integration/microsoft-teams.html) |
+| 应用程序Teams页的 URL | [https://www.site24x7.com/help/admin/third-party-integration...](https://www.site24x7.com/help/admin/third-party-integration/microsoft-teams.html) |
 | 隐私策略的 URL | [https://www.site24x7.com/privacypolicy.html](https://www.site24x7.com/privacypolicy.html) |
 | 使用条款 URL | [https://www.site24x7.com/terms.html](https://www.site24x7.com/terms.html) |
 
@@ -53,7 +54,7 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
