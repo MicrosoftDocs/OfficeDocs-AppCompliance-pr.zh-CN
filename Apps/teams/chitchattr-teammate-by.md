@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: ChitChattr 为 TeamMate 提供的所有安全和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 64d99813e4c76f06a776f5882fac52d9eea8285a
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: 827f47ec43ce055ce0c5e09ed703a3a25667292e
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753550"
+ms.locfileid: "63773353"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -54,11 +54,11 @@ ChitChattr 提供了此信息，这些信息与此应用程序如何收集和存
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph所需的](/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| People.Read | delegated | 应用允许管理员选择面向特定体验的用户，因此它需要存储用户名、电子邮件和Azure AD对象 ID | 应用允许管理员选择面向特定体验的用户，因此它需要存储用户名、电子邮件和Azure AD对象 ID | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](../azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50.md) |
+>| People.Read | delegated | 应用允许管理员选择面向特定体验的用户，因此它需要存储用户名、电子邮件和Azure AD对象 ID | 应用允许管理员选择面向特定体验的用户，因此它需要存储用户名、电子邮件和Azure AD对象 ID | a8e903c7-3b7f-4ec5-a474-b5d32e595f50 |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
@@ -102,7 +102,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320" target="_blank">在新建选项卡中查看</a>
 

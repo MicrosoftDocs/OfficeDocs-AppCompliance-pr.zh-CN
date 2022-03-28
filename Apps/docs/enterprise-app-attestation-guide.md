@@ -2,25 +2,26 @@
 title: 什么是Publisher证明？
 author: LGerrard
 ms.author: legerrar
+manager: tonybal
 description: 有关证明Publisher的详细信息
 keywords: 应用证明认证 365 调查表 appSource 发布者
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c49279c827ed0ac39e49b07aabd01baaab9f8e5e
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59278964"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457205"
 ---
 # <a name="what-is-publisher-attestation"></a>什么是Publisher证明？
 
-Publisher证明是应用合规性计划Microsoft 365层。 要求应用开发人员完成自我评估，其中包括客户或 IT 管理员在评估应用的安全性和合规性时经常提出的问题。 然后，Microsoft 发布此信息以便更轻松、更及时的评估。
+Publisher证明是应用合规性计划中的下Microsoft 365层。 要求应用开发人员完成自我评估，其中包括客户或 IT 管理员在评估应用的安全性和合规性时经常提出的问题。 然后，Microsoft 发布此信息以便更轻松、更及时的评估。
 
 > [!IMPORTANT]
 > Microsoft 不验证所提供的全部信息。 应用开发人员对其在发布者证明中提供的信息负责。 
 
-Publisher证明适用于通过合作伙伴中心 (商业市场发布的 Web 应用和 SaaS) 。 SaaS 应用目前处于个人预览状态，如果你有兴趣参与，请填写此 [表单](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)。 证明还包括与以下 Microsoft 产品集成的所有应用：
+Publisher证明适用于在合作伙伴中心 (商业市场发布的 Web 应用和 SaaS) 。 SaaS 应用目前处于个人预览状态，如果你有兴趣参与，请填写此 [表单](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)。 证明还包括与以下 Microsoft 产品集成的所有应用：
 
 - Teams
 - Word
@@ -58,7 +59,7 @@ Publisher证明适用于通过合作伙伴中心 (商业市场发布的 Web 应�
 
 ### <a name="confirmation-criteria"></a>确认条件
 
-证明将反映应用的安全性、数据处理和合规性做法，这些做法针对由应用标识的 80 多个[Microsoft Cloud App Security。](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) 如果初始证明文档提交不符合基本一致性测试条件，则证明将不会得到批准。 批准后，如果报告或发现文档提交中的错误信息或应用失败，将撤销证明确认状态。 在任一实例中，开发人员将收到相关和详细信息，帮助进行更正过程。
+证明将反映应用的安全性、数据处理和合规性做法，以抵御由应用识别的 80 多种[Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security)。 如果初始证明文档提交不符合基本一致性测试条件，则证明将不会得到批准。 批准后，如果报告或发现文档提交中的错误信息或应用失败，将撤销证明确认状态。 在任一实例中，开发人员将收到相关和详细信息，帮助进行更正过程。
 
 ### <a name="confirmation-time-frame"></a>确认时间范围
 
@@ -66,13 +67,13 @@ Publisher证明适用于通过合作伙伴中心 (商业市场发布的 Web 应�
 
 ## <a name="reviewing-an-apps-publisher-attestation"></a>查看应用Publisher证明
 
-开发人员可以在为应用创建的 Microsoft 文档页面上查看Publisher证明结果的详细信息。 所有已完成认证或Publisher认证Microsoft 365，并且每个一览将清楚地显示合规性计划已实现的级别。
+开发人员可以在为应用创建的 Microsoft 文档页面上查看Publisher证明结果的详细信息。 所有已完成 Publisher证明或Microsoft 365证明的应用都将列出，并且每个一览都将清楚地显示合规性计划已实现的级别。
 
 **有关已完成测试证明的应用示例，请参阅 [MIPA](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas) Publisher列表。** 
 
-## <a name="learn-more"></a>了解更多
+## <a name="learn-more"></a>了解详细信息
 
 * [Microsoft 365应用合规性计划概述](~/overview.md)
-* [验证Publisher是什么](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
-* [完整Publisher证明](~/docs/attestation.md)  
+* [什么是Publisher验证](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
+* [完成发布者证明](~/docs/attestation.md)  
 * [什么是Microsoft 365认证？](~/docs/enterprise-app-certification-guide.md)

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Talview Interviews 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 19dc757e6bd95c434999f7f2228f8cb757addd28
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: c4465b676ea2b85e8f2d6fcbffaf1f00c2a5d349
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753155"
+ms.locfileid: "63773543"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -54,14 +54,14 @@ Talview Inc 提供了此信息，这些信息与此应用程序如何收集和�
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph所需的](/graph/permissions-reference)任何 Microsoft 权限。
 
 >| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | 登录并读取用户个人资料 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| 电子邮件 | delegated | 查看用户的电子邮件地址以映射用户帐户 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| openid | delegated | 登录用户，登录到平台 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| profile | delegated | 查看用户的基本个人资料 | 用于通知和身份验证的电子邮件地址/用户名 | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
+>| User.Read | delegated | 登录并读取用户个人资料 | 用于通知和身份验证的电子邮件地址/用户名 | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| 电子邮件 | delegated | 查看用户的电子邮件地址以映射用户帐户 | 用于通知和身份验证的电子邮件地址/用户名 | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| openid | delegated | 登录用户，登录到平台 | 用于通知和身份验证的电子邮件地址/用户名 | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| profile | delegated | 查看用户的基本个人资料 | 用于通知和身份验证的电子邮件地址/用户名 | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
@@ -103,7 +103,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431" target="_blank">在新建选项卡中查看</a>
 

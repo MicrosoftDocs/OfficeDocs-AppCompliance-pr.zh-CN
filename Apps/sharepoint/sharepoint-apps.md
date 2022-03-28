@@ -3,17 +3,17 @@ title: Microsoft SharePoint 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/17/2022
+ms.date: 03/23/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft 应用的所有可用安全性和合规性SharePoint信息。
 localization_priority: Normal
-ms.openlocfilehash: 66433eb54bf05965fb4a762a84f64d666d8c423a
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 887651563cf6fdb420768a623ce9618b9c7b8c78
+ms.sourcegitcommit: 7c03de919310456c10f7cc3685f83d40cac504de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63540068"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63778276"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Microsoft SharePoint 应用安全与合规
 
@@ -36,6 +36,8 @@ Microsoft 与Microsoft 365开发人员合作伙伴合作，为组织提供加速
 | [闪电工具闪电](./lightning-tools-conductor.md) | 闪电工具 | **✓** |  |
 | [officeatwork - 模板选择器用于SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Power BI 协作](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
+| [SharePoint-sapiens 员工培训管理](./sharepointsapiens-employee-training-management.md) | SharePointSapiens | **✓** |  |
+| [SharePoint-sapiens 事件管理](./sharepointsapiens-event-management.md) | SharePointSapiens | **✓** |  |
 | [更智能的事件预订](./smarter-business-solutions-gmbh-event-booking.md) | Smarter Business Solutions GmbH | **✓** |  |
 | [社交正方形论坛](./lightning-tools-social-squared-discussion-forums.md) | 闪电工具 | **✓** |  |
 | [分类](./accuracy-software-inc-taxonomy.md) | Accuracy Software Inc. | **✓** |  |

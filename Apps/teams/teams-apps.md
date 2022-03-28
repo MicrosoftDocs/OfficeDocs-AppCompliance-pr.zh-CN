@@ -3,17 +3,17 @@ title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/22/2022
+ms.date: 03/23/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: e299560f8b29558d3b75377bf02f95e28c17746d
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: fa3075217469ed594fbc02c66f50606a9b8e5512
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63752443"
+ms.locfileid: "63773203"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -177,6 +177,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Fond](./fond-technologies-inc.md) | Fond Technologies, Inc. | **✓** |  |
 | [ForceManager CRM](./tritium-software-sl-forcemanager-crm.md) | Tritium Software SL | **✓** |  |
 | [FormMachines](./enterprise-digital-machines-formmachines.md) | Enterprise Digital Machines | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [适用于云的 Foxit PDF 编辑器](./foxit-software-incorporated-pdf-editor-for-cloud.md) | Foxit Software Incorporated | **✓** |  |
 | [Freehand by InVision](./invisionapp-inc-freehand-by-invision.md) | InVisionApp Inc. | **✓** |  |
 | [Futureworks](./futureworks-as.md) | 未来工作 AS | **✓** |  |
 | [Gameinar](./heuristix-gameinar.md) | Heuristix | **✓** |  |
@@ -390,6 +391,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Starbucks](./starbucks.md) | Starbucks&#174; Coffee Company | **✓** |  |
 | [Startgrid](./startgrid.md) | Startgrid | **✓** |  |
 | [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  |
+| [Stipop 贴纸](./stipop-stickers.md) | Stipop | **✓** |  |
 | [Streem](./streem.md) | Streem | **✓** |  |
 | [Structural](./structural-inc.md) | Structural Inc. | **✓** |  |
 | [Studi.ly](./inlogic-office-store-studily.md) | inLogic-Office Store | **✓** |  |

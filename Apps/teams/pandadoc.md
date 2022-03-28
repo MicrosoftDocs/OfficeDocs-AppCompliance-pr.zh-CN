@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有 Available security and compliance information for 一切 Available security and compliance information for 一切，其数据处理策略、Microsoft Cloud App Security应用程序目录信息，以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7cfd701c52bfc076fb1352bac439479426bc8475
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 32e31e9939444901b3c5cf44ac512d1958c13cd2
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63549670"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64458245"
 ---
 # <a name="pandadoc"></a>PandaDoc
 
@@ -169,8 +169,8 @@ ms.locfileid: "63549670"
 >| Files.Read | 两者 | For sso user from Tab (example - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). 需要获取有权访问 Microsoft 令牌的用户Graph进一步获取用户文件。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| Files.Read.All | 两者 | For sso user from Tab (example - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). 需要获取有权访问 Microsoft 令牌的用户Graph进一步获取用户文件。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| Files.Read.Selected | 两者 | For sso user from Tab (example - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). 需要获取有权访问 Microsoft 令牌的用户Graph进一步获取用户文件。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
->| Group.Read.All | 两者 | 获取之前接收的每个命令的通道列表 ID，并获取每个通道的文件驱动器 ID。 文档 - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
->| Group.ReadWrite.All | 两者 | 获取之前接收的每个命令的通道列表 ID，并获取每个通道的文件驱动器 ID。 文档 - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Group.Read.All | 两者 | 获取之前接收的每个命令的通道列表 ID，并获取每个通道的文件驱动器 ID。 文档 - https://docs.microsoft.com/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Group.ReadWrite.All | 两者 | 获取之前接收的每个命令的通道列表 ID，并获取每个通道的文件驱动器 ID。 文档 - https://docs.microsoft.com/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| Team.ReadBasic.All | 两者 | 获取团队 ID，Microsoft Teams用户是直接成员的用户。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| TeamSettings.Read.All | 两者 | 若要获取团队 ID，Microsoft Teams用户是直接成员的用户。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| TeamSettings.ReadWrite.All | 两者 | 或获取用户是Microsoft Teams直接成员的团队 ID。 之后，接收每个命令标识符的通道。 若要获取文件保管库 ID，首先需要获取用户输入的团队列表。 | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
