@@ -8,13 +8,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: 有关采用自动程序 C.AI、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和合规性信息。
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f6d3bb6be48681db6e0e710d150457d4fd95caec
-ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 750a7eda8df6fd17b2e8ebea6f1595fb188a4af9
+ms.sourcegitcommit: 2cada3fb44667dce080d5cb4ca93b113e8ec57c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63698282"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64487823"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -174,3 +174,39 @@ ms.locfileid: "63698282"
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>认证信息
+
+| **Control** | **Microsoft 365认证结果** |
+|:------------|:---------------------------------------|
+| [**应用程序安全性**](../docs/certification-submission-guide.md#application-security) | **PASS** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渗透测试 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞评估评审 (DAST/SAST/渗透测试)  | 在作用域中 |
+| [**操作安全性**](../docs/certification-submission-guide.md#operational-security) | **PASS** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 防病毒 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 应用程序控制 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 风险排名 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 修补 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞扫描 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - 防火墙 (或等效技术)  | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - Web 应用程序防火墙 (WAF)  (可选)  | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更改控件 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全软件开发/部署 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帐户管理 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入侵检测和防护 (可选)  | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件日志记录 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看 (日志记录)  | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件警报 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息安全风险管理 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事件响应 | 在作用域中 |
+| [**数据处理安全 &amp; 隐私**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **PASS** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传输中的数据 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;处于 Rest 的数据 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据保留和处置 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据访问管理 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | 在作用域中 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
