@@ -2,18 +2,19 @@
 title: SaaS 应用用户指南
 author: LGerrard
 ms.author: legerrar
+manager: tonybal
 description: 适用于应用合规性计划 saaS Microsoft 365 ISV 用户指南
 keywords: 适用于应用合规性计划 saaS Microsoft 365 ISV 用户指南
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 5f12c95e413ab069b1f8849a09be50251660fbb1
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: e59d02bf364d13363ef1b9b5f82917213781af0b
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60545833"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461845"
 ---
-# <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>适用于应用合规性计划的合作伙伴Microsoft 365指南 - SaaS
+# <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>适用于应用合规性计划Microsoft 365合作伙伴的用户指南 - SaaS
 
 |阶段|Title|
 |---|---|
@@ -22,12 +23,12 @@ ms.locfileid: "60545833"
 
 ## <a name="1-overview"></a>1. 概述 
 
-本文档充当我们的合作伙伴的分步用户指南，已注册 Microsoft 365 应用合规性计划，旨在通过合作伙伴中心门户为 SaaS 应用进行 Publisher 证明和认证。
+本文档是我们的合作伙伴的分步用户指南，已注册 Microsoft 365 应用合规性计划，旨在通过合作伙伴中心门户为 SaaS 应用进行 Publisher 证明和认证。
 
 ## <a name="2-acronyms--definitions"></a>2. 首字母缩略&定义
 |首字母缩略词 | 定义 |
 |----|----|
-|[电脑 (合作伙伴中心) ](https://partner.microsoft.com/)|所有 Microsoft 合作伙伴的门户。 合作伙伴登录到合作伙伴中心并提交自我评估调查表。 应用合规性Microsoft 365[中心](https://partner.microsoft.com/dashboard/home)|
+|[电脑 (合作伙伴中心) ](https://partner.microsoft.com/)|所有 Microsoft 合作伙伴的门户。 合作伙伴登录到合作伙伴中心并提交自我评估调查表。 应用合规性[Microsoft 365中心](https://partner.microsoft.com/dashboard/home)|
 |ISV | 独立软件供应商 a.k.a. 合作伙伴或开发人员 |
 |应用源 | 应用程序目录 |
 |示例 |[Now virtual agent](https://appsource.microsoft.com/product/office/WA104381816)|
@@ -37,36 +38,36 @@ ms.locfileid: "60545833"
 **主页：** 这是合作伙伴登录到合作伙伴中心后登录页面。
 
   
-**步骤 1：** 选择市场产品/服务
+**步骤 1** ：选择市场产品/服务
 
 ![合作伙伴中心中的商业市场](../media/NewPChomepage.png)
 
   
-**步骤 2：** 选择"市场产品/服务"后，切换到"商业市场"。
+**步骤 2**：选择"市场产品/服务"后，切换到"商业市场"。
 
 ![在商业市场中选择应用](../media/NewPCOffersOffice.png)
 
 Select an app from the list and another navigation bar will pop up with option 'App Compliance'.
   
-**步骤 3：** 选择"应用合规性"
+**步骤 3**：选择"应用合规性"
   
 ![商业市场中的应用合规性](../media/PCappcompliance3.png)
   
-**步骤 4：** 填写个人证明的自我Publisher调查表。
+**步骤 4**：填写自我评估调查表，Publisher证明。
 
-![完整Publisher证明](../media/UserGuidePhotos/5.5.png)
+![完成发布者证明](../media/UserGuidePhotos/5.5.png)
   
 **注意 如果你要返回更新/重新提交应用程序，请单击"选择产品"下拉列表，选择应用，然后单击"克隆"。**
 
 ![克隆功能](../media/UserGuidePhotos/05.png)
 
-**您还可以利用表单导入/导出以脱机方式完成表单，并完成之后将其导入。**
+**您还可以利用表单导入/导出以脱机方式完成表单，并完成导入。**
 
 ![导入导出功能](../media/UserGuidePhotos/06.png)
  
-**步骤 5：** 完成后，单击"提交"，评估现在将为"正在审查"。
+**步骤 5**：完成后，单击"提交"，评估现在将为"正在审查"。
  
- ![提交Publisher确认 ](../media/UserGuidePhotos/07.png) ![ 提交](../media/UserGuidePhotos/08.png)
+ ![提交Publisher确认](../media/UserGuidePhotos/07.png)![提交](../media/UserGuidePhotos/08.png)
   
 **批准/拒绝方案：**
   
@@ -86,7 +87,7 @@ B.  Publisher证明审批
         
  ![Publisher证明已完成](../media/UserGuidePhotos/10.png)       
   
- ![开始Microsoft 365认证](../media/UserGuidePhotos/11.png)
+ ![启动Microsoft 365认证](../media/UserGuidePhotos/11.png)
   
 **发布Publisher证明审批：适用于发布者证明应用的 AppSource 中的链接示例。**
   
@@ -98,12 +99,12 @@ B.  Publisher证明审批
   
 ![开始Microsoft 365认证](../media/UserGuidePhotos/13.png) 
   
-**步骤 1：** 初始文档提交
+**步骤 1** ：初始文档提交
 
 填写所有详细信息，上传相关文档，然后单击"提交"
   
-![初始文档提交 ](../media/UserGuidePhotos/14.png) 
- ![ 提交初始文档提交](../media/UserGuidePhotos/15.png)
+![初始文档提交](../media/UserGuidePhotos/14.png) 
+![提交初始文档提交](../media/UserGuidePhotos/15.png)
   
 单击提交后，将审核初始文档提交。
 
@@ -115,7 +116,7 @@ B.  Publisher证明审批
 
 分析员批准初始文档提交后，合作伙伴需要提交控制要求。
   
-**步骤 2：** 控制要求提交
+**步骤 2**：控制要求提交
   
 填写所有详细信息、上传相关文档并单击"提交"
 
@@ -155,11 +156,11 @@ B.  Publisher证明审批
   
 **Microsoft 365Publisher证明和认证续订工作流：**  
 
-Microsoft 365应用合规性计划现在提供年度续订流程。 在此过程中，应用开发人员可以更新其现有Publisher证明调查表和认证所需的Microsoft 365文档。 
+Microsoft 365应用合规性计划现在提供年度续订过程。 在此过程中，应用开发人员可以更新其现有Publisher证明调查表和认证Microsoft 365文档。 
  
 **优点：** 
 
-- 在 AppSource、Office 应用商店、Teams 应用商店和各种管理门户中维护你的认证锁屏提醒，以将你的应用与其他门户区分。 
+- 在 AppSource、Office 应用商店、Teams应用商店和各种管理门户中维护你的认证锁屏提醒，以将你的应用与其他门户区分。 
 - 提高客户对使用认证应用的信心。 
 - 使用更新的认证信息帮助 IT 管理员做出明智的决策。
 
@@ -169,13 +170,13 @@ Microsoft 365应用合规性计划现在提供年度续订流程。 在此过程
   
 需要每年重新提交Publisher证明答案。 当证明接近 1 年标志时，将发送电子邮件提醒，鼓励重新提交证明。 
  
-**步骤 1：** 选择 **续订** 以续订Publisher证明。
+**步骤 1**：选择 **续订** 以续订Publisher证明。
   
 ![Renewel approved](../media/UserGuidePhotos/31.png)
   
-**步骤 2：** 查看上一Publisher证明答案，并根据需要使用最新信息进行更新。 
+**步骤 2**：查看上一Publisher证明答案，并根据需要使用最新信息进行更新。 
   
-准备好Publisher提交证明进行续订。 M365 应用合规性分析师将审核此内容。
+准备好Publisher提交要续订的证明。 M365 应用合规性分析师将审核此内容。
 
 ![续订到证明](../media/UserGuidePhotos/29.png)
   

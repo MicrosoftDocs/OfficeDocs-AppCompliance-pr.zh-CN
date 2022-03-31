@@ -2,16 +2,17 @@
 title: 用户指南
 author: LGerrard
 ms.author: legerrar
+manager: tonybal
 description: 适用于应用合规性计划的 ISV Microsoft 365指南
 keywords: 适用于应用合规性计划的 ISV Microsoft 365指南
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 2b2b84cec3be5167d67733a89ba13fa411a0e781
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: e76655384acfe0ae65721c11c6f1e789a598bc3e
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61787855"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461505"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>适用于应用合规性计划Microsoft 365合作伙伴的用户指南
 
@@ -37,21 +38,21 @@ ms.locfileid: "61787855"
 
 **主页：** 这是合作伙伴登录到合作伙伴中心后登录页面。
 
-**步骤 1：** 选择市场产品/服务。 
+**步骤 1** ：选择市场产品/服务。 
 
 ![合作伙伴中心中的商业市场](../media/NewPChomepage.png)
   
-**步骤 2：** 选择"市场产品/服务"后，切换到"Office应用商店"。 从列表中选择一个应用，以开始Publisher证明过程。
+**步骤 2**：选择"市场产品/服务"后，切换到"Office应用商店"。 从列表中选择一个应用，以开始Publisher证明过程。
 
 ![在商业市场中选择应用](../media/NewPCoffersComm.png)
 
 选择应用时，会弹出另一个导航栏，然后选择"其他认证信息"，然后单击"应用合规性"。
   
-**步骤 3：** 选择"应用合规性"
+**步骤 3**：选择"应用合规性"
 
 ![选择"应用合规性"](../media/PCappcompliance3.png)
 
-**步骤 4：** 填写关于证明的自我Publisher调查表
+**步骤 4**：填写关于证明的自我Publisher调查表
 
 ![发布者证明](../media/UserGuidePhotos/5.5.png)
 
@@ -59,11 +60,11 @@ ms.locfileid: "61787855"
 
 ![Clone](../media/UserGuidePhotos/05.png)
 
-您还可以利用表单导入/导出以脱机方式完成表单，并完成之后将其导入。
+您还可以利用表单导入/导出以脱机方式完成表单，并完成导入。
 
 ![导入导出功能](../media/UserGuidePhotos/06.png)
 
-**步骤 5：** 完成后，单击"提交"，评估现在将为"审核中"。
+**步骤 5**：完成后，单击"提交"，评估现在将为"正在审查"。
 
 ![单击 Sumbit](../media/UserGuidePhotos/07.png)
 
@@ -105,8 +106,8 @@ ms.locfileid: "61787855"
 
 **步骤 1：** 初始文档提交 填写所有详细信息，上传相关文档并单击"提交"
 
-![初始提交 ](../media/UserGuidePhotos/14.png)
- ![ 初始提交 2](../media/UserGuidePhotos/15.png)
+![初始 SubmissionInitial](../media/UserGuidePhotos/14.png)
+![ 提交 2](../media/UserGuidePhotos/15.png)
 
 单击提交后，将审核证明提交。 
 
@@ -120,9 +121,9 @@ ms.locfileid: "61787855"
 
 **步骤 2：** 控制要求提交 填写所有详细信息，上传相关文档并单击"提交" 
 
-![完全控制要求 ](../media/UserGuidePhotos/18.png)
- ![ Upload证据 ](../media/UserGuidePhotos/19.png)
- ![ 保证控制要求已完成](../media/UserGuidePhotos/20.png)
+![完全控制要求](../media/UserGuidePhotos/18.png)
+![Upload](../media/UserGuidePhotos/19.png)
+![完成 EvidenceAssure 控制要求](../media/UserGuidePhotos/20.png)
 
 单击"提交"后，将审核认证提交。 
 
@@ -130,9 +131,9 @@ ms.locfileid: "61787855"
 
 分析员请求修订，以防控制要求文档不足或相关。 分析师将与合作伙伴合作，帮助获取正确的文档进行审批。 
 
-![证据需要更新 ](../media/UserGuidePhotos/22.png)
- ![ 了解哪些证据需要更新 ](../media/UserGuidePhotos/23.png)
- ![ 正在审查的证据](../media/UserGuidePhotos/24.png)
+![证据需要更新](../media/UserGuidePhotos/22.png)
+![了解哪些证据需要更新](../media/UserGuidePhotos/23.png)
+![审核的Evidence](../media/UserGuidePhotos/24.png)
 
 如果提交不符合审批标准，分析员将拒绝提交。 合作伙伴可以与分析师合作，以提供相关信息和文档。 
 
@@ -148,7 +149,7 @@ ms.locfileid: "61787855"
 
 ## <a name="5---microsoft-365-renewal-workflow"></a>5. Microsoft 365续订工作流：
   
-**Microsoft 365 Publisher证明和认证续订工作流：Microsoft 365** 应用合规性计划现在提供年度续订流程。 在此过程中，应用开发人员可以更新其现有Publisher证明调查表和认证Microsoft 365文档。 
+**Microsoft 365 Publisher证明和认证续订工作流：** Microsoft 365应用合规性计划现在提供年度续订流程。 在此过程中，应用开发人员可以更新其现有Publisher证明调查表和认证Microsoft 365文档。 
  
 **优点：** 
 
@@ -162,11 +163,11 @@ ms.locfileid: "61787855"
 
 合作伙伴中心提供 [新的续订流程](https://partner.microsoft.com/dashboard/home) ，以提供无缝体验。 从到期日期前 90 天开始，将在合作伙伴中心中显示续订提醒。 定期提醒也会在到期前的 90、60 和 30 天内通过电子邮件发送。 
 
-**步骤 1：** 选择 **续订** 以续订Publisher证明。 
+**步骤 1**：选择 **续订** 以续订Publisher证明。 
 
 ![Microsoft 365Publisher证明和认证续订工作流 ](../media/UserGuidePhotos/28.png)
 
-**步骤 2：** 查看上一Publisher证明答案，并根据需要使用最新信息进行更新。 准备好Publisher提交证明进行续订。 应用合规性分析师将Microsoft 365此内容。
+**步骤 2**：查看上一Publisher证明答案，并根据需要使用最新信息进行更新。 准备好Publisher提交要续订的证明。 它将被应用合规性Microsoft 365审核。
 
 ![更新Publisher证明](../media/UserGuidePhotos/29.png)
 
@@ -174,7 +175,7 @@ ms.locfileid: "61787855"
 
 ![Publisher已续订的证明](../media/UserGuidePhotos/30.png)
 
-**Publisher** 过期：需要在到期日期之前续订应用的信息，才能在 Microsoft 文档上维护应用的 Publisher 证明页面。及时续订还将确保在 AppSource、应用商店、Teams应用商店和其他应用商店Office应用持续提供标签和图标。
+**Publisher过期：** 需要在到期日期之前续订应用的信息，才能在 Microsoft 文档上维护应用的 Publisher 证明页面。及时续订还将确保 AppSource、Teams 应用商店、Office应用商店和其他店面中应用的继续标记和图标。
 
 ![Publisher证明已过期](../media/UserGuidePhotos/31.png)
 
@@ -215,7 +216,7 @@ ms.locfileid: "61787855"
 需要在到期日期之前续订应用信息，才能在 Microsoft 文档上维护应用的认证页面。及时续订还将确保在 AppSource 和团队应用商店中为应用持续提供标记和图标。
 
 
-需要在到期日期之前续订应用信息，才能在 Microsoft 文档上维护应用的认证页面。及时续订还将确保在 AppSource、Teams 应用商店、应用商店和其他应用商店Office应用持续提供标签和图标。 
+需要在到期日期之前续订应用信息，才能在 Microsoft 文档上维护应用的认证页面。及时续订还将确保 AppSource、Teams 应用商店、Office应用商店和其他店面中应用的继续标记和图标。 
 
 ![证书续订已过期](../media/UserGuidePhotos/36.png)
     

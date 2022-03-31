@@ -1,19 +1,20 @@
 ---
-title: CocoFax 的应用程序信息 - 通过邮件发送传真 &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; &amp;
+title: CocoFax 的应用程序信息 - 通过 &amp; 邮件发送传真 &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496;
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: CocoFax 的所有可用安全性和合规性信息 - 发送传真轻松安全、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全 &amp; /合规性信息。
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 8b44af37fc4fcfcb9452b3af6fdd666b0565d9d4
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+description: CocoFax 的所有可用安全性和合规性信息 - &amp; 发送传真轻松安全、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 621b61963a89ca4d2bfd2eeca0b39366cb261c1d
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404358"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461355"
 ---
 # <a name="cocofax---sending-fax-made-easy-amp-secure"></a>CocoFax - 发送传真轻松 &amp; 安全
 
@@ -27,13 +28,13 @@ ms.locfileid: "58404358"
 
 ### <a name="general-information"></a>一般信息
 
-由 Microsoft &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; 的信息：
+Microsoft &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; 提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用名称 | CocoFax - 发送传真轻松 &amp; 安全 |
 | ID | WA200002263 |
-| Office 365支持的客户端 | Word 2016 Mac、Word web 版、Word 2013 或更高版本（Windows |
+| Office 365客户端 | Word 2016 Mac、Word web 版、Word 2013 或更高版本（Windows |
 | 合作伙伴公司名称 | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; |
 | 合作伙伴网站的 URL | [https://cocofax.com](https://cocofax.com) |
 | 隐私策略的 URL | [https://cocofax.com/privacy.html](https://cocofax.com/privacy.html) |
@@ -51,12 +52,12 @@ ms.locfileid: "58404358"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph所需的](/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -90,7 +91,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">在新建选项卡中查看</a>
 
@@ -106,7 +107,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

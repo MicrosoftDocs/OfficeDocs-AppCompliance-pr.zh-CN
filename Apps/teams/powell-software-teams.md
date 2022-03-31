@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: 所有可用的适用于 Teams 的信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7245730e77597a9d22c387f3001990786ea1f827
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 7fffe34f51520ebec1cc5dce2761ce59269b0e35
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63550070"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64462915"
 ---
 # <a name="powell-teams"></a>Powell Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "63550070"
 | 合作伙伴公司名称 | Powell 软件 |
 | 公司网站 | [https://www.powell-software.com](https://www.powell-software.com) |
 | 应用的使用条款 | [https://powell-software.com/en/powell-teams-terms-of-use/](https://powell-software.com/en/powell-teams-terms-of-use/) |
-| 应用的核心功能 | &amp; Teams 应用可为所有公司员工提供智能仪表板，帮助他们轻松组织标记所有团队，发现最重要的已升级公司团队，最后使用预定义的基于角色的团队模板来节省时间。 API 还可用于检索和处理位于 Windows Teams 数据库 https://docapiteams.powell-software.com) (中设置的数据集。最后，Power Automate提供了逻辑应用和 (https://docs.microsoft.com/en-us/connectors/powellteams) |
+| 应用的核心功能 | &amp; Teams 应用可为所有公司员工提供智能仪表板，帮助他们轻松组织标记所有团队，发现最重要的已升级公司团队，最后使用预定义的基于角色的团队模板来节省时间。 API 还可用于检索和处理位于 Windows Teams 数据库 https://docapiteams.powell-software.com) (中设置的数据集。最后，Power Automate提供了逻辑应用和 (https://docs.microsoft.com/connectors/powellteams) |
 | 公司总部位置 | 法国 |
 | 应用信息页面 | [https://helpteams.powell-software.com](https://helpteams.powell-software.com) |
 | 用于运行应用的托管环境或服务模型是什么？ |  |
@@ -162,9 +162,9 @@ ms.locfileid: "63550070"
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Directory.AccessAsUser.All | delegated | 不适用 | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
->| Group.ReadWrite.All | delegated | 不适用 | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| Group.ReadWrite.All | delegated | NA | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
 >| Notes.Read.All | delegated | 不适用 | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
->| Notes.ReadWrite.All | delegated | 不适用 | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| Notes.ReadWrite.All | delegated | NA | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
 >| Sites.Read.All | delegated | 不适用 | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
 >| User.Read.All | delegated | 不适用 | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
 

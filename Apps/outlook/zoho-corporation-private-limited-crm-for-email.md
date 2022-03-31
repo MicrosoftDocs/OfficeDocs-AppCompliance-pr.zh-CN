@@ -2,18 +2,19 @@
 title: Zoho Corporation Private Limited 的电子邮件 Zoho CRM 的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/04/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 适用于电子邮件的 Zoho CRM 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8ed0ec889c107656ed3e3ca791aa81c69fbcaf3d
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 6c2ef2b28f2e6bbd83d1dec270c695435f705ba4
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60429270"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64462845"
 ---
 # <a name="zoho-crm-for-email"></a>用于电子邮件的 Zoho CRM
 
@@ -33,7 +34,7 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | 用于电子邮件的 Zoho CRM |
 | ID | WA104379468 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
+| Office 365客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | Zoho Corporation Private Limited |
 | 合作伙伴网站的 URL | [https://www.zoho.com/](https://www.zoho.com/) |
 | 隐私策略的 URL | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
@@ -51,19 +52,19 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
+>| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated | 存储日历文件夹 ID 以将联系人从 Zoho CRM 同步 &amp; 到 Microsoft，反之亦然。 存储日历event_name、event_location participant_details日历信息。 | 允许用户将 Office365 事件与 Zoho CRM 同步。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Contacts.ReadWrite | delegated | 存储联系人文件夹 ID 以将联系人从 Zoho CRM 同步 &amp; 到 Microsoft，反之亦然。 存储联系人信息first_name、last_name电子邮件地址等。 | 允许用户将 Office365 联系人与 Zoho CRM 同步。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Files.Read | delegated |  | 允许用户将 Office365 文件导入 Zoho CRM。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Files.Read.All | delegated |  | 允许用户将 Office365 文件导入 Zoho CRM。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Files.Read.Selected | delegated | UserPrincipalName 存储用于用户标识 | 允许用户将 Office365 文件导入 Zoho CRM。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.ReadBasic.All | delegated | 用户属性，first_name、last_name、电子邮件地址。 | 读取所有用户的基本个人资料 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| email | delegated | 存储 UserPrincipaName 以用于用户缩进 | 查看用户的电子邮件地址 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| offline_access | delegated |  | 保留对已授予其访问权限的数据的访问权限 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| 个人资料 | delegated |  | 查看用户的基本个人资料 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Calendars.ReadWrite | delegated | 存储日历文件夹 ID 以将联系人从 Zoho CRM 同步到 Microsoft &amp; ，反之亦然。 存储日历event_name、event_location participant_details日历信息。 | 允许用户将 Office365 事件与 Zoho CRM 同步。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Contacts.ReadWrite | delegated | 存储联系人文件夹 ID 以将联系人从 Zoho CRM 同步到 Microsoft &amp; ，反之亦然。 存储联系人信息first_name、last_name电子邮件地址等。 | 允许用户将 Office365 联系人与 Zoho CRM 同步。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read | delegated |  | 允许用户将 Office365 文件导入 Zoho CRM。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.All | delegated |  | 允许用户将 Office365 文件导入 Zoho CRM。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.Selected | delegated | UserPrincipalName 存储用于用户标识 | 允许用户将 Office365 文件导入 Zoho CRM。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.ReadBasic.All | delegated | 用户属性，first_name、last_name、电子邮件地址。 | 读取所有用户的基本个人资料 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| 电子邮件 | delegated | 存储 UserPrincipaName 以用于用户缩进 | 查看用户的电子邮件地址 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| offline_access | delegated |  | 保留对已授予其访问权限的数据的访问权限 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| profile | delegated |  | 查看用户的基本个人资料 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
@@ -78,13 +79,13 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 
 OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
->我们不会在遥测和日志中收集 EUII/PII。 我们具有脚本，以查找并发出警报，以修复任何可见的此类数据
+>我们不会在遥测和日志中收集 EUII/PII。 我们具有用于查找和警报的脚本，用于修复任何可见的此类数据
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->客户可以选择需要通过 EAR 加密进行加密的数据 (静态加密) 证书限制。默认情况下，密码将进行哈希处理。 通过隔离的专用网络提供对服务器的逻辑访问 &amp; ，并且高度安全且
+>客户可以选择需要通过 EAR 加密进行加密的数据 (静态加密) 证书限制。默认情况下，密码将进行哈希处理。 通过隔离的专用网络提供 &amp; 对服务器的逻辑访问，并且高度安全且
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -95,7 +96,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/22307' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/22307' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/22307" target="_blank">在新建选项卡中查看</a>
 

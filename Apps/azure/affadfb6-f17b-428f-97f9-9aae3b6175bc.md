@@ -1,19 +1,19 @@
 ---
-title: Azure 应用 affadfb6-f17b-428f-97f9-9aae3b6175bc 的 ID 信息
+title: affadfb6-f17b-428f-97f9-9aae3b6175bc 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/26/2022
+ms.date: 03/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: affadfb6-f17b-428f-97f9-9aae3b6175bc的所有可用安全性和合规性信息。
-ms.openlocfilehash: 814985bd98cb61e415ddffc03f7812b50fc6015f
-ms.sourcegitcommit: 890a5b31f2a31a7747d88f0f3f203c0551440293
+ms.openlocfilehash: 351351d990219761ea88ad7caa6aea9eeca2263c
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64512533"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63772983"
 ---
 # <a name="azure-app-id-affadfb6-f17b-428f-97f9-9aae3b6175bc"></a>Azure 应用 ID：affadfb6-f17b-428f-97f9-9aae3b6175bc
 

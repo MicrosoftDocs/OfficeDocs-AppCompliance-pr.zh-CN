@@ -2,16 +2,17 @@
 title: 什么是Microsoft 365认证？
 author: orionomalley
 ms.author: oromalle
+manager: tonybal
 description: Microsoft 365认证详细信息
 keywords: 应用证明 Microsoft 365 认证 365 调查表 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 47f479258f2bb944cf30665c4479bb151523a561
-ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
+ms.openlocfilehash: f7c986d98db3d8b21ec0790bd5fe1e8c9892b024
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63697382"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64462215"
 ---
 # <a name="what-is-microsoft-365-certification"></a>什么是Microsoft 365认证？
 
@@ -58,7 +59,7 @@ Microsoft 365认证适用于与以下 Microsoft 产品集成的所有应用：
 - SharePoint
 - Project
 - OneNote
-- **通过合作伙伴** (商业市场发布的 SaaS 应用的 Web 应用目前处于私人预览状态，如果你有兴趣参与，请填写此 [表单](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u)。
+- **Web 应用** （合作伙伴中心中通过商业市场发布的 SaaS 应用目前为个人预览版，如果你有兴趣参与，请填写此 [表单](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u)。
 
 ## <a name="program-benefits"></a>计划权益
 参与和完成Microsoft 365认证可以为 IT 管理员和开发人员带来巨大优势：

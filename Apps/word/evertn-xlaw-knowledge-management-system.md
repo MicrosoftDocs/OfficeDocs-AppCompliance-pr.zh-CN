@@ -2,18 +2,19 @@
 title: xLaw 的应用程序信息 - 知识管理系统（ 按以往）
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: xLaw 的所有可用安全性和合规性信息 - 知识管理系统、其数据处理策略、Microsoft Cloud App Security应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息。
+description: xLaw 的所有可用安全性和合规性信息 - 知识管理系统、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息和 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cce6d174386db07ebf7e062066549cc47c61c845
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: bac0b2c58acd70749ed6fb66580442b24de771b7
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60429290"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64462095"
 ---
 # <a name="xlaw---knowledge-management-system"></a>xLaw - 知识管理系统
 
@@ -33,7 +34,7 @@ ms.locfileid: "60429290"
 |:----------------|:-------------|
 | 应用名称 | xLaw - 知识管理系统 |
 | ID | WA104381077 |
-| Office 365支持的客户端 | Word 2016 Mac、Word web 版、Word 2013 或更高版本的 Windows |
+| Office 365客户端 | Word 2016 Mac、Word web 版、Word 2013 或更高版本（Windows |
 | 合作伙伴公司名称 | evertn |
 | 合作伙伴网站的 URL | [https://extendlaw.com](https://extendlaw.com) |
 | 隐私策略的 URL | [https://xlaw.eu/en/privacypolicy.html](https://xlaw.eu/en/privacypolicy.html) |
@@ -51,12 +52,12 @@ ms.locfileid: "60429290"
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph所需的](/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -90,7 +91,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36910' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36910' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36910" target="_blank">在新建选项卡中查看</a>
 

@@ -2,18 +2,19 @@
 title: 发票和时间跟踪的应用程序信息 - Zoho Corporation Private Limited 的 Zoho 发票
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/04/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 发票和时间跟踪 - Zoho Invoice 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cc7454e5f1181637f2ecacbf510c8191d51da0e7
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 65d71d027c2101c5332a9070e641300e77a39081
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428184"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461365"
 ---
 # <a name="invoice-and-time-tracking---zoho-invoice"></a>发票和时间跟踪 - Zoho 发票
 
@@ -33,7 +34,7 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | 发票和时间跟踪 - Zoho 发票 |
 | ID | WA104381067 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
+| Office 365客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | Zoho Corporation Private Limited |
 | 合作伙伴网站的 URL | [https://www.zoho.com/](https://www.zoho.com/) |
 | 隐私策略的 URL | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
@@ -51,18 +52,18 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
+>| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Contacts.Read | delegated |  |  允许用户将 Office365 联系人与 Zoho Invoice 同步。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Mail.Read | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Mail.Send | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Export.All | delegated |  | 允许用户导出所有用户相关信息。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Read.All | delegated |  | 允许用户登录并读取用户配置文件。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.ReadBasic.All | delegated |  | 允许用户将 Office365 用户导入 Zoho。 | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| email | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| 个人资料 | delegated |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.Read | delegated |  |  允许用户将 Office365 联系人与 Zoho Invoice 同步。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Mail.Read | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Mail.Send | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.Export.All | delegated |  | 允许用户导出所有用户相关信息。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.Read.All | delegated |  | 允许用户登录并读取用户配置文件。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.ReadBasic.All | delegated |  | 允许用户将 Office365 用户导入 Zoho。 | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| 电子邮件 | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| profile | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 
 
 #### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
@@ -83,7 +84,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->只有在用户同意后，才能提取数据。 通过隔离的专用网络提供对服务器的逻辑访问，并且 &amp; 受到高度安全和监视。 此网络受防火墙、双重身份验证和 Kerberos 身份验证保护
+>只有在用户同意后，才能提取数据。 通过隔离的专用网络提供 &amp; 对服务器的逻辑访问，并且受到高度安全和监视。 此网络受防火墙、双重身份验证和 Kerberos 身份验证保护
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -94,7 +95,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305" target="_blank">在新建选项卡中查看</a>
 
