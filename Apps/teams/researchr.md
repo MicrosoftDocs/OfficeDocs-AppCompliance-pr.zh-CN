@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: 用于 researcHR 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d9190b5c268a2ff73f204e3c81015532b1b3e4df
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: ec1149c58d7c7b5c77243af43b529fa6434e5520
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63543420"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463595"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -161,13 +161,13 @@ KBE 向 Microsoft&#26666;&#24335;&#20250;&#31038; 的信息：
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | 应用程序 | 我们使用此范围允许机器人在客户端上创建新Teams通道。 请参阅： https://docs.microsoft.com/en-us/graph/api/channel-post | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Directory.Read.All | 应用程序 | 我们使用此范围获取通道的 ID 和名称，以在网站上显示这些数据。 请参阅： https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Group.Read.All | 应用程序 | 我们使用此范围获取通道的 ID 和名称，以在网站上显示这些数据。 请参阅： https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Team.ReadBasic.All | 应用程序 | 我们使用此范围获取团队成员，以便用户可以在我们的网站上看到他们的团队成员。 请参阅： https://docs.microsoft.com/en-us/graph/api/group-list-members | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.Read.All | 应用程序 | 我们使用此范围获取用户加入的频道，以便用户可以在我们的网站上查看其加入的团队。 请参阅： https://docs.microsoft.com/en-us/graph/api/user-list-joinedteams | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.ReadBasic.All | delegated | 我们使用此作用域启用 OAuth 登录并收集用户AAD ID、访问令牌和刷新令牌。 请参阅： https://docs.microsoft.com/en-us/graph/auth-v2-user | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| offline_access | delegated | 我们使用此范围获取刷新令牌，以便我们可以刷新已验证用户的访问令牌，而无需任何用户交互。 请参阅： https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Channel.Create | 应用程序 | 我们使用此范围允许机器人在客户端上创建新Teams通道。 请参阅： https://docs.microsoft.com/graph/api/channel-post | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Directory.Read.All | 应用程序 | 我们使用此范围获取通道的 ID 和名称，以在网站上显示这些数据。 请参阅： https://docs.microsoft.com/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Group.Read.All | 应用程序 | 我们使用此范围获取通道的 ID 和名称，以在网站上显示这些数据。 请参阅： https://docs.microsoft.com/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Team.ReadBasic.All | 应用程序 | 我们使用此范围获取团队成员，以便用户可以在我们的网站上看到他们的团队成员。 请参阅： https://docs.microsoft.com/graph/api/group-list-members | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.Read.All | 应用程序 | 我们使用此范围获取用户加入的频道，以便用户可以在我们的网站上查看其加入的团队。 请参阅： https://docs.microsoft.com/graph/api/user-list-joinedteams | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.ReadBasic.All | delegated | 我们使用此作用域启用 OAuth 登录并收集用户AAD ID、访问令牌和刷新令牌。 请参阅： https://docs.microsoft.com/graph/auth-v2-user | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| offline_access | delegated | 我们使用此范围获取刷新令牌，以便我们可以刷新已验证用户的访问令牌，而无需任何用户交互。 请参阅： https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#offline_access | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
 
 >此应用程序没有其他 API。
 

@@ -2,18 +2,19 @@
 title: Altru 视频的应用程序信息
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 有关 Altru 视频的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Altru 视频的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4ab9e9057c968d14c8299286b0686931a3a08e9c
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: ddd7dd3038137c9d9e6d2058bbc21fa5be069e99
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430562"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463035"
 ---
 # <a name="altru-videos"></a>Altru 视频
 
@@ -33,7 +34,7 @@ Altru 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | Altru 视频 |
 | ID | WA200000026 |
-| Office 365支持的客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
+| Office 365客户端 | Outlook 2013 或更高版本，Windows Mac Outlook 2016 或更高版本，Outlook 网页版 |
 | 合作伙伴公司名称 | Altru |
 | 合作伙伴网站的 URL | [https://www.icims.com](https://www.icims.com) |
 | 隐私策略的 URL | [https://www.altrulabs.com/privacy](https://www.altrulabs.com/privacy) |
@@ -51,7 +52,7 @@ Altru 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph](https://docs.microsoft.com/graph/permissions-reference)所需的任何 Microsoft 权限。
+列出[此Graph所需的](/graph/permissions-reference)任何 Microsoft 权限。
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -90,7 +91,7 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470" target="_blank">在新建选项卡中查看</a>
 

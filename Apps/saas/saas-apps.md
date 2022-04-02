@@ -3,17 +3,17 @@ title: SaaS 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/17/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和合规性信息。
 localization_priority: Normal
-ms.openlocfilehash: 0ae1c24acacfb5e6977c0f766f2abbf937d6369b
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: b5b1f05808de23f5b5985d2188cdf3c9f6777887
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63540640"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463615"
 ---
 # <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和合规性
 
@@ -50,7 +50,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [Office2SharePoint](./iglobe-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Office2SharePoint for Teams](./iglobe-office2sharepoint-for-teams.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [适用于 MS365 的 Onna Discovery](./onna-discovery-for-ms365.md) | Onna | **✓** |  |
-| [策略&amp;Insights策略Microsoft Office 365](./avepoint-inc-policies-and-insights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [策略&amp;Insights策略Microsoft Office 365](./avepoint-inc-policiesinsights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
 | [幻灯片选择器](./officeatwork-slide-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -58,7 +58,7 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 | [Talkdesk Microsoft Teams 连接器](./talkdesk-inc-microsoft-teams-connector.md) | Talkdesk， Inc. | **✓** |  |
 | [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [模板选择器浏览器](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Theta Lake Recording &amp; Compliance for Teams Video](./theta-lake-recording-and-compliance-for-teams-video.md) | Theta Lake | **✓** |  |
+| [Theta Lake Recording &amp; Compliance for Teams Video](./theta-lake-recordingcompliance-for-teams-video.md) | Theta Lake | **✓** |  |
 | [上传者](./officeatwork-uploader.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [验证程序](./officeatwork-verifier.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [广泛的想法 - 创新软件](./wide-ideasidea2innovation-ideas-innovation-software.md) | 广泛的想法/想法2Innovation | **✓** |  |

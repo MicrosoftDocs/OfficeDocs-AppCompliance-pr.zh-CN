@@ -3,17 +3,17 @@ title: Microsoft Word应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/25/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 description: 所有应用程序的所有可用安全性和合规性Microsoft Word信息。
 localization_priority: Normal
-ms.openlocfilehash: b6f94b73e5089d8ab479e6647e8cdd982ebcf304
-ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
+ms.openlocfilehash: 8c1d89ebfe48d5a9052d0116bb9a972db0dd38c7
+ms.sourcegitcommit: 021c258a4aad74b2525c08b60926fbbcd421f0c0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64460797"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64597051"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word应用安全性和合规性
 
@@ -21,13 +21,14 @@ Microsoft 与Microsoft 365合作伙伴合作，为组织提供加速和通知有
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [适用于 Word 和 word 的 Adobe Acrobat PowerPoint](./adobe-inc-acrobat-sign-for-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Adobe Acrobat Microsoft Word和 PowerPoint](./adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [AuditBoard 加载项](./auditboard-inc-add-in.md) | Auditboard， Inc. | **✓** |  |
 | [Citasion](./citasion-llc.md) | Citasion LLC | **✓** |  |
 | [CocoFax - 发送传真轻松 &amp; 安全](./cocofax-sending-fax-made-easysecure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
 | [Excel到 Word 文档自动化](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [Fabasoft 云Office加载项](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
+| [适用于 Microsoft Word、Excel 和 PowerPoint 的 Foxit PDF 编辑器](./foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md) | Foxit Software Inc. | **✓** |  |
 | [印象签名](./impression-signatures.md) | 印象签名 | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
 | [Loio 合同审阅软件](./loio-inc-contract-review-software.md) | Loio Inc. | **✓** |  |
