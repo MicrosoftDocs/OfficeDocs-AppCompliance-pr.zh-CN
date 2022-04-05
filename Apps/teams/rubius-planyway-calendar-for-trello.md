@@ -9,12 +9,6 @@ ms.service: attestation
 certification_type: attested
 description: Planyway Calendar for Trello 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5936b0c382642d1e614803928111e14a38ab1a5e
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753771"
 ---
 # <a name="planyway-calendar-for-trello"></a>Planyway Calendar for Trello
 
@@ -108,8 +102,24 @@ ms.locfileid: "63753771"
 |:----------------|:-------------|
 | 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
-| 应用是否遵守 SOC 1 (服务组织) ？ | {
-  &quot;&quot;CMP08_complianceSOC_1：&quot;Na&quot; } | |最新 SOC1 认证日期|  | |应用是否遵守 SOC 2 (服务组织) ？ |无| |你获得哪种 SOC 2 认证？ | | |最新 SOC2 认证日期| | |应用是否遵守 SOC 3 (服务组织) ？ |无| |最新 SOC3 认证日期| | |您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ |无| |应用程序国际标准化组织 (ISO 27001) 认证？ |无| |应用是否符合国际标准化组织 (ISO 27018) ？ |{ &quot;CMP16_complianceISO_27018&quot;： &quot;Na&quot; } | |应用是否符合国际标准化组织 (ISO 27017) ？ |无| |应用是否符合国际标准化组织 (ISO 27002) ？ |无| |FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ |无| |应用是否遵守 FERPA (家庭教育) ？ |N/A | |该应用是否遵守 COPPA (《儿童在线隐私保护) ？ |N/A | |应用是否符合 SOX Sarbanes-Oxley的 () ？ |N/A | |应用是否符合 NIST 800-171？ | | |该应用已通过云安全联盟 (CSA Star) 认证？ |无|
+| 应用是否遵守 SOC 1 (服务组织) ？ | Na |
+| 最新 SOC1 认证日期 |   |
+| 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
+| 你获得哪种 SOC 2 认证？ | |
+| 最新 SOC2 认证日期 | |
+| 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
+| 最新 SOC3 认证日期 | |
+| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 否 |
+| 应用程序国际标准化组织 (ISO 27001) 认证？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | Na |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
+| 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用是否符合 NIST 800-171？ |  |
+| 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

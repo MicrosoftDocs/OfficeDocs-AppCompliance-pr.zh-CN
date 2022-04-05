@@ -3,17 +3,11 @@ title: Microsoft SharePoint 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/23/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft 应用的所有可用安全性和合规性SharePoint信息。
 localization_priority: Normal
-ms.openlocfilehash: 887651563cf6fdb420768a623ce9618b9c7b8c78
-ms.sourcegitcommit: 7c03de919310456c10f7cc3685f83d40cac504de
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63778276"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Microsoft SharePoint 应用安全与合规
 
@@ -21,7 +15,7 @@ Microsoft 与Microsoft 365开发人员合作伙伴合作，为组织提供加速
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Adobe Acrobat Sign for SharePoint](./adobe-inc-acrobat-sign-for-sharepoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Adobe Acrobat Sign for Microsoft Office SharePoint Online](./adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Arc适用于SharePoint](./esri-inc-arcgis-for-sharepoint.md) | 如果为Insi，则使用 | **✓** |  |
 | [标书管理系统](./beyond-technologies-bid-management-system.md) | 技术之外 | **✓** |  |
 | [Bizagi Webparts](./bizagi-team-webparts.md) | Bizagi Team | **✓** |  |
@@ -32,12 +26,13 @@ Microsoft 与Microsoft 365开发人员合作伙伴合作，为组织提供加速
 | [iGlobe CRM 加载项](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iGlobe CRM Office 365 for Microsoft Office 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [表示邮件分析程序](./konnect-email-parser.md) | 库马尼克语电子邮件 | **✓** |  |
-| [LifeWorks Viva 连接](./lifeworks-inc-viva-connections.md) | Lifeworks Inc | **✓** |  |
+| [LifeWorks Viva Connections](./lifeworks-inc-viva-connections.md) | Lifeworks Inc | **✓** |  |
 | [闪电工具闪电](./lightning-tools-conductor.md) | 闪电工具 | **✓** |  |
 | [officeatwork - 模板选择器用于SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Power BI 协作](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
 | [SharePoint-sapiens 员工培训管理](./sharepointsapiens-employee-training-management.md) | SharePointSapiens | **✓** |  |
 | [SharePoint-sapiens 事件管理](./sharepointsapiens-event-management.md) | SharePointSapiens | **✓** |  |
+| [SharePoint-sapiens 新式用户界面](./sharepointsapiens-modern-user-interface.md) | SharePointSapiens | **✓** |  |
 | [更智能的事件预订](./smarter-business-solutions-gmbh-event-booking.md) | Smarter Business Solutions GmbH | **✓** |  |
 | [社交正方形论坛](./lightning-tools-social-squared-discussion-forums.md) | 闪电工具 | **✓** |  |
 | [分类](./accuracy-software-inc-taxonomy.md) | Accuracy Software Inc. | **✓** |  |

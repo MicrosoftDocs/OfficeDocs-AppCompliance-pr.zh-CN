@@ -1,47 +1,39 @@
 ---
-title: ELEARNINGFORCE International 的 LMS365 应用程序信息
+title: ELEARNINGFORCE 国际 Aps 的 LMS365 应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 08/03/2021
+ms.date: 03/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: LMS365 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fce9ed31625d569cdf8d6b9471bb6ac69e08f7a5
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63544820"
 ---
 # <a name="lms365"></a>LMS365
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2021 年 7 月 28 日</p>
+<p>开发人员上次更新时间：2022 年 3 月 28 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/d136f17e-df84-47f2-97a4-13aa24c0c647" target="_blank">在应用商店Teams视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381467" target="_blank">在 AppSource 中查看</a>
+* <a href="https://appsource.microsoft.com/product/web-apps/elearningforce.lms365_spfx" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-ELEARNINGFORCE International 提供给 Microsoft 的信息：
+ELEARNINGFORCE 国际 APS 向 Microsoft 提供的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用名称 | LMS365 |
-| ID | WA104381467 |
-| Office 365客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | ELEARNINGFORCE International |
-| 公司网站 | [https://www.elearningforce.com](https://www.elearningforce.com) |
-| 应用的使用条款 | [https://www.elearningforce.com/LMS365-SaaS-Terms](https://www.elearningforce.com/LMS365-SaaS-Terms) |
-| 应用的核心功能 | 在频道和聊天中轻松插入和共享培训 |
+| ID | elearningforce.lms365_spfx |
+| 合作伙伴公司名称 | ELEARNINGFORCE 国际 APS |
+| 公司网站 | [https://lms365.com](https://lms365.com) |
+| 应用的使用条款 | [https://lms365.com/lms365-saas-terms/](https://lms365.com/lms365-saas-terms/) |
+| 应用的核心功能 | LMS365 使你的组织可以通过 SharePoint、Teams 和移动设备在 Microsoft 365 平台上提供和管理培训，为员工、合作伙伴和客户提供熟悉的环境 |
 | 公司总部位置 | 丹麦 |
 | 应用信息页面 | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
-| 用于运行应用的托管环境或服务模型是什么？ |  |
+| 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -52,12 +44,20 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 ELEARNINGFORCE International 提供有关此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制的信息。
+此信息由 ELEARNINGFORCE 国际 APS 提供有关此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ |  |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ |  |
+| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 是 |
+| 你的应用将处理哪些数据？ | 用户配置文件数据 - 请参阅 https://trustcenter.elearningforce.com/hc/en-us/articles/360017659377 |
+| 应用是否支持 TLS 1.1 或更高版本？ | 是 |
+| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
+| 数据库中存储了哪些数据？ | 用户配置文件数据 &amp; 培训记录 - 请参阅 https://trustcenter.elearningforce.com/hc/en-us/articles/360009394437 |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 荷兰 () 、德国、英国、英国和爱尔兰 () 、日本、澳大利亚、加拿大、爱尔兰 |
+| 你是否已制定数据租用和处置流程？ | 是 |
+| 帐户终止后，数据将保留多久？ | 少于 90 天 |
+| 您是否已建立数据访问管理流程？ | 是 |
+| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 不支持 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,25 +71,25 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 你是否对应用执行年度渗透测试？ | 是 |
 | 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
-| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
-| 您是否已制定缩进和风险分级安全漏洞的流程？ |  |
-| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ |  |
-| 是否根据修补策略 SLA 执行修补程序管理活动？ |  |
-| 你的环境是否具有任何不受支持的操作系统或软件？ |  |
-| 你是否对应用和支持它的内结构进行季度漏洞扫描？ |  |
-| 外部网络边界上是否安装了防火墙？ |  |
-| 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ |  |
-| 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ |  |
-| 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ |  |
-| 启用了 MFA (多重) 身份验证： |  |
-| 您是否已制定设置、修改和删除员工帐户的流程？ |  |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ |  |
-| 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ |  |
-| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | |
-| 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ |  |
-| 是否建立了正式的信息安全风险管理流程？ |  |
-| 您是否已记录并建立了正式的安全事件响应流程？ |  |
-| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？| |
+| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
+| 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
+| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
+| 你的环境是否具有任何不受支持的操作系统或软件？ | 不支持 |
+| 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
+| 外部网络边界上是否安装了防火墙？ | 是 |
+| 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
+| 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
+| 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
+| 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
+| 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
+| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 不适用 |
+| 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
+| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是 |
+| 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
+| 是否建立了正式的信息安全风险管理流程？ | 是 |
+| 您是否已记录并建立了正式的安全事件响应流程？ | 是 |
+| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,22 +103,22 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
 | 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
 | 最新 SOC1 认证日期 |   |
-| 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
+| 应用是否遵守 SOC 2 (服务组织) ？ | 不支持 |
 | 你获得哪种 SOC 2 认证？ | |
 | 最新 SOC2 认证日期 | |
-| 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
+| 应用是否遵守 SOC 3 (服务组织) ？ | 不支持 |
 | 最新 SOC3 认证日期 | |
-| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 否 |
+| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 不支持 |
 | 应用程序国际标准化组织 (ISO 27001) 认证？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
-| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 不支持 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
 | 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
-| 应用是否符合 NIST 800-171？ |  |
-| 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
+| 应用是否符合 NIST 800-171？ | 不适用 |
+| 该应用已通过云安全联盟 (CSA Star) 认证？ | 不支持 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -128,16 +128,17 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ |  |
-| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ |  |
-| 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ |  |
-| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ |  |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ |  |
-| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ |  |
-| 应用是否具有根据请求删除个人个人数据的功能？ |  |
-| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
-| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
+| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 是 |
+| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
+| 隐私策略 URL | https://lms365.com/privacy/ |
+| 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 不支持 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 不支持 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 不支持 |
+| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 不支持 |
+| 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
+| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 不适用 |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ | 不适用 |
+| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -149,31 +150,30 @@ ELEARNINGFORCE International 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
-| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | true |
+| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 设备平台、设备状态、客户端应用 |
-| 你的应用是否支持 CAE (连续访问)  |  |
-| 你的应用是否将任何凭据存储在代码中？ |  |
+| 你的应用是否支持 CAE (连续访问)  | 是 |
+| 你的应用是否将任何凭据存储在代码中？ | 不支持 |
 | 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| GroupMember.Read.All | 应用程序 | 无 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| Mail.Send | delegated | 无 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| OnlineMeetings.ReadWrite | delegated | 在配置用于通知的电子邮件帐户期间动态请求权限。 允许应用创建和阅读联机会议 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| RoleManagement.Read.Directory | 应用程序 | 无 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| User.Invite.All | delegated | 无 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| User.Read | delegated | 无 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| User.Read.All | delegated | 无 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| User.Read.All | 应用程序 | 允许应用读取完整的用户配置文件。 需要&#8217;管理员读取用户&#8217;生成层次结构报告。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| profile | delegated | 无 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| GroupMember.Read.All | 应用程序 | 允许应用展开 AD 组的成员以注册一组用户参加培训 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| Mail.Send | delegated | 允许应用发送通知电子邮件。 在配置用于通知的电子邮件帐户期间动态请求权限。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| OnlineMeetings.ReadWrite | delegated | 允许应用创建、读取、更新和删除联机会议事件。 在配置用于通知的电子邮件帐户期间动态请求权限。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| RoleManagement.Read.Directory | 应用程序 | 应用需要能够读取用户具有的角色，以及他们是全局管理员Office 365管理员还是SharePoint管理员。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| User.Invite.All | delegated | 可选功能：允许目录管理员邀请来宾用户加入培训目录。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| User.Read | delegated | 允许用户使用客户的&#8217;登录到Azure AD，并允许应用读取已登录用户的配置文件和基本公司信息。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| User.Read.All | delegated | 允许应用读取完整的用户配置文件。 需要&#8217;报表管理器仪表板&#8217;用户和 &amp; 构建层次结构 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| User.Read.All | 应用程序 | 允许应用读取完整的用户配置文件。 需要&#8217;报表管理器仪表板&#8217;用户和 &amp; 构建层次结构 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| 个人资料 | delegated | 为了能够向用户显示用于登录的帐户，LMS365 需要此权限才能显示基本个人资料信息，包括 显示名称、名字和姓氏、电子邮件地址和照片。 | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 
 >此应用程序没有其他 API。
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

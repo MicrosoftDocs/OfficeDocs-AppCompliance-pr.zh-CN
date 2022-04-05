@@ -3,24 +3,18 @@ title: 由 Zesavi GmbH 为 Clypp 提供的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 01/03/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Clypp 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e51dcf98573c2dc259438e8ec8926cc14e55a2eb
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63551841"
 ---
 # <a name="clypp"></a>Clypp
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 11 月 17 日</p>
+<p>开发人员上次更新时间：2022 年 3 月 30 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/34ed2c1e-bccf-463d-8fbc-0403e72e89fc" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003621" target="_blank">在 AppSource 中查看</a>
@@ -37,11 +31,11 @@ ms.locfileid: "63551841"
 | ID | WA200003621 |
 | Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Zesavi GmbH |
-| 公司网站 | [https://zesavi.com](https://zesavi.com) |
-| 应用的使用条款 | [https://zesavi.com/en/impressum/](https://zesavi.com/en/impressum/) |
-| 应用的核心功能 | Zesavi 使公司中的 &amp; 每个人都可以直接在 Internet 浏览器中创建、编辑共享简短视频文档。 |
+| 公司网站 | [https://getclypp.com](https://getclypp.com) |
+| 应用的使用条款 | [https://getclypp.com/en/terms-of-use/](https://getclypp.com/en/terms-of-use/) |
+| 应用的核心功能 | Clypp 使公司中的每个人都 &amp; 可以直接在 Internet 浏览器中创建和编辑共享简短视频文档。 |
 | 公司总部位置 | 德国 |
-| 应用信息页面 | |
+| 应用信息页面 | [https://getclypp.com/en/](https://getclypp.com/en/) |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
 | 应用使用哪些托管云提供商？ | 其他 |
 
@@ -138,7 +132,7 @@ ms.locfileid: "63551841"
 |:----------------|:-------------|
 | 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 是 |
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
-| 隐私策略 URL | https://zesavi.com/en/datenschutz/ |
+| 隐私策略 URL | https://getclypp.com/en/privacy-policy/ |
 | 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
 | 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
 | 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |

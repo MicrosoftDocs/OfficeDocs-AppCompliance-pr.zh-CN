@@ -3,24 +3,18 @@ title: 由 88 Limited 提醒的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 10/27/2021
+ms.date: 03/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 有关提醒的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 17592dc196ffc2e17e62af60708c718dc68ee523
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63550681"
 ---
 # <a name="remind"></a>Remind
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 10 月 27 日</p>
+<p>开发人员上次更新时间：2022 年 3 月 28 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/88546d4f-9973-4716-98e4-cd181c04bc2d" target="_blank">在应用商店Teams视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001444" target="_blank">在 AppSource 中查看</a>
@@ -43,7 +37,7 @@ ms.locfileid: "63550681"
 | 公司总部位置 | 香港特别行政区 |
 | 应用信息页面 | [https://teamsreminder.app](https://teamsreminder.app) |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
-| 应用使用哪些托管云提供商？ | 其他 |
+| 应用使用哪些托管云提供商？ | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -60,7 +54,7 @@ ms.locfileid: "63550681"
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | 提醒其他用户时的用户 GUID 和用户名 |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 德国 |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 荷兰 ()  |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 不保留 |
 | 您是否已建立数据访问管理流程？ | 是 |
@@ -87,7 +81,7 @@ ms.locfileid: "63550681"
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
 | 外部网络边界上是否安装了防火墙？ | 是 |
 | 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
-| 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
+| 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ | 否 |
 | 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
 | 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
@@ -122,10 +116,10 @@ ms.locfileid: "63550681"
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
-| 应用是否遵守 FERPA (家庭教育) ？ | 否 |
-| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
-| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 否 |
-| 应用是否符合 NIST 800-171？ | 否 |
+| 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
+| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
+| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用是否符合 NIST 800-171？ | 不适用 |
 | 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -169,6 +163,7 @@ ms.locfileid: "63550681"
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Directory.Read.All | delegated | 在管理员搜索用户以将其分配给许可证时使用。 此功能的用法完全是可选的，在正常应用使用期间不需要。 | [88546d4f-9973-4716-98e4-cd181c04bc2d](../azure/88546d4f-9973-4716-98e4-cd181c04bc2d.md) |
+>| People.Read.All | delegated | 当用户希望向许可证分配用户时使用 | [88546d4f-9973-4716-98e4-cd181c04bc2d](../azure/88546d4f-9973-4716-98e4-cd181c04bc2d.md) |
 
 >此应用程序没有其他 API。
 
