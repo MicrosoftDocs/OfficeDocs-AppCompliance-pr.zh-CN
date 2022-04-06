@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: certified
 description: 适用于云备份的所有可用安全性和合规性信息Microsoft Office 365、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a053ad5e60924f5d45fb8b99f91fe87b6dfe844e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: dca13bf8ef2d0ab2147e7457ab617196edae7fd6
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63546560"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64623204"
 ---
 # <a name="cloud-backup-for-microsoft-office-365"></a>云备份Microsoft Office 365
 
@@ -36,8 +36,11 @@ AvePoint Inc. 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | AvePoint Inc. |
 | 公司网站 | [https://www.avepoint.com](https://www.avepoint.com) |
 | 应用的使用条款 | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| 应用的核心功能 | AvePoint 云备份是行业&#8217;最完整的云到云备份解决方案，Microsoft 365。 With
-在 Azure 存储或你自己的云中，&#8217;自动备份和安全存储，只需决定恢复量以及恢复时间。 按需和精细的项目级还原可以随时访问业务关键型电子邮件、文件、对话、录制、项目、任务、组、Teams、Planner 和网站。 | |公司总部|美国| |应用信息页面| [https://www.avepoint.com/products/cloud/backup/microsoft-of...](https://www.avepoint.com/products/cloud/backup/microsoft-office-365-backup) | |用于运行应用的托管环境或服务模型是什么？ |Paas | |应用使用哪些托管云提供商？ |Azure |
+| 应用的核心功能 | AvePoint 云备份是行业&#8217;最完整的云到云备份解决方案，Microsoft 365。 借助 Azure 存储或你自己的云中的无限自动备份&#8217;安全存储，只需决定恢复量以及恢复时间。 按需和精细的项目级还原可以随时访问业务关键型电子邮件、文件、对话、录制、项目、任务、组、Teams、Planner 和网站。 |
+| 公司总部位置 | 美国美国 |
+| 应用信息页面 | [https://www.avepoint.com/products/cloud/backup/microsoft-of...](https://www.avepoint.com/products/cloud/backup/microsoft-office-365-backup) |
+| 用于运行应用的托管环境或服务模型是什么？ | Paas |
+| 应用使用哪些托管云提供商？ | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,7 +59,7 @@ AvePoint Inc. 提供给 Microsoft 的信息：
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | SharePoint/ODFB site/Microsoft 365组/团队 ID、名称、url; |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 美国 |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 美国美国 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 30 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
