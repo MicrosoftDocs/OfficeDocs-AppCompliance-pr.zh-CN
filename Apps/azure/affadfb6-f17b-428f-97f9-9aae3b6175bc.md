@@ -3,17 +3,17 @@ title: Azure 应用 affadfb6-f17b-428f-97f9-9aae3b6175bc 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/01/2022
+ms.date: 04/05/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: affadfb6-f17b-428f-97f9-9aae3b6175bc的所有可用安全性和合规性信息。
-ms.openlocfilehash: 884d1981510a5ec41cd5c9b326ed3efa83b87f38
-ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
+description: affadfb6-f17b-428f-97f9-9aae3b6175bc 的所有可用安全性和符合性信息。
+ms.openlocfilehash: 9c53d66faf1d56b4a823b94aa6820d207e5b73c1
+ms.sourcegitcommit: 4e8ef8e62b64b63eb9a9aa8971bf0c6ba14c2d03
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "64627994"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64681303"
 ---
 # <a name="azure-app-id-affadfb6-f17b-428f-97f9-9aae3b6175bc"></a>Azure 应用 ID：affadfb6-f17b-428f-97f9-9aae3b6175bc
 
@@ -25,6 +25,6 @@ ms.locfileid: "64627994"
 | [优先级矩阵 - 将电子邮件转换为任务](../forward/WA104381735.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA104381735](https://appsource.microsoft.com/product/office/WA104381735) |
 | [Priority Matrix](../forward/appfluenceinc.m_pm_msft.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/appfluenceinc.m_pm_msft](https://appsource.microsoft.com/product/office/appfluenceinc.m_pm_msft) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用合规性状态
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用符合性状态
 - Publisher证明状态：已完成
-- Microsoft 365认证： (2021 年 6 月 23 日) 
+- Microsoft 365认证：2021/06/23 (批准) 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 验证程序的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ab2bc82f8dfff62649d4eac833be2136c57f6821
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: df8d337dc72282487900807a1538a6d89b268df3
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279035"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64626904"
 ---
 # <a name="verifier"></a>验证程序
 
@@ -50,13 +50,13 @@ officeatwork 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
-列出[此Graph所需的](https://docs.microsoft.com/graph/permissions-reference)任何 Microsoft 权限。
+列出[此Graph所需的](/graph/permissions-reference)任何 Microsoft 权限。
 
->| **Permission**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
+>| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Files.Read | delegated | 不存储任何数据。 | OneDrive：能够读取登录用户的文件 | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
 >| Files.Read.All | delegated | 不存储任何数据。 | Teams：读取登录用户有权访问的所有文件。 | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| Sites.Read.All | delegated | 不存储任何数据。 | SharePoint联机：若要允许从 SharePoint Online 中读取数据，登录用户有权访问。 | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
+>| Sites.Read.All | delegated | 不存储任何数据。 | SharePoint Online：若要允许从 SharePoint Online 读取数据，登录用户有权访问。 | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
 >| User.Read | delegated | 不存储任何数据。 | 登录：使 officeatwork 应用能够读取用户的基本属性。 | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
 >| offline_access | delegated | 不存储任何数据。 | 登录：要像没有刷新令牌一样启用自动登录，用户每次启动 officeatwork 应用时必须手动登录。 只有未启用 SSO 的主机应用程序才需要此范围。 | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
 >| openid | delegated | 不存储任何数据。 | Sing-In：允许用户使用其组织和/或 Microsoft 帐户登录 officeatwork 应用。 | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
@@ -64,13 +64,13 @@ officeatwork 提供给 Microsoft 的信息：
 
 #### <a name="data-access-using-other-microsoft-apis"></a>使用其他 Microsoft API 进行数据访问
 
-基于此模型构建的应用和Microsoft 365可能会使用除 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
+基于组织构建的应用和Microsoft 365可能会使用 Microsoft Graph 外的其他 Microsoft API 来收集或处理 OII (组织) 。 列出除 Microsoft API Graph此应用使用的任何 Microsoft API。
 
 >| **API** |  **是否收集 OII？** |  **收集哪些 OII？** | **收集 OII 的理由？** | **是否存储 OII？** | **存储 OII 的理由** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| SharePoint REST API | 否 |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务使用
+#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
 
 如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
 
@@ -80,7 +80,7 @@ officeatwork 提供给 Microsoft 的信息：
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
 
 >是，事件包括 oid 和 tenantId，并发送到 Azure AppInsights。 事件将在 90 天后自动删除。 如果客户希望删除此数据，他们可以使用隐私声明中提供的链接来开始删除该数据。
 
@@ -88,7 +88,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->应用程序设置数据 (功能标志、组织 显示名称、tenantId、管理员列表 oids) 存储在 Azure Cosmos DB 实例中 (每个租户) 。 DB 文件已加密，并且访问权限仅限于选定的办公工程师和支持人员。 客户可以使用管理中心 Web 应用访问和处理 officeatwork 应用设置数据。
+>应用程序设置数据 (功能标志、组织 显示名称、tenantId、管理员列表 oids) 存储在 Azure Cosmos DB 实例中 (每个租户一) 。 DB 文件已加密，并且访问权限仅限于选定的办公工程师和支持人员。 客户可以使用管理中心 Web 应用访问和处理 officeatwork 应用设置数据。
 
 #### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
 
@@ -104,7 +104,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35755' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35755' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35755" target="_blank">在新建选项卡中查看</a>
 
@@ -120,7 +120,7 @@ OII (组织) 或最终用户可识别信息 (EUII) 是否出现在此应用程�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
+| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
 | 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
 | 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 你的应用是否支持条件访问策略？ | 是 |

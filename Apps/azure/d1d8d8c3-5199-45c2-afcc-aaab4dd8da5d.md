@@ -1,19 +1,19 @@
 ---
-title: Azure 应用 D1d8d8c3-5199-45c2-afcc-aaab4dd8da5d 的 ID 信息
+title: d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d 的Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/01/2022
+ms.date: 04/05/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d 的所有可用安全和合规性信息。
-ms.openlocfilehash: 282d1a5159566afd780e96366015c1b71dc0ba90
-ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
+description: d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d 的所有可用安全性和符合性信息。
+ms.openlocfilehash: 3a5e3d8ce2d898fceda414973330ce5afea41c96
+ms.sourcegitcommit: 4e8ef8e62b64b63eb9a9aa8971bf0c6ba14c2d03
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "64627314"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64682013"
 ---
 # <a name="azure-app-id-d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d"></a>Azure 应用 ID：d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d
 
@@ -23,5 +23,5 @@ ms.locfileid: "64627314"
 |--------------|---------------|-----------------------|
 | [Team Tracker](../forward/WA200003572.md) |  | [https://appsource.microsoft.com/product/office/WA200003572](https://appsource.microsoft.com/product/office/WA200003572) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用合规性状态
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用符合性状态
 - Publisher证明状态：已完成
