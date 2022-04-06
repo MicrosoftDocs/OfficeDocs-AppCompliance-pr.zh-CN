@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: certified
 description: MURAL 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: df6a5ae8a4b098679e9fc43cedfe8605a8c0d99e
-ms.sourcegitcommit: 021c258a4aad74b2525c08b60926fbbcd421f0c0
+ms.openlocfilehash: 46369b01c7570f46997e8a9cb43e30c9d882e0bf
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "64602291"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64627274"
 ---
 # <a name="mural"></a>MURAL
 
@@ -57,7 +57,7 @@ MURAL 提供了此信息，这些信息与此应用程序如何收集和存储�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 是 |
-| 你的应用将处理哪些数据？ | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| 你的应用将处理哪些数据？ | MURAL 仅需要 Name、Last Name 和 Email Address 才能登录。 要处理/存储的数据类型取决于客户 |
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | MURAL 仅需要来自用户的名称、姓氏和电子邮件以用于登录，并且存储的其他信息取决于客户存储在其 mural 中的信息。 |
@@ -97,8 +97,8 @@ MURAL 提供了此信息，这些信息与此应用程序如何收集和存储�
 | 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
 | 是否建立了正式的信息安全风险管理流程？ | 是 |
-| 您是否已记录并建立了正式的安全事件响应流程？ |  |
-| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？| |
+| 您是否已记录并建立了正式的安全事件响应流程？ | 是 |
+| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？| 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
