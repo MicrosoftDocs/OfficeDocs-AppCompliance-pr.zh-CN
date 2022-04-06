@@ -8,6 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
+ms.openlocfilehash: ae60abd7b7c3bb66412178b765f72800b354df1b
+ms.sourcegitcommit: 64860967a2baa3b08445ad7e186e46ce529efb13
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64527794"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -16,7 +22,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [10xGoals](./xto10x-technologies-10xgoals.md) | xto10x Technologies | **✓** |  |
-| [1Page](./oayaw-inc-1page.md) | OAYAW, Inc. | **✓** |  |
 | [365-QA](./advantive-365-qa.md) | Advantive | **✓** |  |
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  |
 | [8x8](./8x8-inc.md) | 8x8, Inc | **✓** |  |
@@ -156,7 +161,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Engagedly](./engagedly-inc.md) | Engagedly Inc | **✓** |  |
 | [EngageWith](./springrole-engagewith.md) | SpringRole | **✓** |  |
 | [enmacc](./enmacc.md) | enmacc | **✓** |  |
-| [EQ Everywhere](./humantelligence-eq-everywhere.md) | Humantelligence | **✓** |  |
 | [Espresso](./solutions2share-gmbh-espresso.md) | Solutions2Share GmbH | **✓** |  |
 | [eTeamer](./eteamer.md) | &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [事件管理](./sharepointsapiens-event-management.md) | SharePoint-Sapiens | **✓** |  |
@@ -195,7 +199,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Good4work](./good4work.md) | Good4work | **✓** |  |
 | [Goodera](./goodera.md) | Goodera | **✓** |  |
 | [GoToConnect](./logmein-inc-gotoconnect.md) | LogMeIn Inc. | **✓** |  |
-| [GRATICA](./okwave-inc-gratica.md) | OKWAVE, Inc. | **✓** |  |
 | [Group 通讯簿 - NextSet](./nextsetinc-group-address-book-nextset.md) | NextSet,Inc. | **✓** |  |
 | [GroupLotse](./controlex-gmbh-grouplotse.md) | controlex GmbH | **✓** |  |
 | [Grow360](./grow360.md) | Grow360 | **✓** |  |
@@ -325,7 +328,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Perfect Wiki](./ooo-rd17-perfect-wiki.md) | OOO RD17 | **✓** |  |
 | [Perflo](./perflo.md) | Perflo | **✓** |  |
 | [照片文件管理器](./ichicraft-photo-filer.md) | Ichicraft | **✓** |  |
-| [Plandisc](./plandisc.md) | Plandisc | **✓** |  |
 | [Planyway Calendar for Trello](./rubius-planyway-calendar-for-trello.md) | Rubius | **✓** |  |
 | [PlayQuiz - 四月 &amp; 僅](./teamschamp-playquiz-aprendejuega.md) | TeamsChamp | **✓** |  |
 | [Plumm](./plumm-health-ltd.md) | Plumm Health LTD | **✓** |  |

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: MyHub 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0620429641e4e7b9669d48ec07af70eafe3accd3
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 483147bf1dbde67aa105e245012cdc3938227e01
+ms.sourcegitcommit: 2c06ca843da2f9359a834b1479d2b9b7eee1f68d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63546820"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64645877"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -40,7 +40,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 公司网站 | [https://www.avepoint.com](https://www.avepoint.com) |
 | 应用的使用条款 | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 | 应用的核心功能 | 与 MyHub 会面，这是一个一站式商店，用于请求Office 365现有&amp;工作区的新网站。 MyHub 提供易于使用的预配、重新 &amp; 认证和生命周期服务，而不会给 IT 团队带来负担。 用户能够扩展安全&amp;&amp;工作区，并通知他们何时采取措施，从而更轻松地完成其任务列表。 MyHub&#65533;&amp; 持续安全框架由 AvePoint&#65533;云治理支持。 |
-| 公司总部位置 | 美国 |
+| 公司总部位置 | 美国美国 |
 | 应用信息页面 | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
@@ -57,15 +57,14 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
+| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 不支持 |
 | 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | 网站集/O365 组/Teams基本元数据;用户 ID、电子邮件、名称 |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 美国 |
+| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 美国美国 |
 | 你是否已制定数据租用和处置流程？ | 是 |
 | 帐户终止后，数据将保留多久？ | 少于 60 天 |
 | 您是否已建立数据访问管理流程？ | 是 |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 不支持 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -83,7 +82,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
 | 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
-| 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
+| 你的环境是否具有任何不受支持的操作系统或软件？ | 不支持 |
 | 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
 | 外部网络边界上是否安装了防火墙？ | 是 |
 | 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
@@ -93,11 +92,11 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
 | 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
 | 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
-| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
+| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是 |
 | 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
 | 是否建立了正式的信息安全风险管理流程？ | 是 |
-| 您是否已记录并建立了正式的安全事件响应流程？ |  |
-| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？| |
+| 您是否已记录并建立了正式的安全事件响应流程？ | 是 |
+| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -109,19 +108,19 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
 | 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
-| 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
+| 应用是否遵守 SOC 1 (服务组织) ？ | 不支持 |
 | 最新 SOC1 认证日期 |   |
 | 应用是否遵守 SOC 2 (服务组织) ？ | 是 |
 | 你获得哪种 SOC 2 认证？ |  type2 |
 | 最新 SOC2 认证日期 |  2/9/2021 |
-| 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
+| 应用是否遵守 SOC 3 (服务组织) ？ | 不支持 |
 | 最新 SOC3 认证日期 | |
 | 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 不适用 |
 | 应用程序国际标准化组织 (ISO 27001) 认证？ | 是 |
-| 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不支持 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 是 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
+| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 不支持 |
 | 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
 | 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
 | 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 是 |
@@ -139,13 +138,13 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 是 |
 | 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://www.avepoint.com/company/privacy-and-security |
-| 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
-| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
-| 应用是否具有根据请求删除个人个人数据的功能？ | 否 |
+| 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 不支持 |
+| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 不支持 |
+| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 不支持 |
+| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 不支持 |
+| 应用是否具有根据请求删除个人个人数据的功能？ | 不支持 |
 | 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 是 |
-| 该应用是否向个人提供更正或更新其个人数据的能力？ | 否 |
+| 该应用是否向个人提供更正或更新其个人数据的能力？ | 不支持 |
 | 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -163,8 +162,8 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 | 你的应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 应用程序与 Azure AD，因此可以使用所有条件访问规则。 |
 | 你的应用是否支持 CAE (连续访问)  | 是 |
-| 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 你的应用是否将任何凭据存储在代码中？ | 不支持 |
+| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 不支持 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
 
@@ -181,7 +180,7 @@ AvePoint， inc. 提供给 Microsoft 的信息：
 >| 电子邮件 | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
 >| offline_access | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
 >| openid | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
->| profile | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| 个人资料 | delegated | Teams 应用 SSO | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
 
 >此应用程序没有其他 API。
 

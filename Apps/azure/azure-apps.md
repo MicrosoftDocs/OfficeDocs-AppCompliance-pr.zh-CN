@@ -3,11 +3,17 @@ title: Azure 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/31/2022
+ms.date: 03/30/2022
 ms.topic: article
 ms.service: attestation
 description: 所有安全与合规信息的所有可用Azure 应用信息。
 localization_priority: Normal
+ms.openlocfilehash: bde06f0432926a2fa08aea71630fadc9221b1424
+ms.sourcegitcommit: 0b61e3c35f05a7f7926b2ccd6049be4fc2a149c9
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64554265"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Azure 应用安全与合规
 
