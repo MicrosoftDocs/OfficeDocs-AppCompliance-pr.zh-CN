@@ -1,19 +1,19 @@
 ---
-title: Azure 应用的 ID 信息170ee-dbd7-4efa-b48e-b0937ded1689
+title: Azure 应用 bed170ee-dbd7-4efa-b48e-b0937ded1689 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/01/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 适用于用户的所有可用安全性和合规性信息 170ee-dbd7-4efa-b48e-b0937ded1689。
-ms.openlocfilehash: c9673bba463cd41293594fb5fdea0aafd7ee71b1
-ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
+description: bed170ee-dbd7-4efa-b48e-b0937ded1689 的所有可用安全性和符合性信息。
+ms.openlocfilehash: 4b419d82e9b6117997249aef6c84ed764b360d11
+ms.sourcegitcommit: 9f7e69c17034365cafea977da23961d4e934ad9f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "64627604"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "64696233"
 ---
 # <a name="azure-app-id-bed170ee-dbd7-4efa-b48e-b0937ded1689"></a>Azure 应用 ID：bed170ee-dbd7-4efa-b48e-b0937ded1689
 
@@ -23,5 +23,5 @@ ms.locfileid: "64627604"
 |--------------|---------------|-----------------------|
 | [Neelix.Team](../forward/WA200003047.md) |  | [https://appsource.microsoft.com/product/office/WA200003047](https://appsource.microsoft.com/product/office/WA200003047) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用合规性状态
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用符合性状态
 - Publisher证明状态：已完成
