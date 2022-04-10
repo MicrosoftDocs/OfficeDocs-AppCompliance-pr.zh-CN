@@ -3,17 +3,17 @@ title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/06/2022
+ms.date: 04/07/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 42fec656528c9d01799845ef635e337f96ab56b4
-ms.sourcegitcommit: 9f7e69c17034365cafea977da23961d4e934ad9f
+ms.openlocfilehash: 4210845e777f73f745aa4f1c473077879bd611ba
+ms.sourcegitcommit: 9cc3fe8502a6f21f3f6abb4dd23b99b116c51b8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64694333"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "64722106"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -501,6 +501,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [WorkJam Schedule](./workjam-schedule.md) | WorkJam | **✓** |  |
 | [WorkJam 任务](./workjam-tasks.md) | WorkJam | **✓** |  |
 | [WorkJam 打卡时钟](./workjam-time-clock.md) | WorkJam | **✓** |  |
+| [Workpath](./workpath-gmbh.md) | Workpath GmbH | **✓** |  |
 | [WorkplaceBuddy](./workplacebuddy.md) | WorkplaceBuddy | **✓** |  |
 | [Wrike](./wrike-inc.md) | Wrike Inc. | **✓** |  |
 | [X0PA 会议室](./x0pa-ai-singapore-room.md) | X0PA AI（新加坡公司） | **✓** |  |
