@@ -2,17 +2,18 @@
 title: Microsoft 365 应用合规计划
 author: LGerrard
 ms.author: Legerrar
+manager: tonybal
 description: 计划简介和概述
 keywords: microsoft 365 m365 应用发布者证明认证
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: 17aab158f4fc7803966afed9df88adf9688fcc63
-ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
+ms.openlocfilehash: fec13172c98d6ec63b3ba4160eb04c9b345acb8d
+ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63697064"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784351"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 应用合规计划
 
@@ -24,7 +25,7 @@ Microsoft 365 应用合规性计划是应用安全性和合规性的两个步骤
 
 ## <a name="publisher-verification"></a>发布者验证
 
-[发布者验证](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)可帮助管理员和用户了解到应用开发人员与 Microsoft 标识平台集成的真实性。 当应用标记为经过发布者验证，这意味着发布者已使用已完成验证过程的 Microsoft 合作伙伴网络帐户验证了其标识，而且已将此 MPN 帐户与其应用程序注册进行了关联。
+[发布者验证](/azure/active-directory/develop/publisher-verification-overview)可帮助管理员和用户了解到应用开发人员与 Microsoft 标识平台集成的真实性。 当应用标记为经过发布者验证，这意味着发布者已使用已完成验证过程的 Microsoft 合作伙伴网络帐户验证了其标识，而且已将此 MPN 帐户与其应用程序注册进行了关联。
 发布者验证适用于满足下列条件的应用：  
 - 使用 OAuth 2.0 和 OpenID Connect 将用户登录，并使用 Microsoft Graph 等服务端 API 请求数据访问权限。 
 - 已以多租户的身份在 Azure AD 中注册。  
@@ -50,6 +51,6 @@ Microsoft 365认证适用于与以下 Microsoft 产品集成的所有应用：
 - **Web 应用** （合作伙伴中心中通过商业市场发布的 SaaS 应用目前为个人预览版，如果你有兴趣参与，请填写此 [表单](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u)。
 
 ### <a name="get-started"></a>入门
-- [如何完成发布者验证](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)
-- [如何完成 Microsoft 365 认证](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification)
+- [如何完成发布者验证](/azure/active-directory/develop/mark-app-as-publisher-verified)
+- [如何完成 Microsoft 365 认证](/microsoft-365-app-certification/docs/certification)
 

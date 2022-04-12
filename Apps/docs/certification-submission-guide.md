@@ -3,16 +3,16 @@ ms.author: oromalle
 title: Microsoft 365认证提交指南
 author: orionomalley
 manager: tonybal
-description: Microsoft 365认证提交指南详细信息
+description: Microsoft 365认证为企业组织提供充分保护和保护数据和隐私的保证和信心。
 keywords: 应用认证团队Microsoft 365安全合规性 m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 5081e187615400b038795215ad0d5dcc934e1a87
-ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
+ms.openlocfilehash: fd6082a482cdf5e4dc268f140b7f2a8de4d8880f
+ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/10/2022
-ms.locfileid: "64751821"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784521"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365认证提交指南
 
@@ -89,8 +89,7 @@ Microsoft 建议所有 ISV (独立软件供应商) 完整地阅读此Microsoft 3
 > 范围内环境必须具有 DMZ，并且应用/外接程序的支持环境必须从内部业务系统和企业环境中分段，从而将评估活动的范围限制为仅限范围内系统。 认证分析师将在评估期间验证分段技术，并查看渗透测试报告，这些报告本应包括测试，以验证正在使用的任何分段技术的有效性。
 
 ### <a name="infrastructure-as-a-service-iaas-platform-as-a-service-paas-and-software-as-a-service-saas"></a>基础结构即服务 (IaaS) 、平台即服务 (PaaS) 和软件即服务 (SaaS)  
-如果 IaaS 和/或 PaaS 用于支持正在审查的应用程序或外接程序代码传送的基础结构，则云平台提供商将负责在整个认证过程中评估的一些安全控制措施。 因此，需要通过外部合规性报告（例如 PCI DSS 合规性证明 (AOC) 、ISO27001 或 SOC 2 类型 II 报表）向认证分析师提供对安全最佳做法的独立外部验证。 
-
+如果 IaaS 和/或 PaaS 用于支持正在审查的应用程序或外接程序代码传送的基础结构，则云平台提供商将负责在整个认证过程中评估的一些安全控制措施。 因此，需要通过外部合规性报告（例如 [PCI DSS] 合规性证明 (AOC) 、ISO27001 或 [SOC 2] II 类型报表）向认证分析师提供对安全最佳做法的独立外部验证。 
 
 附录 F 根据以下部署类型以及应用/外接程序是否外泄 M365 数据，提供可能适用的安全控件的详细信息： 
 * ISV 托管 
@@ -335,7 +334,7 @@ Microsoft 建议所有 ISV (独立软件供应商) 完整地阅读此Microsoft 3
 ||提供明显的证据，证明防火墙规则基础配置为删除未显式定义的流量。|
 ||提供明显的证据，证明防火墙仅支持所有非控制台管理接口上的强加密。|
 ||提供可证明的证据，证明你至少每 6 个月执行一次防火墙规则评审。|
-|**Web Application Firewall (WAF)  (可选)**：将因满足以下控制而获得额外额度。|提供可证明的证据，证明Web Application Firewall (WAF) 配置为主动监视、警报和阻止恶意流量。|
+|**Web 应用程序防火墙 (WAF)  (可选)**：将因满足以下控件而获得额外额度。|提供可证明的证据，证明Web 应用程序防火墙 (WAF) 配置为主动监视、警报和阻止恶意流量。|
 ||提供可证明的证据，证明 WAF 支持 SSL 卸载。|
 ||根据 OWASP 核心规则集 (3.0 或 3.1) 提供可证明的证据，证明 WAF 可以防范某些或以下所有类别的漏洞)  |
 |**更改控件**|提供管理更改控制过程的策略文档。|
@@ -740,7 +739,7 @@ Microsoft 建议所有 ISV (独立软件供应商) 完整地阅读此Microsoft 3
 
 * 演示向 Internet 公开的防火墙的非控制台管理接口支持 MFA。
 
-如果已部署Web Application Firewall (WAF) ，以帮助防范应用程序可能受到的无数 Web 应用程序威胁和漏洞，则会提供额外的信用额度。 如果存在 WAF 或类似项，则需要执行以下操作：
+如果部署了Web 应用程序防火墙 (WAF) ，以帮助防范应用程序可能暴露的无数 Web 应用程序威胁和漏洞，则会提供额外的信用额度。 如果存在 WAF 或类似项，则需要执行以下操作：
 
 * 演示 WAF 是在主动防御模式下配置的，或者通过警报监视更多。
 
@@ -863,7 +862,7 @@ Microsoft 建议所有 ISV (独立软件供应商) 完整地阅读此Microsoft 3
 
 * 演示防火墙规则评审至少每六个月进行一次。
 
-如果部署了Web Application Firewall (WAF) 或类似，以帮助防范应用程序可能暴露的无数 Web 应用程序威胁和漏洞，则会提供额外的信用额度。 如果存在 WAF 或类似项，则需要执行以下操作：
+如果部署了Web 应用程序防火墙 (WAF) 或类似，以帮助防范应用程序可能暴露的无数 Web 应用程序威胁和漏洞，则会提供额外的信用额度。 如果存在 WAF 或类似项，则需要执行以下操作：
 
 * 演示 WAF 是在主动防御模式下配置的，或者通过警报监视更多。
 
