@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: 7e80b2da13df6bc6b97b0022bf47795cb4f28392
-ms.sourcegitcommit: 8272a4eaea1bbd9196b998f1cb9b87c6cbb7d5d0
+ms.openlocfilehash: fe56ddc1a3306d7d4fbaabe0003a811e4b4ac82d
+ms.sourcegitcommit: 10b79d3f6a6d9d89c3b288789a14eafdfcc42d7a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/13/2022
-ms.locfileid: "64830779"
+ms.locfileid: "64838766"
 ---
 # <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和符合性
 
@@ -34,6 +34,7 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 | [内容选择器](./officeatwork-content-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [内容选择器浏览器](./officeatwork-content-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Designer](./officeatwork-designer.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [调用器统一呼叫录制Microsoft Teams](./dubber-corp-unified-call-recording-for-microsoft-teams.md) | 杜伯公司 | **✓** |  |
 | [Emailgistics](./emailgistics-corp.md) | Emailgistics Corp. | **✓** |  |
 | [emailNotes for Outlook](./standss-south-pacific-pte-limited-emailnotes-for-outlook.md) | 南太平洋) PTE 有限公司 (展台 | **✓** |  |
 | [Genesys Cloud CX Teams集成](./genesys-cloud-services-inc-cx-teams-integration.md) | Genesys 云服务， Inc | **✓** |  |
