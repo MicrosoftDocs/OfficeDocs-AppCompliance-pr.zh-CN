@@ -1,5 +1,5 @@
 ---
-title: 印象签名概述
+title: 印象签名的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: 印象签名的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a73081d68782829e2b4f91901f2315c7d0d7e380
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: e6104557c9c1294fac7d830697f766a3b0e0d8f5
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784205"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64871030"
 ---
-# <a name="impression-signatures-overview"></a>印象签名概述
+# <a name="impression-signatures"></a>印象签名
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -70,7 +70,7 @@ ms.locfileid: "64784205"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否对应用执行年度渗透测试？ | 是 |
-| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 是 |
+| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 可访问 |
 | 环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ |  |
 | 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ |  |
@@ -85,11 +85,9 @@ ms.locfileid: "64784205"
 | 是否已建立预配、修改和删除员工帐户的过程？ |  |
 | 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ |  |
 | 是否在支持应用的所有系统组件上设置了事件日志记录？ |  |
-| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | |
 | 检测到安全事件时，系统会自动将警报发送给员工进行会审？ |  |
 | 是否建立了正式的信息安全风险管理流程？ |  |
 | 是否已记录并建立了正式的安全事件响应流程？ |  |
-| 是否在检测后 72 小时内向受违规影响的监管机构和个人报告应用或服务数据泄露？| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -102,17 +100,14 @@ ms.locfileid: "64784205"
 | 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 不适用 |
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否符合服务组织控制 (SOC 1) ？ | 不适用 |
-| 最新的 SOC1 认证日期 |   |
 | 应用是否符合服务组织控制 (SOC 2) ？ | 是 |
-| 你实现了哪个 SOC 2 认证？ |   |
-| 最新的 SOC2 认证日期 |  2021-06-09 |
+| 最新的 SOC2 认证日期 | 2021-06-09 |
 | 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
-| 最新的 SOC3 认证日期 | |
 | 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不适用 |
-| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
+| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 可访问 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 是 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 是 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 可访问 |
 | 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不适用 |
@@ -129,15 +124,6 @@ ms.locfileid: "64784205"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ |  |
-| 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ |  |
-| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ |  |
-| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ |  |
-| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ |  |
-| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ |  |
-| 应用是否具有在请求时删除个人个人数据的功能？ |  |
-| 应用是否能够在请求时限制或限制个人个人数据的处理？ |  |
-| 应用是否使个人能够更正或更新其个人数据？ |  |
-| 是否定期执行数据安全和隐私评审 (例如，数据保护影响评估或隐私风险评估) ，以确定与处理应用的个人数据相关的风险？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
