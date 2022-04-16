@@ -1,5 +1,5 @@
 ---
-title: Showmaster 应用程序信息 (软件) 帮助程序插件
+title: Showmaster (帮助程序插件) 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,14 +7,14 @@ ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Showmaster (Helper Plugin) 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: Showmaster (Helper 插件) 、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息的所有可用安全性和符合性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 709af640b1be36d8f36d3a2ec5cf06982100b53e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: c8c6599927718574c22fe6e4d7d4c926715c19ea
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63545240"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64881439"
 ---
 # <a name="showmaster-helper-plugin"></a>Showmaster (帮助程序插件) 
 
@@ -28,19 +28,19 @@ ms.locfileid: "63545240"
 
 ### <a name="general-information"></a>一般信息
 
-由wareware提供给 Microsoft 的信息：
+樱桃软件提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用名称 | Showmaster (帮助程序插件)  |
 | ID | WA200003676 |
-| Office 365客户端 | PowerPoint 2016 Mac、PowerPoint web 版、PowerPoint 2013 或更高版本的 Windows 或更高版本Windows |
-| 合作伙伴公司名称 | 一些 |
-| 公司网站 | [https://www.cherryware.com](https://www.cherryware.com) |
+| 支持Office 365客户端 | PowerPoint 2016或更高版本的 Mac、PowerPoint web 版、PowerPoint 2013 或更高版本Windows |
+| 合作伙伴公司名称 | cherryware |
+| 公司的网站 | [https://www.cherryware.com](https://www.cherryware.com) |
 | 应用的使用条款 | [https://showmaster.app/terms/](https://showmaster.app/terms/) |
-| 应用的核心功能 | Showmaster 是一PowerPoint外接程序，它在等待期间围绕你的说话创建一个激动人心的框架，并中断标题、倒计时、音乐等。 |
+| 应用的核心功能 | Showmaster 是一个PowerPoint加载项，它在等待期间围绕你的谈话创建一个令人兴奋的框架，并打破头条新闻，倒计时，音乐等。 |
 | 公司总部位置 | 德国 |
-| 应用信息页面 | [https://showmaster.app](https://showmaster.app) |
+| 应用信息页 | [https://showmaster.app](https://showmaster.app) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -52,12 +52,12 @@ ms.locfileid: "63545240"
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由关于此应用如何收集和存储组织数据以及你的组织将拥有对应用收集的数据的控制的恶意软件提供。
+此信息由樱桃软件提供，了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 否 |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 否 |
+| 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 否 |
+| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -65,31 +65,31 @@ ms.locfileid: "63545240"
 
 ::: zone pivot="security"
 
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
+下面显示了[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对应用执行年度渗透测试？ | 是 |
-| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
-| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
-| 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
-| 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
-| 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
-| 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
-| 外部网络边界上是否安装了防火墙？ | 是 |
-| 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
-| 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
-| 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
-| 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
-| 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
-| 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
-| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
-| 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
+| 是否对应用执行年度渗透测试？ | 是 |
+| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 可访问 |
+| 环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
+| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 可访问 |
+| 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 是 |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ | 可访问 |
+| 环境是否有不受支持的操作系统或软件？ | 否 |
+| 是否对应用以及支持它的构造进行季度漏洞扫描？ | 可访问 |
+| 外部网络边界上是否安装了防火墙？ | 可访问 |
+| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 可访问 |
+| 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 可访问 |
+| 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 可访问 |
+| 启用了多重身份验证 (MFA) ： | CodeRepositories、DNSManagement、Credential |
+| 是否已建立预配、修改和删除员工帐户的过程？ | 可访问 |
+| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 是 |
+| 是否在支持应用的所有系统组件上设置了事件日志记录？ | 是 |
+| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 可访问 |
+| 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 是 |
 | 是否建立了正式的信息安全风险管理流程？ | 是 |
-| 您是否已记录并建立了正式的安全事件响应流程？ |  |
-| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？| |
+| 是否已记录并建立了正式的安全事件响应流程？ | 是 |
+| 是否在检测后 72 小时内向受违规影响的监管机构和个人报告应用或服务数据泄露？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -99,26 +99,22 @@ ms.locfileid: "63545240"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
-| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
-| 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
-| 最新 SOC1 认证日期 |   |
-| 应用是否遵守 SOC 2 (服务组织) ？ | 否 |
-| 你获得哪种 SOC 2 认证？ | |
-| 最新 SOC2 认证日期 | |
-| 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
-| 最新 SOC3 认证日期 | |
-| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 不适用 |
-| 应用程序国际标准化组织 (ISO 27001) 认证？ | 否 |
+| 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 不适用 |
+| 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 不适用 |
+| 应用是否符合服务组织控制 (SOC 1) ？ | 不适用 |
+| 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
+| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不适用 |
+| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
-| 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
-| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
+| 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
+| 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不适用 |
+| 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
-| 该应用已通过云安全联盟 (CSA Star) 认证？ | 否 |
+| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -128,16 +124,7 @@ ms.locfileid: "63545240"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 否 |
-| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 否 |
-| 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
-| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
-| 应用是否具有根据请求删除个人个人数据的功能？ |  |
-| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ |  |
-| 该应用是否向个人提供更正或更新其个人数据的能力？ |  |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ |  |
+| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -147,14 +134,14 @@ ms.locfileid: "63545240"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 否 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 否 |
-| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ |  |
-| 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
-| 你的应用是否支持条件访问策略？ | 否 |
-| 你的应用是否支持 CAE (连续访问)  | 否 |
-| 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 否 |
+| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 否 |
+| 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ |  |
+| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
+| 应用是否支持条件访问策略？ | 否 |
+| 应用是否支持持续访问评估 (CAE)  | 否 |
+| 应用是否在代码中存储任何凭据？ | 否 |
+| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
 
 >此应用程序不使用 Microsoft Graph。
 

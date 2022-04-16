@@ -1,5 +1,5 @@
 ---
-title: Office2SharePoint for Office 概述
+title: 适用于 iGlobe Office的 Office2SharePoint 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: certified
 description: 适用于 Office 的 Office2SharePoint 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 511e915fc952084c19f2c39d871af029d68e1937
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 450df9e100169405958db3af9abb4472b67627b9
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784191"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64878789"
 ---
-# <a name="office2sharepoint-for-office-overview"></a>Office2SharePoint for Office 概述
+# <a name="office2sharepoint-for-office"></a>Office2SharePoint for Office
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>开发人员上次更新时间：2021 年 8 月 16 日</p>
@@ -84,11 +84,9 @@ iGlobe 提供了此信息，了解此应用如何收集和存储组织数据，�
 | 是否已建立预配、修改和删除员工帐户的过程？ |  |
 | 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ |  |
 | 是否在支持应用的所有系统组件上设置了事件日志记录？ |  |
-| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | |
 | 检测到安全事件时，系统会自动将警报发送给员工进行会审？ |  |
 | 是否建立了正式的信息安全风险管理流程？ |  |
 | 是否已记录并建立了正式的安全事件响应流程？ |  |
-| 是否在检测后 72 小时内向受违规影响的监管机构和个人报告应用或服务数据泄露？| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -101,13 +99,12 @@ iGlobe 提供了此信息，了解此应用如何收集和存储组织数据，�
 | 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 是 |
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 是 |
 | 应用是否符合服务组织控制 (SOC 1) ？ | 是 |
-| 最新的 SOC1 认证日期 |  2020-11-01 |
-| 应用是否符合服务组织控制 (SOC 2) ？ | 是 |
-| 你实现了哪个 SOC 2 认证？ |   |
-| 最新的 SOC2 认证日期 |  2020-11-01 |
-| 应用是否符合服务组织控制 (SOC 3) ？ | 是 |
-| 最新的 SOC3 认证日期 |  2020-11-01 |
-| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 是 |
+| 最新的 SOC1 认证日期 | 2020-11-01 |
+| 应用是否符合服务组织控制 (SOC 2) ？ | 可访问 |
+| 最新的 SOC2 认证日期 | 2020-11-01 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 可访问 |
+| 最新的 SOC3 认证日期 | 2020-11-01 |
+| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 可访问 |
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 是 |
@@ -128,15 +125,6 @@ iGlobe 提供了此信息，了解此应用如何收集和存储组织数据，�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ |  |
-| 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ |  |
-| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ |  |
-| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ |  |
-| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ |  |
-| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ |  |
-| 应用是否具有在请求时删除个人个人数据的功能？ |  |
-| 应用是否能够在请求时限制或限制个人个人数据的处理？ |  |
-| 应用是否使个人能够更正或更新其个人数据？ |  |
-| 是否定期执行数据安全和隐私评审 (例如，数据保护影响评估或隐私风险评估) ，以确定与处理应用的个人数据相关的风险？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -148,13 +136,14 @@ iGlobe 提供了此信息，了解此应用如何收集和存储组织数据，�
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
-| 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | True |
+| 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | true |
 | 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
-| 应用是否支持条件访问策略？ | 是 |
+| 应用是否支持条件访问策略？ | 可访问 |
 | 列出支持的策略类型 | 安全默认值和任何其他常见策略（如阻止旧式身份验证* 要求管理员使用 MFA* 要求对 Azure 管理使用 MFA* 要求所有用户使用 MFA* |
+| 你的应用是否请求方案的最低特权权限？ | 是 |
 | 应用是否支持持续访问评估 (CAE)  |  |
 | 应用是否在代码中存储任何凭据？ |  |
-| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 是 |
+| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 可访问 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
 

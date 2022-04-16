@@ -3,17 +3,17 @@ title: a9b0c190-bafb-49ca-a61a-dab99cf2c43b 的Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/14/2022
+ms.date: 04/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: a9b0c190-bafb-49ca-a61a-dab99cf2c43b 的所有可用安全性和符合性信息。
-ms.openlocfilehash: a175e00d452e3873b4e4f449c6a613ea8a3f1858
-ms.sourcegitcommit: aa6c1546afd356990d681ee68ce976cb7faebd02
+ms.openlocfilehash: ba1c1f27e0a146c981681438449b83d0a9c59401
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64857008"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64878909"
 ---
 # <a name="azure-app-id-a9b0c190-bafb-49ca-a61a-dab99cf2c43b"></a>Azure 应用 ID：a9b0c190-bafb-49ca-a61a-dab99cf2c43b
 

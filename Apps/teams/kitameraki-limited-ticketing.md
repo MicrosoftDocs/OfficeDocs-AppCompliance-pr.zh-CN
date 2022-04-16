@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: CSA STAR 注册表中的所有可用安全性和合规性信息，包括票证、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 42777d2bb9cf639419a28e9ec52c189f8bd27e27
-ms.sourcegitcommit: 60344676a860c837b8a727c43d6cec430044c3f4
+ms.openlocfilehash: b0bf7f4fb8685d48b7048ca8a91880f19697f3cb
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64769042"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64879689"
 ---
-# <a name="ticketing"></a>票务
+# <a name="ticketing"></a>Ticketing
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,7 +33,7 @@ kitameraki 提供的信息仅限于 Microsoft：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | 票务 |
+| 应用名称 | Ticketing |
 | ID | WA200003945 |
 | 支持Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | kitameraki limited |
@@ -65,7 +65,7 @@ Kitameraki 提供了此信息，其中包含有关此应用如何收集和存储
 | 如果基础结构处理或存储 Microsoft 客户数据，则此数据在地理上存储在哪里？ | 美国美国 |
 | 是否已建立数据出租和处置流程？ | 否 |
 | 帐户终止后数据保留多长时间？ | 不保留 |
-| 是否已建立数据访问管理过程？ | 是 |
+| 是否已建立数据访问管理过程？ | 可访问 |
 | 是否将客户数据或客户内容传输到第三方或子处理器？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -91,7 +91,7 @@ Kitameraki 提供了此信息，其中包含有关此应用如何收集和存储
 | 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
 | 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 否 |
 | 启用了多重身份验证 (MFA) ： | CodeRepositories、DNSManagement、Credential |
-| 是否已建立预配、修改和删除员工帐户的过程？ | 是 |
+| 是否已建立预配、修改和删除员工帐户的过程？ | 可访问 |
 | 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 否 |
 | 是否在支持应用的所有系统组件上设置了事件日志记录？ | 否 |
 | 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 否 |
@@ -132,15 +132,6 @@ Kitameraki 提供了此信息，其中包含有关此应用如何收集和存储
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 否 |
-| 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 否 |
-| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 否 |
-| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
-| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 否 |
-| 应用是否具有在请求时删除个人个人数据的功能？ |  |
-| 应用是否能够在请求时限制或限制个人个人数据的处理？ |  |
-| 应用是否使个人能够更正或更新其个人数据？ |  |
-| 是否定期执行数据安全和隐私评审 (例如，数据保护影响评估或隐私风险评估) ，以确定与处理应用的个人数据相关的风险？ |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
