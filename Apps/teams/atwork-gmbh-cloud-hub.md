@@ -1,5 +1,5 @@
 ---
-title: 通过工作 GmbH 获取云中心的应用程序信息
+title: 按 atwork GmbH 提供的云中心的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,8 +7,14 @@ ms.date: 11/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 云中心的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 云中心的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 9b441e604b0babfe3616a29e9a1022adc4964cba
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64877779"
 ---
 # <a name="cloud-hub"></a>云中心
 
@@ -16,7 +22,7 @@ zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>开发人员上次更新时间：2021 年 11 月 22 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/0c46172d-7923-422d-902e-f27aaad6994d" target="_blank">在应用商店Teams视图</a>
+* <a href="https://teams.microsoft.com/l/app/0c46172d-7923-422d-902e-f27aaad6994d" target="_blank">Teams存储区中的视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003034" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
@@ -29,13 +35,13 @@ atwork GmbH 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | 云中心 |
 | ID | WA200003034 |
-| Office 365客户端 | Microsoft Teams |
+| 支持Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | atwork GmbH |
-| 公司网站 | [https://www.atwork-it.com](https://www.atwork-it.com) |
+| 公司的网站 | [https://www.atwork-it.com](https://www.atwork-it.com) |
 | 应用的使用条款 | [https://www.atwork-it.com/eula](https://www.atwork-it.com/eula) |
-| 应用的核心功能 | 云中心是一款商业应用Microsoft Teams。 它允许用户跟踪即将进行的更改，包括新功能和已更改的功能、计划的维护以及来自 Microsoft 消息中心的重要信息通知。 你可以将云中心应用固定到 Microsoft Teams 中的应用栏。 应用目前支持英语版，无需任何费用。  |
+| 应用的核心功能 | 云中心是用于Microsoft Teams的业务应用。 它允许用户跟踪即将发生的更改，包括新功能和更改的功能、计划内维护以及 Microsoft 消息中心的其他重要公告。 可以在Microsoft Teams中将 Cloud Hub 应用固定到应用栏。 该应用目前以英语提供支持，不收取任何费用。  |
 | 公司总部位置 | 奥地利 |
-| 应用信息页面 | [https://www.atwork-it.com/solutions/cloudhub/](https://www.atwork-it.com/solutions/cloudhub/) |
+| 应用信息页 | [https://www.atwork-it.com/solutions/cloudhub/](https://www.atwork-it.com/solutions/cloudhub/) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -47,20 +53,20 @@ atwork GmbH 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-atwork GmbH 提供了此信息，这些信息与此应用程序如何收集和存储组织数据以及您的组织将拥有对应用收集的数据的控制有关。
+atwork GmbH 提供了此信息，了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 是 |
-| 你的应用将处理哪些数据？ | 用户数据、登录数据、身份验证数据、租户数据、Azure 服务数据、Graph数据、Office 365管理数据 |
-| 应用是否支持 TLS 1.1 或更高版本？ | 是 |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
+| 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 可访问 |
+| 应用会处理哪些数据？ | 用户数据、登录数据、身份验证数据、租户数据、Azure 服务数据、Graph数据、Office 365管理数据 |
+| 应用是否支持 TLS 1.1 或更高版本？ | 可访问 |
+| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 可访问 |
 | 数据库中存储了哪些数据？ | Graph数据Office 365管理数据 |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 奥地利 |
-| 你是否已制定数据租用和处置流程？ | 是 |
-| 帐户终止后，数据将保留多久？ | 少于 30 天 |
-| 您是否已建立数据访问管理流程？ | 是 |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 不支持 |
+| 如果基础结构处理或存储 Microsoft 客户数据，则此数据在地理上存储在哪里？ | 奥地利 |
+| 是否已建立数据出租和处置流程？ | 可访问 |
+| 帐户终止后数据保留多长时间？ | 小于 30 天 |
+| 是否已建立数据访问管理过程？ | 可访问 |
+| 是否将客户数据或客户内容传输到第三方或子处理器？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -68,29 +74,30 @@ atwork GmbH 提供了此信息，这些信息与此应用程序如何收集和�
 
 ::: zone pivot="security"
 
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
+下面显示了[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对应用执行年度渗透测试？ | 是 |
-| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 不支持 |
-| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
-| 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 不支持 |
-| 是否根据修补策略 SLA 执行修补程序管理活动？ | 不支持 |
-| 你的环境是否具有任何不受支持的操作系统或软件？ | 不支持 |
-| 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 不支持 |
-| 外部网络边界上是否安装了防火墙？ | 不支持 |
-| 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
-| 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
-| 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 不支持 |
-| 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
-| 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 不支持 |
-| 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
-| 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 不支持 |
-| 是否建立了正式的信息安全风险管理流程？ | 不支持 |
-| 您是否已记录并建立了正式的安全事件响应流程？ | 不支持 |
+| 是否对应用执行年度渗透测试？ | 是 |
+| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 否 |
+| 环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
+| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 是 |
+| 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 否 |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ | 否 |
+| 环境是否有不受支持的操作系统或软件？ | 否 |
+| 是否对应用以及支持它的构造进行季度漏洞扫描？ | 否 |
+| 外部网络边界上是否安装了防火墙？ | 否 |
+| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 可访问 |
+| 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 可访问 |
+| 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 否 |
+| 启用了多重身份验证 (MFA) ： | CodeRepositories、DNSManagement、Credential |
+| 是否已建立预配、修改和删除员工帐户的过程？ | 可访问 |
+| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 否 |
+| 是否在支持应用的所有系统组件上设置了事件日志记录？ | 可访问 |
+| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 否 |
+| 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 否 |
+| 是否建立了正式的信息安全风险管理流程？ | 否 |
+| 是否已记录并建立了正式的安全事件响应流程？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -100,26 +107,22 @@ atwork GmbH 提供了此信息，这些信息与此应用程序如何收集和�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 不适用 |
-| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 不适用 |
-| 应用是否遵守 SOC 1 (服务组织) ？ | 不适用 |
-| 最新 SOC1 认证日期 |   |
-| 应用是否遵守 SOC 2 (服务组织) ？ | 不支持 |
-| 你获得哪种 SOC 2 认证？ | |
-| 最新 SOC2 认证日期 | |
-| 应用是否遵守 SOC 3 (服务组织) ？ | 不支持 |
-| 最新 SOC3 认证日期 | |
-| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 不适用 |
-| 应用程序国际标准化组织 (ISO 27001) 认证？ | 不支持 |
+| 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 不适用 |
+| 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 不适用 |
+| 应用是否符合服务组织控制 (SOC 1) ？ | 不适用 |
+| 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
+| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不适用 |
+| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
-| 应用是否符合国际标准化组织 (ISO 27017) ？ | 不支持 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 不支持 |
-| 应用是否遵守 FERPA (家庭教育) ？ | 不适用 |
-| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 不适用 |
-| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 不适用 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
+| 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
+| 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不适用 |
+| 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
-| 该应用已通过云安全联盟 (CSA Star) 认证？ | 不支持 |
+| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -129,16 +132,16 @@ atwork GmbH 提供了此信息，这些信息与此应用程序如何收集和�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 是 |
-| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 不支持 |
-| 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 不支持 |
-| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 不支持 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 不支持 |
-| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 不支持 |
-| 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
-| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 不支持 |
-| 该应用是否向个人提供更正或更新其个人数据的能力？ | 不支持 |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 不支持 |
+| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 可访问 |
+| 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 否 |
+| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
+| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 否 |
+| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 否 |
+| 应用是否具有在请求时删除个人个人数据的功能？ | 可访问 |
+| 应用是否能够在请求时限制或限制个人个人数据的处理？ | 否 |
+| 应用是否使个人能够更正或更新其个人数据？ | 否 |
+| 是否定期执行数据安全和隐私评审 (例如，数据保护影响评估或隐私风险评估) ，以确定与处理应用的个人数据相关的风险？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -148,24 +151,24 @@ atwork GmbH 提供了此信息，这些信息与此应用程序如何收集和�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
-| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
-| 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
-| 你的应用是否支持条件访问策略？ | 是 |
-| 列出支持的策略类型 | 多租户应用，取决于&#180;设置 |
-| 你的应用是否支持 CAE (连续访问)  | 不支持 |
-| 你的应用是否将任何凭据存储在代码中？ | 不支持 |
-| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 是 |
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
+| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
+| 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 是 |
+| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ | 最新版本 |
+| 应用是否支持条件访问策略？ | 是 |
+| 列出支持的策略类型 | 多租户应用，取决于客户&#180;设置 |
+| 应用是否支持持续访问评估 (CAE)  | 否 |
+| 应用是否在代码中存储任何凭据？ | 否 |
+| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 可访问 |
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | 应用程序 | 用于选择要从消息中心发布消息的频道。 | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
->| Mail.Send | 应用程序 | 用于直接从应用程序向频道或个人人员发送邮件。  | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
+>| Channel.ReadBasic.All | 应用程序 | 用于选择要从消息中心发布消息的通道。 | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
+>| Mail.Send | 应用程序 | 用于直接从应用向频道或个人发送邮件。  | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
 >| TeamSettings.Read.All | 应用程序 | 用于选择要从消息中心发布消息的团队。 | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
->| User.Read.All | 应用程序 | 用于选择要向其发送电子邮件的人。 | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
+>| User.Read.All | 应用程序 | 用于选择要向其发送电子邮件的人员。 | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
 
 >此应用程序没有其他 API。
 
