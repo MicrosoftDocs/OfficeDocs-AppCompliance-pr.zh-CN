@@ -3,17 +3,17 @@ title: SaaS 应用安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/14/2022
+ms.date: 04/20/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: 5602abf50fcc801dd4489b30fa1738fa1691b3d7
-ms.sourcegitcommit: aa6c1546afd356990d681ee68ce976cb7faebd02
+ms.openlocfilehash: a5710377c29684140336abe5dc351f8161008c08
+ms.sourcegitcommit: 9dbbec778006471c0193a7fd39e2f81e7d441275
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64859048"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014302"
 ---
 # <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和符合性
 
@@ -22,6 +22,7 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [管理中心](./officeatwork-admin-center.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Adobe Acrobat Sign for Microsoft 365](./adobe-acrobat-sign-for-microsoft-365.md) | Adobe | **✓** |  |
 | [用于Microsoft Teams的 Anywhere365 助理控制台](./workstreampeople-bv-anywhere365-attendant-console-for-microsoft-teams.md) | WORKSTREAMPEOPLE BV | **✓** |  |
 | [Anywhere365 联系Teams中心](./workstreampeople-bv-anywhere365-contact-center-for-teams.md) | WORKSTREAMPEOPLE BV | **✓** |  |
 | [Teams的 Buzzeasy 联系人中心](./geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md) | Geomant-Algotech Zrt。 | **✓** |  |
@@ -54,7 +55,7 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 | [Office2SharePoint](./iglobe-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Office2SharePoint for Teams](./iglobe-office2sharepoint-for-teams.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [适用于 MS365 的 Onna Discovery](./onna-discovery-for-ms365.md) | Onna | **✓** |  |
-| [&amp; Microsoft Office 365的策略Insights](./avepoint-inc-policiesinsights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [&amp;策略见解Microsoft Office 365](./avepoint-inc-policiesinsights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
 | [幻灯片选择器](./officeatwork-slide-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

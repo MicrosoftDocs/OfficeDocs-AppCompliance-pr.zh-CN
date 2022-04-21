@@ -3,17 +3,17 @@ title: Azure 应用 dae2eacf-3eb5-4440-baff-984fbd5cae68 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/19/2022
+ms.date: 04/20/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: dae2eacf-3eb5-4440-baff-984fbd5cae68 的所有可用安全性和符合性信息。
-ms.openlocfilehash: bdf9530fed9534ddb556a3d2c95d7a212c3de1ea
-ms.sourcegitcommit: b1e50c421eeb1b54e99180634217d3df35a4897f
+ms.openlocfilehash: 67d3902bb1827ed0175ba00cf8f3c881111040e6
+ms.sourcegitcommit: 3f7acf13ff182026b75f58baa2290a68c8281b46
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64960198"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "64964021"
 ---
 # <a name="azure-app-id-dae2eacf-3eb5-4440-baff-984fbd5cae68"></a>Azure 应用 ID：dae2eacf-3eb5-4440-baff-984fbd5cae68
 

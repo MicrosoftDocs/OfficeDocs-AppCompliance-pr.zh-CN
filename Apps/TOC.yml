@@ -5,7 +5,7 @@
       items:
         - name: 概述
           href: overview.md
-        - name: 什么是Publisher验证？
+        - name: 什么是发布者验证？
           href: /azure/active-directory/develop/publisher-verification-overview
         - name: 什么是Microsoft 365认证？
           href: docs/enterprise-app-certification-guide.md
@@ -39,11 +39,11 @@
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint for Office
           href: excel/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork |Office的内容选择器
+        - name: officeatwork |Office 内容选择器
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork |Office的图像选择器
+        - name: officeatwork |Office 的图像选择器
           href: excel/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork |用于Office的模板选择器
+        - name: officeatwork |Office 模板选择器
           href: excel/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Report Builder
           href: excel/adobe-inc-report-builder.md
@@ -60,9 +60,9 @@
     - name: Microsoft OneNote应用
       href: onenote/onenote-apps.md
       items:
-        - name: officeatwork |Office的内容选择器
+        - name: officeatwork |Office 内容选择器
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork |Office的图像选择器
+        - name: officeatwork |Office 的图像选择器
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
     - name: Microsoft Outlook应用
       href: outlook/outlook-apps.md
@@ -132,13 +132,13 @@
           href: powerpoint/foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md
         - name: Office2SharePoint for Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork |Office的内容选择器
+        - name: officeatwork |Office 内容选择器
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork |Office的图像选择器
+        - name: officeatwork |Office 的图像选择器
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork |Office的幻灯片选择器
+        - name: officeatwork |Office 幻灯片选择器
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
-        - name: officeatwork |用于Office的模板选择器
+        - name: officeatwork |Office 模板选择器
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Showmaster
           href: powerpoint/cherryware-showmaster.md
@@ -149,7 +149,7 @@
     - name: Microsoft Project应用
       href: project/project-apps.md
       items:
-        - name: officeatwork |用于Office的模板选择器
+        - name: officeatwork |Office 模板选择器
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
     - name: Microsoft SharePoint应用
       href: sharepoint/sharepoint-apps.md
@@ -1222,7 +1222,7 @@
           href: word/krevealllc-crosscheck.md
         - name: Excel到 Word 文档自动化
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Fabasoft Cloud Office加载项
+        - name: Fabasoft Cloud Office 加载项
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: Microsoft Word、Excel和PowerPoint的 Foxit PDF 编辑器
           href: word/foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md
@@ -1240,19 +1240,19 @@
           href: word/neopolis-gmbh.md
         - name: Office2SharePoint for Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork |Office的内容选择器
+        - name: officeatwork |Office 内容选择器
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork |Office设计器
+        - name: officeatwork |Office 设计器
           href: word/officeatwork-officeatworkdesigner-for-office.md
-        - name: officeatwork |Office的图像选择器
+        - name: officeatwork |Office 的图像选择器
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork |用于Office的模板选择器
+        - name: officeatwork |Office 模板选择器
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: officeatwork |Office的上传器
+        - name: officeatwork |Office 上传器
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork |Office的验证程序
+        - name: officeatwork |Office 的验证程序
           href: word/officeatwork-officeatworkverifier-for-office.md
-        - name: officeatwork |Office向导
+        - name: officeatwork |Office 向导
           href: word/officeatwork-officeatworkwizard-for-office.md
         - name: RetMig 和 Kommaforslag
           href: word/grammarsoft-aps-retmigkommaforslag.md
@@ -1273,6 +1273,8 @@
       items:
         - name: 管理中心
           href: saas/officeatwork-admin-center.md
+        - name: Adobe Acrobat Sign for Microsoft 365
+          href: saas/adobe-acrobat-sign-for-microsoft-365.md
         - name: 用于Microsoft Teams的 Anywhere365 助理控制台
           href: saas/workstreampeople-bv-anywhere365-attendant-console-for-microsoft-teams.md
         - name: Anywhere365 联系Teams中心
@@ -1337,7 +1339,7 @@
           href: saas/iglobe-office2sharepoint-for-teams.md
         - name: 适用于 MS365 的 Onna Discovery
           href: saas/onna-discovery-for-ms365.md
-        - name: Microsoft Office 365的策略和Insights
+        - name: 适用于Microsoft Office 365的策略和见解
           href: saas/avepoint-inc-policiesinsights-for-microsoft-office-365.md
         - name: Priority Matrix
           href: saas/appfluence-inc-priority-matrix.md
