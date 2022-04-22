@@ -3,17 +3,17 @@ title: Azure 应用 5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/20/2022
+ms.date: 04/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9 的所有可用安全性和符合性信息。
-ms.openlocfilehash: 5ad8c51bc5eb95e3301a183df166897026b68686
-ms.sourcegitcommit: 3f7acf13ff182026b75f58baa2290a68c8281b46
+ms.openlocfilehash: 0b6f800325fe0e4b4afbce2cf29dfbc5937e3fd3
+ms.sourcegitcommit: 6a86cfad0d14b309aa1e990c124ed1c0cc85fbeb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64969371"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65028889"
 ---
 # <a name="azure-app-id-5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9"></a>Azure 应用 ID：5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9
 
@@ -24,4 +24,4 @@ ms.locfileid: "64969371"
 | [Loop](../forward/WA200003480.md) |  | [https://appsource.microsoft.com/product/office/WA200003480](https://appsource.microsoft.com/product/office/WA200003480) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用符合性状态
-- Publisher证明状态：已完成
+- 发布者证明状态：已完成
