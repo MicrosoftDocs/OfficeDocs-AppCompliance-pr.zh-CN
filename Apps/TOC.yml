@@ -5,7 +5,7 @@
       items:
         - name: 概述
           href: overview.md
-        - name: 什么是发布者验证？
+        - name: 什么是Publisher验证？
           href: /azure/active-directory/develop/publisher-verification-overview
         - name: 什么是Microsoft 365认证？
           href: docs/enterprise-app-certification-guide.md
@@ -39,11 +39,11 @@
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint for Office
           href: excel/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork |Office 内容选择器
+        - name: officeatwork |Office的内容选择器
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork |Office 的图像选择器
+        - name: officeatwork |Office的图像选择器
           href: excel/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork |Office 模板选择器
+        - name: officeatwork |用于Office的模板选择器
           href: excel/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Report Builder
           href: excel/adobe-inc-report-builder.md
@@ -60,15 +60,15 @@
     - name: Microsoft OneNote应用
       href: onenote/onenote-apps.md
       items:
-        - name: officeatwork |Office 内容选择器
+        - name: officeatwork |Office的内容选择器
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork |Office 的图像选择器
+        - name: officeatwork |Office的图像选择器
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
     - name: Microsoft Outlook应用
       href: outlook/outlook-apps.md
       items:
-        - name: adobe Sign Add-In for Outlook
-          href: outlook/adobe-inc-sign-add-in-for-outlook.md
+        - name: Adobe Acrobat Sign for Microsoft Outlook
+          href: outlook/adobe-inc-acrobat-sign-for-microsoft-outlook.md
         - name: Altru 视频
           href: outlook/altru-videos.md
         - name: 已批准的联系人日历
@@ -132,13 +132,13 @@
           href: powerpoint/foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md
         - name: Office2SharePoint for Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork |Office 内容选择器
+        - name: officeatwork |Office的内容选择器
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork |Office 的图像选择器
+        - name: officeatwork |Office的图像选择器
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork |Office 幻灯片选择器
+        - name: officeatwork |Office的幻灯片选择器
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
-        - name: officeatwork |Office 模板选择器
+        - name: officeatwork |用于Office的模板选择器
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Showmaster
           href: powerpoint/cherryware-showmaster.md
@@ -149,7 +149,7 @@
     - name: Microsoft Project应用
       href: project/project-apps.md
       items:
-        - name: officeatwork |Office 模板选择器
+        - name: officeatwork |用于Office的模板选择器
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
     - name: Microsoft SharePoint应用
       href: sharepoint/sharepoint-apps.md
@@ -267,6 +267,8 @@
           href: teams/asana.md
         - name: ASC Recording Insights
           href: teams/asc-technologies-ag-recording-insights.md
+        - name: 询问 Vizir
+          href: teams/vizirco-ask-vizir.md
         - name: Assembly
           href: teams/carrothr-inc-assembly.md
         - name: 星状体
@@ -1224,7 +1226,7 @@
           href: word/krevealllc-crosscheck.md
         - name: Excel到 Word 文档自动化
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Fabasoft Cloud Office 加载项
+        - name: Fabasoft Cloud Office加载项
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: Microsoft Word、Excel和PowerPoint的 Foxit PDF 编辑器
           href: word/foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md
@@ -1242,19 +1244,19 @@
           href: word/neopolis-gmbh.md
         - name: Office2SharePoint for Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork |Office 内容选择器
+        - name: officeatwork |Office的内容选择器
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork |Office 设计器
+        - name: officeatwork |Office设计器
           href: word/officeatwork-officeatworkdesigner-for-office.md
-        - name: officeatwork |Office 的图像选择器
+        - name: officeatwork |Office的图像选择器
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork |Office 模板选择器
+        - name: officeatwork |用于Office的模板选择器
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: officeatwork |Office 上传器
+        - name: officeatwork |Office的上传器
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork |Office 的验证程序
+        - name: officeatwork |Office的验证程序
           href: word/officeatwork-officeatworkverifier-for-office.md
-        - name: officeatwork |Office 向导
+        - name: officeatwork |Office向导
           href: word/officeatwork-officeatworkwizard-for-office.md
         - name: RetMig 和 Kommaforslag
           href: word/grammarsoft-aps-retmigkommaforslag.md
@@ -1341,7 +1343,7 @@
           href: saas/iglobe-office2sharepoint-for-teams.md
         - name: 适用于 MS365 的 Onna Discovery
           href: saas/onna-discovery-for-ms365.md
-        - name: 适用于Microsoft Office 365的策略和见解
+        - name: Microsoft Office 365的策略和Insights
           href: saas/avepoint-inc-policiesinsights-for-microsoft-office-365.md
         - name: Priority Matrix
           href: saas/appfluence-inc-priority-matrix.md
@@ -1528,6 +1530,8 @@
           href: azure/3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c.md
         - name: 3dbcb38b-8d2f-4e97-9bd1-975fb770b31c
           href: azure/3dbcb38b-8d2f-4e97-9bd1-975fb770b31c.md
+        - name: 3e63f4cc-5aac-4774-8d2d-fc7b516f9f51
+          href: azure/3e63f4cc-5aac-4774-8d2d-fc7b516f9f51.md
         - name: 3e701664-cc46-49e4-b356-1a7ac6500998
           href: azure/3e701664-cc46-49e4-b356-1a7ac6500998.md
         - name: 3e745135-a761-48a7-ab54-5c0277b2e642

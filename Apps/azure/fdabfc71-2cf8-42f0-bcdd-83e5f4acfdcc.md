@@ -3,17 +3,17 @@ title: Azure 应用 fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/21/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc 的所有可用安全性和符合性信息。
-ms.openlocfilehash: 3ddaf520e99e4d3350d443b733dbc0b7dff34bcc
-ms.sourcegitcommit: 6a86cfad0d14b309aa1e990c124ed1c0cc85fbeb
+ms.openlocfilehash: e7c19a65b2d8bd07544b77f73c2fd58db41afe3d
+ms.sourcegitcommit: 7c4eed407267c4c313909d4f27f46bebf443cb23
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65026389"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65064405"
 ---
 # <a name="azure-app-id-fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc"></a>Azure 应用 ID：fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc
 
@@ -24,4 +24,4 @@ ms.locfileid: "65026389"
 | [WorkInSync](../forward/WA200002974.md) |  | [https://appsource.microsoft.com/product/office/WA200002974](https://appsource.microsoft.com/product/office/WA200002974) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用符合性状态
-- 发布者证明状态：已完成
+- Publisher证明状态：已完成
