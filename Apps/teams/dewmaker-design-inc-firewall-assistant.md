@@ -3,24 +3,24 @@ title: DewMaker Design， Inc. 防火墙助手的应用程序信息。
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 02/08/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 防火墙助手的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f18501bfe0fee3333b1c56f6549be533f6464272
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 872f21f28d354de0f206c6f654b619fd57a98c84
+ms.sourcegitcommit: b0c1d8160b4e9a27f23a9d723f7e76d38ab12d9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64878289"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65122671"
 ---
 # <a name="firewall-assistant"></a>防火墙助手
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 2 月 7 日</p>
+<p>开发人员上次更新时间：2022 年 4 月 26 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/40b745ad-16a8-4eda-bf1c-5b48b0dc947d" target="_blank">Teams存储区中的视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003363" target="_blank">在 AppSource 中查看</a>
@@ -38,7 +38,7 @@ DewMaker Design， Inc. 提供给 Microsoft 的信息：
 | 支持Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | DewMaker Design, Inc. |
 | 公司的网站 | [https://dewmaker.com](https://dewmaker.com) |
-| 应用的使用条款 | [https://teamwell.services/terms.html](https://teamwell.services/terms.html) |
+| 应用的使用条款 | [https://firewallassistant.com/terms](https://firewallassistant.com/terms) |
 | 应用的核心功能 | 使用Microsoft Teams对Azure SQL服务器防火墙规则进行自助管理。 |
 | 公司总部位置 | 美国美国 |
 | 应用信息页 | [https://firewallassistant.com](https://firewallassistant.com) |
@@ -60,10 +60,10 @@ DewMaker Design， Inc. 提供了此信息，了解此应用如何收集和存�
 | 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 可访问 |
 | 应用会处理哪些数据？ | 电子邮件地址和 Azure 订阅 URL |
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
-| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 是 |
+| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 可访问 |
 | 数据库中存储了哪些数据？ | MS 登录) 和 Azure 订阅终结点数据的电子邮件地址 ( |
 | 如果基础结构处理或存储 Microsoft 客户数据，则此数据在地理上存储在哪里？ | 美国美国 |
-| 是否已建立数据出租和处置流程？ | 是 |
+| 是否已建立数据出租和处置流程？ | 可访问 |
 | 帐户终止后数据保留多长时间？ | 不保留 |
 | 是否已建立数据访问管理过程？ | 是 |
 | 是否将客户数据或客户内容传输到第三方或子处理器？ | 否 |
@@ -81,19 +81,19 @@ DewMaker Design， Inc. 提供了此信息，了解此应用如何收集和存�
 | 是否对应用执行年度渗透测试？ | 否 |
 | 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 否 |
 | 环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls、TraditionalAntiMalware |
-| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 可访问 |
+| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 是 |
 | 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 否 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 否 |
 | 环境是否有不受支持的操作系统或软件？ | 否 |
 | 是否对应用以及支持它的构造进行季度漏洞扫描？ | 可访问 |
-| 外部网络边界上是否安装了防火墙？ | 可访问 |
-| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 可访问 |
-| 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
+| 外部网络边界上是否安装了防火墙？ | 是 |
+| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 是 |
+| 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 可访问 |
 | 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 可访问 |
 | 启用了多重身份验证 (MFA) ： | CodeRepositories、DNSManagement、Credential |
-| 是否已建立预配、修改和删除员工帐户的过程？ | 是 |
-| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 是 |
-| 是否在支持应用的所有系统组件上设置了事件日志记录？ | 是 |
+| 是否已建立预配、修改和删除员工帐户的过程？ | 可访问 |
+| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 可访问 |
+| 是否在支持应用的所有系统组件上设置了事件日志记录？ | 可访问 |
 | 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 是 |
 | 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 是 |
 | 是否建立了正式的信息安全风险管理流程？ | 是 |
@@ -146,7 +146,6 @@ DewMaker Design， Inc. 提供了此信息，了解此应用如何收集和存�
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 否 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 可访问 |
-| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
 | 应用是否支持条件访问策略？ | 否 |
 | 应用是否支持持续访问评估 (CAE)  | 否 |
 | 应用是否在代码中存储任何凭据？ | 否 |
