@@ -3,24 +3,23 @@ title: Adobe Acrobat Sign for Microsoft 365的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/20/2022
+ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Adobe Acrobat Sign for Microsoft 365 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9b87349c5829954b6c2f421590406110d32d85fe
-ms.sourcegitcommit: 9dbbec778006471c0193a7fd39e2f81e7d441275
+ms.openlocfilehash: 96500b3df087be8333684b6c7f793a551ccc4a2e
+ms.sourcegitcommit: 4e4e1e4f91f4fab06f3585388784a0da1a963453
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014312"
+ms.lasthandoff: 05/02/2022
+ms.locfileid: "65168515"
 ---
 # <a name="adobe-acrobat-sign-for-microsoft-365"></a>Adobe Acrobat Sign for Microsoft 365
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 4 月 11 日</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>开发人员上次更新时间：2022 年 4 月 29 日</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/adobe.adobe_sign_msft_saas_offer" target="_blank">在 AppSource 中查看</a>
 
@@ -153,18 +152,18 @@ Adobe 提供了此信息，了解此应用如何收集和存储组织数据以�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
-| 是否已查看并遵守 Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
+| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 否 |
 | 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ | 计划迁移到 MSAL) 的 adal ( |
 | 应用是否支持条件访问策略？ | 否 |
 | 应用是否支持持续访问评估 (CAE)  | 否 |
 | 应用是否在代码中存储任何凭据？ | 否 |
-| 适用于Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 是 |
+| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 是 |
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 访问数据
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
 
->|   **图形权限**  | **权限类型** |          **字距调整**          | **Azure AD 应用 ID** |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Mail.ReadWrite | 委托 | 若要填充附加的文档、发件人和接收方电子邮件，以及从电子邮件发送到 Adobe 签名以发送签名的消息内容。 这是为了节省用户在 Adobe Sign 中重新键入这些字段的时间。 签署协议后，我们会自动编写一封新电子邮件，供用户发送电子邮件，以通知收件人事务已完成。 Adobe Sign 会将附件另存为临时文件，有效期为 24 小时。 | [ea36b867-ca67-45fd-a61b-d2be86273167](../azure/ea36b867-ca67-45fd-a61b-d2be86273167.md) |
 >| People.Read | 委托 | 若要在“发送”中 &quot;自动填充电子邮件地址以获取签名&quot; 体验，请键入一些初始字母，无需用户键入整个电子邮件。 Adobe Sign 只会在协议中存储收件人的电子邮件和 displayName。 | [ea36b867-ca67-45fd-a61b-d2be86273167](../azure/ea36b867-ca67-45fd-a61b-d2be86273167.md) |
