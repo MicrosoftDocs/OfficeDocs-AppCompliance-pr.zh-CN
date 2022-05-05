@@ -1,5 +1,5 @@
 ---
-title: CocoFax 的应用程序信息 - 发送传真可通过 &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496;轻松 &amp; 安全
+title: CocoFax 的应用程序信息 - 发送传真使安全性变得轻松&amp;
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: CocoFax 的所有可用安全性和符合性信息 - 发送传真使安全轻松&amp;，其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 267eff5fbfae3a42f5b214c3cad648d5dc1f947d
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 65403be58e39772911f0bb97dfaa1101d00c0877
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877589"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226066"
 ---
-# <a name="cocofax---sending-fax-made-easy-amp-secure"></a>可可传真 - 发送传真使安全性变得简单&amp;
+# <a name="application-information-for-cocofax"></a>CocoFax 的应用程序信息
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -70,7 +70,7 @@ ms.locfileid: "64877589"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否对应用执行年度渗透测试？ | 否 |
-| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 可访问 |
+| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 是 |
 | 环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ |  |
 | 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ |  |
@@ -103,7 +103,7 @@ ms.locfileid: "64877589"
 | 最新的 SOC1 认证日期 | 2021-06-04 |
 | 应用是否符合服务组织控制 (SOC 2) ？ | 是 |
 | 最新的 SOC2 认证日期 | 2021-06-04 |
-| 应用是否符合服务组织控制 (SOC 3) ？ | 可访问 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 是 |
 | 最新的 SOC3 认证日期 | 2021-06-04 |
 | 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 是 |
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |

@@ -1,21 +1,21 @@
 ---
-title: SalesTim 的 SalesTim 应用程序信息
+title: SalesTim 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: SalesTim 的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: SalesTim 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 912f828c405178b056c50b261e408617e239f540
-ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
+ms.openlocfilehash: 9fce7871fc306b19170cddb2d1524ef7a82a01f4
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "64627254"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65222433"
 ---
-# <a name="salestim"></a>SalesTim
+# <a name="application-information-for-salestim-by-salestim"></a>SalesTim by SalesTim 的应用程序信息
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -36,7 +36,7 @@ SalesTim 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | SalesTim |
 | 合作伙伴网站的 URL | [https://salestim.com](https://salestim.com) |
 | 隐私策略的 URL | [https://www.salestim.com/legal/privacy/](https://www.salestim.com/legal/privacy/) |
-| 使用条款 URL | [https://www.salestim.com/legal/tos/](https://www.salestim.com/legal/tos/) |
+| 使用条款的 URL | [https://www.salestim.com/legal/tos/](https://www.salestim.com/legal/tos/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -46,52 +46,52 @@ SalesTim 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 SalesTim 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+SalesTim 提供了此信息，了解此应用如何收集和存储组织数据以及组织对应用收集的数据的控制。
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
 
-列出[此Graph所需的](/graph/permissions-reference)任何 Microsoft 权限。
+列出此应用所需的任何 [Microsoft Graph权](/graph/permissions-reference)限。
 
->| **权限**  | **委派/应用程序 (的权限类型)** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
+>| **权限**  | **委托/应用程序)  (权限的类型** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.ReadWrite.All | delegated | 不 | 允许应用在企业应用目录中安装和更新自己的程序包。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Directory.AccessAsUser.All | delegated | 我们&#8217;仅存储一些用户 ID，而不是配置文件数据。 | 允许用户在应用程序内的各个位置选择其他用户，例如选择工作流中的审批者。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Group.ReadWrite.All | delegated | 我们&#8217;存储组/团队的 ID，&#8217;不存储任何组/团队内容。 | 允许应用代表登录用户创建组、读取所有组属性和成员身份。 此外，还允许组所有者管理他们的组并允许组成员更新组内容。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Mail.Send | delegated | 我们将&#8217;此操作的元数据，例如通知日期、收件人 (ID) 请求 ID。 | 允许应用在审批工作流期间发送通知电子邮件，例如。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Sites.ReadWrite.All | delegated | 我们使用一些 Azure 服务来存储数据，尤其是在 Azure 和 Cosmos DB 上 | 允许应用在团队预配 (管理与) 关联的文件和文件夹的驱动器。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| User.Read.All | delegated | 我们&#8217;仅存储一些用户 ID，而不是配置文件数据。 | 允许应用读取任意用户的完整配置文件属性、报表和经理集。 它尤其用于访问群体定位过程，以根据当前用户配置文件筛选某些内容。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| offline_access | delegated | 否 | 允许应用以用户方式执行一些后台操作和操作。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| AppCatalog.ReadWrite.All | 委托 | 不 | 允许应用在公司应用目录中安装和更新其自己的包。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| Directory.AccessAsUser.All | 委托 | 我们&#8217;只存储一些用户 ID，而不是配置文件数据。 | 允许用户在应用程序的不同位置选择其他用户，例如在工作流中选择审批者。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| Group.ReadWrite.All | 委托 | 我们&#8217;只存储组/团队 ID，&#8217;不存储任何组/团队内容。 | 允许应用创建组，代表已登录用户读取所有组属性和成员身份。 此外，还允许组所有者管理他们的组并允许组成员更新组内容。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| Mail.Send | 委托 | 我们&#8217;重新存储此操作的元数据，例如通知日期、仅) 的收件人 (ID、请求 ID。 | 允许应用发送通知电子邮件，例如在审批工作流期间。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| Sites.ReadWrite.All | 委托 | 我们使用一些 Azure 服务来存储数据，尤其是 Azure 上的 Redis 和 Cosmos DB | 允许应用在团队预配过程中管理与团队关联 (文件和文件夹) 驱动器。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| User.Read.All | 委托 | 我们&#8217;只存储一些用户 ID，而不是配置文件数据。 | 允许应用读取任何用户的完整配置文件属性、报表和管理器集。 它特别在受众目标过程中使用，以根据当前用户配置文件筛选某些内容。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| offline_access | 委托 | 否 | 允许应用以用户身份执行一些后台操作和操作。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 
 
-#### <a name="non-microsoft-services-used"></a>非Microsoft 服务已使用
+#### <a name="non-microsoft-services-used"></a>未使用Microsoft 服务
 
-如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输哪些数据，并包括应用需要传输此信息的原因的理由。
+如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输的数据，并包含应用需要传输此信息的原因。
 
->| **所有非Microsoft 服务 OII 将转移到** |  **转移了哪些 OII？** | **转移 OII 的理由？** |
+>| **将所有非Microsoft 服务 OII 传输到** |  **将传输哪些 OII？** | **传输 OII 的理由？** |
 >|:-------------------|:--------------------------|:--------------------------|
->| 我们将 Intercom 用作我们的主要支持应用程序。 Intercom 可能包含一些基本的用户配置文件信息，如下所述： https://developers.salestim.com/platform/datamanagement.html#support-data | 公司名称 | 我们正在使用 GitHub API 从我们的生产环境自动生成问题。 我们还将一些技术日志存储在GitHub (中，如下所述：https://developers.salestim.com/platform/datamanagement.html#error-reporting-data)。 这些问题和日志可能包含一些基本的用户配置文件信息。 这些问题和日志每 15 天自动删除一次。 |
+>| 我们使用 Intercom 作为主要支持应用程序。 Intercom 可能包含一些基本的用户配置文件信息，如下所述： https://developers.salestim.com/platform/datamanagement.html#support-data | 公司名称 | 我们使用GitHub API 从生产环境中自动生成问题。 我们还在GitHub (中存储一些技术日志，如下所述： https://developers.salestim.com/platform/datamanagement.html#error-reporting-data) 这些问题和日志可能包含一些基本的用户配置文件信息。 这些问题和日志每 15 天自动删除一次。 |
 
 
 
 #### <a name="telemetry-data"></a>遥测数据
 
-OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的遥测或日志中？ 如果是，请描述存储哪些数据以及保留和删除策略是什么？
+此应用程序的遥测或日志中是否 (OII) 或最终用户身份信息 (EUII) 显示任何组织可识别信息？ 如果是，请描述存储的数据以及什么是保留和删除策略？
 
->此处描述收集的所有数据： https://developers.salestim.com/platform/datamanagement.html#application-data 如上所述，日志将临时存储 15 天，然后自动删除。
+>此处描述了收集的所有数据： https://developers.salestim.com/platform/datamanagement.html#application-data 如所述，日志暂时存储 15 天，然后自动删除。
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
 
-描述组织的管理员如何控制他们在合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
+介绍组织管理员如何控制合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
 
->大部分数据存储在 Azure Cosmos DB 中。
+>大多数数据存储在 Azure Cosmos DB 中。
 对生产环境的访问仅限于两个人，并且这些管理员帐户是强制执行 MFA 的。
-这些帐户是专用帐户，不同于我们的公司帐户。
-数据在我们使用的所有 Azure 服务中都进行其余加密。
-到生产环境的部署通过我们的生产环境中的专用受保护分支GitHub，只有两个人可以批准更改。
+这些帐户是专用的，不同于我们的公司帐户。
+数据会在我们使用的所有 Azure 服务中进行静态加密。
+通过我们GitHub环境中的专用受保护分支自动部署到生产环境，只有两个人可以批准更改。
 
-#### <a name="human-review-of-organizational-information"></a>组织信息的人工审阅
+#### <a name="human-review-of-organizational-information"></a>组织信息的人工评审
 
-是否涉及人员查看或分析任何组织可识别信息 (OII) 收集或存储的数据？
+人类是否参与查看或分析组织识别信息 (OII) 此应用收集或存储的数据？
 
 >是
 
@@ -101,11 +101,11 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ::: zone pivot="mcas"
 
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
+下面显示了[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
 <iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853' frameborder='no'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853" target="_blank">在新建选项卡中查看</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853" target="_blank">在新选项卡中查看</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -115,25 +115,25 @@ OII (组织) 或 EUII (最终用户可识别) 是否显示在此应用程序的�
 
 ### <a name="identity-information"></a>标识信息
 
-此信息由 SalesTim 提供有关此应用程序如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
+SalesTim 提供了有关此应用如何处理身份验证、授权、应用程序注册最佳做法和其他标识条件的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否与 Microsoft 标识平台 (Azure AD) ？  | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？  | 是 |
-| 你的应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
-| 你的应用是否支持条件访问策略？ | 是 |
-| 列出支持的策略类型 | MFA、位置条件 |
-| 应用是否请求方案最小特权权限？ | 是 |
-| 应用的静态注册权限是否准确反映应用将动态和增量请求的权限？ | 是 |
+| 是否与 Microsoft 标识平台 (Azure AD) 集成？  | 是 |
+| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？  | 是 |
+| 应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
+| 应用是否支持条件访问策略？ | 是 |
+| 列出支持的策略类型 | MFA，位置条件 |
+| 你的应用是否请求方案的最低特权权限？ | 是 |
+| 应用的静态注册权限是否准确反映应用将以动态和增量方式请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
 | 你的应用是否具有机密客户端？ | 是 |
-| 你是否拥有为应用注册的所有 (统一) URI？ | 是 |
-| 对于你的应用，应避免使用什么？ | ,<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/> |
+| 是否拥有注册应用的所有重定向统一资源标识符 (URI) ？ | 是 |
+| 对于你的应用，你避免使用什么？ | ,<br/>- OAuth2 隐式Flow，除非 SPA 需要<br/> |
 | 你的应用是否公开任何 Web API？ | 是 |
-| 您的权限模型是否仅在客户端应用程序收到正确同意时才允许呼叫成功？ | 是 |
-| 你的应用是否使用预览 API？ | 否 |
-| 你的应用是否使用已弃用 API？ | 否 |
+| 权限模型是否仅允许在客户端应用收到适当同意时调用成功？ | 是 |
+| 应用是否使用预览 API？ | 否 |
+| 你的应用是否使用已弃用的 API？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

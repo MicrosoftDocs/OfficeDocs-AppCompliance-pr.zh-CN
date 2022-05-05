@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: ENA SmartUC 连接器的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3f2f49283d559d7d1392339969884fb50ba2a777
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 35216e57d20e4893f3d349809568c89df0b60032
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64876399"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226156"
 ---
 # <a name="ena-smartuc-connector"></a>ENA SmartUC Connector
 
@@ -57,9 +57,9 @@ ENA 提供了此信息，了解此应用如何收集和存储组织数据，以�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 可访问 |
+| 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 是 |
 | 应用会处理哪些数据？ | 以下 EUII/OII 可通过 MCT 代理传输到 CommPortal JSON API：IP 地址、调用用户的电话号码、密码、CommPortal 身份验证令牌、CommPortal 会话 ID、呼叫方在拨打电话时的电话号码、电子邮件地址的域。 |
-| 应用是否支持 TLS 1.1 或更高版本？ | 可访问 |
+| 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -72,25 +72,25 @@ ENA 提供了此信息，了解此应用如何收集和存储组织数据，以�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否对应用执行年度渗透测试？ | 否 |
-| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 否 |
+| 是否对应用执行年度渗透测试？ | 不支持 |
+| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 不支持 |
 | 环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware |
-| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 可访问 |
+| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 是 |
 | 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 是 |
-| 是否根据修补策略 SLA 执行修补程序管理活动？ | 可访问 |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 环境是否有不受支持的操作系统或软件？ | 否 |
-| 是否对应用以及支持它的构造进行季度漏洞扫描？ | 可访问 |
-| 外部网络边界上是否安装了防火墙？ | 可访问 |
-| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 可访问 |
+| 是否对应用以及支持它的构造进行季度漏洞扫描？ | 是 |
+| 外部网络边界上是否安装了防火墙？ | 是 |
+| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 是 |
 | 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
 | 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 否 |
 | 启用了多重身份验证 (MFA) ： | CodeRepositories、DNSManagement |
-| 是否已建立预配、修改和删除员工帐户的过程？ | 可访问 |
+| 是否已建立预配、修改和删除员工帐户的过程？ | 是 |
 | 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 否 |
-| 是否在支持应用的所有系统组件上设置了事件日志记录？ | 可访问 |
+| 是否在支持应用的所有系统组件上设置了事件日志记录？ | 是 |
 | 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 否 |
-| 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 否 |
-| 是否建立了正式的信息安全风险管理流程？ | 可访问 |
+| 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 不支持 |
+| 是否建立了正式的信息安全风险管理流程？ | 是 |
 | 是否已记录并建立了正式的安全事件响应流程？ | 是 |
 | 是否在检测后 72 小时内向受违规影响的监管机构和个人报告应用或服务数据泄露？ | 是 |
 
@@ -103,10 +103,10 @@ ENA 提供了此信息，了解此应用如何收集和存储组织数据，以�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 否 |
-| 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 否 |
-| 应用是否符合服务组织控制 (SOC 1) ？ | 否 |
-| 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
-| 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
+| 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 不支持 |
+| 应用是否符合服务组织控制 (SOC 1) ？ | 不支持 |
+| 应用是否符合服务组织控制 (SOC 2) ？ | 不支持 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 不支持 |
 | 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 否 |
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
@@ -116,8 +116,8 @@ ENA 提供了此信息，了解此应用如何收集和存储组织数据，以�
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不适用 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 否 |
-| 应用是否符合 NIST 800-171？ | 否 |
-| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 否 |
+| 应用是否符合 NIST 800-171？ | 不支持 |
+| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 不支持 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -138,25 +138,25 @@ ENA 提供了此信息，了解此应用如何收集和存储组织数据，以�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
-| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 否 |
-| 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 可访问 |
+| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 不支持 |
+| 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
-| 应用是否支持条件访问策略？ | 否 |
-| 应用是否支持持续访问评估 (CAE)  | 否 |
-| 应用是否在代码中存储任何凭据？ | 可访问 |
+| 应用是否支持条件访问策略？ | 不支持 |
+| 应用是否支持持续访问评估 (CAE)  | 不支持 |
+| 应用是否在代码中存储任何凭据？ | 是 |
 | Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 是 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.Read.All | 委托 | 当前频道/聊天成员的用户 ID 和显示名称。 应用使用此功能向用户显示要调用的频道/聊天成员列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| Chat.ReadBasic | 委托 | 当前聊天成员的用户 ID 和显示名称。 应用使用此功能向用户显示要调用的聊天成员列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| People.Read.All | 委托 | 当前团队成员的用户 ID 和显示名称。 应用使用此功能向用户显示要调用的团队成员列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| User.Read.All | 委托 | 用户的业务和移动电话号码。 这是必需的，以便可以启动对这些号码的电话呼叫。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| offline_access | 委托 | 用户的授权令牌，授权应用访问代表其列出的其他图形 API终结点。 Microsoft Identity 平台应用程序需要这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| openid | 委托 | 用户的授权令牌，授权应用访问代表其列出的其他图形 API终结点。 Microsoft Identity 平台应用程序需要这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| 个人资料 | 委托 | 用户的授权令牌，授权应用访问代表其列出的其他图形 API终结点。 Microsoft Identity 平台应用程序需要这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| ChannelMember.Read.All | 委托 | 当前频道/聊天成员的用户 ID 和显示名称。 应用使用此功能向用户显示要调用的频道/聊天成员列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| Chat.ReadBasic | 委托 | 当前聊天成员的用户 ID 和显示名称。 应用使用此功能向用户显示要调用的聊天成员列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| People.Read.All | 委托 | 当前团队成员的用户 ID 和显示名称。 应用使用此功能向用户显示要调用的团队成员列表。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| User.Read.All | 委托 | 用户的业务和移动电话号码。 这是必需的，以便可以启动对这些号码的电话呼叫。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| offline_access | 委托 | 用户的授权令牌，授权应用访问代表其列出的其他图形 API终结点。 Microsoft Identity 平台应用程序需要这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| openid | 委托 | 用户的授权令牌，授权应用访问代表其列出的其他图形 API终结点。 Microsoft Identity 平台应用程序需要这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| 个人资料 | 委托 | 用户的授权令牌，授权应用访问代表其列出的其他图形 API终结点。 Microsoft Identity 平台应用程序需要这些访问权限才能正常工作。 | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
 
 >此应用程序没有其他 API。
 

@@ -1,5 +1,5 @@
 ---
-title: Adobe Acrobat Sign for Microsoft Word 的应用程序信息，由 Adobe Inc PowerPoint。
+title: Adobe Acrobat Sign for Microsoft Word 和 PowerPoint 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,15 +9,14 @@ ms.service: attestation
 certification_type: certified
 description: Adobe Acrobat Sign for Microsoft Word 和PowerPoint的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: bcb36c352c4471916541b9316849754b08038108
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 3ff675211ffe7ae2430d1869e7c346c8b3edd3bf
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64879129"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226096"
 ---
-# <a name="adobe-acrobat-sign-for-microsoft-word-and-powerpoint"></a>Adobe Acrobat Sign for Microsoft Word 和 PowerPoint
-
+# <a name="application-information-for-adobe-acrobat-sign"></a>Adobe Acrobat Sign 的应用程序信息
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>开发人员上次更新时间：2021 年 10 月 28 日</p>
 
@@ -58,7 +57,7 @@ Adobe Inc. 提供了此信息，了解此应用如何收集和存储组织数据
 | 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 是 |
 | 应用会处理哪些数据？ |  |
 | 应用是否支持 TLS 1.1 或更高版本？ |  |
-| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 可访问 |
+| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ |  |
 | 如果基础结构处理或存储 Microsoft 客户数据，则此数据在地理上存储在哪里？ |  |
 | 是否已建立数据出租和处置流程？ |  |
@@ -106,16 +105,16 @@ Adobe Inc. 提供了此信息，了解此应用如何收集和存储组织数据
 |:----------------|:-------------|
 | 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 是 |
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 否 |
-| 应用是否符合服务组织控制 (SOC 1) ？ | 否 |
+| 应用是否符合服务组织控制 (SOC 1) ？ | 不支持 |
 | 应用是否符合服务组织控制 (SOC 2) ？ | 是 |
 | 最新的 SOC2 认证日期 | 2020-11-24 |
-| 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 不支持 |
 | 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 是 |
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
-| 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 可访问 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 是 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 是 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 否 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
@@ -130,7 +129,7 @@ Adobe Inc. 提供了此信息，了解此应用如何收集和存储组织数据
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 可访问 |
+| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 是 |
 | 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ |  |
 | 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ |  |
 | 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ |  |
@@ -153,8 +152,8 @@ Adobe Inc. 提供了此信息，了解此应用如何收集和存储组织数据
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 否 |
 | 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
-| 应用是否支持条件访问策略？ | 否 |
-| 你的应用是否请求方案的最低特权权限？ | 可访问 |
+| 应用是否支持条件访问策略？ | 不支持 |
+| 你的应用是否请求方案的最低特权权限？ | 是 |
 | 应用是否支持持续访问评估 (CAE)  |  |
 | 应用是否在代码中存储任何凭据？ |  |
 | Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
