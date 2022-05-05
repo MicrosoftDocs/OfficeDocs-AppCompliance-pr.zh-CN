@@ -1,5 +1,5 @@
 ---
-title: Ataira Power BI协作的应用程序信息
+title: Ataira Power BI协作概述
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: 用于Power BI协作的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 04a86c1ee58ed1a017a3cf70d3ebab87ba4e558c
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: c415de66c2998fed388fa89b334419a9a12ce51e
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64876559"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65227987"
 ---
-# <a name="power-bi-collaboration"></a>Power BI 协作
+# <a name="ataira-power-bi-collaboration-overview"></a>Ataira Power BI协作概述
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -69,7 +69,7 @@ Ataira 提供了此信息，了解此应用如何收集和存储组织数据以�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否对应用执行年度渗透测试？ | 可访问 |
+| 是否对应用执行年度渗透测试？ | 是 |
 | 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 是 |
 | 环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ |  |
@@ -101,13 +101,13 @@ Ataira 提供了此信息，了解此应用如何收集和存储组织数据以�
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否符合服务组织控制 (SOC 1) ？ | 不适用 |
 | 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
-| 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 不支持 |
 | 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不适用 |
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 不支持 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 是 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
@@ -137,11 +137,11 @@ Ataira 提供了此信息，了解此应用如何收集和存储组织数据以�
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
 | 应用是否支持条件访问策略？ | 是 |
-| 列出支持的策略类型 | 多重身份验证仅允许 Intune 注册的设备访问限制用户位置和 IP 范围的特定服务 |
+| 列出支持的策略类型 | 多重身份验证仅允许Intune已注册设备访问限制用户位置和 IP 范围的特定服务 |
 | 你的应用是否请求方案的最低特权权限？ | 是 |
 | 应用是否支持持续访问评估 (CAE)  |  |
 | 应用是否在代码中存储任何凭据？ |  |
-| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 可访问 |
+| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 是 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
 

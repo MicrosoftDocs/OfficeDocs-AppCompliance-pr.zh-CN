@@ -1,5 +1,5 @@
 ---
-title: ELEARNINGFORCE International 提供的 LMS365 应用程序信息
+title: LMS365 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: certified
 description: LMS365 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ce018a56bf416a6fb8656895d215abb341b281bb
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 4af1554cda45b9a87d2e98ba51e96035a7106270
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64878262"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65229116"
 ---
-# <a name="lms365"></a>LMS365
+# <a name="lms365-information"></a>LMS365 信息
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>开发人员上次更新时间：2022 年 4 月 5 日</p>
@@ -100,13 +100,13 @@ ELEARNINGFORCE International 提供了此信息，了解此应用如何收集和
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否符合服务组织控制 (SOC 1) ？ | 不适用 |
 | 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
-| 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
-| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 否 |
-| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 可访问 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 不支持 |
+| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不支持 |
+| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 不支持 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不适用 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
@@ -131,7 +131,7 @@ ELEARNINGFORCE International 提供了此信息，了解此应用如何收集和
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 可访问 |
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 是 |
 | 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |

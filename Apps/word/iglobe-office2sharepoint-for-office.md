@@ -1,5 +1,5 @@
 ---
-title: 适用于 iGlobe Office的 Office2SharePoint 的应用程序信息
+title: 适用于 Office 的 Office2SharePoint 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: certified
 description: 适用于 Office 的 Office2SharePoint 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d7aeb528b3eceb54b0e9404ff02a73b79ecf1531
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: cabeddd7599c486300502ec8ac0ddac4f6faa4b1
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64880839"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65228036"
 ---
-# <a name="office2sharepoint-for-office"></a>Office2SharePoint for Office
+# <a name="application-information-for-office2sharepoint-for-office-by-iglobe"></a>适用于 iGlobe Office的 Office2SharePoint 的应用程序信息
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>开发人员上次更新时间：2021 年 8 月 16 日</p>
@@ -100,11 +100,11 @@ iGlobe 提供了此信息，了解此应用如何收集和存储组织数据，�
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 是 |
 | 应用是否符合服务组织控制 (SOC 1) ？ | 是 |
 | 最新的 SOC1 认证日期 | 2020-11-01 |
-| 应用是否符合服务组织控制 (SOC 2) ？ | 可访问 |
+| 应用是否符合服务组织控制 (SOC 2) ？ | 是 |
 | 最新的 SOC2 认证日期 | 2020-11-01 |
-| 应用是否符合服务组织控制 (SOC 3) ？ | 可访问 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 是 |
 | 最新的 SOC3 认证日期 | 2020-11-01 |
-| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 可访问 |
+| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 是 |
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 是 |
@@ -140,7 +140,7 @@ iGlobe 提供了此信息，了解此应用如何收集和存储组织数据，�
 | 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
 | 应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 安全默认值和任何其他常见策略（如阻止旧式身份验证* 要求管理员使用 MFA* 要求对 Azure 管理使用 MFA* 要求所有用户使用 MFA* |
-| 你的应用是否请求方案的最低特权权限？ | 可访问 |
+| 你的应用是否请求方案的最低特权权限？ | 是 |
 | 应用是否支持持续访问评估 (CAE)  |  |
 | 应用是否在代码中存储任何凭据？ |  |
 | Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 是 |
