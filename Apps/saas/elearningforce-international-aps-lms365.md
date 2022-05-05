@@ -1,25 +1,25 @@
 ---
-title: ELEARNINGFORCE International Aps 提供的 LMS365 应用程序信息
+title: LMS365 概述
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/29/2022
+ms.date: 04/05/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: LMS365 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a90f90521ee769bc32b2d75500a46139b89b3597
-ms.sourcegitcommit: 9f7e69c17034365cafea977da23961d4e934ad9f
+ms.openlocfilehash: 5aeb76840bd35071c203866165ea1a4563159cc5
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64694653"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65228126"
 ---
-# <a name="lms365"></a>LMS365
+# <a name="lms365-overview"></a>LMS365 概述
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2022 年 3 月 28 日</p>
+<p>开发人员上次更新时间：2022 年 4 月 5 日</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/elearningforce.lms365_spfx" target="_blank">在 AppSource 中查看</a>
 
@@ -114,8 +114,8 @@ ELEARNINGFORCE International Aps 提供了此信息，了解此应用如何收�
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 不支持 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不适用 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
@@ -134,9 +134,9 @@ ELEARNINGFORCE International Aps 提供了此信息，了解此应用如何收�
 | 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://lms365.com/privacy/ |
 | 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 否 |
-| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
-| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 否 |
+| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 不支持 |
+| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 不支持 |
+| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 不支持 |
 | 应用是否具有在请求时删除个人个人数据的功能？ | 是 |
 | 应用是否能够在请求时限制或限制个人个人数据的处理？ | 不适用 |
 | 应用是否使个人能够更正或更新其个人数据？ | 不适用 |
@@ -179,3 +179,4 @@ ELEARNINGFORCE International Aps 提供了此信息，了解此应用如何收�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

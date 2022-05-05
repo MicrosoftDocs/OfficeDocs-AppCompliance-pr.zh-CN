@@ -3,17 +3,17 @@ title: Microsoft Word应用安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/18/2022
+ms.date: 05/04/2022
 ms.topic: article
 ms.service: attestation
 description: 所有Microsoft Word应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: cc90ee987ac5f56bca95812b2fb12cb20dd93c0b
-ms.sourcegitcommit: 57d7b0335ec02b7f20a47ec888b4ca39d75bab67
+ms.openlocfilehash: 1c7906cdcd4b92b9adfda6de01bb04a0d46bed30
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910220"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65221093"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word应用安全性和符合性
 
@@ -23,6 +23,7 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Acrobat Sign for Microsoft Word 和 PowerPoint](./adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [AuditBoard 加载项](./auditboard-inc-add-in.md) | Auditboard， Inc. | **✓** |  |
+| [BriefCatch](./briefcatch-llc.md) | BriefCatch LLC | **✓** |  |
 | [Citasion](./citasion-llc.md) | Citasion LLC | **✓** |  |
 | [可可传真 - 发送传真使安全性变得简单&amp;](./cocofax-sending-fax-made-easysecure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |

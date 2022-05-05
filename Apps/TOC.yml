@@ -80,6 +80,8 @@ items:
         href: outlook/codetwo-for-outlook.md
       - name: 通勤
         href: outlook/commuty.md
+      - name: 电子邮件反应器
+        href: outlook/flow-simulation-ltd-email-reactor.md
       - name: Evernote
         href: outlook/evernote.md
       - name: Outlook的印象签名
@@ -127,6 +129,8 @@ items:
     items:
       - name: Adobe Acrobat Sign for Microsoft Word 和 PowerPoint
         href: powerpoint/adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md
+      - name: 中断时间
+        href: powerpoint/flow-simulation-ltd-breaktime.md
       - name: Excel到 Word 文档自动化
         href: powerpoint/analysisplace-excel-to-word-document-automation.md
       - name: Microsoft Word、Excel和PowerPoint的 Foxit PDF 编辑器
@@ -974,8 +978,6 @@ items:
         href: teams/cultify-lda-skoach.md
       - name: SkyPoint Cloud
         href: teams/skypoint-cloud-inc.md
-      - name: Slido
-        href: teams/slido.md
       - name: Smarp
         href: teams/smarp.md
       - name: Smart Connect for Jira
@@ -1223,6 +1225,8 @@ items:
         href: word/adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md
       - name: AuditBoard 加载项
         href: word/auditboard-inc-add-in.md
+      - name: BriefCatch
+        href: word/briefcatch-llc.md
       - name: Citasion
         href: word/citasion-llc.md
       - name: 可可传真 - 发送传真变得简单和安全

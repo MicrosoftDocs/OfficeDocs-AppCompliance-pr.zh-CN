@@ -1,5 +1,5 @@
 ---
-title: Officeatwork |的 Word 应用程序信息按 officeatwork Office的图像选择器
+title: 按 officeatwork Office的图像选择器的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: certified
 description: officeatwork 的所有可用安全性和符合性信息|用于Office的映像选择器、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 057c8ffd2de8993a8dafc6e2df61525c86528bf2
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 324478f763dd08190d728afe7a7005ca26d72b5f
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784391"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65221033"
 ---
-# <a name="word--officeatwork--image-chooser-for-office"></a>Word |officeatwork |Office的图像选择器
+# <a name="application-information-for-officeatwork--image-chooser-for-office"></a>officeatwork | 的应用程序信息Office的图像选择器
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>开发人员上次更新时间：2022 年 1 月 24 日</p>
@@ -31,13 +31,13 @@ Officeatwork 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | officeatwork \| Image Chooser for Office |
+| 应用名称 | officeatwork - Office的图像选择器 |
 | ID | WA200002683 |
 | 支持Office 365客户端 | Excel iPad、Excel 2016 或更高版本的 Mac、Excel 2013 Service Pack 1 或更高版本上Windows、Excel web 版、Word on iPad、Word 2016或更高版本的 Mac、Word web 版、Word 2013 Service Pack 1 或更高版本Windows日，PowerPoint iPad、PowerPoint 2016或更高版本的 Mac、PowerPoint web 版、PowerPoint 2013 Service Pack 1 或更高版本Windows，OneNote web 版 |
 | 合作伙伴公司名称 | officeatwork |
 | 公司的网站 | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | 应用的使用条款 | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| 应用的核心功能 | Image Bank for M365 \| 在 Word、Excel、PowerPoint 和其他应用中访问集中共享的映像 |
+| 应用的核心功能 | Image Bank for M365 - 在 Word、Excel、PowerPoint 和其他应用中访问集中共享的映像 |
 | 公司总部位置 | Switzerland（瑞士） |
 | 应用信息页 | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
@@ -56,7 +56,7 @@ Officeatwork 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 是 |
-| 应用会处理哪些数据？ | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| 应用会处理哪些数据？ | 收集：Microsoft 租户 ID、用户Azure AD对象 ID;数据的处理取决于授予的权限，并发生在客户端。 只有权限和登录流所需的数据由 Officeatwork 控制的临时、无服务器和受信任的 PaaS Azure 服务处理。 |
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
@@ -86,11 +86,11 @@ Officeatwork 提供给 Microsoft 的信息：
 | 是否已建立预配、修改和删除员工帐户的过程？ | 是 |
 | 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 不适用 |
 | 是否在支持应用的所有系统组件上设置了事件日志记录？ | 是 |
-| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 是|
+| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 是 |
 | 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 是 |
 | 是否建立了正式的信息安全风险管理流程？ | 是 |
-| 是否已记录并建立了正式的安全事件响应流程？ |  |
-| 是否在检测后 72 小时内向受违规影响的监管机构和个人报告应用或服务数据泄露？| |
+| 是否已记录并建立了正式的安全事件响应流程？ | 是 |
+| 是否在检测后 72 小时内向受违规影响的监管机构和个人报告应用或服务数据泄露？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,12 +103,8 @@ Officeatwork 提供给 Microsoft 的信息：
 | 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 不适用 |
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否符合服务组织控制 (SOC 1) ？ | 不适用 |
-| 最新的 SOC1 认证日期 |   |
 | 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
-| 你实现了哪个 SOC 2 认证？ | |
-| 最新的 SOC2 认证日期 | |
-| 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
-| 最新的 SOC3 认证日期 | |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 不支持 |
 | 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不适用 |
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
@@ -133,9 +129,9 @@ Officeatwork 提供给 Microsoft 的信息：
 | 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://links.officeatwork.com/officeatwork-privacypolicy |
 | 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 否 |
-| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
-| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 否 |
+| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 不支持 |
+| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 不支持 |
+| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 不支持 |
 | 应用是否具有在请求时删除个人个人数据的功能？ | 是 |
 | 应用是否能够在请求时限制或限制个人个人数据的处理？ | 是 |
 | 应用是否使个人能够更正或更新其个人数据？ | 是 |

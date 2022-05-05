@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Zoho Notebook 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: abe1c4fb7308fb3db0ae594f73e89713b7d66362
-ms.sourcegitcommit: fb02bf852b775f9114966cfbf158197149ec95a2
+ms.openlocfilehash: 771b6e3d00dfe74b33699c584f79e18ad9aa8f58
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64770049"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65221044"
 ---
 # <a name="zoho-notebook"></a>Zoho Notebook
 
@@ -54,6 +54,43 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 
 Zoho Corporation Private Limited 提供了此信息，了解此应用如何收集和存储组织数据以及组织对应用收集的数据的控制。
 
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
+
+列出此应用所需的任何 [Microsoft Graph权](/graph/permissions-reference)限。
+
+>此应用程序不使用 Microsoft Graph。
+
+
+#### <a name="non-microsoft-services-used"></a>未使用Microsoft 服务
+
+如果应用与非 Microsoft 服务传输或共享组织数据，请列出应用使用的非 Microsoft 服务、传输的数据，并包含应用需要传输此信息的原因。
+
+>不使用非Microsoft 服务。
+
+#### <a name="data-access-via-bots"></a>通过机器人进行数据访问
+
+如果此应用包含机器人或消息传递扩展，则它可以访问最终用户身份信息 (EUII) ：名册 (名字、姓氏、显示名称、团队中任何团队成员的电子邮件地址) 或添加到的聊天。 此应用是否利用此功能？
+
+>未访问 EUII。
+
+
+#### <a name="telemetry-data"></a>遥测数据
+
+此应用程序的遥测或日志中是否 (OII) 或最终用户身份信息 (EUII) 显示任何组织可识别信息？ 如果是，请描述存储的数据以及什么是保留和删除策略？
+
+>此应用不收集和存储任何组织数据，包括 EUII 和 OII。
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>合作伙伴存储的数据的组织控制
+
+介绍组织管理员如何控制合作伙伴系统中的信息？例如删除、保留、审核、存档、最终用户策略等。
+
+>使用此应用获取的所有数据都安全地存储在 Zoho Notebook 服务器中。 所有数据都是 EAR。 因此，除了用户之外，没有人能看到数据。
+
+#### <a name="human-review-of-organizational-information"></a>组织信息的人工评审
+
+人类是否参与查看或分析组织识别信息 (OII) 此应用收集或存储的数据？
+
+>否
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 是 |
@@ -75,29 +112,32 @@ Zoho Corporation Private Limited 提供了此信息，了解此应用如何收�
 
 下面显示了[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
-| **Information** | **响应** |
+<iframe height='1020' title='Microsoft Cloud App Security信息' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/21298' frameborder='no'></iframe>在新的 
+| **tabInformation** | **响应** |
 |:----------------|:-------------|
-| 是否对应用执行年度渗透测试？ | 是 |
-| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 是 |
-| 环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
-| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 是 |
-| 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 是 |
-| 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
-| 环境是否有不受支持的操作系统或软件？ | 否 |
-| 是否对应用以及支持它的构造进行季度漏洞扫描？ | 是 |
-| 外部网络边界上是否安装了防火墙？ | 是 |
-| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 是 |
-| 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
-| 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 是 |
+| 
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/21298" target="_blank">中查看</a>你是否对应用执行年度渗透测试？ | 是的 |
+| ，应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 是的 |
+| ，你的环境是否使用传统的反恶意软件保护或应用程序控件？ | 传统AntiMalware、ApplicationControls |
+| 是否具有一个用于缩进和风险排名安全漏洞的既定过程？ | 是的 |
+| ，你有一个策略来管理服务级别协议 (SLA) 来应用修补程序？ | 是的 |
+| ，是否根据修补策略 SLA 执行修补程序管理活动？ | 是的 |
+| ，环境是否有不受支持的操作系统或软件？ | 否 |
+| ，是否对应用以及支持它的构造进行季度漏洞扫描？ | 是的 |
+| ，外部网络边界上是否安装了防火墙？ | 是的 |
+| ，你有一个已建立的更改管理流程，用于在更改请求部署到生产环境之前审查和批准更改请求？ | 是的 |
+| ，其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 是的 |
+| ，安全编码做法是否考虑到常见的漏洞类，如 OWASP 前 10 名？ | 是， |
 | 启用了多重身份验证 (MFA) ： | CodeRepositories、DNSManagement、Credential |
-| 是否已建立预配、修改和删除员工帐户的过程？ | 是 |
-| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 是 |
-| 是否在支持应用的所有系统组件上设置了事件日志记录？ | 是 |
-| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 是 |
-| 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 是 |
-| 是否建立了正式的信息安全风险管理流程？ | 是 |
-| 是否已记录并建立了正式的安全事件响应流程？ | 是 |
-| 是否在检测后 72 小时内向受违规影响的监管机构和个人报告应用或服务数据泄露？ | 是 |
+| 是否已建立预配、修改和删除员工帐户的过程？ | 是的 |
+| ，是否在支持应用的网络边界的外围部署了入侵检测和预防 (IDPS) 软件？ | 是的 |
+| ，是否在支持应用的所有系统组件上设置了事件日志记录？ | 是的 |
+| ，是否所有日志都按人工或自动化工具定期查看，以检测潜在的安全事件？ | 是 |
+| 当检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 是的 |
+| ，是否建立了正式的信息安全风险管理流程？ | 是的 |
+| ，是否已记录并建立了正式的安全事件响应流程？ | 是的 |
+| ，是否在检测后 72 小时内向受违规影响的监管机构和个人报告应用或服务数据泄露？ | 是的 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -114,16 +154,16 @@ Zoho Corporation Private Limited 提供了此信息，了解此应用如何收�
 | 你实现了哪个 SOC 2 认证？ | type2 |
 | 最新的 SOC2 认证日期 | 2021-11-30 |
 | 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
-| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 否 |
+| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不支持 |
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
-| 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 否 |
-| 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 否 |
-| 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 否 |
-| 应用是否符合 NIST 800-171？ | 否 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 不支持 |
+| 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不支持 |
+| 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不支持 |
+| 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不支持 |
+| 应用是否符合 NIST 800-171？ | 不支持 |
 | 应用是否已通过云安全联盟 (CSA Star) 认证？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -138,9 +178,9 @@ Zoho Corporation Private Limited 提供了此信息，了解此应用如何收�
 | 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://www.zoho.com/terms.html |
 | 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 否 |
-| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
-| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 否 |
+| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 不支持 |
+| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 不支持 |
+| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 不支持 |
 | 应用是否具有在请求时删除个人个人数据的功能？ | 是 |
 | 应用是否能够在请求时限制或限制个人个人数据的处理？ | 否 |
 | 应用是否使个人能够更正或更新其个人数据？ | 是 |
@@ -162,7 +202,7 @@ Zoho Corporation Private Limited 提供了此信息，了解此应用如何收�
 | 列出支持的策略类型 | 多重身份验证，要求特定应用程序使用组织管理的设备，阻止有风险的登录行为，限制对管理角色以外的人员的访问权限  |
 | 应用是否支持持续访问评估 (CAE)  | 是 |
 | 应用是否在代码中存储任何凭据？ | 否 |
-| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
+| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 不支持 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
 

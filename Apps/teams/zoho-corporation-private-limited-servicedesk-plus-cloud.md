@@ -1,5 +1,5 @@
 ---
-title: Zoho Corporation Private Limited 针对 ServiceDesk Plus 云的应用程序信息
+title: Zoho Corporation Private Limited 的 ServiceDesk Plus Cloud 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,14 +7,14 @@ ms.date: 03/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: ServiceDesk Plus 云的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security应用程序目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: ServiceDesk Plus Cloud 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f0d450a5aed6f38dd2083c094a9280241c8b9545
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 898415dd204cb716593d96e569db29fdebdc69ea
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63549540"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65221064"
 ---
 # <a name="servicedesk-plus-cloud"></a>ServiceDesk Plus Cloud
 
@@ -22,7 +22,7 @@ ms.locfileid: "63549540"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>开发人员上次更新时间：2021 年 10 月 20 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/04fdcea1-3511-499c-966d-099d59aef45f" target="_blank">在应用商店Teams视图</a>
+* <a href="https://teams.microsoft.com/l/app/04fdcea1-3511-499c-966d-099d59aef45f" target="_blank">Teams存储区中的视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000037" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
@@ -34,14 +34,14 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用名称 | ServiceDesk Plus Cloud |
-| ID | WA200000037 |
-| Office 365客户端 | Microsoft Teams |
+| ID | WA2000000037 |
+| 支持Office 365客户端 | Microsoft Teams |
 | 合作伙伴公司名称 | Zoho Corporation Private Limited |
-| 公司网站 | [https://www.manageengine.com/products/service-desk](https://www.manageengine.com/products/service-desk) |
+| 公司的网站 | [https://www.manageengine.com/products/service-desk](https://www.manageengine.com/products/service-desk) |
 | 应用的使用条款 | [https://ondemand.manageengine.com/terms.html](https://ondemand.manageengine.com/terms.html) |
-| 应用的核心功能 | ServiceDesk Plus 是 SaaS IT 技术支持管理软件。 IT 服务管理具有大量功能，可帮助 IT 经理有效地组织组织内部技术支持操作。 默认情况下，ServiceDesk Plus (云) 与 Azure AD。 To get started， sign up for ServiceDesk Plus (Cloud) using an account in your instance of Azure AD. |
-| 公司总部位置 | 美国 |
-| 应用信息页面 | [https://help.sdpondemand.com/servicedeskplus_cloud_for_teams](https://help.sdpondemand.com/servicedeskplus_cloud_for_teams) |
+| 应用的核心功能 | ServiceDesk Plus 是一种 SaaS IT 技术支持台管理软件。 借助大量 IT 服务管理功能，它可帮助 IT 管理员在组织内有效地组织技术支持人员操作。 默认情况下，ServiceDesk Plus (云) 适用于Azure AD。 若要开始，请使用Azure AD实例中的帐户注册 ServiceDesk Plus (Cloud) 。 |
+| 公司总部位置 | 美国美国 |
+| 应用信息页 | [https://help.sdpondemand.com/servicedeskplus_cloud_for_teams](https://help.sdpondemand.com/servicedeskplus_cloud_for_teams) |
 | 用于运行应用的托管环境或服务模型是什么？ | IsvHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -52,21 +52,20 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-此信息由 Zoho Corporation Private Limited 提供，用于了解此应用程序如何收集和存储组织数据，以及您的组织将拥有对应用收集的数据的控制。
+Zoho Corporation Private Limited 提供了此信息，了解此应用如何收集和存储组织数据以及组织对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用或基础基础结构是否处理与 Microsoft 客户或他们的设备相关的任何数据？ | 是 |
-| 你的应用将处理哪些数据？ | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 是 |
+| 应用会处理哪些数据？ | 配置文件数据，个人对话 Webhook。 |
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
-| 应用或基础基础结构是否存储任何 Microsoft 客户数据？ | 是 |
+| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | 用户 ID、用户名、电子邮件地址 |
-| 如果基础结构处理或存储 Microsoft 客户数据，那么此数据在地理位置上存储在哪里？ | 美国 |
-| 你是否已制定数据租用和处置流程？ | 是 |
-| 帐户终止后，数据将保留多久？ | 少于 90 天 |
-| 您是否已建立数据访问管理流程？ | 是 |
-| 您是否将客户数据或客户内容传输给第三方或下级处理者？ | 否 |
-| 你是否与你共享 Microsoft 客户数据的任何第三方服务都签订数据共享协议？ |  |
+| 如果基础结构处理或存储 Microsoft 客户数据，则此数据在地理上存储在哪里？ | 美国美国 |
+| 是否已建立数据出租和处置流程？ | 是 |
+| 帐户终止后数据保留多长时间？ | 小于 90 天 |
+| 是否已建立数据访问管理过程？ | 是 |
+| 是否将客户数据或客户内容传输到第三方或子处理器？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -74,31 +73,31 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 
 ::: zone pivot="security"
 
-下面将显示[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
+下面显示了[Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)目录中的信息。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对应用执行年度渗透测试？ | 是 |
-| 应用是否具有已记录灾难恢复计划，包括备份和还原策略？ | 是 |
-| 您的环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
-| 您是否已制定缩进和风险分级安全漏洞的流程？ | 是 |
-| 您是否具有管理服务级别协议的策略， (SLA) 修补程序？ | 是 |
+| 是否对应用执行年度渗透测试？ | 是 |
+| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 是 |
+| 环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
+| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 是 |
+| 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
-| 你的环境是否具有任何不受支持的操作系统或软件？ | 否 |
-| 你是否对应用和支持它的内结构进行季度漏洞扫描？ | 是 |
+| 环境是否有不受支持的操作系统或软件？ | 否 |
+| 是否对应用以及支持它的构造进行季度漏洞扫描？ | 是 |
 | 外部网络边界上是否安装了防火墙？ | 是 |
-| 您是否已建立变更管理流程，用于在将更改请求部署到生产环境之前审阅和批准更改请求？ | 是 |
-| 另一个人是否审阅并批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
-| 安全编码实践是否将常见漏洞类（如 OWASP 前 10 强）考虑在内？ | 是 |
-| 启用了 MFA (多重) 身份验证： | CodeRepositories、DNSManagement、Credential |
-| 您是否已制定设置、修改和删除员工帐户的流程？ | 是 |
-| 你是否在支持你的应用的网络 (外围) 部署了入侵检测和防护 IDPS 和 IDPS 软件？ | 是 |
-| 你是否在所有支持你的应用的系统组件上设置了事件日志记录？ | 是 |
-| 是否由人工或自动化工具定期审阅所有日志，以检测潜在安全事件？ | 是|
-| 当检测到安全事件时，是否会自动将警报发送给员工进行会审？ | 是 |
+| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 是 |
+| 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
+| 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 是 |
+| 启用了多重身份验证 (MFA) ： | CodeRepositories、DNSManagement、Credential |
+| 是否已建立预配、修改和删除员工帐户的过程？ | 是 |
+| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 是 |
+| 是否在支持应用的所有系统组件上设置了事件日志记录？ | 是 |
+| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 是 |
+| 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 是 |
 | 是否建立了正式的信息安全风险管理流程？ | 是 |
-| 您是否已记录并建立了正式的安全事件响应流程？ |  |
-| 您是否在检测 72 小时内向受泄露影响的监管机构和个人报告应用或服务数据泄露？| |
+| 是否已记录并建立了正式的安全事件响应流程？ | 是 |
+| 是否在检测后 72 小时内向受违规影响的监管机构和个人报告应用或服务数据泄露？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -108,26 +107,24 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 该应用是否遵守 HIPAA (的健康保险可移植) ？ | 是 |
-| 应用是否遵守运行状况信息信任联盟、HITRUST CSF (安全框架) ？ | 否 |
-| 应用是否遵守 SOC 1 (服务组织) ？ | 否 |
-| 最新 SOC1 认证日期 |   |
-| 应用是否遵守 SOC 2 (服务组织) ？ | 是 |
-| 你获得哪种 SOC 2 认证？ |  type2 |
-| 最新 SOC2 认证日期 |  2021-11-30 |
-| 应用是否遵守 SOC 3 (服务组织) ？ | 否 |
-| 最新 SOC3 认证日期 | |
-| 您是否针对应用程序及其支持环境执行 PCI DSS 年度评估？ | 否 |
-| 应用程序国际标准化组织 (ISO 27001) 认证？ | 是 |
+| 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 是 |
+| 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 否 |
+| 应用是否符合服务组织控制 (SOC 1) ？ | 否 |
+| 应用是否符合服务组织控制 (SOC 2) ？ | 是 |
+| 你实现了哪个 SOC 2 认证？ | type2 |
+| 最新的 SOC2 认证日期 | 2021-11-30 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
+| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 否 |
+| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| FedRAMP 应用程序联邦风险和授权管理 (是否符合) 要求？ | 否 |
-| 应用是否遵守 FERPA (家庭教育) ？ | 否 |
-| 该应用是否遵守 COPPA (《儿童在线隐私保护) ？ | 否 |
-| 应用是否符合 SOX Sarbanes-Oxley的 () ？ | 否 |
-| 应用是否符合 NIST 800-171？ | 否 |
-| 该应用已通过云安全联盟 (CSA Star) 认证？ | 是 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 不支持 |
+| 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不支持 |
+| 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不支持 |
+| 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不支持 |
+| 应用是否符合 NIST 800-171？ | 不支持 |
+| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -137,17 +134,17 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 你是否对 GDPR 或其他隐私或数据保护要求或 (如 CCPA) ？ | 是 |
-| 应用是否具有面向外部的隐私声明，描述了它如何收集、使用、共享和存储客户数据？ | 是 |
+| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 是 |
+| 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://www.zoho.com/terms.html |
-| 应用是否执行自动决策制定，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否出于次要目的处理客户数据，如 (、分析或) ？ | 否 |
-| 你是否处理特殊类别的敏感数据 (即种族或族裔、政治观点、宗教或宗教宗教、基因或生物识别数据、健康数据) 或受违反通知法限制的数据类别？ | 否 |
-| 应用是否收集或处理未成年人（ (16 岁以下的儿童）的数据) ？ | 否 |
-| 应用是否具有根据请求删除个人个人数据的功能？ | 是 |
-| 应用是否具有根据请求限制或限制个人个人数据处理的功能？ | 否 |
-| 该应用是否向个人提供更正或更新其个人数据的能力？ | 是 |
-| 是否定期执行数据安全和隐私 (例如，数据保护影响评估或隐私风险评估) 以确定与应用个人数据处理相关的风险？ | 是 |
+| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
+| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 不支持 |
+| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 不支持 |
+| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 不支持 |
+| 应用是否具有在请求时删除个人个人数据的功能？ | 是 |
+| 应用是否能够在请求时限制或限制个人个人数据的处理？ | 否 |
+| 应用是否使个人能够更正或更新其个人数据？ | 是 |
+| 是否定期执行数据安全和隐私评审 (例如，数据保护影响评估或隐私风险评估) ，以确定与处理应用的个人数据相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -157,22 +154,22 @@ Zoho Corporation Private Limited 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 单一登录、API 访问等集成？ | 是 |
-| 您是否已审阅并遵循了 Microsoft 标识平台 集成清单中列出的所有适用最佳做法？ | 是 |
-| 你的应用是否使用最新版本的 MSAL (Microsoft 身份验证库) Microsoft Identity Web 进行身份验证？ | 是 |
-| 如果你的应用不使用上述库之一，它将使用哪些身份验证库？ |  |
-| 你的应用是否支持条件访问策略？ | 是 |
-| 列出支持的策略类型 | 多重身份验证、要求特定应用程序使用组织管理的设备、阻止有风险的登录行为、限制向除管理角色外的其他人员提供的访问权限  |
-| 你的应用是否支持 CAE (连续访问)  | 是 |
-| 你的应用是否将任何凭据存储在代码中？ | 否 |
-| 适用于应用的应用和外接程序Microsoft 365 Microsoft 应用程序外部的其他 Microsoft GRAPH。 您的应用程序或外接程序是否使用其他 Microsoft API？ | 否 |
+| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
+| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
+| 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 是 |
+| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
+| 应用是否支持条件访问策略？ | 是 |
+| 列出支持的策略类型 | 多重身份验证，要求特定应用程序使用组织管理的设备，阻止有风险的登录行为，限制对管理角色以外的人员的访问权限  |
+| 应用是否支持持续访问评估 (CAE)  | 是 |
+| 应用是否在代码中存储任何凭据？ | 不支持 |
+| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 不支持 |
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
 
 >|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | 登录并读取用户个人资料 | [127e5be9-da2c-4335-a284-da367379428a](../azure/127e5be9-da2c-4335-a284-da367379428a.md) |
->| offline_access | delegated | 保留对已授予其访问权限的数据的访问权限 | [127e5be9-da2c-4335-a284-da367379428a](../azure/127e5be9-da2c-4335-a284-da367379428a.md) |
+>| User.Read | 委托 | 登录并读取用户个人资料 | [127e5be9-da2c-4335-a284-da367379428a](/microsoft-365-app-certification/azure/39cb9f28-b9d0-4bf7-a4f4-d9e38508a0db) |
+>| offline_access | 委托 | 保留对已授予其访问权限的数据的访问权限 | [127e5be9-da2c-4335-a284-da367379428a](/microsoft-365-app-certification/azure/39cb9f28-b9d0-4bf7-a4f4-d9e38508a0db) |
 
 >此应用程序没有其他 API。
 
