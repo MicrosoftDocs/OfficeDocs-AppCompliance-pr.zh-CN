@@ -3,17 +3,17 @@ title: Microsoft Word应用安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/04/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.service: attestation
 description: 所有Microsoft Word应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: 1c7906cdcd4b92b9adfda6de01bb04a0d46bed30
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 27a17e36d470c95cdf38786fafaaa06c352c3098
+ms.sourcegitcommit: 5a5b683ad499649b57c2c0400f231ba92efa8ed5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65221093"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "65269892"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word应用安全性和符合性
 
@@ -27,6 +27,7 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 | [Citasion](./citasion-llc.md) | Citasion LLC | **✓** |  |
 | [可可传真 - 发送传真使安全性变得简单&amp;](./cocofax-sending-fax-made-easysecure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
+| [文档草稿器](./green-meadow-aps-document-drafter.md) | 绿色草地 ApS | **✓** |  |
 | [Excel到 Word 文档自动化](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [Fabasoft Cloud Office加载项](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
 | [Microsoft Word、Excel和PowerPoint的 Foxit PDF 编辑器](./foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md) | Foxit Software Inc. | **✓** |  |
