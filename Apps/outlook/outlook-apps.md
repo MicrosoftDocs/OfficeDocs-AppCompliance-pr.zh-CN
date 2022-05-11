@@ -3,17 +3,17 @@ title: Microsoft Outlook应用安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/04/2022
+ms.date: 05/10/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Outlook应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: b15ff360a647450e51e701740eef566523442232
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 150a248def762691047a13127f28dff9378f239b
+ms.sourcegitcommit: 0c3ca169e16a6825888669d1e8ea14f66db725bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65228156"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65305638"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Microsoft Outlook应用安全性和符合性
 
@@ -27,6 +27,7 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 | [CI-Signature](./ci-solution-gmbh-signature.md) | ci 解决方案 GmbH | **✓** |  |
 | [CodeTwo for Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [通勤](./commuty.md) | 通勤 | **✓** |  |
+| [发电机](./dynamo-software.md) | Dynamo Software | **✓** |  |
 | [电子邮件反应器](./flow-simulation-ltd-email-reactor.md) | Flow模拟有限公司 | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [Outlook的印象签名](./impression-signatures-for-outlook.md) | 印象签名 | **✓** |  |
