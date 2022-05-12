@@ -3,17 +3,17 @@ title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/10/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: bb9dfcdbdc1da94f767084c560b7f0a0f3287ce2
-ms.sourcegitcommit: 0c3ca169e16a6825888669d1e8ea14f66db725bf
+ms.openlocfilehash: f3d39ae22dea3b9df50a4aeaf7409422c5e50ea0
+ms.sourcegitcommit: 07b2885ce41c10ee8dc55adfd86c8c9b90c99011
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/11/2022
-ms.locfileid: "65308408"
+ms.locfileid: "65359457"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -148,6 +148,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [勤奋的 Boards](./diligent-boards.md) | 勤奋的 | **✓** |  |
 | [通讯组列表专业版](./witivio-distribution-lists-pro.md) | Witivio | **✓** |  |
 | [do!book CB](./digital-office-inc-do!book-cb.md) | Digital Office Inc. | **✓** |  |
+| [文档起草者](./green-meadow-aps-document-drafter.md) | 绿色草甸 ApS | **✓** |  |
 | [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
 | [DocuSign eSignature](./docusign-inc-esignature.md) | DocuSign， Inc. | **✓** |  |
 | [Dubber 统一的通话记录](./dubber-unified-call-recording.md) | Dubber | **✓** |  |
@@ -188,6 +189,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Fifty](./fifty.md) | Fifty | **✓** |  |
 | [File Fabric](./storage-made-easy-file-fabric.md) | 存储变得简单 | **✓** |  |
 | [文件管理器](./solutions2share-gmbh-file-manager.md) | Solutions2Share GmbH | **✓** |  |
+| [Financial Times](./financial-times.md) | Financial Times | **✓** |  |
 | [Findit](./ctelo-findit.md) | CTELO | **✓** |  |
 | [FinTech Studios](./fintech-studios.md) | FinTech Studios | **✓** |  |
 | [Fireflies AI](./firefliesai-fireflies-ai.md) | Fireflies.ai | **✓** |  |
@@ -205,6 +207,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [gauge.it](./cloud-cover-it-gaugeit.md) | 云覆盖 IT | **✓** |  |
 | [Geekbot](./geekbot-ltd.md) | Geekbot Ltd | **✓** |  |
 | [Gensys](./gensys-solutions-bv.md) | Gensys Solutions BV | **✓** |  |
+| [Genuity](./stratum-networks-genuity.md) | Stratum Networks | **✓** |  |
 | [Gfacility](./gfacility.md) | Gfacility | **✓** |  |
 | [GitHub](./microsoft-corporation-github.md) | Microsoft Corporation | **✓** |  |
 | [Go1](./go1.md) | Go1 | **✓** |  |
@@ -226,7 +229,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [HeyTaco](./heytaco-llc.md) | HeyTaco, LLC | **✓** |  |
 | [hi Digital Coach](./digital-attitude-srl-hi-coach.md) | Digital Attitude Srl | **✓** |  |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  |
-| [HighSide Collaboration](./highside-inc-collaboration.md) | HighSide, Inc | **✓** |  |
+| [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  |
 | [Highspot](./highspot.md) | Highspot | **✓** |  |
 | [HitHorizons](./finstat-sro-hithorizons.md) | FinStat s.r.o. | **✓** |  |
 | [Hive](./hive.md) | Hive | **✓** |  |
@@ -338,7 +341,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Org@Work](./lundano-org@work.md) | Lundano | **✓** |  |
 | [PA PEOPLE](./pa-people.md) | &#26666;&#24335;&#20250;&#31038;PHONE APPLI | **✓** |  |
 | [Package Notifier](./qburst-technologies-pvt-ltd-package-notifier.md) | QBURST TECHNOLOGIES PVT LTD | **✓** |  |
-| [PagerDuty](./pagerduty-inc.md) | PagerDuty， Inc. | **✓** |  |
+| [PagerDuty](./pagerduty.md) | PagerDuty | **✓** |  |
 | [PandaDoc](./pandadoc.md) | PandaDoc | **✓** |  |
 | [Pandos](./pandos-intelligence-inc.md) | Pandos Intelligence Inc | **✓** |  |
 | [Panopto](./panopto.md) | Panopto | **✓** |  |
@@ -375,10 +378,12 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Quire](./potix-corporation-quire.md) | Potix Corporation | **✓** |  |
 | [Quitch](./quitch.md) | Quitch | **✓** |  |
 | [Rafiky](./global-congress-srl-rafiky.md) | GLOBAL CONGRESS SRL | **✓** |  |
+| [摇铃](./rattle.md) | 摇铃 | **✓** |  |
 | [Reach](./livetiles-reach.md) | LiveTiles | **✓** |  |
-| [读取仪表板](./read-ai-inc-dashboard.md) | Read AI, Inc. | **✓** |  |
+| [读取会议导航程序](./read-ai-inc-meeting-navigator.md) | Read AI, Inc. | **✓** |  |
 | [实时翻译工具](./fairuse-real-time-translator.md) | Fairuse | **✓** |  |
 | [RecognitionNow DM](./bi-worldwide-recognitionnow-dm.md) | BI WORLDWIDE | **✓** |  |
+| [识别](./recognize.md) | 识别 | **✓** |  |
 | [Remind](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
 | [researcHR](./researchr.md) | KBE&#26666;&#24335;&#20250;&#31038; | **✓** |  |
 | [Responsum](./responsum-inc.md) | Responsum Inc. | **✓** |  |
@@ -403,6 +408,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [SIGNL4](./derdack-signl4.md) | Derdack SIGNL4 | **✓** |  |
 | [Simple In/Out](./simply-made-apps-inc-simple-inout.md) | Simply Made Apps, Inc. | **✓** |  |
 | [Sine](./sineco-sine.md) | Sine.co | **✓** |  |
+| [Skedda](./skedda-pty-ltd.md) | Skedda Pty Ltd | **✓** |  |
 | [KillEdEd](./saltflat-limited-skilledhuman.md) | SaltFlat Limited | **✓** |  |
 | [Skillsoft Percipio](./skillsoft-percipio.md) | Skillsoft | **✓** |  |
 | [Skoach](./cultify-lda-skoach.md) | Cultify、Lda | **✓** |  |
@@ -468,13 +474,14 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Tendfor](./tendfor.md) | Tendfor | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Text](./approved-contact-text.md) | Approved Contact | **✓** |  |
 | [吸引中心](./captivate-io-ltd-the-hub.md) | Captivate IO Ltd | **✓** |  |
+| [The Mental Move](./the-mental-move-bv.md) | The Mental Move B.V. | **✓** |  |
 | [ThoughtExchange](./thoughtexchange.md) | ThoughtExchange | **✓** |  |
 | [ThoughtWire EWS](./thoughtwire-corp-ews.md) | ThoughtWire 公司 | **✓** |  |
 | [ti8m 位置](./tim-ag-ti8m-places.md) | ti&amp;m AG | **✓** |  |
-| [Ticketing](./kitameraki-limited-ticketing.md) | kitameraki limited | **✓** |  |
+| [票证即服务](./kitameraki-limited-ticketing-as-a-service.md) | kitameraki limited | **✓** |  |
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  |
 | [TimeClock 365](./softsale-timeclock-365.md) | Softsale | **✓** |  |
-| [timeghost - 时间跟踪](./kollisch-gmbh-timeghost-time-tracking.md) | K&#246;llisch GmbH | **✓** |  |
+| [timeghost - 时间跟踪](./timeghostio-timeghost-time-tracking.md) | timeghost.io | **✓** |  |
 | [Timeneye](./dm-digital-srl-timeneye.md) | DM 数字 SRL | **✓** |  |
 | [Totara](./totara-learning.md) | Totara Learning | **✓** |  |
 | [touchSMS](./edgility-touchsms.md) | Edgility | **✓** |  |
@@ -524,7 +531,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [YAROOMS](./yarooms.md) | YAROOMS | **✓** |  |
 | [yuccaHR](./yucca-technologies-gmbh-yuccahr.md) | Yucca Technologies GmbH | **✓** |  |
 | [Zero Time Bot](./replicon-zero-time-bot.md) | Replicon | **✓** |  |
-| [Zignals](./alight-zignals.md) | Alight | **✓** |  |
+| [Zignals](./alight-consulting-gmbh-zignals.md) | Alight Consulting GmbH | **✓** |  |
 | [Zoho Desk](./zoho-corporation-private-limited-desk.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho Notebook](./zoho-corporation-private-limited-notebook.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho Sign](./zoho-corporation-private-limited-sign.md) | Zoho Corporation Private Limited | **✓** |  |
