@@ -3,17 +3,17 @@ title: Microsoft Outlook应用安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/13/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Outlook应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: 9a1c96597460585f3f79bd41ee15c10bd91f8a90
-ms.sourcegitcommit: 28e4529834823fb61620dc9ac5b33eeddaca67a1
+ms.openlocfilehash: d5c06c88c4170ef21e7edd190863e7f53830f69d
+ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "65413468"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65475536"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Microsoft Outlook应用安全性和符合性
 
@@ -28,6 +28,7 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 | [CI-Signature](./ci-solution-gmbh-signature.md) | ci 解决方案 GmbH | **✓** |  |
 | [CodeTwo for Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [通勤](./commuty.md) | 通勤 | **✓** |  |
+| [DocuSign for Outlook](./docusign-inc-for-outlook.md) | DocuSign， Inc. | **✓** |  |
 | [发电机](./dynamo-software.md) | Dynamo Software | **✓** |  |
 | [电子邮件反应器](./flow-simulation-ltd-email-reactor.md) | Flow模拟有限公司 | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
