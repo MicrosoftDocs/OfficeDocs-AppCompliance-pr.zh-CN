@@ -3,17 +3,17 @@ title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/17/2022
+ms.date: 05/19/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 5e6dd5458edbd117108f28d2555f9e4a755388e4
-ms.sourcegitcommit: 9fc27c6c7e9683291d85818c07e7be8291c75532
+ms.openlocfilehash: e5d2a66a0965a870d356a980e27baa26155fb51b
+ms.sourcegitcommit: b363fcc87dc5720eaddbe567a857270732ef9e1c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65453536"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "65546585"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -67,6 +67,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Avaamo IT 助手](./avaamo-it-assistant.md) | Avaamo | **✓** |  |
 | [Axelleron](./axelleron.md) | Axelleron | **✓** |  |
 | [Axis](./axis-workshops-ltd.md) | Axis Workshops Ltd | **✓** |  |
+| [B12](./apprentx-b12.md) | Apprentx | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | 决策点 | **✓** |  |
 | [Bed](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
 | [Beekast](./beekast.md) | Beekast | **✓** |  |
@@ -116,7 +117,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [CoffeePals](./coffeepals-technologies-inc.md) | CoffeePals Technologies Inc. | **✓** |  |
 | [Collaboard](./ibv-solutions-collaboard.md) | IBV Solutions | **✓** |  |
 | [Collection Pot](./gifted-to-you-limited-collection-pot.md) | Gifted to You Limited | **✓** |  |
-| [Commander](./nimbella-commander.md) | Nimbella | **✓** |  |
 | [公司导航器](./konica-minolta-it-solutions-company-navigator.md) | Konica Minolta IT Solutions | **✓** |  |
 | [Complish](./cauzey-pty-ltd-complish.md) | Cauzey Pty Ltd | **✓** |  |
 | [Conferences i/o](./conferences-io.md) | Conferences i/o | **✓** |  |
@@ -149,6 +149,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [勤奋的 Boards](./diligent-boards.md) | 勤奋的 | **✓** |  |
 | [通讯组列表专业版](./witivio-distribution-lists-pro.md) | Witivio | **✓** |  |
 | [do!book CB](./digital-office-inc-do!book-cb.md) | Digital Office Inc. | **✓** |  |
+| [DoctorOnline](./nlsql-doctoronline.md) | NLSQL | **✓** |  |
 | [文档起草者](./green-meadow-aps-document-drafter.md) | 绿色草甸 ApS | **✓** |  |
 | [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
 | [DocuSign eSignature](./docusign-inc-esignature.md) | DocuSign， Inc. | **✓** |  |
@@ -426,7 +427,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Sociabble](./sociabble.md) | Sociabble | **✓** |  |
 | [社交宣传](./oktopost-social-advocacy.md) | Oktopost | **✓** |  |
 | [Solo](./teladoc-inc-solo.md) | Teladoc, Inc. | **✓** |  |
-| [Spatial Standup](./high-fidelity-inc-spatial-standup.md) | High Fidelity Inc | **✓** |  |
 | [SQQ](./superquickquestion-sqq.md) | SuperQuickQuestion | **✓** |  |
 | [StaffCircle](./staffcircle.md) | StaffCircle | **✓** |  |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  |
