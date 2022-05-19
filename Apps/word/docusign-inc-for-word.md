@@ -1,5 +1,5 @@
 ---
-title: 由 FinStat s.r.o 提供的 HitHorizons 应用程序信息。
+title: DocuSign for Word by DocuSign 的应用程序信息，Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,43 +7,41 @@ ms.date: 05/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 适用于 HitHorizons 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: DocuSign for Word 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cc57752e30c13456f0fdc4e33eab36f9eb9d7e97
+ms.openlocfilehash: 0e949154c1e3af5a09337d7801fa175539fff506
 ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/18/2022
-ms.locfileid: "65477666"
+ms.locfileid: "65477839"
 ---
-# <a name="hithorizons"></a>HitHorizons
+# <a name="docusign-for-word"></a>DocuSign for Word
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>开发人员上次更新时间：2022 年 5 月 18 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/2b492ea3-0727-4789-90d7-8e2079d46717" target="_blank">Teams存储区中的视图</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001411" target="_blank">在 AppSource 中查看</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104218065" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-FinStat s.r.o 提供的信息。 到 Microsoft：
+DocuSign 公司提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | HitHorizons |
-| ID | WA200001411 |
-| 支持Office 365客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | FinStat s.r.o. |
-| 公司的网站 | [https://www.hithorizons.com](https://www.hithorizons.com) |
-| 应用的使用条款 | [https://www.hithorizons.com/legal/terms-and-conditions](https://www.hithorizons.com/legal/terms-and-conditions) |
-| 应用的核心功能 | 访问来自欧洲及其他地方的超过 7500 万家公司的 HitHorizons 数据库Microsoft Teams |
-| 公司总部位置 | Slovakia（斯洛伐克） |
-| 应用信息页 | [https://www.hithorizons.com/services/microsoft/teams](https://www.hithorizons.com/services/microsoft/teams) |
-| 用于运行应用的托管环境或服务模型是什么？ | Iaas |
-| 应用使用哪些托管云提供商？ | Azure |
+| 应用名称 | DocuSign for Word |
+| ID | WA104218065 |
+| 支持Office 365客户端 | Word 2016或更高版本，Windows、Word 2016或更高版本的 Mac，Word web 版 |
+| 合作伙伴公司名称 | DocuSign， Inc. |
+| 公司的网站 | [https://www.docusign.com](https://www.docusign.com) |
+| 应用的使用条款 | [https://www.docusign.com/company/terms-and-conditions/web](https://www.docusign.com/company/terms-and-conditions/web) |
+| 应用的核心功能 | 使用 DocuSign 快速获取签名或对 Word 文档进行签名 |
+| 公司总部位置 | 美国美国 |
+| 应用信息页 | [https://www.docusign.com/solutions/microsoft/word](https://www.docusign.com/solutions/microsoft/word) |
+| 用于运行应用的托管环境或服务模型是什么？ | IsvHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,7 +51,7 @@ FinStat s.r.o 提供的信息。 到 Microsoft：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-FinStat s.r.o 提供了此信息。 关于此应用如何收集和存储组织数据以及组织对应用收集的数据的控制。
+DocuSign 公司提供了此信息，了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -70,23 +68,24 @@ FinStat s.r.o 提供了此信息。 关于此应用如何收集和存储组织�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否对应用执行年度渗透测试？ | 否 |
-| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 否 |
-| 环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
-| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 否 |
-| 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 否 |
-| 是否根据修补策略 SLA 执行修补程序管理活动？ | 否 |
+| 是否对应用执行年度渗透测试？ | 是 |
+| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 是 |
+| 环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls、TraditionalAntiMalware |
+| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 是 |
+| 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 是 |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 环境是否有不受支持的操作系统或软件？ | 否 |
-| 是否对应用以及支持它的构造进行季度漏洞扫描？ | 否 |
+| 是否对应用以及支持它的构造进行季度漏洞扫描？ | 是 |
 | 外部网络边界上是否安装了防火墙？ | 是 |
 | 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 是 |
 | 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
 | 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 是 |
-| 启用了多重身份验证 (MFA) ： | CodeRepositories、Credential、DNSManagement |
+| 启用了多重身份验证 (MFA) ： | 凭据，DNSManagement |
 | 是否已建立预配、修改和删除员工帐户的过程？ | 是 |
-| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 不适用 |
-| 是否在支持应用的所有系统组件上设置了事件日志记录？ | 否 |
-| 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 是 |
+| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 是 |
+| 是否在支持应用的所有系统组件上设置了事件日志记录？ | 是 |
+| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 是 |
+| 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 否 |
 | 是否建立了正式的信息安全风险管理流程？ | 否 |
 | 是否已记录并建立了正式的安全事件响应流程？ | 否 |
 
@@ -98,7 +97,7 @@ FinStat s.r.o 提供了此信息。 关于此应用如何收集和存储组织�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 不适用 |
+| 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 是 |
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否符合服务组织控制 (SOC 1) ？ | 不适用 |
 | 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
@@ -109,10 +108,10 @@ FinStat s.r.o 提供了此信息。 关于此应用如何收集和存储组织�
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
-| 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
-| 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不适用 |
-| 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
-| 应用是否符合 NIST 800-171？ | 不适用 |
+| 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 否 |
+| 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 否 |
+| 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 否 |
+| 应用是否符合 NIST 800-171？ | 否 |
 | 应用是否已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -123,7 +122,17 @@ FinStat s.r.o 提供了此信息。 关于此应用如何收集和存储组织�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 否 |
+| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 是 |
+| 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 是 |
+| 隐私策略 URL | https://www.docusign.com/company/privacy-policy |
+| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
+| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 否 |
+| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 否 |
+| 应用是否具有在请求时删除个人个人数据的功能？ | 是 |
+| 应用是否能够在请求时限制或限制个人个人数据的处理？ | 是 |
+| 应用是否使个人能够更正或更新其个人数据？ | 是 |
+| 是否定期执行数据安全和隐私评审 (例如，数据保护影响评估或隐私风险评估) ，以确定与处理应用的个人数据相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
