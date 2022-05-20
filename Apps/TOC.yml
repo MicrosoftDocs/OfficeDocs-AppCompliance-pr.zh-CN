@@ -26,6 +26,8 @@ items:
   - name: Microsoft Excel应用
     href: excel/excel-apps.md
     items:
+      - name: AuditBoard 加载项
+        href: excel/auditboard-inc-add-in.md
       - name: B2B 合作伙伴的 Canon EMEA 服务成本计算器
         href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
       - name: 适用于 NetSuite 的 CloudExtend Analytics
@@ -74,8 +76,6 @@ items:
     items:
       - name: Adobe Acrobat Sign for Microsoft Outlook
         href: outlook/adobe-inc-acrobat-sign-for-microsoft-outlook.md
-      - name: Altru 视频
-        href: outlook/altru-videos.md
       - name: 已批准的联系人日历
         href: outlook/approved-contact-calendars.md
       - name: 提升我的邮件
@@ -290,8 +290,6 @@ items:
         href: teams/aster.md
       - name: AtBot
         href: teams/h3-solutions-inc-atbot.md
-      - name: AttendanceBot
-        href: teams/anaek-attendancebot.md
       - name: 助理版
         href: teams/workstreampeople-bv-attendant.md
       - name: 与会者
@@ -370,8 +368,6 @@ items:
         href: teams/yattee-inc-canary.md
       - name: Casedoc 虚拟听觉
         href: teams/casedoc-virtual-hearing.md
-      - name: CatchEm
-        href: teams/chimu-software-catchem.md
       - name: Centrical
         href: teams/biz-effective-centrical.md
       - name: check.it
@@ -498,8 +494,6 @@ items:
         href: teams/expert-systems-ivrasia-coltd-ecbooking.md
       - name: Edgility
         href: teams/edgility.md
-      - name: EdMill
-        href: teams/my-serious-game-edmill.md
       - name: EdPuzzle
         href: teams/edpuzzle.md
       - name: Efecte 服务管理
@@ -626,8 +620,6 @@ items:
         href: teams/guidespark-communicate-cloud.md
       - name: GuineaPig
         href: teams/guineapig-health-technologies-ab.md
-      - name: Guru
-        href: teams/guru-technologies.md
       - name: 运行状况主图
         href: teams/health-hero.md
       - name: Heedify
@@ -756,8 +748,8 @@ items:
         href: teams/lucid-software-lucidspark-whiteboard.md
       - name: LumApps
         href: teams/lumapps.md
-      - name: Lumio by SMART
-        href: teams/smart-technologies-ulc-lumio-by.md
+      - name: Lumio
+        href: teams/smart-technologies-ulc-lumio.md
       - name: Map Pro
         href: teams/witivio-map-pro.md
       - name: 奇迹
@@ -848,8 +840,6 @@ items:
         href: teams/windstream-officesuite.md
       - name: OfficeTogether
         href: teams/officetogether-inc.md
-      - name: Officevibe
-        href: teams/officevibe.md
       - name: Offishall 规划
         href: teams/offishall-planning.md
       - name: OLIVE VLE
@@ -1020,6 +1010,8 @@ items:
         href: teams/smartdraw-software-llc.md
       - name: Smartnotation
         href: teams/smartnotation-bv.md
+      - name: SmartPods
+        href: teams/discourse-analytics-smartpods.md
       - name: SmartWork
         href: teams/smartwork-of-intumit.md
       - name: SmileBack
@@ -1110,8 +1102,6 @@ items:
         href: teams/effency-teamgether.md
       - name: Teamhood
         href: teams/eylean-teamhood.md
-      - name: TeamMate by ChitChattr
-        href: teams/chitchattr-teammate-by.md
       - name: TeamMood
         href: teams/power-up-conseil-teammood.md
       - name: Teams Manager
@@ -1321,8 +1311,6 @@ items:
         href: word/taxyio-gmbh-taxkit-docs.md
       - name: TerMef
         href: word/mondeca-termef.md
-      - name: xLaw - 知识管理系统
-        href: word/evertn-xlaw-knowledge-management-system.md
   - name: SaaS 应用
     href: saas/saas-apps.md
     items:

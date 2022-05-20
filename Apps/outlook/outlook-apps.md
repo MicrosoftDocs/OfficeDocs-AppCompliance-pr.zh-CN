@@ -3,17 +3,17 @@ title: Microsoft Outlook应用安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/18/2022
+ms.date: 05/20/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Outlook应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: d5c06c88c4170ef21e7edd190863e7f53830f69d
-ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
+ms.openlocfilehash: 74c882322198ed13c983f5f38a3e4e28a7ff586b
+ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65475536"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65613439"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Microsoft Outlook应用安全性和符合性
 
@@ -22,7 +22,6 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Acrobat Sign for Microsoft Outlook](./adobe-inc-acrobat-sign-for-microsoft-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Altru 视频](./altru-videos.md) | Altru | **✓** |  |
 | [已批准的联系人日历](./approved-contact-calendars.md) | Approved Contact | **✓** |  |
 | [提升我的邮件](./boost-my-mail.md) | 提升我的邮件 | **✓** |  |
 | [CI-Signature](./ci-solution-gmbh-signature.md) | ci 解决方案 GmbH | **✓** |  |
