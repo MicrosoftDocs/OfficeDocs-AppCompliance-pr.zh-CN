@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 91a6a336a7b8fb2a6a873e06cd01f4de771bf00e
-ms.sourcegitcommit: 44d44584aecd6cfc08b9cd06f47cd4363fb3a812
+ms.openlocfilehash: de21d7b83d211f2ee7d420a10e3971898de908d1
+ms.sourcegitcommit: d72fe5bb3407b6191790530fab8ba3fab320fcd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/19/2022
-ms.locfileid: "65586938"
+ms.locfileid: "65596906"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -375,7 +375,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Project Migrator](./fluentpro-software-corporation-project-migrator.md) | FluentPro Software Corporation | **✓** |  |
 | [Projectplace](./planview-inc-projectplace.md) | Planview, Inc. | **✓** |  |
 | [Prowd](./prowd.md) | Prowd | **✓** |  |
-| [Q](./moduleq-q.md) | ModuleQ | **✓** |  |
+| [Q](./moduleq-q.md) | ModuleQ | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [qbo](./unscrambl-qbo.md) | Unscrambl | **✓** |  |
 | [qChange Leader Experience](./qchange-software-solution-inc-leader-experience.md) | qChange Software Solution, Inc. | **✓** |  |
 | [Qooper](./cognata-technologies-llc-qooper.md) | COGNATA TECHNOLOGIES, LLC | **✓** |  |
