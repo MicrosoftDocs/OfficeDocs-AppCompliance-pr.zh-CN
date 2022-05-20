@@ -8,12 +8,12 @@ ms.service: certification
 ms.topic: how-to
 ms.date: 04/13/2022
 ms.custom: template-how-to
-ms.openlocfilehash: c81ccf3626d6039333f52a487e98233364f7174e
-ms.sourcegitcommit: 785d1c5d829e44e0ad696b85c92be81f549b989e
+ms.openlocfilehash: 6a18e64f3b75f6d197c9867830d0a061ce298584
+ms.sourcegitcommit: 0865622c8abffc11115e56d966729e5318d67ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65433382"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65608796"
 ---
 # <a name="automate-microsoft-365-certification-with-app-compliance-automation-tool-for-microsoft-365"></a>使用适用于Microsoft 365的应用合规性自动化工具自动执行Microsoft 365认证
 
@@ -22,14 +22,17 @@ ms.locfileid: "65433382"
 > [!IMPORTANT]
 > ACAT 目前为专用预览版。 如果要加入专用预览版计划，请 [在此](https://aka.ms/acat/private/signup)处注册。
 
+> [!NOTE]
+> 若要向 ACAT 专用预览版提供反馈，可以从此 [表单](https://aka.ms/acat/feedback)开始。 一旦我们收到消息，ACAT 产品团队将尽快跟进你。 
+
 ## <a name="create-your-first-compliance-report-to-onboard-acat"></a>创建要载入 ACAT 的第一个符合性报告
 
 ACAT 使你能够专注于应用程序的符合性或应用程序 (的特定环境，例如生产、暂存等) 。 它允许创建 **符合性报告** ，可在其中根据应用程序的云基础结构或应用程序的特定环境定义合规性边界。
 
 > [!IMPORTANT]
-> 由于 ACAT 为专用预览版，因此无法直接在 *https://portal.azure.com* 其中搜索。 请使用以下选项启动 ACAT。
+> 由于 ACAT 是专用预览版，因此无法直接在Azure 门户中搜索它。 请注册 [ACAT 专用预览版计划](https://aka.ms/acat/private/signup) ，并从支持团队获取访问权限。
 
-- 在 [Azure 门户](https://portal.azure.com/?microsoft_azure_appcomplianceautomation_assettypeoptions=%7B%22AppComplianceAutomation%22:%7B%22options%22:%22%22%7D%7D&microsoft_azure_marketplace_ItemHideKey=Microsoft_Azure_AppComplianceAutomationHidden)中搜索和启动 ***应用合规性自动化工具以进行Microsoft 365***，或直接使用 [ACAT 的深层链接](https://portal.azure.com/#blade/Microsoft_Azure_AppComplianceAutomation/AcatMenuBlade/overview)启动。
+- 在Azure 门户中搜索并启动 ***应用合规性自动化工具以Microsoft 365***。
 - 从左侧转到 ***“报*** 表”。
 
 :::image type="complex" source="../media/ACAT/getstarted-create-report-inline.png" lightbox="../media/ACAT/getstarted-create-report.png" alt-text="创建符合性报告":::

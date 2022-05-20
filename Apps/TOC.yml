@@ -500,7 +500,7 @@ items:
         href: teams/edgility.md
       - name: EdMill
         href: teams/my-serious-game-edmill.md
-      - name: Edpuzzle
+      - name: EdPuzzle
         href: teams/edpuzzle.md
       - name: Efecte 服务管理
         href: teams/efecte-oyj-service-management.md
@@ -612,8 +612,6 @@ items:
         href: teams/golinks.md
       - name: Good4work
         href: teams/good4work.md
-      - name: GoToConnect
-        href: teams/logmein-inc-gotoconnect.md
       - name: GRATICA
         href: teams/okwave-inc-gratica.md
       - name: Group 通讯簿 - NextSet

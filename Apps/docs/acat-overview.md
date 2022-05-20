@@ -7,18 +7,21 @@ description: 应用合规性自动化工具Microsoft 365概述
 keywords: 应用认证自动化Microsoft 365
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: bd570496ce11bf72270cb18542846140122efb8b
-ms.sourcegitcommit: 3931a0f41e8a6637cd1ce0a7c5273dabf592e475
+ms.openlocfilehash: 5e3fbc062c1887a205a7b99a85a292ad9a64f8d0
+ms.sourcegitcommit: 0865622c8abffc11115e56d966729e5318d67ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65441988"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65608804"
 ---
 # <a name="app-compliance-automation-tool-for-microsoft-365"></a>适用于Microsoft 365的应用合规性自动化工具
 在本文中，你将了解用于Microsoft 365 (ACAT) 的应用合规性自动化工具，以及它如何简化合规性和获得Microsoft 365认证。
 
 > [!IMPORTANT]
 > ACAT 目前为专用预览版。 如果要加入专用预览版计划，请 [在此](https://aka.ms/acat/private/signup)处注册。
+
+> [!NOTE]
+> 若要向 ACAT 专用预览版提供反馈，可以从此 [表单](https://aka.ms/acat/feedback)开始。 一旦我们收到消息，ACAT 产品团队将尽快跟进你。 
 
 ## <a name="what-is-app-compliance-automation-tool-for-microsoft-365"></a>什么是应用合规性自动化工具Microsoft 365
 适用于 Microsoft 365 (ACAT) 的应用合规性自动化工具是 Azure 门户中的一项服务，可帮助简化使用Microsoft 365客户数据并通过合作伙伴中心发布的任何应用的合规性过程。 适用于Microsoft 365的应用合规性自动化工具是一种以应用程序为中心的合规性自动化工具，可帮助你更轻松、更方便地完成Microsoft 365认证。 在专用预览版中，ACAT 可用于在 Azure 上运行的应用。
@@ -57,7 +60,7 @@ ms.locfileid: "65441988"
 - **失败 - 需要其他证据**：检测到 *部分自动化* Microsoft 365认证控制的客户责任失败。
 - **手动控制**：ACAT 不会自动执行任何客户对Microsoft 365认证控制的责任。
 
-### <a name="customer-responsibility"></a>客户责任
+### <a name="customer-responsibility"></a>客户响应
 有一组客户责任与需要满足的每个控件相关联。 它们由你在以下方面保留：数据、终结点、帐户、访问管理等。
 
 ACAT 收集每个客户责任的数据，并返回其评估结果。 它还提供修正操作，这是我们的指南，可帮助你符合Microsoft 365认证标准。
