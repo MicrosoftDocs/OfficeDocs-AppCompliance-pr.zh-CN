@@ -7,12 +7,12 @@ description: 初始文档提交是认证的预评估阶段的一部分。
 keywords: 应用认证团队Microsoft 365安全合规性 m365 初始文档提交
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 23c3cf7a64025bb7269adb35175e8d87bc64224e
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 8cb7ac4711b7399ae24b76794c251e3cae845e94
+ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784501"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65618584"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365证书化 - 初始文档提交指南
 
@@ -125,5 +125,7 @@ Flow关系图，详细说明以下内容：
 
 ![数据流图](../media/Dataflowdiagram.png)
 
+## <a name="external-certifications-soc2-pci-dss-iso27001---optional"></a>外部认证 (SOC2、PCI DSS、ISO27001) - OPTIONAL
 
+如果已获得 SOC2、PCI DSS 或 ISO27001 认证，并且在过去 12 个月内发布了一份报表，而不是包含要认证的应用程序的完整范围和支持环境，则可以在初始文档提交期间提交此报告。 我们将尝试利用它来满足一部分控件，并加快评估。 但是，这不是获取Microsoft 365认证所必需的。 
 

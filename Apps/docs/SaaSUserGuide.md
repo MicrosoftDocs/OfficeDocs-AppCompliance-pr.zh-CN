@@ -7,16 +7,16 @@ description: Microsoft 365应用符合性计划 SaaS 的 ISV 用户指南
 keywords: Microsoft 365应用符合性计划 SaaS 的 ISV 用户指南
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: abb26a45c9dc0d0d91ebd26c06b29644b41b2dfd
-ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
+ms.openlocfilehash: af6561ffb4670269fc4e219f58d069ce3fa20ce9
+ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/10/2022
-ms.locfileid: "64752861"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65618287"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>合作伙伴的Microsoft 365应用合规性计划用户指南 - SaaS
 
-|阶段|标题|
+|阶段|Title|
 |---|---|
 |阶段 1| 发布者证明|
 |阶段 2| Microsoft 365 认证|
@@ -24,6 +24,9 @@ ms.locfileid: "64752861"
 ## <a name="1-overview"></a>1. 概述 
 
 本文档充当合作伙伴的分步用户指南，注册了Microsoft 365应用符合性计划，旨在通过合作伙伴中心门户对其 SaaS 应用进行Publisher证明和认证。
+
+>[!IMPORTANT]
+>本指南仅适用于已由Microsoft 365应用合规性团队批准并列入允许列表的 SaaS 应用。 如果应用未列入允许列表，则无法在合作伙伴中心内继续。 若要将 SaaS 列入允许列表，请联系 appcert@microsoft.com。
 
 ## <a name="2-acronyms--definitions"></a>2. 定义&首字母缩略词
 |首字母缩略词 | 定义 |
@@ -83,7 +86,7 @@ B.  Publisher证明审批
 - 经批准后，合作伙伴可以：
      - 更新并重新提交证明
      - 查看已完成Publisher证明
-     - 启动Microsoft 365认证过程
+     - "开始"菜单Microsoft 365认证过程
         
  ![Publisher证明已完成](../media/UserGuidePhotos/10.png)       
   
@@ -97,7 +100,7 @@ B.  Publisher证明审批
   
 合作伙伴可以通过选中复选框并单击“提交”来开始认证过程
   
-![开始Microsoft 365认证](../media/UserGuidePhotos/13.png) 
+!["开始"菜单 Microsoft 365认证](../media/UserGuidePhotos/13.png) 
   
 **步骤 1**：初始文档提交
 
@@ -160,7 +163,7 @@ Microsoft 365应用符合性计划现在提供年度续订过程。 在此过程
  
 **好处：** 
 
-- 在 AppSource、Office 应用商店、Teams应用商店和各种管理门户中维护认证徽章，使应用与其他应用区分开来。 
+- 在 AppSource、Office Microsoft Store、Teams Microsoft Store 和各种管理门户中维护认证徽章，以便将应用与其他应用区分开来。 
 - 提高客户使用已认证应用的信心。 
 - 帮助 IT 管理员使用更新的认证信息做出明智的决策。
 
@@ -223,7 +226,7 @@ Microsoft 365应用符合性计划现在提供年度续订过程。 在此过程
 
 **认证过期：**
 
-应用的信息需要在到期日期之前续订，才能在 Microsoft 文档上维护应用的认证页面。及时续订还可确保 AppSource 和 Team Store 中应用的持续损坏和图标。
+应用的信息需要在到期日期之前续订，才能在 Microsoft 文档上维护应用的认证页面。及时续订还可确保 AppSource 和 Team Microsoft Store 中应用的持续损坏和图标。
 
 ![认证续订审批](../media/UserGuidePhotos/36.png)
   
