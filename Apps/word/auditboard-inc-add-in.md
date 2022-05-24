@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: AuditBoard 外接程序的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 71829162839f255a9481d7f64333d091ad65b5e1
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 0c69f4cfa2a4d443070ac3eb4f9b9ce1a4869e98
+ms.sourcegitcommit: 92295c3ae2ea6543be22c92e741da0e494ada2b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877599"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65641911"
 ---
 # <a name="auditboard-add-in"></a>AuditBoard 加载项
 
@@ -34,7 +34,7 @@ Auditboard， Inc. 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | AuditBoard 加载项 |
 | ID | WA200003350 |
-| 支持Office 365客户端 | Word 2016或更高版本的 Mac、Word web 版、Word 2013 或更高版本Windows |
+| 支持Office 365客户端 | Excel 2016或更高版本的 Mac、Excel 2013 或更高版本，Windows、Excel web 版、Word 2016或更高版本的 Mac、Word web 版、Word 2013 或更高版本Windows |
 | 合作伙伴公司名称 | Auditboard， Inc. |
 | 公司的网站 | [https://www.auditboard.com](https://www.auditboard.com) |
 | 应用的使用条款 | [https://appsource.microsoft.com](https://appsource.microsoft.com) |
@@ -70,7 +70,7 @@ Auditboard， Inc. 提供了此信息，了解此应用如何收集和存储组�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否对应用执行年度渗透测试？ | 是 |
-| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 可访问 |
+| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 是 |
 | 环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
 | 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ |  |
 | 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ |  |
@@ -100,7 +100,7 @@ Auditboard， Inc. 提供了此信息，了解此应用如何收集和存储组�
 | 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 是 |
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 否 |
 | 应用是否符合服务组织控制 (SOC 1) ？ | 否 |
-| 应用是否符合服务组织控制 (SOC 2) ？ | 可访问 |
+| 应用是否符合服务组织控制 (SOC 2) ？ | 是 |
 | 最新的 SOC2 认证日期 | 2020-12-01 |
 | 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
 | 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不适用 |
@@ -133,10 +133,9 @@ Auditboard， Inc. 提供了此信息，了解此应用如何收集和存储组�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 否 |
+| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 否 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 否 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ |  |
-| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
 | 应用是否支持条件访问策略？ | 否 |
 | 应用是否支持持续访问评估 (CAE)  |  |
 | 应用是否在代码中存储任何凭据？ |  |
