@@ -3,17 +3,17 @@ title: Microsoft Outlook应用安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/20/2022
+ms.date: 05/25/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Outlook应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: 74c882322198ed13c983f5f38a3e4e28a7ff586b
-ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
+ms.openlocfilehash: 7cd0e6f2501b8715757f4d6fbbe214fb42ec18c3
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65613439"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65692227"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Microsoft Outlook应用安全性和符合性
 
@@ -23,6 +23,7 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Acrobat Sign for Microsoft Outlook](./adobe-inc-acrobat-sign-for-microsoft-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [已批准的联系人日历](./approved-contact-calendars.md) | Approved Contact | **✓** |  |
+| [适用于Outlook的应用空间](./appspace-inc-for-outlook.md) | Appspace， Inc | **✓** |  |
 | [提升我的邮件](./boost-my-mail.md) | 提升我的邮件 | **✓** |  |
 | [CI-Signature](./ci-solution-gmbh-signature.md) | ci 解决方案 GmbH | **✓** |  |
 | [CodeTwo for Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
