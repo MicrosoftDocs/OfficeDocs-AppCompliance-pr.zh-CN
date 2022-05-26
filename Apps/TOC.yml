@@ -78,6 +78,8 @@ items:
         href: outlook/adobe-inc-acrobat-sign-for-microsoft-outlook.md
       - name: 已批准的联系人日历
         href: outlook/approved-contact-calendars.md
+      - name: 适用于Outlook的应用空间
+        href: outlook/appspace-inc-for-outlook.md
       - name: 提升我的邮件
         href: outlook/boost-my-mail.md
       - name: CI-Signature
@@ -181,6 +183,8 @@ items:
         href: sharepoint/bizagi-team-webparts.md
       - name: 日历覆盖
         href: sharepoint/cloudwell-calendar-overlay.md
+      - name: 适用于 SharePoint Online 的 DocuSign
+        href: sharepoint/docusign-inc-for-sharepoint-online.md
       - name: 用于SharePoint的 FormMachines 连接器
         href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
       - name: HelloSign for SharePoint
@@ -714,6 +718,8 @@ items:
         href: teams/survivef5-gmbh-kudozza.md
       - name: Kunjani
         href: teams/faceboard-pty-ltd-kunjani.md
+      - name: KURO 门户
+        href: teams/si-net-kuro-portal.md
       - name: Laduma
         href: teams/laduma-ltd.md
       - name: LawToolBox
@@ -868,6 +874,8 @@ items:
         href: teams/panopto.md
       - name: ParkHere Corporate
         href: teams/parkhere-gmbh-corporate.md
+      - name: Pavestep
+        href: teams/pavestep.md
       - name: PayaFy
         href: teams/nimblesoft-inc-payafy.md
       - name: Perdoo
@@ -887,7 +895,7 @@ items:
       - name: Plumm
         href: teams/plumm-health-ltd.md
       - name: POPP 云 VoIP 连接器
-        href: teams/popp-communications-cloud-voip-connector.md
+        href: teams/poppcom-inc-popp-cloud-voip-connector.md
       - name: PostBeyond
         href: teams/postbeyond.md
       - name: Powell Teams
@@ -998,8 +1006,6 @@ items:
         href: teams/skillsoft-percipio.md
       - name: Skoach
         href: teams/cultify-lda-skoach.md
-      - name: SkyPoint Cloud
-        href: teams/skypoint-cloud-inc.md
       - name: Smarp
         href: teams/smarp.md
       - name: Smart Connect for Jira
@@ -1040,6 +1046,8 @@ items:
         href: teams/stealthmail-software-ltd.md
       - name: Stipop 贴纸
         href: teams/stipop-stickers.md
+      - name: 简化
+        href: teams/finative-streamline.md
       - name: Streem
         href: teams/streem.md
       - name: Structural
@@ -1138,6 +1146,8 @@ items:
         href: teams/timeghostio-timeghost-time-tracking.md
       - name: Timeneye
         href: teams/dm-digital-srl-timeneye.md
+      - name: TINYpulse
+        href: teams/tinypulse.md
       - name: Tonkean
         href: teams/tonkean.md
       - name: Totara

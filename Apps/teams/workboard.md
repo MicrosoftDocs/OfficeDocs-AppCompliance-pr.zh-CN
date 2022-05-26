@@ -7,14 +7,14 @@ ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: 工作板的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 查看工作板的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b20a6e58680109d719fca48cf8f2152c9239026a
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: ccf27f1fa0c6db96446fc0fa7afc686fe2a49e20
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222453"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688097"
 ---
 # <a name="application-information-for-workboard"></a>工作板的应用程序信息
 
@@ -55,9 +55,9 @@ ms.locfileid: "65222453"
 
 列出此应用所需的任何 [Microsoft Graph权](/graph/permissions-reference)限。
 
->| **权限**  | **(委派/应用程序) 的权限类型** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
+>| **权限**  | **(委派/应用程序) 的权限类型** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | 委托 | 电子邮件地址和用户 ID。  它用于将用户映射到 WorkBoard 的用户 ID | WorkBoard 仅将用户的标识存储在数据库中 | [User.Read](/microsoft-365-app-certification/azure/User.Read) |
+>| User.Read | 委托 | 电子邮件地址和用户 ID。  它用于将用户映射到 WorkBoard 的用户 ID | WorkBoard 仅将用户的标识存储在其数据库中 | [User.Read](/graph/permissions-reference#user-permissions) |
 
 
 #### <a name="non-microsoft-services-used"></a>未使用Microsoft 服务
@@ -117,7 +117,7 @@ ms.locfileid: "65222453"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否与 Microsoft 标识平台 (Azure AD) 集成？  | 是 |
+| 是否与 Microsoft Identity Platform (Azure AD) 集成？  | 是 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？  | 是 |
 | 应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 否 |
 | 应用是否支持条件访问策略？ | 是 |
@@ -125,7 +125,7 @@ ms.locfileid: "65222453"
 | 你的应用是否请求方案的最低特权权限？ | 是 |
 | 应用的静态注册权限是否准确反映应用将以动态和增量方式请求的权限？ | 是 |
 | 你的应用是否支持多租户？ | 是 |
-| 你的应用是否具有机密客户端？ | 不支持 |
+| 你的应用是否具有机密客户端？ | 否 |
 | 是否拥有注册应用的所有重定向统一资源标识符 (URI) ？ | 是 |
 | 你的应用是否公开任何 Web API？ | 是 |
 | 权限模型是否仅允许在客户端应用收到适当同意时调用成功？ | 是 |

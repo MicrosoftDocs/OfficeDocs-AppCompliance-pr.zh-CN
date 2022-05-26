@@ -1,19 +1,20 @@
 ---
 title: SalesTim 的应用程序信息
 ms.author: elmalova
+manager: tonybal
 author: elenamalova
 ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: SalesTim 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 查看 SalesTim 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9fce7871fc306b19170cddb2d1524ef7a82a01f4
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 9bf1f4057ad73ba33a8ae3ba0ff02c74851cdecf
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222433"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688117"
 ---
 # <a name="application-information-for-salestim-by-salestim"></a>SalesTim by SalesTim 的应用程序信息
 
@@ -34,7 +35,7 @@ SalesTim 提供给 Microsoft 的信息：
 | 应用名称 | SalesTim |
 | ID | salestim.salestim |
 | 合作伙伴公司名称 | SalesTim |
-| 合作伙伴网站的 URL | [https://salestim.com](https://salestim.com) |
+| 合作伙伴网站的 URL | [https://nbold.co/](https://nbold.co/) |
 | 隐私策略的 URL | [https://www.salestim.com/legal/privacy/](https://www.salestim.com/legal/privacy/) |
 | 使用条款的 URL | [https://www.salestim.com/legal/tos/](https://www.salestim.com/legal/tos/) |
 
@@ -52,9 +53,9 @@ SalesTim 提供了此信息，了解此应用如何收集和存储组织数据�
 
 列出此应用所需的任何 [Microsoft Graph权](/graph/permissions-reference)限。
 
->| **权限**  | **委托/应用程序)  (权限的类型** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD应用 ID** |
+>| **权限**  | **委托/应用程序)  (权限的类型** | **是否收集数据？收集它的理由？** | **是否存储数据？存储它的理由？** | **Azure AD 应用 ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.ReadWrite.All | 委托 | 不 | 允许应用在公司应用目录中安装和更新其自己的包。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| AppCatalog.ReadWrite.All | 委托 | 否 | 允许应用在公司应用目录中安装和更新其自己的包。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Directory.AccessAsUser.All | 委托 | 我们&#8217;只存储一些用户 ID，而不是配置文件数据。 | 允许用户在应用程序的不同位置选择其他用户，例如在工作流中选择审批者。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Group.ReadWrite.All | 委托 | 我们&#8217;只存储组/团队 ID，&#8217;不存储任何组/团队内容。 | 允许应用创建组，代表已登录用户读取所有组属性和成员身份。 此外，还允许组所有者管理他们的组并允许组成员更新组内容。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Mail.Send | 委托 | 我们&#8217;重新存储此操作的元数据，例如通知日期、仅) 的收件人 (ID、请求 ID。 | 允许应用发送通知电子邮件，例如在审批工作流期间。 | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
@@ -119,7 +120,7 @@ SalesTim 提供了有关此应用如何处理身份验证、授权、应用程�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否与 Microsoft 标识平台 (Azure AD) 集成？  | 是 |
+| 是否与 Microsoft Identity Platform (Azure AD) 集成？  | 是 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？  | 是 |
 | 应用是否使用 MSAL (Microsoft 身份验证库) 进行身份验证？ | 是 |
 | 应用是否支持条件访问策略？ | 是 |

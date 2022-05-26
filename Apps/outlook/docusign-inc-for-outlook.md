@@ -3,24 +3,24 @@ title: DocuSign for Outlook的应用程序信息， 由 DocuSign， Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/18/2022
+ms.date: 05/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 适用于 Outlook 的 DocuSign 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cafb05155f7df5d228c71a3fc379262684f72aa3
-ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
+ms.openlocfilehash: d942c5f4cf0bfd9665ed13b9538894c11edd142b
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65476287"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688577"
 ---
 # <a name="docusign-for-outlook"></a>DocuSign for Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 5 月 13 日</p>
+<p>开发人员上次更新时间：2022 年 5 月 24 日</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104218067" target="_blank">在 AppSource 中查看</a>
 
@@ -99,20 +99,23 @@ DocuSign 公司提供了此信息，了解此应用如何收集和存储组织�
 |:----------------|:-------------|
 | 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 是 |
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 不适用 |
-| 应用是否符合服务组织控制 (SOC 1) ？ | 不适用 |
-| 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
+| 应用是否符合服务组织控制 (SOC 1) ？ | 是 |
+| 最新的 SOC1 认证日期 | 2021-12-10 |
+| 应用是否符合服务组织控制 (SOC 2) ？ | 是 |
+| 你实现了哪个 SOC 2 认证？ | type2 |
+| 最新的 SOC2 认证日期 | 2021-12-10 |
 | 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
-| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不适用 |
-| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
-| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
+| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 是 |
+| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 是 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 是 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 否 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 否 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 否 |
 | 应用是否符合 NIST 800-171？ | 否 |
-| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 否 |
+| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
