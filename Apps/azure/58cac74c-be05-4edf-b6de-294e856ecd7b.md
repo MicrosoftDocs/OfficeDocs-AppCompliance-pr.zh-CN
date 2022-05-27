@@ -1,5 +1,5 @@
 ---
-title: c36d31a2-8de1-4eb5-9e7d-01da45244c04 的Azure 应用 ID 信息
+title: Azure 应用 58cac74c-be05-4edf-b6de-294e856ecd7b 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,21 +7,21 @@ ms.date: 05/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: c36d31a2-8de1-4eb5-9e7d-01da45244c04 的所有可用安全性和符合性信息。
-ms.openlocfilehash: 93d3dfbff34145d248e7576ddddc7baee701df77
+description: 58cac74c-be05-4edf-b6de-294e856ecd7b 的所有可用安全性和符合性信息。
+ms.openlocfilehash: 487570653c5ffdc556f3928fd51a5bf5de40dd26
 ms.sourcegitcommit: f1a2e22d28ef56ce3f3811febbbf8c7054797a98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/26/2022
-ms.locfileid: "65743166"
+ms.locfileid: "65749364"
 ---
-# <a name="azure-app-id-c36d31a2-8de1-4eb5-9e7d-01da45244c04"></a>Azure 应用 ID：c36d31a2-8de1-4eb5-9e7d-01da45244c04
+# <a name="azure-app-id-58cac74c-be05-4edf-b6de-294e856ecd7b"></a>Azure 应用 ID：58cac74c-be05-4edf-b6de-294e856ecd7b
 
 
 ### <a name="apps-associated-with-this-id"></a>与此 ID 关联的应用：
 | **应用名称** | **认证** | **在 AppSource 中查看** |
 |--------------|---------------|-----------------------|
-| [Project Migrator](../forward/WA200003160.md) |  | [https://appsource.microsoft.com/product/office/WA200003160](https://appsource.microsoft.com/product/office/WA200003160) |
+| [TINYpulse](../forward/WA104381729.md) |  | [https://appsource.microsoft.com/product/office/WA104381729](https://appsource.microsoft.com/product/office/WA104381729) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用符合性状态
 - Publisher证明状态：已完成
