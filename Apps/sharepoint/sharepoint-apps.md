@@ -3,17 +3,17 @@ title: Microsoft SharePoint应用安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/25/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft SharePoint应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: b277edc0ba48acb512169eb9ef7f2cdedb8dbf51
-ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
+ms.openlocfilehash: 1fe7f65bb84632fb0ec1e07e18d46088f69ef4ed
+ms.sourcegitcommit: 9cbff2dbc9762426293b9b094a29e3d2bebc760b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65689647"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818380"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Microsoft SharePoint应用安全性和符合性
 
@@ -21,6 +21,7 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 
 | **应用** | **合作伙伴** | **发布者证明** | **认证** |
 |:--------|:------------|:----------------------:|:-------------:|
+| [4Mata](./cloudignite-llc-4mata.md) | CLOUDIGNITE LLC | **✓** |  |
 | [Adobe Acrobat Sign for Microsoft Office SharePoint Online](./adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [适用于 SharePoint Online 的敏捷任务板](./agile-is-task-board-for-sharepoint-online.md) | Agile-IS | **✓** |  |
 | [ArcGIS for SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri， Inc. | **✓** |  |
