@@ -8,12 +8,12 @@ ms.service: certification
 ms.topic: how-to
 ms.date: 04/13/2022
 ms.custom: template-how-to
-ms.openlocfilehash: 6a18e64f3b75f6d197c9867830d0a061ce298584
-ms.sourcegitcommit: 0865622c8abffc11115e56d966729e5318d67ab9
+ms.openlocfilehash: b708f68ed5717d08b321f02f3ba09989a77fdf17
+ms.sourcegitcommit: e639149031755df8cd50c03341b6507146cc48b0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65608796"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65793019"
 ---
 # <a name="automate-microsoft-365-certification-with-app-compliance-automation-tool-for-microsoft-365"></a>使用适用于Microsoft 365的应用合规性自动化工具自动执行Microsoft 365认证
 
@@ -169,11 +169,15 @@ ACAT 使你能够专注于应用程序的符合性或应用程序 (的特定环�
     - 转到 [Azure 门户](https://portal.azure.com/?microsoft_azure_appcomplianceautomation_assettypeoptions=%7B%22AppComplianceAutomation%22:%7B%22options%22:%22%22%7D%7D)上 **的通知**。
     - 在 **活动日志中选择更多事件** 
     
-    :::image type="complex" source="../media/ACAT/getstarted-troubleshoot-activitylog.png" alt-text="ACAT 通知":::
-        转到活动日志以检查 ACAT 通知。
-    :::image-end:::
     
-    - 正确更改 **Timespan** 以筛选出活动日志中的 ACAT 错误或警告。 
+    
+    - 切换到 **目录活动** 
+    - 正确更改 **Timespan** 并将 **租户资源提供程序** 设置为 *Microsoft.AppComplianceAutomation* ，以筛选出活动日志中的 ACAT 错误或警告。 
+    
+    :::image type="complex" source="../media/ACAT/getstarted-troubleshoot-log-settings.png" alt-text="活动日志":::
+        在活动日志中查找 ACAT 日志。
+    :::image-end:::
+
     - 找出 ACAT 错误或警告，选择以获取详细信息并将详细信息另存为文件。
     
 - 检查订阅是否由 ACAT 正确设置。 
