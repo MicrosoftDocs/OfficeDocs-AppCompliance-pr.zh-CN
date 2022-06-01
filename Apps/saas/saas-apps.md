@@ -3,17 +3,17 @@ title: SaaS 应用安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/29/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: ddd2212052e7e4998442bc41fee6935503d27382
-ms.sourcegitcommit: 4e4e1e4f91f4fab06f3585388784a0da1a963453
+ms.openlocfilehash: 19607b575ae4c5b257415c0d7e373a36c398802b
+ms.sourcegitcommit: 29a4475d630d2f1d0755a6322eb994646322aca1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "65168524"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65804676"
 ---
 # <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和符合性
 
@@ -29,7 +29,7 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 | [CallCabinet Atmos 合规性记录和分析](./callcabinet-corporation-atmos-compliance-recording-and-analytics.md) | CallCabinet Corporation | **✓** |  |
 | [CC4Teams](./cc4all-cc4teams.md) | CC4ALL | **✓** |  |
 | [Classroom.cloud](./netsupport-ltd-classroomcloud.md) | NETSUPPORT LTD. | **✓** |  |
-| [用于Microsoft Office 365的云备份](./avepoint-inc-cloud-backup-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [适用于Microsoft Office 365的云备份](./avepoint-inc-cloud-backup-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [用于Office 365的 CodeTwo 电子邮件签名](./codetwo-email-signatures-for-office-365.md) | CodeTwo | **✓** |  |
 | [Competella Communication Suite](./competella-ab-communication-suite.md) | Competella AB | **✓** |  |
 | [内容选择器](./officeatwork-content-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -57,6 +57,7 @@ Microsoft 与我们的Microsoft 365开发人员合作伙伴合作，提供组织
 | [适用于 MS365 的 Onna Discovery](./onna-discovery-for-ms365.md) | Onna | **✓** |  |
 | [&amp; Microsoft Office 365的策略Insights](./avepoint-inc-policiesinsights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Project Migrator](./fluentpro-software-corporation-project-migrator.md) | FluentPro Software Corporation | **✓** |  |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
 | [幻灯片选择器](./officeatwork-slide-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [storm Cloud Contact Center Teams集成](./content-guru-storm-cloud-contact-center-teams-integration.md) | 内容古鲁 | **✓** |  |
