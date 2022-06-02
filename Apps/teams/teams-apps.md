@@ -3,17 +3,17 @@ title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/26/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: aa5c94559fbdff49b4d8a07b2941ca8dced19486
-ms.sourcegitcommit: f1a2e22d28ef56ce3f3811febbbf8c7054797a98
+ms.openlocfilehash: 735ceb97e8c70dd629418ca1052df3aae29ba9e2
+ms.sourcegitcommit: 29a4475d630d2f1d0755a6322eb994646322aca1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65749036"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65807226"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -146,6 +146,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Digiplein](./educatieve-uitgeversgroep-bv-digiplein.md) | Educatieve Uitgeversgroep B.V. | **✓** |  |
 | [DigitalOps Toolbox](./medalsoft-digitalops-toolbox.md) | Medalsoft | **✓** |  |
 | [勤奋的 Boards](./diligent-boards.md) | 勤奋的 | **✓** |  |
+| [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  |
 | [通讯组列表专业版](./witivio-distribution-lists-pro.md) | Witivio | **✓** |  |
 | [do!book CB](./digital-office-inc-do!book-cb.md) | Digital Office Inc. | **✓** |  |
 | [DoctorOnline](./nlsql-doctoronline.md) | NLSQL | **✓** |  |
@@ -395,6 +396,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [RFPIO 机器人](./rfpio-bot.md) | RFPIO | **✓** |  |
 | [RingCentral](./ringcentral-inc.md) | RingCentral, Inc. | **✓** |  |
 | [RowShare](./rowshare.md) | RowShare | **✓** |  |
+| [Rungway](./rungway.md) | Rungway | **✓** |  |
 | [安全空间](./ecare-vault-inc-safe-spaces.md) | eCare Vault Inc. | **✓** |  |
 | [Sailpoint](./sailpoint-technologies-inc.md) | SailPoint Technologies, Inc. | **✓** |  |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
