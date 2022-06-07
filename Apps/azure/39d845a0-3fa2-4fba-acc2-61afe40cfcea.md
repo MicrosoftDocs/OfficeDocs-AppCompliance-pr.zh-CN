@@ -1,19 +1,19 @@
 ---
-title: Azure 应用 39d845a0-3fa2-4fba-acc2-61afe40cfcea 的 ID 信息
+title: 适用于 39d845a0-3fa2-4fba-acc2-61afe40cfcea 的 Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/02/2022
+ms.date: 06/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 39d845a0-3fa2-4fba-acc2-61afe40cfcea 的所有可用安全性和符合性信息。
-ms.openlocfilehash: ebf2c4902eb03fcb6f7cecf22c6f424caef26e8b
-ms.sourcegitcommit: 4ceff6ef6aa0bae1075da646773b852970bb4049
+ms.openlocfilehash: 4a92d194bdb43f57dfe1d7de88c8af73ce48d8f5
+ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "65869103"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65932159"
 ---
 # <a name="azure-app-id-39d845a0-3fa2-4fba-acc2-61afe40cfcea"></a>Azure 应用 ID：39d845a0-3fa2-4fba-acc2-61afe40cfcea
 
@@ -23,5 +23,5 @@ ms.locfileid: "65869103"
 |--------------|---------------|-----------------------|
 | [使用 Jira 推动工作](../forward/WA200002855.md) |  | [https://appsource.microsoft.com/product/office/WA200002855](https://appsource.microsoft.com/product/office/WA200002855) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365应用符合性状态
-- Publisher证明状态：已完成
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 应用符合性状态
+- 发布者证明状态：已完成
