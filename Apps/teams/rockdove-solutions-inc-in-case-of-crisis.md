@@ -3,24 +3,24 @@ title: RockDove 解决方案公司危机中的应用程序信息。
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/07/2022
+ms.date: 06/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: CSA STAR 注册表中的所有可用安全性和合规性信息、其数据处理策略、Microsoft Cloud App Security 应用目录信息以及安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 95c70c26f32bacabd6721e4b60f2417765a8eea0
-ms.sourcegitcommit: dbf716786f7a3c0b84fa4563e47510e4bd3a2fd0
+ms.openlocfilehash: 2a8c81db5aeda003ad0f71971f0b63a5b5cee460
+ms.sourcegitcommit: 6f2b3870f4d541dcbd5bb8312c05bfc2ea351a77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "65943121"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "65967652"
 ---
 # <a name="in-case-of-crisis"></a>发生危机时
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 6 月 6 日</p>
+<p>开发人员上次更新时间：2022 年 6 月 8 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/cf430644-447e-4572-8467-3892596d05c7" target="_blank">在 Teams 应用商店中查看</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003194" target="_blank">在 AppSource 中查看</a>
@@ -158,7 +158,7 @@ Microsoft [Cloud App Security](https://www.microsoft.com/enterprise-mobility-sec
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 是 |
 | 应用是否支持条件访问策略？ | 否 |
 | 应用是否支持持续访问评估 (CAE)  | 是 |
-| 应用是否在代码中存储任何凭据？ | 是 |
+| 应用是否在代码中存储任何凭据？ | 否 |
 | 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 访问数据
