@@ -3,17 +3,17 @@ title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/08/2022
+ms.date: 06/09/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 8cffaff6fd0c6f0ccdefd98021978d04a5fa6f1c
-ms.sourcegitcommit: 6f2b3870f4d541dcbd5bb8312c05bfc2ea351a77
+ms.openlocfilehash: 56839853edb1d3e89025d2a7107bc4c8e100cf01
+ms.sourcegitcommit: 6e1bedf47a32902e15f956a9492d8f5ec44a9650
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/09/2022
-ms.locfileid: "65968832"
+ms.locfileid: "65978874"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -354,7 +354,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [PayaFy](./nimblesoft-inc-payafy.md) | NimbleSoft Inc. | **✓** |  |
 | [Perdoo](./perdoo-gmbh.md) | Perdoo GmbH | **✓** |  |
 | [Perfect Wiki](./ooo-rd17-perfect-wiki.md) | OOO RD17 | **✓** |  |
-| [Perflo](./perflo.md) | Perflo | **✓** |  |
 | [照片文件管理器](./ichicraft-photo-filer.md) | Ichicraft | **✓** |  |
 | [Pigeonhole Live](./pigeonlab-pte-ltd-pigeonhole-live.md) | PigeonLab Pte Ltd | **✓** |  |
 | [Plandisc](./plandisc.md) | Plandisc | **✓** |  |
