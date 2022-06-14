@@ -1014,6 +1014,8 @@ items:
         href: teams/skillsoft-percipio.md
       - name: Skoach
         href: teams/cultify-lda-skoach.md
+      - name: SkyBoard
+        href: teams/system-analytic-skyboard.md
       - name: Smarp
         href: teams/smarp.md
       - name: Smart Connect for Jira
@@ -1108,8 +1110,6 @@ items:
         href: teams/ls2-innovation-teameo-class-space.md
       - name: Teamflect
         href: teams/grepsi-software-teamflect.md
-      - name: TeamGether
-        href: teams/effency-teamgether.md
       - name: TeamMood
         href: teams/power-up-conseil-teammood.md
       - name: Teams Manager
@@ -1118,7 +1118,7 @@ items:
         href: teams/teamschamp.md
       - name: TeamSticker by Communitio
         href: teams/communitio-corporation-teamsticker-by.md
-      - name: Teamwork
+      - name: 团队合作
         href: teams/teamwork.md
       - name: TELUS Business Connect
         href: teams/ringcentral-inc-telus-business-connect.md
