@@ -3,24 +3,24 @@ title: 适用于 Solo 的应用程序信息（由 Teladoc，Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/03/2022
+ms.date: 06/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 适用于 Solo 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 643a6162d201fb7b41e2bb33dc0268670e59bcc5
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 5b00791610112ea615e763c0504a88334195a0ae
+ms.sourcegitcommit: fd81f2f5b4f627e3d1cabdff7e2caf40fafbe35c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65228986"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66117996"
 ---
 # <a name="solo"></a>Solo
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 10 月 5 日</p>
+<p>开发人员上次更新时间：2022 年 6 月 15 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e" target="_blank">Teams存储区中的视图</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003826" target="_blank">在 AppSource 中查看</a>
@@ -41,7 +41,7 @@ Teladoc， Inc. 提供给 Microsoft 的信息：
 | 应用的使用条款 | [https://www.teladochealth.com/terms-and-conditions/](https://www.teladochealth.com/terms-and-conditions/) |
 | 应用的核心功能 | 包含可配置服务和患者工作流的虚拟护理平台。 |
 | 公司总部位置 | 美国美国 |
-| 应用信息页 | [https://intouchhealth.com/virtual-care-platform/solo/](https://intouchhealth.com/virtual-care-platform/solo/) |
+| 应用信息页 | [https://teladochealth.com/platform/](https://teladochealth.com/platform/) |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
 | 应用使用哪些托管云提供商？ | Azure、Aws |
 
@@ -66,7 +66,7 @@ Teladoc， Inc. 提供了此信息，了解此应用如何收集和存储组织�
 | 是否已建立数据出租和处置流程？ | 是 |
 | 帐户终止后数据保留多长时间？ | 小于 90 天 |
 | 是否已建立数据访问管理过程？ | 是 |
-| 是否将客户数据或客户内容传输到第三方或子处理器？ | 不支持 |
+| 是否将客户数据或客户内容传输到第三方或子处理器？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -117,8 +117,8 @@ Teladoc， Inc. 提供了此信息，了解此应用如何收集和存储组织�
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不适用 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 是 |
@@ -134,15 +134,15 @@ Teladoc， Inc. 提供了此信息，了解此应用如何收集和存储组织�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 是 |
-| 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 不支持 |
-| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 不支持 |
-| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 不支持 |
+| 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 否 |
+| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
+| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 否 |
 | 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 是 |
 | 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 是 |
 | 是否获得父母或法定监护人的同意？ | 是 |
-| 应用是否具有在请求时删除个人个人数据的功能？ | 不支持 |
-| 应用是否能够在请求时限制或限制个人个人数据的处理？ | 不支持 |
-| 应用是否使个人能够更正或更新其个人数据？ | 不支持 |
+| 应用是否具有在请求时删除个人个人数据的功能？ | 否 |
+| 应用是否能够在请求时限制或限制个人个人数据的处理？ | 否 |
+| 应用是否使个人能够更正或更新其个人数据？ | 否 |
 | 是否定期执行数据安全和隐私评审 (例如，数据保护影响评估或隐私风险评估) ，以确定与处理应用的个人数据相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -153,28 +153,27 @@ Teladoc， Inc. 提供了此信息，了解此应用如何收集和存储组织�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
+| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 是 |
-| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
-| 应用是否支持条件访问策略？ | 不支持 |
-| 应用是否支持持续访问评估 (CAE)  | 不支持 |
-| 应用是否在代码中存储任何凭据？ | 不支持 |
-| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 不支持 |
+| 应用是否支持条件访问策略？ | 否 |
+| 应用是否支持持续访问评估 (CAE)  | 否 |
+| 应用是否在代码中存储任何凭据？ | 否 |
+| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD 应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| AppCatalog.Read.All | 委托 | 获取 sidepanel 应用的目录应用 ID 并将其安装在计划的远程医疗约会中 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](/microsoft-365-app-certification/azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| CallRecords.Read.All | 应用程序 | 确保与电话健康约会相关的呼叫的呼叫质量 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](/microsoft-365-app-certification/azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| OnlineMeetings.ReadWrite | 委托 | 安装主机 sidePanel 并将患者加入自定义应用以进行约会 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](/microsoft-365-app-certification/azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| TeamsActivity.Send | 应用程序 | 远程医疗约会的会话信号结束。 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](/microsoft-365-app-certification/azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| User.Read | 委托 | Teams中的应用 SSO | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](/microsoft-365-app-certification/azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| 电子邮件 | 委托 | Teams中的应用 SSO | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](/microsoft-365-app-certification/azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| offline_access | 委托 | Teams中的应用 SSO | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](/microsoft-365-app-certification/azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| openid | 委托 | Teams中的应用 SSO | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](/microsoft-365-app-certification/azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| 个人资料 | 委托 | oid 和 tid 用于在 Solo 帐户和Teams帐户之间进行映射，因此Teams中的医生可以查看他们的远程医疗约会 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](/microsoft-365-app-certification/azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
+>| AppCatalog.Read.All | 委托 | 获取 sidepanel 应用的目录应用 ID 并将其安装在计划的远程医疗约会中 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| CallRecords.Read.All | 应用程序 | 确保与电话健康约会相关的呼叫的呼叫质量 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| OnlineMeetings.ReadWrite | 委托 | 安装主机 sidePanel 并将患者加入自定义应用以进行约会 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| TeamsActivity.Send | 应用程序 | 远程医疗约会的会话信号结束。 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| User.Read | 委托 | Teams中的应用 SSO | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| 电子邮件 | 委托 | Teams中的应用 SSO | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| offline_access | 委托 | Teams中的应用 SSO | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| openid | 委托 | Teams中的应用 SSO | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| 个人资料 | 委托 | oid 和 tid 用于在 Solo 帐户和Teams帐户之间进行映射，因此Teams中的医生可以查看他们的远程医疗约会 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
 
 >此应用程序没有其他 API。
 
