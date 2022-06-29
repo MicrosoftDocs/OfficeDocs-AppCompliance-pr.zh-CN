@@ -3,17 +3,17 @@ title: Microsoft Word Apps 安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/07/2022
+ms.date: 06/27/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Word 应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: 6049f63161765ee4b557952e2385a212b97bd431
-ms.sourcegitcommit: dbf716786f7a3c0b84fa4563e47510e4bd3a2fd0
+ms.openlocfilehash: 01d38371206814af4b2751386055b6d98085e0e3
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "65943135"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66249525"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word Apps 安全性和符合性
 
@@ -25,6 +25,7 @@ Microsoft 与我们的 Microsoft 365 开发人员合作伙伴合作，提供组�
 | [AuditBoard 加载项](./auditboard-inc-add-in.md) | Auditboard， Inc. | **✓** |  |
 | [BriefCatch](./briefcatch-llc.md) | BriefCatch LLC | **✓** |  |
 | [Citasion](./citasion-llc.md) | Citasion LLC | **✓** |  |
+| [子句簿](./leasepilot-clausebook.md) | LeasePilot | **✓** |  |
 | [可可传真 - 发送传真使安全性变得简单&amp;](./cocofax-sending-fax-made-easysecure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
 | [文档起草者](./green-meadow-aps-document-drafter.md) | 绿色草甸 ApS | **✓** |  |

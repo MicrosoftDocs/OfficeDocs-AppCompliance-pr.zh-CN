@@ -3,24 +3,23 @@ title: ModuleQ by ModuleQ 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/15/2022
+ms.date: 06/22/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: ModuleQ 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: dca5037b5e54c4fa570527462a1e3ee3ff97acfb
-ms.sourcegitcommit: 6df79f38ffe390e7339cd6ce5eb32641a9f4c1a9
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 89832adbd15f1e1becac4c7f4b8910ffecbba2c0
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66112985"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66245569"
 ---
 # <a name="moduleq"></a>ModuleQ
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 6 月 1 日</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>开发人员上次更新时间：2022 年 6 月 16 日</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/moduleq.modules-platform" target="_blank">在 AppSource 中查看</a>
 
@@ -157,7 +156,7 @@ ModuleQ 提供了此信息，了解此应用如何收集和存储组织数据，
 | 应用是否支持条件访问策略？ | 否 |
 | 应用是否支持持续访问评估 (CAE)  | 否 |
 | 应用是否在代码中存储任何凭据？ | 否 |
-| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
 
 >此应用程序不使用 Microsoft Graph。
 
@@ -167,3 +166,39 @@ ModuleQ 提供了此信息，了解此应用如何收集和存储组织数据，
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>认证信息
+
+| **Control** | **Microsoft 365 认证结果** |
+|:------------|:---------------------------------------|
+| [**应用程序安全性**](../docs/certification-submission-guide.md#application-security) | **通过** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渗透测试 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞评估评审 (DAST/SAST/渗透测试)  | 在作用域中 |
+| [**操作安全性**](../docs/certification-submission-guide.md#operational-security) | **通过** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 防病毒 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 应用程序控制 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 风险排名 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 修补 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞扫描 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - 防火墙 (或等效技术)  | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - WEB 应用程序防火墙 (WAFs)  (可选)  | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更改控件 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全软件开发/部署 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帐户管理 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入侵检测和预防 (可选)  | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件日志记录 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看 (日志记录数据)  | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件警报 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息安全风险管理 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事件响应 | 在作用域中 |
+| [**数据处理安全 &amp; 隐私**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **通过** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传输中的数据 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;静态数据 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据保留和处置 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据访问管理 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | 在作用域中 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

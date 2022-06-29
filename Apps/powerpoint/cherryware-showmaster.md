@@ -3,24 +3,24 @@ title: Showmaster by cherryware 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 01/27/2022
+ms.date: 06/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 适用于 Showmaster 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9cde99fdf18b018fe2b881c4f60837fa88d8ae66
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: f6c6e1d68e4e0ab5a366ccb98f9d05420fcd044c
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881079"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66248715"
 ---
 # <a name="showmaster"></a>Showmaster
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 1 月 21 日</p>
+<p>开发人员上次更新时间：2022 年 6 月 23 日</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003706" target="_blank">在 AppSource 中查看</a>
 
@@ -34,11 +34,11 @@ ms.locfileid: "64881079"
 |:----------------|:-------------|
 | 应用名称 | Showmaster |
 | ID | WA200003706 |
-| 支持Office 365客户端 | PowerPoint 2016或更高版本的 Mac、PowerPoint web 版、PowerPoint 2016 或更高版本Windows |
+| 支持Office 365客户端 | 在 Windows 上的 Mac、PowerPoint web 版、PowerPoint 2016 或更高版本上PowerPoint 2016或更高版本 |
 | 合作伙伴公司名称 | cherryware |
 | 公司的网站 | [https://www.cherryware.com](https://www.cherryware.com) |
 | 应用的使用条款 | [https://showmaster.app/terms/](https://showmaster.app/terms/) |
-| 应用的核心功能 | Showmaster 是一个PowerPoint加载项，它在等待期间围绕你的谈话创建一个令人兴奋的框架，并打破头条新闻，倒计时，音乐等。 |
+| 应用的核心功能 | Showmaster 是一个 PowerPoint 加载项，它在等待时间和休息期间围绕你的谈话创建一个令人兴奋的框架，标题、倒计时、音乐等。 |
 | 公司总部位置 | 德国 |
 | 应用信息页 | [https://showmaster.app](https://showmaster.app) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
@@ -70,22 +70,22 @@ ms.locfileid: "64881079"
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否对应用执行年度渗透测试？ | 是 |
-| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 可访问 |
+| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 是 |
 | 环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
-| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 可访问 |
+| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 是 |
 | 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 是 |
-| 是否根据修补策略 SLA 执行修补程序管理活动？ | 可访问 |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
 | 环境是否有不受支持的操作系统或软件？ | 否 |
-| 是否对应用以及支持它的构造进行季度漏洞扫描？ | 可访问 |
-| 外部网络边界上是否安装了防火墙？ | 可访问 |
-| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 可访问 |
-| 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 可访问 |
-| 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 可访问 |
+| 是否对应用以及支持它的构造进行季度漏洞扫描？ | 是 |
+| 外部网络边界上是否安装了防火墙？ | 是 |
+| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 是 |
+| 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
+| 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 是 |
 | 启用了多重身份验证 (MFA) ： | CodeRepositories、DNSManagement、Credential |
-| 是否已建立预配、修改和删除员工帐户的过程？ | 可访问 |
+| 是否已建立预配、修改和删除员工帐户的过程？ | 是 |
 | 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 是 |
 | 是否在支持应用的所有系统组件上设置了事件日志记录？ | 是 |
-| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 可访问 |
+| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 是 |
 | 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 是 |
 | 是否建立了正式的信息安全风险管理流程？ | 是 |
 | 是否已记录并建立了正式的安全事件响应流程？ | 是 |
@@ -134,14 +134,13 @@ ms.locfileid: "64881079"
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 否 |
+| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 否 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 否 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ |  |
-| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
 | 应用是否支持条件访问策略？ | 否 |
 | 应用是否支持持续访问评估 (CAE)  | 否 |
 | 应用是否在代码中存储任何凭据？ | 否 |
-| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
 
 >此应用程序不使用 Microsoft Graph。
 
