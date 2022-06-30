@@ -3,24 +3,24 @@ title: Celigo CloudExtend 针对 NetSuite 的 CloudExtend Analytics 的应用程
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/01/2021
+ms.date: 06/17/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 适用于 NetSuite 的 CloudExtend Analytics 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fefe945602f65213700a7d2bc398d113c1de7412
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: f53787c0730fe307ac2d06e142db5036f59d31c4
+ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881099"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66546761"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>适用于 NetSuite 的 CloudExtend Analytics
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 5 月 19 日</p>
+<p>开发人员上次更新时间：2022 年 6 月 7 日</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200002784" target="_blank">在 AppSource 中查看</a>
 
@@ -34,15 +34,15 @@ Celigo CloudExtend 提供给 Microsoft 的信息：
 |:----------------|:-------------|
 | 应用名称 | 适用于 NetSuite 的 CloudExtend Analytics |
 | ID | WA200002784 |
-| 支持Office 365客户端 | Excel 2016或更高版本的 Mac，Excel 2016或更高版本Windows，Excel web 版 |
+| 支持Office 365客户端 | Excel 2016或更高版本的 Mac、Excel 2016或更高版本的 Windows 上，Excel web 版 |
 | 合作伙伴公司名称 | Celigo CloudExtend |
 | 公司的网站 | [https://www.cloudextend.io](https://www.cloudextend.io) |
 | 应用的使用条款 | [https://www.cloudextend.io/agreements/ssa/2019-12/](https://www.cloudextend.io/agreements/ssa/2019-12/) |
 | 应用的核心功能 | 对于 NetSuite 用户，适用于 NetSuite 的 CloudExtend Analytics (CEAN) 将可视化数据，以提供在正确的时间做出正确业务决策所需的所有见解。 CEAN 是一种工具，提供所有必要的工具，提供自定义和控制数据的灵活性，以获取有关 NetSuite 数据的见解。 |
 | 公司总部位置 | 美国美国 |
-| 应用信息页 | |
-| 用于运行应用的托管环境或服务模型是什么？ |  |
-| 应用使用哪些托管云提供商？ | AWS |
+| 应用信息页 | [https://www.cloudextend.io/netsuite/excel-integration/p/ana...](https://www.cloudextend.io/netsuite/excel-integration/p/analytics-for-netsuite/) |
+| 用于运行应用的托管环境或服务模型是什么？ | Paas |
+| 应用使用哪些托管云提供商？ | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,8 +56,10 @@ Celigo CloudExtend 提供了此信息，了解此应用如何收集和存储组�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ |  |
-| 应用或基础结构是否存储任何 Microsoft 客户数据？ |  |
+| 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 是 |
+| 应用会处理哪些数据？ | 用户选择通过我们的应用处理的业务数据。 |
+| 应用是否支持 TLS 1.1 或更高版本？ | 是 |
+| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -70,24 +72,26 @@ Celigo CloudExtend 提供了此信息，了解此应用如何收集和存储组�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 是否对应用执行年度渗透测试？ | 是 |
-| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 可访问 |
-| 环境是否使用传统的反恶意软件保护或应用程序控件？ |  |
-| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ |  |
-| 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ |  |
-| 是否根据修补策略 SLA 执行修补程序管理活动？ |  |
-| 环境是否有不受支持的操作系统或软件？ |  |
-| 是否对应用以及支持它的构造进行季度漏洞扫描？ |  |
-| 外部网络边界上是否安装了防火墙？ |  |
-| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ |  |
-| 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ |  |
-| 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ |  |
-| 启用了多重身份验证 (MFA) ： |  |
-| 是否已建立预配、修改和删除员工帐户的过程？ |  |
-| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ |  |
-| 是否在支持应用的所有系统组件上设置了事件日志记录？ |  |
-| 检测到安全事件时，系统会自动将警报发送给员工进行会审？ |  |
-| 是否建立了正式的信息安全风险管理流程？ |  |
-| 是否已记录并建立了正式的安全事件响应流程？ |  |
+| 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 是 |
+| 环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
+| 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 是 |
+| 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 是 |
+| 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
+| 环境是否有不受支持的操作系统或软件？ | 否 |
+| 是否对应用以及支持它的构造进行季度漏洞扫描？ | 否 |
+| 外部网络边界上是否安装了防火墙？ | 是 |
+| 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 是 |
+| 其他人员是否正在审查和批准原始开发人员提交到生产的所有代码更改请求？ | 是 |
+| 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 是 |
+| 启用了多重身份验证 (MFA) ： | CodeRepositories、DNSManagement、Credential |
+| 是否已建立预配、修改和删除员工帐户的过程？ | 是 |
+| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 是 |
+| 是否在支持应用的所有系统组件上设置了事件日志记录？ | 是 |
+| 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 是 |
+| 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 是 |
+| 是否建立了正式的信息安全风险管理流程？ | 是 |
+| 是否已记录并建立了正式的安全事件响应流程？ | 是 |
+| 是否在检测后 72 小时内向受违规影响的监管机构和个人报告应用或服务数据泄露？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -99,19 +103,20 @@ Celigo CloudExtend 提供了此信息，了解此应用如何收集和存储组�
 |:----------------|:-------------|
 | 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 否 |
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 否 |
-| 应用是否符合服务组织控制 (SOC 1) ？ | 否 |
+| 应用是否符合服务组织控制 (SOC 1) ？ | 是 |
+| 最新的 SOC1 认证日期 | 2022-03-24 |
 | 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
 | 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
-| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 否 |
+| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 无 |
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
-| 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
-| 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不适用 |
-| 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
-| 应用是否符合 NIST 800-171？ |  |
+| 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 是 |
+| 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 无 |
+| 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 无 |
+| 应用是否符合 NIST 800-171？ | 无 |
 | 应用是否已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -122,7 +127,17 @@ Celigo CloudExtend 提供了此信息，了解此应用如何收集和存储组�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ |  |
+| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 是 |
+| 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 是 |
+| 隐私策略 URL | https://www.cloudextend.io/privacy/ |
+| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
+| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 否 |
+| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 否 |
+| 应用是否具有在请求时删除个人个人数据的功能？ | 是 |
+| 应用是否能够在请求时限制或限制个人个人数据的处理？ | 是 |
+| 应用是否使个人能够更正或更新其个人数据？ | 是 |
+| 是否定期执行数据安全和隐私评审 (例如，数据保护影响评估或隐私风险评估) ，以确定与处理应用的个人数据相关的风险？ | 是 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -132,22 +147,22 @@ Celigo CloudExtend 提供了此信息，了解此应用如何收集和存储组�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
+| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 否 |
-| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
+| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ | OAuth 2.0 授权代码流 |
 | 应用是否支持条件访问策略？ | 否 |
-| 你的应用是否请求方案的最低特权权限？ | 是 |
-| 应用是否支持持续访问评估 (CAE)  |  |
-| 应用是否在代码中存储任何凭据？ |  |
-| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
+| 应用是否支持持续访问评估 (CAE)  | 否 |
+| 应用是否在代码中存储任何凭据？ | 否 |
+| 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 访问数据
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|   **图形权限**  | **权限类型** |          **字距调整**          | **Azure AD 应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | 两者 | 读取用户有权获取通过网站共享的工作簿信息的网站集合 | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
->| Files.ReadWrite.All | 两者 | 读取工作簿内容（如表和工作表）并能够将内容写入这些表 | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
+>| Files.ReadWrite.All | 应用程序 | 使用最新数据定期更新 Excel 工作簿 | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
+>| Sites.ReadWrite.All | 应用程序 | 获取有关用户正在处理的 Excel 工作的信息（如果用户位于 SharePoint 位置） | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
+>| offline_access | 委托 | 如果客户未登录，则能够写入 Excel。 这是必需的，因为我们有将数据写入 Excel 表的计划任务 | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
 
 >此应用程序没有其他 API。
 
