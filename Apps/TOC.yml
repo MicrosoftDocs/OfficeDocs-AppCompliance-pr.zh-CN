@@ -230,6 +230,8 @@ items:
         href: teams/365apps-365projects.md
       - name: 8x8
         href: teams/8x8-inc.md
+      - name: Abi
+        href: teams/beroe-abi.md
       - name: absentify
         href: teams/braincore-solutions-absentify.md
       - name: ACV
@@ -244,7 +246,7 @@ items:
         href: teams/appfluence-inc-agenda-boss.md
       - name: Agile Task Board
         href: teams/agile-is-task-board.md
-      - name: 提前
+      - name: ahead
         href: teams/ahead-ag.md
       - name: AI Producer
         href: teams/livearena-technologies-ab-ai-producer.md
@@ -294,7 +296,7 @@ items:
         href: teams/entrup-aster.md
       - name: AtBot
         href: teams/h3-solutions-inc-atbot.md
-      - name: 图谱
+      - name: Atlas
         href: teams/atlassian-inc-atlas.md
       - name: 助理版
         href: teams/workstreampeople-bv-attendant.md
@@ -314,7 +316,7 @@ items:
         href: teams/axis-workshops-ltd.md
       - name: B12
         href: teams/apprentx-b12.md
-      - name: 此处的 Beacapp
+      - name: Beacapp Here
         href: teams/beacapp-inc-here.md
       - name: Beagle
         href: teams/decision-point-beagle.md
@@ -444,7 +446,7 @@ items:
         href: teams/noctilucent-bv-corporatefitnessapp.md
       - name: CSOD Learn
         href: teams/cornerstone-ondemand-csod-learn.md
-      - name: 杜鹃
+      - name: Cuckoo
         href: teams/cuckoo-networks-oy.md
       - name: Cultr Connect
         href: teams/cultr-connect.md
@@ -474,7 +476,7 @@ items:
         href: teams/deeplink-sa-chatbot.md
       - name: 度
         href: teams/degreed.md
-      - name: 延迟发送
+      - name: Delayed Send
         href: teams/appfluence-inc-delayed-send.md
       - name: DELTAoverC
         href: teams/deltaoverc.md
@@ -508,7 +510,7 @@ items:
         href: teams/r2-docuo.md
       - name: DocuSign eSignature
         href: teams/docusign-inc-esignature.md
-      - name: Dost - 非独占语言机器人
+      - name: Dost - 中性语言机器人
         href: teams/ishield-technologies-inc-dost-inclusive-language-bot.md
       - name: Dubber 统一的通话记录
         href: teams/dubber-unified-call-recording.md
@@ -546,6 +548,8 @@ items:
         href: teams/sharepointsapiens-employee-training-management.md
       - name: Empuls
         href: teams/empuls.md
+      - name: EN-UA 字典
+        href: teams/skyline-consulatnts-en-ua-dictionary.md
       - name: ENA SmartUC Connector
         href: teams/ena-smartuc-connector.md
       - name: 载入程序
@@ -576,7 +580,7 @@ items:
         href: teams/factset-research-systems-inc.md
       - name: FastOrg
         href: teams/fastorg.md
-      - name: 馈线
+      - name: Feeder
         href: teams/really-simple-i-stockholm-ab-feeder.md
       - name: Fellow
         href: teams/fellow-insights-inc.md
@@ -612,7 +616,7 @@ items:
         href: teams/enterprise-digital-machines-formmachines.md
       - name: Foxit PDF 编辑器
         href: teams/foxit-software-incorporated-pdf-editor.md
-      - name: 赫米斯的趣味性
+      - name: Funtivity by Hermis
         href: teams/hermis-inc-funtivity-by.md
       - name: Futureworks
         href: teams/futureworks-as.md
@@ -650,7 +654,7 @@ items:
         href: teams/controlex-gmbh-grouplotse.md
       - name: Grow360
         href: teams/grow360.md
-      - name: Grytics 助手
+      - name: Grytics Companion
         href: teams/1339-sas-grytics-companion.md
       - name: Gtmhub
         href: teams/gtmhub.md
@@ -728,6 +732,8 @@ items:
         href: teams/semos-cloud-soultions-jobpts.md
       - name: Joye
         href: teams/joye-pte-ltd.md
+      - name: JustLogin
+        href: teams/justlogin.md
       - name: Kakeai
         href: teams/kakeai.md
       - name: kami
@@ -846,7 +852,7 @@ items:
         href: teams/iglobe-mipa-your-personal-assistant.md
       - name: Miro
         href: teams/miro.md
-      - name: moconavi 联系人
+      - name: moconavi Contacts
         href: teams/moconavi-contacts.md
       - name: monday.com
         href: teams/mondaycom.md
@@ -970,9 +976,9 @@ items:
         href: teams/price-monitor.md
       - name: Priority Matrix
         href: teams/appfluence-inc-priority-matrix.md
-      - name: 优先级矩阵政府
+      - name: Priority Matrix Government
         href: teams/appfluence-inc-priority-matrix-government.md
-      - name: 优先级矩阵 HIPAA
+      - name: Priority Matrix HIPAA
         href: teams/appfluence-inc-priority-matrix-hipaa.md
       - name: PrivyNow
         href: teams/pt-privy-identitas-digital-privynow.md
@@ -1050,7 +1056,7 @@ items:
         href: teams/meaplus-ab-sefos.md
       - name: SelfDrvn
         href: teams/selfdrvn.md
-      - name: Semplisio 电子商务管理器
+      - name: Semplisio e-commerce Manager
         href: teams/hquadro-semplisio-e-commerce-manager.md
       - name: Senso
         href: teams/senso.md
@@ -1096,6 +1102,8 @@ items:
         href: teams/smartsheet.md
       - name: SmartWork
         href: teams/smartwork-of-intumit.md
+      - name: Smy
+        href: teams/supermonday-smy.md
       - name: Sobol
         href: teams/consensys-ags-sobol.md
       - name: Sociabble
@@ -1118,7 +1126,7 @@ items:
         href: teams/starbucks.md
       - name: Startgrid
         href: teams/startgrid.md
-      - name: 状态英雄
+      - name: Status Hero
         href: teams/status-hero-inc.md
       - name: Stipop 贴纸
         href: teams/stipop-stickers.md
@@ -1170,7 +1178,7 @@ items:
         href: teams/taskcall-cloud-services-sl.md
       - name: Taskworld
         href: teams/taskworld.md
-      - name: 今日团队
+      - name: Team Today
         href: teams/team-today-ltd.md
       - name: Teamble
         href: teams/teamble.md
@@ -1218,6 +1226,8 @@ items:
         href: teams/hippo-ed-tech-ltd-tigim-analytics.md
       - name: Tikit
         href: teams/cireson-tikit.md
+      - name: Tikit 虚拟代理
+        href: teams/cireson-tikit-virtual-agent.md
       - name: tiLly
         href: teams/tilly-group-limited.md
       - name: TimeClock 365

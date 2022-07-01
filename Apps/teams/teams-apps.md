@@ -3,17 +3,17 @@ title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/27/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 884023d5c7791a53d31c8b6f630b6c50eb9d24dd
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: 680305771fde79df454820ea087574aad7586dc8
+ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66249515"
+ms.locfileid: "66542341"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -68,6 +68,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Avaamo IT 助手](./avaamo-it-assistant.md) | Avaamo | **✓** |  |
 | [Axis](./axis-workshops-ltd.md) | Axis Workshops Ltd | **✓** |  |
 | [B12](./apprentx-b12.md) | Apprentx | **✓** |  |
+| [Beacapp Here](./beacapp-inc-here.md) | Beacapp Inc. | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | 决策点 | **✓** |  |
 | [Bed](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
 | [浆果](./berryworksai-berry.md) | Berryworks.ai | **✓** |  |
@@ -164,7 +165,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [文档起草者](./green-meadow-aps-document-drafter.md) | 绿色草甸 ApS | **✓** |  |
 | [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
 | [DocuSign eSignature](./docusign-inc-esignature.md) | DocuSign， Inc. | **✓** |  |
-| [Dost - 包容性语言机器人](./ishield-technologies-inc-dost-inclusive-language-bot.md) | ishield Technologies, Inc. | **✓** |  |
+| [Dost - 中性语言机器人](./ishield-technologies-inc-dost-inclusive-language-bot.md) | ishield Technologies, Inc. | **✓** |  |
 | [Dubber 统一的通话记录](./dubber-unified-call-recording.md) | Dubber | **✓** |  |
 | [DZ 通知机器人](./dz-notification-bot.md) | &#36948;&#26131;&#26234;&#36896;&#32929;&#20221;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [EasyLife 365](./easylife-365-ag.md) | EasyLife 365 AG | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -229,6 +230,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Goalhub](./momentum-cloud-pty-ltd-goalhub.md) | 动量云 Pty Ltd | **✓** |  |
 | [GoLinks](./golinks.md) | GoLinks | **✓** |  |
 | [Good4work](./good4work.md) | Good4work | **✓** |  |
+| [Grafana OnCall](./grafana-labs-oncall.md) | Grafana Labs | **✓** |  |
 | [GRATICA](./okwave-inc-gratica.md) | OKWAVE, Inc. | **✓** |  |
 | [Groopit](./groopit.md) | Groopit | **✓** |  |
 | [Group 通讯簿 - NextSet](./nextsetinc-group-address-book-nextset.md) | NextSet,Inc. | **✓** |  |
