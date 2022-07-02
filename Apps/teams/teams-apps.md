@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 680305771fde79df454820ea087574aad7586dc8
-ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
+ms.openlocfilehash: fb5fad9efeb1856f2d827161648f2d3a24f93f8c
+ms.sourcegitcommit: 2ae239376c807fa9223fc7e18daa1feed6e826aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66542341"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564548"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -26,6 +26,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [365-QA](./advantive-365-qa.md) | Advantive | **✓** |  |
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  |
 | [8x8](./8x8-inc.md) | 8x8, Inc | **✓** |  |
+| [Abi](./beroe-abi.md) | Beroe | **✓** |  |
 | [absentify](./braincore-solutions-absentify.md) | BrainCore Solutions | **✓** |  |
 | [ACV](./tangible-it-mexico-acv.md) | Tangible IT Mexico | **✓** |  |
 | [Adobe Acrobat](./adobe-acrobat.md) | Adobe | **✓** |  |
@@ -184,6 +185,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [员工引荐](./recruitday-inc-employee-referrals.md) | Recruitday Inc. | **✓** |  |
 | [员工培训管理](./sharepointsapiens-employee-training-management.md) | SharePoint-Sapiens | **✓** |  |
 | [Empuls](./empuls.md) | Empuls | **✓** |  |
+| [EN-UA 字典](./skyline-consulatnts-en-ua-dictionary.md) | Skyline Consulatnts | **✓** |  |
 | [ENA SmartUC Connector](./ena-smartuc-connector.md) | ENA | **✓** |  |
 | [Enboarder](./enboarder.md) | 载入程序 | **✓** |  |
 | [Engagedly](./engagedly-inc.md) | Engagedly Inc | **✓** |  |
@@ -275,6 +277,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Jira Integration Plus](./nextup-llc-jira-integration-plus.md) | Nextup, LLC | **✓** |  |
 | [JobPts](./semos-cloud-soultions-jobpts.md) | Semos Cloud Soultions | **✓** |  |
 | [Joye](./joye-pte-ltd.md) | Joye Pte Ltd | **✓** |  |
+| [JustLogin](./justlogin.md) | JustLogin | **✓** |  |
 | [Kakeai](./kakeai.md) | KAKEAI | **✓** |  |
 | [Kami](./kami.md) | kami | **✓** |  |
 | [Kanban Tool](./shore-labs-kanban-tool.md) | Shore Labs | **✓** |  |
@@ -400,7 +403,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Priority Matrix HIPAA](./appfluence-inc-priority-matrix-hipaa.md) | Appence Inc | **✓** |  |
 | [PrivyNow](./pt-privy-identitas-digital-privynow.md) | PT Privy Identitas Digital | **✓** |  |
 | [进程街](./process-street.md) | 进程街 | **✓** |  |
-| [Proconnect for Sitecore](./subramanian-ramanathan-proconnect-for-sitecore.md) | Subramanian Ramanathan | **✓** |  |
+| [Proconnect for Sitecore](./subramanian-ramanathan-proconnect-for-sitecore.md) | Subramanian Ramanathan | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Project 见解](./project-insight.md) | Project 见解 | **✓** |  |
 | [Project Migrator](./fluentpro-software-corporation-project-migrator.md) | FluentPro Software Corporation | **✓** |  |
 | [Projectplace](./planview-inc-projectplace.md) | Planview, Inc. | **✓** |  |
@@ -459,6 +462,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [SmartPods](./discourse-analytics-smartpods.md) | Discourse Analytics | **✓** |  |
 | [Smartsheet](./smartsheet.md) | Smartsheet | **✓** |  |
 | [SmartWork](./smartwork-of-intumit.md) | SmartWork of Intumit | **✓** |  |
+| [Smy](./supermonday-smy.md) | Supermonday | **✓** |  |
 | [Sobol](./consensys-ags-sobol.md) | ConsenSys AG&#8217;s Sobol | **✓** |  |
 | [Sociabble](./sociabble.md) | Sociabble | **✓** |  |
 | [社交宣传](./oktopost-social-advocacy.md) | Oktopost | **✓** |  |
@@ -520,6 +524,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [票证即服务](./kitameraki-limited-ticketing-as-a-service.md) | kitameraki limited | **✓** |  |
 | [Tigim Analytics](./hippo-ed-tech-ltd-tigim-analytics.md) | Hippo Ed Tech LTD | **✓** |  |
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  |
+| [Tikit Virtual Agent](./cireson-tikit-virtual-agent.md) | Cireson | **✓** |  |
 | [tiLly](./tilly-group-limited.md) | Tilly Group Limited | **✓** |  |
 | [TimeClock 365](./softsale-timeclock-365.md) | Softsale | **✓** |  |
 | [timeghost - 时间跟踪](./timeghostio-timeghost-time-tracking.md) | timeghost.io | **✓** |  |
