@@ -3,17 +3,17 @@ title: Azure 应用 777d9a9f-feef-48dd-b62d-562ff21aeda2 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/06/2022
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 777d9a9f-feef-48dd-b62d-562ff21aeda2 的所有可用安全性和符合性信息信息。
-ms.openlocfilehash: ed487c2c724e3155076a3214566a948bea842b95
-ms.sourcegitcommit: ab9765f2163fcf2e311e2185c5dd4bd1d9687612
+ms.openlocfilehash: 11cd3775a1a457d7c157e5c18bfc78a769ac34fa
+ms.sourcegitcommit: b752351d112ecc2ea7f539d200e6638a6a3034e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/07/2022
-ms.locfileid: "66661371"
+ms.locfileid: "66679637"
 ---
 # <a name="azure-app-id-777d9a9f-feef-48dd-b62d-562ff21aeda2"></a>Azure 应用 ID：777d9a9f-feef-48dd-b62d-562ff21aeda2
 
