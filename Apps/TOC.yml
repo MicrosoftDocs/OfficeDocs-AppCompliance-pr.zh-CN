@@ -306,6 +306,8 @@ items:
         href: teams/h3-solutions-inc-atbot.md
       - name: Atlas
         href: teams/atlassian-inc-atlas.md
+      - name: AttendanceBot
+        href: teams/anaek-attendancebot.md
       - name: 助理版
         href: teams/workstreampeople-bv-attendant.md
       - name: 与会者
@@ -454,7 +456,7 @@ items:
         href: teams/cor-global-ltd.md
       - name: CorporateFitness.app
         href: teams/noctilucent-bv-corporatefitnessapp.md
-      - name: Creately
+      - name: 创建
         href: teams/creately.md
       - name: CSOD Learn
         href: teams/cornerstone-ondemand-csod-learn.md
@@ -544,7 +546,7 @@ items:
         href: teams/edgility.md
       - name: EdPuzzle
         href: teams/edpuzzle.md
-      - name: EducationHUB Lesmateriaal
+      - name: EducationHUB Emateriaal
         href: teams/smartersoft-bv-educationhub-lesmateriaal.md
       - name: Efecte 服务管理
         href: teams/efecte-oyj-service-management.md
@@ -638,7 +640,7 @@ items:
         href: teams/tritium-software-sl-forcemanager-crm.md
       - name: FormMachines
         href: teams/enterprise-digital-machines-formmachines.md
-      - name: Forza Boards
+      - name: Forza 板
         href: teams/toolpack-solutions-forza-board.md
       - name: Foxit PDF 编辑器
         href: teams/foxit-software-incorporated-pdf-editor.md
@@ -740,7 +742,7 @@ items:
         href: teams/rockdove-solutions-inc-in-case-of-crisis.md
       - name: InCaseIT
         href: teams/pilotech-as-incaseit.md
-      - name: Indeqa 董事会会议
+      - name: Indeqa Board Meetings
         href: teams/easy2meet-bv-indeqa-board-meetings.md
       - name: Infor Coleman
         href: teams/infor-us-inc-coleman.md
@@ -854,6 +856,8 @@ items:
         href: teams/aivision-products-srl-meetgeek.md
       - name: Meety
         href: teams/operalogica-srl-meety.md
+      - name: 融水
+        href: teams/meltwater.md
       - name: Mentimeter
         href: teams/mentimeter.md
       - name: 消息提醒程序
@@ -1002,7 +1006,7 @@ items:
         href: teams/plumm-health-ltd.md
       - name: Poimapper
         href: teams/pajat-solutions-oy-poimapper.md
-      - name: polumana 旅游路线规划器
+      - name: Polumana Tour Route Planner
         href: teams/blue-zone-gmbh-polumana-tour-route-planner.md
       - name: POPP 云 VoIP 连接器
         href: teams/poppcom-inc-popp-cloud-voip-connector.md
@@ -1212,7 +1216,7 @@ items:
         href: teams/maskott-tactileo.md
       - name: TagMyFav
         href: teams/avishkaram-technologies-pvt-ltd-tagmyfav.md
-      - name: 定制的会谈
+      - name: 定制的讲座
         href: teams/pogo-studio-tailored-talks.md
       - name: TAMPLO
         href: teams/ityss-tamplo.md
@@ -1224,7 +1228,7 @@ items:
         href: teams/team-today-ltd.md
       - name: Teamble
         href: teams/teamble.md
-      - name: TeamConnect for Sitecore
+      - name: Sitecore 的 TeamConnect
         href: teams/subramanian-ramanathan-teamconnect-for-sitecore.md
       - name: TeaMe 运行状况检查机器人
         href: teams/teame-health-check-bot.md
@@ -1242,7 +1246,7 @@ items:
         href: teams/communitio-corporation-teamsticker-by.md
       - name: TeamSurvey
         href: teams/builduplabs-teamsurvey.md
-      - name: 团队合作
+      - name: Teamwork
         href: teams/teamwork.md
       - name: TELUS Business Connect
         href: teams/ringcentral-inc-telus-business-connect.md
@@ -1286,7 +1290,7 @@ items:
         href: teams/dm-digital-srl-timeneye.md
       - name: TINYpulse
         href: teams/tinypulse.md
-      - name: 团队的“操作清单”
+      - name: 团队待办事项清单
         href: teams/herocoders-to-do-checklist-for-team.md
       - name: Tonkean
         href: teams/tonkean.md
@@ -1382,7 +1386,7 @@ items:
         href: teams/xmatters-inc.md
       - name: YAROOMS
         href: teams/yarooms.md
-      - name: Yeastar Workplace
+      - name: Yeastar 工作区
         href: teams/xiamen-yeastar-coltd-workplace.md
       - name: yuccaHR
         href: teams/yucca-technologies-gmbh-yuccahr.md
