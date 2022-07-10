@@ -1,26 +1,25 @@
 ---
-title: IXCloud 的应用程序信息 - numonix LLC Teams合规性记录&amp;智能
+title: IXCloud 的应用程序信息 - 由 Numonix LLC 提供的 Teams 合规性记录 &amp; 智能
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/11/2022
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: IXCloud 的所有可用安全性和符合性信息 - Teams合规性记录&amp;智能、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5628c375c4a33d93ed06ada1f31d85c316b4220f
-ms.sourcegitcommit: fb02bf852b775f9114966cfbf158197149ec95a2
+certification_type: certified
+description: IXCloud 的所有可用安全性和符合性信息 - Teams 合规性记录&amp;智能、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: d174cb155e2e40973392a6648e794a77e3248c2c
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64776247"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66706185"
 ---
-# <a name="ixcloud---teams-compliance-recording-amp-intelligence"></a>IXCloud - Teams合规性记录&amp;智能
+# <a name="ixcloud---teams-compliance-recording-amp-intelligence"></a>IXCloud - Teams 合规性记录 &amp; 智能
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 2 月 23 日</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>开发人员上次更新时间：2022 年 4 月 12 日</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/numonix.nmx-teams" target="_blank">在 AppSource 中查看</a>
 
@@ -32,12 +31,12 @@ Numonix LLC 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | IXCloud - Teams合规性记录&amp;智能 |
+| 应用名称 | IXCloud - Teams 合规性记录 &amp; 智能 |
 | ID | numonix.nmx-teams |
 | 合作伙伴公司名称 | Numonix LLC |
 | 公司的网站 | [https://numonix.cloud](https://numonix.cloud) |
 | 应用的使用条款 | [https://numonix.cloud/Compliance/](https://numonix.cloud/Compliance/) |
-| 应用的核心功能 | IXCloud 是一种安全且完全托管的本机云符合性记录解决方案即服务Teams |
+| 应用的核心功能 | IXCloud 是适用于 Teams 的安全、完全托管的本机云符合性记录解决方案即服务 |
 | 公司总部位置 | 美国美国 |
 | 应用信息页 | [https://appsource.microsoft.com/en-us/product/web-apps/numo...](https://appsource.microsoft.com/en-us/product/web-apps/numonix.nmx-teams) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
@@ -55,14 +54,14 @@ Numonix LLC 提供了此信息，了解此应用如何收集和存储组织数�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 否 |
+| 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 不支持 |
 | 应用或基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | UPN |
 | 如果基础结构处理或存储 Microsoft 客户数据，则此数据在地理上存储在哪里？ | 美国、大不列颠联合王国和北爱尔兰 () 、德国、澳大利亚、南非 |
 | 是否已建立数据出租和处置流程？ | 是 |
 | 帐户终止后数据保留多长时间？ | 小于 90 天 |
 | 是否已建立数据访问管理过程？ | 是 |
-| 是否将客户数据或客户内容传输到第三方或子处理器？ | 否 |
+| 是否将客户数据或客户内容传输到第三方或子处理器？ | 不支持 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -80,7 +79,7 @@ Numonix LLC 提供了此信息，了解此应用如何收集和存储组织数�
 | 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 是 |
 | 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
-| 环境是否有不受支持的操作系统或软件？ | 否 |
+| 环境是否有不受支持的操作系统或软件？ | 不支持 |
 | 是否对应用以及支持它的构造进行季度漏洞扫描？ | 是 |
 | 外部网络边界上是否安装了防火墙？ | 是 |
 | 是否已建立更改管理流程，用于在更改请求部署到生产环境之前查看和批准更改请求？ | 是 |
@@ -107,19 +106,19 @@ Numonix LLC 提供了此信息，了解此应用如何收集和存储组织数�
 | 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 不适用 |
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 不适用 |
 | 应用是否符合服务组织控制 (SOC 1) ？ | 不适用 |
-| 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
-| 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
+| 应用是否符合服务组织控制 (SOC 2) ？ | 不支持 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 不支持 |
 | 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不适用 |
-| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
+| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 不支持 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 是 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 是 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 是 |
-| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 否 |
+| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 不支持 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -132,9 +131,9 @@ Numonix LLC 提供了此信息，了解此应用如何收集和存储组织数�
 | 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 是 |
 | 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://numonix.cloud/Compliance/ |
-| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 否 |
-| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
+| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 不支持 |
+| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 不支持 |
+| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 不支持 |
 | 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 是 |
 | 是否获得父母或法定监护人的同意？ | 是 |
 | 应用是否具有在请求时删除个人个人数据的功能？ | 是 |
@@ -150,18 +149,17 @@ Numonix LLC 提供了此信息，了解此应用如何收集和存储组织数�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
+| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 是 |
-| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
-| 应用是否支持条件访问策略？ | 否 |
-| 应用是否支持持续访问评估 (CAE)  | 否 |
-| 应用是否在代码中存储任何凭据？ | 否 |
-| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
+| 应用是否支持条件访问策略？ | 不支持 |
+| 应用是否支持持续访问评估 (CAE)  | 不支持 |
+| 应用是否在代码中存储任何凭据？ | 不支持 |
+| 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 不支持 |
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 访问数据
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|   **图形权限**  | **权限类型** |          **字距调整**          | **Azure AD 应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Calendars.Read | 应用程序 | 识别参与者并按需交付记录并提供静音 | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
 >| Calls.AccessMedia.All | 应用程序 | 记录  | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
@@ -172,19 +170,19 @@ Numonix LLC 提供了此信息，了解此应用如何收集和存储组织数�
 >| OnlineMeetings.Read | 应用程序 | 读取元数据和 OnDemand 录制规则的会议信息 | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
 >| User.Read | 应用程序 | 获取元数据并识别用户 | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
 >| Calendars.Read | 应用程序 | 允许应用在没有登录用户的情况下读取所有日历的事件 | [77578a4c-117a-4cd4-b36d-3ea09ca2ed](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
->| Calls.AccessMedia.All | 应用程序 | 以应用身份访问呼叫中的媒体流 | [77578a4c-117a-4cd4-b36d-3ea09ca2ed](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
+>| Calls.AccessMedia.All | 应用程序 | 作为应用访问通话中的媒体流 | [77578a4c-117a-4cd4-b36d-3ea09ca2ed](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calls.Initiate.All | 应用程序 | 允许应用对单个用户进行出站调用，并将呼叫传输给组织&#8217;目录中的用户 | [77578a4c-117a-4cd4-b36d-3ea09ca2ed](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calls.InitiateGroupCall.All | 应用程序 | 允许应用向多个用户发出出站呼叫并将参与者添加到会议 | [77578a4c-117a-4cd4-b36d-3ea09ca2ed](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calls.JoinGroupCall.All | 应用程序 | 允许应用在组织中加入组呼叫和计划会议，而无需登录用户。 该应用将以目录用户的权限加入组织中的会议。 | [77578a4c-117a-4cd4-b36d-3ea09ca2ed](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
->| Calls.JoinGroupCallasGuest.All | 应用程序 | 以来宾身份加入组呼叫和会议 | [77578a4c-117a-4cd4-b36d-3ea09ca2ed](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
+>| Calls.JoinGroupCallasGuest.All | 应用程序 | 作为来宾加入组通话和会议 | [77578a4c-117a-4cd4-b36d-3ea09ca2ed](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| OnlineMeetings.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取组织中的联机会议详细信息。 | [77578a4c-117a-4cd4-b36d-3ea09ca2ed](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| User.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取用户配置文件。 | [77578a4c-117a-4cd4-b36d-3ea09ca2ed](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calendars.Read | 应用程序 | 允许应用在没有登录用户的情况下读取所有日历的事件 | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
->| Calls.AccessMedia.All | 应用程序 | 以应用身份访问呼叫中的媒体流 | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
+>| Calls.AccessMedia.All | 应用程序 | 作为应用访问通话中的媒体流 | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| Calls.Initiate.All | 应用程序 | 允许应用对单个用户进行出站调用，并将呼叫传输给组织&#8217;目录中的用户 | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| Calls.InitiateGroupCall.All | 应用程序 | 允许应用向多个用户发出出站呼叫并将参与者添加到会议 | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| Calls.JoinGroupCall.All | 应用程序 | 在组织中加入组呼叫和计划会议 | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
->| Calls.JoinGroupCallasGuest.All | 应用程序 | 以来宾身份加入组呼叫和会议 | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
+>| Calls.JoinGroupCallasGuest.All | 应用程序 | 作为来宾加入组通话和会议 | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| OnlineMeetings.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取组织中的联机会议详细信息。 | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| User.Read.All | 应用程序 | 允许应用在没有登录用户的情况下读取用户配置文件。 | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 
@@ -194,3 +192,39 @@ Numonix LLC 提供了此信息，了解此应用如何收集和存储组织数�
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>认证信息
+
+| **Control** | **Microsoft 365 认证结果** |
+|:------------|:---------------------------------------|
+| [**应用程序安全性**](../docs/certification-submission-guide.md#application-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渗透测试 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞评估评审 (DAST/SAST/渗透测试)  | 不适用 |
+| [**操作安全性**](../docs/certification-submission-guide.md#operational-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 防病毒 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 应用程序控制 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 风险排名 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 修补 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞扫描 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - 防火墙 (或等效技术)  | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - WEB 应用程序防火墙 (WAFs)  (可选)  | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更改控件 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全软件开发/部署 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帐户管理 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入侵检测和预防 (可选)  | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件日志记录 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看 (日志记录数据)  | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件警报 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息安全风险管理 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事件响应 | 不适用 |
+| [**数据处理安全 &amp; 隐私**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传输中的数据 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;静态数据 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据保留和处置 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据访问管理 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | 不适用 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

@@ -1,26 +1,25 @@
 ---
-title: Luware AG Microsoft Teams的 Luware Nimbus 应用程序信息
+title: Luware Nimbus for Microsoft Teams by Luware AG 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 10/07/2021
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: 适用于 Microsoft Teams 的 Luware Nimbus 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 31195c90a4e3b9484ae630fd7be76509b6a40e23
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 44e6e1c0f91285cc105ed5f3f4a1f1526ce0d55b
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881419"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66707319"
 ---
-# <a name="luware-nimbus-for-microsoft-teams"></a>Luware Nimbus for Microsoft Teams
+# <a name="luware-nimbus-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Luware Nimbus
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 10 月 1 日</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>开发人员上次更新时间：2021 年 10 月 19 日</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/luwareagzurich.advanced_routing_azure_marketplace" target="_blank">在 AppSource 中查看</a>
 
@@ -32,12 +31,12 @@ Luware AG 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Luware Nimbus for Microsoft Teams |
+| 应用名称 | 适用于 Microsoft Teams 的 Luware Nimbus |
 | ID | luwareagzurich.advanced_routing_azure_marketplace |
 | 合作伙伴公司名称 | Luware AG |
 | 公司的网站 | [https://luware.com](https://luware.com) |
 | 应用的使用条款 | [https://luware.com/en/agreements/saas/](https://luware.com/en/agreements/saas/) |
-| 应用的核心功能 | Nimbus 将呼叫队列、基于状态的路由、报告函数和切换板添加到Teams |
+| 应用的核心功能 | Nimbus 将呼叫队列、基于状态的路由、报告函数和切换板添加到 Teams |
 | 公司总部位置 | Switzerland（瑞士） |
 | 应用信息页 | [https://luware.com/en/solution/advanced-routing-for-microso...](https://luware.com/en/solution/advanced-routing-for-microsoft-teams/) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
@@ -58,7 +57,7 @@ Luware AG 提供了此信息，了解此应用如何收集和存储组织数据�
 | 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 是 |
 | 应用会处理哪些数据？ |  |
 | 应用是否支持 TLS 1.1 或更高版本？ |  |
-| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 可访问 |
+| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ |  |
 | 如果基础结构处理或存储 Microsoft 客户数据，则此数据在地理上存储在哪里？ |  |
 | 是否已建立数据出租和处置流程？ |  |
@@ -106,20 +105,20 @@ Luware AG 提供了此信息，了解此应用如何收集和存储组织数据�
 |:----------------|:-------------|
 | 应用是否符合 HIPAA)  (健康保险可移植性和会计法？ | 不适用 |
 | 应用是否符合 Health Information Trust Alliance、Common Security Framework (HITRUST CSF) ？ | 不适用 |
-| 应用是否符合服务组织控制 (SOC 1) ？ | 否 |
-| 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
-| 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
-| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 否 |
-| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 可访问 |
-| 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
+| 应用是否符合服务组织控制 (SOC 1) ？ | 不支持 |
+| 应用是否符合服务组织控制 (SOC 2) ？ | 不支持 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 不支持 |
+| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不支持 |
+| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 不支持 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不适用 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
 | 应用是否符合 NIST 800-171？ |  |
-| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 否 |
+| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 不支持 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -129,7 +128,7 @@ Luware AG 提供了此信息，了解此应用如何收集和存储组织数据�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 可访问 |
+| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 是 |
 | 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ |  |
 | 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ |  |
 | 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ |  |
@@ -148,25 +147,23 @@ Luware AG 提供了此信息，了解此应用如何收集和存储组织数据�
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 可访问 |
+| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | true |
-| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
 | 应用是否支持条件访问策略？ | 是 |
 | 列出支持的策略类型 | 客户端应用、用户和组 |
-| 你的应用是否请求方案的最低特权权限？ | 可访问 |
 | 应用是否支持持续访问评估 (CAE)  |  |
 | 应用是否在代码中存储任何凭据？ |  |
-| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 不支持 |
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 访问数据
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|   **图形权限**  | **权限类型** |          **字距调整**          | **Azure AD 应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Calendars.Read | 委托 | 助理控制台：读取已登录用户的日历，显示具有约会的日历 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| Calendars.Read.Shared | 委托 | 助理控制台：读取共享日历以显示日历和约会 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
->| Contacts.Read | 委托 | 助理控制台：在登录用户的Exchange联系人中搜索 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
->| Contacts.Read.Shared | 委托 | 助理控制台：在共享Exchange联系人中搜索 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Contacts.Read | 委托 | 助理控制台：在登录用户的 Exchange 联系人中搜索 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Contacts.Read.Shared | 委托 | 助理控制台：在共享 Exchange 联系人中搜索 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| GroupMember.Read.All | 应用程序 | 获取团队成员，读取安全组 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| Presence.Read.All | 委托 | 在助理控制台页面上显示联系人搜索中的状态 | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| User.Read | 委托 | 从登录用户) 获取 UserInformation ( | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
@@ -183,3 +180,39 @@ Luware AG 提供了此信息，了解此应用如何收集和存储组织数据�
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>认证信息
+
+| **Control** | **Microsoft 365 认证结果** |
+|:------------|:---------------------------------------|
+| [**应用程序安全性**](../docs/certification-submission-guide.md#application-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渗透测试 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞评估评审 (DAST/SAST/渗透测试)  | 不适用 |
+| [**操作安全性**](../docs/certification-submission-guide.md#operational-security) | **FAIL** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 防病毒 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 应用程序控制 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 风险排名 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 修补 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞扫描 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - 防火墙 (或等效技术)  | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - WEB 应用程序防火墙 (WAFs)  (可选)  | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更改控件 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全软件开发/部署 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帐户管理 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入侵检测和预防 (可选)  | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件日志记录 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看 (日志记录数据)  | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件警报 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息安全风险管理 | 不适用 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事件响应 | 在作用域中 |
+| [**数据处理安全 &amp; 隐私**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **通过** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传输中的数据 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;静态数据 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据保留和处置 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据访问管理 | 在作用域中 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | 在作用域中 |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

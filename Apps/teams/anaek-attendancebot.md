@@ -1,5 +1,5 @@
 ---
-title: OfficeAmp by Anaek Inc 的应用程序信息
+title: AttendanceBot by Anaek 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,41 +7,41 @@ ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: OfficeAmp 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: AttendanceBot 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a2acfb48fc37ce950afb2f6d2d92d77bfd4dbef6
+ms.openlocfilehash: ae38fae7ea7f5f93c8f070c9d0079f7feea5cce1
 ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/10/2022
-ms.locfileid: "66704171"
+ms.locfileid: "66705834"
 ---
-# <a name="officeamp"></a>OfficeAmp
+# <a name="attendancebot"></a>AttendanceBot
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 6 月 22 日</p>
+<p>开发人员上次更新时间：2022 年 7 月 6 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/b3f65e46-d08c-4ab9-a11d-20836a9dcdda" target="_blank">在 Teams 应用商店中查看</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381756" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/77231724-5a80-4edf-ad93-dfd2e61207fa" target="_blank">在 Teams 应用商店中查看</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381652" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-Anaek Inc 提供给 Microsoft 的信息：
+Anaek 提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | OfficeAmp |
-| ID | WA104381756 |
+| 应用名称 | AttendanceBot |
+| ID | WA104381652 |
 | 支持Office 365客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Anaek Inc |
+| 合作伙伴公司名称 | Anaek |
 | 公司的网站 | [https://www.harmonizehq.com](https://www.harmonizehq.com) |
-| 应用的使用条款 | [https://www.officeamp.com/adminbot/tos/](https://www.officeamp.com/adminbot/tos/) |
-| 应用的核心功能 | 内部支持机器人，在 Microsoft Teams 中运行强大的 ITSM 系统，并为你提供一个看板仪表板来跟踪、分配和解析票证。 |
+| 应用的使用条款 | [https://www.attendancebot.com/attendance/tos/](https://www.attendancebot.com/attendance/tos/) |
+| 应用的核心功能 | 跟踪时间、出勤率、PTO、休假、混合工作、 &amp; 轮班规划的新式人力资源 |
 | 公司总部位置 | 美国美国 |
-| 应用信息页 | [https://www.officeamp.com](https://www.officeamp.com) |
+| 应用信息页 | [https://www.attendancebot.com](https://www.attendancebot.com) |
 | 用于运行应用的托管环境或服务模型是什么？ | 混合 |
 | 应用使用哪些托管云提供商？ | Aws |
 
@@ -53,7 +53,7 @@ Anaek Inc 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-Anaek Inc 提供了此信息，了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
+Anaek 提供了此信息，了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
@@ -135,7 +135,7 @@ Anaek Inc 提供了此信息，了解此应用如何收集和存储组织数据�
 |:----------------|:-------------|
 | 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 是 |
 | 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 是 |
-| 隐私策略 URL | https://www.officeamp.com/adminbot/privacy/ |
+| 隐私策略 URL | https://www.attendancebot.com/attendance/privacy/ |
 | 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 不支持 |
 | 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 不支持 |
 | 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 不支持 |

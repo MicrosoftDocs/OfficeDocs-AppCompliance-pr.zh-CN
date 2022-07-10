@@ -3,26 +3,25 @@ title: Appspace 的应用程序信息，按 Appspace，Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/15/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Appspace 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 24caf7d62adac3ed1db9a8b705805cfbfdce6629
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 79f03868c35f9604be796811f9a6bee688c842dd
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877309"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66705824"
 ---
 # <a name="appspace"></a>Appspace
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 7 月 8 日</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>开发人员上次更新时间：2021 年 8 月 3 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/a9a866c4-e5cf-47f2-932c-db14cb89008f" target="_blank">Teams存储区中的视图</a>
+* <a href="https://teams.microsoft.com/l/app/a9a866c4-e5cf-47f2-932c-db14cb89008f" target="_blank">在 Teams 应用商店中查看</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001738" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
@@ -105,17 +104,17 @@ Appspace， Inc. 提供了此信息，了解此应用如何收集和存储组织
 | 最新的 SOC2 认证日期 | 2020-11-09 |
 | 应用是否符合服务组织控制 (SOC 3) ？ | 是 |
 | 最新的 SOC3 认证日期 | 2020-11-09 |
-| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 可访问 |
-| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
+| 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 是 |
+| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 不支持 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 是 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
 | 应用是否符合 NIST 800-171？ |  |
-| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 否 |
+| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 不支持 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -135,18 +134,17 @@ Appspace， Inc. 提供了此信息，了解此应用如何收集和存储组织
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft 标识平台 (Azure AD) 集成以进行单一登录、API 访问等？ | 否 |
-| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 否 |
+| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 不支持 |
+| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 不支持 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ |  |
-| 如果你的应用不使用上述库之一，它使用什么身份验证库或库？ |  |
-| 应用是否支持条件访问策略？ | 否 |
+| 应用是否支持条件访问策略？ | 不支持 |
 | 应用是否支持持续访问评估 (CAE)  |  |
 | 应用是否在代码中存储任何凭据？ |  |
-| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 不支持 |
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 访问数据
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD应用 ID** |
+>|   **图形权限**  | **权限类型** |          **字距调整**          | **Azure AD 应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Team.ReadBasic.All | 委托 | 获取用户所属的团队。 | [a9a866c4-e5cf-47f2-932c-db14cb89008f](../azure/a9a866c4-e5cf-47f2-932c-db14cb89008f.md) |
 >| User.ReadBasic.All | 委托 | 代表已登录用户读取组织中其他用户的基本配置文件属性。 其中包括显示名称、名字和姓氏、电子邮件地址、开放扩展和照片。 此外，还允许应用读取已登录用户的完整个人资料。 | [a9a866c4-e5cf-47f2-932c-db14cb89008f](../azure/a9a866c4-e5cf-47f2-932c-db14cb89008f.md) |
