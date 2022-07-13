@@ -3,18 +3,18 @@ title: Appspace 的应用程序信息，按 Appspace，Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 08/03/2021
+ms.date: 07/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Appspace 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 79f03868c35f9604be796811f9a6bee688c842dd
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+ms.openlocfilehash: 33ebdad28ebae386982c9e84025417e7fecd7900
+ms.sourcegitcommit: 1d78b47ae32dd7ee29fb848e04ac0c5090d6b41c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66705824"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66765111"
 ---
 # <a name="appspace"></a>Appspace
 
@@ -105,16 +105,16 @@ Appspace， Inc. 提供了此信息，了解此应用如何收集和存储组织
 | 应用是否符合服务组织控制 (SOC 3) ？ | 是 |
 | 最新的 SOC3 认证日期 | 2020-11-09 |
 | 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 是 |
-| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 不支持 |
-| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不支持 |
-| 应用是否符合国际标准化组织 (ISO 27017) ？ | 不支持 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 不支持 |
+| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 不适用 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 是 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
 | 应用是否符合 NIST 800-171？ |  |
-| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 不支持 |
+| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -134,13 +134,13 @@ Appspace， Inc. 提供了此信息，了解此应用如何收集和存储组织
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 不支持 |
-| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 不支持 |
+| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 否 |
+| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 否 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ |  |
-| 应用是否支持条件访问策略？ | 不支持 |
+| 应用是否支持条件访问策略？ | 否 |
 | 应用是否支持持续访问评估 (CAE)  |  |
 | 应用是否在代码中存储任何凭据？ |  |
-| 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 不支持 |
+| 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 访问数据
 

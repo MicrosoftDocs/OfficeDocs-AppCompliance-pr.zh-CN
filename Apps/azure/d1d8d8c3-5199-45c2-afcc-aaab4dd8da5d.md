@@ -3,17 +3,17 @@ title: d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d 的Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/08/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d 的所有可用安全性和符合性信息。
-ms.openlocfilehash: 47e0ef8dd162fc6776ab530bf963a3605dcc2e80
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+ms.openlocfilehash: 862692444a1a6ea857db9e4a5a72dd5f7abd3928
+ms.sourcegitcommit: 1d78b47ae32dd7ee29fb848e04ac0c5090d6b41c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66707259"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66763631"
 ---
 # <a name="azure-app-id-d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d"></a>Azure 应用 ID：d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d
 

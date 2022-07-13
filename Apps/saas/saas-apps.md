@@ -3,17 +3,17 @@ title: SaaS 应用安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/08/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: be087838b29d9c4a9c9d6992bb902e0890bb6e50
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+ms.openlocfilehash: 349b96770720e0b7dff230a269acb6d9d726d83b
+ms.sourcegitcommit: 1d78b47ae32dd7ee29fb848e04ac0c5090d6b41c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66702650"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66763411"
 ---
 # <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和符合性
 
@@ -30,7 +30,7 @@ Microsoft 与我们的 Microsoft 365 开发人员合作伙伴合作，提供组�
 | [CC4Teams](./cc4all-cc4teams.md) | CC4ALL | **✓** |  |
 | [Classroom.cloud](./netsupport-ltd-classroomcloud.md) | NETSUPPORT LTD. | **✓** |  |
 | [用于Microsoft Office 365的云备份](./avepoint-inc-cloud-backup-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [用于Office 365的 CodeTwo 电子邮件签名](./codetwo-email-signatures-for-office-365.md) | CodeTwo | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Office 365的 CodeTwo Email 签名](./codetwo-email-signatures-for-office-365.md) | CodeTwo | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Competella Communication Suite](./competella-ab-communication-suite.md) | Competella AB | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [内容选择器](./officeatwork-content-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [内容选择器浏览器](./officeatwork-content-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

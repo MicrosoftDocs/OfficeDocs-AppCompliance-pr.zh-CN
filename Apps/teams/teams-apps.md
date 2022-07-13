@@ -3,17 +3,17 @@ title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/08/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: cfa7d528ef4a368955ceff556eb5c6e0528795c8
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+ms.openlocfilehash: f0676af49b6a4c273e7836185540d9ef3bbb3bb7
+ms.sourcegitcommit: 1d78b47ae32dd7ee29fb848e04ac0c5090d6b41c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66702630"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66762831"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -57,7 +57,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Asana](./asana.md) | Asana | **✓** |  |
 | [ASC Recording Insights](./asc-technologies-ag-recording-insights.md) | ASC 技术 AG | **✓** |  |
 | [询问 Vizir](./vizirco-ask-vizir.md) | Vizir.co | **✓** |  |
-| [Assembly](./carrothr-inc-assembly.md) | CarrotHR Inc. | **✓** |  |
 | [星状体](./entrup-aster.md) | Entrup | **✓** |  |
 | [AtBot](./h3-solutions-inc-atbot.md) | H3 Solutions, Inc. | **✓** |  |
 | [Atlas](./atlassian-inc-atlas.md) | Atlassian， Inc. | **✓** |  |
@@ -94,7 +93,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [亮色投票](./brightbits-bright-poll.md) | BrightBits | **✓** |  |
 | [亮色提醒我](./chat-apps-llc-bright-remind-me.md) | 聊天应用，LLC | **✓** |  |
 | [Brightcove 视频连接](./brightcove-inc-video-connect.md) | Brightcove Inc. | **✓** |  |
-| [Broadcast](./cerkl-broadcast.md) | <2>点子 | **✓** |  |
 | [Brochesia](./brochesia.md) | Brochesia | **✓** |  |
 | [公告板 - NextSet](./nextsetinc-bulletin-board-nextset.md) | NextSet,Inc. | **✓** |  |
 | [C.AI Adoption Bot](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -106,7 +104,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [check.it](./cloud-cover-it-checkit.md) | 云覆盖 IT | **✓** |  |
 | [Chronoscope 时间跟踪](./chrono-innovation-chronoscope-time-tracking.md) | Chrono 创新 | **✓** |  |
 | [Chronus](./chronus.md) | Chronus | **✓** |  |
-| [埃塞洛](./churnzero.md) | 埃塞洛 | **✓** |  |
 | [CI-Out-of-Office Lite](./ci-solution-gmbh-out-of-office-lite.md) | ci 解决方案 GmbH | **✓** |  |
 | [分类列表](./binaryroots-classified-listing.md) | BinaryRoots | **✓** |  |
 | [办事员短信](./unnamed-ventures-llc-clerk-sms.md) | 未命名的创投，有限责任公司。 | **✓** |  |
@@ -406,7 +403,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [照片文件管理器](./ichicraft-photo-filer.md) | Ichicraft | **✓** |  |
 | [Pigeonhole Live](./pigeonlab-pte-ltd-pigeonhole-live.md) | PigeonLab Pte Ltd | **✓** |  |
 | [Plandisc](./plandisc.md) | Plandisc | **✓** |  |
-| [由 IntraActive 播放](./fellowmind-denmark-play-by-intraactive.md) | 丹麦同事 | **✓** |  |
+| [PlanIt](./enable-365-planit.md) | 启用 365 | **✓** |  |
 | [PlayQuiz - 四月 &amp; 僅](./teamschamp-playquiz-aprendejuega.md) | TeamsChamp | **✓** |  |
 | [Pling](./fellowmind-denmark-pling.md) | 丹麦同事 | **✓** |  |
 | [Plumm](./plumm-health-ltd.md) | Plumm Health LTD | **✓** |  |
@@ -434,7 +431,6 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Qooper](./cognata-technologies-llc-qooper.md) | COGNATA TECHNOLOGIES, LLC | **✓** |  |
 | [Quadra Thankz](./quadrasystemsnet-quadra-thankz.md) | Quadrasystems.net | **✓** |  |
 | [Quadra Visitorz](./quadrasystemsnet-quadra-visitorz.md) | Quadrasystems.net | **✓** |  |
-| [合格](./qualified.md) | 认证 | **✓** |  |
 | [Quire](./potix-corporation-quire.md) | Potix Corporation | **✓** |  |
 | [Quitch](./quitch.md) | Quitch | **✓** |  |
 | [Rafiky](./global-congress-srl-rafiky.md) | GLOBAL CONGRESS SRL | **✓** |  |
@@ -444,6 +440,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [RecognitionNow DM](./bi-worldwide-recognitionnow-dm.md) | BI WORLDWIDE | **✓** |  |
 | [识别](./recognize.md) | 识别 | **✓** |  |
 | [Remind](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
+| [由 IntraActive 重播](./fellowmind-denmark-replay-by-intraactive.md) | 丹麦同事 | **✓** |  |
 | [researcHR](./researchr.md) | KBE&#26666;&#24335;&#20250;&#31038; | **✓** |  |
 | [Responsum](./responsum-inc.md) | Responsum Inc. | **✓** |  |
 | [ReTeam](./beremote-llc-reteam.md) | BeRemote LLC | **✓** |  |
@@ -487,6 +484,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [社交宣传](./oktopost-social-advocacy.md) | Oktopost | **✓** |  |
 | [Solo](./teladoc-inc-solo.md) | Teladoc, Inc. | **✓** |  |
 | [SQQ](./superquickquestion-sqq.md) | SuperQuickQuestion | **✓** |  |
+| [Squadify](./squadify-holdings-pty-ltd.md) | Squadify 控股有限公司 | **✓** |  |
 | [Stack Overflow for Teams](./stack-overflow-for-teams.md) | Stack Overflow | **✓** |  |
 | [StaffCircle](./staffcircle.md) | StaffCircle | **✓** |  |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  |
@@ -604,7 +602,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Yeastar 工作区](./xiamen-yeastar-coltd-workplace.md) | Xiamen Yeastar Co.,Ltd | **✓** |  |
 | [yuccaHR](./yucca-technologies-gmbh-yuccahr.md) | Yucca Technologies GmbH | **✓** |  |
 | [Zavvy](./zavvy-gmbh.md) | Zavvy GmbH | **✓** |  |
-| [Zero Time Bot](./replicon-zero-time-bot.md) | Replicon | **✓** |  |
+| [ZeroTime 机器人](./replicon-zerotime-bot.md) | Replicon | **✓** |  |
 | [Zignals](./alight-consulting-gmbh-zignals.md) | Alight Consulting GmbH | **✓** |  |
 | [Zoho CRM](./zoho-corporation-pvt-ltd-crm.md) | Zoho Corporation Pvt Ltd | **✓** |  |
 | [Zoho Desk](./zoho-corporation-private-limited-desk.md) | Zoho Corporation Private Limited | **✓** |  |
