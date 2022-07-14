@@ -6,19 +6,20 @@ manager: tonybal
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: 适用于 Teams 的 Buzzeasy 联系人中心的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 4388c1e72e3504ecf4d75aa59d2cfb75d3071239
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: b991fdcdd4e2c7aad48cbc5d26403a04b0b9c170
+ms.sourcegitcommit: 0c7f7f3da27d274928b863a18ff16d4dc775487c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66707329"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66781656"
 ---
 # <a name="buzzeasy-contact-center-for-teams"></a>适用于 Teams 的 Buzzeasy 联系人中心
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>开发人员上次更新时间：2021 年 11 月 23 日</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/geomant.buzzeasy_teams_contact_center" target="_blank">在 AppSource 中查看</a>
@@ -39,7 +40,7 @@ Geomant-Algotech Zrt 提供的信息。 到 Microsoft：
 | 应用的核心功能 | 适用于 Microsoft Teams 的联系人中心解决方案 |
 | 公司总部位置 | 匈牙利 |
 | 应用信息页 | [https://www.geomant.com/buzzeasy-contact-centre-for-microso...](https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams) |
-| 用于运行应用的托管环境或服务模型是什么？ | 混合 |
+| 用于运行应用的托管环境或服务模型是什么？ | Iaas |
 | 应用使用哪些托管云提供商？ | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -55,9 +56,15 @@ Geomant-Algotech Zrt 提供的信息。 到 Microsoft：
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 是 |
-| 应用会处理哪些数据？ | Microsoft JWT 用户和刷新令牌、Microsoft 应用程序 ID、应用机密、M365 电子邮件内容图形 API |
+| 应用会处理哪些数据？ | Microsoft JWT 用户和刷新令牌、Microsoft 应用程序 ID、应用机密、M365 Email内容图形 API |
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
-| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 不支持 |
+| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 是 |
+| 数据库中存储了哪些数据？ | Microsoft JWT 用户和刷新令牌、Microsoft 应用程序 ID、应用机密、M365 Email内容图形 API |
+| 如果基础结构处理或存储 Microsoft 客户数据，则此数据在地理上存储在哪里？ | 爱尔兰 |
+| 是否已建立数据出租和处置流程？ | 是 |
+| 帐户终止后数据保留多长时间？ | 小于 90 天 |
+| 是否已建立数据访问管理过程？ | 是 |
+| 是否将客户数据或客户内容传输到第三方或子处理器？ | 不支持 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -171,39 +178,3 @@ Geomant-Algotech Zrt 提供的信息。 到 Microsoft：
 
 ::: zone-end
 
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>认证信息
-
-| **Control** | **Microsoft 365 认证结果** |
-|:------------|:---------------------------------------|
-| [**应用程序安全性**](../docs/certification-submission-guide.md#application-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渗透测试 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞评估评审 (DAST/SAST/渗透测试)  | 不适用 |
-| [**操作安全性**](../docs/certification-submission-guide.md#operational-security) | **FAIL** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 防病毒 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 应用程序控制 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 风险排名 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 修补 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞扫描 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - 防火墙 (或等效技术)  | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - WEB 应用程序防火墙 (WAFs)  (可选)  | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更改控件 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全软件开发/部署 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帐户管理 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入侵检测和预防 (可选)  | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件日志记录 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看 (日志记录数据)  | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件警报 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息安全风险管理 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事件响应 | 在作用域中 |
-| [**数据处理安全 &amp; 隐私**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **FAIL** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传输中的数据 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;静态数据 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据保留和处置 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据访问管理 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | 在作用域中 |
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
