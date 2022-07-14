@@ -3,23 +3,24 @@ title: Genesys 云服务、 Inc 的 Genesys Cloud CX Teams 集成的应用程序
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/07/2022
+ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: Genesys Cloud CX Teams 集成的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: f050c9d0e583b78334f6b047db96eaf2cf0ca69a
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 644d2bacf198b97934c87d341ae68d451c51ca7c
+ms.sourcegitcommit: 72f4a6341a000d08a27b69b25ee9d3fb0bbfea6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66705543"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66792771"
 ---
 # <a name="genesys-cloud-cx-teams-integration"></a>Genesys Cloud CX Teams 集成
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2022 年 2 月 28 日</p>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>开发人员上次更新时间：2022 年 2 月 17 日</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/genesyslabs.genesys-cloud_teams_integration" target="_blank">在 AppSource 中查看</a>
 
@@ -63,7 +64,7 @@ Genesys 云服务公司提供了此信息，了解此应用如何收集和存储
 | 是否已建立数据出租和处置流程？ | 是 |
 | 帐户终止后数据保留多长时间？ | 小于 90 天 |
 | 是否已建立数据访问管理过程？ | 是 |
-| 是否将客户数据或客户内容传输到第三方或子处理器？ | 不支持 |
+| 是否将客户数据或客户内容传输到第三方或子处理器？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -112,18 +113,18 @@ Genesys 云服务公司提供了此信息，了解此应用如何收集和存储
 | 应用是否符合服务组织控制 (SOC 2) ？ | 是 |
 | 你实现了哪个 SOC 2 认证？ | type2 |
 | 最新的 SOC2 认证日期 | 2021-11-30 |
-| 应用是否符合服务组织控制 (SOC 3) ？ | 不支持 |
+| 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
 | 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 是 |
 | 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
 | 应用是否符合国际标准化组织 (ISO 27018) ？ | 是 |
-| 应用是否符合国际标准化组织 (ISO 27017) ？ | 不支持 |
-| 应用是否符合国际标准化组织 (ISO 27002) ？ | 不支持 |
-| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 不支持 |
+| 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
+| 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
 | 应用是否符合 FERPA)  (家庭教育权利和隐私法？ | 是 |
 | 应用是否符合《儿童在线隐私保护法》 (COPPA) ？ | 不适用 |
 | 应用是否符合 SOX)  (Sarbanes-Oxley法案？ | 不适用 |
 | 应用是否符合 NIST 800-171？ | 不适用 |
-| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 不支持 |
+| 应用是否已通过云安全联盟 (CSA Star) 认证？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -136,8 +137,8 @@ Genesys 云服务公司提供了此信息，了解此应用如何收集和存储
 | 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 是 |
 | 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 是 |
 | 隐私策略 URL | https://help.mypurecloud.com/wp-content/uploads/2021/11/Genesys-Cloud-Privacy-Policy-Nov-2021.pdf |
-| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 不支持 |
-| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 不支持 |
+| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
+| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 否 |
 | 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 是 |
 | 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 是 |
 | 是否获得父母或法定监护人的同意？ | 是 |
@@ -157,10 +158,10 @@ Genesys 云服务公司提供了此信息，了解此应用如何收集和存储
 | 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
 | 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
 | 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 不适用 |
-| 应用是否支持条件访问策略？ | 不支持 |
-| 应用是否支持持续访问评估 (CAE)  | 不支持 |
-| 应用是否在代码中存储任何凭据？ | 不支持 |
-| 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 不支持 |
+| 应用是否支持条件访问策略？ | 否 |
+| 应用是否支持持续访问评估 (CAE)  | 否 |
+| 应用是否在代码中存储任何凭据？ | 否 |
+| 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
 
 #### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 访问数据
 
@@ -174,39 +175,3 @@ Genesys 云服务公司提供了此信息，了解此应用如何收集和存储
 
 ::: zone-end
 
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>认证信息
-
-| **Control** | **Microsoft 365 认证结果** |
-|:------------|:---------------------------------------|
-| [**应用程序安全性**](../docs/certification-submission-guide.md#application-security) | **通过** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渗透测试 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞评估评审 (DAST/SAST/渗透测试)  | 在作用域中 |
-| [**操作安全性**](../docs/certification-submission-guide.md#operational-security) | **通过** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 防病毒 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 应用程序控制 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 风险排名 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 修补 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞扫描 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - 防火墙 (或等效技术)  | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - WEB 应用程序防火墙 (WAFs)  (可选)  | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更改控件 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全软件开发/部署 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帐户管理 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入侵检测和预防 (可选)  | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件日志记录 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看 (日志记录数据)  | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件警报 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息安全风险管理 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事件响应 | 在作用域中 |
-| [**数据处理安全 &amp; 隐私**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **FAIL** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传输中的数据 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;静态数据 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据保留和处置 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据访问管理 | 在作用域中 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | 不适用 |
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
