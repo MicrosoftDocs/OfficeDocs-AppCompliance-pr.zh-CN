@@ -3,23 +3,24 @@ title: CallCabinet Corporation 的 CallCabinet Atmos 合规性记录和分析的
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/07/2022
+ms.date: 02/16/2022
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: CallCabinet Atmos 合规性记录和分析的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 2d5ae58290923dce70edff009cf5da518d9bc3c1
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: fc18f28713bf231d04babee6406dddc6702f6691
+ms.sourcegitcommit: 0c7f7f3da27d274928b863a18ff16d4dc775487c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66704001"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66785156"
 ---
 # <a name="callcabinet-atmos-compliance-recording-and-analytics"></a>CallCabinet Atmos 合规性记录和分析
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>开发人员上次更新时间：2022 年 4 月 5 日</p>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>开发人员上次更新时间：2022 年 1 月 26 日</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/callcabinetcorporation1584393576335.atmos" target="_blank">在 AppSource 中查看</a>
 
@@ -165,39 +166,3 @@ CallCabinet Corporation 提供了此信息，了解此应用如何收集和存�
 
 ::: zone-end
 
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>认证信息
-
-| **Control** | **Microsoft 365 认证结果** |
-|:------------|:---------------------------------------|
-| [**应用程序安全性**](../docs/certification-submission-guide.md#application-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渗透测试 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞评估评审 (DAST/SAST/渗透测试)  | 不适用 |
-| [**操作安全性**](../docs/certification-submission-guide.md#operational-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 防病毒 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恶意软件保护 - 应用程序控制 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 风险排名 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修补程序管理 - 修补 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;漏洞扫描 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - 防火墙 (或等效技术)  | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙 - WEB 应用程序防火墙 (WAFs)  (可选)  | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更改控件 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全软件开发/部署 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帐户管理 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入侵检测和预防 (可选)  | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件日志记录 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看 (日志记录数据)  | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安全事件警报 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息安全风险管理 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事件响应 | 不适用 |
-| [**数据处理安全 &amp; 隐私**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传输中的数据 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;静态数据 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据保留和处置 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据访问管理 | 不适用 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | 不适用 |
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
