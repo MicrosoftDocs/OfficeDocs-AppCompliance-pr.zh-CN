@@ -3,17 +3,17 @@ title: Azure 应用 6b0ce2dd-a270-4ade-babb-7cf54bab8edd 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/13/2022
+ms.date: 07/14/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 6b0ce2dd-a270-4ade-babb-7cf54bab8edd 的所有可用安全性和符合性信息。
-ms.openlocfilehash: 379e26592e5565c71a7d1db9f79442e6de283db7
-ms.sourcegitcommit: 0c7f7f3da27d274928b863a18ff16d4dc775487c
+ms.openlocfilehash: d74d44c953d20a11a51d4cb4385fca87af262fe5
+ms.sourcegitcommit: ac75dd8bb815bc9e8b1d5b39a2d2dbe46e65f680
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66786166"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66802073"
 ---
 # <a name="azure-app-id-6b0ce2dd-a270-4ade-babb-7cf54bab8edd"></a>Azure 应用 ID：6b0ce2dd-a270-4ade-babb-7cf54bab8edd
 

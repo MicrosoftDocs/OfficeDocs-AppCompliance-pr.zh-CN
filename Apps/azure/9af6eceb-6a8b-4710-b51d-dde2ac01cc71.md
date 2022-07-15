@@ -3,17 +3,17 @@ title: Azure 应用 9af6eceb-6a8b-4710-b51d-dde2ac01cc71 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/13/2022
+ms.date: 07/14/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71 的所有可用安全性和符合性信息。
-ms.openlocfilehash: e58e95312766b4f0cf1d036397b195610bb130fa
-ms.sourcegitcommit: 0c7f7f3da27d274928b863a18ff16d4dc775487c
+ms.openlocfilehash: be79d794e664f25919071208ee3033b0f1776fa9
+ms.sourcegitcommit: ac75dd8bb815bc9e8b1d5b39a2d2dbe46e65f680
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66786486"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66804843"
 ---
 # <a name="azure-app-id-9af6eceb-6a8b-4710-b51d-dde2ac01cc71"></a>Azure 应用 ID：9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 
