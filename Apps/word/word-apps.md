@@ -3,17 +3,17 @@ title: Microsoft Word Apps 安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/06/2022
+ms.date: 07/15/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Word 应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: 01a8345e1f3b2448a2fd25d3be686bb77f28cc73
-ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
+ms.openlocfilehash: efa33380c53009acd61c5d2201d62c966a4bc895
+ms.sourcegitcommit: 9e5c6c3b4885bc6fa0a4af61432c86a232bc7ec9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66655646"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66811325"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word Apps 安全性和符合性
 
@@ -54,3 +54,4 @@ Microsoft 与我们的 Microsoft 365 开发人员合作伙伴合作，提供组�
 | [Word 的 Stilus](./meaningcloud-stilus-for-word.md) | MeaningCloud | **✓** |  |
 | [TaxKit Docs](./taxyio-gmbh-taxkit-docs.md) | Taxy.io GmbH | **✓** |  |
 | [TerMef](./mondeca-termef.md) | Mondeca | **✓** |  |
+| [ValidSign](./validsign.md) | ValidSign | **✓** |  |

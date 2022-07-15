@@ -3,24 +3,24 @@ title: ZeroTime Bot by Replicon 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/06/2022
+ms.date: 07/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: ZeroTime Bot 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 35065d4157b4a4870f76344189781e9ba3d6599b
-ms.sourcegitcommit: 1d78b47ae32dd7ee29fb848e04ac0c5090d6b41c
+ms.openlocfilehash: 446918fff565bc4d136bcdded4d3e9059cf9bb2c
+ms.sourcegitcommit: 9e5c6c3b4885bc6fa0a4af61432c86a232bc7ec9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66765129"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66815362"
 ---
 # <a name="zerotime-bot"></a>ZeroTime 机器人
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2021 年 12 月 8 日</p>
+<p>开发人员上次更新时间：2022 年 7 月 13 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/4db812e1-4d29-44e4-b72e-9654c0c91ce4" target="_blank">在 Teams 应用商店中查看</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003717" target="_blank">在 AppSource 中查看</a>
@@ -39,7 +39,7 @@ Replicon 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | Replicon |
 | 公司的网站 | [https://www.replicon.com](https://www.replicon.com) |
 | 应用的使用条款 | [https://www.replicon.com/terms-and-conditions/](https://www.replicon.com/terms-and-conditions/) |
-| 应用的核心功能 | 零时间机器人允许用户通过与机器人聊天直接填充 Replicon 时间表。 |
+| 应用的核心功能 | ZeroTime 机器人允许用户通过与机器人聊天直接填充其 Replicon 时间表。 |
 | 公司总部位置 | 加拿大 |
 | 应用信息页 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Iaas |
