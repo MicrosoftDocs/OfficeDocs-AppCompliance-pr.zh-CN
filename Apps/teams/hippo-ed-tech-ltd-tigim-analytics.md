@@ -3,24 +3,24 @@ title: Hippo Ed Tech LTD 的 Tigim Analytics 应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/16/2022
+ms.date: 07/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tigim Analytics 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 81d3b55c0609d1d3f56e6dd55b0e6b5d8194842c
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: 66a78bdd74c3002e176335c62c5a5f8a090847cb
+ms.sourcegitcommit: 9e5c6c3b4885bc6fa0a4af61432c86a232bc7ec9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66247350"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66818184"
 ---
 # <a name="tigim-analytics"></a>Tigim Analytics
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 5 月 25 日</p>
+<p>开发人员上次更新时间：2022 年 7 月 14 日</p>
 
 * <a href="https://teams.microsoft.com/l/app/98172521-768f-4271-a872-00bd46bd9460" target="_blank">在 Teams 应用商店中查看</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200004242" target="_blank">在 AppSource 中查看</a>
@@ -42,7 +42,8 @@ Hippo Ed Tech LTD 提供给 Microsoft 的信息：
 | 应用的核心功能 | 通信、生产力、业务管理、培训 |
 | 公司总部位置 | 爱尔兰 |
 | 应用信息页 | |
-| 用于运行应用的托管环境或服务模型是什么？ | IsvHosted |
+| 用于运行应用的托管环境或服务模型是什么？ | Iaas |
+| 应用使用哪些托管云提供商？ | 其他 |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,7 +58,7 @@ Hippo Ed Tech LTD 提供了此信息，了解此应用如何收集和存储组�
 | **Information** | **响应** |
 |:----------------|:-------------|
 | 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 是 |
-| 应用会处理哪些数据？ | 用户电子邮件、用户配置文件、用户日历、用户 OnlineMeetings |
+| 应用会处理哪些数据？ | 用户Email、用户配置文件、用户日历、用户 OnlineMeetings |
 | 应用是否支持 TLS 1.1 或更高版本？ | 是 |
 | 应用或基础结构是否存储任何 Microsoft 客户数据？ | 是 |
 | 数据库中存储了哪些数据？ | 用户数据、User OnlineMeetings 听录、用户对话参考 |
