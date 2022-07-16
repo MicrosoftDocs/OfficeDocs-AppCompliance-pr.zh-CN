@@ -3,17 +3,17 @@ title: Microsoft Outlook Apps 安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/06/2022
+ms.date: 07/15/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Outlook 应用的所有可用安全性和符合性信息信息。
 localization_priority: Normal
-ms.openlocfilehash: e068b2d07c5fb1e006f593e5d4423d78e1c5dd71
-ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
+ms.openlocfilehash: bbd1db0a9e77da480e6a99ed6dfb0712b3d80182
+ms.sourcegitcommit: 41d719a4473ff77d0955bbdb198e9ca084b02dc2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66654814"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66826088"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Microsoft Outlook Apps 安全性和符合性
 
@@ -30,7 +30,7 @@ Microsoft 与我们的 Microsoft 365 开发人员合作伙伴合作，提供组�
 | [适用于 Outlook 的 DocuSign](./docusign-inc-for-outlook.md) | DocuSign， Inc. | **✓** |  |
 | [发电机](./dynamo-software.md) | Dynamo Software | **✓** |  |
 | [Egnyte for Outlook](./egnyte-inc-for-outlook.md) | 埃格尼特公司 | **✓** |  |
-| [电子邮件反应器](./flow-simulation-ltd-email-reactor.md) | Flow Simulation Ltd. | **✓** |  |
+| [Email反应堆](./flow-simulation-ltd-email-reactor.md) | Flow Simulation Ltd. | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [Outlook 的印象签名](./impression-signatures-for-outlook.md) | 印象签名 | **✓** |  |
 | [适用于 Outlook 的 iPlanner Office 365 Planner 加载项](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -51,4 +51,4 @@ Microsoft 与我们的 Microsoft 365 开发人员合作伙伴合作，提供组�
 | [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
 | [适用于 Outlook 的 Strategy-AI](./chinchilla-software-limited-strategy-ai-for-outlook.md) | Chinchilla Software Limited | **✓** |  |
-| [XQ 安全电子邮件](./xq-message-secure-email.md) | XQ 消息 | **✓** |  |
+| [XQ 安全Email](./xq-message-secure-email.md) | XQ 消息 | **✓** |  |
