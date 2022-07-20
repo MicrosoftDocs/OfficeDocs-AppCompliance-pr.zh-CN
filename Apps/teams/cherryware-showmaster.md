@@ -1,5 +1,5 @@
 ---
-title: Appraisd ltd 评估的应用程序信息。
+title: Showmaster by cherryware 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,41 +7,41 @@ ms.date: 07/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 评估的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
+description: 适用于 Showmaster 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: feb9fcc1576d3d357eafaade364ad9913c369a83
+ms.openlocfilehash: 620a161309ddbf7e4937f3919089e66cba28df7b
 ms.sourcegitcommit: f020743c27bd5ba69e4f74e8fff3f82b2571c408
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/20/2022
-ms.locfileid: "66890255"
+ms.locfileid: "66892013"
 ---
-# <a name="appraisd"></a>Appraisd
+# <a name="showmaster"></a>Showmaster
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 6 月 22 日</p>
+<p>开发人员上次更新时间：2022 年 7 月 5 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/4f037969-20ef-4a41-8330-422b7b115eb6" target="_blank">在 Teams 应用商店中查看</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003123" target="_blank">在 AppSource 中查看</a>
+* <a href="https://teams.microsoft.com/l/app/8c9f8e8e-fe2d-4542-84ab-1d30c4a735fc" target="_blank">在 Teams 应用商店中查看</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200004411" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>一般信息
 
-Appraisd ltd. 提供给 Microsoft 的信息：
+樱桃软件提供给 Microsoft 的信息：
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用名称 | Appraisd |
-| ID | WA200003123 |
+| 应用名称 | Showmaster |
+| ID | WA200004411 |
 | 支持Office 365客户端 | Microsoft Teams |
-| 合作伙伴公司名称 | Appraisd ltd. |
-| 公司的网站 | [https://www.appraisd.com](https://www.appraisd.com) |
-| 应用的使用条款 | [https://www.appraisd.com/terms](https://www.appraisd.com/terms) |
-| 应用的核心功能 | 使用性能评审、目标和反馈增强性能文化 |
-| 公司总部位置 | 大不列颠及北爱尔兰联合王国 ()  |
-| 应用信息页 | [https://www.appraisd.com](https://www.appraisd.com) |
+| 合作伙伴公司名称 | cherryware |
+| 公司的网站 | [https://www.cherryware.com](https://www.cherryware.com) |
+| 应用的使用条款 | [https://showmaster.app/terms/](https://showmaster.app/terms/) |
+| 应用的核心功能 | 在等待期间，Showmaster 围绕你的谈话创建一个令人兴奋的框架，并打破头条新闻，倒计时，音乐等。 |
+| 公司总部位置 | 德国 |
+| 应用信息页 | [https://showmaster.app](https://showmaster.app) |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
 | 应用使用哪些托管云提供商？ | Azure |
 
@@ -53,20 +53,12 @@ Appraisd ltd. 提供给 Microsoft 的信息：
 
 ### <a name="how-the-app-handles-data"></a>应用如何处理数据
 
-Appraisd ltd. 提供了此信息，了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
+此信息由樱桃软件提供，了解此应用如何收集和存储组织数据，以及组织对应用收集的数据的控制。
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 是 |
-| 应用会处理哪些数据？ | 用户配置文件数据 |
-| 应用是否支持 TLS 1.1 或更高版本？ | 是 |
-| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 是 |
-| 数据库中存储了哪些数据？ | 用户图形 ID、用户原则名称、机器人服务 URL、Teams 用户 ID |
-| 如果基础结构处理或存储 Microsoft 客户数据，则此数据在地理上存储在哪里？ | 大不列颠及北爱尔兰联合王国 ()  |
-| 是否已建立数据出租和处置流程？ | 是 |
-| 帐户终止后数据保留多长时间？ | 小于 60 天 |
-| 是否已建立数据访问管理过程？ | 是 |
-| 是否将客户数据或客户内容传输到第三方或子处理器？ | 否 |
+| 应用或基础结构是否处理与 Microsoft 客户或其设备相关的任何数据？ | 否 |
+| 应用或基础结构是否存储任何 Microsoft 客户数据？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -80,7 +72,7 @@ Appraisd ltd. 提供了此信息，了解此应用如何收集和存储组织数
 |:----------------|:-------------|
 | 是否对应用执行年度渗透测试？ | 是 |
 | 应用是否具有记录的灾难恢复计划，包括备份和还原策略？ | 是 |
-| 环境是否使用传统的反恶意软件保护或应用程序控件？ | ApplicationControls |
+| 环境是否使用传统的反恶意软件保护或应用程序控件？ | TraditionalAntiMalware、ApplicationControls |
 | 你有一个用于缩进和风险排名安全漏洞的既定过程吗？ | 是 |
 | 是否具有管理服务级别协议 (SLA) 的策略来应用修补程序？ | 是 |
 | 是否根据修补策略 SLA 执行修补程序管理活动？ | 是 |
@@ -92,7 +84,7 @@ Appraisd ltd. 提供了此信息，了解此应用如何收集和存储组织数
 | 安全编码做法是否考虑到常见的漏洞类，例如 OWASP 前 10 名？ | 是 |
 | 启用了多重身份验证 (MFA) ： | CodeRepositories、DNSManagement、Credential |
 | 是否已建立预配、修改和删除员工帐户的过程？ | 是 |
-| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 不适用 |
+| 是否已将入侵检测和预防 (IDPS) 软件部署在支持应用的网络边界外围？ | 是 |
 | 是否在支持应用的所有系统组件上设置了事件日志记录？ | 是 |
 | 是否通过人工或自动化工具定期查看所有日志，以检测潜在的安全事件？ | 是 |
 | 检测到安全事件时，系统会自动将警报发送给员工进行会审？ | 是 |
@@ -114,8 +106,8 @@ Appraisd ltd. 提供了此信息，了解此应用如何收集和存储组织数
 | 应用是否符合服务组织控制 (SOC 2) ？ | 否 |
 | 应用是否符合服务组织控制 (SOC 3) ？ | 否 |
 | 是否针对应用及其支持环境执行年度 PCI DSS 评估？ | 不适用 |
-| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 是 |
-| 应用是否符合国际标准化组织 (ISO 27018) ？ | 否 |
+| 应用国际标准化组织 (ISO 27001 是否) 认证？ | 否 |
+| 应用是否符合国际标准化组织 (ISO 27018) ？ | 不适用 |
 | 应用是否符合国际标准化组织 (ISO 27017) ？ | 否 |
 | 应用是否符合国际标准化组织 (ISO 27002) ？ | 否 |
 | 应用联邦风险和授权管理计划 (FedRAMP 是否) 合规？ | 否 |
@@ -133,17 +125,7 @@ Appraisd ltd. 提供了此信息，了解此应用如何收集和存储组织数
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 是 |
-| 应用是否具有面向外部的隐私通知，描述它如何收集、使用、共享和存储客户数据？ | 是 |
-| 隐私策略 URL | https://www.appraisd.com/legal/privacy-policy |
-| 应用是否执行自动决策，包括可能具有法律效果或类似影响的分析？ | 否 |
-| 应用是否针对隐私通知中未描述的辅助用途处理客户数据， (即营销、分析) ？ | 否 |
-| 你是否处理敏感数据的特殊类别 (，即种族或种族来源、政治观点、宗教或哲学信仰、遗传或生物识别数据、健康数据) 或违反通知法的数据类别？ | 否 |
-| 应用是否从未成年人 (（即 16 岁以下的人）收集或处理数据) ？ | 否 |
-| 应用是否具有在请求时删除个人个人数据的功能？ | 是 |
-| 应用是否能够在请求时限制或限制个人个人数据的处理？ | 不适用 |
-| 应用是否使个人能够更正或更新其个人数据？ | 是 |
-| 是否定期执行数据安全和隐私评审 (例如，数据保护影响评估或隐私风险评估) ，以确定与处理应用的个人数据相关的风险？ | 是 |
+| 是否具有 GDPR 或其他隐私或数据保护要求或义务 (，如 CCPA) ？ | 否 |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,21 +135,15 @@ Appraisd ltd. 提供了此信息，了解此应用如何收集和存储组织数
 
 | **Information** | **响应** |
 |:----------------|:-------------|
-| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 是 |
-| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 是 |
-| 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ | 是 |
+| 应用程序是否与 Microsoft Identity Platform (Azure AD) 集成以进行单一登录、API 访问等？ | 否 |
+| 是否已查看并遵守Microsoft 标识平台集成清单中列出的所有适用最佳做法？ | 否 |
+| 应用是否使用最新版本的 MSAL (Microsoft 身份验证库) 或 Microsoft Identity Web 进行身份验证？ |  |
 | 应用是否支持条件访问策略？ | 否 |
 | 应用是否支持持续访问评估 (CAE)  | 否 |
 | 应用是否在代码中存储任何凭据？ | 否 |
 | 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 访问数据
-
->|   **图形权限**  | **权限类型** |          **字距调整**          | **Azure AD 应用 ID** |
->|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| People.Read | 委托 | 需要此权限才能获取用户可以向其发送反馈的团队成员列表。 | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
->| User.Read | 委托 | 需要此权限来标识用户并将其链接到 Appraisd 中的帐户。 | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
->| User.ReadBasic.All | 委托 | 选择反馈时，需要此权限才能获取团队成员姓名。 | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
+>此应用程序不使用 Microsoft Graph。
 
 >此应用程序没有其他 API。
 
