@@ -3,17 +3,17 @@ title: Azure 应用 58cac74c-be05-4edf-b6de-294e856ecd7b 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/19/2022
+ms.date: 07/20/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 58cac74c-be05-4edf-b6de-294e856ecd7b 的所有可用安全性和符合性信息。
-ms.openlocfilehash: c15e88a80ec65e2f2bcff51855edd7cab9b13df3
-ms.sourcegitcommit: c98623463f83636439af4fb49219918e87f2086a
+ms.openlocfilehash: 0329ffedab7a4d1e3a5c054188065e2ca866d9e4
+ms.sourcegitcommit: d8794fef6be4d3a9a42bf2904f29a70de76069fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66872028"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66903962"
 ---
 # <a name="azure-app-id-58cac74c-be05-4edf-b6de-294e856ecd7b"></a>Azure 应用 ID：58cac74c-be05-4edf-b6de-294e856ecd7b
 
