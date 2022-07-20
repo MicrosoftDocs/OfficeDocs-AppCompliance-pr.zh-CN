@@ -3,17 +3,17 @@ title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/18/2022
+ms.date: 07/19/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 3309095b4fb299aca5dc85bfd198eed0b30d22cf
-ms.sourcegitcommit: cb9d047bfc5e5890edd2962db826c77cdee9c0f6
+ms.openlocfilehash: 36f1310237b28b3c2ccedc15212b64e3e298cbdd
+ms.sourcegitcommit: c98623463f83636439af4fb49219918e87f2086a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/19/2022
-ms.locfileid: "66853576"
+ms.locfileid: "66877198"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -71,6 +71,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Beacapp Here](./beacapp-inc-here.md) | Beacapp Inc. | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | 决策点 | **✓** |  |
 | [Bed](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
+| [Beep](./medxnote-beep.md) | Medxnote | **✓** |  |
 | [浆果](./berryworksai-berry.md) | Berryworks.ai | **✓** |  |
 | [Berrycast](./technologies-openmind-inc-les-berrycast.md) | Technologies Openmind Inc, Les | **✓** |  |
 | [BGA Notify](./honeywell-bga-notify.md) | Honeywell | **✓** |  |
@@ -371,6 +372,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [News - Jalios](./jalios-sa-news.md) | Jalios SA | **✓** |  |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | 所有蓝色解决方案 | **✓** |  |
 | [按流式游戏选择名称](./room6-nickname-by-flowrish-games.md) | room6 | **✓** |  |
+| [Now Virtual Agent](./servicenow-now-virtual-agent.md) | ServiceNow | **✓** |  |
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  |
 | [O2S - Office2SharePoint](./iglobe-o2s-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [OfficeAmp](./anaek-inc-officeamp.md) | Anaek Inc | **✓** |  |
@@ -431,6 +433,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [Qooper](./cognata-technologies-llc-qooper.md) | COGNATA TECHNOLOGIES, LLC | **✓** |  |
 | [Quadra Thankz](./quadrasystemsnet-quadra-thankz.md) | Quadrasystems.net | **✓** |  |
 | [Quadra Visitorz](./quadrasystemsnet-quadra-visitorz.md) | Quadrasystems.net | **✓** |  |
+| [QuickMinutes](./quickminutes.md) | QuickMinutes | **✓** |  |
 | [Quire](./potix-corporation-quire.md) | Potix Corporation | **✓** |  |
 | [Quitch](./quitch.md) | Quitch | **✓** |  |
 | [Rafiky](./global-congress-srl-rafiky.md) | GLOBAL CONGRESS SRL | **✓** |  |
