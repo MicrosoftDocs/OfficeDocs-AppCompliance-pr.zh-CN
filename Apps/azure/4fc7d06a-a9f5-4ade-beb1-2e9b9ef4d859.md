@@ -3,17 +3,17 @@ title: Azure 应用 4fc7d06a-a9f5-4ade-beb1-2e9b9ef4d859 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/20/2022
+ms.date: 07/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 4fc7d06a-a9f5-4ade-beb1-2e9b9ef4d859 的所有可用安全性和符合性信息。
-ms.openlocfilehash: 1efe09b2d882eb36170d56cf1587b1078de60b76
-ms.sourcegitcommit: d8794fef6be4d3a9a42bf2904f29a70de76069fc
+ms.openlocfilehash: 09ad11a6c3609ce26ff237310f5bdcad97c0e41e
+ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66896232"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66925627"
 ---
 # <a name="azure-app-id-4fc7d06a-a9f5-4ade-beb1-2e9b9ef4d859"></a>Azure 应用 ID：4fc7d06a-a9f5-4ade-beb1-2e9b9ef4d859
 

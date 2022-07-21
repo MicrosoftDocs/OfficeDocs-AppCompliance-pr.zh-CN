@@ -3,18 +3,18 @@ title: 适用于 AvePoint Inc 的 MyHub for Teams 的应用程序信息。
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/22/2022
+ms.date: 07/20/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: MyHub for Teams 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 539fb0347185133f1d81d169c14922bb44f5aea3
-ms.sourcegitcommit: 8f06a03c298fca9d066cc977fcbd2717c310caa4
+ms.openlocfilehash: 2612c1f6580365e9a00e333843c5058d7bb00c01
+ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/21/2022
-ms.locfileid: "66916784"
+ms.locfileid: "66923467"
 ---
 # <a name="myhub-for-teams"></a>MyHub for Teams
 
