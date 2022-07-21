@@ -3,17 +3,17 @@ title: cbc1f86a-32a7-4efb-8c6c-cde1964aa9a2 的Azure 应用 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/20/2022
+ms.date: 07/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: cbc1f86a-32a7-4efb-8c6c-cde1964aa9a2 的所有可用安全性和符合性信息。
-ms.openlocfilehash: 59930af652a1f963f3288b1489f8b16adf28c199
-ms.sourcegitcommit: d8794fef6be4d3a9a42bf2904f29a70de76069fc
+ms.openlocfilehash: 0266bba849f715b8b9444c2aebcf5cba3439660c
+ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66900712"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66929037"
 ---
 # <a name="azure-app-id-cbc1f86a-32a7-4efb-8c6c-cde1964aa9a2"></a>Azure 应用 ID：cbc1f86a-32a7-4efb-8c6c-cde1964aa9a2
 

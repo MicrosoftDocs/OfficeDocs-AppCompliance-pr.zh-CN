@@ -3,26 +3,26 @@ title: Confluence Cloud by Atlassian 的应用程序信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/13/2022
+ms.date: 07/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Confluence Cloud 的所有可用安全性和符合性信息、其数据处理策略、其Microsoft Cloud App Security应用目录信息以及 CSA STAR 注册表中的安全/合规性信息。
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2b1fce0ac0210113dc5dee3ca08b5e52636ea1c3
-ms.sourcegitcommit: b6dd040770330d4499a0e19998f909be31b67c34
+ms.openlocfilehash: 9571b81a027e7b10f1b7621f4f5623720101460e
+ms.sourcegitcommit: d35f3194155f00ecca787b2bc9bea5c69a534b0a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66076223"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66949565"
 ---
 # <a name="confluence-cloud"></a>Confluence Cloud
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>开发人员上次更新时间：2022 年 6 月 13 日</p>
+<p>开发人员上次更新时间：2022 年 7 月 21 日</p>
 
-* <a href="https://teams.microsoft.com/l/app/30bb610c-6321-40fe-a047-056e7d0dac96" target="_blank">Teams存储区中的视图</a>
+* <a href="https://teams.microsoft.com/l/app/30bb610c-6321-40fe-a047-056e7d0dac96" target="_blank">在 Teams 应用商店中查看</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003113" target="_blank">在 AppSource 中查看</a>
 
 ::: zone pivot="general"
@@ -39,7 +39,7 @@ Atlassian 提供给 Microsoft 的信息：
 | 合作伙伴公司名称 | Atlassian |
 | 公司的网站 | [https://www.atlassian.com](https://www.atlassian.com) |
 | 应用的使用条款 | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
-| 应用的核心功能 | 轻松记下会议笔记、共享页面，并与 Confluence Cloud 保持最新Teams。  |
+| 应用的核心功能 | 轻松记下会议笔记、共享页面，并与 Confluence Cloud for Teams 保持最新状态。  |
 | 公司总部位置 | 澳大利亚 |
 | 应用信息页 | |
 | 用于运行应用的托管环境或服务模型是什么？ | Paas |
@@ -152,11 +152,11 @@ Atlassian 提供了此信息，了解此应用如何收集和存储组织数据�
 | 应用是否支持条件访问策略？ | 否 |
 | 应用是否支持持续访问评估 (CAE)  | 否 |
 | 应用是否在代码中存储任何凭据？ | 否 |
-| Microsoft 365的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
+| 适用于 Microsoft 365 的应用和加载项可能会在 Microsoft Graph 之外使用其他 Microsoft API。 你的应用或外接程序是否使用其他 Microsoft API？ | 否 |
 
-#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph进行数据访问
+#### <a name="data-access-using-microsoft-graph"></a>使用 Microsoft Graph 访问数据
 
->|   **Graph权限**  | **权限类型** |          **字距调整**          | **Azure AD 应用 ID** |
+>|   **图形权限**  | **权限类型** |          **字距调整**          | **Azure AD 应用 ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Calendars.Read | 委托 | - 我们阅读了会议中聊天成员的列表，因此我们知道会议的受邀者列表。 - 我们读取了用户&#8217;姓名和电子邮件地址，这些姓名和电子邮件地址在会议应用中有条件地显示。 例如，显示正在做会议笔记的当前用户的名称。 - 我们的应用读取用户&#8217;的日历事件，其中我们的应用已添加到会议中，因此我们有有关会议的基本信息，例如会议标题。     | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
 >| Chat.ReadBasic | 委托 | - 我们阅读了会议中聊天成员的列表，因此我们知道会议的受邀者列表。 - 我们读取了用户&#8217;姓名和电子邮件地址，这些姓名和电子邮件地址在会议应用中有条件地显示。 例如，显示正在做会议笔记的当前用户的名称。 - 我们的应用读取用户&#8217;的日历事件，其中我们的应用已添加到会议中，因此我们有有关会议的基本信息，例如会议标题。 | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
