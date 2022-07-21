@@ -3,17 +3,17 @@ title: Microsoft Teams 应用安全性和合规性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/19/2022
+ms.date: 07/20/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 Microsoft Teams 应用的各种可用的安全性和合规性信息。
 localization_priority: Priority
-ms.openlocfilehash: 93e9e1408284d1e08538044e89a890643064848b
-ms.sourcegitcommit: f020743c27bd5ba69e4f74e8fff3f82b2571c408
+ms.openlocfilehash: f86b5b37fd1c146c7517c7a4861f474a5093df1d
+ms.sourcegitcommit: b072ed662849382b6df1bebf43454e12e5ed544d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/20/2022
-ms.locfileid: "66890265"
+ms.locfileid: "66912864"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Microsoft Teams 应用安全性和合规性
 
@@ -27,6 +27,7 @@ Microsoft 与 Microsoft 365 开发合作伙伴合作，提供组织就其使用�
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  |
 | [Abi](./beroe-abi.md) | Beroe | **✓** |  |
 | [absentify](./braincore-solutions-absentify.md) | BrainCore Solutions | **✓** |  |
+| [Achievers](./achievers.md) | Achievers | **✓** |  |
 | [ACV](./tangible-it-mexico-acv.md) | Tangible IT Mexico | **✓** |  |
 | [Adobe Acrobat](./adobe-acrobat.md) | Adobe | **✓** |  |
 | [Adobe Acrobat Sign](./adobe-acrobat-sign.md) | Adobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
