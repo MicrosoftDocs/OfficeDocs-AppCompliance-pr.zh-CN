@@ -3,17 +3,17 @@ title: SaaS 应用安全性和符合性 - 所有应用
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/14/2022
+ms.date: 07/20/2022
 ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: f47232a73d8e5a33c11daad3abc3084edfb8320a
-ms.sourcegitcommit: ac75dd8bb815bc9e8b1d5b39a2d2dbe46e65f680
+ms.openlocfilehash: 6251c7747300ce7e8e852e5ef1413aa81e4a6ffa
+ms.sourcegitcommit: 8f06a03c298fca9d066cc977fcbd2717c310caa4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66804243"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66916795"
 ---
 # <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和符合性
 
@@ -51,7 +51,7 @@ Microsoft 与我们的 Microsoft 365 开发人员合作伙伴合作，提供组�
 | [MIPA - 我的智能个人助理](./iglobe-mipa-my-intelligent-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ModuleQ](./moduleq.md) | ModuleQ | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [MURAL](./mural.md) | MURAL | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [MyHub for Teams](./avepoint-inc-myhub-for-teams.md) | AvePoint Inc. | **✓** |  |
+| [MyHub for Teams](./avepoint-inc-myhub-for-teams.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [适用于 Microsoft Teams 的 Netskope](./netskope-for-microsoft-teams.md) | Netskope | **✓** |  |
 | [Office2SharePoint](./iglobe-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Office2SharePoint for Teams](./iglobe-office2sharepoint-for-teams.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
