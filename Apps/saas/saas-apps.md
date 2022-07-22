@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: 所有 SaaS 应用的所有可用安全性和符合性信息。
 localization_priority: Normal
-ms.openlocfilehash: 4068da99fbf2a389479345f645ba4e2cfbc680b1
-ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
+ms.openlocfilehash: 32374a0e7ed126ca77614aaf55b7614034db8703
+ms.sourcegitcommit: ce10fa06370903c7c2ee18b55b219dc735ac6b58
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66929467"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66960877"
 ---
 # <a name="saas-apps-security-and-compliance"></a>SaaS 应用安全性和符合性
 
@@ -46,7 +46,7 @@ Microsoft 与我们的 Microsoft 365 开发人员合作伙伴合作，提供组�
 | [IXCloud - Teams 合规性记录 &amp; 智能](./numonix-llc-ixcloud-teams-compliance-recordingintelligence.md) | Numonix LLC | **✓** |  |
 | [LMS365](./elearningforce-international-aps-lms365.md) | ELEARNINGFORCE 国际 Aps | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Microsoft Teams 的 Luware 符合性记录](./luware-ag-compliance-recording-for-microsoft-teams.md) | Luware AG | **✓** |  |
-| [适用于 Microsoft Teams 的 Luware Nimbus](./luware-ag-nimbus-for-microsoft-teams.md) | Luware AG | **✓** |  |
+| [适用于 Microsoft Teams 的 Luware Nimbus](./luware-ag-nimbus-for-microsoft-teams.md) | Luware AG | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [邮件签名](./officeatwork-mail-signature.md) | officeatwork | **✓** |  |
 | [MIPA - 我的智能个人助理](./iglobe-mipa-my-intelligent-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ModuleQ](./moduleq.md) | ModuleQ | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
