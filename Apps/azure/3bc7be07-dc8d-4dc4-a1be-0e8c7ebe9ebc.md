@@ -3,17 +3,17 @@ title: Azure 应用 3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc 的 ID 信息
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/21/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc 的所有可用安全性和符合性信息。
-ms.openlocfilehash: 91ff16eb35ad08c057ba5fd86e65abf06e80648e
-ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
+ms.openlocfilehash: c4d32a91273a567f21ed1defd8b4ede2a3dc8258
+ms.sourcegitcommit: 9c114837630164e4c4965abc220743e2b08a1df5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66926417"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66974656"
 ---
 # <a name="azure-app-id-3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc"></a>Azure 应用 ID：3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc
 
